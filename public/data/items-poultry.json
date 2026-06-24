@@ -3,18 +3,15 @@
     "id": "cmqrsbigm0001iiyf7r8ctq46",
     "titleEn": "Niqo Robotics Takes India-Built Physical AI Farming Platform to Europe at Bharat Innovates 2026",
     "titleZh": "Niqo Robotics携印度造实体AI农业平台亮相Bharat Innovates 2026，进军欧洲市场",
-    "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/niqo-robotics-takes-india-built-physical-ai-farming-platform-to-europe-at-bharat-innovates-2026/",
     "summaryZh": "Niqo Robotics从印度政府旗舰深科技大会的120家创新企业中脱颖而出，标志着印度制造的农业机器人正从本土农田走向全球市场。该文最初发表于全球农业科技倡议。",
-    "publishedAt": "2026-06-19T17:33:10.000Z",
-    "source": {
-      "name": "PrecisionAg",
-      "nameZh": "精准农业",
-      "tier": "T1.5"
-    },
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/niqo-robotics-takes-india-built-physical-ai-farming-platform-to-europe-at-bharat-innovates-2026/",
+    "source": "精准农业",
+    "sourceId": "precisionag",
     "species": "pig,poultry,cattle,sheep",
     "techTags": "",
     "qualityScore": 48.3,
+    "isFeatured": false,
     "isHot": false,
-    "multiSourceCount": 1
+    "publishedAt": "2026-06-19T17:33:10.000Z"
   }
 ]
