@@ -1,0 +1,70 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// 信源
+model Source {
+  id          String   @id @default(cuid())
+  name        String   // "The Pig Site"
+  nameZh      String   // "猪业网"
+  url         String   // "https://www.thepigsite.com"
+  rssUrl      String?  // RSS地址
+  tier        String   // T1 | T1.5 | T2
+  species     String   // "pig,poultry" 逗号分隔
+  category    String   // "vertical_media" | "academic" | "gov" | "agg_tech"
+  isActive    Boolean  @default(true)
+  lastFetched DateTime?
+  createdAt   DateTime @default(now())
+  items       Item[]
+}
+
+// 新闻条目
+model Item {
+  id               String   @id @default(cuid())
+  sourceId         String
+  source           Source   @relation(fields: [sourceId], references: [id])
+
+  // 原文
+  titleEn          String   // 英文原标题
+  url              String   // 原文链接（唯一）
+  publishedAt      DateTime // 原文发布时间
+  contentHtml      String?  // 原文HTML（备用）
+
+  // AI处理后
+  titleZh          String?  // 中文翻译标题
+  summaryZh        String?  // 中文摘要（150字）
+  species          String   // "pig" 自动标注
+  techTags         String   // "iot,ai,automation" 逗号分隔
+  isRelevant       Boolean  @default(true) // AI判断是否与智慧畜牧相关
+
+  // 元数据
+  isHot            Boolean  @default(false) // 是否入选今日热点
+  qualityScore     Float    @default(0)    // 最终质量分（代码计算）
+  aiScores         String?  // AI五维分数JSON
+  multiSourceCount Int      @default(1)    // 同一事件被几个信源报道
+
+  createdAt        DateTime @default(now())
+  feedbacks        Feedback[]
+
+  @@unique([url]) // URL去重
+  @@index([publishedAt(sort: Desc)])
+  @@index([species])
+  @@index([isHot])
+  @@index([qualityScore(sort: Desc)])
+}
+
+// 用户反馈
+model Feedback {
+  id        String   @id @default(cuid())
+  itemId    String
+  item      Item     @relation(fields: [itemId], references: [id])
+  rating    String   // "up" | "down"
+  createdAt DateTime @default(now())
+
+  @@index([itemId])
+}
