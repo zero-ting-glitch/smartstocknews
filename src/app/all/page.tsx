@@ -20,12 +20,11 @@ export default function AllPage() {
     <>
       <Sidebar />
       <main className="flex-1 min-h-screen" style={{ background: 'var(--bg-main)' }}>
-        <div className="p-4 border-b" style={{ borderColor: 'var(--border-default)' }}>
-          <h1 className="text-xl font-bold" style={{ color: 'var(--text-primary)' }}>
-            全部动态
-          </h1>
+        <div className="page-header">
+          <h1 className="page-title">全部动态</h1>
+          <p className="page-subtitle">智慧畜牧相关资讯全量信息流</p>
         </div>
-        <Timeline items={items} />
+        <Timeline items={items} showFilters />
       </main>
       <RightPanel hotItems={hotItems} stats={stats} />
     </>

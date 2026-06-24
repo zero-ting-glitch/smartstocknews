@@ -20,9 +20,10 @@ export function HotCard({ items = [] }: HotCardProps) {
   return (
     <div className="m-hotcard">
       <div className="m-hotcard-head">
-        <span className="m-hotcard-title">今日热点</span>
+        <span className="m-hotcard-title">🔥 当前热点</span>
         <span className="m-hotcard-top5">TOP 5</span>
       </div>
+      <div className="m-hotcard-subtitle">多信源热度·随时间消退</div>
 
       {items.length === 0 ? (
         <div className="py-4 text-center text-sm" style={{ color: 'var(--text-muted)' }}>

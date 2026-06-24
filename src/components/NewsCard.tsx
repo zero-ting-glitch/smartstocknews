@@ -1,6 +1,6 @@
 'use client';
 
-import { timeAgo, speciesNames, speciesColors, tierColors } from '@/lib/utils';
+import { formatTime, speciesNames, speciesColors } from '@/lib/utils';
 import { NewsItem } from './Timeline';
 
 interface NewsCardProps {
@@ -8,9 +8,9 @@ interface NewsCardProps {
 }
 
 export function NewsCard({ item }: NewsCardProps) {
-  const publishDate = new Date(item.publishedAt);
   const species = item.species.split(',').filter(Boolean);
   const techTags = item.techTags.split(',').filter(Boolean);
+  const isFeatured = item.qualityScore >= 60;
 
   return (
     <a
@@ -19,9 +19,10 @@ export function NewsCard({ item }: NewsCardProps) {
       rel="noopener noreferrer"
       className="m-row"
     >
-      <span className="m-row-time">{timeAgo(publishDate)}</span>
+      <span className="m-row-time">{formatTime(item.publishedAt)}</span>
+      <span className="m-row-dot" />
       <span className="m-row-body">
-        <span className="m-row-meta">
+        <div className="m-row-meta">
           <span className="m-row-src">
             {item.source.nameZh} ({item.source.tier})
           </span>
@@ -29,26 +30,29 @@ export function NewsCard({ item }: NewsCardProps) {
             <span
               key={s}
               className={`tag tag-${s}`}
-              style={{ color: speciesColors[s] }}
             >
               {speciesNames[s] || s}
             </span>
           ))}
+          {isFeatured && <span className="m-featured-badge">精选</span>}
           <span className="m-score">{Math.round(item.qualityScore)}</span>
-        </span>
+        </div>
 
-        <div className="m-row-title-en">{item.titleEn}</div>
         {item.titleZh && <div className="m-row-title-zh">{item.titleZh}</div>}
-
-        {item.summaryZh && (
-          <div className="m-row-reason">{item.summaryZh}</div>
-        )}
+        <div className="m-row-title-en">{item.titleEn}</div>
 
         {techTags.length > 0 && (
           <div className="m-row-tags">
             {techTags.map(tag => (
               <span key={tag} className="tag">{tag}</span>
             ))}
+          </div>
+        )}
+
+        {item.summaryZh && (
+          <div className="m-recommend-box">
+            <span className="m-recommend-label">推荐理由：</span>
+            {item.summaryZh}
           </div>
         )}
       </span>

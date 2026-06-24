@@ -4,22 +4,21 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 const navItems = [
-  { href: '/', label: '精选', group: '内容' },
-  { href: '/all', label: '全部', group: '内容' },
-  { href: '/pig', label: '猪', group: '物种' },
-  { href: '/poultry', label: '禽', group: '物种' },
-  { href: '/cattle', label: '牛', group: '物种' },
-  { href: '/sheep', label: '羊', group: '物种' },
+  { href: '/', label: '精选', icon: '⚡', group: '内容' },
+  { href: '/all', label: '全部动态', icon: '📋', group: '内容' },
+  { href: '/pig', label: '猪', icon: '🐷', group: '物种' },
+  { href: '/poultry', label: '禽', icon: '🐔', group: '物种' },
+  { href: '/cattle', label: '牛', icon: '🐄', group: '物种' },
+  { href: '/sheep', label: '羊', icon: '🐑', group: '物种' },
 ];
 
 const bottomItems = [
-  { href: '/about', label: '关于', group: '更多' },
+  { href: '/about', label: '关于', icon: 'ℹ️' },
 ];
 
 export function Sidebar() {
   const pathname = usePathname();
 
-  // 按 group 分组
   const groups = navItems.reduce((acc, item) => {
     if (!acc[item.group]) acc[item.group] = [];
     acc[item.group].push(item);
@@ -39,7 +38,7 @@ export function Sidebar() {
 
       <nav className="flex-1">
         {Object.entries(groups).map(([group, items]) => (
-          <div key={group} className="mb-4">
+          <div key={group} className="mb-2">
             <div className="side-group">{group}</div>
             {items.map(item => (
               <Link
@@ -47,21 +46,23 @@ export function Sidebar() {
                 href={item.href}
                 className={`side-link ${pathname === item.href ? 'side-link-active' : ''}`}
               >
-                {item.label}
+                <span>{item.icon}</span>
+                <span>{item.label}</span>
               </Link>
             ))}
           </div>
         ))}
       </nav>
 
-      <div className="mt-auto pt-4 border-t" style={{ borderColor: 'var(--border-subtle)' }}>
+      <div className="mt-auto pt-4" style={{ borderTop: '1px solid var(--border)' }}>
         {bottomItems.map(item => (
           <Link
             key={item.href}
             href={item.href}
             className={`side-link ${pathname === item.href ? 'side-link-active' : ''}`}
           >
-            {item.label}
+            <span>{item.icon}</span>
+            <span>{item.label}</span>
           </Link>
         ))}
       </div>

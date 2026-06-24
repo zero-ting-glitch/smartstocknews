@@ -14,6 +14,26 @@ export function timeAgo(date: Date | string): string {
 }
 
 /**
+ * 时间格式化 HH:MM
+ */
+export function formatTime(date: Date | string): string {
+  const d = typeof date === 'string' ? new Date(date) : date;
+  return d.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit', hour12: false });
+}
+
+/**
+ * 短日期格式化
+ */
+export function formatDateShort(date: Date | string): string {
+  const d = typeof date === 'string' ? new Date(date) : date;
+  const month = d.getMonth() + 1;
+  const day = d.getDate();
+  const weekdays = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
+  const weekday = weekdays[d.getDay()];
+  return `${month}月${day}日 ${weekday}`;
+}
+
+/**
  * 日期格式化（中文）
  */
 export function formatDate(date: Date): string {

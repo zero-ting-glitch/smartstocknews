@@ -20,7 +20,11 @@ export default function Home() {
     <>
       <Sidebar />
       <main className="flex-1 min-h-screen" style={{ background: 'var(--bg-main)' }}>
-        <Timeline items={items} />
+        <div className="page-header">
+          <h1 className="page-title">精选</h1>
+          <p className="page-subtitle">智慧畜牧的高价值内容</p>
+        </div>
+        <Timeline items={items} showFilters />
       </main>
       <RightPanel hotItems={hotItems} stats={stats} />
     </>

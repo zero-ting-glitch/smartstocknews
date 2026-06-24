@@ -29,8 +29,8 @@ smartstock/
 
 ## 技术栈
 
-- Next.js 14 (App Router) + TypeScript
-- Tailwind CSS + 自定义暗色主题（精确复刻 AIHOT 配色）
+- Next.js 16 (App Router) + TypeScript
+- Tailwind CSS v4 + 亮色主题（基于 AIHOT CSS 变量体系）
 - Prisma + SQLite
 - DeepSeek API（openai SDK + 自定义 baseURL）
 - rss-parser（RSS 采集）
@@ -49,11 +49,11 @@ smartstock/
 DEEPSEEK_API_KEY=sk-xxx
 DEEPSEEK_BASE_URL=https://api.deepseek.com
 DATABASE_URL=file:./dev.db
-ADMIN_TOKEN=xxx
 ```
 
 ## 验证方式
 
 - `npm run dev` 启动开发服务器
+- `npm run build` 静态导出（输出到 `out/` 目录）
 - `npx prisma studio` 查看数据库
-- `curl -X POST http://localhost:3000/api/collect` 手动触发采集
+- `npx tsx scripts/export-static.ts` 导出静态 JSON 数据

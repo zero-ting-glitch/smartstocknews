@@ -1,5 +1,6 @@
 'use client';
 
+import { useState, useMemo } from 'react';
 import { NewsCard } from './NewsCard';
 import { getDateLabel } from '@/lib/utils';
 
@@ -22,11 +23,56 @@ export interface NewsItem {
 
 interface TimelineProps {
   items: NewsItem[];
+  showFilters?: boolean;
 }
 
-export function Timeline({ items = [] }: TimelineProps) {
+const SPECIES_FILTERS = [
+  { key: 'all', label: '全部' },
+  { key: 'pig', label: '猪' },
+  { key: 'poultry', label: '禽' },
+  { key: 'cattle', label: '牛' },
+  { key: 'sheep', label: '羊' },
+];
+
+const TECH_FILTERS = [
+  { key: 'all', label: '全部' },
+  { key: 'iot', label: 'IoT' },
+  { key: 'ai', label: 'AI' },
+  { key: 'automation', label: '自动化' },
+  { key: 'robot', label: '机器人' },
+  { key: 'sensor', label: '传感器' },
+];
+
+export function Timeline({ items = [], showFilters = false }: TimelineProps) {
+  const [speciesFilter, setSpeciesFilter] = useState('all');
+  const [techFilter, setTechFilter] = useState('all');
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const filteredItems = useMemo(() => {
+    return items.filter(item => {
+      // 物种筛选
+      if (speciesFilter !== 'all') {
+        if (!item.species.split(',').includes(speciesFilter)) return false;
+      }
+      // 技术筛选
+      if (techFilter !== 'all') {
+        const tags = item.techTags.split(',').map(t => t.toLowerCase());
+        if (!tags.includes(techFilter)) return false;
+      }
+      // 搜索
+      if (searchQuery) {
+        const q = searchQuery.toLowerCase();
+        const matchTitle = item.titleEn.toLowerCase().includes(q);
+        const matchTitleZh = item.titleZh?.toLowerCase().includes(q);
+        const matchSummary = item.summaryZh?.toLowerCase().includes(q);
+        if (!matchTitle && !matchTitleZh && !matchSummary) return false;
+      }
+      return true;
+    });
+  }, [items, speciesFilter, techFilter, searchQuery]);
+
   // 按日期分组
-  const grouped = items.reduce((acc, item) => {
+  const grouped = filteredItems.reduce((acc, item) => {
     const date = new Date(item.publishedAt);
     const key = date.toDateString();
     if (!acc[key]) acc[key] = { date, items: [] };
@@ -39,20 +85,48 @@ export function Timeline({ items = [] }: TimelineProps) {
   );
 
   return (
-    <div className="max-w-3xl mx-auto">
-      {/* 筛选 chips */}
-      <div className="m-chips">
-        <button className="m-chip is-active">全部</button>
-        <button className="m-chip">猪</button>
-        <button className="m-chip">禽</button>
-        <button className="m-chip">牛</button>
-        <button className="m-chip">羊</button>
-      </div>
+    <div>
+      {/* 筛选区 */}
+      {showFilters && (
+        <>
+          <div className="m-chips">
+            {SPECIES_FILTERS.map(f => (
+              <button
+                key={f.key}
+                className={`m-chip ${speciesFilter === f.key ? 'is-active' : ''}`}
+                onClick={() => setSpeciesFilter(f.key)}
+              >
+                {f.label}
+              </button>
+            ))}
+            <div className="m-search">
+              <input
+                type="text"
+                className="m-search-input"
+                placeholder="搜索标题/摘要..."
+                value={searchQuery}
+                onChange={e => setSearchQuery(e.target.value)}
+              />
+            </div>
+          </div>
+          <div className="m-chips" style={{ paddingTop: 0 }}>
+            {TECH_FILTERS.map(f => (
+              <button
+                key={f.key}
+                className={`m-chip ${techFilter === f.key ? 'is-active' : ''}`}
+                onClick={() => setTechFilter(f.key)}
+              >
+                {f.label}
+              </button>
+            ))}
+          </div>
+        </>
+      )}
 
       {/* 时间线 */}
       {groups.length === 0 ? (
         <div className="p-8 text-center" style={{ color: 'var(--text-muted)' }}>
-          暂无新闻，点击右上角触发采集
+          暂无新闻
         </div>
       ) : (
         groups.map(group => {
