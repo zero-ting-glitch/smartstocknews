@@ -1,45 +1,26 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import { Sidebar } from './Sidebar';
-import { Timeline } from './Timeline';
+import { Timeline, NewsItem } from './Timeline';
 import { RightPanel } from './RightPanel';
 
 interface SpeciesPageProps {
   species: string;
   speciesName: string;
-  items?: Array<{
-    id: string;
-    titleEn: string;
-    titleZh: string | null;
-    url: string;
-    summaryZh: string | null;
-    publishedAt: Date;
-    source: {
-      name: string;
-      nameZh: string;
-      tier: string;
-    };
-    species: string;
-    techTags: string;
-    qualityScore: number;
-  }>;
-  hotItems?: Array<{
-    id: string;
-    titleEn: string;
-    titleZh: string | null;
-    url: string;
-    multiSourceCount: number;
-    publishedAt: Date;
-    qualityScore: number;
-  }>;
-  stats?: {
-    sources: number;
-    items: number;
-    featured: number;
-  };
 }
 
-export function SpeciesPage({ species, speciesName, items = [], hotItems = [], stats }: SpeciesPageProps) {
+export function SpeciesPage({ species, speciesName }: SpeciesPageProps) {
+  const [items, setItems] = useState<NewsItem[]>([]);
+  const [hotItems, setHotItems] = useState<any[]>([]);
+  const [stats, setStats] = useState<any>(undefined);
+
+  useEffect(() => {
+    fetch(`/data/items-${species}.json`).then(r => r.json()).then(setItems);
+    fetch(`/data/hot-items-${species}.json`).then(r => r.json()).then(setHotItems);
+    fetch('/data/stats.json').then(r => r.json()).then(setStats);
+  }, [species]);
+
   return (
     <>
       <Sidebar />

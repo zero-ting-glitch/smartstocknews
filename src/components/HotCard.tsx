@@ -8,7 +8,7 @@ interface HotItem {
   titleZh: string | null;
   url: string;
   multiSourceCount: number;
-  publishedAt: Date;
+  publishedAt: string;
   qualityScore: number;
 }
 

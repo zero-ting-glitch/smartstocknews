@@ -1,9 +1,10 @@
 /**
  * 相对时间格式化
  */
-export function timeAgo(date: Date): string {
+export function timeAgo(date: Date | string): string {
+  const d = typeof date === 'string' ? new Date(date) : date;
   const now = new Date();
-  const seconds = Math.floor((now.getTime() - date.getTime()) / 1000);
+  const seconds = Math.floor((now.getTime() - d.getTime()) / 1000);
 
   if (seconds < 60) return '刚刚';
   if (seconds < 3600) return `${Math.floor(seconds / 60)}分钟前`;

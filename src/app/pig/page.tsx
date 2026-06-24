@@ -1,41 +1,5 @@
 import { SpeciesPage } from '@/components/SpeciesPage';
-import { db } from '@/lib/db';
 
-async function getItems() {
-  const items = await db.item.findMany({
-    where: { isRelevant: true, species: 'pig' },
-    include: { source: true },
-    orderBy: { publishedAt: 'desc' },
-    take: 100,
-  });
-  return items;
-}
-
-async function getHotItems() {
-  const items = await db.item.findMany({
-    where: { isHot: true, isRelevant: true, species: 'pig' },
-    include: { source: true },
-    orderBy: { qualityScore: 'desc' },
-    take: 5,
-  });
-  return items;
-}
-
-async function getStats() {
-  const [sourceCount, itemCount, featuredCount] = await Promise.all([
-    db.source.count({ where: { isActive: true, species: { contains: 'pig' } } }),
-    db.item.count({ where: { isRelevant: true, species: 'pig' } }),
-    db.item.count({ where: { isRelevant: true, species: 'pig', qualityScore: { gte: 60 } } }),
-  ]);
-  return { sources: sourceCount, items: itemCount, featured: featuredCount };
-}
-
-export default async function PigPage() {
-  const [items, hotItems, stats] = await Promise.all([
-    getItems(),
-    getHotItems(),
-    getStats(),
-  ]);
-
-  return <SpeciesPage species="pig" speciesName="猪" items={items} hotItems={hotItems} stats={stats} />;
+export default function PigPage() {
+  return <SpeciesPage species="pig" speciesName="猪" />;
 }

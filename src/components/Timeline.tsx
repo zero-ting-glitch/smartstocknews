@@ -9,7 +9,7 @@ export interface NewsItem {
   titleZh: string | null;
   url: string;
   summaryZh: string | null;
-  publishedAt: Date;
+  publishedAt: string;
   source: {
     name: string;
     nameZh: string;

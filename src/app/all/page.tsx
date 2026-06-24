@@ -1,43 +1,20 @@
+'use client';
+
+import { useState, useEffect } from 'react';
 import { Sidebar } from '@/components/Sidebar';
-import { Timeline } from '@/components/Timeline';
+import { Timeline, NewsItem } from '@/components/Timeline';
 import { RightPanel } from '@/components/RightPanel';
-import { db } from '@/lib/db';
 
-async function getItems() {
-  const items = await db.item.findMany({
-    where: { isRelevant: true },
-    include: { source: true },
-    orderBy: { publishedAt: 'desc' },
-    take: 200,
-  });
-  return items;
-}
+export default function AllPage() {
+  const [items, setItems] = useState<NewsItem[]>([]);
+  const [hotItems, setHotItems] = useState<any[]>([]);
+  const [stats, setStats] = useState<any>(undefined);
 
-async function getHotItems() {
-  const items = await db.item.findMany({
-    where: { isHot: true, isRelevant: true },
-    include: { source: true },
-    orderBy: { qualityScore: 'desc' },
-    take: 5,
-  });
-  return items;
-}
-
-async function getStats() {
-  const [sourceCount, itemCount, featuredCount] = await Promise.all([
-    db.source.count({ where: { isActive: true } }),
-    db.item.count({ where: { isRelevant: true } }),
-    db.item.count({ where: { isRelevant: true, qualityScore: { gte: 60 } } }),
-  ]);
-  return { sources: sourceCount, items: itemCount, featured: featuredCount };
-}
-
-export default async function AllPage() {
-  const [items, hotItems, stats] = await Promise.all([
-    getItems(),
-    getHotItems(),
-    getStats(),
-  ]);
+  useEffect(() => {
+    fetch('/data/items.json').then(r => r.json()).then(setItems);
+    fetch('/data/hot-items.json').then(r => r.json()).then(setHotItems);
+    fetch('/data/stats.json').then(r => r.json()).then(setStats);
+  }, []);
 
   return (
     <>
