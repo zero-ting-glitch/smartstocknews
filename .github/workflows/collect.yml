@@ -35,6 +35,8 @@ jobs:
 
       - name: Commit and push changes
         timeout-minutes: 3
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -43,5 +45,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "auto: 更新数据 $(date -u '+%Y-%m-%d %H:%M UTC')"
-            git push
+            git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
+            git push origin HEAD:master
           fi
