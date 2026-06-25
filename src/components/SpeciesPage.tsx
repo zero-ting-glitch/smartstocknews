@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { Sidebar } from './Sidebar';
 import { Timeline, NewsItem } from './Timeline';
 import { RightPanel } from './RightPanel';
+import { BASE_PATH } from '@/lib/config';
 
 interface SpeciesPageProps {
   species: string;
@@ -16,9 +17,9 @@ export function SpeciesPage({ species, speciesName }: SpeciesPageProps) {
   const [stats, setStats] = useState<any>(undefined);
 
   useEffect(() => {
-    fetch(`/data/items-${species}.json`).then(r => r.json()).then(setItems);
-    fetch(`/data/hot-items-${species}.json`).then(r => r.json()).then(setHotItems);
-    fetch('/data/stats.json').then(r => r.json()).then(setStats);
+    fetch(`${BASE_PATH}/data/items-${species}.json`).then(r => r.json()).then(setItems);
+    fetch(`${BASE_PATH}/data/hot-items-${species}.json`).then(r => r.json()).then(setHotItems);
+    fetch(`${BASE_PATH}/data/stats.json`).then(r => r.json()).then(setStats);
   }, [species]);
 
   return (
