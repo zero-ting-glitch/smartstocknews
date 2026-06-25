@@ -56,4 +56,12 @@ DATABASE_URL=file:./dev.db
 - `npm run dev` 启动开发服务器
 - `npm run build` 静态导出（输出到 `out/` 目录）
 - `npx prisma studio` 查看数据库
-- `npx tsx scripts/export-static.ts` 导出静态 JSON 数据
+- `npx tsx scripts/run-pipeline.ts` 一键采集+AI处理+导出
+
+## 部署
+
+- **线上地址**：https://zero-ting-glitch.github.io/smartstocknews/
+- **GitHub 仓库**：https://github.com/zero-ting-glitch/smartstocknews
+- **自动采集**：GitHub Actions 每 6 小时运行（采集+AI翻译评分+导出JSON）
+- **自动部署**：push to master 触发 GitHub Pages 重新构建
+- **Secret 名称**：`CFG_01`（DeepSeek API Key）
