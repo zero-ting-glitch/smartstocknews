@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'export',
-  // 静态导出时不生成 404 页面（Cloudflare Pages 有自己的 404）
+  basePath: '/smartstocknews',
   images: {
     unoptimized: true,
   },
