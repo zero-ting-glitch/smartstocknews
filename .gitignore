@@ -37,9 +37,10 @@ yarn-error.log*
 # vercel
 .vercel
 
-# database (不忽略 dev.db，GitHub Actions 需要它来去重)
-# prisma/dev.db
-# prisma/dev.db-journal
+# database
+dev.db
+prisma/dev.db
+prisma/dev.db-journal
 
 # typescript
 *.tsbuildinfo
