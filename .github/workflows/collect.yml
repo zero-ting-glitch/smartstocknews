@@ -34,9 +34,14 @@ jobs:
         run: npx tsx scripts/run-pipeline.ts
 
       - name: Commit and push changes
+        timeout-minutes: 3
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add public/data/ prisma/dev.db
-          git diff --cached --quiet || git commit -m "auto: 更新数据 $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "auto: 更新数据 $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

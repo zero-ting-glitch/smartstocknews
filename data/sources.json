@@ -1,92 +1,37 @@
 {
   "sources": [
     {
-      "id": "agfunder",
-      "name": "AgFunder News",
-      "nameZh": "农业投资新闻网",
-      "url": "https://news.agfunder.com",
-      "rssUrl": "https://news.agfunder.com/feed",
-      "tier": "T1.5",
-      "species": "pig,poultry,cattle,sheep",
-      "category": "agg_tech",
-      "relevanceFilter": "precision livestock farming|IoT|AI|automation|sensor|robot|smart farm"
-    },
-    {
-      "id": "pigsite",
-      "name": "The Pig Site",
-      "nameZh": "猪业网",
-      "url": "https://www.thepigsite.com",
-      "rssUrl": "https://www.thepigsite.com/rss",
-      "tier": "T1.5",
-      "species": "pig",
-      "category": "vertical_media",
-      "relevanceFilter": "smart|IoT|sensor|automation|AI|precision|digital|robot|wearable|technology"
-    },
-    {
-      "id": "poultrysite",
-      "name": "The Poultry Site",
-      "nameZh": "禽业网",
-      "url": "https://www.thepoultrysite.com",
-      "rssUrl": "https://www.thepoultrysite.com/rss",
-      "tier": "T1.5",
-      "species": "poultry",
-      "category": "vertical_media",
-      "relevanceFilter": "smart|IoT|sensor|automation|AI|precision|digital|robot|wearable|technology"
-    },
-    {
-      "id": "cattlesite",
-      "name": "The Cattle Site",
-      "nameZh": "牛业网",
-      "url": "https://www.thecattlesite.com",
-      "rssUrl": "https://www.thecattlesite.com/rss",
-      "tier": "T1.5",
-      "species": "cattle",
-      "category": "vertical_media",
-      "relevanceFilter": "smart|IoT|sensor|automation|AI|precision|digital|robot|wearable|technology"
-    },
-    {
       "id": "precisionag",
       "name": "PrecisionAg",
       "nameZh": "精准农业",
       "url": "https://www.precisionag.com",
       "rssUrl": "https://www.precisionag.com/feed",
+      "tier": "T1",
+      "species": "pig,poultry,cattle,sheep",
+      "category": "agg_tech",
+      "relevanceFilter": "livestock|animal|farming|IoT|sensor|automation|precision|smart|robot|AI|drone|wearable|digital"
+    },
+    {
+      "id": "agfunder",
+      "name": "AgFunder News",
+      "nameZh": "农业投资新闻网",
+      "url": "https://news.agfunder.com",
+      "rssUrl": "https://news.agfunder.com/rss",
       "tier": "T1.5",
       "species": "pig,poultry,cattle,sheep",
       "category": "agg_tech",
-      "relevanceFilter": "livestock|animal|farming|IoT|sensor|automation|precision"
-    },
-    {
-      "id": "dairyherd",
-      "name": "Dairy Herd Management",
-      "nameZh": "奶牛管理",
-      "url": "https://www.dairyherd.com",
-      "rssUrl": "https://www.dairyherd.com/rss",
-      "tier": "T1.5",
-      "species": "cattle",
-      "category": "vertical_media",
-      "relevanceFilter": "smart|IoT|sensor|automation|AI|precision|digital|robot|wearable|technology"
-    },
-    {
-      "id": "wattagnet",
-      "name": "WATTAgNet",
-      "nameZh": "禽业新闻",
-      "url": "https://www.wattagnet.com",
-      "rssUrl": "https://www.wattagnet.com/rss",
-      "tier": "T2",
-      "species": "poultry",
-      "category": "agg_tech",
-      "relevanceFilter": "smart|IoT|sensor|automation|AI|precision|digital|robot|technology"
+      "relevanceFilter": "livestock|precision farming|IoT|AI|automation|sensor|robot|smart farm|cattle|pig|poultry|dairy"
     },
     {
       "id": "beefmagazine",
       "name": "Beef Magazine",
       "nameZh": "肉牛杂志",
       "url": "https://www.beefmagazine.com",
-      "rssUrl": "https://www.beefmagazine.com/rss",
-      "tier": "T2",
+      "rssUrl": "https://www.beefmagazine.com/rss.xml",
+      "tier": "T1.5",
       "species": "cattle",
       "category": "vertical_media",
-      "relevanceFilter": "smart|IoT|sensor|automation|AI|precision|digital|robot|technology"
+      "relevanceFilter": "smart|IoT|sensor|automation|AI|precision|digital|robot|technology|data|monitoring"
     }
   ],
   "contentFarmBlacklist": [
