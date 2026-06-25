@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { Sidebar } from '@/components/Sidebar';
 import { Timeline, NewsItem } from '@/components/Timeline';
 import { RightPanel } from '@/components/RightPanel';
+import { BASE_PATH } from '@/lib/config';
 
 export default function Home() {
   const [items, setItems] = useState<NewsItem[]>([]);
@@ -11,9 +12,9 @@ export default function Home() {
   const [stats, setStats] = useState<any>(undefined);
 
   useEffect(() => {
-    fetch('/data/items.json').then(r => r.json()).then(setItems);
-    fetch('/data/hot-items.json').then(r => r.json()).then(setHotItems);
-    fetch('/data/stats.json').then(r => r.json()).then(setStats);
+    fetch(`${BASE_PATH}/data/items.json`).then(r => r.json()).then(setItems);
+    fetch(`${BASE_PATH}/data/hot-items.json`).then(r => r.json()).then(setHotItems);
+    fetch(`${BASE_PATH}/data/stats.json`).then(r => r.json()).then(setStats);
   }, []);
 
   return (
