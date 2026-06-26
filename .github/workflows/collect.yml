@@ -26,6 +26,9 @@ jobs:
       - name: Generate Prisma client
         run: npx prisma generate
 
+      - name: Initialize database
+        run: npx prisma db push
+
       - name: Run collection pipeline
         env:
           DEEPSEEK_API_KEY: ${{ secrets.CFG_01 }}
