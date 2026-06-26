@@ -32,6 +32,28 @@
       "species": "cattle",
       "category": "vertical_media",
       "relevanceFilter": "smart|IoT|sensor|automation|AI|precision|digital|robot|technology|data|monitoring"
+    },
+    {
+      "id": "nationalhogfarmer",
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "url": "https://www.nationalhogfarmer.com",
+      "rssUrl": "https://www.nationalhogfarmer.com/rss.xml",
+      "tier": "T1.5",
+      "species": "pig",
+      "category": "vertical_media",
+      "relevanceFilter": "smart|IoT|sensor|automation|AI|precision|digital|robot|technology|data|monitoring|health|feed|mortality"
+    },
+    {
+      "id": "porkorg",
+      "name": "Pork.org",
+      "nameZh": "美国猪肉协会",
+      "url": "https://www.pork.org",
+      "rssUrl": "https://www.pork.org/rss",
+      "tier": "T1",
+      "species": "pig",
+      "category": "industry_assoc",
+      "relevanceFilter": "smart|IoT|sensor|automation|AI|precision|digital|robot|technology|data|monitoring|health|welfare|production"
     }
   ],
   "contentFarmBlacklist": [
