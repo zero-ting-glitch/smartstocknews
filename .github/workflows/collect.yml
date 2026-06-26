@@ -27,6 +27,8 @@ jobs:
         run: npx prisma generate
 
       - name: Initialize database
+        env:
+          DATABASE_URL: file:./dev.db
         run: npx prisma db push
 
       - name: Run collection pipeline
