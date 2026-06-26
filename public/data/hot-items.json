@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "id": "cmquskmbd0009za6hs18f39je",
+    "titleEn": "5 Technologies That Are Making Farms Smarter – Worldwide",
+    "titleZh": "五大技术让全球农场更智能",
+    "summaryZh": "本文介绍了从人工智能、物联网到无人机和机器人等五项突破性技术，如何推动全球农业向更智能、更具韧性的运营模式转型。值得关注，因为这是了解农业科技前沿趋势的快速入口。",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/drones-uavs/5-technologies-that-are-making-farms-smarter-worldwide/",
+    "source": "精准农业",
+    "sourceId": "precisionag",
+    "species": "pig,poultry,cattle,sheep",
+    "techTags": "",
+    "qualityScore": 65,
+    "isFeatured": false,
+    "isHot": true,
+    "publishedAt": "2026-06-02T14:39:20.000Z"
+  },
+  {
+    "id": "cmquskmbh000dza6hjwrus4dq",
+    "titleEn": "Reservoir Opens Its Farms to Create Dense Innovation Hubs for Rugged AI and AgTech",
+    "titleZh": "Reservoir开放农场打造AI与农业科技密集创新中心",
+    "summaryZh": "Reservoir推出免费Associate层级，向更多初创企业开放其农场，加速试验与成果转化。此举旨在构建密集创新枢纽，推动适应复杂环境的AI与农业科技发展，值得关注其如何降低创业门槛、促进实地验证。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/reservoir-opens-its-farms-to-create-dense-innovation-hubs-for-rugged-ai-and-agtech/",
+    "source": "精准农业",
+    "sourceId": "precisionag",
+    "species": "pig,poultry,cattle,sheep",
+    "techTags": "",
+    "qualityScore": 65,
+    "isFeatured": false,
+    "isHot": true,
+    "publishedAt": "2026-06-02T13:55:48.000Z"
+  },
+  {
+    "id": "cmquskmbl000hza6hed73slwk",
+    "titleEn": "UK Firm Takes Leading Role in Cutting-Edge Farm Robots Project",
+    "titleZh": "英国公司领衔尖端农业机器人项目",
+    "summaryZh": "坎布里亚的Forth UK公司参与FARMAR全球创新项目，将传统农业知识转化为智能机器人系统，助力现代农业发展。该项目展示了如何通过机器人技术提升农业效率与可持续性，值得关注农业科技前沿的读者深入了解。",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/uk-firm-takes-leading-role-in-cutting-edge-farm-robots-project/",
+    "source": "精准农业",
+    "sourceId": "precisionag",
+    "species": "pig,poultry,cattle,sheep",
+    "techTags": "",
+    "qualityScore": 63,
+    "isFeatured": false,
+    "isHot": true,
+    "publishedAt": "2026-05-29T15:07:49.000Z"
+  },
+  {
+    "id": "cmquskno8002jza6hvsrbyl7q",
+    "titleEn": "A simpler way to monitor manure temperature in deep-pit swine barns",
+    "titleZh": "深坑猪舍粪温监测新方法",
+    "summaryZh": "本文探讨了在深坑猪舍中，究竟需要多少传感器才能可靠监测粪便温度。研究结果简化了监测方案，有助于降低设备成本与维护复杂度，对提升养殖场安全管理效率具有实际参考价值。",
+    "url": "https://www.nationalhogfarmer.com/farming-business-management/a-simpler-way-to-monitor-manure-temperature-in-deep-pit-swine-barns",
+    "source": "美国养猪人",
+    "sourceId": "nationalhogfarmer",
+    "species": "pig",
+    "techTags": "",
+    "qualityScore": 60,
+    "isFeatured": false,
+    "isHot": true,
+    "publishedAt": "2026-06-18T18:22:03.000Z"
+  }
+]
