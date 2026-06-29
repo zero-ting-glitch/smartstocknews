@@ -320,7 +320,7 @@ async function main() {
   // Step 4: AI 处理（统一提示词）
   console.log('[4/5] AI 处理（统一分析）...');
   const pending = await prisma.item.findMany({
-    where: { aiScores: null, isRelevant: true },
+    where: { OR: [{ aiScores: null }, { category: null }], isRelevant: true },
     include: { source: true },
     take: 50,
   });
