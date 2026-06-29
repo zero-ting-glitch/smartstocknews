@@ -1,0 +1,27 @@
+{
+  "id": "cmqz2ckv70017cylc2ixehc1d",
+  "titleEn": "Strategic cowherd destocking to promote future rebuilding",
+  "titleZh": "干旱后战略性母牛减栏以促进未来重建",
+  "summaryZh": "该新闻主要讨论在长期干旱影响牧草供应后，牧场主通过战略性淘汰母牛（去库存）来获得灵活性和税收优势，以便未来重建牛群。内容聚焦于传统畜牧管理策略，未涉及物联网、人工智能、自动化、机器人或传感器等智慧畜牧核心技术。对于智慧畜牧行业而言，该新闻仅提供背景参考，缺乏技术创新或数据驱动决策的实践价值。",
+  "featuredReason": "本文虽涉及畜牧管理决策，但完全未触及智慧畜牧核心技术（IoT/AI/自动化等），对关注技术应用的行业人士参考价值有限，仅可作为传统管理背景了解。",
+  "url": "https://www.beefmagazine.com/livestock-management/strategic-cowherd-destocking-to-promote-future-rebuilding",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5"
+  },
+  "sourceId": "beefmagazine",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 27,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-18T12:54:43.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "Young heifers offer flexibility and tax advantages when rebuilding cowherds after extended dry periods impact forage availability in the region.",
+  "scrapeMethod": "rss"
+}

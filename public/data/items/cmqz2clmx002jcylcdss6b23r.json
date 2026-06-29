@@ -1,0 +1,27 @@
+{
+  "id": "cmqz2clmx002jcylcdss6b23r",
+  "titleEn": "Coles and Ever.Ag partner on smarter meat supply chain",
+  "titleZh": "Coles与Ever.Ag合作，用数据科学优化鲜肉供应链规划",
+  "summaryZh": "澳大利亚零售商Coles与数据科学公司Ever.Ag合作，将先进数据分析引入鲜牛肉、猪肉和羊肉品类的供应链规划。该合作旨在通过预测建模和优化算法，提升从养殖端到零售端的供需匹配效率，减少浪费并提高利润率。虽然不直接涉及养殖场内的物联网或自动化设备，但属于智慧畜牧产业链下游的关键环节——数据驱动的供应链管理，对养殖计划、出栏节奏和品质追溯有间接影响。",
+  "featuredReason": "该新闻展示了智慧畜牧从养殖场向供应链延伸的典型应用场景，说明数据科学如何连接生产与消费，为畜牧企业优化出栏计划和减少损耗提供实践参考。",
+  "url": "https://www.nationalhogfarmer.com/market-news/coles-and-ever-ag-partner-on-smarter-meat-supply-chain",
+  "source": {
+    "name": "National Hog Farmer",
+    "nameZh": "美国养猪人",
+    "tier": "T1.5"
+  },
+  "sourceId": "nationalhogfarmer",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "pig",
+  "techTags": "",
+  "qualityScore": 55,
+  "isFeatured": true,
+  "isHot": false,
+  "publishedAt": "2026-06-24T22:37:03.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "Collaboration introduces advanced data science to optimize planning across fresh beef, pork and lamb categories.",
+  "scrapeMethod": "rss"
+}

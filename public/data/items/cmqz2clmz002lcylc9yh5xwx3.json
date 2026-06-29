@@ -1,0 +1,27 @@
+{
+  "id": "cmqz2clmz002lcylc9yh5xwx3",
+  "titleEn": "South Dakota cell-cultured protein moratorium begins July 1",
+  "titleZh": "南达科他州细胞培养蛋白禁令7月生效，联邦标签法案推进",
+  "summaryZh": "南达科他州将于7月1日起实施细胞培养蛋白禁令，成为继佛罗里达、得克萨斯之后又一个对实验室培育肉制品设限的州。与此同时，佛罗里达和得克萨斯正因类似禁令面临诉讼，而联邦层面《FAIR标签法案》则试图建立统一的细胞培养蛋白标签标准。该新闻主要涉及细胞培养蛋白的监管与标签争议，与智慧畜牧行业（IoT/AI/自动化在养殖业的应用）关联度较低，但反映了替代蛋白对传统畜牧业的政策影响。",
+  "featuredReason": "虽然不直接涉及智慧畜牧技术，但细胞培养蛋白的监管动态可能影响传统养殖业的市场预期和政策环境，值得关注替代蛋白对畜牧业的长期竞争格局。",
+  "url": "https://www.nationalhogfarmer.com/market-news/south-dakota-cell-cultured-protein-moratorium-begins-july-1",
+  "source": {
+    "name": "National Hog Farmer",
+    "nameZh": "美国养猪人",
+    "tier": "T1.5"
+  },
+  "sourceId": "nationalhogfarmer",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "pig",
+  "techTags": "",
+  "qualityScore": 37,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-24T19:52:52.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "As Florida and Texas face lawsuits over bans, federal FAIR Labels Act seeks accurate labeling standards.",
+  "scrapeMethod": "rss"
+}

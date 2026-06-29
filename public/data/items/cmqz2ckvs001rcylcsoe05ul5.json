@@ -1,0 +1,27 @@
+{
+  "id": "cmqz2ckvs001rcylcsoe05ul5",
+  "titleEn": "JBS closing beef production and value-added facilities",
+  "titleZh": "JBS关闭宾州与田纳西州牛肉加工及增值设施",
+  "summaryZh": "全球肉类加工巨头JBS宣布关闭位于宾夕法尼亚州苏德顿和田纳西州孟菲斯的牛肉生产及增值加工设施，相关产能将转移至其他工厂。此举反映大型肉类企业在成本压力、供应链优化及市场需求变化下的战略调整，但新闻未涉及任何智慧畜牧技术（如IoT、AI、自动化或传感器）的应用或影响。",
+  "featuredReason": "该新闻虽与智慧畜牧技术无直接关联，但作为行业巨头产能布局变动，可能间接影响上游养殖端的订单结构及技术需求，值得关注供应链动态的从业者参考。",
+  "url": "https://www.beefmagazine.com/market-news/jbs-closing-beef-production-and-value-added-facilities",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5"
+  },
+  "sourceId": "beefmagazine",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 30,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-12T17:28:41.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "Production from Souderton, Pa., and Memphis plants will be absorbed into other operations.",
+  "scrapeMethod": "rss"
+}

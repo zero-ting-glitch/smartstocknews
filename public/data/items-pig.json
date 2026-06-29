@@ -1,10 +1,10 @@
 [
   {
-    "id": "cmqz16xjc00271218pt12rtrl",
+    "id": "cmqz2clmi0027cylcdnb9u95b",
     "titleEn": "New cuts move pork beyond the chop",
-    "titleZh": "美国猪肉消费变化推动零售与餐饮渠道转型",
-    "summaryZh": "本文探讨了美国消费者行为变化如何推动猪肉产业在零售和餐饮渠道的演进，重点在于产品切割和营销策略的调整，而非技术或自动化层面的创新。内容主要涉及市场趋势和消费洞察，与智慧畜牧核心领域（IoT、AI、自动化、传感器在养殖中的应用）关联度较低，但可作为行业背景参考。",
-    "featuredReason": "虽然本文未直接涉及智慧畜牧技术，但了解终端消费趋势有助于智慧畜牧从业者把握市场方向，优化养殖和供应链决策。",
+    "titleZh": "美国猪肉消费变革：零售与餐饮渠道的产业演进",
+    "summaryZh": "本文探讨了美国消费者行为变化如何推动猪肉产业在零售和餐饮渠道的转型。内容聚焦于市场趋势和消费端变化，未涉及智慧畜牧核心技术如IoT、AI、自动化或传感器在养殖环节的应用。对于关注养殖技术创新的读者，信息密度较低，但可作为了解终端市场动态的补充参考。",
+    "featuredReason": "虽然与智慧畜牧技术关联度低，但有助于从业者理解消费端变化对产业链上游的潜在影响，适合作为市场趋势背景阅读。",
     "url": "https://www.nationalhogfarmer.com/farming-business-management/new-cuts-move-pork-beyond-the-chop",
     "source": {
       "name": "National Hog Farmer",
@@ -16,17 +16,17 @@
     "category": "livestock",
     "subcategory": "pig",
     "techTags": "",
-    "qualityScore": 24,
+    "qualityScore": 31,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-06-26T18:56:30.000Z"
   },
   {
-    "id": "cmqz16xjf00291218xlcb19v9",
+    "id": "cmqz2clml0029cylc6lamihjn",
     "titleEn": "WOAH publishes new guidelines for African swine fever vaccines",
     "titleZh": "WOAH发布非洲猪瘟疫苗新指南，强调综合防控策略",
-    "summaryZh": "世界动物卫生组织（WOAH）发布了关于非洲猪瘟疫苗的新指南，核心内容强调综合防控策略的重要性，包括生物安全、监测和移动控制等措施。该指南为疫苗使用提供了标准化框架，但并未涉及具体技术细节或智慧畜牧领域的IoT/AI应用。对于行业从业者而言，指南提供了政策层面的参考，但缺乏直接的技术创新或可落地的数字化工具指导。",
-    "featuredReason": "虽然该新闻与智慧畜牧的直接技术关联度较低，但非洲猪瘟防控是养殖业核心痛点，WOAH的指南为行业提供了权威的疫苗使用和综合防控框架，值得关注政策动向的从业者参考。",
+    "summaryZh": "世界动物卫生组织（WOAH）发布了关于非洲猪瘟疫苗的新指南，但新闻内容仅简要提及综合防控策略、生物安全、监测和移动控制的重要性，未涉及具体技术细节或智慧畜牧相关应用。该指南对行业防控有指导意义，但缺乏与IoT/AI/自动化等智慧畜牧技术的直接关联，信息密度较低，实践参考价值有限。",
+    "featuredReason": "该新闻对非洲猪瘟防控具有行业指导意义，但智慧畜牧从业者需自行关联技术应用，直接参考价值有限。",
     "url": "https://www.nationalhogfarmer.com/livestock-management/woah-publishes-new-guidelines-for-african-swine-fever-vaccines",
     "source": {
       "name": "National Hog Farmer",
@@ -38,17 +38,17 @@
     "category": "livestock",
     "subcategory": "pig",
     "techTags": "",
-    "qualityScore": 44,
+    "qualityScore": 37,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-06-26T12:19:09.000Z"
   },
   {
-    "id": "cmqz16xjh002b1218ghs3wt85",
+    "id": "cmqz2clmo002bcylcfakji687",
     "titleEn": "U.S. hog inventory dips slightly to 73.7 million head",
-    "titleZh": "美国生猪存栏量微降至7370万头，每窝仔猪存活数再创新高",
-    "summaryZh": "美国农业部最新数据显示，截至6月1日，美国生猪存栏量小幅下降至7370万头，较去年同期略有减少。然而，在3月至5月期间，每窝仔猪存活数量再次打破历史纪录，反映出养殖效率的持续提升。该数据主要反映传统养殖统计指标，未涉及物联网、AI或自动化等智慧畜牧技术的具体应用或创新，但高效繁殖成绩可能间接与育种管理优化相关。",
-    "featuredReason": "虽然该新闻未直接涉及智慧畜牧技术，但每窝仔猪存活数的持续创新高值得关注，可能暗示了精准饲喂、环境监控等智能化管理手段的潜在贡献，适合作为行业背景参考。",
+    "titleZh": "美国生猪存栏微降至7370万头，每窝断奶仔猪数再创新高",
+    "summaryZh": "美国农业部最新数据显示，截至6月1日，美国生猪存栏量为7370万头，较去年同期略有下降。然而，2024年3月至5月期间，每窝断奶仔猪数再次打破历史纪录，反映出繁殖效率的持续提升。该数据主要反映传统养殖统计指标，未涉及物联网、AI或自动化等智慧畜牧技术细节，但高效的繁殖表现可能间接与遗传育种、精准饲喂等技术的应用相关。对于智慧畜牧行业，该新闻提供了行业基准数据，但缺乏技术层面的深入分析。",
+    "featuredReason": "尽管新闻本身未直接涉及智慧畜牧技术，但每窝断奶仔猪数的持续创新高可作为衡量养殖效率的基准，提醒智慧畜牧从业者关注繁殖性能优化与数据驱动的管理价值。",
     "url": "https://www.nationalhogfarmer.com/market-news/u-s-hog-inventory-dips-slightly-to-73-7-million-head",
     "source": {
       "name": "National Hog Farmer",
@@ -66,11 +66,11 @@
     "publishedAt": "2026-06-25T20:33:43.000Z"
   },
   {
-    "id": "cmqz16xjj002d12189p6xgab3",
+    "id": "cmqz2clmq002dcylcje8fzmcs",
     "titleEn": "USDA Cold Storage reports mixed meat inventories in May",
-    "titleZh": "美国农业部5月冷库报告：火腿库存增17%，猪肋排库存降20%",
-    "summaryZh": "美国农业部（USDA）发布的5月冷库报告显示，肉类库存出现分化：火腿库存环比4月增长17%，而猪肋排库存则下降20%。该数据反映了美国肉类供应链的季节性波动与消费趋势变化，但未涉及任何智慧畜牧技术（如IoT、AI、自动化或传感器）的应用或影响。对于智慧畜牧行业而言，该新闻仅提供宏观市场背景，缺乏直接的技术或实践关联。",
-    "featuredReason": "该新闻虽为行业基础数据，但与智慧畜牧核心技术（IoT、AI、自动化等）无直接关联，适合作为市场背景参考，不建议作为技术或实践决策依据。",
+    "titleZh": "美国农业部冷库报告：5月肉类库存分化，火腿增17%猪肋排降20%",
+    "summaryZh": "美国农业部发布的5月冷库库存报告显示，肉类库存呈现显著分化：火腿库存环比4月增长17%，而猪肋排库存下降20%。该数据反映了美国肉类供应链的季节性波动与消费趋势变化，但未涉及任何智慧畜牧技术（如物联网、AI、自动化设备）的应用或创新。对于智慧畜牧行业而言，该新闻仅作为宏观市场背景参考，缺乏直接的技术或实践指导价值。",
+    "featuredReason": "该新闻虽为行业基础数据，但与智慧畜牧核心技术（IoT/AI/自动化）无直接关联，适合作为市场背景了解，但非技术或实践重点内容。",
     "url": "https://www.nationalhogfarmer.com/market-news/usda-cold-storage-reports-mixed-meat-inventories-in-may",
     "source": {
       "name": "National Hog Farmer",
@@ -82,17 +82,17 @@
     "category": "livestock",
     "subcategory": "pig",
     "techTags": "",
-    "qualityScore": 30,
+    "qualityScore": 29,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-06-25T19:25:23.000Z"
   },
   {
-    "id": "cmqz16xjl002f1218ezta15rh",
+    "id": "cmqz2clms002fcylcjzlvhs3o",
     "titleEn": "ISU research targets smarter manure strategies",
     "titleZh": "ISU研究探索精准农业工具优化畜禽粪污管理策略",
-    "summaryZh": "爱荷华州立大学（ISU）的研究人员Andersen正在探索利用精准农业工具（如传感器、变量施肥技术等）提升畜禽粪污的利用效率。该研究旨在通过数据驱动的方法，更精确地匹配粪肥养分与作物需求，减少环境污染，同时降低化肥成本。项目聚焦于将物联网与自动化技术融入传统粪污处理流程，为智慧畜牧中的废弃物管理提供科学依据。",
-    "featuredReason": "该研究将精准农业与粪污管理结合，是智慧畜牧在环保与资源循环领域的重要实践，对养殖场实现降本增效和可持续发展具有参考价值。",
+    "summaryZh": "爱荷华州立大学（ISU）研究人员Andersen正在探索利用精准农业工具提升畜禽废弃物（粪污）的利用效率。该研究旨在通过传感器、数据分析和自动化技术，实现粪肥的精准施用，减少环境污染并提高养分利用率。虽然目前仍处于探索阶段，但这一方向将智慧畜牧与种植业精准管理紧密结合，为养殖场粪污资源化提供了新的技术路径，对推动种养循环和可持续发展具有潜在价值。",
+    "featuredReason": "该研究将智慧畜牧中的传感器与数据分析技术延伸至粪污管理环节，是养殖业环保与资源化利用的前沿探索，值得关注种养结合与精准农业的从业者阅读。",
     "url": "https://www.nationalhogfarmer.com/farming-business-management/isu-research-targets-smarter-manure-strategies",
     "source": {
       "name": "National Hog Farmer",
@@ -104,17 +104,17 @@
     "category": "livestock",
     "subcategory": "pig",
     "techTags": "",
-    "qualityScore": 55,
-    "isFeatured": true,
+    "qualityScore": 48,
+    "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-06-25T17:23:05.000Z"
   },
   {
-    "id": "cmqz16xjn002h1218e1jtiaza",
+    "id": "cmqz2clmu002hcylc9h2eigul",
     "titleEn": "California Plastics Act sparks 17-state lawsuit",
-    "titleZh": "加州塑料法案引发17州诉讼，畜牧业成本与法规冲突受关注",
-    "summaryZh": "加州《塑料法案》因要求减少一次性塑料包装，被17个州联合起诉，指控其越权并推高消费者成本。农业总检察长指出，该法案对畜牧生产环节的过度干预可能间接影响养殖业包装与供应链。尽管法案本身不直接涉及智慧畜牧技术，但其引发的法规争议与成本压力，可能促使养殖企业加速采用自动化、可追溯包装等智能方案以合规降本。",
-    "featuredReason": "该事件揭示了环保法规对畜牧产业链的连锁影响，提醒智慧畜牧从业者关注政策风险，并思考如何通过IoT、自动化等技术应对合规与成本挑战。",
+    "titleZh": "加州塑料法案引发17州诉讼：畜牧业监管过度争议",
+    "summaryZh": "加州《塑料法案》因涉及对畜牧业生产的过度监管，引发17个州联合诉讼。诉讼方认为该法案将导致消费者成本上升，并包含违宪的强制性要求。该新闻主要聚焦于法律与政策层面的争议，与智慧畜牧领域的技术应用（如IoT、AI、自动化等）无直接关联，但可能间接影响养殖业的生产合规成本与市场环境。",
+    "featuredReason": "该新闻虽不直接涉及智慧畜牧技术，但反映了畜牧业面临的监管压力，可能间接推动养殖企业寻求更高效的自动化解决方案以应对合规成本。",
     "url": "https://www.nationalhogfarmer.com/farm-policy-news/california-plastics-act-sparks-17-state-lawsuit",
     "source": {
       "name": "National Hog Farmer",
@@ -132,11 +132,11 @@
     "publishedAt": "2026-06-25T13:17:41.000Z"
   },
   {
-    "id": "cmqz16xjp002j1218b0p4qf5v",
+    "id": "cmqz2clmx002jcylcdss6b23r",
     "titleEn": "Coles and Ever.Ag partner on smarter meat supply chain",
-    "titleZh": "Coles与Ever.Ag合作：数据科学优化鲜肉供应链规划",
-    "summaryZh": "澳大利亚零售商Coles与农业科技公司Ever.Ag合作，将先进数据科学引入鲜牛肉、猪肉和羊肉的供应链规划。该项目旨在通过预测分析和优化算法，提升从牧场到货架的效率，减少浪费并改善供需匹配。虽然不直接涉及养殖端的物联网或自动化，但体现了数据驱动决策在畜牧产业链下游的重要应用，为智慧畜牧的端到端协同提供了参考。",
-    "featuredReason": "该合作展示了数据科学如何从零售端倒逼畜牧供应链优化，对关注全产业链数字化和减少损耗的从业者具有启发意义。",
+    "titleZh": "Coles与Ever.Ag合作，用数据科学优化鲜肉供应链规划",
+    "summaryZh": "澳大利亚零售商Coles与数据科学公司Ever.Ag合作，将先进数据分析引入鲜牛肉、猪肉和羊肉品类的供应链规划。该合作旨在通过预测建模和优化算法，提升从养殖端到零售端的供需匹配效率，减少浪费并提高利润率。虽然不直接涉及养殖场内的物联网或自动化设备，但属于智慧畜牧产业链下游的关键环节——数据驱动的供应链管理，对养殖计划、出栏节奏和品质追溯有间接影响。",
+    "featuredReason": "该新闻展示了智慧畜牧从养殖场向供应链延伸的典型应用场景，说明数据科学如何连接生产与消费，为畜牧企业优化出栏计划和减少损耗提供实践参考。",
     "url": "https://www.nationalhogfarmer.com/market-news/coles-and-ever-ag-partner-on-smarter-meat-supply-chain",
     "source": {
       "name": "National Hog Farmer",
@@ -148,17 +148,17 @@
     "category": "livestock",
     "subcategory": "pig",
     "techTags": "",
-    "qualityScore": 54,
-    "isFeatured": false,
+    "qualityScore": 55,
+    "isFeatured": true,
     "isHot": false,
     "publishedAt": "2026-06-24T22:37:03.000Z"
   },
   {
-    "id": "cmqz16xjq002l12184eko56i7",
+    "id": "cmqz2clmz002lcylc9yh5xwx3",
     "titleEn": "South Dakota cell-cultured protein moratorium begins July 1",
     "titleZh": "南达科他州细胞培养蛋白禁令7月生效，联邦标签法案推进",
-    "summaryZh": "南达科他州将于7月1日起实施细胞培养蛋白禁令，与此同时佛罗里达州和得克萨斯州因类似禁令面临诉讼。联邦层面，《FAIR标签法案》旨在建立统一的细胞培养蛋白标签标准。该新闻主要涉及细胞培养蛋白的监管与标签争议，与智慧畜牧（IoT/AI/自动化等）的直接技术关联较低，但反映了替代蛋白对传统畜牧业的政策影响，值得关注行业趋势。",
-    "featuredReason": "虽然不直接涉及智慧畜牧技术，但细胞培养蛋白的监管动态可能影响传统养殖业的市场预期和政策环境，智慧畜牧从业者需了解替代蛋白对行业格局的潜在冲击。",
+    "summaryZh": "南达科他州将于7月1日起实施细胞培养蛋白禁令，成为继佛罗里达、得克萨斯之后又一个对实验室培育肉制品设限的州。与此同时，佛罗里达和得克萨斯正因类似禁令面临诉讼，而联邦层面《FAIR标签法案》则试图建立统一的细胞培养蛋白标签标准。该新闻主要涉及细胞培养蛋白的监管与标签争议，与智慧畜牧行业（IoT/AI/自动化在养殖业的应用）关联度较低，但反映了替代蛋白对传统畜牧业的政策影响。",
+    "featuredReason": "虽然不直接涉及智慧畜牧技术，但细胞培养蛋白的监管动态可能影响传统养殖业的市场预期和政策环境，值得关注替代蛋白对畜牧业的长期竞争格局。",
     "url": "https://www.nationalhogfarmer.com/market-news/south-dakota-cell-cultured-protein-moratorium-begins-july-1",
     "source": {
       "name": "National Hog Farmer",
@@ -170,17 +170,17 @@
     "category": "livestock",
     "subcategory": "pig",
     "techTags": "",
-    "qualityScore": 42,
+    "qualityScore": 37,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-06-24T19:52:52.000Z"
   },
   {
-    "id": "cmqz16xjs002n1218tlgzrs2c",
+    "id": "cmqz2cln1002ncylcrvn8t6va",
     "titleEn": "Data vs. disease: Winning the wean-finish performance battle",
-    "titleZh": "数据对抗疾病：用标杆管理赢得育肥-出栏性能之战",
-    "summaryZh": "本文探讨了如何通过有效的数据标杆管理，将动物健康从不确定性来源转变为提升猪只性能和盈利能力的战略驱动力。文章强调，在智慧畜牧背景下，利用物联网传感器、自动化数据采集和AI分析，养殖场可以实时追踪关键健康指标与生产性能的关联，从而精准识别问题环节、优化干预策略。核心价值在于将健康数据与生产数据深度融合，使疾病防控从被动应对升级为主动预测和绩效优化，为规模化猪场提供了可量化的决策框架。",
-    "featuredReason": "本文精准切中智慧畜牧的核心痛点——如何将海量健康数据转化为可执行的绩效提升策略，对关注数据驱动养殖决策的从业者具有直接指导意义。",
+    "titleZh": "数据对抗疾病：基准化分析如何赢得育肥-出栏性能之战",
+    "summaryZh": "本文探讨了在生猪育肥至出栏阶段，如何通过有效的数据基准化分析，将动物健康管理从不确定性来源转变为提升猪只性能和盈利能力的战略驱动力。文章强调，利用历史数据和实时监控进行横向与纵向对比，能够精准识别健康风险、优化饲料转化率、降低死亡率，从而在疾病爆发前采取干预措施。核心价值在于展示了数据驱动的健康管理如何直接转化为生产效益，为智慧畜牧中的物联网和传感器数据应用提供了实践框架。",
+    "featuredReason": "本文为智慧畜牧从业者提供了从数据采集到决策落地的完整逻辑链，尤其适合关注生猪养殖数字化、健康预警系统及投入产出优化的专业人士，具有强实操指导意义。",
     "url": "https://www.nationalhogfarmer.com/livestock-management/data-vs-disease-winning-the-wean-finish-performance-battle",
     "source": {
       "name": "National Hog Farmer",
@@ -198,11 +198,11 @@
     "publishedAt": "2026-06-24T16:33:26.000Z"
   },
   {
-    "id": "cmqz16xju002p1218iefbuuko",
+    "id": "cmqz2cln3002pcylcgttzon6f",
     "titleEn": "New research reveals why coronavirus lingers longer than flu",
-    "titleZh": "猪冠状病毒研究揭示：为何新冠病毒比流感更持久",
-    "summaryZh": "一项以猪为模型的新研究比较了流感病毒和猪呼吸道冠状病毒（PRCV）的感染动力学。结果显示，流感能迅速激发抗体反应并快速清除，而PRCV则导致更持久的感染和更广泛的肺部损伤。该发现为理解冠状病毒（包括SARS-CoV-2）的持续传播机制提供了新视角，但对智慧畜牧行业而言，直接关联度较低，更多属于基础病毒学范畴。",
-    "featuredReason": "虽然该研究不直接涉及IoT或自动化技术，但了解猪呼吸道冠状病毒的持久性机制有助于养殖场优化生物安全策略，间接支持智慧畜牧中的疫病预警与防控决策。",
+    "titleZh": "猪冠状病毒与流感病毒清除机制差异研究揭示持久感染原因",
+    "summaryZh": "一项在猪身上进行的新研究揭示了冠状病毒（PRCV）为何比流感病毒更持久。研究发现，流感病毒能快速激发抗体反应并迅速被清除，而PRCV则导致更广泛的肺部损伤和长期感染。该成果对理解猪呼吸道疾病防控有基础意义，但未涉及智慧畜牧中的IoT、AI或自动化技术应用。",
+    "featuredReason": "该研究为猪呼吸道疾病管理提供了免疫学新视角，虽未直接关联智慧畜牧技术，但对养殖场生物安全策略优化有潜在参考价值。",
     "url": "https://www.nationalhogfarmer.com/livestock-management/new-research-reveals-why-coronavirus-lingers-longer-than-flu",
     "source": {
       "name": "National Hog Farmer",
@@ -214,17 +214,17 @@
     "category": "livestock",
     "subcategory": "pig",
     "techTags": "",
-    "qualityScore": 34,
+    "qualityScore": 36,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-06-24T15:51:32.000Z"
   },
   {
-    "id": "cmqz16xjw002r1218sdqmmwlg",
+    "id": "cmqz2cln5002rcylclzlfgnki",
     "titleEn": "Spread of FMD serotype SAT1 beyond Africa raising concern",
-    "titleZh": "口蹄疫SAT1血清型扩散至非洲以外引发行业担忧",
-    "summaryZh": "本文报道了口蹄疫（FMD）SAT1血清型病毒从非洲向其他地区扩散的趋势，引发全球畜牧业关注。美国猪健康信息中心执行主任Megan Niederwerder将在6月30日的直播中，结合世界动物卫生组织（WOAH）的最新数据，分析该疫情对猪群健康及跨境防控的潜在影响。内容聚焦疫病动态，未涉及智慧畜牧技术。",
-    "featuredReason": "虽然本文未直接涉及物联网、AI等技术，但口蹄疫的跨境传播对养殖业生物安全构成重大威胁，智慧畜牧从业者需关注疫情预警与数字化防控体系的建设需求。",
+    "titleZh": "口蹄疫SAT1血清型传播至非洲以外地区引发担忧",
+    "summaryZh": "本文报道了口蹄疫（FMD）SAT1血清型传播至非洲以外地区的情况，引发全球畜牧行业关注。内容以直播预告形式呈现，邀请美国猪健康信息中心执行主任Megan Niederwerder分享来自世界动物卫生组织（WOAH）的最新口蹄疫动态。该事件对跨境动物疫病防控、生物安全体系及国际贸易具有重要影响，但未涉及智慧畜牧技术细节。",
+    "featuredReason": "虽然本文未直接涉及IoT/AI等技术，但口蹄疫新血清型的跨境传播对全球畜牧业的生物安全预警和应急响应体系构成重大挑战，智慧畜牧从业者需关注疫病动态对智能化防控方案需求的潜在影响。",
     "url": "https://www.nationalhogfarmer.com/hog-health/spread-of-fmd-serotype-sat1-beyond-africa-raising-concern",
     "source": {
       "name": "National Hog Farmer",
@@ -236,7 +236,7 @@
     "category": "livestock",
     "subcategory": "pig",
     "techTags": "",
-    "qualityScore": 34,
+    "qualityScore": 38,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-06-24T13:40:24.000Z"

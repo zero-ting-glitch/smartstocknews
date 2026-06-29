@@ -1,0 +1,27 @@
+{
+  "id": "cmqz2ckuv000vcylc59macko1",
+  "titleEn": "This Week in Agribusiness, June 20, 2026",
+  "titleZh": "2026年6月20日农业周报：ARC/PLC、数据中心、太阳能、生物柴油及猪舍法案",
+  "summaryZh": "本周农业新闻聚焦美国农业政策（ARC/PLC基础面积计划）、数据中心与太阳能农场对农地的影响、Barchart数据工具、生物柴油混合比例、粮仓安全以及加州12号提案（Prop 12，涉及动物饲养空间标准）。内容以政策、能源和传统农业安全为主，未涉及智慧畜牧核心技术如IoT、AI、自动化或机器人。",
+  "featuredReason": "虽然该新闻未直接涉及智慧畜牧技术，但Prop 12对养殖空间的规定可能间接推动智能环境监控需求，数据中心与太阳能农场占用农地也影响养殖业布局，值得关注政策与能源趋势对畜牧业的潜在影响。",
+  "url": "https://www.beefmagazine.com/market-news/this-week-in-agribusiness-june-20-2026",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5"
+  },
+  "sourceId": "beefmagazine",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 24,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-20T12:00:00.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "ARC and PLC base acre programs, data centers and solar farms, Barchart data tools, biodiesel blends, grain bin safety and Prop 12 are featured this week.",
+  "scrapeMethod": "rss"
+}

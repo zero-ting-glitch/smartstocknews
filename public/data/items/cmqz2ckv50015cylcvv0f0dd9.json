@@ -1,0 +1,27 @@
+{
+  "id": "cmqz2ckv50015cylcvv0f0dd9",
+  "titleEn": "Monitoring water sources to protect herd health",
+  "titleZh": "水源监测：保障牛群健康的关键防线",
+  "summaryZh": "堪萨斯州立大学肉牛研究所专家指出，水源匮乏或水质差可引发牛只神经系统问题。该新闻虽未直接提及物联网或传感器，但强调了水源监测对牛群健康的核心作用，为智慧畜牧中水质自动监测、预警系统的部署提供了明确的业务场景和需求依据。",
+  "featuredReason": "该新闻从兽医临床角度揭示了水源管理的紧迫性，为智慧畜牧从业者将水质传感器、IoT预警系统落地到实际养殖管理提供了有力的行业背书和需求切入点。",
+  "url": "https://www.beefmagazine.com/livestock-management/monitoring-water-sources-to-protect-herd-health",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5"
+  },
+  "sourceId": "beefmagazine",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 55,
+  "isFeatured": true,
+  "isHot": false,
+  "publishedAt": "2026-06-18T13:00:55.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "K-State Beef Cattle Institute experts discuss neurological issues in cattle which may occur from lack of water or poor water quality.",
+  "scrapeMethod": "rss"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "cmqz2cku30009cylcxioqtyiq",
+  "titleEn": "Beating the heat",
+  "titleZh": "应对热应激：智慧畜牧如何守护牛群生产力",
+  "summaryZh": "本文聚焦热应激对牛群生产力的深层影响，指出高温不仅降低采食量和产奶量，还会长期损害繁殖性能和免疫力。文章从生理机制到管理策略层层剖析，强调通过环境监测、精准通风、喷淋系统及数据驱动的预警方案可有效缓解热应激。虽未直接提及IoT或AI技术，但为智慧畜牧行业提供了明确的应用场景——将传感器与自动化控制结合，实现实时热应激干预，提升牧场经济效益与动物福利。",
+  "featuredReason": "热应激是规模化牧场面临的持续性挑战，本文揭示了其隐蔽的生产力损耗机制，为智慧畜牧系统（如温湿度传感器、智能环控设备）的部署提供了强有力的商业论证和实操切入点。",
+  "url": "https://www.beefmagazine.com/livestock-management/beating-the-heat",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5"
+  },
+  "sourceId": "beefmagazine",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 55,
+  "isFeatured": true,
+  "isHot": false,
+  "publishedAt": "2026-06-25T11:42:53.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "Heat stress can drill deep into the productivity of a cow herd.",
+  "scrapeMethod": "rss"
+}

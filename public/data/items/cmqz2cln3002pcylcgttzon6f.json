@@ -1,0 +1,27 @@
+{
+  "id": "cmqz2cln3002pcylcgttzon6f",
+  "titleEn": "New research reveals why coronavirus lingers longer than flu",
+  "titleZh": "猪冠状病毒与流感病毒清除机制差异研究揭示持久感染原因",
+  "summaryZh": "一项在猪身上进行的新研究揭示了冠状病毒（PRCV）为何比流感病毒更持久。研究发现，流感病毒能快速激发抗体反应并迅速被清除，而PRCV则导致更广泛的肺部损伤和长期感染。该成果对理解猪呼吸道疾病防控有基础意义，但未涉及智慧畜牧中的IoT、AI或自动化技术应用。",
+  "featuredReason": "该研究为猪呼吸道疾病管理提供了免疫学新视角，虽未直接关联智慧畜牧技术，但对养殖场生物安全策略优化有潜在参考价值。",
+  "url": "https://www.nationalhogfarmer.com/livestock-management/new-research-reveals-why-coronavirus-lingers-longer-than-flu",
+  "source": {
+    "name": "National Hog Farmer",
+    "nameZh": "美国养猪人",
+    "tier": "T1.5"
+  },
+  "sourceId": "nationalhogfarmer",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "pig",
+  "techTags": "",
+  "qualityScore": 36,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-24T15:51:32.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "Study in pigs shows influenza induces faster antibody response, clears quickly, while PRCV causes prolonged infection, more widespread lung injury.",
+  "scrapeMethod": "rss"
+}

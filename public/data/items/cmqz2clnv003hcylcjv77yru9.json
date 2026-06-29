@@ -1,0 +1,27 @@
+{
+  "id": "cmqz2clnv003hcylcjv77yru9",
+  "titleEn": "This Week in Agribusiness, June 20, 2026",
+  "titleZh": "",
+  "summaryZh": "",
+  "featuredReason": "",
+  "url": "https://www.nationalhogfarmer.com/market-news/this-week-in-agribusiness-june-20-2026",
+  "source": {
+    "name": "National Hog Farmer",
+    "nameZh": "美国养猪人",
+    "tier": "T1.5"
+  },
+  "sourceId": "nationalhogfarmer",
+  "species": "livestock",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 0,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-20T12:00:00.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "ARC and PLC base acre programs, data centers and solar farms, Barchart data tools, biodiesel blends, grain bin safety and Prop 12 are featured this week.",
+  "scrapeMethod": "rss"
+}

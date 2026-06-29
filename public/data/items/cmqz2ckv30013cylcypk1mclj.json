@@ -1,0 +1,27 @@
+{
+  "id": "cmqz2ckv30013cylcypk1mclj",
+  "titleEn": "The Mexican beef market",
+  "titleZh": "墨西哥牛肉市场：二十年现代化转型提升产业产能",
+  "summaryZh": "本文回顾了墨西哥牛肉产业过去二十年的现代化进程，重点描述了养殖技术、饲料管理、遗传改良和冷链物流等方面的改进如何推动产能提升。文章提供了行业规模、出口数据及市场结构变化，但未涉及物联网、人工智能、自动化或传感器等智慧畜牧核心技术。对于关注传统畜牧业升级的读者有一定背景价值，但缺乏具体技术细节和实践案例。",
+  "featuredReason": "该新闻虽未直接涉及智慧畜牧技术，但展示了传统畜牧业现代化路径，可作为智慧畜牧解决方案切入墨西哥市场的行业背景参考。",
+  "url": "https://www.beefmagazine.com/market-news/the-mexican-beef-market",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5"
+  },
+  "sourceId": "beefmagazine",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 34,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-18T13:04:03.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "How two decades of modernization have transformed Mexican cattle production and increased industry capacity.",
+  "scrapeMethod": "rss"
+}

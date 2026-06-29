@@ -1,0 +1,27 @@
+{
+  "id": "cmqz2cln5002rcylclzlfgnki",
+  "titleEn": "Spread of FMD serotype SAT1 beyond Africa raising concern",
+  "titleZh": "口蹄疫SAT1血清型传播至非洲以外地区引发担忧",
+  "summaryZh": "本文报道了口蹄疫（FMD）SAT1血清型传播至非洲以外地区的情况，引发全球畜牧行业关注。内容以直播预告形式呈现，邀请美国猪健康信息中心执行主任Megan Niederwerder分享来自世界动物卫生组织（WOAH）的最新口蹄疫动态。该事件对跨境动物疫病防控、生物安全体系及国际贸易具有重要影响，但未涉及智慧畜牧技术细节。",
+  "featuredReason": "虽然本文未直接涉及IoT/AI等技术，但口蹄疫新血清型的跨境传播对全球畜牧业的生物安全预警和应急响应体系构成重大挑战，智慧畜牧从业者需关注疫病动态对智能化防控方案需求的潜在影响。",
+  "url": "https://www.nationalhogfarmer.com/hog-health/spread-of-fmd-serotype-sat1-beyond-africa-raising-concern",
+  "source": {
+    "name": "National Hog Farmer",
+    "nameZh": "美国养猪人",
+    "tier": "T1.5"
+  },
+  "sourceId": "nationalhogfarmer",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "pig",
+  "techTags": "",
+  "qualityScore": 38,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-24T13:40:24.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "LIVE STREAM TUESDAY, JUNE 30 AT 1 PM CT - Swine Health Information Center Executive Director Megan Niederwerder joins us with an FMD update from WOAH.",
+  "scrapeMethod": "rss"
+}

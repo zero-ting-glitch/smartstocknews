@@ -1,0 +1,27 @@
+{
+  "id": "cmqz2cmyx005vcylcbjdtl013",
+  "titleEn": "Frost, flooding, slow growth challenge crops",
+  "titleZh": "",
+  "summaryZh": "",
+  "featuredReason": "",
+  "url": "https://www.farmprogress.com/crops/frost-floods-slow-2026-crop-progress-across-midwest-as-farmers-face-a-delayed-harvest-season",
+  "source": {
+    "name": "Farm Progress",
+    "nameZh": "农业进展",
+    "tier": "T2"
+  },
+  "sourceId": "farmprogress",
+  "species": "aggtech",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 0,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-29T07:00:00.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "Midwest Crop Report: From Ohio's devastating wheat losses to widespread planting delays, farmers are battling problems across the Midwest and Northeast.",
+  "scrapeMethod": "rss"
+}

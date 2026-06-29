@@ -1,0 +1,27 @@
+{
+  "id": "cmqz2ckvq001pcylc2gtr4dzv",
+  "titleEn": "This Week in Agribusiness, June 13, 2026",
+  "titleZh": "本周农业要闻：杂草侦察、牛肉需求、甜菜杀菌剂、丙烷灌溉、农机展与约翰迪尔设备应用",
+  "summaryZh": "本期农业周报涵盖多个传统农业话题：杂草侦察技术、牛肉市场需求动态、新型甜菜杀菌剂、丙烷在灌溉中的优势、即将举办的农场进步展以及约翰迪尔推出的设备管理应用。内容以种植业和传统农机为主，与智慧畜牧（IoT/AI/自动化在养殖业的应用）关联度较低，但其中杂草侦察和约翰迪尔App涉及部分数字化技术，对跨界参考有一定价值。",
+  "featuredReason": "尽管本期内容以种植业和传统农机为主，但约翰迪尔设备App和杂草侦察技术体现了农业数字化趋势，可为智慧畜牧领域的设备管理与数据采集提供跨界借鉴。",
+  "url": "https://www.beefmagazine.com/market-news/this-week-in-agribusiness-june-13-2026",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5"
+  },
+  "sourceId": "beefmagazine",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 32,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-13T12:00:00.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "Weed scouting, beef demand, a new sugar beet fungicide, propane benefits for irrigation, the Farm Progress Show and an equipment app from John Deere are highlighted this week.",
+  "scrapeMethod": "rss"
+}
