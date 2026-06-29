@@ -1,0 +1,27 @@
+{
+  "id": "cmqz16x5d001v1218si8o7s5e",
+  "titleEn": "Consumers really like beef – and they’re willing to pay for it",
+  "titleZh": "2025年牛肉供应创纪录，消费者需求强劲推动价格走高",
+  "summaryZh": "该新闻指出，2025年美国牛肉供应量将达到自2010年以来的最高水平，但强劲的消费者需求依然推动牛肉价格上涨。核心信息是市场供需关系的变化，并未涉及智慧畜牧技术（如IoT、AI、自动化、机器人或传感器）在养殖或种植环节的应用。对于智慧畜牧行业而言，该新闻仅作为宏观市场背景参考，缺乏技术或实践层面的直接关联。",
+  "featuredReason": "虽然新闻本身不直接涉及智慧畜牧技术，但为行业人士提供了重要的市场供需背景，有助于理解技术应用的经济驱动力。",
+  "url": "https://www.beefmagazine.com/market-news/consumers-really-like-beef-and-theyre-willing-to-pay-for-it",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5"
+  },
+  "sourceId": "beefmagazine",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 29,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-12T12:52:10.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "Record beef supply in 2025 shows strong consumer demand drives prices higher as availability reaches levels not seen since 2010.",
+  "scrapeMethod": "rss"
+}

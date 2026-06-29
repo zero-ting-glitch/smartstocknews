@@ -1,0 +1,27 @@
+{
+  "id": "cmqz16x50001h1218wxx075hk",
+  "titleEn": "May 2026 sees broad-based retail fresh meat inflation",
+  "titleZh": "2026年5月零售鲜肉通胀广泛蔓延，天然气价格压力考验消费者韧性",
+  "summaryZh": "该新闻指出，2026年5月零售鲜肉价格出现广泛上涨，主要受持续高企的天然气价格推动，这可能开始考验消费者的购买韧性。虽然新闻未直接涉及智慧畜牧技术，但鲜肉通胀反映了养殖成本（如饲料、运输、能源）的上升压力，间接影响畜牧业的利润空间和投资决策。对于智慧畜牧行业，这意味着降本增效的技术（如精准饲喂、能源管理）可能获得更紧迫的市场需求。",
+  "featuredReason": "尽管新闻本身不聚焦技术，但鲜肉通胀背后的成本压力是智慧畜牧技术推广的重要经济驱动力，值得从业者关注宏观趋势对技术落地的催化作用。",
+  "url": "https://www.beefmagazine.com/market-news/may-2026-sees-broad-based-retail-fresh-meat-inflation",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5"
+  },
+  "sourceId": "beefmagazine",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 35,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-17T12:30:02.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "Prolonged gas price pressure may be starting to test consumer resilience.",
+  "scrapeMethod": "rss"
+}

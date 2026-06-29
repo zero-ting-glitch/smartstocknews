@@ -1,0 +1,27 @@
+{
+  "id": "cmqz16x4b000r1218kr3bge1z",
+  "titleEn": "Cattle market update: Screwworm, drought and strong beef prices",
+  "titleZh": "肉牛市场动态：螺旋蛆疫情、干旱与强劲牛肉价格",
+  "summaryZh": "该新闻报告了美国肉牛市场的最新情况：15例新世界螺旋蛆（NWS）病例中已有3例转为非活跃状态；53%的牛群存栏受到干旱影响；5月零售牛肉价格同比上涨13%。内容聚焦传统畜牧业市场因素（疫病、气候、价格），未涉及IoT、AI、自动化等智慧畜牧技术应用，但对行业从业者了解宏观市场环境、评估风险具有参考价值。",
+  "featuredReason": "虽然不直接涉及智慧畜牧技术，但干旱和疫病压力凸显了精准监测与智能预警系统的潜在需求，智慧畜牧从业者可从中思考如何通过技术手段帮助养殖户应对类似挑战。",
+  "url": "https://www.beefmagazine.com/market-news/cattle-market-update-screwworm-drought-and-strong-beef-prices",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5"
+  },
+  "sourceId": "beefmagazine",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 34,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-22T20:19:37.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "Three of 15 NWS cases now inactive. 53% of cattle inventory impacted by drought. May retail beef price up 13% from a year ago.",
+  "scrapeMethod": "rss"
+}

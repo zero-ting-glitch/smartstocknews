@@ -1,0 +1,27 @@
+{
+  "id": "cmqz16xjn002h1218e1jtiaza",
+  "titleEn": "California Plastics Act sparks 17-state lawsuit",
+  "titleZh": "加州塑料法案引发17州诉讼，畜牧业成本与法规冲突受关注",
+  "summaryZh": "加州《塑料法案》因要求减少一次性塑料包装，被17个州联合起诉，指控其越权并推高消费者成本。农业总检察长指出，该法案对畜牧生产环节的过度干预可能间接影响养殖业包装与供应链。尽管法案本身不直接涉及智慧畜牧技术，但其引发的法规争议与成本压力，可能促使养殖企业加速采用自动化、可追溯包装等智能方案以合规降本。",
+  "featuredReason": "该事件揭示了环保法规对畜牧产业链的连锁影响，提醒智慧畜牧从业者关注政策风险，并思考如何通过IoT、自动化等技术应对合规与成本挑战。",
+  "url": "https://www.nationalhogfarmer.com/farm-policy-news/california-plastics-act-sparks-17-state-lawsuit",
+  "source": {
+    "name": "National Hog Farmer",
+    "nameZh": "美国养猪人",
+    "tier": "T1.5"
+  },
+  "sourceId": "nationalhogfarmer",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "pig",
+  "techTags": "",
+  "qualityScore": 25,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-25T13:17:41.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "AG Bird notes California's overreach on livestock production as well; lawsuit aims to protects consumers from higher costs, unconstitutional mandates.",
+  "scrapeMethod": "rss"
+}

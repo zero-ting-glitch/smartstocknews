@@ -1,0 +1,27 @@
+{
+  "id": "cmqz16x3u00091218abp5efy7",
+  "titleEn": "Beating the heat",
+  "titleZh": "应对热应激：如何守护奶牛群的产能",
+  "summaryZh": "本文聚焦热应激对奶牛群生产力的深层影响，指出高温不仅降低采食量和产奶量，还会长期损害繁殖性能与健康。文章从生理机制、管理策略（如遮荫、喷淋、调整饲喂时间）到数据监测手段进行了系统梳理，强调通过环境传感器和智能预警系统可提前干预，减少损失。内容兼具理论深度与实践指导，适合牧场管理者参考。",
+  "featuredReason": "热应激是制约夏季牧场效益的核心痛点，本文从智慧畜牧视角提供了传感器监测与自动化降温的落地思路，对优化牛群管理具有直接参考价值。",
+  "url": "https://www.beefmagazine.com/livestock-management/beating-the-heat",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5"
+  },
+  "sourceId": "beefmagazine",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 52,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-25T11:42:53.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "Heat stress can drill deep into the productivity of a cow herd.",
+  "scrapeMethod": "rss"
+}

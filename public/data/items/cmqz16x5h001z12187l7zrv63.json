@@ -1,0 +1,27 @@
+{
+  "id": "cmqz16x5h001z12187l7zrv63",
+  "titleEn": "New World screwworm confirmation: The bad and the good news",
+  "titleZh": "新世界螺旋蛆确认：对牛期货的利好与养殖户的挑战",
+  "summaryZh": "该新闻确认了新世界螺旋蛆（New World screwworm）在牛群中的出现，消除了牛期货市场的不确定性，对交易者形成利好。然而，本地养殖户面临管理难度增加和成本上升的困境。新闻主要聚焦于经济影响和疫病管理，未涉及智慧畜牧技术（如IoT、AI、自动化等）的应用或创新，因此与智慧畜牧领域的直接相关性较低。",
+  "featuredReason": "尽管新闻本身未直接涉及智慧畜牧技术，但疫病确认带来的成本压力和管理挑战，可能间接推动养殖户寻求智能化监测与防控方案，值得行业人士关注潜在需求变化。",
+  "url": "https://www.beefmagazine.com/market-news/new-world-screwworm-confirmation-the-bad-and-the-good-news",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5"
+  },
+  "sourceId": "beefmagazine",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 37,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-11T12:35:56.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "Confirmation of the pest removes uncertainty for cattle futures, though local producers face management challenges and increased costs.",
+  "scrapeMethod": "rss"
+}

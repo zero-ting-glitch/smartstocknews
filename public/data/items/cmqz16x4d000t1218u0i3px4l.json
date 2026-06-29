@@ -1,0 +1,27 @@
+{
+  "id": "cmqz16x4d000t1218u0i3px4l",
+  "titleEn": "Is ‘the packer’ gouging consumers?",
+  "titleZh": "包装商垄断并非牛肉涨价主因，消费者需求才是关键",
+  "summaryZh": "本文分析了过去20年牛肉价格持续上涨的现象，指出包装商（肉类加工企业）的市场集中度并未显著提高，因此并非导致牛肉涨价的主要原因。研究认为，消费者需求增长才是推动牛肉价格上升的核心因素。该新闻主要聚焦于市场经济学和消费者行为，与智慧畜牧行业的技术应用（如IoT、AI、自动化等）关联度较低，但可为行业人士理解市场动态提供背景参考。",
+  "featuredReason": "虽然本文不直接涉及智慧畜牧技术，但理解牛肉价格背后的市场逻辑有助于畜牧从业者把握行业趋势，从而更精准地规划技术投入与生产策略。",
+  "url": "https://www.beefmagazine.com/market-news/is-the-packer-gouging-consumers",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5"
+  },
+  "sourceId": "beefmagazine",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 27,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-22T12:24:30.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "Packer concentration remained steady for 20 years while beef prices rose, showing consumer demand drives costs not consolidation.",
+  "scrapeMethod": "rss"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "cmqz16x5b001t1218j2isx73l",
+  "titleEn": "University of Florida receives $9.5M gift to address cattle pest threats",
+  "titleZh": "佛罗里达大学获950万美元捐赠，应对虫媒牲畜疫病威胁",
+  "summaryZh": "佛罗里达大学获得950万美元捐赠，用于开发预防和治疗由蚊子、苍蝇等害虫传播的牲畜疾病的新策略。该研究聚焦于虫媒病原体对牛群的威胁，但未明确提及物联网、AI或自动化等智慧畜牧核心技术。资金将支持流行病学监测、疫苗研发及防控方案，对传统养殖疫病管理有间接参考价值，但缺乏智慧畜牧领域的直接技术应用或创新突破。",
+  "featuredReason": "该新闻虽涉及牲畜健康管理，但未涉及智慧畜牧核心的IoT/AI/自动化技术，相关性较低；不过其疫病防控方向对养殖业有普遍重要性，适合关注传统养殖与智慧技术融合的读者了解行业资金动向。",
+  "url": "https://www.beefmagazine.com/livestock-management/university-of-florida-receives-9-5m-gift-to-address-cattle-pest-threats",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5"
+  },
+  "sourceId": "beefmagazine",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 44,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-12T14:03:46.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "Funds will help develop new strategies to prevent and treat diseases spread by mosquitoes, flies and other pests.",
+  "scrapeMethod": "rss"
+}

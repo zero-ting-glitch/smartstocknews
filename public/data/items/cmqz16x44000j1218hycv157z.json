@@ -1,0 +1,27 @@
+{
+  "id": "cmqz16x44000j1218hycv157z",
+  "titleEn": "Meat Institute promotes Schumpp to VP of international affairs",
+  "titleZh": "美国肉类协会晋升舒姆普为国际事务副总裁",
+  "summaryZh": "美国肉类协会（Meat Institute）宣布晋升政策领袖舒姆普（Schumpp）为国际事务副总裁。舒姆普近期曾就《美墨加协定》（USMCA）的重要性向国会作证。该人事变动聚焦国际贸易政策，与智慧畜牧领域的技术应用（如IoT、AI、自动化等）无直接关联，但对肉类行业的国际供应链和市场准入有一定间接影响。",
+  "featuredReason": "该新闻主要涉及贸易政策与人事变动，与智慧畜牧核心技术关联度低，但关注国际肉类贸易动态的从业者可了解政策层面变化。",
+  "url": "https://www.beefmagazine.com/farm-business-management/meat-institute-promotes-schumpp-to-vp-of-international-affairs",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5"
+  },
+  "sourceId": "beefmagazine",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 25,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-23T22:30:04.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "International policy leader recently provided congressional testimony on importance USMCA.",
+  "scrapeMethod": "rss"
+}

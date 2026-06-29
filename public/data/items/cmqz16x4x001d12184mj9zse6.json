@@ -1,0 +1,27 @@
+{
+  "id": "cmqz16x4x001d12184mj9zse6",
+  "titleEn": "Effect of a bifurcated economy and screwworm on beef producers",
+  "titleZh": "二元经济与螺旋蝇对牛肉生产者的影响",
+  "summaryZh": "本文探讨了在二元经济（高端牛肉买家与预算型消费者并存）背景下，螺旋蝇疫情对牛肉生产者的双重挑战。文章指出，理解并同时服务两类不同消费群体的生产者将获得市场回报。内容主要聚焦于市场策略和疫病影响，未涉及智慧畜牧技术（如IoT、AI、自动化等）的具体应用或创新。",
+  "featuredReason": "该新闻虽未直接涉及智慧畜牧技术，但提醒从业者关注市场分化与疫病风险，有助于从宏观视角思考养殖策略，适合作为行业背景参考。",
+  "url": "https://www.beefmagazine.com/market-news/effect-of-a-bifurcated-economy-and-screwworm-on-beef-producers",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5"
+  },
+  "sourceId": "beefmagazine",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 27,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-17T13:54:23.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "Producers who understand both the premium beef buyer and the budget shopper will be rewarded.",
+  "scrapeMethod": "rss"
+}

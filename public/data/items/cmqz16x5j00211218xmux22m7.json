@@ -1,0 +1,27 @@
+{
+  "id": "cmqz16x5j00211218xmux22m7",
+  "titleEn": "Neogen updates Igenity Beef with new traits",
+  "titleZh": "Neogen更新Igenity Beef牛遗传评估，新增BRD评分与甲烷强度指数",
+  "summaryZh": "Neogen公司对其旗舰牛遗传评估产品Igenity Beef进行了重要更新，新增了牛呼吸道疾病（BRD）评分、可持续性指数和甲烷强度指数三项性状指标。这些新指标旨在帮助牧场主通过基因选择提升动物健康、减少环境足迹，并优化养殖可持续性。虽然该技术本身属于传统遗传育种范畴，但甲烷强度指数与可持续性指数的引入，为智慧畜牧中环境监测与精准管理提供了新的数据维度，可与IoT设备采集的实时环境数据形成互补，推动养殖业向低碳、健康方向转型。",
+  "featuredReason": "该新闻展示了遗传评估工具向环境与健康维度延伸的趋势，为智慧畜牧从业者提供了将基因数据与IoT传感器数据融合的新思路，助力实现精准减排与动物健康管理。",
+  "url": "https://www.beefmagazine.com/livestock-management/neogen-updates-igenity-beef-with-new-traits",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5"
+  },
+  "sourceId": "beefmagazine",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 54,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-10T22:24:03.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "Additions to flagship genetic profile include BRD score, Sustainability Index and methane intensity index.",
+  "scrapeMethod": "rss"
+}
