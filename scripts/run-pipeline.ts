@@ -186,10 +186,11 @@ function calculateQualityScore(
 }
 
 function classifyItem(item: any, source: any): { category: string; subcategory: string } {
-  if (source.type === 'livestock') {
+  // source.species 存的是类别（"livestock"/"crop"/"aggtech"），由管线写入
+  if (source.species === 'livestock') {
     return { category: 'livestock', subcategory: source.defaultSubcategory || 'cattle' };
   }
-  if (source.type === 'crop') {
+  if (source.species === 'crop') {
     return { category: 'crop', subcategory: source.defaultSubcategory || 'field' };
   }
 
@@ -231,7 +232,11 @@ async function main() {
   for (const source of config.sources) {
     await prisma.source.upsert({
       where: { id: source.id },
-      update: {},
+      update: {
+        species: source.type || 'aggtech',
+        category: source.defaultCategory || 'aggtech',
+        defaultSubcategory: source.defaultSubcategory || 'general',
+      },
       create: {
         id: source.id,
         name: source.name,
@@ -241,6 +246,7 @@ async function main() {
         tier: source.tier,
         species: source.type || 'aggtech',
         category: source.defaultCategory || 'aggtech',
+        defaultSubcategory: source.defaultSubcategory || 'general',
       },
     });
   }

@@ -15,8 +15,9 @@ model Source {
   url         String   // "https://www.thepigsite.com"
   rssUrl      String?  // RSS地址
   tier        String   // T1 | T1.5 | T2
-  species     String   // "pig,poultry" 逗号分隔
-  category    String   // "vertical_media" | "academic" | "gov" | "agg_tech"
+  species     String   // "livestock" | "crop" | "aggtech"
+  category    String   // "livestock" | "crop" | "aggtech"
+  defaultSubcategory String @default("general") // pig/poultry/cattle/sheep/field/fruit/horticulture/general
   isActive    Boolean  @default(true)
   lastFetched DateTime?
 
