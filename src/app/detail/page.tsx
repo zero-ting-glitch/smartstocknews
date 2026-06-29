@@ -200,7 +200,7 @@ function DetailContent() {
           {/* 阅读原文 */}
           <div className="detail-actions">
             <a
-              href={item.url}
+              href={item.url.startsWith('http') ? item.url : '#'}
               target="_blank"
               rel="noopener noreferrer"
               className="detail-read-original"

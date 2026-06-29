@@ -7,6 +7,32 @@ import * as cheerio from 'cheerio';
 const UA = 'SmartStock/1.0 (Smart Agriculture News Aggregator; +https://github.com/zero-ting-glitch/smartstocknews)';
 const TIMEOUT = 15000;
 const MAX_CONTENT_LENGTH = 10000;
+const MAX_RESPONSE_BYTES = 5 * 1024 * 1024; // 5MB
+
+// SSRF 防护：只允许 http/https，阻止私有 IP
+const PRIVATE_IP_PATTERNS = [
+  /^127\./,
+  /^10\./,
+  /^172\.(1[6-9]|2\d|3[01])\./,
+  /^192\.168\./,
+  /^0\./,
+  /^169\.254\./,
+  /^::1$/,
+  /^localhost$/i,
+  /^\[::1\]$/,
+];
+
+function isValidUrl(url: string): boolean {
+  try {
+    const parsed = new URL(url);
+    if (parsed.protocol !== 'http:' && parsed.protocol !== 'https:') return false;
+    const hostname = parsed.hostname;
+    if (PRIVATE_IP_PATTERNS.some((p) => p.test(hostname))) return false;
+    return true;
+  } catch {
+    return false;
+  }
+}
 
 export interface ScrapeResult {
   title: string;
@@ -29,6 +55,11 @@ export async function scrapeArticle(
   url: string,
   config?: string
 ): Promise<ScrapeResult | null> {
+  if (!isValidUrl(url)) {
+    console.error(`  [scrape] 非法 URL: ${url}`);
+    return null;
+  }
+
   try {
     const res = await fetch(url, {
       headers: {
@@ -44,7 +75,18 @@ export async function scrapeArticle(
       return null;
     }
 
+    // 检查响应大小
+    const contentLength = res.headers.get('content-length');
+    if (contentLength && parseInt(contentLength) > MAX_RESPONSE_BYTES) {
+      console.error(`  [scrape] 响应太大: ${url} (${contentLength} bytes)`);
+      return null;
+    }
+
     const html = await res.text();
+    if (html.length > MAX_RESPONSE_BYTES) {
+      console.error(`  [scrape] 响应体太大: ${url} (${html.length} bytes)`);
+      return null;
+    }
     const $ = cheerio.load(html);
     const scrapeConfig = config ? JSON.parse(config) : null;
 
@@ -79,6 +121,11 @@ export async function scrapeListingPage(
   listUrl: string,
   config: string
 ): Promise<ListingResult[]> {
+  if (!isValidUrl(listUrl)) {
+    console.error(`  [listing] 非法 URL: ${listUrl}`);
+    return [];
+  }
+
   try {
     const res = await fetch(listUrl, {
       headers: {
@@ -94,7 +141,18 @@ export async function scrapeListingPage(
       return [];
     }
 
+    // 检查响应大小
+    const contentLength = res.headers.get('content-length');
+    if (contentLength && parseInt(contentLength) > MAX_RESPONSE_BYTES) {
+      console.error(`  [listing] 响应太大: ${listUrl}`);
+      return [];
+    }
+
     const html = await res.text();
+    if (html.length > MAX_RESPONSE_BYTES) {
+      console.error(`  [listing] 响应体太大: ${listUrl}`);
+      return [];
+    }
     const $ = cheerio.load(html);
     const scrapeConfig = JSON.parse(config);
     const selector = scrapeConfig.listingSelector || 'article a[href]';
@@ -107,6 +165,7 @@ export async function scrapeListingPage(
       if (!href) return;
 
       const absoluteUrl = resolveUrl(href, listUrl);
+      if (!isValidUrl(absoluteUrl)) return;
       if (seen.has(absoluteUrl)) return;
       seen.add(absoluteUrl);
 

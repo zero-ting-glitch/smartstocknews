@@ -88,7 +88,7 @@ async function main() {
     const detail = {
       ...exportItems.find(e => e.id === item.id),
       contentFull: item.contentFull || '',
-      images: item.images ? JSON.parse(item.images) : [],
+      images: item.images ? (() => { try { return JSON.parse(item.images); } catch { return []; } })() : [],
       author: item.author || '',
       featuredReason: item.featuredReason || '',
       contentHtml: item.contentHtml || '',

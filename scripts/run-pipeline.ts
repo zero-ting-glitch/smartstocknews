@@ -165,7 +165,12 @@ ${contentSnippet ? `内容: ${contentSnippet}` : ''}
 }`;
 
   const raw = await callDeepSeek(prompt);
-  return JSON.parse(cleanJson(raw));
+  try {
+    return JSON.parse(cleanJson(raw));
+  } catch (e) {
+    console.error(`  [AI] JSON 解析失败: ${raw.slice(0, 200)}`);
+    throw e;
+  }
 }
 
 function calculateQualityScore(
@@ -286,7 +291,9 @@ async function main() {
           },
         });
         saved++;
-      } catch {}
+      } catch (e: any) {
+        // URL 重复或其他 DB 错误，静默跳过
+      }
     }
     totalSaved += saved;
     console.log(`  ${source.name}: ${raw.length} raw → ${filtered.length} filtered → ${saved} saved`);
@@ -386,7 +393,7 @@ async function main() {
   const formatDetailItem = (item: any) => ({
     ...formatListItem(item),
     contentFull: item.contentFull || '',
-    images: item.images ? JSON.parse(item.images) : [],
+    images: item.images ? (() => { try { return JSON.parse(item.images); } catch { return []; } })() : [],
     author: item.author || '',
     contentHtml: item.contentHtml || '',
     scrapeMethod: item.scrapeMethod || 'rss',
