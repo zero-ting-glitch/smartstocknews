@@ -3,32 +3,123 @@
  * 使用 cheerio 解析 HTML，无需浏览器
  */
 import * as cheerio from 'cheerio';
+import * as dns from 'dns';
+import * as net from 'net';
 
 const UA = 'SmartStock/1.0 (Smart Agriculture News Aggregator; +https://github.com/zero-ting-glitch/smartstocknews)';
 const TIMEOUT = 15000;
 const MAX_CONTENT_LENGTH = 10000;
 const MAX_RESPONSE_BYTES = 5 * 1024 * 1024; // 5MB
 
-// SSRF 防护：只允许 http/https，阻止私有 IP
-const PRIVATE_IP_PATTERNS = [
-  /^127\./,
-  /^10\./,
-  /^172\.(1[6-9]|2\d|3[01])\./,
-  /^192\.168\./,
-  /^0\./,
-  /^169\.254\./,
-  /^::1$/,
+// ========== SSRF 防护 ==========
+
+// 主机名级别拦截（hostname 字符串匹配）
+const BLOCKED_HOSTNAME_PATTERNS = [
   /^localhost$/i,
   /^\[::1\]$/,
+  /^::1$/,
+  // IPv4 私有/保留段
+  /^127\./,            // loopback
+  /^10\./,             // Class A 私有
+  /^172\.(1[6-9]|2\d|3[01])\./,  // Class B 私有
+  /^192\.168\./,       // Class C 私有
+  /^0\./,              // 当前网络
+  /^169\.254\./,       // link-local
+  /^100\.(6[4-9]|[7-9]\d|1[01]\d|1[2][0-7])\./,  // CGNAT (100.64.0.0/10)
+  /^198\.1[89]\./,     // benchmarking (198.18.0.0/15)
+  /^192\.0\.0\./,      // IETF protocol assignments
+  /^192\.0\.2\./,      // documentation TEST-NET-1
+  /^198\.51\.100\./,   // documentation TEST-NET-2
+  /^203\.0\.113\./,    // documentation TEST-NET-3
+  /^233\.252\.0\./,    // documentation
 ];
 
-function isValidUrl(url: string): boolean {
+// 解析后 IP 级别拦截（比 hostname 匹配更可靠，防 DNS rebinding）
+function isPrivateIp(ip: string): boolean {
+  if (net.isIPv6(ip)) {
+    if (ip === '::1' || ip === '::ffff:127.0.0.1') return true;
+    if (ip.startsWith('fe80:') || ip.startsWith('fc') || ip.startsWith('fd')) return true;
+    if (ip.startsWith('::ffff:')) {
+      const ipv4 = ip.slice(7);
+      return isPrivateIp(ipv4);
+    }
+    const first = parseInt(ip.split(':')[0], 16);
+    if (first >= 0xfe80 && first <= 0xfebf) return true;
+    if (first >= 0xfc00 && first <= 0xfdff) return true;
+    if (first >= 0xff00) return true;
+    return false;
+  }
+  if (net.isIPv4(ip)) {
+    const parts = ip.split('.').map(Number);
+    if (parts[0] === 127) return true;
+    if (parts[0] === 10) return true;
+    if (parts[0] === 172 && parts[1] >= 16 && parts[1] <= 31) return true;
+    if (parts[0] === 192 && parts[1] === 168) return true;
+    if (parts[0] === 0) return true;
+    if (parts[0] === 169 && parts[1] === 254) return true;
+    if (parts[0] === 100 && parts[1] >= 64 && parts[1] <= 127) return true;
+    if (parts[0] === 198 && (parts[1] === 18 || parts[1] === 19)) return true;
+    if (parts[0] >= 224) return true;
+    if (parts[0] === 192 && parts[1] === 0 && parts[2] === 0) return true;
+    if (parts[0] === 192 && parts[1] === 0 && parts[2] === 2) return true;
+    if (parts[0] === 198 && parts[1] === 51 && parts[2] === 100) return true;
+    if (parts[0] === 203 && parts[1] === 0 && parts[2] === 113) return true;
+    return false;
+  }
+  return false;
+}
+
+async function resolveAndValidateHost(hostname: string): Promise<boolean> {
+  if (net.isIPv4(hostname) || net.isIPv6(hostname)) {
+    return !isPrivateIp(hostname);
+  }
+  try {
+    const result = await dns.promises.resolve4(hostname);
+    const addresses: string[] = typeof result === 'string' ? [result] : Array.isArray(result) ? result as string[] : [];
+    for (const addr of addresses) {
+      if (isPrivateIp(addr)) {
+        console.error(`  [ssrf] DNS resolved to private IP: ${hostname} → ${addr}`);
+        return false;
+      }
+    }
+    return true;
+  } catch {
+    try {
+      const result6 = await dns.promises.resolve6(hostname);
+      const addresses6: string[] = typeof result6 === 'string' ? [result6] : Array.isArray(result6) ? result6 as string[] : [];
+      for (const addr of addresses6) {
+        if (isPrivateIp(addr)) {
+          console.error(`  [ssrf] DNS resolved to private IP: ${hostname} → ${addr}`);
+          return false;
+        }
+      }
+      return true;
+    } catch {
+      console.error(`  [ssrf] DNS resolution failed: ${hostname}`);
+      return false;
+    }
+  }
+}
+
+function isSafeUrl(url: string): boolean {
   try {
     const parsed = new URL(url);
     if (parsed.protocol !== 'http:' && parsed.protocol !== 'https:') return false;
     const hostname = parsed.hostname;
-    if (PRIVATE_IP_PATTERNS.some((p) => p.test(hostname))) return false;
+    if (BLOCKED_HOSTNAME_PATTERNS.some((p) => p.test(hostname))) return false;
+    if (/^\d+$/.test(hostname) || /^0[xX][0-9a-fA-F]+$/.test(hostname) || /^0\d+$/.test(hostname)) {
+      return false;
+    }
     return true;
+  } catch {
+    return false;
+  }
+}
+
+function isSafeHref(url: string): boolean {
+  try {
+    const parsed = new URL(url);
+    return parsed.protocol === 'http:' || parsed.protocol === 'https:';
   } catch {
     return false;
   }
@@ -55,8 +146,13 @@ export async function scrapeArticle(
   url: string,
   config?: string
 ): Promise<ScrapeResult | null> {
-  if (!isValidUrl(url)) {
+  if (!isSafeUrl(url)) {
     console.error(`  [scrape] 非法 URL: ${url}`);
+    return null;
+  }
+
+  const parsed = new URL(url);
+  if (!(await resolveAndValidateHost(parsed.hostname))) {
     return null;
   }
 
@@ -121,8 +217,13 @@ export async function scrapeListingPage(
   listUrl: string,
   config: string
 ): Promise<ListingResult[]> {
-  if (!isValidUrl(listUrl)) {
+  if (!isSafeUrl(listUrl)) {
     console.error(`  [listing] 非法 URL: ${listUrl}`);
+    return [];
+  }
+
+  const parsedUrl = new URL(listUrl);
+  if (!(await resolveAndValidateHost(parsedUrl.hostname))) {
     return [];
   }
 
@@ -165,7 +266,7 @@ export async function scrapeListingPage(
       if (!href) return;
 
       const absoluteUrl = resolveUrl(href, listUrl);
-      if (!isValidUrl(absoluteUrl)) return;
+      if (!isSafeUrl(absoluteUrl)) return;
       if (seen.has(absoluteUrl)) return;
       seen.add(absoluteUrl);
 
@@ -242,13 +343,16 @@ function extractContent(
     .trim()
     .slice(0, MAX_CONTENT_LENGTH);
 
-  // 提取图片
+  // 提取图片（只保留 http/https）
   const images: string[] = [];
   const imgSelector = config?.imageSelector || 'img';
   contentEl.find(imgSelector).each((_: number, el: any) => {
     const src = $(el).attr('src') || $(el).attr('data-src');
     if (src && !src.includes('avatar') && !src.includes('icon') && !src.includes('logo')) {
-      images.push(resolveUrl(src, baseUrl));
+      const imgUrl = resolveUrl(src, baseUrl);
+      if (isSafeHref(imgUrl)) {
+        images.push(imgUrl);
+      }
     }
   });
 

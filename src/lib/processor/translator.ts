@@ -56,7 +56,9 @@ export async function translateItem(
     });
 
     let text = response.choices[0]?.message?.content || '';
-    console.log('[Translator] Raw response:', text);
+    if (process.env.NODE_ENV !== 'production') {
+      console.log('[Translator] Raw response:', text);
+    }
 
     // 处理 markdown 代码块包裹的 JSON
     text = text.replace(/```json\s*/g, '').replace(/```\s*/g, '').trim();

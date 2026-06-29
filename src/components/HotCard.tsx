@@ -37,7 +37,7 @@ export function HotCard({ items = [] }: HotCardProps) {
                 {index + 1}
               </span>
               <a
-                href={item.url}
+                href={item.url.startsWith('http') ? item.url : '#'}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="m-hotcard-link"

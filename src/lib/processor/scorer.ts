@@ -47,7 +47,9 @@ export async function scoreItem(title: string, summary?: string): Promise<AIScor
     });
 
     let text = response.choices[0]?.message?.content || '';
-    console.log('[Scorer] Raw response:', text);
+    if (process.env.NODE_ENV !== 'production') {
+      console.log('[Scorer] Raw response:', text);
+    }
 
     // 处理 markdown 代码块包裹的 JSON
     text = text.replace(/```json\s*/g, '').replace(/```\s*/g, '').trim();

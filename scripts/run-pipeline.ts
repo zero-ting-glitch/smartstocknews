@@ -390,12 +390,20 @@ async function main() {
   });
 
   // 详情格式（含全文、图片等）
+  // contentHtml 在导出前净化：移除 script/style 标签和事件属性，防止存储型 XSS
+  const sanitizeHtml = (html: string): string =>
+    html
+      .replace(/<script[\s\S]*?<\/script>/gi, '')
+      .replace(/<style[\s\S]*?<\/style>/gi, '')
+      .replace(/\son\w+\s*=\s*["'][^"']*["']/gi, '')
+      .replace(/javascript\s*:/gi, '');
+
   const formatDetailItem = (item: any) => ({
     ...formatListItem(item),
     contentFull: item.contentFull || '',
     images: item.images ? (() => { try { return JSON.parse(item.images); } catch { return []; } })() : [],
     author: item.author || '',
-    contentHtml: item.contentHtml || '',
+    contentHtml: item.contentHtml ? sanitizeHtml(item.contentHtml) : '',
     scrapeMethod: item.scrapeMethod || 'rss',
   });
 

@@ -34,11 +34,11 @@ function DetailContent() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (!id) {
+    if (!id || !/^[a-zA-Z0-9_-]+$/.test(id)) {
       setLoading(false);
       return;
     }
-    fetch(`${BASE_PATH}/data/items/${id}.json`)
+    fetch(`${BASE_PATH}/data/items/${encodeURIComponent(id)}.json`)
       .then((r) => {
         if (!r.ok) throw new Error('Not found');
         return r.json();
@@ -180,9 +180,12 @@ function DetailContent() {
           {/* 文章图片 */}
           {item.images && item.images.length > 0 && (
             <div className="detail-images">
-              {item.images.slice(0, 3).map((img, i) => (
-                <img key={i} src={img} alt="" className="detail-image" loading="lazy" />
-              ))}
+              {item.images
+                .filter((img) => typeof img === 'string' && img.startsWith('http'))
+                .slice(0, 3)
+                .map((img, i) => (
+                  <img key={i} src={img} alt="" className="detail-image" loading="lazy" />
+                ))}
             </div>
           )}
 
