@@ -2,6 +2,7 @@
 
 import { formatTime, speciesNames, speciesColors } from '@/lib/utils';
 import { NewsItem } from './Timeline';
+import { BASE_PATH } from '@/lib/config';
 
 interface NewsCardProps {
   item: NewsItem;
@@ -9,14 +10,11 @@ interface NewsCardProps {
 
 export function NewsCard({ item }: NewsCardProps) {
   const species = item.species.split(',').filter(Boolean);
-  const techTags = item.techTags.split(',').filter(Boolean);
-  const isFeatured = item.qualityScore >= 60;
+  const isFeatured = item.isFeatured || item.qualityScore >= 55;
 
   return (
     <a
-      href={item.url}
-      target="_blank"
-      rel="noopener noreferrer"
+      href={`${BASE_PATH}/detail?id=${item.id}`}
       className="m-row"
     >
       <span className="m-row-time">{formatTime(item.publishedAt)}</span>
@@ -26,7 +24,7 @@ export function NewsCard({ item }: NewsCardProps) {
           <span className="m-row-src">
             {item.source.nameZh} ({item.source.tier})
           </span>
-          {species.map(s => (
+          {species.map((s) => (
             <span
               key={s}
               className={`tag tag-${s}`}
@@ -41,15 +39,11 @@ export function NewsCard({ item }: NewsCardProps) {
         {item.titleZh && <div className="m-row-title-zh">{item.titleZh}</div>}
         <div className="m-row-title-en">{item.titleEn}</div>
 
-        {techTags.length > 0 && (
-          <div className="m-row-tags">
-            {techTags.map(tag => (
-              <span key={tag} className="tag">{tag}</span>
-            ))}
-          </div>
+        {item.featuredReason && (
+          <div className="m-row-reason">{item.featuredReason}</div>
         )}
 
-        {item.summaryZh && (
+        {item.summaryZh && !item.featuredReason && (
           <div className="m-recommend-box">
             <span className="m-recommend-label">推荐理由：</span>
             {item.summaryZh}

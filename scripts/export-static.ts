@@ -81,6 +81,23 @@ async function main() {
   writeFileSync(join(OUTPUT_DIR, 'items.json'), JSON.stringify(exportItems, null, 2));
   console.log(`Exported ${exportItems.length} items`);
 
+  // 1.5 导出详情 JSON（每条一个文件，含全文）
+  const detailDir = join(OUTPUT_DIR, 'items');
+  mkdirSync(detailDir, { recursive: true });
+  for (const item of items) {
+    const detail = {
+      ...exportItems.find(e => e.id === item.id),
+      contentFull: item.contentFull || '',
+      images: item.images ? JSON.parse(item.images) : [],
+      author: item.author || '',
+      featuredReason: item.featuredReason || '',
+      contentHtml: item.contentHtml || '',
+      scrapeMethod: item.scrapeMethod || 'rss',
+    };
+    writeFileSync(join(detailDir, `${item.id}.json`), JSON.stringify(detail, null, 2));
+  }
+  console.log(`Exported ${items.length} detail files to items/`);
+
   // 2. 导出热点条目
   const hotItems = await prisma.item.findMany({
     where: { isHot: true, isRelevant: true },

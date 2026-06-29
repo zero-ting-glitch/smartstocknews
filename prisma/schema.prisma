@@ -19,6 +19,12 @@ model Source {
   category    String   // "vertical_media" | "academic" | "gov" | "agg_tech"
   isActive    Boolean  @default(true)
   lastFetched DateTime?
+
+  // 爬取配置
+  scrapeType   String   @default("rss")   // "rss" | "listing_page"
+  listUrl      String?                     // 列表页 URL
+  scrapeConfig String?                     // JSON：CSS 选择器
+
   createdAt   DateTime @default(now())
   items       Item[]
 }
@@ -34,6 +40,18 @@ model Item {
   url              String   // 原文链接（唯一）
   publishedAt      DateTime // 原文发布时间
   contentHtml      String?  // 原文HTML（备用）
+
+  // 全文内容（爬取自原始页面）
+  contentFull      String?  // 纯文本全文，max ~10000 chars
+  images           String?  // JSON 数组：文章图片 URL
+  author           String?  // 文章作者
+
+  // 增强 AI 输出
+  featuredReason   String?  // AI 精选理由（中文，1-2 句）
+
+  // 爬取元数据
+  scrapedAt        DateTime? // 何时爬取全文
+  scrapeMethod     String?   // "rss" | "web_scrape" | "listing_scrape"
 
   // AI处理后
   titleZh          String?  // 中文翻译标题

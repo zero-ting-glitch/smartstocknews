@@ -10,6 +10,7 @@ export interface NewsItem {
   titleZh: string | null;
   url: string;
   summaryZh: string | null;
+  featuredReason: string | null;
   publishedAt: string;
   source: {
     name: string;
@@ -21,6 +22,7 @@ export interface NewsItem {
   subcategory: string;
   techTags: string;
   qualityScore: number;
+  isFeatured: boolean;
 }
 
 interface TimelineProps {
