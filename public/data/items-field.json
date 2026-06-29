@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "id": "cmqt2nwav000x12t0q2t1ki4l",
+    "titleEn": "This Week in Agribusiness, June 20, 2026",
+    "titleZh": "本周农业商业资讯（2026年6月20日）",
+    "url": "https://www.beefmagazine.com/market-news/this-week-in-agribusiness-june-20-2026",
+    "summaryZh": "本期涵盖ARC与PLC基础面积计划、数据中心与太阳能农场、Barchart数据工具、生物柴油混合、粮仓安全及第12号提案等关键议题，为畜牧从业者提供政策、技术与市场多维度参考，值得关注。",
+    "publishedAt": "2026-06-20T12:00:00.000Z",
+    "source": {
+      "name": "Beef Magazine",
+      "nameZh": "肉牛杂志",
+      "tier": "T2"
+    },
+    "species": "cattle",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 17,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqyitbe8002ptw5i5ee9l6ce",
+    "titleEn": "This Week in Agribusiness, June 20, 2026",
+    "titleZh": "本周农业商业资讯（2026年6月20日）",
+    "url": "https://www.nationalhogfarmer.com/market-news/this-week-in-agribusiness-june-20-2026",
+    "summaryZh": "本期涵盖ARC与PLC基础面积计划、数据中心与太阳能农场、Barchart数据工具、生物柴油混合、粮仓安全及第12号提案等关键议题，为智慧畜牧从业者提供政策、技术与市场多维视角，值得关注以把握行业动态。",
+    "publishedAt": "2026-06-20T12:00:00.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
+    "species": "pig",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 24,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqt2nwb7001b12t0t18o9y1b",
+    "titleEn": "May 2026 sees broad-based retail fresh meat inflation",
+    "titleZh": "2026年5月零售鲜肉通胀全面蔓延",
+    "url": "https://www.beefmagazine.com/market-news/may-2026-sees-broad-based-retail-fresh-meat-inflation",
+    "summaryZh": "本文指出2026年5月零售鲜肉价格出现广泛上涨，长期天然气价格压力开始考验消费者承受力。值得关注的是，这反映了能源成本向食品终端的传导效应，对畜牧养殖及零售行业具有重要预警意义。",
+    "publishedAt": "2026-06-17T12:30:02.000Z",
+    "source": {
+      "name": "Beef Magazine",
+      "nameZh": "肉牛杂志",
+      "tier": "T2"
+    },
+    "species": "cattle",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 19,
+    "isHot": false,
+    "multiSourceCount": 1
+  }
+]
