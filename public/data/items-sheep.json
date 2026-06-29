@@ -1,5 +1,20 @@
 [
   {
+    "id": "cmqyit7gp0001tw5ic5lta7v2",
+    "titleEn": "Komet Invests in Irrigation Intelligence to Close One of Agriculture’s Biggest Data Gaps",
+    "titleZh": "Komet投资灌溉智能，填补农业最大数据缺口",
+    "summaryZh": "Komet成立新的应用工程与数字系统部门及体验中心，旨在通过生成全球相关洞察，推动枢轴灌溉科学、工程和决策的进步。此举有望解决农业领域关键数据缺失问题，值得关注其技术落地与行业影响。",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/irrigation/komet-invests-in-irrigation-intelligence-to-close-one-of-agricultures-biggest-data-gaps/",
+    "source": "精准农业",
+    "sourceId": "precisionag",
+    "species": "pig,poultry,cattle,sheep",
+    "techTags": "",
+    "qualityScore": 41,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-06-26T15:01:07.000Z"
+  },
+  {
     "id": "cmqrsbigm0001iiyf7r8ctq46",
     "titleEn": "Niqo Robotics Takes India-Built Physical AI Farming Platform to Europe at Bharat Innovates 2026",
     "titleZh": "Niqo Robotics携印度造实体AI农业平台亮相Bharat Innovates 2026，进军欧洲市场",
@@ -13,6 +28,51 @@
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-06-19T17:33:10.000Z"
+  },
+  {
+    "id": "cmqyit7gw0005tw5i0wh0m5jo",
+    "titleEn": "9 Ways Collaboration Is Accelerating Innovation Across AgTech",
+    "titleZh": "九大合作方式加速农业科技创新",
+    "summaryZh": "本文介绍了近期农业科技领域的多项合作如何推动人工智能、精准农业和智能技术革新。通过跨企业、跨行业的协同创新，农业科技正加速落地应用，值得关注这些合作如何重塑未来农业格局。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/9-ways-collaboration-is-accelerating-innovation-across-agtech/",
+    "source": "精准农业",
+    "sourceId": "precisionag",
+    "species": "pig,poultry,cattle,sheep",
+    "techTags": "",
+    "qualityScore": 35,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-06-18T18:10:54.000Z"
+  },
+  {
+    "id": "cmqyit7h30007tw5ijldkw716",
+    "titleEn": "Beyond Disruption: Earning Trust and Driving Impact in AgTech Through Grower-Led Innovation",
+    "titleZh": "超越颠覆：以种植者主导的创新赢得信任并推动农业科技影响",
+    "summaryZh": "Reservoir首席执行官Danny Bernstein指出，更智能的农业科技始于信任，种植者主导的创新正在超越传统颠覆模式，带来真实影响。本文值得关注，因为它揭示了如何通过信任与协作实现农业科技的实际落地与可持续增长。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/beyond-disruption-earning-trust-and-driving-impact-in-agtech-through-grower-led-innovation/",
+    "source": "精准农业",
+    "sourceId": "precisionag",
+    "species": "pig,poultry,cattle,sheep",
+    "techTags": "",
+    "qualityScore": 35,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-06-17T15:15:53.000Z"
+  },
+  {
+    "id": "cmqyit7hb0009tw5i29392lls",
+    "titleEn": "UC Riverside Develops Modern-Day Robotic Divining Rod",
+    "titleZh": "UC Riverside研发现代机器人探水棒",
+    "summaryZh": "加州大学河滨分校开发出一套新系统，能逐棵树绘制土壤湿度图，让种植者仅在需要的地点和时间浇水。这项技术精准节水，值得关注农业智能化与水资源管理的人士阅读。",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/uc-riverside-develops-modern-day-robotic-divining-rod/",
+    "source": "精准农业",
+    "sourceId": "precisionag",
+    "species": "pig,poultry,cattle,sheep",
+    "techTags": "",
+    "qualityScore": 32,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-06-15T18:17:17.000Z"
   },
   {
     "id": "cmqt2nv82000312t0bqrzirne",
