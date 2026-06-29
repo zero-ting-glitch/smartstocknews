@@ -285,7 +285,7 @@ async function main() {
             url: item.url,
             publishedAt: item.publishedAt,
             contentHtml: item.contentHtml,
-            species: source.species,
+            species: source.type || source.defaultCategory || 'aggtech',
             techTags: '',
             isRelevant: true,
           },
