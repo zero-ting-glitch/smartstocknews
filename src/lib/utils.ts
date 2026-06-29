@@ -90,6 +90,9 @@ export const speciesColors: Record<string, string> = {
   poultry: '#a78bfa',  // 紫
   cattle: '#34d399',   // 绿
   sheep: '#fbbf24',    // 黄
+  field: '#fb923c',    // 橙
+  fruit: '#f87171',    // 红
+  horticulture: '#e879f9', // 紫粉
 };
 
 /**
@@ -100,6 +103,9 @@ export const speciesNames: Record<string, string> = {
   poultry: '禽',
   cattle: '牛',
   sheep: '羊',
+  field: '大田',
+  fruit: '果蔬',
+  horticulture: '园艺',
 };
 
 /**

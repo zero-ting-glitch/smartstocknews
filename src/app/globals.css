@@ -391,6 +391,21 @@ body {
   color: #b45309;
 }
 
+.tag-field {
+  background: rgba(251, 146, 60, 0.08);
+  color: #c2410c;
+}
+
+.tag-fruit {
+  background: rgba(248, 113, 113, 0.08);
+  color: #b91c1c;
+}
+
+.tag-horticulture {
+  background: rgba(232, 121, 249, 0.08);
+  color: #a21caf;
+}
+
 /* ========== 热点卡片 ========== */
 .m-hotcard {
   background: var(--m-surface);

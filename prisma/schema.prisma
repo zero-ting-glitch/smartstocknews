@@ -39,6 +39,8 @@ model Item {
   titleZh          String?  // 中文翻译标题
   summaryZh        String?  // 中文摘要（150字）
   species          String   // "pig" 自动标注
+  category         String?  // "livestock" | "crop" | "aggtech"
+  subcategory      String?  // "pig" | "poultry" | "cattle" | "sheep" | "field" | "fruit" | "horticulture" | "general"
   techTags         String   // "iot,ai,automation" 逗号分隔
   isRelevant       Boolean  @default(true) // AI判断是否与智慧畜牧相关
 
@@ -54,6 +56,8 @@ model Item {
   @@unique([url]) // URL去重
   @@index([publishedAt(sort: Desc)])
   @@index([species])
+  @@index([category])
+  @@index([subcategory])
   @@index([isHot])
   @@index([qualityScore(sort: Desc)])
 }

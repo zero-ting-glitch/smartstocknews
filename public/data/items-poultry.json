@@ -3,210 +3,280 @@
     "id": "cmqyit7gp0001tw5ic5lta7v2",
     "titleEn": "Komet Invests in Irrigation Intelligence to Close One of Agriculture’s Biggest Data Gaps",
     "titleZh": "Komet投资灌溉智能，填补农业最大数据缺口",
-    "summaryZh": "Komet成立新的应用工程与数字系统部门及体验中心，旨在通过生成全球相关洞察，推动枢轴灌溉科学、工程和决策的进步。此举有望解决农业领域关键数据缺失问题，值得关注其技术落地与行业影响。",
     "url": "https://www.globalagtechinitiative.com/in-field-technologies/irrigation/komet-invests-in-irrigation-intelligence-to-close-one-of-agricultures-biggest-data-gaps/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "Komet成立新的应用工程与数字系统部门及体验中心，旨在通过生成全球相关洞察，推动枢轴灌溉科学、工程和决策的进步。此举有望解决农业领域关键数据缺失问题，值得关注其技术落地与行业影响。",
+    "publishedAt": "2026-06-26T15:01:07.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 41,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-26T15:01:07.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqrsbigm0001iiyf7r8ctq46",
     "titleEn": "Niqo Robotics Takes India-Built Physical AI Farming Platform to Europe at Bharat Innovates 2026",
     "titleZh": "Niqo Robotics携印度造实体AI农业平台亮相Bharat Innovates 2026，进军欧洲市场",
-    "summaryZh": "Niqo Robotics从印度政府旗舰深科技大会的120家创新企业中脱颖而出，标志着印度制造的农业机器人正从本土农田走向全球市场。该文最初发表于全球农业科技倡议。",
     "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/niqo-robotics-takes-india-built-physical-ai-farming-platform-to-europe-at-bharat-innovates-2026/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "Niqo Robotics从印度政府旗舰深科技大会的120家创新企业中脱颖而出，标志着印度制造的农业机器人正从本土农田走向全球市场。该文最初发表于全球农业科技倡议。",
+    "publishedAt": "2026-06-19T17:33:10.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 48.3,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-19T17:33:10.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyit7gw0005tw5i0wh0m5jo",
     "titleEn": "9 Ways Collaboration Is Accelerating Innovation Across AgTech",
     "titleZh": "九大合作方式加速农业科技创新",
-    "summaryZh": "本文介绍了近期农业科技领域的多项合作如何推动人工智能、精准农业和智能技术革新。通过跨企业、跨行业的协同创新，农业科技正加速落地应用，值得关注这些合作如何重塑未来农业格局。",
     "url": "https://www.globalagtechinitiative.com/digital-farming/9-ways-collaboration-is-accelerating-innovation-across-agtech/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "本文介绍了近期农业科技领域的多项合作如何推动人工智能、精准农业和智能技术革新。通过跨企业、跨行业的协同创新，农业科技正加速落地应用，值得关注这些合作如何重塑未来农业格局。",
+    "publishedAt": "2026-06-18T18:10:54.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 35,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-18T18:10:54.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyit7h30007tw5ijldkw716",
     "titleEn": "Beyond Disruption: Earning Trust and Driving Impact in AgTech Through Grower-Led Innovation",
     "titleZh": "超越颠覆：以种植者主导的创新赢得信任并推动农业科技影响",
-    "summaryZh": "Reservoir首席执行官Danny Bernstein指出，更智能的农业科技始于信任，种植者主导的创新正在超越传统颠覆模式，带来真实影响。本文值得关注，因为它揭示了如何通过信任与协作实现农业科技的实际落地与可持续增长。",
     "url": "https://www.globalagtechinitiative.com/digital-farming/beyond-disruption-earning-trust-and-driving-impact-in-agtech-through-grower-led-innovation/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "Reservoir首席执行官Danny Bernstein指出，更智能的农业科技始于信任，种植者主导的创新正在超越传统颠覆模式，带来真实影响。本文值得关注，因为它揭示了如何通过信任与协作实现农业科技的实际落地与可持续增长。",
+    "publishedAt": "2026-06-17T15:15:53.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 35,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-17T15:15:53.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyit7hb0009tw5i29392lls",
     "titleEn": "UC Riverside Develops Modern-Day Robotic Divining Rod",
     "titleZh": "UC Riverside研发现代机器人探水棒",
-    "summaryZh": "加州大学河滨分校开发出一套新系统，能逐棵树绘制土壤湿度图，让种植者仅在需要的地点和时间浇水。这项技术精准节水，值得关注农业智能化与水资源管理的人士阅读。",
     "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/uc-riverside-develops-modern-day-robotic-divining-rod/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "加州大学河滨分校开发出一套新系统，能逐棵树绘制土壤湿度图，让种植者仅在需要的地点和时间浇水。这项技术精准节水，值得关注农业智能化与水资源管理的人士阅读。",
+    "publishedAt": "2026-06-15T18:17:17.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 32,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-15T18:17:17.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqt2nv82000312t0bqrzirne",
     "titleEn": "Syngenta Signs MoU to Be Strategic Partner in India’s First Open-Data Agricultural Ecosystem Annam.AI",
     "titleZh": "先正达签约成为印度首个开放数据农业生态系统Annam.AI战略伙伴",
-    "summaryZh": "先正达与印度首个开放数据农业生态系统Annam.AI签署谅解备忘录，将贡献农艺专业知识，助力构建精准作物健康、病虫害预测及热应激模型。该合作标志着开放数据在农业科技领域的重大突破，值得关注其对智慧农业发展的示范效应。",
     "url": "https://www.globalagtechinitiative.com/digital-farming/syngenta-signs-mou-to-be-strategic-partner-in-indias-first-open-data-agricultural-ecosystem-annam-ai/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "先正达与印度首个开放数据农业生态系统Annam.AI签署谅解备忘录，将贡献农艺专业知识，助力构建精准作物健康、病虫害预测及热应激模型。该合作标志着开放数据在农业科技领域的重大突破，值得关注其对智慧农业发展的示范效应。",
+    "publishedAt": "2026-06-15T17:51:42.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 41,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-15T17:51:42.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqt2nv8r000512t0mopzunom",
     "titleEn": "Inside One of America’s Largest Ag Co-Op’s Practical Approach to AI",
     "titleZh": "美国最大农业合作社的AI务实之道",
-    "summaryZh": "GROWMARK农艺总监Brendan Bachman详解北美最大合作系统之一如何规模化应用AI，揭示技术落地的运营现实。本文为农业科技从业者提供了大型合作社AI部署的实战经验与关键洞察，值得关注。",
     "url": "https://www.globalagtechinitiative.com/digital-farming/inside-one-of-americas-largest-ag-co-ops-practical-approach-to-ai/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "GROWMARK农艺总监Brendan Bachman详解北美最大合作系统之一如何规模化应用AI，揭示技术落地的运营现实。本文为农业科技从业者提供了大型合作社AI部署的实战经验与关键洞察，值得关注。",
+    "publishedAt": "2026-06-12T16:46:56.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 39,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-12T16:46:56.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqt2nv8t000712t0ddvp1s3j",
     "titleEn": "Tech Hub LIVE Returns to Des Moines July 20-22 with Practical Answers for a High-Pressure Ag Economy",
     "titleZh": "科技枢纽LIVE重返得梅因，7月20-22日聚焦高压农业经济实用方案",
-    "summaryZh": "农业零售顶级技术会议回归，提供数据驱动洞察、同行交流与创新解决方案，助力应对高压力农业经济挑战。值得关注其如何通过实战策略推动农业未来转型。",
     "url": "https://www.globalagtechinitiative.com/digital-farming/tech-hub-live-returns-to-des-moines-july-20-22-with-practical-answers-for-a-high-pressure-ag-economy/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "农业零售顶级技术会议回归，提供数据驱动洞察、同行交流与创新解决方案，助力应对高压力农业经济挑战。值得关注其如何通过实战策略推动农业未来转型。",
+    "publishedAt": "2026-06-12T15:38:48.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 34,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-12T15:38:48.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqt2nv8v000912t08ocge37x",
     "titleEn": "5 Technologies That Are Making Farms Smarter – Worldwide",
     "titleZh": "五大技术让全球农场更智能",
-    "summaryZh": "本文介绍了从人工智能、物联网到无人机和机器人等五项突破性技术，正在将全球农业转变为更智能、更具韧性的运营模式。值得关注这些前沿科技如何推动农业现代化与可持续发展。",
     "url": "https://www.globalagtechinitiative.com/in-field-technologies/drones-uavs/5-technologies-that-are-making-farms-smarter-worldwide/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "本文介绍了从人工智能、物联网到无人机和机器人等五项突破性技术，正在将全球农业转变为更智能、更具韧性的运营模式。值得关注这些前沿科技如何推动农业现代化与可持续发展。",
+    "publishedAt": "2026-06-02T14:39:20.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 40,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-02T14:39:20.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqt2nv8x000b12t0e4eboxoi",
     "titleEn": "Inside India’s Agricultural Labor Gap: How AgTech Is Digitizing the Farm Workforce",
     "titleZh": "印度农业劳动力缺口：AgTech如何数字化农场劳动力",
-    "summaryZh": "本文探讨了人工智能与数据如何改变印度碎片化的农业劳动力市场，提升效率、透明度及农民生计。值得关注的是，它揭示了科技在解决劳动力短缺中的实际应用，对全球农业数字化转型具有参考价值。",
     "url": "https://www.globalagtechinitiative.com/digital-farming/inside-indias-agricultural-labor-gap-how-agtech-is-digitizing-the-farm-workforce/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "本文探讨了人工智能与数据如何改变印度碎片化的农业劳动力市场，提升效率、透明度及农民生计。值得关注的是，它揭示了科技在解决劳动力短缺中的实际应用，对全球农业数字化转型具有参考价值。",
+    "publishedAt": "2026-06-02T14:01:58.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 42,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-02T14:01:58.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqt2nv8z000d12t09evawhze",
     "titleEn": "Reservoir Opens Its Farms to Create Dense Innovation Hubs for Rugged AI and AgTech",
     "titleZh": "Reservoir开放农场打造AI与农业科技密集创新中心",
-    "summaryZh": "Reservoir推出免费Associate层级，向更多初创企业开放其农场，加速试验与成果转化。此举旨在构建密集创新枢纽，推动适应恶劣环境的AI与农业科技发展，值得关注其对行业生态的催化作用。",
     "url": "https://www.globalagtechinitiative.com/digital-farming/reservoir-opens-its-farms-to-create-dense-innovation-hubs-for-rugged-ai-and-agtech/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "Reservoir推出免费Associate层级，向更多初创企业开放其农场，加速试验与成果转化。此举旨在构建密集创新枢纽，推动适应恶劣环境的AI与农业科技发展，值得关注其对行业生态的催化作用。",
+    "publishedAt": "2026-06-02T13:55:48.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 40,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-02T13:55:48.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqt2nv90000f12t05wouo2do",
     "titleEn": "Ag Tech Talk: Smarter Data, Stronger Relationships",
     "titleZh": "农业科技谈：更智能的数据，更紧密的关系",
-    "summaryZh": "Ever.Ag的Alan Brady指出，人工智能正在超越定价层面变革农业零售，将零售商、供应商和农学家连接成一个实时同步的生态系统。本文揭示了数据驱动如何重塑农业合作模式，值得关注。\n",
     "url": "https://www.globalagtechinitiative.com/digital-farming/analytics/ag-tech-talk-smarter-data-stronger-relationships/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "Ever.Ag的Alan Brady指出，人工智能正在超越定价层面变革农业零售，将零售商、供应商和农学家连接成一个实时同步的生态系统。本文揭示了数据驱动如何重塑农业合作模式，值得关注。\n",
+    "publishedAt": "2026-06-01T15:05:25.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 35,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-01T15:05:25.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqt2nv92000h12t0ye840xum",
     "titleEn": "UK Firm Takes Leading Role in Cutting-Edge Farm Robots Project",
     "titleZh": "英国公司领衔尖端农业机器人项目",
-    "summaryZh": "英国坎布里亚的Forth UK公司参与全球创新项目FARMAR，将传统农业知识转化为智能机器人系统，助力现代农业。该项目展示了传统与科技融合的前沿趋势，值得关注农业自动化领域的读者深入了解。",
     "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/uk-firm-takes-leading-role-in-cutting-edge-farm-robots-project/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "英国坎布里亚的Forth UK公司参与全球创新项目FARMAR，将传统农业知识转化为智能机器人系统，助力现代农业。该项目展示了传统与科技融合的前沿趋势，值得关注农业自动化领域的读者深入了解。",
+    "publishedAt": "2026-05-29T15:07:49.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 46,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-05-29T15:07:49.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqt2nv94000j12t0agxnvcts",
     "titleEn": "Niqo Robotics Charts Path to Profitability as Physical AI Weeding Platform Expands into New Crops, Markets, and New Generation of Products",
     "titleZh": "Niqo Robotics：物理AI除草平台迈向盈利新阶段",
-    "summaryZh": "农业机器人公司Niqo Robotics核心除草业务接近自给自足，宣布拓展新作物与市场，并计划今年推出新一代除草机器人。本文揭示其盈利路径与技术创新，值得关注农业AI落地与商业化前景。",
     "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/niqo-robotics-charts-path-to-profitability-as-physical-ai-weeding-platform-expands-into-new-crops-markets-and-new-generation-of-products/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "农业机器人公司Niqo Robotics核心除草业务接近自给自足，宣布拓展新作物与市场，并计划今年推出新一代除草机器人。本文揭示其盈利路径与技术创新，值得关注农业AI落地与商业化前景。",
+    "publishedAt": "2026-05-25T20:02:25.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 41,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-05-25T20:02:25.000Z"
+    "multiSourceCount": 1
   }
 ]

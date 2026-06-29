@@ -3,585 +3,800 @@
     "id": "cmqyitbb7001vtw5ij5sasz9a",
     "titleEn": "New cuts move pork beyond the chop",
     "titleZh": "猪肉切割新方式：超越传统排骨",
-    "summaryZh": "本文探讨了美国消费者口味变化如何推动猪肉行业在零售和餐饮领域进行创新切割，值得关注的是，这种变化不仅提升了猪肉产品的附加值，也为行业提供了适应市场新需求的策略参考。",
     "url": "https://www.nationalhogfarmer.com/farming-business-management/new-cuts-move-pork-beyond-the-chop",
-    "source": "美国养猪人",
-    "sourceId": "nationalhogfarmer",
+    "summaryZh": "本文探讨了美国消费者口味变化如何推动猪肉行业在零售和餐饮领域进行创新切割，值得关注的是，这种变化不仅提升了猪肉产品的附加值，也为行业提供了适应市场新需求的策略参考。",
+    "publishedAt": "2026-06-26T18:56:30.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
     "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
     "techTags": "",
     "qualityScore": 32,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-26T18:56:30.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyit7gp0001tw5ic5lta7v2",
     "titleEn": "Komet Invests in Irrigation Intelligence to Close One of Agriculture’s Biggest Data Gaps",
     "titleZh": "Komet投资灌溉智能，填补农业最大数据缺口",
-    "summaryZh": "Komet成立新的应用工程与数字系统部门及体验中心，旨在通过生成全球相关洞察，推动枢轴灌溉科学、工程和决策的进步。此举有望解决农业领域关键数据缺失问题，值得关注其技术落地与行业影响。",
     "url": "https://www.globalagtechinitiative.com/in-field-technologies/irrigation/komet-invests-in-irrigation-intelligence-to-close-one-of-agricultures-biggest-data-gaps/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "Komet成立新的应用工程与数字系统部门及体验中心，旨在通过生成全球相关洞察，推动枢轴灌溉科学、工程和决策的进步。此举有望解决农业领域关键数据缺失问题，值得关注其技术落地与行业影响。",
+    "publishedAt": "2026-06-26T15:01:07.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 41,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-26T15:01:07.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyitbbd001xtw5iktpwja3e",
     "titleEn": "July 4th cookout costs mirror 4.2% inflation rate",
     "titleZh": "7月4日烧烤成本与4.2%通胀率持平",
-    "summaryZh": "本文通过对比牛肉和猪肉零售价格涨幅，揭示了食品通胀对消费者支出的实际影响。数据显示，碎牛肉价格上涨5.5%，猪排上涨4.7%，为畜牧业从业者和消费者提供了重要的市场参考，值得关注通胀对养殖成本和终端需求的连锁反应。",
     "url": "https://www.nationalhogfarmer.com/market-news/july-4th-cookout-costs-mirror-inflation-rate",
-    "source": "美国养猪人",
-    "sourceId": "nationalhogfarmer",
+    "summaryZh": "本文通过对比牛肉和猪肉零售价格涨幅，揭示了食品通胀对消费者支出的实际影响。数据显示，碎牛肉价格上涨5.5%，猪排上涨4.7%，为畜牧业从业者和消费者提供了重要的市场参考，值得关注通胀对养殖成本和终端需求的连锁反应。",
+    "publishedAt": "2026-06-26T13:07:47.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
     "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
     "techTags": "",
     "qualityScore": 25,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-26T13:07:47.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyitbbm001ztw5ii5t6f6sa",
     "titleEn": "ISU research targets smarter manure strategies",
     "titleZh": "ISU研究瞄准更智能的粪肥策略",
-    "summaryZh": "该研究探讨精准农业工具在提升畜禽粪便有效利用方面的潜力，为畜牧环保与资源循环提供创新思路，值得关注农业科技前沿动态的人士阅读。",
     "url": "https://www.nationalhogfarmer.com/farming-business-management/isu-research-targets-smarter-manure-strategies",
-    "source": "美国养猪人",
-    "sourceId": "nationalhogfarmer",
+    "summaryZh": "该研究探讨精准农业工具在提升畜禽粪便有效利用方面的潜力，为畜牧环保与资源循环提供创新思路，值得关注农业科技前沿动态的人士阅读。",
+    "publishedAt": "2026-06-25T17:23:05.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
     "species": "pig",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 47,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-25T17:23:05.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyitbbt0021tw5i4jxl3f26",
     "titleEn": "California Plastics Act sparks 17-state lawsuit",
     "titleZh": "加州塑料法案引发17州诉讼",
-    "summaryZh": "该新闻揭示了加州塑料法案对畜牧业的影响，17州联合诉讼旨在保护消费者免受成本上升和违宪强制令的困扰。值得关注的是，这反映了环保法规与农业经济之间的冲突，对畜牧业的未来政策走向具有重要参考价值。",
     "url": "https://www.nationalhogfarmer.com/farm-policy-news/california-plastics-act-sparks-17-state-lawsuit",
-    "source": "美国养猪人",
-    "sourceId": "nationalhogfarmer",
+    "summaryZh": "该新闻揭示了加州塑料法案对畜牧业的影响，17州联合诉讼旨在保护消费者免受成本上升和违宪强制令的困扰。值得关注的是，这反映了环保法规与农业经济之间的冲突，对畜牧业的未来政策走向具有重要参考价值。",
+    "publishedAt": "2026-06-25T13:17:41.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
     "species": "pig",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 25,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-25T13:17:41.000Z"
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqyita82000ttw5ismdve6ke",
+    "titleEn": "Coles and Ever.Ag partner on smarter meat supply chain",
+    "titleZh": "Coles与Ever.Ag合作优化肉类供应链",
+    "url": "https://www.beefmagazine.com/market-news/coles-and-ever-ag-partner-on-smarter-meat-supply-chain",
+    "summaryZh": "澳大利亚超市巨头Coles与数据分析公司Ever.Ag合作，利用先进数据科学优化鲜牛肉、猪肉和羊肉的供应链规划。此举有望提升效率、减少浪费，值得关注零售与农业科技融合的最新实践。",
+    "publishedAt": "2026-06-24T22:37:03.000Z",
+    "source": {
+      "name": "Beef Magazine",
+      "nameZh": "肉牛杂志",
+      "tier": "T2"
+    },
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 33,
+    "isHot": false,
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyitbc30023tw5ifqkldoef",
     "titleEn": "Coles and Ever.Ag partner on smarter meat supply chain",
     "titleZh": "Coles与Ever.Ag合作优化肉类供应链",
-    "summaryZh": "澳大利亚零售商Coles与数据分析公司Ever.Ag合作，利用先进数据科学优化牛肉、猪肉和羊肉的供应链规划。该合作旨在提升预测准确性、减少浪费并提高运营效率，对关注智慧农业与零售供应链整合的从业者具有参考价值。",
     "url": "https://www.nationalhogfarmer.com/market-news/coles-and-ever-ag-partner-on-smarter-meat-supply-chain",
-    "source": "美国养猪人",
-    "sourceId": "nationalhogfarmer",
+    "summaryZh": "澳大利亚零售商Coles与数据分析公司Ever.Ag合作，利用先进数据科学优化牛肉、猪肉和羊肉的供应链规划。该合作旨在提升预测准确性、减少浪费并提高运营效率，对关注智慧农业与零售供应链整合的从业者具有参考价值。",
+    "publishedAt": "2026-06-24T22:37:03.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
     "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
     "techTags": "",
     "qualityScore": 54,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-24T22:37:03.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyitbcb0025tw5i4jw0dya7",
     "titleEn": "South Dakota cell-cultured protein moratorium begins July 1",
     "titleZh": "南达科他州细胞培养蛋白禁令7月1日生效",
-    "summaryZh": "该州即将实施细胞培养蛋白禁令，与此同时佛罗里达和德州因类似禁令面临诉讼。联邦《FAIR标签法案》正推动制定精准标签标准，值得关注政策博弈对替代蛋白行业的影响。",
     "url": "https://www.nationalhogfarmer.com/market-news/south-dakota-cell-cultured-protein-moratorium-begins-july-1",
-    "source": "美国养猪人",
-    "sourceId": "nationalhogfarmer",
+    "summaryZh": "该州即将实施细胞培养蛋白禁令，与此同时佛罗里达和德州因类似禁令面临诉讼。联邦《FAIR标签法案》正推动制定精准标签标准，值得关注政策博弈对替代蛋白行业的影响。",
+    "publishedAt": "2026-06-24T19:52:52.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
     "species": "pig",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 35,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-24T19:52:52.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyitbch0027tw5ipirstwp7",
     "titleEn": "Data vs. disease: Winning the wean-finish performance battle",
     "titleZh": "数据对决疾病：赢得断奶至育肥阶段的生产性能之战",
-    "summaryZh": "本文探讨如何通过有效利用基准数据，将动物健康从不确定性因素转变为提升猪只生产性能和盈利能力的战略驱动力，值得畜牧从业者关注数据驱动的健康管理新思路。",
     "url": "https://www.nationalhogfarmer.com/livestock-management/data-vs-disease-winning-the-wean-finish-performance-battle",
-    "source": "美国养猪人",
-    "sourceId": "nationalhogfarmer",
+    "summaryZh": "本文探讨如何通过有效利用基准数据，将动物健康从不确定性因素转变为提升猪只生产性能和盈利能力的战略驱动力，值得畜牧从业者关注数据驱动的健康管理新思路。",
+    "publishedAt": "2026-06-24T16:33:26.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
     "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
     "techTags": "",
     "qualityScore": 57,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-24T16:33:26.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyitbcn0029tw5i7iq3ma3h",
     "titleEn": "Spread of FMD serotype SAT1 beyond Africa raising concern",
     "titleZh": "口蹄疫SAT1型扩散至非洲以外引发担忧",
-    "summaryZh": "本文报道了口蹄疫SAT1型病毒从非洲向其他地区扩散的最新情况，由美国猪健康信息中心执行主任在WOAH会议上分享。值得关注，因为该病毒传播可能威胁全球畜牧业，尤其是养猪业，需提前防范。",
     "url": "https://www.nationalhogfarmer.com/hog-health/spread-of-fmd-serotype-sat1-beyond-africa-raising-concern",
-    "source": "美国养猪人",
-    "sourceId": "nationalhogfarmer",
+    "summaryZh": "本文报道了口蹄疫SAT1型病毒从非洲向其他地区扩散的最新情况，由美国猪健康信息中心执行主任在WOAH会议上分享。值得关注，因为该病毒传播可能威胁全球畜牧业，尤其是养猪业，需提前防范。",
+    "publishedAt": "2026-06-24T13:40:24.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
     "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
     "techTags": "",
     "qualityScore": 33,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-24T13:40:24.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyitbct002btw5itse7qdkv",
     "titleEn": "Whole-food plant meal fails to boost post-workout muscle gains",
     "titleZh": "全植物餐未能提升运动后肌肉增长",
-    "summaryZh": "研究表明，与20克瘦猪肉相比，全植物餐在运动后肌肉蛋白质合成方面效果显著较差。该发现对健身爱好者和运动员的饮食选择具有重要参考价值，提醒需关注植物蛋白的效能差异。",
     "url": "https://www.nationalhogfarmer.com/market-news/whole-food-plant-meal-fails-to-boost-post-workout-muscle-gains",
-    "source": "美国养猪人",
-    "sourceId": "nationalhogfarmer",
+    "summaryZh": "研究表明，与20克瘦猪肉相比，全植物餐在运动后肌肉蛋白质合成方面效果显著较差。该发现对健身爱好者和运动员的饮食选择具有重要参考价值，提醒需关注植物蛋白的效能差异。",
+    "publishedAt": "2026-06-24T12:36:03.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
     "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
     "techTags": "",
     "qualityScore": 27,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-24T12:36:03.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyitbcz002dtw5il2tvxsp0",
     "titleEn": "Meat Institute promotes Schumpp to VP of international affairs",
     "titleZh": "肉类协会晋升舒姆普为国际事务副总裁",
-    "summaryZh": "该国际政策领袖近期就《美墨加协定》的重要性在国会作证。此晋升凸显了国际贸易政策在畜牧行业中的关键作用，值得关注其对全球肉类市场格局的潜在影响。",
     "url": "https://www.nationalhogfarmer.com/market-news/meat-institute-promotes-schumpp-to-vp-of-international-affairs",
-    "source": "美国养猪人",
-    "sourceId": "nationalhogfarmer",
+    "summaryZh": "该国际政策领袖近期就《美墨加协定》的重要性在国会作证。此晋升凸显了国际贸易政策在畜牧行业中的关键作用，值得关注其对全球肉类市场格局的潜在影响。",
+    "publishedAt": "2026-06-23T22:30:04.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
     "species": "pig",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 20,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-23T22:30:04.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyitbd5002ftw5irdlan6ci",
     "titleEn": "U.S. meat gains ground through Philippine training",
     "titleZh": "美国肉类通过菲律宾培训赢得市场",
-    "summaryZh": "本文报道了美国肉类在菲律宾通过培训活动推广，重点展示了包括黑猪短肋、火腿腿肉、排骨和中心切腰肉在内的多种美国猪肉产品。值得关注的是，这种培训合作模式有效提升了美国肉类在菲律宾的市场份额，为国际农产品贸易提供了成功案例。",
     "url": "https://www.nationalhogfarmer.com/market-news/u-s-meat-gains-ground-through-philippine-training",
-    "source": "美国养猪人",
-    "sourceId": "nationalhogfarmer",
+    "summaryZh": "本文报道了美国肉类在菲律宾通过培训活动推广，重点展示了包括黑猪短肋、火腿腿肉、排骨和中心切腰肉在内的多种美国猪肉产品。值得关注的是，这种培训合作模式有效提升了美国肉类在菲律宾的市场份额，为国际农产品贸易提供了成功案例。",
+    "publishedAt": "2026-06-23T14:14:50.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
     "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
     "techTags": "",
     "qualityScore": 13,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-23T14:14:50.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyitbdc002htw5iddna4q8q",
     "titleEn": "duBreton unveils 'Verified No Cloning or Gene Editing' packaging",
     "titleZh": "duBreton推出‘无克隆或基因编辑验证’包装",
-    "summaryZh": "duBreton在部分猪肉产品上标注‘无克隆或基因编辑验证’，向消费者提供当前无需强制披露的生产实践信息。此举反映了食品行业对透明度和消费者知情权的重视，值得关注其对市场标准和消费者选择的影响。",
     "url": "https://www.nationalhogfarmer.com/market-news/dubreton-unveils-verified-no-cloning-or-gene-editing-packaging",
-    "source": "美国养猪人",
-    "sourceId": "nationalhogfarmer",
+    "summaryZh": "duBreton在部分猪肉产品上标注‘无克隆或基因编辑验证’，向消费者提供当前无需强制披露的生产实践信息。此举反映了食品行业对透明度和消费者知情权的重视，值得关注其对市场标准和消费者选择的影响。",
+    "publishedAt": "2026-06-23T11:54:26.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
     "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
     "techTags": "",
     "qualityScore": 25,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-23T11:54:26.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyitbdl002jtw5iw2jqye17",
     "titleEn": "Federal funding to boost Texas New World screwworm inspection capacity",
     "titleZh": "联邦资金提升德州螺旋蝇检验能力",
-    "summaryZh": "德州动物健康委员会将新增15个职位，包括10名现场检查员及应急管理和流行病学专家，以加强新世界螺旋蝇的检测与防控能力。此举体现联邦资金对畜牧疫病预防的重视，值得关注其实际效果与推广价值。",
     "url": "https://www.nationalhogfarmer.com/livestock-management/federal-funding-to-boost-texas-new-world-screwworm-inspection-capacity",
-    "source": "美国养猪人",
-    "sourceId": "nationalhogfarmer",
+    "summaryZh": "德州动物健康委员会将新增15个职位，包括10名现场检查员及应急管理和流行病学专家，以加强新世界螺旋蝇的检测与防控能力。此举体现联邦资金对畜牧疫病预防的重视，值得关注其实际效果与推广价值。",
+    "publishedAt": "2026-06-23T11:00:00.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
     "species": "pig",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 30,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-23T11:00:00.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyitbdt002ltw5i71sushxm",
     "titleEn": "Filtration and fogging",
     "titleZh": "过滤与雾化技术",
-    "summaryZh": "6月25日直播将深入畜舍，展示烟雾测试如何以低成本方式揭示隐藏漏洞，并分享监控与维护的最佳实践，值得畜牧从业者关注以提升管理效率。",
     "url": "https://www.nationalhogfarmer.com/farming-facilities/filtration-and-fogging",
-    "source": "美国养猪人",
-    "sourceId": "nationalhogfarmer",
+    "summaryZh": "6月25日直播将深入畜舍，展示烟雾测试如何以低成本方式揭示隐藏漏洞，并分享监控与维护的最佳实践，值得畜牧从业者关注以提升管理效率。",
+    "publishedAt": "2026-06-22T16:44:01.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
     "species": "pig",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 33,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-22T16:44:01.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyitbe0002ntw5ibf82fjqt",
     "titleEn": "$19.6M renovation planned for Iowa State Fair Swine Barn",
     "titleZh": "爱荷华州博览会猪舍翻新获1960万美元投资",
-    "summaryZh": "爱荷华州博览会猪舍将进行1960万美元的翻新，其中爱荷华精选农场的杰夫和黛布·汉森捐赠了200万美元。该项目旨在升级设施，提升动物福利与参观体验，值得关注其如何推动智慧畜牧与可持续农业实践的结合。",
     "url": "https://www.nationalhogfarmer.com/livestock-management/-19-6m-renovation-planned-for-iowa-state-fair-swine-barn",
-    "source": "美国养猪人",
-    "sourceId": "nationalhogfarmer",
+    "summaryZh": "爱荷华州博览会猪舍将进行1960万美元的翻新，其中爱荷华精选农场的杰夫和黛布·汉森捐赠了200万美元。该项目旨在升级设施，提升动物福利与参观体验，值得关注其如何推动智慧畜牧与可持续农业实践的结合。",
+    "publishedAt": "2026-06-22T12:23:35.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
     "species": "pig",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 28,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-22T12:23:35.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyitbe8002ptw5i5ee9l6ce",
     "titleEn": "This Week in Agribusiness, June 20, 2026",
     "titleZh": "本周农业商业资讯（2026年6月20日）",
-    "summaryZh": "本期涵盖ARC与PLC基础面积计划、数据中心与太阳能农场、Barchart数据工具、生物柴油混合、粮仓安全及第12号提案等关键议题，为智慧畜牧从业者提供政策、技术与市场多维视角，值得关注以把握行业动态。",
     "url": "https://www.nationalhogfarmer.com/market-news/this-week-in-agribusiness-june-20-2026",
-    "source": "美国养猪人",
-    "sourceId": "nationalhogfarmer",
+    "summaryZh": "本期涵盖ARC与PLC基础面积计划、数据中心与太阳能农场、Barchart数据工具、生物柴油混合、粮仓安全及第12号提案等关键议题，为智慧畜牧从业者提供政策、技术与市场多维视角，值得关注以把握行业动态。",
+    "publishedAt": "2026-06-20T12:00:00.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
     "species": "pig",
+    "category": "crop",
+    "subcategory": "field",
     "techTags": "",
     "qualityScore": 24,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-20T12:00:00.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqrsbigm0001iiyf7r8ctq46",
     "titleEn": "Niqo Robotics Takes India-Built Physical AI Farming Platform to Europe at Bharat Innovates 2026",
     "titleZh": "Niqo Robotics携印度造实体AI农业平台亮相Bharat Innovates 2026，进军欧洲市场",
-    "summaryZh": "Niqo Robotics从印度政府旗舰深科技大会的120家创新企业中脱颖而出，标志着印度制造的农业机器人正从本土农田走向全球市场。该文最初发表于全球农业科技倡议。",
     "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/niqo-robotics-takes-india-built-physical-ai-farming-platform-to-europe-at-bharat-innovates-2026/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "Niqo Robotics从印度政府旗舰深科技大会的120家创新企业中脱颖而出，标志着印度制造的农业机器人正从本土农田走向全球市场。该文最初发表于全球农业科技倡议。",
+    "publishedAt": "2026-06-19T17:33:10.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 48.3,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-19T17:33:10.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyitbeh002rtw5ii6pyncb5",
     "titleEn": "Mycotoxin risks in pig feed: What producers need to know",
     "titleZh": "猪饲料中的霉菌毒素风险：生产者须知",
-    "summaryZh": "本文深入探讨了霉菌毒素对猪饲料的潜在危害，强调风险不仅取决于毒素种类，还与动物生理特性密切相关。值得养殖户关注，以优化饲料管理，降低经济损失。",
     "url": "https://www.nationalhogfarmer.com/feed/mycotoxin-risks-in-pig-feed-what-producers-need-to-know",
-    "source": "美国养猪人",
-    "sourceId": "nationalhogfarmer",
+    "summaryZh": "本文深入探讨了霉菌毒素对猪饲料的潜在危害，强调风险不仅取决于毒素种类，还与动物生理特性密切相关。值得养殖户关注，以优化饲料管理，降低经济损失。",
+    "publishedAt": "2026-06-19T12:28:03.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
     "species": "pig",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 41,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-19T12:28:03.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyitbeo002ttw5ido5youn8",
     "titleEn": "A simpler way to monitor manure temperature in deep-pit swine barns",
     "titleZh": "深坑猪舍粪温监测新方法",
-    "summaryZh": "本文探讨了在深坑猪舍中，究竟需要多少传感器才能可靠监测粪便温度。研究结果简化了监测方案，降低了成本与复杂度，对提升养殖管理效率和安全性具有重要参考价值。",
     "url": "https://www.nationalhogfarmer.com/farming-business-management/a-simpler-way-to-monitor-manure-temperature-in-deep-pit-swine-barns",
-    "source": "美国养猪人",
-    "sourceId": "nationalhogfarmer",
+    "summaryZh": "本文探讨了在深坑猪舍中，究竟需要多少传感器才能可靠监测粪便温度。研究结果简化了监测方案，降低了成本与复杂度，对提升养殖管理效率和安全性具有重要参考价值。",
+    "publishedAt": "2026-06-18T18:22:03.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
     "species": "pig",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 57,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-18T18:22:03.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyit7gw0005tw5i0wh0m5jo",
     "titleEn": "9 Ways Collaboration Is Accelerating Innovation Across AgTech",
     "titleZh": "九大合作方式加速农业科技创新",
-    "summaryZh": "本文介绍了近期农业科技领域的多项合作如何推动人工智能、精准农业和智能技术革新。通过跨企业、跨行业的协同创新，农业科技正加速落地应用，值得关注这些合作如何重塑未来农业格局。",
     "url": "https://www.globalagtechinitiative.com/digital-farming/9-ways-collaboration-is-accelerating-innovation-across-agtech/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "本文介绍了近期农业科技领域的多项合作如何推动人工智能、精准农业和智能技术革新。通过跨企业、跨行业的协同创新，农业科技正加速落地应用，值得关注这些合作如何重塑未来农业格局。",
+    "publishedAt": "2026-06-18T18:10:54.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 35,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-18T18:10:54.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyitbeu002vtw5izt1ils2i",
     "titleEn": "National Swine Health Strategy addresses disease risks",
     "titleZh": "国家猪健康战略应对疾病风险",
-    "summaryZh": "美国国家猪肉委员会正与行业关键伙伴合作，制定全面的国家猪健康战略，以系统性应对猪群疾病风险。该战略将整合资源、提升防控能力，对保障生猪产业稳定与食品安全具有重要参考价值。",
     "url": "https://www.nationalhogfarmer.com/hog-health/national-swine-health-strategy-addresses-disease-risks",
-    "source": "美国养猪人",
-    "sourceId": "nationalhogfarmer",
+    "summaryZh": "美国国家猪肉委员会正与行业关键伙伴合作，制定全面的国家猪健康战略，以系统性应对猪群疾病风险。该战略将整合资源、提升防控能力，对保障生猪产业稳定与食品安全具有重要参考价值。",
+    "publishedAt": "2026-06-18T17:04:03.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
     "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
     "techTags": "",
     "qualityScore": 32,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-18T17:04:03.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyitbf0002xtw5i7lpieqin",
     "titleEn": "SAFE MApp boosts foreign animal disease prevention, response",
     "titleZh": "安全食品地图应用助力外来动物疫病防控",
-    "summaryZh": "该应用遵循安全食品供应计划指南，能在外来动物疫病爆发时，更好地保护奶牛、肉牛、家禽、生猪和绵羊产业，提升行业应急响应与预防能力，值得畜牧从业者关注。",
     "url": "https://www.nationalhogfarmer.com/livestock-management/safe-mapp-boosts-foreign-animal-disease-prevention-response",
-    "source": "美国养猪人",
-    "sourceId": "nationalhogfarmer",
+    "summaryZh": "该应用遵循安全食品供应计划指南，能在外来动物疫病爆发时，更好地保护奶牛、肉牛、家禽、生猪和绵羊产业，提升行业应急响应与预防能力，值得畜牧从业者关注。",
+    "publishedAt": "2026-06-18T11:00:00.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
     "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
     "techTags": "",
     "qualityScore": 37,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-18T11:00:00.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyit7h30007tw5ijldkw716",
     "titleEn": "Beyond Disruption: Earning Trust and Driving Impact in AgTech Through Grower-Led Innovation",
     "titleZh": "超越颠覆：以种植者主导的创新赢得信任并推动农业科技影响",
-    "summaryZh": "Reservoir首席执行官Danny Bernstein指出，更智能的农业科技始于信任，种植者主导的创新正在超越传统颠覆模式，带来真实影响。本文值得关注，因为它揭示了如何通过信任与协作实现农业科技的实际落地与可持续增长。",
     "url": "https://www.globalagtechinitiative.com/digital-farming/beyond-disruption-earning-trust-and-driving-impact-in-agtech-through-grower-led-innovation/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "Reservoir首席执行官Danny Bernstein指出，更智能的农业科技始于信任，种植者主导的创新正在超越传统颠覆模式，带来真实影响。本文值得关注，因为它揭示了如何通过信任与协作实现农业科技的实际落地与可持续增长。",
+    "publishedAt": "2026-06-17T15:15:53.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 35,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-17T15:15:53.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyitbf5002ztw5i0qy03hng",
     "titleEn": "New World screwworm battle: $105M funds 40 innovative projects",
     "titleZh": "新世界螺旋蝇防治战：1.05亿美元资助40个创新项目",
-    "summaryZh": "美国投入1.05亿美元资助40个创新项目应对新世界螺旋蝇疫情，墨西哥和加拿大已对包括生猪在内的美国活体动物实施临时运输限制。该新闻展示了跨境动物疫病防控的紧迫性与创新解决方案的投入力度，对畜牧从业者具有重要参考价值。",
     "url": "https://www.nationalhogfarmer.com/livestock-management/new-world-screwworm-battle-105m-funds-40-innovative-projects",
-    "source": "美国养猪人",
-    "sourceId": "nationalhogfarmer",
+    "summaryZh": "美国投入1.05亿美元资助40个创新项目应对新世界螺旋蝇疫情，墨西哥和加拿大已对包括生猪在内的美国活体动物实施临时运输限制。该新闻展示了跨境动物疫病防控的紧迫性与创新解决方案的投入力度，对畜牧从业者具有重要参考价值。",
+    "publishedAt": "2026-06-17T13:10:59.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
     "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
     "techTags": "",
     "qualityScore": 32,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-17T13:10:59.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyitbfh0031tw5itat589db",
     "titleEn": "'Salad pork' gains traction among Japanese fitness fans",
     "titleZh": "“沙拉猪肉”受日本健身爱好者追捧",
-    "summaryZh": "美国肉类出口协会与注册营养师合作，推出三道美式猪肉菜品作为办公食堂的营养选择。这一趋势表明猪肉正以健康轻食形式进入健身人群视野，值得关注肉类消费的新场景与营养化转型。",
     "url": "https://www.nationalhogfarmer.com/market-news/-salad-pork-gains-traction-among-japanese-fitness-fans",
-    "source": "美国养猪人",
-    "sourceId": "nationalhogfarmer",
+    "summaryZh": "美国肉类出口协会与注册营养师合作，推出三道美式猪肉菜品作为办公食堂的营养选择。这一趋势表明猪肉正以健康轻食形式进入健身人群视野，值得关注肉类消费的新场景与营养化转型。",
+    "publishedAt": "2026-06-17T13:00:00.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
     "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
     "techTags": "",
     "qualityScore": 23,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-17T13:00:00.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyitbfm0033tw5i7tepfnie",
     "titleEn": "May/June 2026 National Hog Farmer Digital Edition now available",
     "titleZh": "2026年5/6月《国家养猪户》数字版上线",
-    "summaryZh": "本期聚焦地缘政治对猪肉供应链的冲击，深入探讨猪链球菌菌株差异、基因编辑猪肉技术进展，以及金属与塑料地板在养猪场的优劣对比，为行业从业者提供前沿洞察与实用参考。",
     "url": "https://www.nationalhogfarmer.com/livestock-management/may-june-2026-national-hog-farmer-digital-edition-now-available",
-    "source": "美国养猪人",
-    "sourceId": "nationalhogfarmer",
+    "summaryZh": "本期聚焦地缘政治对猪肉供应链的冲击，深入探讨猪链球菌菌株差异、基因编辑猪肉技术进展，以及金属与塑料地板在养猪场的优劣对比，为行业从业者提供前沿洞察与实用参考。",
+    "publishedAt": "2026-06-17T12:03:08.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
     "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
     "techTags": "",
     "qualityScore": 38,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-17T12:03:08.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyitbfs0035tw5imr7jbeom",
     "titleEn": "Pig livability: Metric that drives everything else",
     "titleZh": "猪只存活率：驱动一切的关键指标",
-    "summaryZh": "本文从世界猪肉博览会出发，深入探讨猪只存活率如何悄然影响饲料效率、生长性能、生产成本及整个生猪生产系统的稳定性。值得畜牧从业者关注，以优化管理、提升效益。",
     "url": "https://www.nationalhogfarmer.com/farming-business-management/beyond-the-pork-chop-and-beyond-the-hype",
-    "source": "美国养猪人",
-    "sourceId": "nationalhogfarmer",
+    "summaryZh": "本文从世界猪肉博览会出发，深入探讨猪只存活率如何悄然影响饲料效率、生长性能、生产成本及整个生猪生产系统的稳定性。值得畜牧从业者关注，以优化管理、提升效益。",
+    "publishedAt": "2026-06-16T21:37:06.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
     "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
     "techTags": "",
     "qualityScore": 41,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-16T21:37:06.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyitbfy0037tw5iv9aufh4f",
     "titleEn": "New Prop 12 campaign sparks concern across pork country",
     "titleZh": "新Prop 12运动引发养猪业担忧",
-    "summaryZh": "本期特别节目中，NPPC主席兼爱荷华州猪肉生产商Rob Brenneman就与Prop 12相关的努力提供最新信息。该运动可能影响全美猪肉生产格局，值得关注其政策走向及行业应对策略。",
     "url": "https://www.nationalhogfarmer.com/farming-facilities/new-prop-12-campaign-sparks-concern-across-pork-country",
-    "source": "美国养猪人",
-    "sourceId": "nationalhogfarmer",
+    "summaryZh": "本期特别节目中，NPPC主席兼爱荷华州猪肉生产商Rob Brenneman就与Prop 12相关的努力提供最新信息。该运动可能影响全美猪肉生产格局，值得关注其政策走向及行业应对策略。",
+    "publishedAt": "2026-06-16T20:44:54.000Z",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
     "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
     "techTags": "",
     "qualityScore": 30,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-16T20:44:54.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqyit7hb0009tw5i29392lls",
     "titleEn": "UC Riverside Develops Modern-Day Robotic Divining Rod",
     "titleZh": "UC Riverside研发现代机器人探水棒",
-    "summaryZh": "加州大学河滨分校开发出一套新系统，能逐棵树绘制土壤湿度图，让种植者仅在需要的地点和时间浇水。这项技术精准节水，值得关注农业智能化与水资源管理的人士阅读。",
     "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/uc-riverside-develops-modern-day-robotic-divining-rod/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "加州大学河滨分校开发出一套新系统，能逐棵树绘制土壤湿度图，让种植者仅在需要的地点和时间浇水。这项技术精准节水，值得关注农业智能化与水资源管理的人士阅读。",
+    "publishedAt": "2026-06-15T18:17:17.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 32,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-15T18:17:17.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqt2nv82000312t0bqrzirne",
     "titleEn": "Syngenta Signs MoU to Be Strategic Partner in India’s First Open-Data Agricultural Ecosystem Annam.AI",
     "titleZh": "先正达签约成为印度首个开放数据农业生态系统Annam.AI战略伙伴",
-    "summaryZh": "先正达与印度首个开放数据农业生态系统Annam.AI签署谅解备忘录，将贡献农艺专业知识，助力构建精准作物健康、病虫害预测及热应激模型。该合作标志着开放数据在农业科技领域的重大突破，值得关注其对智慧农业发展的示范效应。",
     "url": "https://www.globalagtechinitiative.com/digital-farming/syngenta-signs-mou-to-be-strategic-partner-in-indias-first-open-data-agricultural-ecosystem-annam-ai/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "先正达与印度首个开放数据农业生态系统Annam.AI签署谅解备忘录，将贡献农艺专业知识，助力构建精准作物健康、病虫害预测及热应激模型。该合作标志着开放数据在农业科技领域的重大突破，值得关注其对智慧农业发展的示范效应。",
+    "publishedAt": "2026-06-15T17:51:42.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 41,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-15T17:51:42.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqt2nv8r000512t0mopzunom",
     "titleEn": "Inside One of America’s Largest Ag Co-Op’s Practical Approach to AI",
     "titleZh": "美国最大农业合作社的AI务实之道",
-    "summaryZh": "GROWMARK农艺总监Brendan Bachman详解北美最大合作系统之一如何规模化应用AI，揭示技术落地的运营现实。本文为农业科技从业者提供了大型合作社AI部署的实战经验与关键洞察，值得关注。",
     "url": "https://www.globalagtechinitiative.com/digital-farming/inside-one-of-americas-largest-ag-co-ops-practical-approach-to-ai/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "GROWMARK农艺总监Brendan Bachman详解北美最大合作系统之一如何规模化应用AI，揭示技术落地的运营现实。本文为农业科技从业者提供了大型合作社AI部署的实战经验与关键洞察，值得关注。",
+    "publishedAt": "2026-06-12T16:46:56.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 39,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-12T16:46:56.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqt2nv8t000712t0ddvp1s3j",
     "titleEn": "Tech Hub LIVE Returns to Des Moines July 20-22 with Practical Answers for a High-Pressure Ag Economy",
     "titleZh": "科技枢纽LIVE重返得梅因，7月20-22日聚焦高压农业经济实用方案",
-    "summaryZh": "农业零售顶级技术会议回归，提供数据驱动洞察、同行交流与创新解决方案，助力应对高压力农业经济挑战。值得关注其如何通过实战策略推动农业未来转型。",
     "url": "https://www.globalagtechinitiative.com/digital-farming/tech-hub-live-returns-to-des-moines-july-20-22-with-practical-answers-for-a-high-pressure-ag-economy/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "农业零售顶级技术会议回归，提供数据驱动洞察、同行交流与创新解决方案，助力应对高压力农业经济挑战。值得关注其如何通过实战策略推动农业未来转型。",
+    "publishedAt": "2026-06-12T15:38:48.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 34,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-12T15:38:48.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqt2nv8v000912t08ocge37x",
     "titleEn": "5 Technologies That Are Making Farms Smarter – Worldwide",
     "titleZh": "五大技术让全球农场更智能",
-    "summaryZh": "本文介绍了从人工智能、物联网到无人机和机器人等五项突破性技术，正在将全球农业转变为更智能、更具韧性的运营模式。值得关注这些前沿科技如何推动农业现代化与可持续发展。",
     "url": "https://www.globalagtechinitiative.com/in-field-technologies/drones-uavs/5-technologies-that-are-making-farms-smarter-worldwide/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "本文介绍了从人工智能、物联网到无人机和机器人等五项突破性技术，正在将全球农业转变为更智能、更具韧性的运营模式。值得关注这些前沿科技如何推动农业现代化与可持续发展。",
+    "publishedAt": "2026-06-02T14:39:20.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 40,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-02T14:39:20.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqt2nv8x000b12t0e4eboxoi",
     "titleEn": "Inside India’s Agricultural Labor Gap: How AgTech Is Digitizing the Farm Workforce",
     "titleZh": "印度农业劳动力缺口：AgTech如何数字化农场劳动力",
-    "summaryZh": "本文探讨了人工智能与数据如何改变印度碎片化的农业劳动力市场，提升效率、透明度及农民生计。值得关注的是，它揭示了科技在解决劳动力短缺中的实际应用，对全球农业数字化转型具有参考价值。",
     "url": "https://www.globalagtechinitiative.com/digital-farming/inside-indias-agricultural-labor-gap-how-agtech-is-digitizing-the-farm-workforce/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "本文探讨了人工智能与数据如何改变印度碎片化的农业劳动力市场，提升效率、透明度及农民生计。值得关注的是，它揭示了科技在解决劳动力短缺中的实际应用，对全球农业数字化转型具有参考价值。",
+    "publishedAt": "2026-06-02T14:01:58.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 42,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-02T14:01:58.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqt2nv8z000d12t09evawhze",
     "titleEn": "Reservoir Opens Its Farms to Create Dense Innovation Hubs for Rugged AI and AgTech",
     "titleZh": "Reservoir开放农场打造AI与农业科技密集创新中心",
-    "summaryZh": "Reservoir推出免费Associate层级，向更多初创企业开放其农场，加速试验与成果转化。此举旨在构建密集创新枢纽，推动适应恶劣环境的AI与农业科技发展，值得关注其对行业生态的催化作用。",
     "url": "https://www.globalagtechinitiative.com/digital-farming/reservoir-opens-its-farms-to-create-dense-innovation-hubs-for-rugged-ai-and-agtech/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "Reservoir推出免费Associate层级，向更多初创企业开放其农场，加速试验与成果转化。此举旨在构建密集创新枢纽，推动适应恶劣环境的AI与农业科技发展，值得关注其对行业生态的催化作用。",
+    "publishedAt": "2026-06-02T13:55:48.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 40,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-02T13:55:48.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqt2nv90000f12t05wouo2do",
     "titleEn": "Ag Tech Talk: Smarter Data, Stronger Relationships",
     "titleZh": "农业科技谈：更智能的数据，更紧密的关系",
-    "summaryZh": "Ever.Ag的Alan Brady指出，人工智能正在超越定价层面变革农业零售，将零售商、供应商和农学家连接成一个实时同步的生态系统。本文揭示了数据驱动如何重塑农业合作模式，值得关注。\n",
     "url": "https://www.globalagtechinitiative.com/digital-farming/analytics/ag-tech-talk-smarter-data-stronger-relationships/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "Ever.Ag的Alan Brady指出，人工智能正在超越定价层面变革农业零售，将零售商、供应商和农学家连接成一个实时同步的生态系统。本文揭示了数据驱动如何重塑农业合作模式，值得关注。\n",
+    "publishedAt": "2026-06-01T15:05:25.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 35,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-01T15:05:25.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqt2nv92000h12t0ye840xum",
     "titleEn": "UK Firm Takes Leading Role in Cutting-Edge Farm Robots Project",
     "titleZh": "英国公司领衔尖端农业机器人项目",
-    "summaryZh": "英国坎布里亚的Forth UK公司参与全球创新项目FARMAR，将传统农业知识转化为智能机器人系统，助力现代农业。该项目展示了传统与科技融合的前沿趋势，值得关注农业自动化领域的读者深入了解。",
     "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/uk-firm-takes-leading-role-in-cutting-edge-farm-robots-project/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "英国坎布里亚的Forth UK公司参与全球创新项目FARMAR，将传统农业知识转化为智能机器人系统，助力现代农业。该项目展示了传统与科技融合的前沿趋势，值得关注农业自动化领域的读者深入了解。",
+    "publishedAt": "2026-05-29T15:07:49.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 46,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-05-29T15:07:49.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqt2nv94000j12t0agxnvcts",
     "titleEn": "Niqo Robotics Charts Path to Profitability as Physical AI Weeding Platform Expands into New Crops, Markets, and New Generation of Products",
     "titleZh": "Niqo Robotics：物理AI除草平台迈向盈利新阶段",
-    "summaryZh": "农业机器人公司Niqo Robotics核心除草业务接近自给自足，宣布拓展新作物与市场，并计划今年推出新一代除草机器人。本文揭示其盈利路径与技术创新，值得关注农业AI落地与商业化前景。",
     "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/niqo-robotics-charts-path-to-profitability-as-physical-ai-weeding-platform-expands-into-new-crops-markets-and-new-generation-of-products/",
-    "source": "精准农业",
-    "sourceId": "precisionag",
+    "summaryZh": "农业机器人公司Niqo Robotics核心除草业务接近自给自足，宣布拓展新作物与市场，并计划今年推出新一代除草机器人。本文揭示其盈利路径与技术创新，值得关注农业AI落地与商业化前景。",
+    "publishedAt": "2026-05-25T20:02:25.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
     "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 41,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-05-25T20:02:25.000Z"
+    "multiSourceCount": 1
   }
 ]

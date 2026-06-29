@@ -24,6 +24,8 @@ interface ExportItem {
     tier: string;
   };
   species: string;
+  category: string | null;
+  subcategory: string | null;
   techTags: string;
   qualityScore: number;
   isHot: boolean;
@@ -68,6 +70,8 @@ async function main() {
     publishedAt: item.publishedAt.toISOString(),
     source: item.source,
     species: item.species,
+    category: item.category,
+    subcategory: item.subcategory,
     techTags: item.techTags,
     qualityScore: item.qualityScore,
     isHot: item.isHot,
@@ -116,27 +120,33 @@ async function main() {
   writeFileSync(join(OUTPUT_DIR, 'stats.json'), JSON.stringify(stats, null, 2));
   console.log('Exported stats:', stats);
 
-  // 4. 按物种导出（供物种频道使用）
-  const species = ['pig', 'poultry', 'cattle', 'sheep'];
-  for (const sp of species) {
-    const spItems = exportItems.filter(item =>
-      item.species.split(',').includes(sp)
-    );
-    const spHotItems = exportHotItems.filter(item => {
-      // 热点条目也需要按物种筛选，但 exportHotItem 没有 species 字段
-      // 从原始 items 中查找
-      return items.find(i => i.id === item.id && i.species.split(',').includes(sp));
+  // 4. 按分类导出（供分类频道使用）
+  const categories = [
+    { key: 'pig', filter: (item: ExportItem) => item.species.split(',').includes('pig') || (item as any).subcategory === 'pig' },
+    { key: 'poultry', filter: (item: ExportItem) => item.species.split(',').includes('poultry') || (item as any).subcategory === 'poultry' },
+    { key: 'cattle', filter: (item: ExportItem) => item.species.split(',').includes('cattle') || (item as any).subcategory === 'cattle' },
+    { key: 'sheep', filter: (item: ExportItem) => item.species.split(',').includes('sheep') || (item as any).subcategory === 'sheep' },
+    { key: 'field', filter: (item: ExportItem) => (item as any).subcategory === 'field' },
+    { key: 'fruit', filter: (item: ExportItem) => (item as any).subcategory === 'fruit' },
+    { key: 'horticulture', filter: (item: ExportItem) => (item as any).subcategory === 'horticulture' },
+  ];
+
+  for (const cat of categories) {
+    const catItems = exportItems.filter(cat.filter);
+    const catHotItems = exportHotItems.filter(item => {
+      const originalItem = items.find(i => i.id === item.id);
+      return originalItem && cat.filter(originalItem as any);
     });
 
     writeFileSync(
-      join(OUTPUT_DIR, `items-${sp}.json`),
-      JSON.stringify(spItems, null, 2)
+      join(OUTPUT_DIR, `items-${cat.key}.json`),
+      JSON.stringify(catItems, null, 2)
     );
     writeFileSync(
-      join(OUTPUT_DIR, `hot-items-${sp}.json`),
-      JSON.stringify(spHotItems, null, 2)
+      join(OUTPUT_DIR, `hot-items-${cat.key}.json`),
+      JSON.stringify(catHotItems, null, 2)
     );
-    console.log(`Exported ${spItems.length} items for ${sp}`);
+    console.log(`Exported ${catItems.length} items for ${cat.key}`);
   }
 
   console.log('\nStatic data exported to public/data/');

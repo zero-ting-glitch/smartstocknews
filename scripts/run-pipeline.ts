@@ -42,10 +42,21 @@ async function fetchRss(source: any): Promise<any[]> {
 }
 
 function relevanceFilter(items: any[], source: any): any[] {
-  const keywords = source.relevanceFilter.split('|').map((k: string) => k.toLowerCase());
+  const coreKeywords = (source.coreKeywords || '').split('|').map((k: string) => k.trim().toLowerCase());
+  const excludeKeywords = (source.excludeKeywords || '').split('|').map((k: string) => k.trim().toLowerCase());
+
   return items.filter((item) => {
     const text = `${item.title} ${item.contentHtml}`.toLowerCase();
-    return keywords.some((kw: string) => text.includes(kw));
+
+    // 必须命中核心关键词
+    const hitCore = coreKeywords.some((kw: string) => kw && text.includes(kw));
+    if (!hitCore) return false;
+
+    // 不能命中排除关键词
+    const hitExclude = excludeKeywords.some((kw: string) => kw && text.includes(kw));
+    if (hitExclude) return false;
+
+    return true;
   });
 }
 
@@ -123,6 +134,47 @@ function calculateQualityScore(
   return Math.round(avg * tierWeight + multiBonus);
 }
 
+function classifyItem(item: any, source: any): { category: string; subcategory: string } {
+  // 信源级别的默认分类
+  if (source.type === 'livestock') {
+    return { category: 'livestock', subcategory: source.defaultSubcategory || 'cattle' };
+  }
+  if (source.type === 'crop') {
+    return { category: 'crop', subcategory: source.defaultSubcategory || 'field' };
+  }
+
+  // 综合信源：根据内容判断
+  const text = `${item.title} ${item.contentHtml || ''}`.toLowerCase();
+
+  // 物种关键词匹配
+  if (text.includes('pig') || text.includes('hog') || text.includes('swine') || text.includes('pork')) {
+    return { category: 'livestock', subcategory: 'pig' };
+  }
+  if (text.includes('poultry') || text.includes('chicken') || text.includes('broiler') || text.includes('egg')) {
+    return { category: 'livestock', subcategory: 'poultry' };
+  }
+  if (text.includes('cattle') || text.includes('beef') || text.includes('dairy') || text.includes('cow')) {
+    return { category: 'livestock', subcategory: 'cattle' };
+  }
+  if (text.includes('sheep') || text.includes('lamb') || text.includes('wool')) {
+    return { category: 'livestock', subcategory: 'sheep' };
+  }
+
+  // 种植业关键词匹配
+  if (text.includes('corn') || text.includes('wheat') || text.includes('soybean') || text.includes('rice') || text.includes('grain')) {
+    return { category: 'crop', subcategory: 'field' };
+  }
+  if (text.includes('fruit') || text.includes('vegetable') || text.includes('harvest') || text.includes('orchard')) {
+    return { category: 'crop', subcategory: 'fruit' };
+  }
+  if (text.includes('greenhouse') || text.includes('nursery') || text.includes('floriculture') || text.includes('horticulture')) {
+    return { category: 'crop', subcategory: 'horticulture' };
+  }
+
+  // 默认：农业科技综合
+  return { category: 'aggtech', subcategory: 'general' };
+}
+
 // ========== 主流程 ==========
 async function main() {
   console.log('=== SmartStock 数据管线 ===\n');
@@ -141,8 +193,8 @@ async function main() {
         url: source.url,
         rssUrl: source.rssUrl,
         tier: source.tier,
-        species: source.species,
-        category: source.category,
+        species: source.type || 'aggtech',
+        category: source.defaultCategory || 'aggtech',
       },
     });
   }
@@ -199,6 +251,9 @@ async function main() {
         translateItem(item.titleEn, item.contentHtml || undefined),
       ]);
       const qualityScore = calculateQualityScore(scores, item.source.tier, item.multiSourceCount);
+      const { category, subcategory } = classifyItem(item, item.source);
+      // 种植业用 subcategory 作为 species，畜牧业保留原 species
+      const species = category === 'crop' ? subcategory : item.species;
       await prisma.item.update({
         where: { id: item.id },
         data: {
@@ -207,6 +262,9 @@ async function main() {
           summaryZh: translation.summaryZh,
           qualityScore,
           isHot: qualityScore >= 60,
+          category,
+          subcategory,
+          species,
         },
       });
       processed++;
@@ -216,6 +274,23 @@ async function main() {
     }
   }
   console.log(`  处理完成: ${processed}/${pending.length}\n`);
+
+  // Step 2.5: 更新现有数据的分类
+  console.log('[3.5/4] 更新现有数据分类...');
+  const itemsToUpdate = await prisma.item.findMany({
+    where: { category: null },
+    include: { source: true },
+  });
+  console.log(`  待更新分类: ${itemsToUpdate.length} 条`);
+  for (const item of itemsToUpdate) {
+    const { category, subcategory } = classifyItem(item, item.source);
+    const species = category === 'crop' ? subcategory : item.species;
+    await prisma.item.update({
+      where: { id: item.id },
+      data: { category, subcategory, species },
+    });
+  }
+  console.log(`  分类更新完成\n`);
 
   // Step 3: 导出 JSON
   console.log('[4/4] 导出静态 JSON...');
@@ -234,9 +309,11 @@ async function main() {
     titleZh: item.titleZh || '',
     summaryZh: item.summaryZh || '',
     url: item.url,
-    source: item.source.nameZh || item.source.name,
+    source: { name: item.source.name, nameZh: item.source.nameZh, tier: item.source.tier },
     sourceId: item.sourceId,
     species: item.species,
+    category: item.category || 'aggtech',
+    subcategory: item.subcategory || 'general',
     techTags: item.techTags || '',
     qualityScore: item.qualityScore || 0,
     isFeatured: (item.qualityScore || 0) >= 70,

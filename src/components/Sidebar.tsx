@@ -6,10 +6,13 @@ import { usePathname } from 'next/navigation';
 const navItems = [
   { href: '/', label: '精选', icon: '⚡', group: '内容' },
   { href: '/all', label: '全部动态', icon: '📋', group: '内容' },
-  { href: '/pig', label: '猪', icon: '🐷', group: '物种' },
-  { href: '/poultry', label: '禽', icon: '🐔', group: '物种' },
-  { href: '/cattle', label: '牛', icon: '🐄', group: '物种' },
-  { href: '/sheep', label: '羊', icon: '🐑', group: '物种' },
+  { href: '/pig', label: '猪', icon: '🐷', group: '🐄 畜牧业' },
+  { href: '/poultry', label: '禽', icon: '🐔', group: '🐄 畜牧业' },
+  { href: '/cattle', label: '牛', icon: '🐄', group: '🐄 畜牧业' },
+  { href: '/sheep', label: '羊', icon: '🐑', group: '🐄 畜牧业' },
+  { href: '/field', label: '大田', icon: '🌽', group: '🌾 种植业' },
+  { href: '/fruit', label: '果蔬', icon: '🍎', group: '🌾 种植业' },
+  { href: '/horticulture', label: '园艺', icon: '🌸', group: '🌾 种植业' },
 ];
 
 const bottomItems = [

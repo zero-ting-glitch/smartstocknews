@@ -17,6 +17,8 @@ export interface NewsItem {
     tier: string;
   };
   species: string;
+  category: string;
+  subcategory: string;
   techTags: string;
   qualityScore: number;
 }
@@ -32,6 +34,9 @@ const SPECIES_FILTERS = [
   { key: 'poultry', label: '禽' },
   { key: 'cattle', label: '牛' },
   { key: 'sheep', label: '羊' },
+  { key: 'field', label: '大田' },
+  { key: 'fruit', label: '果蔬' },
+  { key: 'horticulture', label: '园艺' },
 ];
 
 const TECH_FILTERS = [
@@ -50,9 +55,11 @@ export function Timeline({ items = [], showFilters = false }: TimelineProps) {
 
   const filteredItems = useMemo(() => {
     return items.filter(item => {
-      // 物种筛选
+      // 物种筛选（畜牧业用species，种植业用subcategory）
       if (speciesFilter !== 'all') {
-        if (!item.species.split(',').includes(speciesFilter)) return false;
+        const inSpecies = item.species.split(',').includes(speciesFilter);
+        const inSubcategory = item.subcategory === speciesFilter;
+        if (!inSpecies && !inSubcategory) return false;
       }
       // 技术筛选
       if (techFilter !== 'all') {

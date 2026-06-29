@@ -7,20 +7,11 @@
       "url": "https://www.precisionag.com",
       "rssUrl": "https://www.precisionag.com/feed",
       "tier": "T1",
-      "species": "pig,poultry,cattle,sheep",
-      "category": "agg_tech",
-      "relevanceFilter": "livestock|animal|farming|IoT|sensor|automation|precision|smart|robot|AI|drone|wearable|digital"
-    },
-    {
-      "id": "agfunder",
-      "name": "AgFunder News",
-      "nameZh": "农业投资新闻网",
-      "url": "https://news.agfunder.com",
-      "rssUrl": "https://news.agfunder.com/rss",
-      "tier": "T1.5",
-      "species": "pig,poultry,cattle,sheep",
-      "category": "agg_tech",
-      "relevanceFilter": "livestock|precision farming|IoT|AI|automation|sensor|robot|smart farm|cattle|pig|poultry|dairy"
+      "type": "aggtech",
+      "defaultCategory": "livestock",
+      "defaultSubcategory": "cattle",
+      "coreKeywords": "precision livestock|smart farming|IoT sensor|animal monitoring|wearable|automated feeding|robotic milking|digital agriculture|AI livestock|drone|smart barn|environment control|precision agriculture|variable rate|GPS guidance|yield mapping|soil sensor|drone spraying|harvest robot|greenhouse automation|smart irrigation|crop monitoring|satellite imagery",
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
       "id": "beefmagazine",
@@ -29,9 +20,11 @@
       "url": "https://www.beefmagazine.com",
       "rssUrl": "https://www.beefmagazine.com/rss.xml",
       "tier": "T1.5",
-      "species": "cattle",
-      "category": "vertical_media",
-      "relevanceFilter": "smart|IoT|sensor|automation|AI|precision|digital|robot|technology|data|monitoring"
+      "type": "livestock",
+      "defaultCategory": "livestock",
+      "defaultSubcategory": "cattle",
+      "coreKeywords": "cattle|beef|feedlot|ranch|cow|heifer|steer|bull|calving|weaning|nutrition|health|disease|parasite|reproduction|genetics|breeding|precision|sensor|IoT|automation|robot|drone|AI|digital|monitoring|data|technology",
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
       "id": "nationalhogfarmer",
@@ -40,9 +33,11 @@
       "url": "https://www.nationalhogfarmer.com",
       "rssUrl": "https://www.nationalhogfarmer.com/rss.xml",
       "tier": "T1.5",
-      "species": "pig",
-      "category": "vertical_media",
-      "relevanceFilter": "smart|IoT|sensor|automation|AI|precision|digital|robot|technology|data|monitoring|health|feed|mortality"
+      "type": "livestock",
+      "defaultCategory": "livestock",
+      "defaultSubcategory": "pig",
+      "coreKeywords": "pig|hog|swine|pork|sow|boar|piglet|farrowing|weaning|nursery|finisher|feed|mortality|health|disease|reproduction|genetics|breeding|precision|sensor|IoT|automation|robot|drone|AI|digital|monitoring|data|technology",
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
       "id": "porkorg",
@@ -51,9 +46,11 @@
       "url": "https://www.pork.org",
       "rssUrl": "https://www.pork.org/rss",
       "tier": "T1",
-      "species": "pig",
-      "category": "industry_assoc",
-      "relevanceFilter": "smart|IoT|sensor|automation|AI|precision|digital|robot|technology|data|monitoring|health|welfare|production"
+      "type": "livestock",
+      "defaultCategory": "livestock",
+      "defaultSubcategory": "pig",
+      "coreKeywords": "pig|hog|swine|pork|sow|boar|piglet|farrowing|weaning|nursery|finisher|feed|mortality|health|disease|reproduction|genetics|breeding|precision|sensor|IoT|automation|robot|drone|AI|digital|monitoring|data|technology|welfare|production",
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     }
   ],
   "contentFarmBlacklist": [
