@@ -460,4 +460,8 @@ async function main() {
 
 main()
   .catch(console.error)
-  .finally(() => prisma.$disconnect());
+  .finally(() => {
+    prisma.$disconnect().catch(() => {});
+    // 防止 prisma disconnect 卡住导致进程不退出
+    setTimeout(() => process.exit(0), 5000);
+  });
