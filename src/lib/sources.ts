@@ -6,11 +6,16 @@ export interface SourceConfig {
   name: string;
   nameZh: string;
   url: string;
-  rssUrl: string;
+  rssUrl: string | null;
   tier: 'T1' | 'T1.5' | 'T2';
-  species: string;
-  category: string;
-  relevanceFilter: string;
+  type: string;
+  defaultCategory: string;
+  defaultSubcategory: string;
+  scrapeType?: string;
+  listUrl?: string;
+  scrapeConfig?: string;
+  coreKeywords: string;
+  excludeKeywords: string;
 }
 
 export interface SourcesConfig {

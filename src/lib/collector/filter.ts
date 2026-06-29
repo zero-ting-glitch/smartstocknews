@@ -7,7 +7,7 @@ import { RawItem } from './rss';
  */
 export function relevanceFilter(items: RawItem[], source: SourceConfig): RawItem[] {
   const blacklist = getContentFarmBlacklist();
-  const keywords = source.relevanceFilter.split('|').map(k => k.toLowerCase());
+  const keywords = source.coreKeywords.split('|').map(k => k.toLowerCase());
 
   return items.filter(item => {
     const titleLower = item.title.toLowerCase();

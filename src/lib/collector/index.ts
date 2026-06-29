@@ -38,7 +38,7 @@ export async function collectAll(): Promise<{ collected: number; filtered: numbe
               url: item.url,
               publishedAt: item.publishedAt,
               contentHtml: item.contentHtml,
-              species: source.species,
+              species: source.defaultSubcategory,
               techTags: '',
               isRelevant: true,
             },

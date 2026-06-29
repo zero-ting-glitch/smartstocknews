@@ -48,22 +48,29 @@ smartstock/
 │   │   ├── Timeline.tsx        # 时间线组件
 │   │   ├── NewsCard.tsx        # 新闻卡片
 │   │   ├── HotCard.tsx         # 热点卡片
-│   │   └── FilterChips.tsx     # 筛选标签
+│   │   ├── SpeciesPage.tsx     # 物种频道通用页面
+│   │   ├── RightPanel.tsx      # 右侧面板
+│   │   └── StatsCard.tsx       # 统计卡片
 │   └── lib/
 │       ├── collector/          # 数据采集
-│       │   ├── scraper.ts      # Web 爬虫（cheerio）
-│       │   └── index.ts        # RSS 采集 + 聚合
+│       │   ├── scraper.ts      # Web 爬虫（cheerio）+ SSRF 防护
+│       │   ├── index.ts        # RSS 采集 + 聚合
+│       │   ├── rss.ts          # RSS 解析
+│       │   └── filter.ts       # 关键词过滤 + 去重
 │       ├── processor/          # AI 处理
 │       │   ├── scorer.ts       # AI 评分
 │       │   ├── translator.ts   # AI 翻译
-│       │   └── calculator.ts   # 质量分计算
+│       │   ├── calculator.ts   # 质量分计算
+│       │   └── index.ts        # AI 处理入口
+│       ├── sources.ts          # 信源配置加载
 │       ├── db.ts               # Prisma 客户端
 │       ├── config.ts           # 前端配置
 │       └── utils.ts            # 工具函数
 ├── scripts/
 │   ├── run-pipeline.ts         # 一键管线（采集→爬取→AI→导出）
 │   ├── export-static.ts        # 静态 JSON 导出
-│   └── seed-sources.ts         # 信源初始化
+│   ├── seed-sources.ts         # 信源初始化
+│   └── check-items.ts          # 数据检查工具
 ├── data/
 │   └── sources.json            # 信源配置（12 个源）
 ├── prisma/
@@ -71,9 +78,11 @@ smartstock/
 ├── public/
 │   ├── _headers                # 安全头配置
 │   └── data/                   # 导出的静态 JSON
-│       ├── items.json          # 列表数据
-│       ├── items/{id}.json     # 详情数据（每篇一个文件）
+│       ├── items.json          # 全部列表数据
+│       ├── items-{species}.json    # 按物种分类的列表
 │       ├── hot-items.json      # 热点数据
+│       ├── hot-items-{species}.json # 按物种分类的热点
+│       ├── item-ids.json       # 文章 ID 索引
 │       └── stats.json          # 统计数据
 ├── .github/workflows/
 │   ├── deploy.yml              # 部署工作流

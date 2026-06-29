@@ -20,6 +20,7 @@ const parser = new Parser({
  * 从 RSS 源采集新闻
  */
 export async function fetchRss(source: SourceConfig): Promise<RawItem[]> {
+  if (!source.rssUrl) return [];
   try {
     const feed = await parser.parseURL(source.rssUrl);
 
