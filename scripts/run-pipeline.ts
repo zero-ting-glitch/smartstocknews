@@ -451,7 +451,7 @@ async function main() {
   // Step 4: AI 处理（统一提示词，循环处理所有待处理 item）
   console.log('[4/5] AI 处理（统一分析）...');
   const pending = await prisma.item.findMany({
-    where: { OR: [{ aiScores: null }, { category: null }], isRelevant: true },
+    where: { OR: [{ aiScores: null }, { category: null }, { translationZh: null }], isRelevant: true },
     include: { source: true },
   });
   console.log(`  待处理: ${pending.length} 条`);
@@ -488,7 +488,7 @@ async function main() {
       };
       const qualityScore = calculateQualityScore(scores, item.source.tier, item.multiSourceCount);
       const { category, subcategory } = classifyItem(item, item.source);
-      const species = category === 'crop' ? subcategory : item.species;
+      const species = subcategory || item.species;
 
       await prisma.item.update({
         where: { id: item.id },
@@ -512,6 +512,31 @@ async function main() {
     }
   }
   console.log(`  处理完成: ${processed}/${pending.length}\n`);
+
+  // Step 4.5: 修复 species 字段（将 subcategory 同步到 species）
+  const speciesMap: Record<string, string> = {
+    pig: 'pig', poultry: 'poultry', cattle: 'cattle', sheep: 'sheep',
+    field: 'field', fruit: 'fruit', horticulture: 'horticulture',
+  };
+  const needsFix = await prisma.item.findMany({
+    where: {
+      isRelevant: true,
+      subcategory: { in: Object.keys(speciesMap) },
+      NOT: { aiScores: null },
+    },
+  });
+  let fixedCount = 0;
+  for (const item of needsFix) {
+    const correctSpecies = speciesMap[item.subcategory!];
+    if (item.species !== correctSpecies) {
+      await prisma.item.update({
+        where: { id: item.id },
+        data: { species: correctSpecies },
+      });
+      fixedCount++;
+    }
+  }
+  if (fixedCount > 0) console.log(`  修复 ${fixedCount} 条 item 的 species 字段`);
 
   // Step 5: 导出 JSON
   console.log('[5/5] 导出静态 JSON...');
@@ -597,7 +622,7 @@ async function main() {
 
   // 按物种（含种植业）
   for (const sp of ['pig', 'poultry', 'cattle', 'sheep', 'field', 'fruit', 'horticulture']) {
-    const spItems = formatted.filter((i) => i.species.includes(sp) || i.subcategory === sp);
+    const spItems = formatted.filter((i) => i.subcategory === sp || i.species.includes(sp));
     writeFileSync(join(outDir, `items-${sp}.json`), JSON.stringify(spItems, null, 2));
     const spHot = spItems.filter((i) => i.isHot).slice(0, 5);
     writeFileSync(join(outDir, `hot-items-${sp}.json`), JSON.stringify(spHot, null, 2));

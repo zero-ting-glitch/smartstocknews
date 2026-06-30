@@ -17,6 +17,7 @@ interface ExportItem {
   titleZh: string | null;
   url: string;
   summaryZh: string | null;
+  translationZh: string | null;
   publishedAt: string;
   source: {
     name: string;
@@ -67,6 +68,7 @@ async function main() {
     titleZh: item.titleZh,
     url: item.url,
     summaryZh: item.summaryZh,
+    translationZh: item.translationZh,
     publishedAt: item.publishedAt.toISOString(),
     source: item.source,
     species: item.species,

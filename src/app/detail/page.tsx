@@ -160,21 +160,23 @@ function DetailContent() {
           {item.contentFull && (
             <div className="detail-translation">
               <div className="detail-translation-header">
-                <span className="detail-translation-label">AI 翻译 · 中文</span>
-                <button
-                  onClick={() => setShowOriginal(!showOriginal)}
-                  className="detail-toggle-btn"
-                >
-                  {showOriginal ? '显示中文' : '显示原文'}
-                </button>
+                <span className="detail-translation-label">
+                  {item.translationZh ? 'AI 翻译 · 中文' : '原文'}
+                </span>
+                {item.translationZh && (
+                  <button
+                    onClick={() => setShowOriginal(!showOriginal)}
+                    className="detail-toggle-btn"
+                  >
+                    {showOriginal ? '显示中文' : '显示原文'}
+                  </button>
+                )}
               </div>
               <div className="detail-translation-content">
-                {showOriginal ? (
+                {showOriginal || !item.translationZh ? (
                   contentParagraphs.map((p, i) => <p key={i}>{p}</p>)
-                ) : item.translationZh ? (
-                  item.translationZh.split(/\n{2,}/).filter(Boolean).map((p, i) => <p key={i}>{p}</p>)
                 ) : (
-                  <p>全文翻译生成中，请查看原文。</p>
+                  item.translationZh.split(/\n{2,}/).filter(Boolean).map((p, i) => <p key={i}>{p}</p>)
                 )}
               </div>
             </div>
