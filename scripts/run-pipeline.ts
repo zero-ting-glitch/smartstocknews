@@ -60,37 +60,69 @@ function relevanceFilter(items: any[], source: any): any[] {
   });
 }
 
-// ========== 智慧畜牧预筛（AI 处理前快速过滤） ==========
-const SMART_AG_KEYWORDS = [
-  // 核心技术词
+// ========== 智慧农业预筛（AI 处理前快速过滤） ==========
+// 核心逻辑：必须同时命中「技术词」和「农业词」才算相关
+// 防止智慧城市/医疗/零售等非农业技术文章混入
+
+const TECH_KEYWORDS = [
+  // English
   'iot', 'ai ', 'ai-', 'artificial intelligence', 'machine learning', 'deep learning',
   'automation', 'automated', 'robot', 'robotic', 'drone', 'uav',
   'sensor', 'wearable', 'telemetric', 'gps', 'remote sensing',
   'computer vision', 'image recognition', 'nlp',
-  // 智慧畜牧特有
-  'precision livestock', 'precision farming', 'precision agriculture', 'smart farm',
-  'smart barn', 'smart greenhouse', 'digital agriculture', 'digital farming',
+  'blockchain', 'data analytics', 'predictive',
+  // 中文
+  '人工智能', '机器学习', '深度学习', '物联网', '传感器', '无人机',
+  '机器人', '自动化', '遥感', '卫星', '计算机视觉', '图像识别',
+  '大数据', '算法', '数字化', '区块链', '视觉识别', '自然语言',
+];
+
+const AG_KEYWORDS = [
+  // English - 种植业
+  'farm', 'farming', 'agriculture', 'crop', 'greenhouse', 'horticulture',
+  'irrigation', 'soil', 'field', 'orchard', 'vineyard',
+  'harvest', 'yield', 'planting', 'sowing', 'fertigation',
+  'precision farming', 'precision agriculture', 'smart farm',
+  'digital agriculture', 'digital farming',
+  'controlled environment', 'vertical farm', 'hydroponic',
+  'variable rate', 'yield mapping', 'crop monitoring',
+  'satellite imagery', 'ndvi', 'spectral',
+  // English - 养殖业
+  'livestock', 'cattle', 'pig', 'poultry', 'sheep', 'dairy',
+  'feedlot', 'ranch', 'barn', 'stall',
+  'precision livestock', 'smart barn',
   'animal monitoring', 'livestock monitoring', 'herd management',
   'automated feeding', 'automated milking', 'robotic milking',
   'environment control', 'climate control', 'ventilation control',
   'feed optimization', 'health monitoring', 'disease detection',
   'behavior analysis', 'weight estimation', 'body condition',
-  'traceability', 'blockchain', 'data analytics', 'predictive',
-  'controlled environment', 'vertical farm', 'hydroponic', 'fertigation',
-  'variable rate', 'yield mapping', 'soil sensor', 'crop monitoring',
-  'satellite imagery', 'ndvi', 'spectral',
+  // 中文 - 种植业
+  '农业', '种植', '作物', '温室', '大棚', '园艺', '灌溉',
+  '土壤', '田间', '果园', '采摘', '播种', '施肥',
+  '精准农业', '智慧农业', '数字农业', '植物工厂',
+  '无土栽培', '水培', '气雾培', '环控',
+  // 中文 - 养殖业
+  '养殖', '畜牧', '猪', '牛', '羊', '鸡', '禽', '奶牛',
+  '牧场', '圈舍', '畜禽',
+  '精准畜牧', '智能养殖', '智慧牧场',
+  '自动饲喂', '自动挤奶', '机器人挤奶',
+  '环境控制', '通风控制', '饲料优化',
+  '健康监测', '疾病检测', '行为分析',
 ];
 
 function smartAgScore(text: string): number {
   const lower = text.toLowerCase();
+  const hitTech = TECH_KEYWORDS.some((kw) => lower.includes(kw));
+  const hitAg = AG_KEYWORDS.some((kw) => lower.includes(kw));
+  if (!hitTech || !hitAg) return 0;
   let hits = 0;
-  for (const kw of SMART_AG_KEYWORDS) {
+  for (const kw of [...TECH_KEYWORDS, ...AG_KEYWORDS]) {
     if (lower.includes(kw)) hits++;
   }
   return hits;
 }
 
-const SMART_AG_THRESHOLD = 2; // 至少命中 2 个智慧畜牧关键词
+const SMART_AG_THRESHOLD = 3; // 技术+农业各至少1个，总命中至少3个
 
 function preFilterItems(items: any[]): { accepted: any[]; rejected: any[] } {
   const accepted: any[] = [];
