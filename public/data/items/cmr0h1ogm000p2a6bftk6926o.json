@@ -1,0 +1,28 @@
+{
+  "id": "cmr0h1ogm000p2a6bftk6926o",
+  "titleEn": "Fieldwork Robotics secures new funding to accelerate raspberry harvesting robot",
+  "titleZh": "Fieldwork Robotics获新融资，加速树莓采摘机器人商业化",
+  "summaryZh": "英国Fieldwork Robotics公司获得由企业家Jim Mellon担任主席的投资公司SEED Innovations的额外投资，用于加速其自主树莓采摘机器人的商业部署。该机器人利用计算机视觉和机械臂技术，旨在解决浆果采摘劳动力短缺问题，提高采摘效率并减少损耗。虽然直接针对种植业，但其机器人自动化、AI视觉识别等技术路径与智慧畜牧中的精准作业、自动化管理高度相通，对畜牧行业从业者具有跨领域借鉴意义。",
+  "featuredReason": "该新闻展示了农业机器人从实验室走向商业化的最新进展，其视觉识别、自主作业等核心技术对智慧畜牧中自动化饲喂、巡检等场景具有直接参考价值，值得关注跨领域技术迁移趋势。",
+  "url": "https://www.futurefarming.com/smart-farming/fieldwork-robotics-secures-new-funding-to-accelerate-raspberry-harvesting-robot/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1"
+  },
+  "sourceId": "futurefarming",
+  "species": "fruit",
+  "category": "crop",
+  "subcategory": "fruit",
+  "techTags": "",
+  "qualityScore": 76,
+  "isFeatured": true,
+  "isHot": true,
+  "publishedAt": "2026-06-25T06:00:00.000Z",
+  "contentFull": "",
+  "translationZh": "总部位于英国的Fieldwork Robotics公司已获得由企业家Jim Mellon担任主席的投资公司SEED Innovations的额外投资，以加速其自主树莓采摘机器人的商业部署。",
+  "images": [],
+  "author": "",
+  "contentHtml": "UK-based Fieldwork Robotics has secured additional investment from SEED Innovations, the investment company chaired by entrepreneur Jim Mellon, to accelerate the commercial deployment of its autonomous raspberry harvesting robot.",
+  "scrapeMethod": "scrape_failed"
+}
