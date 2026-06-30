@@ -2,7 +2,7 @@
 
 ## 项目简介
 
-聚焦智慧畜牧（IoT/AI/自动化/机器人在养殖业和种植业的应用）的新闻聚合站。海外信源为主，按物种/作物细分频道。RSS 仅作发现入口，实际爬取完整文章页面，AI 评分翻译后以自定义排版展示。参考 AIHOT (aihot.virxact.com) 设计。
+聚焦智慧畜牧（IoT/AI/自动化/机器人在养殖业和种植业的应用）的新闻聚合站。中海外信源结合，按物种/作物细分频道。RSS 仅作发现入口，实际爬取完整文章页面，AI 评分、全文翻译后以自定义排版展示。参考 AIHOT (aihot.virxact.com) 设计。
 
 ## 目录结构
 
@@ -40,11 +40,11 @@ smartstock/
 │       ├── config.ts      # BASE_PATH 等前端配置
 │       └── utils.ts       # formatTime, speciesNames, speciesColors
 ├── scripts/
-│   ├── run-pipeline.ts    # 一键管线（5 步：同步→采集→爬取→AI→导出）
+│   ├── run-pipeline.ts    # 一键管线（5 步：同步→采集(去重)→爬取→AI(预筛+翻译)→导出）
 │   ├── export-static.ts   # 独立导出脚本
 │   ├── seed-sources.ts    # 信源初始化
 │   └── check-items.ts     # 数据检查工具
-├── data/sources.json      # 12 个信源配置
+├── data/sources.json      # 9 个信源配置
 ├── prisma/schema.prisma   # 数据库 schema
 ├── public/
 │   ├── _headers           # 安全头（CSP 等）
@@ -70,7 +70,7 @@ smartstock/
 - Next.js 16 (App Router) + TypeScript + `output: 'export'` 静态导出
 - Tailwind CSS v4 + CSS 变量（亮色主题）
 - Prisma + SQLite（仅 CI 管线使用，本地开发也可用）
-- DeepSeek API（openai SDK，统一调用评分+翻译+摘要+精选理由）
+- DeepSeek API（统一调用评分+全文翻译+摘要+精选理由）
 - cheerio（HTML 解析，全文爬取）
 - rss-parser（RSS feed 解析）
 - 部署：GitHub Pages + GitHub Actions CI/CD
@@ -79,11 +79,24 @@ smartstock/
 
 ```
 [1/5] 同步信源    sources.json → SQLite（upsert）
-[2/5] 采集 URL    RSS 解析 + 列表页爬取 → 发现文章链接
+[2/5] 采集 URL    RSS 解析 + 列表页爬取 → 跨源标题去重 → 发现文章链接
 [3/5] 全文爬取    cheerio 解析 → 提取文本/图片/作者（已爬过跳过）
-[4/5] AI 处理     单次 DeepSeek 调用 → 五维评分+中文翻译+摘要+精选理由
-[5/5] 导出 JSON   items.json + items/{id}.json + hot-items.json + stats.json
+[4/5] AI 处理     预筛过滤 → 单次 DeepSeek 调用 → 五维评分+全文翻译+摘要+精选理由
+[5/5] 导出 JSON   items.json + items/{id}.json（含全文翻译）+ hot-items.json + stats.json
 ```
+
+### 预筛过滤（Step 4 前置）
+
+- 关键词分两组：`TECH_KEYWORDS`（技术）+ `AG_KEYWORDS`（农业）
+- 必须每组至少命中 1 个，总命中 ≥ 3 才进入 AI 处理
+- 支持中英文关键词（覆盖 agri.cn 中文源）
+- 被拒 item 标记 `isRelevant: false, techTags: 'pre_filter_rejected'`
+
+### 跨源标题去重（Step 2 内置）
+
+- 标题归一化后计算 Jaccard 相似度
+- 相似度 ≥ 0.6 视为重复，跳过入库
+- 防止同一文章在多个信源重复出现
 
 ## 开发原则
 
@@ -143,7 +156,7 @@ npx tsx scripts/run-pipeline.ts   # 运行完整管线
 
 ## 信源体系
 
-12 个信源，分 RSS 和列表页爬取两种方式。配置在 `data/sources.json`。
+9 个信源，分 RSS 和列表页爬取两种方式。配置在 `data/sources.json`。
 
 | 等级 | 定义 | 质量分权重 |
 |------|------|-----------|

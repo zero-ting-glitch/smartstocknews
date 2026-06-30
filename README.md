@@ -7,12 +7,14 @@
 ## 功能特性
 
 - **全文爬取**：RSS + 列表页发现链接 → cheerio 爬取完整文章（文本 + 图片 + 作者）
-- **统一 AI 处理**：单次 DeepSeek API 调用完成评分 / 翻译 / 摘要 / 精选理由
+- **统一 AI 处理**：单次 DeepSeek API 调用完成评分 / 全文翻译 / 摘要 / 精选理由
 - **多维度评分**：相关性、重要性、新颖性、可读性、可操作性（0-100）
+- **预筛过滤**：技术词+农业词双维度交叉匹配，过滤非农业技术文章
+- **跨源去重**：标题 Jaccard 相似度去重，避免同一文章重复入库
 - **物种频道**：猪业 / 禽业 / 牛业 / 羊业 / 大田 / 果蔬 / 园艺
-- **详情页**：AIHOT 风格排版 — 精选理由、AI 摘要、中英切换、原文链接
+- **详情页**：精选理由、AI 摘要、全文中文翻译（中英切换）、原文链接
 - **信源分级**：T1（官方一手）/ T1.5（行业权威）/ T2（综合媒体）
-- **自动采集**：GitHub Actions 每 6 小时运行，自动导出静态 JSON
+- **自动采集**：GitHub Actions 手动触发，自动导出静态 JSON
 
 ## 技术栈
 
@@ -80,6 +82,7 @@ smartstock/
 │   └── data/                   # 导出的静态 JSON
 │       ├── items.json          # 全部列表数据
 │       ├── items-{species}.json    # 按物种分类的列表
+│       ├── items/{id}.json     # 每篇文章的详情 JSON（含全文+翻译）
 │       ├── hot-items.json      # 热点数据
 │       ├── hot-items-{species}.json # 按物种分类的热点
 │       ├── item-ids.json       # 文章 ID 索引
@@ -143,39 +146,44 @@ npm run build
 
 ```
 [1/5] 同步信源    → sources.json → SQLite
-[2/5] 采集 URL    → RSS + 列表页爬取 → 发现文章链接
+[2/5] 采集 URL    → RSS + 列表页爬取 → 跨源标题去重 → 发现文章链接
 [3/5] 全文爬取    → cheerio 解析 → 提取文本/图片/作者
-[4/5] AI 处理     → DeepSeek 统一调用 → 评分+翻译+摘要+精选理由
-[5/5] 导出 JSON   → 列表 JSON + 详情 JSON + 热点 + 统计
+[4/5] AI 处理     → 预筛过滤 → DeepSeek 统一调用 → 评分+全文翻译+摘要+精选理由
+[5/5] 导出 JSON   → 列表 JSON + 详情 JSON（含全文翻译）+ 热点 + 统计
 ```
+
+### 预筛过滤
+
+AI 处理前进行关键词预筛，降低成本：
+- 关键词分两组：`TECH_KEYWORDS`（技术）+ `AG_KEYWORDS`（农业）
+- 必须每组至少命中 1 个，总命中 ≥ 3 才进入 AI 处理
+- 支持中英文关键词（覆盖 agri.cn 中文源）
 
 ### AI 处理
 
 单次 API 调用返回：
 - 五维评分（relevance / importance / novelty / readability / actionability）
-- 中文标题和摘要
+- 中文标题和摘要（100-150 字）
+- 全文中文翻译（完整翻译所有段落）
 - 精选理由（1-2 句推荐语）
 
 最终质量分 = 五维平均分 × 信源权重 + 多源验证加分
 
 ## 信源体系
 
-### 当前 12 个信源
+### 当前 9 个信源
 
-| 信源 | 物种 | 类型 | 优先级 |
-|------|------|------|--------|
-| PrecisionAg | 综合 | 列表页爬取 | T1 |
-| Beef Magazine | 牛业 | RSS | T1.5 |
-| National Hog Farmer | 猪业 | RSS | T1.5 |
-| Pork.org | 猪业 | RSS | T1 |
-| Poultry Times | 禽业 | RSS | T1.5 |
-| MEAT+POULTRY | 禽业 | RSS | T1.5 |
-| Feedstuffs | 综合 | RSS | T1.5 |
-| Farm Progress | 综合 | RSS | T2 |
-| Greenhouse Grower | 园艺 | RSS | T1.5 |
-| Fresh Plaza | 果蔬 | RSS | T1.5 |
-| AgFunderNews | 综合 | 列表页爬取 | T1 |
-| Agri-Pulse | 综合 | 列表页爬取 | T1 |
+| 信源 | 方向 | 采集方式 | 等级 |
+|------|------|----------|------|
+| PrecisionAg | 精准农业 | RSS | T1 |
+| Future Farming | 农业机器人/自动化 | RSS | T1 |
+| Global Ag Tech Initiative | 农业科技创新 | RSS | T1 |
+| Greenhouse Grower | 温室/设施农业 | RSS | T1.5 |
+| Fresh Plaza | 农产品供应链 | RSS | T2 |
+| AgFunderNews | 农业科技投资 | 列表页 | T1 |
+| Agri-Pulse | 农业政策+技术 | 列表页 | T1 |
+| 中国农业农村信息网-智慧农业 | 中国智慧农业 | 列表页 | T1 |
+| 中国农业农村信息网-信息化 | 中国农业信息化 | 列表页 | T1 |
 
 ### 信源配置
 
