@@ -1,0 +1,28 @@
+{
+  "id": "cmr0in2cc000rg9szvel29bcy",
+  "titleEn": "Horsch enters into partnership with application map specialist",
+  "titleZh": "Horsch入股无人机施药地图公司Sam-Dimension，深化精准农业合作",
+  "summaryZh": "农机制造商Horsch战略入股德国公司Sam-Dimension，后者专注于利用无人机影像生成杂草定点喷洒的应用地图。双方自2019年起已开展合作。Sam-Dimension宣称开发了分辨率达1毫米的特殊相机。此举标志着精准农业领域在杂草识别与变量施药技术上的进一步整合，对种植业自动化有直接推动意义，但对以养殖业为主的智慧畜牧行业相关性有限。",
+  "featuredReason": "该新闻展示了精准农业中无人机与AI视觉技术在杂草管理上的最新商业化进展，虽主要面向种植业，但其传感器融合与变量作业思路对智慧畜牧中的精准饲喂、环境监测等场景具有技术迁移参考价值。",
+  "url": "https://www.futurefarming.com/smart-farming/horsch-enters-into-partnership-with-application-map-specialist/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1"
+  },
+  "sourceId": "futurefarming",
+  "species": "general",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 66,
+  "isFeatured": true,
+  "isHot": true,
+  "publishedAt": "2026-06-24T13:19:17.000Z",
+  "contentFull": "",
+  "translationZh": "农机制造商Horsch已战略入股德国公司Sam-Dimension。Sam-Dimension专门提供利用无人机影像生成的施药地图，用于杂草的定点喷洒。两家公司自2019年起便已开展合作。据该公司称，Sam-Dimension开发了一款分辨率达1毫米的特殊相机。",
+  "images": [],
+  "author": "",
+  "contentHtml": "Machinery manufacturer Horsch has taken a strategic stake in the German company Sam-Dimension. Sam-Dimension specialises in supplying application maps created using drone imagery for spot spraying against weeds. The 2 companies have already been working together since 2019. Sam-Dimension has developed a special camera with a resolution of 1 millimetre, according to the specialist itself. […]",
+  "scrapeMethod": "scrape_failed"
+}

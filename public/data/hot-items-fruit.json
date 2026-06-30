@@ -1,10 +1,10 @@
 [
   {
-    "id": "cmr0h1p9g004f2a6bwjx36q9q",
+    "id": "cmr0in30q004fg9sz3lg5cusu",
     "titleEn": "From Taxol to cocoa: Can plant cell culture make the leap from drugs to food?",
     "titleZh": "从紫杉醇到可可：植物细胞培养能否从制药跨界到食品？",
-    "summaryZh": "本文探讨了植物细胞培养技术从制药领域向食品、保健品原料生产的商业化可行性。面对气候变化和地缘政治对传统植物供应链的冲击，利用生物反应器室内培养高价值植物成分（如可可、香草、藏红花、南非醉茄等）具有吸引力。但该技术面临资本支出高、运营成本大、细胞系产量不稳定等挑战，一家英国初创公司因资金耗尽而倒闭。文章分析了不同规模反应器的技术路线，并指出该领域在食品级应用中仍需突破成本瓶颈。",
-    "featuredReason": "虽然植物细胞培养并非直接应用于养殖业，但其解决供应链脆弱性、实现标准化生产的思路，对智慧畜牧中饲料原料、添加剂及植物性药物的稳定供应具有跨领域启发价值。",
+    "summaryZh": "本文探讨了植物细胞培养技术从制药领域向食品、保健品原料生产的商业化可行性。面对气候变化和地缘政治对传统植物供应链的冲击，多家初创公司尝试在生物反应器中培养植物细胞以稳定生产高价值成分（如可可、香草、藏红花等）。文章分析了技术成本、硬件选择（不锈钢大罐 vs 模块化小罐）以及融资困境等关键挑战，并指出该技术虽在制药领域已成功，但在食品领域仍需大幅降低成本才能实现商业价值。",
+    "featuredReason": "虽然植物细胞培养并非直接针对畜牧养殖，但其在稳定供应链、减少环境风险、实现标准化生产方面的思路，对智慧畜牧中饲料添加剂、植物源兽药及功能性成分的可持续生产具有前瞻性参考价值。",
     "url": "https://agfundernews.com/from-taxol-to-cocoa-can-plant-cell-culture-make-the-leap-from-drugs-to-food",
     "source": {
       "name": "AgFunderNews",
@@ -16,17 +16,17 @@
     "category": "crop",
     "subcategory": "fruit",
     "techTags": "",
-    "qualityScore": 63,
+    "qualityScore": 64,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-30T09:56:06.011Z"
+    "publishedAt": "2026-06-30T10:40:43.230Z"
   },
   {
-    "id": "cmr0h1ogm000p2a6bftk6926o",
+    "id": "cmr0in2ca000pg9sza0spo5in",
     "titleEn": "Fieldwork Robotics secures new funding to accelerate raspberry harvesting robot",
     "titleZh": "Fieldwork Robotics获新融资，加速树莓采摘机器人商业化",
-    "summaryZh": "英国Fieldwork Robotics公司获得由企业家Jim Mellon担任主席的投资公司SEED Innovations的额外投资，用于加速其自主树莓采摘机器人的商业部署。该机器人利用计算机视觉和机械臂技术，旨在解决浆果采摘劳动力短缺问题，提高采摘效率并减少损耗。虽然直接针对种植业，但其机器人自动化、AI视觉识别等技术路径与智慧畜牧中的精准作业、自动化管理高度相通，对畜牧行业从业者具有跨领域借鉴意义。",
-    "featuredReason": "该新闻展示了农业机器人从实验室走向商业化的最新进展，其视觉识别、自主作业等核心技术对智慧畜牧中自动化饲喂、巡检等场景具有直接参考价值，值得关注跨领域技术迁移趋势。",
+    "summaryZh": "英国机器人公司Fieldwork Robotics获得由企业家Jim Mellon担任主席的投资公司SEED Innovations的追加投资，用于加速其自主树莓采摘机器人的商业部署。该机器人利用AI和视觉技术实现精准采摘，旨在解决农业劳动力短缺问题，提升采摘效率。虽然直接针对水果种植，但其技术路径（自动化、机器人、AI视觉）与智慧畜牧中的精准饲喂、巡检机器人等场景高度相通，对畜牧行业自动化升级具有参考价值。",
+    "featuredReason": "该新闻展示了农业机器人从实验室走向商业化的最新进展，其AI视觉与自主作业技术对智慧畜牧中的巡检、分拣等自动化场景有直接借鉴意义。",
     "url": "https://www.futurefarming.com/smart-farming/fieldwork-robotics-secures-new-funding-to-accelerate-raspberry-harvesting-robot/",
     "source": {
       "name": "Future Farming",
@@ -38,17 +38,17 @@
     "category": "crop",
     "subcategory": "fruit",
     "techTags": "",
-    "qualityScore": 76,
+    "qualityScore": 75,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-25T06:00:00.000Z"
   },
   {
-    "id": "cmr0h1ogz00112a6btmka4fmk",
+    "id": "cmr0in2cn0011g9sz05muwawo",
     "titleEn": "Croplands expands WEED-IT range with new releases, including orchard solution",
     "titleZh": "Croplands扩展WEED-IT精准喷洒系列，推出果园专用光学点喷方案",
-    "summaryZh": "澳大利亚Croplands Equipment公司发布了WEED-IT精准喷洒系列的新技术，包括Series 2 Robot Ready Pinto、大型宽幅平台、扩展的改装能力以及首款专为果园设计的光学点喷解决方案。这些技术主要面向种植业精准除草，与智慧畜牧行业间接相关，但其中的自动化、传感器和机器人技术对畜牧业的精准饲喂、环境监控等有借鉴意义。",
-    "featuredReason": "虽然本文聚焦种植业精准喷洒，但其中的光学传感器、机器人集成和自动化技术对智慧畜牧行业在精准饲喂、环境监测和自动化作业方面具有跨领域参考价值。",
+    "summaryZh": "澳大利亚Croplands Equipment公司发布了WEED-IT精准喷洒系列的多项新技术，包括Series 2 Robot Ready Pinto、大型宽幅平台、扩展的改装能力以及首款专为果园设计的光学点喷解决方案。这些技术主要面向种植业精准植保，虽非直接针对畜牧养殖，但其中涉及的自动化、传感器和机器人集成思路对智慧畜牧中的精准饲喂、环境监测等场景有借鉴意义。",
+    "featuredReason": "虽然该新闻聚焦于种植业精准喷洒，但其中涉及的机器人集成、传感器技术和自动化控制思路，对智慧畜牧中的精准饲喂、环境监测和自动化作业具有跨领域参考价值。",
     "url": "https://www.futurefarming.com/smart-farming/croplands-expands-weed-it-range-with-new-releases-including-orchard-solution/",
     "source": {
       "name": "Future Farming",
@@ -66,11 +66,11 @@
     "publishedAt": "2026-06-18T07:00:00.000Z"
   },
   {
-    "id": "cmr0h1nyw00092a6bm4e2zv4d",
+    "id": "cmr0in1ue0009g9sz06xaqbbo",
     "titleEn": "UC Riverside Develops Modern-Day Robotic Divining Rod",
     "titleZh": "加州大学河滨分校开发现代版机器人探水杖：逐树绘制土壤湿度图",
-    "summaryZh": "加州大学河滨分校（UC Riverside）的研究团队开发了一种新型机器人系统，能够逐棵树绘制果园土壤湿度地图，帮助农民在干旱和水资源短缺加剧的背景下实现精准灌溉。该系统通过机器人测量土壤电导率，并结合固定湿度传感器数据，建立统计模型预测整个田块的水分分布，从而指导农民只在需要的时间和地点浇水。该技术有望替代传统昂贵且有限的土壤湿度传感器，显著提升水资源利用效率，对智慧农业和可持续种植具有重要价值。",
-    "featuredReason": "该技术将机器人、传感器与统计建模深度融合，实现了从“田块级”到“单棵树级”的精准灌溉决策，为智慧畜牧行业（尤其是种植-养殖一体化场景）提供了可借鉴的精准水资源管理思路，极具前瞻性和实用价值。",
+    "summaryZh": "加州大学河滨分校（UC Riverside）的研究团队开发了一种新型机器人系统，能够逐棵树绘制果园土壤湿度分布图，帮助农民在干旱加剧和水资源短缺的背景下精准灌溉。该系统通过机器人测量土壤电导率，并结合已有的固定湿度传感器数据，建立统计模型预测整个田块的水分含量，从而指导农民只在需要的时间和地点浇水。该技术有望替代传统昂贵且覆盖有限的土壤湿度传感器，提升水资源利用效率，减少过度灌溉对作物根系和健康的负面影响。研究发表在《计算机与电子农业》期刊上。",
+    "featuredReason": "该技术展示了机器人、传感器与AI建模在精准灌溉中的创新融合，对智慧畜牧行业（尤其是种植业与养殖业结合的水资源管理）具有重要借鉴意义，能有效提升水资源利用效率和作物健康管理。",
     "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/uc-riverside-develops-modern-day-robotic-divining-rod/",
     "source": {
       "name": "PrecisionAg",
@@ -82,17 +82,17 @@
     "category": "crop",
     "subcategory": "fruit",
     "techTags": "",
-    "qualityScore": 90,
+    "qualityScore": 85,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-15T18:17:17.000Z"
   },
   {
-    "id": "cmr0h1oho001r2a6baok5o0cb",
+    "id": "cmr0in2db001rg9szsqg0iwep",
     "titleEn": "Yamaha Agriculture adds herbicide spraying to Prospr robot",
     "titleZh": "雅马哈农业为Prospr机器人新增除草剂喷洒功能",
-    "summaryZh": "雅马哈农业为其Prospr自主混合动力车辆平台推出了除草剂喷洒附件，扩展了该机器在果园和葡萄园中自动除草的能力。这一创新将机器人技术与精准农业结合，提升了杂草管理的自动化水平，对智慧种植业具有参考价值，但直接关联智慧畜牧（养殖业）的程度有限。",
-    "featuredReason": "该新闻展示了农业机器人从通用平台向专用功能扩展的趋势，对智慧畜牧中类似自动化设备（如巡检、饲喂机器人）的功能拓展具有启发意义。",
+    "summaryZh": "雅马哈农业为其Prospr自主混合动力车辆平台推出了除草剂喷洒附件，扩展了该机器在果园和葡萄园中自动除草的能力。这标志着农业机器人从单一功能向多功能集成发展，对精准农业和减少人工除草成本具有参考价值。虽然主要针对种植业，但其自主导航、传感器融合和模块化设计思路对智慧畜牧中的牧场管理、精准投喂等场景有间接启发。",
+    "featuredReason": "该新闻展示了农业机器人从单一功能向多功能集成的趋势，其模块化设计和自主作业思路对智慧畜牧中的自动化牧场管理、精准投喂等场景具有跨领域借鉴意义。",
     "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/yamaha-agriculture-adds-herbicide-spraying-to-prospr-robot/",
     "source": {
       "name": "Future Farming",
@@ -104,7 +104,7 @@
     "category": "crop",
     "subcategory": "fruit",
     "techTags": "",
-    "qualityScore": 76,
+    "qualityScore": 71,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-03T07:00:00.000Z"

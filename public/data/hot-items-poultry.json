@@ -1,10 +1,10 @@
 [
   {
-    "id": "cmr0h1p8g003n2a6btupu0zre",
+    "id": "cmr0in2zo003ng9szxn1k0s3i",
     "titleEn": "Exclusive: UPSIDE Foods submits $50m stalking horse bid for Believer Meats’ US cultivated meat facility",
-    "titleZh": "UPSIDE Foods以5000万美元“马前卒”竞标收购Believer Meats美国细胞培养肉工厂",
-    "summaryZh": "本文独家报道了细胞培养肉公司UPSIDE Foods提交5000万美元“马前卒”竞标，收购陷入困境的Believer Meats位于美国北卡罗来纳州的培养肉生产设施。该设施包含生物反应器、培养基罐、离心机、冷冻系统等先进设备，以及部分知识产权。竞标截止日为7月20日，若出现更高报价则于7月28日拍卖。文章还涉及知识产权归属争议，特别是以色列母公司Future Meat Technologies是否拥有该工厂的部分资产。该事件反映了细胞培养肉行业在资金压力下的整合趋势。",
-    "featuredReason": "该新闻揭示了细胞培养肉行业在资金压力下的并购整合动态，虽然与智慧畜牧（IoT/AI/自动化在养殖业的应用）直接相关性较低，但涉及生物反应器、自动化生产系统等先进制造技术，对关注替代蛋白和生物制造领域的智慧畜牧从业者具有行业趋势参考价值。",
+    "titleZh": "UPSIDE Foods以5000万美元收购Believer Meats美国培养肉工厂",
+    "summaryZh": "培养肉公司Believer Meats（原Future Meat Technologies）因资金链断裂于2025年12月停运，其位于北卡罗来纳州的工厂及资产被法院接管。UPSIDE Foods提交了5000万美元的“马前卒”收购要约，成为基准出价方。其他竞标者需在7月20日前提交高于5225万美元的报价。交易包括生产设施、生物反应器、培养基罐等设备，但以色列母公司的部分知识产权被排除在外。该事件反映了培养肉行业在商业化进程中的财务挑战与整合趋势。",
+    "featuredReason": "该新闻揭示了培养肉行业在商业化过程中面临的财务现实与资产整合，对智慧畜牧领域关注替代蛋白供应链、生物反应器自动化及设施运营的从业者具有战略参考价值。",
     "url": "https://agfundernews.com/exclusive-upside-foods-submits-50m-stalking-horse-bid-for-believer-meats-us-cultivated-meat-facility",
     "source": {
       "name": "AgFunderNews",
@@ -12,13 +12,13 @@
       "tier": "T1"
     },
     "sourceId": "agfundernews",
-    "species": "aggtech",
+    "species": "poultry",
     "category": "livestock",
     "subcategory": "poultry",
     "techTags": "",
-    "qualityScore": 63,
+    "qualityScore": 62,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-30T09:56:06.011Z"
+    "publishedAt": "2026-06-30T10:40:43.230Z"
   }
 ]
