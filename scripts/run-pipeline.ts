@@ -307,22 +307,27 @@ async function main() {
   }
   console.log(`  总计: ${totalRaw} raw → ${totalSaved} saved\n`);
 
-  // Step 3: 全文爬取
+  // Step 3: 全文爬取（循环批次，直到所有未爬取 item 处理完）
   console.log('[3/5] 全文爬取...');
-  const unscraped = await prisma.item.findMany({
-    where: { scrapedAt: null, isRelevant: true },
-    include: { source: true },
-    take: 50,
-  });
-  await scrapeArticlesBatch(unscraped);
-  console.log();
+  let totalScraped = 0;
+  while (true) {
+    const unscraped = await prisma.item.findMany({
+      where: { scrapedAt: null, isRelevant: true },
+      include: { source: true },
+      take: CONCURRENCY * 10,
+    });
+    if (unscraped.length === 0) break;
+    console.log(`  剩余 ${unscraped.length} 条待爬取...`);
+    await scrapeArticlesBatch(unscraped);
+    totalScraped += unscraped.length;
+  }
+  console.log(`  全文爬取完成，共处理 ${totalScraped} 条\n`);
 
-  // Step 4: AI 处理（统一提示词）
+  // Step 4: AI 处理（统一提示词，循环处理所有待处理 item）
   console.log('[4/5] AI 处理（统一分析）...');
   const pending = await prisma.item.findMany({
     where: { OR: [{ aiScores: null }, { category: null }], isRelevant: true },
     include: { source: true },
-    take: 50,
   });
   console.log(`  待处理: ${pending.length} 条`);
   let processed = 0;
