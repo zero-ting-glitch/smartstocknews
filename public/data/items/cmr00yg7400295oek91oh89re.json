@@ -1,0 +1,27 @@
+{
+  "id": "cmr00yg7400295oek91oh89re",
+  "titleEn": "Mexico’s pork offal restrictions remain costly for U.S. industry",
+  "titleZh": "墨西哥对美猪肉内脏限制持续，美国养猪业成本承压",
+  "summaryZh": "世界动物卫生组织（WOAH）近期认证，美国爱荷华州发生的伪狂犬病事件为孤立事件且已成功控制。然而，墨西哥仍维持对美国猪肉内脏的进口限制，导致美国养猪业持续面临出口损失和成本压力。该新闻主要涉及国际贸易与动物疫病管控，与智慧畜牧核心技术（IoT、AI、自动化等）的直接关联较弱，但疫病监测与追溯系统的有效性间接体现了数字化管理的重要性。",
+  "featuredReason": "尽管新闻本身不直接涉及智慧畜牧技术，但疫病成功隔离与认证过程依赖精准的监测与数据追溯系统，提示行业人士关注数字化疫病防控对国际贸易的支撑作用。",
+  "url": "https://www.nationalhogfarmer.com/market-news/mexico-s-pork-offal-restrictions-remain-costly-for-u-s-industry",
+  "source": {
+    "name": "National Hog Farmer",
+    "nameZh": "美国养猪人",
+    "tier": "T1.5"
+  },
+  "sourceId": "nationalhogfarmer",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "pig",
+  "techTags": "",
+  "qualityScore": 27,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-29T15:04:36.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "WOAH recently certified that the pseudorabies event in Iowa was an isolated event and that it has been successfully contained.",
+  "scrapeMethod": "rss"
+}

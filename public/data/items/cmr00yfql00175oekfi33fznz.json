@@ -1,0 +1,27 @@
+{
+  "id": "cmr00yfql00175oekfi33fznz",
+  "titleEn": "Neogen expands FIFRA 2(ee) recommendations to counter threat",
+  "titleZh": "Neogen扩大FIFRA 2(ee)推荐范围以应对螺旋蝇威胁",
+  "summaryZh": "Neogen公司宣布将其FIFRA 2(ee)推荐使用范围扩展至德克萨斯州和佛罗里达州，帮助养殖户应对螺旋蝇（screwworm）威胁。该推荐涉及特定灭蝇产品的使用方式调整，旨在提高对螺旋蝇幼虫的控制效果。螺旋蝇是一种对牲畜危害极大的寄生虫，可导致严重经济损失。此次扩展为更多地区的动物所有者提供了额外的防控工具，但内容主要涉及传统化学防控手段，未提及物联网、传感器或自动化等智慧畜牧技术。",
+  "featuredReason": "尽管该新闻主要涉及传统化学防控，但螺旋蝇威胁的扩大提醒智慧畜牧从业者：未来需将智能监测与预警系统（如AI图像识别、物联网传感器）融入生物安全防控体系，以提升响应速度和精准度。",
+  "url": "https://www.beefmagazine.com/livestock-management/neogen-expands-fifra-2-ee-recommendations-to-counter-threat",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5"
+  },
+  "sourceId": "beefmagazine",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 34,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-18T13:05:29.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "Availability of recommendations for use of fly control options expanded to Texas and Florida to help animal owners fight screwworm.",
+  "scrapeMethod": "rss"
+}

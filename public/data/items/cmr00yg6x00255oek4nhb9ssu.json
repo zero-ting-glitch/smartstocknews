@@ -1,0 +1,27 @@
+{
+  "id": "cmr00yg6x00255oek4nhb9ssu",
+  "titleEn": "Revisions to livestock insurance programs take effect July 1",
+  "titleZh": "美国生猪保险计划修订7月生效，覆盖27%市场量",
+  "summaryZh": "美国农业部对牲畜风险保护（LRP）和牲畜毛利保险（LGM）计划进行修订，新规于7月1日生效。过去五个作物年度，平均27%的美国上市生猪通过这两种保险获得覆盖。修订内容旨在优化保险条款，帮助养殖户管理价格和收入风险。该新闻主要涉及农业保险政策调整，与智慧畜牧技术（如IoT、AI、自动化）无直接关联，但保险覆盖数据可作为养殖业风险管理背景参考。",
+  "featuredReason": "虽然该新闻不直接涉及智慧畜牧技术，但保险覆盖数据反映了养殖业风险管理的宏观趋势，智慧畜牧从业者可借此理解行业对风险对冲工具的需求，从而思考技术如何辅助精准风险评估与数据驱动的保险产品设计。",
+  "url": "https://www.nationalhogfarmer.com/farming-business-management/revisions-to-livestock-insurance-programs-take-effect-july-1",
+  "source": {
+    "name": "National Hog Farmer",
+    "nameZh": "美国养猪人",
+    "tier": "T1.5"
+  },
+  "sourceId": "nationalhogfarmer",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "pig",
+  "techTags": "",
+  "qualityScore": 27,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-29T19:29:21.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "Over the past five crop years, an average of 27% of hogs marketed in the United States were covered by either LRP or LGM.",
+  "scrapeMethod": "rss"
+}

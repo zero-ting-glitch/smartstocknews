@@ -1,0 +1,27 @@
+{
+  "id": "cmr00yfpr000h5oekqrps58oj",
+  "titleEn": "Screwworm 'panic' meets ranch math",
+  "titleZh": "螺旋蛆恐慌与牧场经济账：数据中心放牧权成新议题",
+  "summaryZh": "本期节目聚焦新世界螺旋蛆（New World screwworm）引发的行业恐慌，以理性视角分析其对畜牧业的实际威胁与应对策略。同时，节目探讨了数据中心与放牧权交叉的新兴话题——如何在数字基础设施扩张背景下，平衡牧场土地资源利用与畜牧业可持续发展。内容虽涉及畜牧经济，但未深入智慧畜牧技术应用，更多是行业宏观讨论。",
+  "featuredReason": "虽然直接涉及智慧畜牧技术较少，但螺旋蛆防控与数据中心放牧权议题为牧场管理者提供了跨界思考视角，适合关注畜牧政策与土地资源整合的从业者阅读。",
+  "url": "https://www.beefmagazine.com/farm-business-management/screwworm-panic-meets-ranch-math",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5"
+  },
+  "sourceId": "beefmagazine",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 27,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-24T22:41:51.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "In this episode, we tackle the New World screwworm conversation with a clear eye. Plus, we get into data centers and grazing rights.",
+  "scrapeMethod": "rss"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "cmr00yfph00095oeka6on5wbg",
+  "titleEn": "Cassidy bill sets TRQs on import-sensitive ag products",
+  "titleZh": "卡西迪法案拟对进口敏感农产品设置关税配额",
+  "summaryZh": "美国参议员卡西迪提出一项法案，旨在对活牛、牛肉、虾、小龙虾、鲶鱼、大米、蜂蜜、羊肉和山羊肉等进口敏感农产品设置关税配额（TRQs），以保护国内生产者免受不公平进口冲击。该法案反映了贸易保护主义趋势，可能影响畜牧业的进口竞争格局，但未涉及智慧畜牧技术或数字化养殖手段。对于智慧畜牧行业，其间接影响在于可能推动国内养殖业扩大产能，从而增加对智能化设备的需求，但法案本身不包含技术内容。",
+  "featuredReason": "虽然该法案不直接涉及智慧畜牧技术，但可能通过改变进口竞争环境，间接刺激国内养殖业对自动化、物联网等降本增效技术的需求，值得行业人士关注政策动向以调整战略布局。",
+  "url": "https://www.beefmagazine.com/market-news/cassidy-bill-sets-trqs-on-import-sensitive-ag-products",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5"
+  },
+  "sourceId": "beefmagazine",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 34,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-26T19:10:29.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "Legislation aims to protect products like live cattle, beef, shrimp, crawfish, catfish, rice, honey, lamb and goat meat from unfair imports.",
+  "scrapeMethod": "rss"
+}

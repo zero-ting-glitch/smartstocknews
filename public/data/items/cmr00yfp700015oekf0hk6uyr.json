@@ -1,0 +1,27 @@
+{
+  "id": "cmr00yfp700015oekf0hk6uyr",
+  "titleEn": "Fevara supports U.K. Beef, Sheep and Dairy Welfare Strategies",
+  "titleZh": "Fevara成为英国畜牧福利战略新签约组织，将共享研究数据",
+  "summaryZh": "Fevara作为新签约组织，将参与英国牛肉、绵羊和奶牛福利战略，通过共享研究数据和为工作组提供专业知识来支持相关决策。该新闻主要涉及政策层面的组织合作与数据共享承诺，未提及具体物联网、AI、自动化或传感器等智慧畜牧核心技术细节，对技术落地和行业实践的直接指导意义有限。",
+  "featuredReason": "该新闻展示了行业组织在畜牧福利政策中的参与模式，但缺乏智慧畜牧核心技术内容，适合关注政策动态的读者，对技术从业者参考价值较低。",
+  "url": "https://www.beefmagazine.com/market-news/fevara-supports-u-k-beef-sheep-and-dairy-welfare-strategies",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5"
+  },
+  "sourceId": "beefmagazine",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 27,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-29T13:49:21.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "As a newly listed signatory organization, Fevara will be involved in sharing research data and providing expertise to working groups.",
+  "scrapeMethod": "rss"
+}

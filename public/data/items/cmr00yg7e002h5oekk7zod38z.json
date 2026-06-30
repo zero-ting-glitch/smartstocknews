@@ -1,0 +1,27 @@
+{
+  "id": "cmr00yg7e002h5oekk7zod38z",
+  "titleEn": "New cuts move pork beyond the chop",
+  "titleZh": "美国猪肉消费变化推动零售与餐饮渠道转型",
+  "summaryZh": "本文探讨了美国消费者行为变化如何推动猪肉产业在零售和餐饮渠道的演变。内容聚焦于市场趋势和消费端调整，未涉及物联网、人工智能、自动化或传感器等智慧畜牧核心技术。虽然对行业从业者了解终端需求有一定参考价值，但与智慧畜牧的技术应用关联度较低。",
+  "featuredReason": "该新闻主要关注消费端变化而非养殖技术革新，对智慧畜牧领域的技术应用参考价值有限，建议关注更直接涉及IoT/AI在养殖业应用的报道。",
+  "url": "https://www.nationalhogfarmer.com/farming-business-management/new-cuts-move-pork-beyond-the-chop",
+  "source": {
+    "name": "National Hog Farmer",
+    "nameZh": "美国养猪人",
+    "tier": "T1.5"
+  },
+  "sourceId": "nationalhogfarmer",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "pig",
+  "techTags": "",
+  "qualityScore": 27,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-26T18:56:30.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "In this episode, we unpack what has changed in the American consumer and why that change has the pork industry evolving at retail and foodservice.",
+  "scrapeMethod": "rss"
+}

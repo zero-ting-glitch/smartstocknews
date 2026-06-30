@@ -1,0 +1,27 @@
+{
+  "id": "cmr00yhkc005n5oekhglinfgs",
+  "titleEn": "Do you need potassium this year? What soil tests say for corn",
+  "titleZh": "",
+  "summaryZh": "",
+  "featuredReason": "",
+  "url": "https://www.farmprogress.com/corn/do-you-need-potassium-this-year-what-soil-tests-say-for-corn",
+  "source": {
+    "name": "Farm Progress",
+    "nameZh": "农业进展",
+    "tier": "T2"
+  },
+  "sourceId": "farmprogress",
+  "species": "aggtech",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 0,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-29T13:06:15.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "Farm Progress outlines the ongoing cost of potash in the US, including a breakdown of corn prices and a state-by-state analysis of potash cost vs yield return.",
+  "scrapeMethod": "rss"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "cmr00yfpd00055oek2urkvw9i",
+  "titleEn": "dsm-firmenich brings Verax in house",
+  "titleZh": "帝斯曼-芬美意全资收购动物健康AI预测平台Verax",
+  "summaryZh": "帝斯曼-芬美意（dsm-firmenich）旗下动物营养与健康（ANH）部门，在结束与InsideTracker长达七年的合作后，宣布全资收购动物健康AI预测平台Verax。该平台利用机器学习和传感器数据，对牲畜健康风险进行早期预警，帮助养殖场提前干预。此次收购标志着大型营养企业将AI预测能力完全内化，加速智慧畜牧从数据采集向智能决策的闭环。",
+  "featuredReason": "该事件展示了全球头部营养企业如何通过收购将AI预测技术深度整合进自身业务，为智慧畜牧行业提供了从合作到自控的转型范本，值得关注技术落地的从业者参考。",
+  "url": "https://www.beefmagazine.com/livestock-management/dsm-firmenich-brings-verax-in-house",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5"
+  },
+  "sourceId": "beefmagazine",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 53,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-29T12:43:19.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "After 7-year partnership with InsideTracker, ANH acquires full ownership of animal health AI prediction platform.",
+  "scrapeMethod": "rss"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "cmr00yg7b002f5oekci9adv0c",
+  "titleEn": "Pairis-Garcia receives 2026 AVMA Animal Welfare Award",
+  "titleZh": "Pairis-Garcia获2026年AVMA动物福利奖，研究聚焦商业农场与产业合作",
+  "summaryZh": "该新闻报道了Pairis-Garcia因在商业农场动物福利研究方面的贡献，获得2026年美国兽医协会（AVMA）动物福利奖。其研究直接与产业合作，包括国家猪肉委员会和美国猪兽医协会。然而，新闻内容未涉及物联网、AI、自动化、传感器等智慧畜牧核心技术，主要聚焦传统动物福利评估与产业协作，对智慧畜牧领域的技术创新和实践参考价值有限。",
+  "featuredReason": "该奖项体现了产业界对动物福利的重视，但缺乏智慧畜牧技术细节，适合关注行业政策与福利趋势的读者，而非寻求技术落地的从业者。",
+  "url": "https://www.nationalhogfarmer.com/livestock-management/pairis-garcia-receives-2026-avma-animal-welfare-award",
+  "source": {
+    "name": "National Hog Farmer",
+    "nameZh": "美国养猪人",
+    "tier": "T1.5"
+  },
+  "sourceId": "nationalhogfarmer",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "pig",
+  "techTags": "",
+  "qualityScore": 27,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-29T12:22:02.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "Her commercial farm research is in direct partnership with industry, including the National Pork Board and the American Association of Swine Veterinarians.",
+  "scrapeMethod": "rss"
+}

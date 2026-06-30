@@ -1,0 +1,27 @@
+{
+  "id": "cmr00yfr7001r5oekhdz6msnv",
+  "titleEn": "Building better cows",
+  "titleZh": "如何通过遗传、健康与管理决策打造高产母牛",
+  "summaryZh": "本文报道了堪萨斯州立大学肉牛专家关于如何通过遗传选择、健康管理和饲养决策来提升母牛终生生产能力的讨论。核心观点是母牛的生产力不仅取决于遗传潜力，还受到早期健康管理、营养方案和繁殖策略的综合影响。专家强调了数据驱动的管理决策在优化母牛生产寿命和经济效益中的重要性。虽然内容聚焦传统畜牧管理，未涉及IoT或AI等智慧技术，但对理解肉牛生产效率提升的底层逻辑具有参考价值。",
+  "featuredReason": "尽管本文未直接涉及智慧畜牧技术，但其强调的数据驱动决策理念与智慧畜牧核心思想一致，适合关注肉牛生产效率优化的从业者阅读，以理解传统管理与技术赋能的结合点。",
+  "url": "https://www.beefmagazine.com/livestock-management/building-better-cows",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5"
+  },
+  "sourceId": "beefmagazine",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 39,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-16T12:16:39.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "K-State beef cattle experts discuss how genetics, health and management decisions shape a heifer's lifetime productivity.",
+  "scrapeMethod": "rss"
+}

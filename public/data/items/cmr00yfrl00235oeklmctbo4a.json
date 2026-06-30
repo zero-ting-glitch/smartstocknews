@@ -1,0 +1,27 @@
+{
+  "id": "cmr00yfrl00235oeklmctbo4a",
+  "titleEn": "U.S. pork exports surge, beef lags through April",
+  "titleZh": "美国猪肉出口激增，牛肉因贸易限制在华表现滞后",
+  "summaryZh": "截至4月，美国猪肉出口量大幅增长，但牛肉出口因伪狂犬病贸易限制及市场障碍而持续低迷。5月数据将更清晰反映限制措施的影响。文章聚焦贸易动态与疫病政策对畜牧产品流通的制约，但未涉及智慧畜牧技术应用，仅对行业宏观趋势有参考价值。",
+  "featuredReason": "虽未直接关联智慧畜牧技术，但贸易政策与疫病管控是影响畜牧产业链的关键外部变量，从业者需关注市场环境变化以调整技术部署策略。",
+  "url": "https://www.beefmagazine.com/market-news/u-s-pork-exports-surge-beef-lags-through-april",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5"
+  },
+  "sourceId": "beefmagazine",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 32,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-11T14:27:28.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "May data to reflect impact of pseudorabies trade restrictions; more obstacles must be addressed before U.S. beef’s presence in China rebounds.",
+  "scrapeMethod": "rss"
+}

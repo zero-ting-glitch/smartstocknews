@@ -1,0 +1,27 @@
+{
+  "id": "cmr00yg7100275oekx3cq045y",
+  "titleEn": "Lawmakers seek coordinated New World screwworm response",
+  "titleZh": "美国议员要求协调应对新世界螺旋蝇疫情：关注不育昆虫技术产能",
+  "summaryZh": "美国参议员致信农业部（USDA）和卫生与公众服务部（HHS），要求详细报告当前及计划中的不育蝇生产与投放能力，以协调应对新世界螺旋蝇（New World screwworm）疫情。该寄生虫对牲畜造成严重危害，而控制手段主要依赖大规模释放经辐照不育的雄性蝇（SIT技术）。新闻虽未直接涉及IoT或AI，但SIT技术本身是生物防治领域的经典创新，且疫情监测与投放管理可结合传感器与数据系统。对智慧畜牧行业而言，此事件提示了生物安全与自动化监测的潜在交叉点。",
+  "featuredReason": "该新闻展示了传统生物防治（SIT）在重大动物疫情中的政策与产能瓶颈，为智慧畜牧行业思考如何将IoT/AI融入疫情监测与精准投放提供了现实背景。",
+  "url": "https://www.nationalhogfarmer.com/farm-policy-news/lawmakers-seek-coordinated-new-world-screwworm-response",
+  "source": {
+    "name": "National Hog Farmer",
+    "nameZh": "美国养猪人",
+    "tier": "T1.5"
+  },
+  "sourceId": "nationalhogfarmer",
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "pig",
+  "techTags": "",
+  "qualityScore": 34,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-29T19:18:12.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "Senators request USDA, HHS provide a detailed accounting of current and planned sterile fly production and dispersal capacity.",
+  "scrapeMethod": "rss"
+}
