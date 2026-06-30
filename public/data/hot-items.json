@@ -1,1 +1,156 @@
-[]
+[
+  {
+    "id": "cmr07upet0091ajffg01z14bq",
+    "titleEn": "Rainbow Crops raises $11.25m to scale AI-guided multiplex gene editing",
+    "titleZh": "Rainbow Crops获1125万美元种子轮融资，用AI引导多重基因编辑提升作物产量与抗旱性",
+    "summaryZh": "比利时农业科技初创公司Rainbow Crops完成1125万美元种子轮融资，由LIFTT EuroInvest领投。该公司利用AI预测影响复杂性状（如产量、耐旱性）的基因组合，结合多重基因编辑与高通量筛选技术，在玉米等作物中实现精准改良。其系统生物学方法将基因型与表型数据反馈至AI模型，持续优化育种效率。该技术源自VIB研究所，有望突破传统育种瓶颈，对智慧种植业及畜牧饲料原料供应具有潜在影响。",
+    "featuredReason": "该技术通过AI+基因编辑精准改良作物关键性状，直接关系到畜牧饲料原料（如玉米）的产量与抗逆性，是智慧种植与畜牧产业链上游的重要创新，值得关注其对饲料成本与供应链稳定性的长期影响。",
+    "url": "https://agfundernews.com/rainbow-crops-raises-11-25m-to-scale-ai-guided-multiplex-gene-editing",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-30T05:38:43.077Z"
+  },
+  {
+    "id": "cmr07upew0095ajfflhl13ndk",
+    "titleEn": "Picketa Systems raises $1.5m to bring crop nutrient testing to the field",
+    "titleZh": "Picketa Systems获150万美元融资，将作物营养检测带入田间",
+    "summaryZh": "加拿大农业科技初创公司Picketa Systems完成150万美元融资，用于推广其便携式作物营养传感技术LENS。该技术利用AI光谱分析，可在几分钟内检测作物叶片中13种关键营养元素，经第三方实验室验证，结合Fieldbook平台帮助农民精准施肥，降低肥料成本最高20%并提升产量。CEO预测十年内通过作物传感、专用投入品和自动驾驶车辆，将完全实现肥料循环闭环。",
+    "featuredReason": "该技术展示了AI与光谱传感在精准农业中的前沿应用，虽聚焦种植业，但其便携检测、实时决策和闭环施肥理念对智慧畜牧中的饲料营养管理、粪肥精准施用等场景具有直接借鉴价值。",
+    "url": "https://agfundernews.com/picketa-raises-1-5m-to-bring-crop-nutrient-testing-to-the-field",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-30T05:38:43.077Z"
+  },
+  {
+    "id": "cmr07upee008pajffwz0a54y0",
+    "titleEn": "The food system needs a rewiring, not a reinvention, Anterra Capital says after $100m raise",
+    "titleZh": "Anterra资本：食品系统需要“重新布线”而非“彻底改造”，第三基金首关1亿美元",
+    "summaryZh": "农业食品风投Anterra Capital宣布其第三期基金首关1亿美元（目标2亿），创始合伙人Maarten Goossens强调，当前食品系统的问题不在于创造全新品类（如替代蛋白、垂直农场），而在于对现有系统进行“重新布线”——即通过技术优化基础设施、供应链和效率。该基金在行业投资暴跌69%的背景下逆势募资，其策略是避开炒作、聚焦基本面，尤其关注动物健康等传统领域。文章指出，肉类生产中的技术改进（如动物健康管理）比替代蛋白更能创造实际价值，这一理念对智慧畜牧行业具有战略参考意义。",
+    "featuredReason": "本文揭示了资本从“颠覆式创新”转向“系统优化”的趋势，智慧畜牧从业者可从中理解如何通过物联网、AI等技术对现有养殖体系进行“重新布线”而非盲目追逐新概念，从而获得更可持续的投资与回报。",
+    "url": "https://agfundernews.com/the-food-system-needs-a-rewiring-not-a-reinvention-anterra-capital-says-after-100m-raise",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "aggtech",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 81,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-30T05:38:43.077Z"
+  },
+  {
+    "id": "cmr07upeg008rajff6kw9cblh",
+    "titleEn": "Tech alone won’t future-proof the food system, experts warn",
+    "titleZh": "专家警告：仅靠技术无法保障食品系统未来，需政策与系统性改革",
+    "summaryZh": "在阿姆斯特丹“你好明天”峰会上，专家指出当前食品系统虽拥有更多监测脆弱性的技术工具，但若仅用于修补现有体系而忽视根本性改革，则无法应对气候与地缘政治风险。Giga Futures创始人Christine Gould强调，韧性不应是“弹回失效的现状”，而需系统性更新。麦肯锡全球研究院高级研究员Marc Canal则主张继续发展技术、推动私营创新，并构建新叙事以激发进步。文章核心观点是：技术是必要但非充分条件，政策与系统性变革才是未来保障的关键。",
+    "featuredReason": "本文虽非直接聚焦智慧畜牧，但其核心警示——技术不能替代系统改革——对智慧畜牧从业者极具启发：在引入IoT、AI等工具时，必须同步推动养殖模式、政策与产业链协同创新，否则技术可能沦为“补丁”而非变革引擎。",
+    "url": "https://agfundernews.com/tech-alone-wont-future-proof-the-food-system-experts-warn",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 67,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-30T05:38:43.077Z"
+  },
+  {
+    "id": "cmr07upey0097ajfffqepq9hs",
+    "titleEn": "Fertilizer… without Haber Bosch: Can AI-optimized plasma make green ammonia cost-competitive?",
+    "titleZh": "AI优化等离子体技术能否让绿色氨肥成本媲美传统化肥？",
+    "summaryZh": "Faraday Earth公司利用非热等离子体技术，在常温常压下将氮气活化并与绿氢结合生产绿色氨，目标成本约500美元/吨，接近传统哈伯-博世法生产的灰色氨。其模块化、分布式系统可降低运输成本，有望颠覆化肥供应链。该技术若成功，将大幅减少化肥生产的碳排放，对智慧畜牧行业中的饲料作物种植和牧场管理具有间接但深远的绿色肥料供应意义。",
+    "featuredReason": "化肥是畜牧业饲料生产的关键投入品，绿色氨技术若实现成本竞争力，将推动整个农业供应链脱碳，智慧畜牧从业者应关注这一上游变革对可持续养殖模式的潜在影响。",
+    "url": "https://agfundernews.com/fertilizer-without-haber-bosch-can-ai-optimized-plasma-make-green-ammonia-cost-competitive",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 67,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-30T05:38:43.077Z"
+  },
+  {
+    "id": "cmr07upep008xajffuhvofvjq",
+    "titleEn": "AI’s role in agrifood biotech comes into sharper focus",
+    "titleZh": "AI在农业食品生物技术中的作用日益清晰，但个性化应用存疑",
+    "summaryZh": "本文报道了在阿姆斯特丹“明日峰会”上，专家们对AI在农业食品生物技术领域作用的讨论。AI在揭示生物学因果机制方面展现出前所未有的能力，但专家指出，在个性化食品和健康解决方案方面，AI可能并非必需。他们认为，规模化生产应优先考虑共性而非个性化，且AI在某些场景下可能反而阻碍规模化。文章还提到，创业公司需谨慎评估AI在规模化过程中的实际成本与效益。",
+    "featuredReason": "本文为智慧畜牧行业提供了AI应用边界的冷静思考，提醒从业者不要盲目追求个性化AI方案，而应聚焦规模化生产中的共性优化，对养殖业AI落地策略有重要参考价值。",
+    "url": "https://agfundernews.com/ais-role-in-agrifood-biotech-comes-into-sharper-focus",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "aggtech",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 66,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-30T05:38:43.077Z"
+  },
+  {
+    "id": "cmr07upf2009bajffyfet0ptm",
+    "titleEn": "From Taxol to cocoa: Can plant cell culture make the leap from drugs to food?",
+    "titleZh": "从紫杉醇到可可：植物细胞培养能否从制药跨界食品？",
+    "summaryZh": "本文探讨了植物细胞培养技术从制药领域（如紫杉醇生产）向食品原料领域拓展的可行性。面对气候冲击和地缘政治不稳定对传统植物供应链的威胁，利用生物反应器室内培养高价值植物成分（如可可、香草、藏红花等）具有明显吸引力。然而，该技术商业化面临资金短缺、产品市场成熟度不足等挑战，英国初创公司Green Bioactives因资金链断裂而倒闭的案例凸显了行业风险。文章分析了植物细胞培养在营养保健品原料生产中的潜力与障碍，为农业生物制造领域提供了重要参考。",
+    "featuredReason": "虽然本文主要聚焦食品与制药领域，但植物细胞培养技术作为精准农业和生物制造的前沿方向，对智慧畜牧中饲料添加剂、植物源兽药及功能性成分的可持续生产具有潜在借鉴价值，值得关注生物制造与农业交叉创新的从业者阅读。",
+    "url": "https://agfundernews.com/from-taxol-to-cocoa-can-plant-cell-culture-make-the-leap-from-drugs-to-food",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 62,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-30T05:38:43.077Z"
+  }
+]

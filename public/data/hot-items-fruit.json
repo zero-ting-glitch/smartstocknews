@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "id": "cmr07upf2009bajffyfet0ptm",
+    "titleEn": "From Taxol to cocoa: Can plant cell culture make the leap from drugs to food?",
+    "titleZh": "从紫杉醇到可可：植物细胞培养能否从制药跨界食品？",
+    "summaryZh": "本文探讨了植物细胞培养技术从制药领域（如紫杉醇生产）向食品原料领域拓展的可行性。面对气候冲击和地缘政治不稳定对传统植物供应链的威胁，利用生物反应器室内培养高价值植物成分（如可可、香草、藏红花等）具有明显吸引力。然而，该技术商业化面临资金短缺、产品市场成熟度不足等挑战，英国初创公司Green Bioactives因资金链断裂而倒闭的案例凸显了行业风险。文章分析了植物细胞培养在营养保健品原料生产中的潜力与障碍，为农业生物制造领域提供了重要参考。",
+    "featuredReason": "虽然本文主要聚焦食品与制药领域，但植物细胞培养技术作为精准农业和生物制造的前沿方向，对智慧畜牧中饲料添加剂、植物源兽药及功能性成分的可持续生产具有潜在借鉴价值，值得关注生物制造与农业交叉创新的从业者阅读。",
+    "url": "https://agfundernews.com/from-taxol-to-cocoa-can-plant-cell-culture-make-the-leap-from-drugs-to-food",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 62,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-30T05:38:43.077Z"
+  }
+]

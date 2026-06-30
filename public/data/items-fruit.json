@@ -1,1 +1,68 @@
-[]
+[
+  {
+    "id": "cmr07upf2009bajffyfet0ptm",
+    "titleEn": "From Taxol to cocoa: Can plant cell culture make the leap from drugs to food?",
+    "titleZh": "从紫杉醇到可可：植物细胞培养能否从制药跨界食品？",
+    "summaryZh": "本文探讨了植物细胞培养技术从制药领域（如紫杉醇生产）向食品原料领域拓展的可行性。面对气候冲击和地缘政治不稳定对传统植物供应链的威胁，利用生物反应器室内培养高价值植物成分（如可可、香草、藏红花等）具有明显吸引力。然而，该技术商业化面临资金短缺、产品市场成熟度不足等挑战，英国初创公司Green Bioactives因资金链断裂而倒闭的案例凸显了行业风险。文章分析了植物细胞培养在营养保健品原料生产中的潜力与障碍，为农业生物制造领域提供了重要参考。",
+    "featuredReason": "虽然本文主要聚焦食品与制药领域，但植物细胞培养技术作为精准农业和生物制造的前沿方向，对智慧畜牧中饲料添加剂、植物源兽药及功能性成分的可持续生产具有潜在借鉴价值，值得关注生物制造与农业交叉创新的从业者阅读。",
+    "url": "https://agfundernews.com/from-taxol-to-cocoa-can-plant-cell-culture-make-the-leap-from-drugs-to-food",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 62,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-30T05:38:43.077Z"
+  },
+  {
+    "id": "cmr07up610077ajffyvnr8uba",
+    "titleEn": "India’s rambutan industry enters commercial growth phase",
+    "titleZh": "印度红毛丹产业进入商业化增长阶段",
+    "summaryZh": "印度南部喀拉拉邦的红毛丹产业正从进口替代转向商业化种植，目前拥有约55万至65万棵树，年产量2.5万至3万吨。主要品种N18因果大味甜受市场欢迎，种植者正逐步引入多个品种以延长采收期、避免集中上市。产区从喀拉拉邦扩展至卡纳塔克邦、泰米尔纳德邦等地。消费者仍普遍认为红毛丹依赖进口，这为本土产业提供了市场机遇。",
+    "featuredReason": "本文虽未直接涉及智慧畜牧技术，但展示了热带水果产业从传统种植向商业化转型的路径与市场策略，可为智慧畜牧行业在多元化农业经营、品种优化及市场教育方面提供跨界参考。",
+    "url": "https://www.freshplaza.com/north-america/article/9851793/india-s-rambutan-industry-enters-commercial-growth-phase/",
+    "source": {
+      "name": "Fresh Plaza",
+      "nameZh": "新鲜广场",
+      "tier": "T1.5"
+    },
+    "sourceId": "freshplaza",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 32,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-06-29T11:30:00.000Z"
+  },
+  {
+    "id": "cmr07up6u007xajffq2sa3xrd",
+    "titleEn": "“We are expanding our apple range with the Strauss EW20 multi-head weigher”",
+    "titleZh": "Maf Roda Agrobotic通过Strauss EW20多头秤扩展苹果包装产品线",
+    "summaryZh": "Maf Roda Agrobotic在2025年初收购德国Strauss Verpackungsmaschinen后，推出了专为苹果设计的EW20多头秤，填补了其此前在苹果重量包装领域的空白。该设备采用关联称重技术，能自动优化水果组合以达到目标重量，减少浪费并降低水果处理次数。公司表示，这使其能够服务以重量而非尺寸为包装标准的市场，提供高度灵活性。虽然该新闻聚焦于果蔬包装自动化，与智慧畜牧（养殖业）的直接相关性较低，但其自动化称重和减少损耗的理念对畜牧行业的分级包装环节有间接参考价值。",
+    "featuredReason": "该新闻展示了自动化称重技术在农产品包装中的最新应用，智慧畜牧行业人士可借鉴其减少损耗、提升精度的思路，用于肉类或蛋品等产品的自动化分级包装场景。",
+    "url": "https://www.freshplaza.com/north-america/article/9851168/we-are-expanding-our-apple-range-with-the-strauss-ew20-multi-head-weigher/",
+    "source": {
+      "name": "Fresh Plaza",
+      "nameZh": "新鲜广场",
+      "tier": "T1.5"
+    },
+    "sourceId": "freshplaza",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 47,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-06-29T11:30:00.000Z"
+  }
+]

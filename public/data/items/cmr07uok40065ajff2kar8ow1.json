@@ -1,0 +1,27 @@
+{
+  "id": "cmr07uok40065ajff2kar8ow1",
+  "titleEn": "Tech-savvy daughter brings AI tools to family farm",
+  "titleZh": "科技女儿为家庭农场引入AI工具，减少化学浪费并简化合规",
+  "summaryZh": "一位年轻农民利用人工智能技术，在家庭农场中减少化学物质浪费、优化合规记账并自动生成报告。她与父亲共同受益于AI带来的精准度和时间节省。该案例展示了AI在中小型农场中的实际应用，尤其适用于养殖业中的投入品管理和数据记录，但技术细节和具体工具未详细披露，创新性中等。",
+  "featuredReason": "该新闻展示了AI在家庭农场中的落地实践，对中小型养殖场主有直接参考价值，尤其是如何用低成本技术提升合规效率和减少浪费。",
+  "url": "https://www.farmprogress.com/technology/tech-savvy-daughter-brings-ai-tools-to-family-farm",
+  "source": {
+    "name": "Farm Progress",
+    "nameZh": "农业进展",
+    "tier": "T2"
+  },
+  "sourceId": "farmprogress",
+  "species": "aggtech",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 33,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-26T07:00:00.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "This young farmer uses artificial intelligence to cut chemical waste, streamline compliance bookkeeping and compile reports. She and her father reap the benefits of accuracy and time.",
+  "scrapeMethod": "scrape_failed"
+}

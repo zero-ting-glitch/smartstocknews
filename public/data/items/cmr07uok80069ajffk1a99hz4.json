@@ -1,0 +1,27 @@
+{
+  "id": "cmr07uok80069ajffk1a99hz4",
+  "titleEn": "Generative AI on the farm: Know your options",
+  "titleZh": "农场上的生成式AI：了解你的选择",
+  "summaryZh": "本文探讨了生成式人工智能在农业领域的应用选项，强调不要让过多的选择阻碍农场采用AI技术。内容涵盖生成式AI如何帮助农民处理数据、优化决策，并提醒从业者根据自身需求选择合适工具。文章旨在降低AI应用门槛，鼓励农业从业者积极拥抱技术变革，提升生产效率和可持续性。",
+  "featuredReason": "本文为智慧畜牧行业从业者提供了生成式AI在农业落地的实用视角，帮助理解如何从众多AI工具中筛选适合养殖场景的方案，具有现实指导意义。",
+  "url": "https://www.farmprogress.com/technology/generative-ai-on-the-farm-know-your-options",
+  "source": {
+    "name": "Farm Progress",
+    "nameZh": "农业进展",
+    "tier": "T2"
+  },
+  "sourceId": "farmprogress",
+  "species": "aggtech",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 33,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-26T06:40:00.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "Don’t let a deluge of choices stop you from using artificial intelligence in your farming operation.",
+  "scrapeMethod": "scrape_failed"
+}
