@@ -101,6 +101,19 @@
       "excludeKeywords": "价格|行情|批发|补贴|政策文件|通知|公告|征求意见"
     },
     {
+      "id": "gati",
+      "name": "Global Ag Tech Initiative",
+      "nameZh": "全球农业技术倡议",
+      "url": "https://www.globalagtechinitiative.com",
+      "rssUrl": "https://www.globalagtechinitiative.com/feed/",
+      "tier": "T1",
+      "type": "aggtech",
+      "defaultCategory": "aggtech",
+      "defaultSubcategory": "general",
+      "coreKeywords": "precision|smart farming|IoT|sensor|automation|robot|drone|AI|digital|monitoring|technology|autonomous|variable rate|GPS|yield|irrigation|satellite|agtech|data|platform|machine learning|vision|wearable|biotech|sustainability",
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
+    },
+    {
       "id": "agripulse",
       "name": "Agri-Pulse",
       "nameZh": "农业脉搏",

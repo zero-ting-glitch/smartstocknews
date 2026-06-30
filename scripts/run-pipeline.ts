@@ -46,6 +46,28 @@ async function fetchRss(source: any): Promise<any[]> {
   return items;
 }
 
+// ========== 标题去重 ==========
+function normalizeTitle(title: string): string {
+  return title.toLowerCase().replace(/[^a-z0-9一-鿿]+/g, ' ').trim();
+}
+
+function titleSimilarity(a: string, b: string): number {
+  const wordsA = new Set(normalizeTitle(a).split(' ').filter(Boolean));
+  const wordsB = new Set(normalizeTitle(b).split(' ').filter(Boolean));
+  if (wordsA.size === 0 || wordsB.size === 0) return 0;
+  let intersection = 0;
+  for (const w of wordsA) { if (wordsB.has(w)) intersection++; }
+  return intersection / (wordsA.size + wordsB.size - intersection);
+}
+
+function isDuplicate(title: string, seenTitles: string[]): boolean {
+  const norm = normalizeTitle(title);
+  for (const seen of seenTitles) {
+    if (titleSimilarity(norm, seen) >= 0.6) return true;
+  }
+  return false;
+}
+
 function relevanceFilter(items: any[], source: any): any[] {
   const coreKeywords = (source.coreKeywords || '').split('|').map((k: string) => k.trim().toLowerCase());
   const excludeKeywords = (source.excludeKeywords || '').split('|').map((k: string) => k.trim().toLowerCase());
@@ -352,6 +374,8 @@ async function main() {
   console.log('[2/5] 采集 URL...');
   let totalRaw = 0;
   let totalSaved = 0;
+  let totalDedup = 0;
+  const seenTitles: string[] = [];
   for (const source of config.sources) {
     let raw: any[] = [];
 
@@ -376,7 +400,13 @@ async function main() {
     totalRaw += raw.length;
     const filtered = relevanceFilter(raw, source);
     let saved = 0;
+    let dedup = 0;
     for (const item of filtered) {
+      // 标题去重：跨源相似标题跳过
+      if (isDuplicate(item.title, seenTitles)) {
+        dedup++;
+        continue;
+      }
       try {
         await prisma.item.upsert({
           where: { url: item.url },
@@ -396,15 +426,17 @@ async function main() {
           },
         });
         saved++;
+        seenTitles.push(normalizeTitle(item.title));
       } catch (e: any) {
         // URL 重复或其他 DB 错误，静默跳过
       }
     }
     totalSaved += saved;
-    console.log(`  ${source.name}: ${raw.length} raw → ${filtered.length} filtered → ${saved} saved`);
+    totalDedup += dedup;
+    console.log(`  ${source.name}: ${raw.length} raw → ${filtered.length} filtered → ${saved} saved${dedup > 0 ? ` (${dedup} 重复跳过)` : ''}`);
     await prisma.source.update({ where: { id: source.id }, data: { lastFetched: new Date() } });
   }
-  console.log(`  总计: ${totalRaw} raw → ${totalSaved} saved\n`);
+  console.log(`  总计: ${totalRaw} raw → ${totalSaved} saved (${totalDedup} 重复跳过)\n`);
 
   // Step 3: 全文爬取
   console.log('[3/5] 全文爬取...');
