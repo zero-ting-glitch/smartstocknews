@@ -421,8 +421,8 @@ async function main() {
   const { accepted, rejected } = preFilterItems(pending);
   if (rejected.length > 0) {
     console.log(`  预筛跳过 ${rejected.length} 条（智慧畜牧关键词不足 ${SMART_AG_THRESHOLD} 个）`);
-    // 标记被跳过的 item，避免下次管线重复尝试
     for (const item of rejected) {
+      console.log(`    ✗ ${item.titleEn?.slice(0, 80)}`);
       await prisma.item.update({
         where: { id: item.id },
         data: {
