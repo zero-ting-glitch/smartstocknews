@@ -1,0 +1,28 @@
+{
+  "id": "cmr0j8d4f001tawvj62wsr8ar",
+  "titleEn": "Elbit Systems acquires Bluewhite: a new chapter for autonomous farming",
+  "titleZh": "埃尔比特系统收购Bluewhite：自主农业的新篇章",
+  "summaryZh": "以色列国防与科技集团埃尔比特系统通过其子公司FUSE完成了对农业自动驾驶技术公司Bluewhite（原名Blue White Robotics）的收购。Bluewhite成立于2017年，总部位于特拉维夫，是农业自主车辆技术领域最有前景的企业之一。此次收购标志着国防技术向农业领域跨界整合的趋势，可能加速自主农机在种植业中的商业化应用，但对智慧畜牧（养殖业）的直接关联度较低。",
+  "featuredReason": "该新闻展示了国防技术向农业领域的跨界整合趋势，虽然主要聚焦种植业自主车辆，但其中涉及的自主导航、传感器融合和AI决策技术对智慧畜牧中的自动化饲喂、巡检机器人等应用具有间接参考价值。",
+  "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/elbit-systems-acquires-bluewhite-a-new-chapter-for-autonomous-farming/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1"
+  },
+  "sourceId": "futurefarming",
+  "species": "general",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 73,
+  "isFeatured": true,
+  "isHot": true,
+  "publishedAt": "2026-06-02T13:30:00.000Z",
+  "contentFull": "",
+  "translationZh": "以色列国防与科技集团埃尔比特系统已通过其子公司FUSE完成了对Blue White Robotics（更广为人知的名称为Bluewhite）的收购。该公司成立于2017年，总部位于特拉维夫，已确立自身为农业自主车辆技术领域最有前景的参与者之一。",
+  "images": [],
+  "author": "",
+  "contentHtml": "Israeli defence and technology group Elbit Systems has completed the acquisition of Blue White Robotics, better known as Bluewhite, through its subsidiary FUSE. Founded in 2017 and headquartered in Tel Aviv, the company has established itself as one of the most promising players in autonomous vehicle technology for agriculture.",
+  "scrapeMethod": "scrape_failed"
+}
