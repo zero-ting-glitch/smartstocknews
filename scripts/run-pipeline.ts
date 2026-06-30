@@ -70,11 +70,11 @@ const TECH_KEYWORDS = [
   'automation', 'automated', 'robot', 'robotic', 'drone', 'uav',
   'sensor', 'wearable', 'telemetric', 'gps', 'remote sensing',
   'computer vision', 'image recognition', 'nlp',
-  'blockchain', 'data analytics', 'predictive',
+  'blockchain', 'data analytics', 'predictive', 'smart ',
   // 中文
   '人工智能', '机器学习', '深度学习', '物联网', '传感器', '无人机',
   '机器人', '自动化', '遥感', '卫星', '计算机视觉', '图像识别',
-  '大数据', '算法', '数字化', '区块链', '视觉识别', '自然语言',
+  '大数据', '算法', '数字化', '区块链', '视觉识别', '自然语言', '智能',
 ];
 
 const AG_KEYWORDS = [
@@ -87,6 +87,10 @@ const AG_KEYWORDS = [
   'controlled environment', 'vertical farm', 'hydroponic',
   'variable rate', 'yield mapping', 'crop monitoring',
   'satellite imagery', 'ndvi', 'spectral',
+  'rice', 'paddy', 'wheat', 'corn', 'soybean', 'maize',
+  'spraying', 'spray', 'weeding', 'weed', 'weed control',
+  'grazing', 'pasture', 'forage',
+  'detection', 'detect', 'monitoring', 'phenotyping', 'breeding',
   // English - 养殖业
   'livestock', 'cattle', 'pig', 'poultry', 'sheep', 'dairy',
   'feedlot', 'ranch', 'barn', 'stall',
@@ -101,6 +105,8 @@ const AG_KEYWORDS = [
   '土壤', '田间', '果园', '采摘', '播种', '施肥',
   '精准农业', '智慧农业', '数字农业', '植物工厂',
   '无土栽培', '水培', '气雾培', '环控',
+  '水稻', '小麦', '玉米', '大豆', '杂草', '除草', '喷洒',
+  '检测', '监测', '探测', '育种', '表型',
   // 中文 - 养殖业
   '养殖', '畜牧', '猪', '牛', '羊', '鸡', '禽', '奶牛',
   '牧场', '圈舍', '畜禽',
