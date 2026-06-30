@@ -57,6 +57,7 @@ model Item {
   // AI处理后
   titleZh          String?  // 中文翻译标题
   summaryZh        String?  // 中文摘要（150字）
+  translationZh    String?  // 全文中文翻译
   species          String   // "pig" 自动标注
   category         String?  // "livestock" | "crop" | "aggtech"
   subcategory      String?  // "pig" | "poultry" | "cattle" | "sheep" | "field" | "fruit" | "horticulture" | "general"

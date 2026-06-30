@@ -239,7 +239,7 @@ async function callDeepSeek(prompt: string): Promise<string> {
       model: 'deepseek-chat',
       messages: [{ role: 'user', content: prompt }],
       temperature: 0.3,
-      max_tokens: 1500,
+      max_tokens: 4000,
     }),
   });
   const data = await res.json() as any;
@@ -255,7 +255,7 @@ function cleanJson(raw: string): string {
 }
 
 async function analyzeItem(titleEn: string, content?: string) {
-  const contentSnippet = content ? content.slice(0, 2000) : '';
+  const contentSnippet = content ? content.slice(0, 3000) : '';
   const prompt = `你是智慧畜牧行业资深编辑。对以下新闻进行全面分析。
 
 标题: ${titleEn}
@@ -268,7 +268,7 @@ ${contentSnippet ? `内容: ${contentSnippet}` : ''}
 - readability: 内容可读性和信息密度
 - actionability: 可操作性和实践参考价值
 
-同时提供中文翻译和推荐理由。
+同时提供中文翻译和推荐理由。全文翻译要求：忠实原文，完整翻译所有段落，不要遗漏任何内容。
 
 请直接返回JSON（不要markdown包裹）:
 {
@@ -279,6 +279,7 @@ ${contentSnippet ? `内容: ${contentSnippet}` : ''}
   "actionability": 数,
   "titleZh": "中文标题(简短准确)",
   "summaryZh": "中文摘要(100-150字，说明核心内容和价值)",
+  "translationZh": "全文中文翻译(完整翻译所有段落，不要省略)",
   "featuredReason": "推荐理由(1-2句话，说明为什么值得智慧畜牧行业人士阅读)"
 }`;
 
@@ -495,6 +496,7 @@ async function main() {
           aiScores: JSON.stringify(scores),
           titleZh: result.titleZh,
           summaryZh: result.summaryZh,
+          translationZh: result.translationZh,
           featuredReason: result.featuredReason,
           qualityScore,
           isHot: qualityScore >= 60,
@@ -554,6 +556,7 @@ async function main() {
   const formatDetailItem = (item: any) => ({
     ...formatListItem(item),
     contentFull: item.contentFull || '',
+    translationZh: item.translationZh || '',
     images: item.images ? (() => { try { return JSON.parse(item.images); } catch { return []; } })() : [],
     author: item.author || '',
     contentHtml: item.contentHtml ? sanitizeHtml(item.contentHtml) : '',

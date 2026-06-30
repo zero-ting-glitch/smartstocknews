@@ -22,6 +22,7 @@ interface ItemDetail {
   isFeatured: boolean;
   publishedAt: string;
   contentFull: string;
+  translationZh: string;
   images: string[];
   author: string;
 }
@@ -170,8 +171,10 @@ function DetailContent() {
               <div className="detail-translation-content">
                 {showOriginal ? (
                   contentParagraphs.map((p, i) => <p key={i}>{p}</p>)
+                ) : item.translationZh ? (
+                  item.translationZh.split(/\n{2,}/).filter(Boolean).map((p, i) => <p key={i}>{p}</p>)
                 ) : (
-                  <p>{item.summaryZh || '暂无翻译'}</p>
+                  <p>全文翻译生成中，请查看原文。</p>
                 )}
               </div>
             </div>
