@@ -108,16 +108,16 @@ function preFilterItems(items: any[]): { accepted: any[]; rejected: any[] } {
 }
 
 // ========== 全文爬取 ==========
-async function scrapeArticlesBatch(items: any[]): Promise<void> {
-  // 只爬取未爬过的
+async function scrapeArticlesBatch(items: any[]): Promise<{ scraped: number; failed: number }> {
   const toScrape = items.filter((item) => !item.scrapedAt);
   if (toScrape.length === 0) {
     console.log(`  所有 ${items.length} 条已爬取过，跳过`);
-    return;
+    return { scraped: 0, failed: 0 };
   }
 
   console.log(`  需爬取: ${toScrape.length} 条`);
   let scraped = 0;
+  let failed = 0;
 
   for (let i = 0; i < toScrape.length; i += CONCURRENCY) {
     const batch = toScrape.slice(i, i + CONCURRENCY);
@@ -141,6 +141,16 @@ async function scrapeArticlesBatch(items: any[]): Promise<void> {
           },
         });
         scraped++;
+      } else {
+        // 爬取失败：标记 scrapedAt 防止无限重试
+        failed++;
+        await prisma.item.update({
+          where: { id: item.id },
+          data: {
+            scrapedAt: new Date(),
+            scrapeMethod: 'scrape_failed',
+          },
+        });
       }
     }
 
@@ -149,7 +159,8 @@ async function scrapeArticlesBatch(items: any[]): Promise<void> {
     }
   }
 
-  console.log(`  爬取完成: ${scraped}/${toScrape.length}`);
+  console.log(`  爬取完成: ${scraped} 成功, ${failed} 失败`);
+  return { scraped, failed };
 }
 
 // ========== AI 处理（统一提示词） ==========
@@ -331,7 +342,10 @@ async function main() {
       try {
         await prisma.item.upsert({
           where: { url: item.url },
-          update: {},
+          update: {
+            // 补充 RSS snippet（首次采集时可能为空）
+            ...(item.contentHtml ? { contentHtml: item.contentHtml } : {}),
+          },
           create: {
             sourceId: source.id,
             titleEn: item.title,
@@ -354,21 +368,14 @@ async function main() {
   }
   console.log(`  总计: ${totalRaw} raw → ${totalSaved} saved\n`);
 
-  // Step 3: 全文爬取（循环批次，直到所有未爬取 item 处理完）
+  // Step 3: 全文爬取
   console.log('[3/5] 全文爬取...');
-  let totalScraped = 0;
-  while (true) {
-    const unscraped = await prisma.item.findMany({
-      where: { scrapedAt: null, isRelevant: true },
-      include: { source: true },
-      take: CONCURRENCY * 10,
-    });
-    if (unscraped.length === 0) break;
-    console.log(`  剩余 ${unscraped.length} 条待爬取...`);
-    await scrapeArticlesBatch(unscraped);
-    totalScraped += unscraped.length;
-  }
-  console.log(`  全文爬取完成，共处理 ${totalScraped} 条\n`);
+  const unscraped = await prisma.item.findMany({
+    where: { scrapedAt: null, isRelevant: true },
+    include: { source: true },
+  });
+  const { scraped: scrapedCount, failed: failedCount } = await scrapeArticlesBatch(unscraped);
+  console.log(`  全文爬取完成: ${scrapedCount} 成功, ${failedCount} 失败\n`);
 
   // Step 4: AI 处理（统一提示词，循环处理所有待处理 item）
   console.log('[4/5] AI 处理（统一分析）...');
