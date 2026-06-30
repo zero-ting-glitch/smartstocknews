@@ -1,0 +1,27 @@
+{
+  "id": "cmr0cjx6t0011113wy5rcu73q",
+  "titleEn": "Croplands expands WEED-IT range with new releases, including orchard solution",
+  "titleZh": "Croplands推出WEED-IT系列新品，含首款果园精准喷洒方案",
+  "summaryZh": "澳大利亚Croplands Equipment公司发布了WEED-IT精准喷洒系列的多项新技术，包括Series 2 Robot Ready Pinto、大型宽幅平台、扩展的改装能力以及首款专为果园设计的光学定点喷洒解决方案。这些产品利用光学传感器实现杂草识别与精准施药，减少农药用量，提升作业效率。虽然主要面向种植业，但其光学传感、自动化喷洒和机器人集成技术对智慧畜牧中的精准饲喂、环境监测等场景具有借鉴意义。",
+  "featuredReason": "该新闻展示了精准农业中光学传感与自动化喷洒的最新进展，其技术思路（如机器人就绪、定点作业）可迁移至畜牧业的精准饲喂、粪污处理等环节，值得关注跨界技术趋势的从业者阅读。",
+  "url": "https://www.futurefarming.com/smart-farming/croplands-expands-weed-it-range-with-new-releases-including-orchard-solution/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1"
+  },
+  "sourceId": "futurefarming",
+  "species": "fruit",
+  "category": "crop",
+  "subcategory": "fruit",
+  "techTags": "",
+  "qualityScore": 68,
+  "isFeatured": true,
+  "isHot": true,
+  "publishedAt": "2026-06-18T07:00:00.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "Australian company Croplands Equipment has unveiled a wave of new technology across its WEED-IT precision spraying range, headlined by the Series 2 Robot Ready Pinto and spanning a new large-scale broadacre platform, expanded retrofit capability and the company’s first optical spot spraying solution purpose-built for orchards.",
+  "scrapeMethod": "scrape_failed"
+}

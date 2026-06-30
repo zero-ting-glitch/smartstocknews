@@ -1,32 +1,10 @@
 [
   {
-    "id": "cmr07uor0006najffmc2f8zrt",
-    "titleEn": "Don’t Miss Greenhouse Grower’s Digital Deep Dive on Structures",
-    "titleZh": "温室结构数字化深度报告：自动化与节能升级指南",
-    "summaryZh": "该报告由Greenhouse Grower发布，聚焦温室结构的最新进展与创新，涵盖温室是否需要改造或重建、开放式屋顶的四大优势、围绕自动化进行温室设计、以及如何防止温室在极端冬季天气中倒塌等关键议题。报告以可下载PDF形式呈现，汇集了编辑精选的最新文章，旨在帮助种植者应对自动化接入、能源成本、灌溉问题等夏季升级需求。虽然内容主要面向温室园艺，但其中关于自动化集成与结构优化的思路对智慧畜牧的设施农业有参考价值。",
-    "featuredReason": "尽管该报告主要针对温室种植业，但其关于自动化设计、结构升级和抗灾能力的讨论，可为智慧畜牧中养殖设施（如智能环控畜舍）的改造与新建提供跨领域借鉴，尤其适合关注设施农业自动化的从业者参考。",
-    "url": "https://www.greenhousegrower.com/production/dont-miss-greenhouse-growers-digital-deep-dive-on-structures-3/",
-    "source": {
-      "name": "Greenhouse Grower",
-      "nameZh": "温室种植者",
-      "tier": "T1.5"
-    },
-    "sourceId": "greenhousegrower",
-    "species": "horticulture",
-    "category": "crop",
-    "subcategory": "horticulture",
-    "techTags": "",
-    "qualityScore": 37,
-    "isFeatured": false,
-    "isHot": false,
-    "publishedAt": "2026-06-29T17:00:45.000Z"
-  },
-  {
-    "id": "cmr07uorb006xajffwo50eper",
+    "id": "cmr0cjy650027113wcnegp510",
     "titleEn": "Presenting Greenhouse Grower’s 2026 Technology of the Year Finalists",
-    "titleZh": "2026年温室技术奖入围名单揭晓：空气托盘与PAR精准遮阳系统引领创新",
-    "summaryZh": "本文介绍了《温室种植者》杂志评选的2026年度技术奖两项入围技术。Air Tray Technologies通过空气修剪根系设计，替代传统圆形容器，促进纤维状根系生长，提高作物移栽后成活率、水分养分利用效率，适用于观赏植物、树木、柑橘及葡萄等多种园艺和农业作物。PARPerfect遮阳系统（Svensson）则实现了对光合有效辐射的动态精准控制，采用双层幕布配置，可全天连续调节遮阳率从20%至100%，优化光照管理。两项技术均聚焦于提升生产效率与作物品质，虽主要面向温室种植，但其根域环境优化与精准环境控制理念对智慧畜牧中的环境调控与自动化管理具有借鉴意义。",
-    "featuredReason": "智慧畜牧行业可借鉴其精准环境控制与根域优化思路，应用于养殖舍内微气候调控及动物福利提升，尤其是动态传感与自动化调节技术具有跨领域参考价值。",
+    "titleZh": "2026温室技术奖入围名单揭晓：空气托盘与PAR精准遮阳系统引领创新",
+    "summaryZh": "本文介绍了2026年温室种植者技术奖的两项入围技术：Blackmore公司的Air Tray空气托盘技术，通过促进空气修剪根系、防止根系缠绕，提升作物根系质量、均匀性和生产效率，适用于园艺、林木、柑橘和葡萄等多种作物；Svensson公司的PARPerfect遮阳系统，利用动态精准控制光合有效辐射（PAR），通过双层幕布配置实现20%-100%的连续遮阳调节，优化光环境。两项技术均聚焦于种植业自动化与精准管理，与智慧畜牧在传感器、环境控制、数据驱动决策等方面有交叉借鉴价值。",
+    "featuredReason": "智慧畜牧从业者可从中获取跨领域技术灵感：空气托盘原理可类比于养殖中改善动物福利与生长环境的创新设计，PAR精准控制则与畜禽舍光照、通风等环境调控的智能化趋势高度契合，值得关注其底层逻辑与实施路径。",
     "url": "https://www.greenhousegrower.com/technology/presenting-greenhouse-growers-2026-technology-of-the-year-finalists/",
     "source": {
       "name": "Greenhouse Grower",
@@ -38,7 +16,7 @@
     "category": "crop",
     "subcategory": "horticulture",
     "techTags": "",
-    "qualityScore": 57,
+    "qualityScore": 58,
     "isFeatured": true,
     "isHot": false,
     "publishedAt": "2026-06-26T18:41:04.000Z"

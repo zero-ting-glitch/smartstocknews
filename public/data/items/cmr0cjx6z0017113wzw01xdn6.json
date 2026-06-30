@@ -1,0 +1,27 @@
+{
+  "id": "cmr0cjx6z0017113wzw01xdn6",
+  "titleEn": "If food security is strategic, why does agricultural innovation still struggle to scale?",
+  "titleZh": "粮食安全战略下，农业创新为何仍难规模化？",
+  "summaryZh": "本文指出，尽管农业长期受益于从国防、汽车、硅谷等外部领域引入的GPS、传感器、AI等技术，但农业自身的创新仍难以实现规模化推广。文章从战略高度反思了技术转移与行业适配之间的鸿沟，揭示了智慧畜牧等细分领域在应用成熟技术时面临的体制、资金和生态瓶颈，为从业者提供了跳出技术本身、审视产业环境的视角。",
+  "featuredReason": "本文直击智慧畜牧行业的核心痛点——技术落地难、规模化慢，帮助从业者从战略层面理解创新瓶颈，避免盲目追逐技术热点。",
+  "url": "https://www.futurefarming.com/tech-in-focus/if-food-security-is-strategic-why-does-agricultural-innovation-still-struggle-to-scale/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1"
+  },
+  "sourceId": "futurefarming",
+  "species": "aggtech",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 80,
+  "isFeatured": true,
+  "isHot": true,
+  "publishedAt": "2026-06-15T09:00:00.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "For decades, agriculture has benefited from technologies developed elsewhere. GPS came from defense. Sensors and cameras originated in the automotive industry. Artificial intelligence emerged from Silicon Valley.",
+  "scrapeMethod": "scrape_failed"
+}

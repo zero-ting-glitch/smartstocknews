@@ -1,10 +1,10 @@
 [
   {
-    "id": "cmr07upf2009bajffyfet0ptm",
+    "id": "cmr0cjyv7004f113wvmj4igxz",
     "titleEn": "From Taxol to cocoa: Can plant cell culture make the leap from drugs to food?",
     "titleZh": "从紫杉醇到可可：植物细胞培养能否从制药跨界食品？",
-    "summaryZh": "本文探讨了植物细胞培养技术从制药领域（如紫杉醇生产）向食品原料领域拓展的可行性。面对气候冲击和地缘政治不稳定对传统植物供应链的威胁，利用生物反应器室内培养高价值植物成分（如可可、香草、藏红花等）具有明显吸引力。然而，该技术商业化面临资金短缺、产品市场成熟度不足等挑战，英国初创公司Green Bioactives因资金链断裂而倒闭的案例凸显了行业风险。文章分析了植物细胞培养在营养保健品原料生产中的潜力与障碍，为农业生物制造领域提供了重要参考。",
-    "featuredReason": "虽然本文主要聚焦食品与制药领域，但植物细胞培养技术作为精准农业和生物制造的前沿方向，对智慧畜牧中饲料添加剂、植物源兽药及功能性成分的可持续生产具有潜在借鉴价值，值得关注生物制造与农业交叉创新的从业者阅读。",
+    "summaryZh": "本文探讨了植物细胞培养技术从制药领域（如紫杉醇生产）向食品原料领域拓展的可行性。面对气候冲击和地缘政治不稳定对植物供应链的威胁，利用生物反应器室内培养高价值植物成分（如可可、香草、藏红花、南非醉茄等）具有明显吸引力。然而，该技术商业化面临资金短缺、产品市场成熟度不足等挑战，英国初创公司Green Bioactives因资金耗尽而倒闭，但其细胞系已被收购。文章分析了植物细胞培养在食品配料领域的商业前景与风险。",
+    "featuredReason": "虽然植物细胞培养技术目前主要与制药和食品配料相关，但其在生物反应器内标准化、可控生产植物活性成分的思路，对智慧畜牧中饲料添加剂、植物源兽药或功能性饲料原料的室内生产具有前瞻性参考价值。",
     "url": "https://agfundernews.com/from-taxol-to-cocoa-can-plant-cell-culture-make-the-leap-from-drugs-to-food",
     "source": {
       "name": "AgFunderNews",
@@ -19,50 +19,204 @@
     "qualityScore": 62,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-30T05:38:43.077Z"
+    "publishedAt": "2026-06-30T07:50:20.193Z"
   },
   {
-    "id": "cmr07up610077ajffyvnr8uba",
+    "id": "cmr0cjyoa003j113w44q2eqtx",
+    "titleEn": "Thailand and U.S. strengthen cooperation on produce pesticide testing",
+    "titleZh": "泰美加强进口果蔬农药残留检测合作",
+    "summaryZh": "泰国食品药品监督管理局与美国农业部及特色作物出口援助计划代表举行双边会谈，重点讨论进口新鲜水果、蔬菜和坚果的农药残留安全监管。双方围绕边境检查系统协调、口岸抽样方法、化学残留实验室分析、超标最大残留限量执法程序等议题交换经验，并计划建立数据共享网络。泰方表示将基于科学原则更新政策，以保障公众健康并促进国际贸易。",
+    "featuredReason": "该新闻虽涉及食品安全监管，但未涉及智慧畜牧核心技术如IoT、AI、自动化或传感器在养殖/种植中的应用，对智慧畜牧行业人士的直接参考价值有限。",
+    "url": "https://www.freshplaza.com/north-america/article/9851923/thailand-and-u-s-strengthen-cooperation-on-produce-pesticide-testing/",
+    "source": {
+      "name": "Fresh Plaza",
+      "nameZh": "新鲜广场",
+      "tier": "T2"
+    },
+    "sourceId": "freshplaza",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 20,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-06-29T11:54:00.000Z"
+  },
+  {
+    "id": "cmr0cjyn20029113w65qrgk35",
     "titleEn": "India’s rambutan industry enters commercial growth phase",
     "titleZh": "印度红毛丹产业进入商业化增长阶段",
-    "summaryZh": "印度南部喀拉拉邦的红毛丹产业正从进口替代转向商业化种植，目前拥有约55万至65万棵树，年产量2.5万至3万吨。主要品种N18因果大味甜受市场欢迎，种植者正逐步引入多个品种以延长采收期、避免集中上市。产区从喀拉拉邦扩展至卡纳塔克邦、泰米尔纳德邦等地。消费者仍普遍认为红毛丹依赖进口，这为本土产业提供了市场机遇。",
-    "featuredReason": "本文虽未直接涉及智慧畜牧技术，但展示了热带水果产业从传统种植向商业化转型的路径与市场策略，可为智慧畜牧行业在多元化农业经营、品种优化及市场教育方面提供跨界参考。",
+    "summaryZh": "印度南部喀拉拉邦的红毛丹产业正从进口依赖转向本土商业化种植，目前拥有约55万至65万棵树，年产量2.5万至3万吨。主要品种N18因果大、甜度高而主导市场，种植者正逐步引入多样化品种以延长收获期、避免市场过剩。产业扩张至卡纳塔克邦、泰米尔纳德邦等地，消费者认知从“纯进口”向本土品牌转变。文章聚焦种植规模、品种策略和市场机遇，但未涉及智慧畜牧相关技术应用。",
+    "featuredReason": "该新闻展示了印度热带水果产业的结构性转型，但缺乏智慧畜牧（IoT、AI、自动化等）技术细节，适合关注农业市场趋势的读者，而非技术实践者。",
     "url": "https://www.freshplaza.com/north-america/article/9851793/india-s-rambutan-industry-enters-commercial-growth-phase/",
     "source": {
       "name": "Fresh Plaza",
       "nameZh": "新鲜广场",
-      "tier": "T1.5"
+      "tier": "T2"
     },
     "sourceId": "freshplaza",
     "species": "fruit",
     "category": "crop",
     "subcategory": "fruit",
     "techTags": "",
-    "qualityScore": 32,
+    "qualityScore": 21,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-06-29T11:30:00.000Z"
   },
   {
-    "id": "cmr07up6u007xajffq2sa3xrd",
+    "id": "cmr0cjynt002z113wx7owe6xm",
     "titleEn": "“We are expanding our apple range with the Strauss EW20 multi-head weigher”",
-    "titleZh": "Maf Roda Agrobotic通过Strauss EW20多头秤扩展苹果包装产品线",
-    "summaryZh": "Maf Roda Agrobotic在2025年初收购德国Strauss Verpackungsmaschinen后，推出了专为苹果设计的EW20多头秤，填补了其此前在苹果重量包装领域的空白。该设备采用关联称重技术，能自动优化水果组合以达到目标重量，减少浪费并降低水果处理次数。公司表示，这使其能够服务以重量而非尺寸为包装标准的市场，提供高度灵活性。虽然该新闻聚焦于果蔬包装自动化，与智慧畜牧（养殖业）的直接相关性较低，但其自动化称重和减少损耗的理念对畜牧行业的分级包装环节有间接参考价值。",
-    "featuredReason": "该新闻展示了自动化称重技术在农产品包装中的最新应用，智慧畜牧行业人士可借鉴其减少损耗、提升精度的思路，用于肉类或蛋品等产品的自动化分级包装场景。",
+    "titleZh": "Maf Roda Agrobotic推出苹果专用多头秤，拓展称重包装解决方案",
+    "summaryZh": "Maf Roda Agrobotic通过收购德国Strauss公司，在其产品组合中新增了EW20多头秤，专为苹果的自动化袋装或托盘包装设计。该设备采用关联称重技术，能自动优化水果组合以达到目标重量，减少浪费和水果处理。此举填补了该公司在苹果称重包装领域的空白，并适应市场从按尺寸包装向按重量包装转变的趋势。虽然主要针对果蔬采后处理，但其自动化称重与优化技术对智慧畜牧中的精准投喂、分级包装等场景有间接参考价值。",
+    "featuredReason": "该新闻展示了自动化称重与组合优化技术在农产品包装中的最新应用，虽非直接畜牧领域，但其传感器融合与算法逻辑对智慧畜牧中精准饲喂、产品分级等环节有技术迁移启示。",
     "url": "https://www.freshplaza.com/north-america/article/9851168/we-are-expanding-our-apple-range-with-the-strauss-ew20-multi-head-weigher/",
     "source": {
       "name": "Fresh Plaza",
       "nameZh": "新鲜广场",
-      "tier": "T1.5"
+      "tier": "T2"
     },
     "sourceId": "freshplaza",
     "species": "fruit",
     "category": "crop",
     "subcategory": "fruit",
     "techTags": "",
-    "qualityScore": 47,
+    "qualityScore": 24,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-06-29T11:30:00.000Z"
+  },
+  {
+    "id": "cmr0cjynw0033113w7hbxsrqs",
+    "titleEn": "Vacuum packaging gains ground in fresh produce supply chains",
+    "titleZh": "真空包装在生鲜供应链中应用渐广，但智慧畜牧关联有限",
+    "summaryZh": "本文介绍了真空包装技术在生鲜农产品供应链中的应用，重点阐述其通过减缓氧化和抑制微生物生长来延长保质期、减少采后损失，并提及在香草、蘑菇、干果、切菜及即食食品中的实际用途。文章还从可持续角度讨论了减少食物浪费的价值。然而，该技术主要聚焦于包装环节，与智慧畜牧核心关注的养殖业IoT、AI、自动化、机器人及传感器应用关联较弱，对种植业中采后处理的参考价值有限。",
+    "featuredReason": "虽然真空包装技术本身与智慧畜牧核心领域（养殖自动化、传感器、AI决策）关联度不高，但了解生鲜供应链中减少损耗的包装创新，对从事种养结合或冷链物流的智慧畜牧从业者有一定启发。",
+    "url": "https://www.freshplaza.com/north-america/article/9851649/vacuum-packaging-gains-ground-in-fresh-produce-supply-chains/",
+    "source": {
+      "name": "Fresh Plaza",
+      "nameZh": "新鲜广场",
+      "tier": "T2"
+    },
+    "sourceId": "freshplaza",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 24,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-06-29T11:30:00.000Z"
+  },
+  {
+    "id": "cmr0cjx6f000p113w76ewc3o0",
+    "titleEn": "Fieldwork Robotics secures new funding to accelerate raspberry harvesting robot",
+    "titleZh": "Fieldwork Robotics获新融资，加速树莓采摘机器人商业化",
+    "summaryZh": "英国公司Fieldwork Robotics获得由企业家Jim Mellon担任主席的投资公司SEED Innovations的追加投资，用于加速其自主树莓采摘机器人的商业部署。该机器人利用计算机视觉和柔性机械臂，能够精准识别并轻柔采摘成熟树莓，解决劳动力短缺和采摘成本高企问题。虽然直接针对水果采摘，但其背后的自动化、机器人感知与柔性操作技术对智慧畜牧中的精准饲喂、巡检、挤奶等场景具有技术迁移价值。融资将推动产品从原型走向规模化应用。",
+    "featuredReason": "该案例展示了农业机器人从实验室走向商业化的关键融资路径，其柔性抓取与视觉识别技术可启发畜牧场景中的自动化操作方案，值得关注技术跨界应用可能性的行业人士阅读。",
+    "url": "https://www.futurefarming.com/smart-farming/fieldwork-robotics-secures-new-funding-to-accelerate-raspberry-harvesting-robot/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 73,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-25T06:00:00.000Z"
+  },
+  {
+    "id": "cmr0cjx6t0011113wy5rcu73q",
+    "titleEn": "Croplands expands WEED-IT range with new releases, including orchard solution",
+    "titleZh": "Croplands推出WEED-IT系列新品，含首款果园精准喷洒方案",
+    "summaryZh": "澳大利亚Croplands Equipment公司发布了WEED-IT精准喷洒系列的多项新技术，包括Series 2 Robot Ready Pinto、大型宽幅平台、扩展的改装能力以及首款专为果园设计的光学定点喷洒解决方案。这些产品利用光学传感器实现杂草识别与精准施药，减少农药用量，提升作业效率。虽然主要面向种植业，但其光学传感、自动化喷洒和机器人集成技术对智慧畜牧中的精准饲喂、环境监测等场景具有借鉴意义。",
+    "featuredReason": "该新闻展示了精准农业中光学传感与自动化喷洒的最新进展，其技术思路（如机器人就绪、定点作业）可迁移至畜牧业的精准饲喂、粪污处理等环节，值得关注跨界技术趋势的从业者阅读。",
+    "url": "https://www.futurefarming.com/smart-farming/croplands-expands-weed-it-range-with-new-releases-including-orchard-solution/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 68,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-18T07:00:00.000Z"
+  },
+  {
+    "id": "cmr0cjwi60009113wjor8ksu4",
+    "titleEn": "UC Riverside Develops Modern-Day Robotic Divining Rod",
+    "titleZh": "加州大学河滨分校开发现代机器人探水仪：逐树精准灌溉",
+    "summaryZh": "加州大学河滨分校（UC Riverside）研究团队开发出一套新型精准灌溉系统，利用机器人逐树测量土壤电导率，结合固定传感器数据，生成高分辨率土壤湿度地图，帮助农民在干旱加剧的背景下实现按需灌溉。该系统由精准农业副教授Elia Scudiero领导，成果发表于《计算机与电子农业》期刊。它解决了传统埋地传感器成本高、覆盖有限的问题，能揭示同一果园内因土壤质地差异导致的湿度不均，从而减少过度灌溉，提升水资源利用效率。",
+    "featuredReason": "该技术将机器人、传感器与土壤电导率测绘结合，实现逐树精准灌溉，对智慧畜牧中水资源管理、精准饲喂和环境控制具有直接借鉴意义，尤其适用于干旱地区牧场和饲料作物种植的节水实践。",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/uc-riverside-develops-modern-day-robotic-divining-rod/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-15T18:17:17.000Z"
+  },
+  {
+    "id": "cmr0cjx7g001r113wlwglo4zi",
+    "titleEn": "Yamaha Agriculture adds herbicide spraying to Prospr robot",
+    "titleZh": "雅马哈农业为Prospr机器人新增除草剂喷洒功能",
+    "summaryZh": "雅马哈农业公司为其Prospr自主混合动力车辆平台推出了除草剂喷洒附件，使该机器人能够在果园和葡萄园中实现自动化杂草控制。这一扩展增强了Prospr的多功能性，从原有的运输、监测等功能延伸至精准植保作业。虽然该技术主要面向种植业，但其自主导航、混合动力及模块化设计思路对智慧畜牧中的牧场管理、饲喂机器人等场景具有借鉴意义。",
+    "featuredReason": "该新闻展示了农业机器人从单一功能向多功能平台演进的趋势，其模块化设计思路和自主作业能力对智慧畜牧中机器人系统的集成与升级具有重要参考价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/yamaha-agriculture-adds-herbicide-spraying-to-prospr-robot/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 68,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-03T07:00:00.000Z"
+  },
+  {
+    "id": "cmr0cjwig000j113wemeq1diy",
+    "titleEn": "Inside India’s Agricultural Labor Gap: How AgTech Is Digitizing the Farm Workforce",
+    "titleZh": "印度农业劳动力缺口：AgTech如何数字化农场劳动力",
+    "summaryZh": "本文通过专访Bharat Intelligence CEO Azhaan Merchant，深入分析了印度农业劳动力市场的碎片化与非正式化问题。核心观点是：劳动力本身并非效率低下的根源，缺乏对劳动力技能、可用性、迁移模式等数据的可见性才是关键。文章提出通过数据、AI和劳动力智能技术，建立结构化的数字化劳动力基线，以优化供需匹配，重塑农业劳动力的组织、部署和价值评估方式。",
+    "featuredReason": "本文揭示了农业劳动力数字化管理的核心痛点与解决路径，虽聚焦印度种植业，但其劳动力数据化、AI匹配的思路对智慧畜牧行业的人力资源管理同样具有启发意义。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/inside-indias-agricultural-labor-gap-how-agtech-is-digitizing-the-farm-workforce/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 66,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-02T14:01:58.000Z"
   }
 ]

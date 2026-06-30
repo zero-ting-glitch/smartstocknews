@@ -1,10 +1,10 @@
 [
   {
-    "id": "cmr07updx008hajff4dxxfkjp",
+    "id": "cmr0cjyu9003l113w0l5moa9n",
     "titleEn": "AgriFood Signals: Bayer wins roundup case, CEO change at Vow, Reservoir acquires Contain",
-    "titleZh": "AgriFood Signals周报：拜耳草甘膦案胜诉、Vow CEO变更、Reservoir收购Contain",
-    "summaryZh": "本期AgriFood Signals汇总了农业食品科技领域的最新融资、并购、人事变动及行业动态。亮点包括：拜耳在草甘膦诉讼中获胜；人造肉初创Vow因重组更换CEO；Reservoir收购Contain以加速农业物理AI机器人技术。此外，Omni获1100万英镑融资开发宠物减肥药，Tropic收购植物繁殖企业Rahan Meristem，达能收购澳洲乳企，以及欧洲与日本联合推出7500万美元蓝色经济基金。整体内容覆盖广泛，但直接涉及智慧畜牧（IoT/AI/自动化在养殖业应用）的信息较少。",
-    "featuredReason": "尽管本新闻涵盖农业食品科技多个领域，但智慧畜牧从业者可关注Reservoir收购Contain所代表的物理AI在农业机器人中的进展，以及Tropic的植物繁殖技术对饲料作物优化的潜在影响。",
+    "titleZh": "AgriFood Signals周报：拜耳草甘膦案胜诉、Vow CEO换人、Reservoir收购Contain",
+    "summaryZh": "本期AgFunderNews的AgriFood Signals汇总了农业食品科技领域的最新融资、并购、人事变动等动态。重点包括：拜耳在草甘膦诉讼中获胜；人造肉公司Vow因重组更换CEO；Reservoir收购Contain以加速农业机器人AI技术。此外还有Omni、Myota、Terraxy等多家初创公司融资，以及达能收购澳洲乳企、Zume Pizza技术被收购等消息。整体覆盖范围广，但直接涉及智慧畜牧（IoT/AI/自动化）的内容较少，仅Reservoir收购Contain与农业机器人相关。",
+    "featuredReason": "虽然本期新闻以农业食品科技综合动态为主，但Reservoir收购Contain聚焦于农业物理AI机器人，对智慧畜牧领域的自动化技术应用有一定参考价值。",
     "url": "https://agfundernews.com/agrifood-signals-bayer-wins-roundup-case-ceo-change-at-vow-reservoir-acquires-contain",
     "source": {
       "name": "AgFunderNews",
@@ -19,10 +19,10 @@
     "qualityScore": 35,
     "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-30T05:38:43.077Z"
+    "publishedAt": "2026-06-30T07:50:20.193Z"
   },
   {
-    "id": "cmr07upe5008lajffhufndgpy",
+    "id": "cmr0cjyug003p113w88iezpxn",
     "titleEn": "AgriFood Signals: Anthropic joins carbon removal coalition, Elanco launches venture arm, AeroFarms acquired",
     "titleZh": "",
     "summaryZh": "",
@@ -41,14 +41,14 @@
     "qualityScore": 0,
     "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-30T05:38:43.077Z"
+    "publishedAt": "2026-06-30T07:50:20.193Z"
   },
   {
-    "id": "cmr07upee008pajffwz0a54y0",
+    "id": "cmr0cjyuk003t113w1nuhyhx7",
     "titleEn": "The food system needs a rewiring, not a reinvention, Anterra Capital says after $100m raise",
-    "titleZh": "Anterra资本：食品系统需要“重新布线”而非“彻底改造”，第三基金首关1亿美元",
-    "summaryZh": "农业食品风投Anterra Capital宣布其第三期基金首关1亿美元（目标2亿），创始合伙人Maarten Goossens强调，当前食品系统的问题不在于创造全新品类（如替代蛋白、垂直农场），而在于对现有系统进行“重新布线”——即通过技术优化基础设施、供应链和效率。该基金在行业投资暴跌69%的背景下逆势募资，其策略是避开炒作、聚焦基本面，尤其关注动物健康等传统领域。文章指出，肉类生产中的技术改进（如动物健康管理）比替代蛋白更能创造实际价值，这一理念对智慧畜牧行业具有战略参考意义。",
-    "featuredReason": "本文揭示了资本从“颠覆式创新”转向“系统优化”的趋势，智慧畜牧从业者可从中理解如何通过物联网、AI等技术对现有养殖体系进行“重新布线”而非盲目追逐新概念，从而获得更可持续的投资与回报。",
+    "titleZh": "Anterra资本：食品系统需要“重新布线”而非“彻底重塑”，新基金募资1亿美元",
+    "summaryZh": "Anterra资本在完成第三期基金1亿美元首轮募资后提出，食品系统应聚焦“重新布线”（优化现有基础设施与流程），而非追求颠覆性创新。该基金关注动物健康、精准农业等务实领域，避开替代蛋白、垂直农业等过热赛道。文章指出，2021年以来农业食品投资暴跌69%，而Anterra通过坚持基本面、远离炒作，持续为投资者创造回报。对智慧畜牧行业而言，这提示应优先利用IoT、AI等技术优化现有养殖效率与动物健康，而非盲目追逐概念。",
+    "featuredReason": "该新闻为智慧畜牧从业者提供了重要的投资风向标：与其押注颠覆性技术，不如用IoT、AI等工具“重新布线”现有养殖系统，提升动物健康与生产效率，这更符合当前资本市场的务实逻辑。",
     "url": "https://agfundernews.com/the-food-system-needs-a-rewiring-not-a-reinvention-anterra-capital-says-after-100m-raise",
     "source": {
       "name": "AgFunderNews",
@@ -60,17 +60,17 @@
     "category": "aggtech",
     "subcategory": "general",
     "techTags": "",
-    "qualityScore": 81,
+    "qualityScore": 85,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-30T05:38:43.077Z"
+    "publishedAt": "2026-06-30T07:50:20.193Z"
   },
   {
-    "id": "cmr07upeg008rajff6kw9cblh",
+    "id": "cmr0cjyun003v113wvlj6p4ro",
     "titleEn": "Tech alone won’t future-proof the food system, experts warn",
     "titleZh": "专家警告：仅靠技术无法保障食品系统未来，需政策与系统性改革",
-    "summaryZh": "在阿姆斯特丹“你好明天”峰会上，专家指出当前食品系统虽拥有更多监测脆弱性的技术工具，但若仅用于修补现有体系而忽视根本性改革，则无法应对气候与地缘政治风险。Giga Futures创始人Christine Gould强调，韧性不应是“弹回失效的现状”，而需系统性更新。麦肯锡全球研究院高级研究员Marc Canal则主张继续发展技术、推动私营创新，并构建新叙事以激发进步。文章核心观点是：技术是必要但非充分条件，政策与系统性变革才是未来保障的关键。",
-    "featuredReason": "本文虽非直接聚焦智慧畜牧，但其核心警示——技术不能替代系统改革——对智慧畜牧从业者极具启发：在引入IoT、AI等工具时，必须同步推动养殖模式、政策与产业链协同创新，否则技术可能沦为“补丁”而非变革引擎。",
+    "summaryZh": "本文报道了在阿姆斯特丹Hello Tomorrow峰会上，多位专家指出当前食品系统面临气候与地缘政治风险，虽然技术（如监测工具）能帮助发现脆弱性，但若仅用于修补现有系统而不进行根本性改革，则效果有限。Giga Futures创始人强调“韧性”可能只是回到失效的现状，麦肯锡专家则主张继续推动技术创新与私营部门发展。文章核心观点是技术必须与政策、系统性变革结合，才能实现食品系统的可持续未来。",
+    "featuredReason": "本文虽非直接聚焦智慧畜牧，但其对“技术不能替代系统改革”的警示对智慧畜牧从业者具有战略启发意义——提醒行业在追求IoT、AI等工具应用时，需同步关注政策、商业模式和生态系统的整体优化，避免陷入“为技术而技术”的陷阱。",
     "url": "https://agfundernews.com/tech-alone-wont-future-proof-the-food-system-experts-warn",
     "source": {
       "name": "AgFunderNews",
@@ -85,14 +85,36 @@
     "qualityScore": 67,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-30T05:38:43.077Z"
+    "publishedAt": "2026-06-30T07:50:20.193Z"
   },
   {
-    "id": "cmr07upep008xajffuhvofvjq",
+    "id": "cmr0cjyus003z113w19tcgnf3",
+    "titleEn": "The Protein Brewery wins EU approval for Fermotein mycoprotein six years after novel foods filing",
+    "titleZh": "The Protein Brewery获欧盟批准，Fermotein真菌蛋白六年后获批上市",
+    "summaryZh": "荷兰公司The Protein Brewery的Fermotein真菌蛋白（Rhizomucor pusillus菌丝体）获得欧盟新型食品批准，成为首个在欧盟新型食品法规下获批销售的菌丝体成分。该产品已在新加坡获批、在美国获自认证GRAS，并正在英国、加拿大、澳大利亚/新西兰推进监管。公司计划2027年从荷兰示范工厂供应600吨，2029年产能超2000吨。CEO强调其非无菌发酵工艺显著降低资本和运营成本，规模化后成本优势更突出。消费者端可使用“真菌蛋白粉”“菌丝体蛋白”等标签。",
+    "featuredReason": "虽然该新闻主要聚焦替代蛋白和食品技术，但其非无菌发酵工艺和菌丝体蛋白生产模式对智慧畜牧行业在饲料原料创新、低成本生物制造方面具有间接启发价值，尤其适合关注新型蛋白源替代传统饲料的从业者参考。",
+    "url": "https://agfundernews.com/the-protein-brewery-wins-eu-approval-for-fermotein-mycoprotein-six-years-after-novel-foods-filing",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "aggtech",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 54,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-06-30T07:50:20.193Z"
+  },
+  {
+    "id": "cmr0cjyuu0041113wzurppq4x",
     "titleEn": "AI’s role in agrifood biotech comes into sharper focus",
     "titleZh": "AI在农业食品生物技术中的作用日益清晰，但个性化应用存疑",
-    "summaryZh": "本文报道了在阿姆斯特丹“明日峰会”上，专家们对AI在农业食品生物技术领域作用的讨论。AI在揭示生物学因果机制方面展现出前所未有的能力，但专家指出，在个性化食品和健康解决方案方面，AI可能并非必需。他们认为，规模化生产应优先考虑共性而非个性化，且AI在某些场景下可能反而阻碍规模化。文章还提到，创业公司需谨慎评估AI在规模化过程中的实际成本与效益。",
-    "featuredReason": "本文为智慧畜牧行业提供了AI应用边界的冷静思考，提醒从业者不要盲目追求个性化AI方案，而应聚焦规模化生产中的共性优化，对养殖业AI落地策略有重要参考价值。",
+    "summaryZh": "本文报道了在阿姆斯特丹Hello Tomorrow峰会上，专家们对AI在农业食品生物技术中作用的讨论。AI在揭示生物学因果机制方面展现出前所未有的能力，但专家指出其在个性化食品和健康解决方案上可能并不适用。比利时投资机构Biotope Ventures负责人认为，大规模生产应优化共性而非个性，AI并非必需工具。SOSV合伙人则提醒创业者需权衡AI在规模化中的利弊，并注意营销成本。文章核心价值在于提醒行业理性看待AI的适用边界。",
+    "featuredReason": "本文虽非直接聚焦智慧畜牧，但其中关于AI在农业生物技术中规模化与个性化取舍的讨论，对智慧畜牧领域选择AI应用场景具有重要参考价值，避免盲目跟风个性化方案。",
     "url": "https://agfundernews.com/ais-role-in-agrifood-biotech-comes-into-sharper-focus",
     "source": {
       "name": "AgFunderNews",
@@ -104,39 +126,17 @@
     "category": "aggtech",
     "subcategory": "general",
     "techTags": "",
-    "qualityScore": 66,
+    "qualityScore": 67,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-30T05:38:43.077Z"
+    "publishedAt": "2026-06-30T07:50:20.193Z"
   },
   {
-    "id": "cmr07uper008zajffkhd1mebj",
-    "titleEn": "AI is everywhere in CPG R&D. But is it moving the needle? Turing Labs surveys the biggest players",
-    "titleZh": "AI在CPG研发中普及但成效有限：Turing Labs调研揭示落地鸿沟",
-    "summaryZh": "Turing Labs对欧美290名大型CPG企业研发高管的调查显示，91%的受访者已在工作中使用AI，但仅19%将其嵌入常规流程，且真正产生业务影响的案例更少。多数AI应用停留在概念生成和基础研究等通用任务上，而在产品创新等专业领域，20%的AI项目从未实施，24%虽在使用但效果甚微。57%的受访者认为生成式AI的输出过于泛化，需大量人工修正。报告指出，通用工具与高度专业化的研发流程之间存在根本性错配，行业需要新的运营模式而非更多概念。",
-    "featuredReason": "虽然聚焦快消品行业，但AI在专业研发中‘高使用率、低转化率’的困境与智慧畜牧领域AI落地面临的挑战高度相似，为畜牧AI项目评估和策略调整提供了跨行业警示与参考。",
-    "url": "https://agfundernews.com/ai-is-everywhere-in-cpg-rd-but-is-it-moving-the-needle-turing-labs-surveys-the-biggest-players",
-    "source": {
-      "name": "AgFunderNews",
-      "nameZh": "农业科技投",
-      "tier": "T1"
-    },
-    "sourceId": "agfundernews",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 57,
-    "isFeatured": true,
-    "isHot": false,
-    "publishedAt": "2026-06-30T05:38:43.077Z"
-  },
-  {
-    "id": "cmr07upet0091ajffg01z14bq",
+    "id": "cmr0cjyuy0045113w9a7svxvv",
     "titleEn": "Rainbow Crops raises $11.25m to scale AI-guided multiplex gene editing",
     "titleZh": "Rainbow Crops获1125万美元种子轮融资，用AI引导多重基因编辑提升作物产量与抗旱性",
-    "summaryZh": "比利时农业科技初创公司Rainbow Crops完成1125万美元种子轮融资，由LIFTT EuroInvest领投。该公司利用AI预测影响复杂性状（如产量、耐旱性）的基因组合，结合多重基因编辑与高通量筛选技术，在玉米等作物中实现精准改良。其系统生物学方法将基因型与表型数据反馈至AI模型，持续优化育种效率。该技术源自VIB研究所，有望突破传统育种瓶颈，对智慧种植业及畜牧饲料原料供应具有潜在影响。",
-    "featuredReason": "该技术通过AI+基因编辑精准改良作物关键性状，直接关系到畜牧饲料原料（如玉米）的产量与抗逆性，是智慧种植与畜牧产业链上游的重要创新，值得关注其对饲料成本与供应链稳定性的长期影响。",
+    "summaryZh": "比利时农业科技初创公司Rainbow Crops完成1125万美元种子轮融资，由LIFTT EuroInvest领投。该公司利用AI预测影响复杂性状的基因组合，结合多重基因编辑与高通量筛选技术，旨在提升玉米等作物的产量、耐旱性和耐热性。其系统生物学方法将表型与基因型数据反馈至AI模型，实现持续优化。该技术由VIB研究所孵化，有望为作物育种带来突破性进展。",
+    "featuredReason": "该技术虽聚焦作物，但其AI+多重基因编辑+高通量筛选的闭环方法论，对智慧畜牧中动物遗传改良、抗病育种等复杂性状优化具有直接借鉴意义，展示了AI在生物育种领域的落地路径。",
     "url": "https://agfundernews.com/rainbow-crops-raises-11-25m-to-scale-ai-guided-multiplex-gene-editing",
     "source": {
       "name": "AgFunderNews",
@@ -151,14 +151,14 @@
     "qualityScore": 85,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-30T05:38:43.077Z"
+    "publishedAt": "2026-06-30T07:50:20.193Z"
   },
   {
-    "id": "cmr07upew0095ajfflhl13ndk",
+    "id": "cmr0cjyv20049113wpe2s3zwd",
     "titleEn": "Picketa Systems raises $1.5m to bring crop nutrient testing to the field",
-    "titleZh": "Picketa Systems获150万美元融资，将作物营养检测带入田间",
-    "summaryZh": "加拿大农业科技初创公司Picketa Systems完成150万美元融资，用于推广其便携式作物营养传感技术LENS。该技术利用AI光谱分析，可在几分钟内检测作物叶片中13种关键营养元素，经第三方实验室验证，结合Fieldbook平台帮助农民精准施肥，降低肥料成本最高20%并提升产量。CEO预测十年内通过作物传感、专用投入品和自动驾驶车辆，将完全实现肥料循环闭环。",
-    "featuredReason": "该技术展示了AI与光谱传感在精准农业中的前沿应用，虽聚焦种植业，但其便携检测、实时决策和闭环施肥理念对智慧畜牧中的饲料营养管理、粪肥精准施用等场景具有直接借鉴价值。",
+    "titleZh": "Picketa Systems获150万美元融资，将AI作物养分检测带入田间",
+    "summaryZh": "加拿大农业科技初创公司Picketa Systems完成210万加元（约150万美元）融资，用于推广其便携式作物养分传感技术。该技术利用AI驱动的光谱分析，可在几分钟内检测作物叶片中13种关键养分含量，并通过Fieldbook平台帮助农民精准施肥，降低肥料成本最高20%，同时提升产量。公司CEO预测，未来10年内，结合作物传感、专用投入品和自动驾驶技术，将实现肥料循环完全闭环，农民无需再操心施肥。本轮融资由Tall Grass Ventures领投，多家新老投资者跟投。",
+    "featuredReason": "该技术展示了AI与光谱传感在精准农业中的前沿应用，虽聚焦种植业，但其“实时感知-智能决策-自动执行”的闭环逻辑对智慧畜牧中的精准饲喂、环境监测等场景具有直接借鉴意义。",
     "url": "https://agfundernews.com/picketa-raises-1-5m-to-bring-crop-nutrient-testing-to-the-field",
     "source": {
       "name": "AgFunderNews",
@@ -173,14 +173,14 @@
     "qualityScore": 85,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-30T05:38:43.077Z"
+    "publishedAt": "2026-06-30T07:50:20.193Z"
   },
   {
-    "id": "cmr07upey0097ajfffqepq9hs",
+    "id": "cmr0cjyv4004b113w0nw0aco9",
     "titleEn": "Fertilizer… without Haber Bosch: Can AI-optimized plasma make green ammonia cost-competitive?",
     "titleZh": "AI优化等离子体技术能否让绿色氨肥成本媲美传统化肥？",
-    "summaryZh": "Faraday Earth公司利用非热等离子体技术，在常温常压下将氮气活化并与绿氢结合生产绿色氨，目标成本约500美元/吨，接近传统哈伯-博世法生产的灰色氨。其模块化、分布式系统可降低运输成本，有望颠覆化肥供应链。该技术若成功，将大幅减少化肥生产的碳排放，对智慧畜牧行业中的饲料作物种植和牧场管理具有间接但深远的绿色肥料供应意义。",
-    "featuredReason": "化肥是畜牧业饲料生产的关键投入品，绿色氨技术若实现成本竞争力，将推动整个农业供应链脱碳，智慧畜牧从业者应关注这一上游变革对可持续养殖模式的潜在影响。",
+    "summaryZh": "Faraday Earth公司利用非热等离子体技术，在常温常压下将氮气激发并与绿氢结合生产氨，有望将绿色氨的平准化成本降至约500美元/吨，接近传统哈伯-博世法生产的灰色氨。其模块化、分布式系统可大幅降低运输成本，为化肥供应链脱碳提供新路径。该技术若成熟，将深刻影响智慧畜牧中饲料作物种植的氮肥来源与成本结构。",
+    "featuredReason": "该技术有望颠覆传统化肥生产的高碳、集中化模式，为智慧畜牧产业链上游的可持续肥料供应提供创新解决方案，值得关注其对养殖业碳足迹和成本的影响。",
     "url": "https://agfundernews.com/fertilizer-without-haber-bosch-can-ai-optimized-plasma-make-green-ammonia-cost-competitive",
     "source": {
       "name": "AgFunderNews",
@@ -192,17 +192,17 @@
     "category": "crop",
     "subcategory": "field",
     "techTags": "",
-    "qualityScore": 67,
+    "qualityScore": 78,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-30T05:38:43.077Z"
+    "publishedAt": "2026-06-30T07:50:20.193Z"
   },
   {
-    "id": "cmr07upf2009bajffyfet0ptm",
+    "id": "cmr0cjyv7004f113wvmj4igxz",
     "titleEn": "From Taxol to cocoa: Can plant cell culture make the leap from drugs to food?",
     "titleZh": "从紫杉醇到可可：植物细胞培养能否从制药跨界食品？",
-    "summaryZh": "本文探讨了植物细胞培养技术从制药领域（如紫杉醇生产）向食品原料领域拓展的可行性。面对气候冲击和地缘政治不稳定对传统植物供应链的威胁，利用生物反应器室内培养高价值植物成分（如可可、香草、藏红花等）具有明显吸引力。然而，该技术商业化面临资金短缺、产品市场成熟度不足等挑战，英国初创公司Green Bioactives因资金链断裂而倒闭的案例凸显了行业风险。文章分析了植物细胞培养在营养保健品原料生产中的潜力与障碍，为农业生物制造领域提供了重要参考。",
-    "featuredReason": "虽然本文主要聚焦食品与制药领域，但植物细胞培养技术作为精准农业和生物制造的前沿方向，对智慧畜牧中饲料添加剂、植物源兽药及功能性成分的可持续生产具有潜在借鉴价值，值得关注生物制造与农业交叉创新的从业者阅读。",
+    "summaryZh": "本文探讨了植物细胞培养技术从制药领域（如紫杉醇生产）向食品原料领域拓展的可行性。面对气候冲击和地缘政治不稳定对植物供应链的威胁，利用生物反应器室内培养高价值植物成分（如可可、香草、藏红花、南非醉茄等）具有明显吸引力。然而，该技术商业化面临资金短缺、产品市场成熟度不足等挑战，英国初创公司Green Bioactives因资金耗尽而倒闭，但其细胞系已被收购。文章分析了植物细胞培养在食品配料领域的商业前景与风险。",
+    "featuredReason": "虽然植物细胞培养技术目前主要与制药和食品配料相关，但其在生物反应器内标准化、可控生产植物活性成分的思路，对智慧畜牧中饲料添加剂、植物源兽药或功能性饲料原料的室内生产具有前瞻性参考价值。",
     "url": "https://agfundernews.com/from-taxol-to-cocoa-can-plant-cell-culture-make-the-leap-from-drugs-to-food",
     "source": {
       "name": "AgFunderNews",
@@ -217,10 +217,10 @@
     "qualityScore": 62,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-30T05:38:43.077Z"
+    "publishedAt": "2026-06-30T07:50:20.193Z"
   },
   {
-    "id": "cmr07upf4009dajffdshwzzlf",
+    "id": "cmr0cjyv9004h113w7lv8kuym",
     "titleEn": "AgriFood Signals: EIF commits $29m to Irish agrifoodtech, Aphea.Bio and Bayer team up, GLP-1 pills",
     "titleZh": "",
     "summaryZh": "",
@@ -239,80 +239,124 @@
     "qualityScore": 0,
     "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-30T05:38:43.077Z"
+    "publishedAt": "2026-06-30T07:50:20.193Z"
   },
   {
-    "id": "cmr07uor0006najffmc2f8zrt",
-    "titleEn": "Don’t Miss Greenhouse Grower’s Digital Deep Dive on Structures",
-    "titleZh": "温室结构数字化深度报告：自动化与节能升级指南",
-    "summaryZh": "该报告由Greenhouse Grower发布，聚焦温室结构的最新进展与创新，涵盖温室是否需要改造或重建、开放式屋顶的四大优势、围绕自动化进行温室设计、以及如何防止温室在极端冬季天气中倒塌等关键议题。报告以可下载PDF形式呈现，汇集了编辑精选的最新文章，旨在帮助种植者应对自动化接入、能源成本、灌溉问题等夏季升级需求。虽然内容主要面向温室园艺，但其中关于自动化集成与结构优化的思路对智慧畜牧的设施农业有参考价值。",
-    "featuredReason": "尽管该报告主要针对温室种植业，但其关于自动化设计、结构升级和抗灾能力的讨论，可为智慧畜牧中养殖设施（如智能环控畜舍）的改造与新建提供跨领域借鉴，尤其适合关注设施农业自动化的从业者参考。",
-    "url": "https://www.greenhousegrower.com/production/dont-miss-greenhouse-growers-digital-deep-dive-on-structures-3/",
+    "id": "cmr0cjyoa003j113w44q2eqtx",
+    "titleEn": "Thailand and U.S. strengthen cooperation on produce pesticide testing",
+    "titleZh": "泰美加强进口果蔬农药残留检测合作",
+    "summaryZh": "泰国食品药品监督管理局与美国农业部及特色作物出口援助计划代表举行双边会谈，重点讨论进口新鲜水果、蔬菜和坚果的农药残留安全监管。双方围绕边境检查系统协调、口岸抽样方法、化学残留实验室分析、超标最大残留限量执法程序等议题交换经验，并计划建立数据共享网络。泰方表示将基于科学原则更新政策，以保障公众健康并促进国际贸易。",
+    "featuredReason": "该新闻虽涉及食品安全监管，但未涉及智慧畜牧核心技术如IoT、AI、自动化或传感器在养殖/种植中的应用，对智慧畜牧行业人士的直接参考价值有限。",
+    "url": "https://www.freshplaza.com/north-america/article/9851923/thailand-and-u-s-strengthen-cooperation-on-produce-pesticide-testing/",
     "source": {
-      "name": "Greenhouse Grower",
-      "nameZh": "温室种植者",
-      "tier": "T1.5"
+      "name": "Fresh Plaza",
+      "nameZh": "新鲜广场",
+      "tier": "T2"
     },
-    "sourceId": "greenhousegrower",
-    "species": "horticulture",
+    "sourceId": "freshplaza",
+    "species": "fruit",
     "category": "crop",
-    "subcategory": "horticulture",
+    "subcategory": "fruit",
     "techTags": "",
-    "qualityScore": 37,
+    "qualityScore": 20,
     "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-29T17:00:45.000Z"
+    "publishedAt": "2026-06-29T11:54:00.000Z"
   },
   {
-    "id": "cmr07up610077ajffyvnr8uba",
+    "id": "cmr0cjyn20029113w65qrgk35",
     "titleEn": "India’s rambutan industry enters commercial growth phase",
     "titleZh": "印度红毛丹产业进入商业化增长阶段",
-    "summaryZh": "印度南部喀拉拉邦的红毛丹产业正从进口替代转向商业化种植，目前拥有约55万至65万棵树，年产量2.5万至3万吨。主要品种N18因果大味甜受市场欢迎，种植者正逐步引入多个品种以延长采收期、避免集中上市。产区从喀拉拉邦扩展至卡纳塔克邦、泰米尔纳德邦等地。消费者仍普遍认为红毛丹依赖进口，这为本土产业提供了市场机遇。",
-    "featuredReason": "本文虽未直接涉及智慧畜牧技术，但展示了热带水果产业从传统种植向商业化转型的路径与市场策略，可为智慧畜牧行业在多元化农业经营、品种优化及市场教育方面提供跨界参考。",
+    "summaryZh": "印度南部喀拉拉邦的红毛丹产业正从进口依赖转向本土商业化种植，目前拥有约55万至65万棵树，年产量2.5万至3万吨。主要品种N18因果大、甜度高而主导市场，种植者正逐步引入多样化品种以延长收获期、避免市场过剩。产业扩张至卡纳塔克邦、泰米尔纳德邦等地，消费者认知从“纯进口”向本土品牌转变。文章聚焦种植规模、品种策略和市场机遇，但未涉及智慧畜牧相关技术应用。",
+    "featuredReason": "该新闻展示了印度热带水果产业的结构性转型，但缺乏智慧畜牧（IoT、AI、自动化等）技术细节，适合关注农业市场趋势的读者，而非技术实践者。",
     "url": "https://www.freshplaza.com/north-america/article/9851793/india-s-rambutan-industry-enters-commercial-growth-phase/",
     "source": {
       "name": "Fresh Plaza",
       "nameZh": "新鲜广场",
-      "tier": "T1.5"
+      "tier": "T2"
     },
     "sourceId": "freshplaza",
     "species": "fruit",
     "category": "crop",
     "subcategory": "fruit",
     "techTags": "",
-    "qualityScore": 32,
+    "qualityScore": 21,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-06-29T11:30:00.000Z"
   },
   {
-    "id": "cmr07up6u007xajffq2sa3xrd",
+    "id": "cmr0cjynt002z113wx7owe6xm",
     "titleEn": "“We are expanding our apple range with the Strauss EW20 multi-head weigher”",
-    "titleZh": "Maf Roda Agrobotic通过Strauss EW20多头秤扩展苹果包装产品线",
-    "summaryZh": "Maf Roda Agrobotic在2025年初收购德国Strauss Verpackungsmaschinen后，推出了专为苹果设计的EW20多头秤，填补了其此前在苹果重量包装领域的空白。该设备采用关联称重技术，能自动优化水果组合以达到目标重量，减少浪费并降低水果处理次数。公司表示，这使其能够服务以重量而非尺寸为包装标准的市场，提供高度灵活性。虽然该新闻聚焦于果蔬包装自动化，与智慧畜牧（养殖业）的直接相关性较低，但其自动化称重和减少损耗的理念对畜牧行业的分级包装环节有间接参考价值。",
-    "featuredReason": "该新闻展示了自动化称重技术在农产品包装中的最新应用，智慧畜牧行业人士可借鉴其减少损耗、提升精度的思路，用于肉类或蛋品等产品的自动化分级包装场景。",
+    "titleZh": "Maf Roda Agrobotic推出苹果专用多头秤，拓展称重包装解决方案",
+    "summaryZh": "Maf Roda Agrobotic通过收购德国Strauss公司，在其产品组合中新增了EW20多头秤，专为苹果的自动化袋装或托盘包装设计。该设备采用关联称重技术，能自动优化水果组合以达到目标重量，减少浪费和水果处理。此举填补了该公司在苹果称重包装领域的空白，并适应市场从按尺寸包装向按重量包装转变的趋势。虽然主要针对果蔬采后处理，但其自动化称重与优化技术对智慧畜牧中的精准投喂、分级包装等场景有间接参考价值。",
+    "featuredReason": "该新闻展示了自动化称重与组合优化技术在农产品包装中的最新应用，虽非直接畜牧领域，但其传感器融合与算法逻辑对智慧畜牧中精准饲喂、产品分级等环节有技术迁移启示。",
     "url": "https://www.freshplaza.com/north-america/article/9851168/we-are-expanding-our-apple-range-with-the-strauss-ew20-multi-head-weigher/",
     "source": {
       "name": "Fresh Plaza",
       "nameZh": "新鲜广场",
-      "tier": "T1.5"
+      "tier": "T2"
     },
     "sourceId": "freshplaza",
     "species": "fruit",
     "category": "crop",
     "subcategory": "fruit",
     "techTags": "",
-    "qualityScore": 47,
+    "qualityScore": 24,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-06-29T11:30:00.000Z"
   },
   {
-    "id": "cmr07uorb006xajffwo50eper",
+    "id": "cmr0cjynw0033113w7hbxsrqs",
+    "titleEn": "Vacuum packaging gains ground in fresh produce supply chains",
+    "titleZh": "真空包装在生鲜供应链中应用渐广，但智慧畜牧关联有限",
+    "summaryZh": "本文介绍了真空包装技术在生鲜农产品供应链中的应用，重点阐述其通过减缓氧化和抑制微生物生长来延长保质期、减少采后损失，并提及在香草、蘑菇、干果、切菜及即食食品中的实际用途。文章还从可持续角度讨论了减少食物浪费的价值。然而，该技术主要聚焦于包装环节，与智慧畜牧核心关注的养殖业IoT、AI、自动化、机器人及传感器应用关联较弱，对种植业中采后处理的参考价值有限。",
+    "featuredReason": "虽然真空包装技术本身与智慧畜牧核心领域（养殖自动化、传感器、AI决策）关联度不高，但了解生鲜供应链中减少损耗的包装创新，对从事种养结合或冷链物流的智慧畜牧从业者有一定启发。",
+    "url": "https://www.freshplaza.com/north-america/article/9851649/vacuum-packaging-gains-ground-in-fresh-produce-supply-chains/",
+    "source": {
+      "name": "Fresh Plaza",
+      "nameZh": "新鲜广场",
+      "tier": "T2"
+    },
+    "sourceId": "freshplaza",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 24,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-06-29T11:30:00.000Z"
+  },
+  {
+    "id": "cmr0cjx6a000l113wdnzmjzmg",
+    "titleEn": "AgXeed’s VCU brings existing tractors into the autonomous fold",
+    "titleZh": "AgXeed推出VCU套件：让现有拖拉机接入自主作业生态",
+    "summaryZh": "AgXeed发布了车辆控制单元（VCU），这是一款紧凑型改装套件，通过ISOBUS TIM协议将现有拖拉机与AgXeed的TraXwise规划监控平台连接，使传统农机能够执行预设的自动化作业，减少人工干预。该套件已被收录进《未来农业自主改装套件目录》。虽然主要面向大田种植，但其“即插即用”的改装思路对智慧畜牧中的饲喂、清粪等车辆自动化改造具有参考价值。",
+    "featuredReason": "该新闻展示了低成本、高兼容性的农机自动化改装方案，智慧畜牧行业可借鉴其ISOBUS TIM集成思路，加速牧场内现有作业车辆的智能化升级。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/agxeeds-vcu-brings-existing-tractors-into-the-autonomous-fold/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "aggtech",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 76,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-29T07:00:00.000Z"
+  },
+  {
+    "id": "cmr0cjy650027113wcnegp510",
     "titleEn": "Presenting Greenhouse Grower’s 2026 Technology of the Year Finalists",
-    "titleZh": "2026年温室技术奖入围名单揭晓：空气托盘与PAR精准遮阳系统引领创新",
-    "summaryZh": "本文介绍了《温室种植者》杂志评选的2026年度技术奖两项入围技术。Air Tray Technologies通过空气修剪根系设计，替代传统圆形容器，促进纤维状根系生长，提高作物移栽后成活率、水分养分利用效率，适用于观赏植物、树木、柑橘及葡萄等多种园艺和农业作物。PARPerfect遮阳系统（Svensson）则实现了对光合有效辐射的动态精准控制，采用双层幕布配置，可全天连续调节遮阳率从20%至100%，优化光照管理。两项技术均聚焦于提升生产效率与作物品质，虽主要面向温室种植，但其根域环境优化与精准环境控制理念对智慧畜牧中的环境调控与自动化管理具有借鉴意义。",
-    "featuredReason": "智慧畜牧行业可借鉴其精准环境控制与根域优化思路，应用于养殖舍内微气候调控及动物福利提升，尤其是动态传感与自动化调节技术具有跨领域参考价值。",
+    "titleZh": "2026温室技术奖入围名单揭晓：空气托盘与PAR精准遮阳系统引领创新",
+    "summaryZh": "本文介绍了2026年温室种植者技术奖的两项入围技术：Blackmore公司的Air Tray空气托盘技术，通过促进空气修剪根系、防止根系缠绕，提升作物根系质量、均匀性和生产效率，适用于园艺、林木、柑橘和葡萄等多种作物；Svensson公司的PARPerfect遮阳系统，利用动态精准控制光合有效辐射（PAR），通过双层幕布配置实现20%-100%的连续遮阳调节，优化光环境。两项技术均聚焦于种植业自动化与精准管理，与智慧畜牧在传感器、环境控制、数据驱动决策等方面有交叉借鉴价值。",
+    "featuredReason": "智慧畜牧从业者可从中获取跨领域技术灵感：空气托盘原理可类比于养殖中改善动物福利与生长环境的创新设计，PAR精准控制则与畜禽舍光照、通风等环境调控的智能化趋势高度契合，值得关注其底层逻辑与实施路径。",
     "url": "https://www.greenhousegrower.com/technology/presenting-greenhouse-growers-2026-technology-of-the-year-finalists/",
     "source": {
       "name": "Greenhouse Grower",
@@ -324,53 +368,405 @@
     "category": "crop",
     "subcategory": "horticulture",
     "techTags": "",
-    "qualityScore": 57,
+    "qualityScore": 58,
     "isFeatured": true,
     "isHot": false,
     "publishedAt": "2026-06-26T18:41:04.000Z"
   },
   {
-    "id": "cmr07uok40065ajff2kar8ow1",
-    "titleEn": "Tech-savvy daughter brings AI tools to family farm",
-    "titleZh": "科技女儿为家庭农场引入AI工具，减少化学浪费并简化合规",
-    "summaryZh": "一位年轻农民利用人工智能技术，在家庭农场中减少化学物质浪费、优化合规记账并自动生成报告。她与父亲共同受益于AI带来的精准度和时间节省。该案例展示了AI在中小型农场中的实际应用，尤其适用于养殖业中的投入品管理和数据记录，但技术细节和具体工具未详细披露，创新性中等。",
-    "featuredReason": "该新闻展示了AI在家庭农场中的落地实践，对中小型养殖场主有直接参考价值，尤其是如何用低成本技术提升合规效率和减少浪费。",
-    "url": "https://www.farmprogress.com/technology/tech-savvy-daughter-brings-ai-tools-to-family-farm",
+    "id": "cmr0cjwhw0001113wzbfe4gh5",
+    "titleEn": "Komet Invests in Irrigation Intelligence to Close One of Agriculture’s Biggest Data Gaps",
+    "titleZh": "科迈特投资灌溉智能，填补农业最大数据空白",
+    "summaryZh": "科迈特灌溉公司宣布成立新的应用工程与数字系统部门，并推出“经验中心”，旨在通过数据采集与分析，填补喷灌系统运行中缺乏实时、精确数据的关键空白。该投资将推动喷灌科学、工程和决策的全球进步，帮助农业应对水资源短缺和气候波动。虽然聚焦于种植业灌溉，但其数据驱动决策的思路对智慧畜牧中的精准饲喂、环境监控等场景具有借鉴意义。",
+    "featuredReason": "该新闻展示了传统农业设备商向数据智能转型的典型案例，其“填补测量空白”的思路可直接启发智慧畜牧中养殖环境、动物行为等关键参数的数字化监测与闭环控制。",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/irrigation/komet-invests-in-irrigation-intelligence-to-close-one-of-agricultures-biggest-data-gaps/",
     "source": {
-      "name": "Farm Progress",
-      "nameZh": "农业进展",
-      "tier": "T2"
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
     },
-    "sourceId": "farmprogress",
+    "sourceId": "precisionag",
     "species": "aggtech",
     "category": "aggtech",
     "subcategory": "general",
     "techTags": "",
-    "qualityScore": 33,
-    "isFeatured": false,
-    "isHot": false,
-    "publishedAt": "2026-06-26T07:00:00.000Z"
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-26T15:01:07.000Z"
   },
   {
-    "id": "cmr07uok80069ajffk1a99hz4",
-    "titleEn": "Generative AI on the farm: Know your options",
-    "titleZh": "农场上的生成式AI：了解你的选择",
-    "summaryZh": "本文探讨了生成式人工智能在农业领域的应用选项，强调不要让过多的选择阻碍农场采用AI技术。内容涵盖生成式AI如何帮助农民处理数据、优化决策，并提醒从业者根据自身需求选择合适工具。文章旨在降低AI应用门槛，鼓励农业从业者积极拥抱技术变革，提升生产效率和可持续性。",
-    "featuredReason": "本文为智慧畜牧行业从业者提供了生成式AI在农业落地的实用视角，帮助理解如何从众多AI工具中筛选适合养殖场景的方案，具有现实指导意义。",
-    "url": "https://www.farmprogress.com/technology/generative-ai-on-the-farm-know-your-options",
+    "id": "cmr0cjx6d000n113w40pbsgnb",
+    "titleEn": "Agreenculture acquires Chouette to add agronomic intelligence to autonomous machines",
+    "titleZh": "法国农业机器人公司Agreenculture收购AI农艺分析企业Chouette，实现自主作业与田间智能融合",
+    "summaryZh": "法国自主农业机械专家Agreenculture收购了专注于葡萄栽培AI农艺分析的公司Chouette。此次交易将Agreenculture的自主驾驶技术与Chouette的作物监测算法结合，旨在打造既能独立作业又能解读田间观察结果的智能机器。这标志着农业机器人从单纯自动化向“自主+认知”方向演进，对智慧畜牧领域的无人化、精准化作业具有跨行业启示。",
+    "featuredReason": "该案例展示了农业机器人从‘自动执行’到‘自主决策’的关键跃迁，其‘感知-分析-行动’闭环模式对智慧畜牧中巡检机器人、饲喂机器人等设备的智能化升级有直接参考价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/agreenculture-acquires-chouette-to-add-agronomic-intelligence-to-autonomous-machines/",
     "source": {
-      "name": "Farm Progress",
-      "nameZh": "农业进展",
-      "tier": "T2"
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
     },
-    "sourceId": "farmprogress",
+    "sourceId": "futurefarming",
     "species": "aggtech",
     "category": "aggtech",
     "subcategory": "general",
     "techTags": "",
-    "qualityScore": 33,
-    "isFeatured": false,
-    "isHot": false,
-    "publishedAt": "2026-06-26T06:40:00.000Z"
+    "qualityScore": 77,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-25T06:30:00.000Z"
+  },
+  {
+    "id": "cmr0cjx6f000p113w76ewc3o0",
+    "titleEn": "Fieldwork Robotics secures new funding to accelerate raspberry harvesting robot",
+    "titleZh": "Fieldwork Robotics获新融资，加速树莓采摘机器人商业化",
+    "summaryZh": "英国公司Fieldwork Robotics获得由企业家Jim Mellon担任主席的投资公司SEED Innovations的追加投资，用于加速其自主树莓采摘机器人的商业部署。该机器人利用计算机视觉和柔性机械臂，能够精准识别并轻柔采摘成熟树莓，解决劳动力短缺和采摘成本高企问题。虽然直接针对水果采摘，但其背后的自动化、机器人感知与柔性操作技术对智慧畜牧中的精准饲喂、巡检、挤奶等场景具有技术迁移价值。融资将推动产品从原型走向规模化应用。",
+    "featuredReason": "该案例展示了农业机器人从实验室走向商业化的关键融资路径，其柔性抓取与视觉识别技术可启发畜牧场景中的自动化操作方案，值得关注技术跨界应用可能性的行业人士阅读。",
+    "url": "https://www.futurefarming.com/smart-farming/fieldwork-robotics-secures-new-funding-to-accelerate-raspberry-harvesting-robot/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 73,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-25T06:00:00.000Z"
+  },
+  {
+    "id": "cmr0cjwhz0003113wepu3dg3i",
+    "titleEn": "Niqo Robotics Takes India-Built Physical AI Farming Platform to Europe at Bharat Innovates 2026",
+    "titleZh": "印度农业机器人公司Niqo Robotics携物理AI平台亮相Bharat Innovates 2026，进军欧洲市场",
+    "summaryZh": "印度物理AI公司Niqo Robotics被选为代表印度参加Bharat Innovates 2026深科技峰会，成为120家创新企业中唯一的精准AI农业机器人公司。其开发的智能农业机器人平台无需订阅、无隐藏成本，从第一天起为农民带来投资回报。该平台已在印度农田验证，现正通过政府搭建的全球创新桥梁进入欧洲市场，展示印度制造的农业机器人技术如何解决全球生产力、可持续性和劳动力挑战。",
+    "featuredReason": "该新闻展示了印度农业机器人从本土走向全球的典型路径，其物理AI平台在精准农业中的商业化实践（无订阅、即用即赚）对智慧畜牧行业探索机器人自动化与AI落地具有直接参考价值。",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/niqo-robotics-takes-india-built-physical-ai-farming-platform-to-europe-at-bharat-innovates-2026/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "aggtech",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 75,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-19T17:33:10.000Z"
+  },
+  {
+    "id": "cmr0cjwi20005113ww8eb5v2a",
+    "titleEn": "9 Ways Collaboration Is Accelerating Innovation Across AgTech",
+    "titleZh": "九大合作案例揭示农业科技加速创新趋势",
+    "summaryZh": "本文由CropLife发布，总结了2025年3月至2026年1月期间农业科技领域的九项重要合作，涵盖SAP与先正达的AI驱动企业系统、自主设备、卫星图像和数字害虫检测等。文章指出，面对气候波动、成本压力、劳动力短缺和数据复杂性，技术提供商、投入品制造商、设备公司和数据专家正通过战略合作推动规模化解决方案，农业零售商则成为连接技术与农场的关键纽带。核心价值在于展示了跨领域协作如何加速创新落地。",
+    "featuredReason": "虽然本文主要聚焦种植业，但其中关于AI集成、数据协作和跨企业合作模式对智慧畜牧行业具有高度借鉴意义，尤其是规模化解决方案的构建思路和零售商作为技术桥梁的角色，值得畜牧领域从业者参考。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/9-ways-collaboration-is-accelerating-innovation-across-agtech/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "aggtech",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 76,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-18T18:10:54.000Z"
+  },
+  {
+    "id": "cmr0cjx6t0011113wy5rcu73q",
+    "titleEn": "Croplands expands WEED-IT range with new releases, including orchard solution",
+    "titleZh": "Croplands推出WEED-IT系列新品，含首款果园精准喷洒方案",
+    "summaryZh": "澳大利亚Croplands Equipment公司发布了WEED-IT精准喷洒系列的多项新技术，包括Series 2 Robot Ready Pinto、大型宽幅平台、扩展的改装能力以及首款专为果园设计的光学定点喷洒解决方案。这些产品利用光学传感器实现杂草识别与精准施药，减少农药用量，提升作业效率。虽然主要面向种植业，但其光学传感、自动化喷洒和机器人集成技术对智慧畜牧中的精准饲喂、环境监测等场景具有借鉴意义。",
+    "featuredReason": "该新闻展示了精准农业中光学传感与自动化喷洒的最新进展，其技术思路（如机器人就绪、定点作业）可迁移至畜牧业的精准饲喂、粪污处理等环节，值得关注跨界技术趋势的从业者阅读。",
+    "url": "https://www.futurefarming.com/smart-farming/croplands-expands-weed-it-range-with-new-releases-including-orchard-solution/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 68,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-18T07:00:00.000Z"
+  },
+  {
+    "id": "cmr0cjwi40007113wcv2i1018",
+    "titleEn": "Beyond Disruption: Earning Trust and Driving Impact in AgTech Through Grower-Led Innovation",
+    "titleZh": "超越颠覆：通过种植者主导的创新在农业科技中赢得信任与推动影响",
+    "summaryZh": "本文由Reservoir CEO Danny Bernstein撰写，探讨了农业科技创新的新范式：从硅谷的快速迭代、软件优先思维转向以种植者为中心的物理人工智能（Physical AI）。文章强调，开放农田的复杂环境（崎岖地形、脆弱作物、不可预测劳动力）需要能在田间实时运行的实体技术。作者提出建立“奥运村”式创新社区，让初创企业、种植者和零售商并肩工作，在真实田间压力测试想法，而非孤立开发。核心观点是：真正的农业科技突破不在于颠覆，而在于与种植者共同创造、适应作物节奏的信任构建。",
+    "featuredReason": "本文为智慧畜牧行业提供了从‘技术驱动’转向‘用户共创’的宝贵视角，强调物理AI与实地验证的重要性，对养殖业中机器人、传感器等技术的落地路径有直接启发。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/beyond-disruption-earning-trust-and-driving-impact-in-agtech-through-grower-led-innovation/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "aggtech",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 75,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-17T15:15:53.000Z"
+  },
+  {
+    "id": "cmr0cjwi60009113wjor8ksu4",
+    "titleEn": "UC Riverside Develops Modern-Day Robotic Divining Rod",
+    "titleZh": "加州大学河滨分校开发现代机器人探水仪：逐树精准灌溉",
+    "summaryZh": "加州大学河滨分校（UC Riverside）研究团队开发出一套新型精准灌溉系统，利用机器人逐树测量土壤电导率，结合固定传感器数据，生成高分辨率土壤湿度地图，帮助农民在干旱加剧的背景下实现按需灌溉。该系统由精准农业副教授Elia Scudiero领导，成果发表于《计算机与电子农业》期刊。它解决了传统埋地传感器成本高、覆盖有限的问题，能揭示同一果园内因土壤质地差异导致的湿度不均，从而减少过度灌溉，提升水资源利用效率。",
+    "featuredReason": "该技术将机器人、传感器与土壤电导率测绘结合，实现逐树精准灌溉，对智慧畜牧中水资源管理、精准饲喂和环境控制具有直接借鉴意义，尤其适用于干旱地区牧场和饲料作物种植的节水实践。",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/uc-riverside-develops-modern-day-robotic-divining-rod/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-15T18:17:17.000Z"
+  },
+  {
+    "id": "cmr0cjwi8000b113wtxjp2udl",
+    "titleEn": "Syngenta Signs MoU to Be Strategic Partner in India’s First Open-Data Agricultural Ecosystem Annam.AI",
+    "titleZh": "先正达签约成为印度首个开放数据农业生态系统Annam.AI战略合作伙伴",
+    "summaryZh": "先正达与印度政府签署谅解备忘录，成为Annam.AI项目的战略合作伙伴。该项目由印度教育部、农业与农民福利部支持，联合谷歌等科技伙伴，由IIT主导，旨在构建基于开放数据的全国农业智能基础设施。通过整合作物智能、实时微气候数据和多语言交互工具，为农民提供超本地化、AI驱动的农事建议，应对气候变化、病虫害等挑战，提升小农户的生产效率和气候韧性。",
+    "featuredReason": "该新闻展示了开放数据与AI在农业规模化应用的前沿模式，对智慧畜牧行业构建类似数据共享与智能决策平台具有重要参考价值。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/syngenta-signs-mou-to-be-strategic-partner-in-indias-first-open-data-agricultural-ecosystem-annam-ai/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 82,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-15T17:51:42.000Z"
+  },
+  {
+    "id": "cmr0cjx6z0017113wzw01xdn6",
+    "titleEn": "If food security is strategic, why does agricultural innovation still struggle to scale?",
+    "titleZh": "粮食安全战略下，农业创新为何仍难规模化？",
+    "summaryZh": "本文指出，尽管农业长期受益于从国防、汽车、硅谷等外部领域引入的GPS、传感器、AI等技术，但农业自身的创新仍难以实现规模化推广。文章从战略高度反思了技术转移与行业适配之间的鸿沟，揭示了智慧畜牧等细分领域在应用成熟技术时面临的体制、资金和生态瓶颈，为从业者提供了跳出技术本身、审视产业环境的视角。",
+    "featuredReason": "本文直击智慧畜牧行业的核心痛点——技术落地难、规模化慢，帮助从业者从战略层面理解创新瓶颈，避免盲目追逐技术热点。",
+    "url": "https://www.futurefarming.com/tech-in-focus/if-food-security-is-strategic-why-does-agricultural-innovation-still-struggle-to-scale/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "aggtech",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-15T09:00:00.000Z"
+  },
+  {
+    "id": "cmr0cjwia000d113wm4wfimaj",
+    "titleEn": "Inside One of America’s Largest Ag Co-Op’s Practical Approach to AI",
+    "titleZh": "美国最大农业合作社之一：AI落地的务实路径",
+    "summaryZh": "本文通过GROWMARK农艺总监Brendan Bachman的访谈，揭示了北美最大农业合作社系统之一在规模化应用AI时的真实挑战与策略。核心观点是：AI不应被视为颠覆性技术，而应作为现有工作流程中的实用层，帮助作物专家更快做出更明智的季节内决策。文章重点讨论了数据基础设施建设、联邦制组织内部的协调、系统对齐、农民信任建立以及工具如MyFS Agronomy如何重塑而非取代农艺师角色等关键议题，为农业科技落地提供了宝贵的实操参考。",
+    "featuredReason": "虽然聚焦种植业，但其中关于AI在大型农业组织中落地的数据治理、信任建立、系统整合等经验，对智慧畜牧行业同样具有高度借鉴意义，尤其是规模化养殖场引入AI时的组织与流程挑战。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/inside-one-of-americas-largest-ag-co-ops-practical-approach-to-ai/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "aggtech",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-12T16:46:56.000Z"
+  },
+  {
+    "id": "cmr0cjwic000f113wo63r5xy0",
+    "titleEn": "Tech Hub LIVE Returns to Des Moines July 20-22 with Practical Answers for a High-Pressure Ag Economy",
+    "titleZh": "Tech Hub LIVE 2026：高压农业经济下的技术落地实战指南",
+    "summaryZh": "2026年7月20-22日，Tech Hub LIVE大会将在爱荷华州得梅因举行，聚焦农业零售渠道的技术采纳。面对投入成本高企、利润压缩和贸易不确定性，大会提供60多位演讲者、50多家展商，涵盖AI在农业中的实际应用、无人机政策、网络安全、生物技术创新等议题。大会强调“不再盲目试验技术”，而是通过从业者主导的会议、现场研究结果和同行交流，帮助参会者识别真正能带来投资回报的技术并制定行动计划。特别值得关注的是Land O'Lakes CTO关于AI的开幕演讲、AWS关于韧性农业的分享以及普渡大学精准农业调查结果。",
+    "featuredReason": "尽管主要面向种植业，但大会关于AI落地、数据工作流、技术采纳决策和成本效益分析的内容对智慧畜牧行业同样具有高度借鉴价值，尤其是在当前经济压力下如何选择真正有效的技术方案。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/tech-hub-live-returns-to-des-moines-july-20-22-with-practical-answers-for-a-high-pressure-ag-economy/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-12T15:38:48.000Z"
+  },
+  {
+    "id": "cmr0cjx74001d113w4md8rhuv",
+    "titleEn": "Robot Raggy taking on one of farming’s most persistent weed problems",
+    "titleZh": "英国自主机器人Raggy即将下田，专攻牧场顽固杂草问题",
+    "summaryZh": "英国机器人公司Robotriks开发的电动自主机器人Raggy，已完成研发并抵达多塞特创新园进行最终测试，计划今夏在多塞特郡的农场和土地上进行田间试验。该机器人专用于识别并清除牧场中的致命杂草——千里光（ragwort），这种杂草对牲畜（尤其是马和牛）具有剧毒，传统上依赖人工拔除或化学除草，效率低且成本高。Raggy的推出为智慧种植与牧场管理提供了自动化、精准化的杂草防控新方案，有望显著降低人力投入和化学药剂使用，提升牧场生态与经济效益。",
+    "featuredReason": "该新闻展示了农业机器人从实验室走向实际牧场的关键一步，直接回应了牧场管理中杂草防控的痛点，对关注智慧畜牧与精准农业的从业者具有前瞻性参考价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/field-robots/robot-raggy-taking-on-one-of-farmings-most-persistent-weed-problems/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "aggtech",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 79,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-10T07:00:00.000Z"
+  },
+  {
+    "id": "cmr0cjx7g001r113wlwglo4zi",
+    "titleEn": "Yamaha Agriculture adds herbicide spraying to Prospr robot",
+    "titleZh": "雅马哈农业为Prospr机器人新增除草剂喷洒功能",
+    "summaryZh": "雅马哈农业公司为其Prospr自主混合动力车辆平台推出了除草剂喷洒附件，使该机器人能够在果园和葡萄园中实现自动化杂草控制。这一扩展增强了Prospr的多功能性，从原有的运输、监测等功能延伸至精准植保作业。虽然该技术主要面向种植业，但其自主导航、混合动力及模块化设计思路对智慧畜牧中的牧场管理、饲喂机器人等场景具有借鉴意义。",
+    "featuredReason": "该新闻展示了农业机器人从单一功能向多功能平台演进的趋势，其模块化设计思路和自主作业能力对智慧畜牧中机器人系统的集成与升级具有重要参考价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/yamaha-agriculture-adds-herbicide-spraying-to-prospr-robot/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 68,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-03T07:00:00.000Z"
+  },
+  {
+    "id": "cmr0cjwie000h113wortjmzbj",
+    "titleEn": "5 Technologies That Are Making Farms Smarter – Worldwide",
+    "titleZh": "全球五大技术推动农业智能化转型",
+    "summaryZh": "本文介绍了人工智能、物联网、无人机、机器人等五大技术如何应对劳动力短缺、气候异常等农业挑战，推动全球农业向数据驱动、自动化和可持续方向发展。文章强调到2025年这些技术将从可选实验变为现代农业的核心工具，并重点阐述了AI在作物病害检测、虫害预测、产量估算和精准喷洒等方面的应用，为农民提供类似“植物健康预测”的新能力。",
+    "featuredReason": "本文系统梳理了全球智慧农业的关键技术趋势，虽然侧重种植业，但其AI和物联网应用模式对智慧畜牧行业的技术选型与数字化转型具有重要参考价值。",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/drones-uavs/5-technologies-that-are-making-farms-smarter-worldwide/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 68,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-02T14:39:20.000Z"
+  },
+  {
+    "id": "cmr0cjwig000j113wemeq1diy",
+    "titleEn": "Inside India’s Agricultural Labor Gap: How AgTech Is Digitizing the Farm Workforce",
+    "titleZh": "印度农业劳动力缺口：AgTech如何数字化农场劳动力",
+    "summaryZh": "本文通过专访Bharat Intelligence CEO Azhaan Merchant，深入分析了印度农业劳动力市场的碎片化与非正式化问题。核心观点是：劳动力本身并非效率低下的根源，缺乏对劳动力技能、可用性、迁移模式等数据的可见性才是关键。文章提出通过数据、AI和劳动力智能技术，建立结构化的数字化劳动力基线，以优化供需匹配，重塑农业劳动力的组织、部署和价值评估方式。",
+    "featuredReason": "本文揭示了农业劳动力数字化管理的核心痛点与解决路径，虽聚焦印度种植业，但其劳动力数据化、AI匹配的思路对智慧畜牧行业的人力资源管理同样具有启发意义。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/inside-indias-agricultural-labor-gap-how-agtech-is-digitizing-the-farm-workforce/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 66,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-02T14:01:58.000Z"
+  },
+  {
+    "id": "cmr0cjx7h001t113wp5d25oql",
+    "titleEn": "Elbit Systems acquires Bluewhite: a new chapter for autonomous farming",
+    "titleZh": "埃尔比特系统收购Bluewhite：自主农业进入新篇章",
+    "summaryZh": "以色列国防与科技巨头埃尔比特系统通过其子公司FUSE完成了对农业自动驾驶技术公司Bluewhite（原名Blue White Robotics）的收购。Bluewhite成立于2017年，总部位于特拉维夫，专注于为农业提供自主车辆技术，被视为该领域最具潜力的企业之一。此次收购将国防级自主系统能力引入农业场景，可能加速精准作业、无人化农机在种植业中的落地，对智慧畜牧中涉及的饲喂、巡检等自动化环节也有间接启示。",
+    "featuredReason": "国防技术巨头跨界收购农业机器人公司，展示了自主系统从军事向农业的溢出效应，为智慧畜牧行业探索高可靠性自动化方案提供了新思路。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/elbit-systems-acquires-bluewhite-a-new-chapter-for-autonomous-farming/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "aggtech",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 79,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-02T13:30:00.000Z"
+  },
+  {
+    "id": "cmr0cjx7j001v113wuvtu5o8p",
+    "titleEn": "Photos | Robots, drones and packed fields at Dutch Arable Farming Day",
+    "titleZh": "荷兰大田农业日：机器人与无人机田间演示吸引千人参观",
+    "summaryZh": "5月28日，荷兰莱利斯塔德举办的大田农业日圆满落幕，超过1000名观众到场。活动展示了机器人和无人机在田间作业中的实际应用，包括现场演示、田间参观和展商交流。尽管该活动聚焦大田种植，但其中涉及的自动化、机器人及无人机技术对智慧畜牧行业的精准投喂、环境监测和巡检等场景具有直接借鉴意义。",
+    "featuredReason": "该新闻展示了荷兰在农业自动化领域的领先实践，机器人与无人机在开放田间的应用思路可迁移至牧场巡检、草场管理及环境数据采集，为智慧畜牧从业者提供跨领域技术参考。",
+    "url": "https://www.futurefarming.com/uncategorized/photos-robots-drones-and-packed-fields-at-dutch-arable-farming-day/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "aggtech",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 69,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-01T10:12:38.000Z"
   }
 ]

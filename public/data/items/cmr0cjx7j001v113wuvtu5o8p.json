@@ -1,0 +1,27 @@
+{
+  "id": "cmr0cjx7j001v113wuvtu5o8p",
+  "titleEn": "Photos | Robots, drones and packed fields at Dutch Arable Farming Day",
+  "titleZh": "荷兰大田农业日：机器人与无人机田间演示吸引千人参观",
+  "summaryZh": "5月28日，荷兰莱利斯塔德举办的大田农业日圆满落幕，超过1000名观众到场。活动展示了机器人和无人机在田间作业中的实际应用，包括现场演示、田间参观和展商交流。尽管该活动聚焦大田种植，但其中涉及的自动化、机器人及无人机技术对智慧畜牧行业的精准投喂、环境监测和巡检等场景具有直接借鉴意义。",
+  "featuredReason": "该新闻展示了荷兰在农业自动化领域的领先实践，机器人与无人机在开放田间的应用思路可迁移至牧场巡检、草场管理及环境数据采集，为智慧畜牧从业者提供跨领域技术参考。",
+  "url": "https://www.futurefarming.com/uncategorized/photos-robots-drones-and-packed-fields-at-dutch-arable-farming-day/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1"
+  },
+  "sourceId": "futurefarming",
+  "species": "aggtech",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 69,
+  "isFeatured": true,
+  "isHot": true,
+  "publishedAt": "2026-06-01T10:12:38.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "The organisers of Arable Farming Day, held on 28 May in the Dutch town of Lelystad, Flevoland, look back very positively on the event. More than 1,000 visitors attended a wide range of demonstrations, field tours, presentations and exhibitor stands. On a sunny day, visitors watched a variety of field demonstrations with great interest. They […]",
+  "scrapeMethod": "scrape_failed"
+}

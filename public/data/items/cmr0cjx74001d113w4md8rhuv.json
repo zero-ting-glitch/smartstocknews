@@ -1,0 +1,27 @@
+{
+  "id": "cmr0cjx74001d113w4md8rhuv",
+  "titleEn": "Robot Raggy taking on one of farming’s most persistent weed problems",
+  "titleZh": "英国自主机器人Raggy即将下田，专攻牧场顽固杂草问题",
+  "summaryZh": "英国机器人公司Robotriks开发的电动自主机器人Raggy，已完成研发并抵达多塞特创新园进行最终测试，计划今夏在多塞特郡的农场和土地上进行田间试验。该机器人专用于识别并清除牧场中的致命杂草——千里光（ragwort），这种杂草对牲畜（尤其是马和牛）具有剧毒，传统上依赖人工拔除或化学除草，效率低且成本高。Raggy的推出为智慧种植与牧场管理提供了自动化、精准化的杂草防控新方案，有望显著降低人力投入和化学药剂使用，提升牧场生态与经济效益。",
+  "featuredReason": "该新闻展示了农业机器人从实验室走向实际牧场的关键一步，直接回应了牧场管理中杂草防控的痛点，对关注智慧畜牧与精准农业的从业者具有前瞻性参考价值。",
+  "url": "https://www.futurefarming.com/tech-in-focus/field-robots/robot-raggy-taking-on-one-of-farmings-most-persistent-weed-problems/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1"
+  },
+  "sourceId": "futurefarming",
+  "species": "aggtech",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 79,
+  "isFeatured": true,
+  "isHot": true,
+  "publishedAt": "2026-06-10T07:00:00.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "A small autonomous robot is preparing to head out into the fields of Dorset this summer – and farmers dealing with ragwort infestations are watching closely. Raggy, an electrically powered farm robot developed by UK robotics firm Robotriks, has arrived at Dorset Innovation Park near Wareham for its final round of testing before commencing field trials across farms and land in the county. For farmers and landowners, the arrival could hardly come soon enough.",
+  "scrapeMethod": "scrape_failed"
+}

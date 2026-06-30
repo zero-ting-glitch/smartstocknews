@@ -1,0 +1,27 @@
+{
+  "id": "cmr0cjx7g001r113wlwglo4zi",
+  "titleEn": "Yamaha Agriculture adds herbicide spraying to Prospr robot",
+  "titleZh": "雅马哈农业为Prospr机器人新增除草剂喷洒功能",
+  "summaryZh": "雅马哈农业公司为其Prospr自主混合动力车辆平台推出了除草剂喷洒附件，使该机器人能够在果园和葡萄园中实现自动化杂草控制。这一扩展增强了Prospr的多功能性，从原有的运输、监测等功能延伸至精准植保作业。虽然该技术主要面向种植业，但其自主导航、混合动力及模块化设计思路对智慧畜牧中的牧场管理、饲喂机器人等场景具有借鉴意义。",
+  "featuredReason": "该新闻展示了农业机器人从单一功能向多功能平台演进的趋势，其模块化设计思路和自主作业能力对智慧畜牧中机器人系统的集成与升级具有重要参考价值。",
+  "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/yamaha-agriculture-adds-herbicide-spraying-to-prospr-robot/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1"
+  },
+  "sourceId": "futurefarming",
+  "species": "fruit",
+  "category": "crop",
+  "subcategory": "fruit",
+  "techTags": "",
+  "qualityScore": 68,
+  "isFeatured": true,
+  "isHot": true,
+  "publishedAt": "2026-06-03T07:00:00.000Z",
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "Yamaha Agriculture has introduced a herbicide spraying attachment for its Prospr autonomous hybrid vehicle platform, broadening the machine’s capabilities to include automated weed control in orchards and vineyards.",
+  "scrapeMethod": "scrape_failed"
+}
