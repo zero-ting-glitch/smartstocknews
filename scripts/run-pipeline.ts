@@ -60,6 +60,53 @@ function relevanceFilter(items: any[], source: any): any[] {
   });
 }
 
+// ========== 智慧畜牧预筛（AI 处理前快速过滤） ==========
+const SMART_AG_KEYWORDS = [
+  // 核心技术词
+  'iot', 'ai ', 'ai-', 'artificial intelligence', 'machine learning', 'deep learning',
+  'automation', 'automated', 'robot', 'robotic', 'drone', 'uav',
+  'sensor', 'wearable', 'telemetric', 'gps', 'remote sensing',
+  'computer vision', 'image recognition', 'nlp',
+  // 智慧畜牧特有
+  'precision livestock', 'precision farming', 'precision agriculture', 'smart farm',
+  'smart barn', 'smart greenhouse', 'digital agriculture', 'digital farming',
+  'animal monitoring', 'livestock monitoring', 'herd management',
+  'automated feeding', 'automated milking', 'robotic milking',
+  'environment control', 'climate control', 'ventilation control',
+  'feed optimization', 'health monitoring', 'disease detection',
+  'behavior analysis', 'weight estimation', 'body condition',
+  'traceability', 'blockchain', 'data analytics', 'predictive',
+  'controlled environment', 'vertical farm', 'hydroponic', 'fertigation',
+  'variable rate', 'yield mapping', 'soil sensor', 'crop monitoring',
+  'satellite imagery', 'ndvi', 'spectral',
+];
+
+function smartAgScore(text: string): number {
+  const lower = text.toLowerCase();
+  let hits = 0;
+  for (const kw of SMART_AG_KEYWORDS) {
+    if (lower.includes(kw)) hits++;
+  }
+  return hits;
+}
+
+const SMART_AG_THRESHOLD = 2; // 至少命中 2 个智慧畜牧关键词
+
+function preFilterItems(items: any[]): { accepted: any[]; rejected: any[] } {
+  const accepted: any[] = [];
+  const rejected: any[] = [];
+  for (const item of items) {
+    const text = `${item.titleEn || ''} ${item.contentFull || ''} ${item.contentHtml || ''}`;
+    const score = smartAgScore(text);
+    if (score >= SMART_AG_THRESHOLD) {
+      accepted.push(item);
+    } else {
+      rejected.push(item);
+    }
+  }
+  return { accepted, rejected };
+}
+
 // ========== 全文爬取 ==========
 async function scrapeArticlesBatch(items: any[]): Promise<void> {
   // 只爬取未爬过的
@@ -330,8 +377,26 @@ async function main() {
     include: { source: true },
   });
   console.log(`  待处理: ${pending.length} 条`);
+
+  // 预筛：跳过明显与智慧畜牧无关的 item
+  const { accepted, rejected } = preFilterItems(pending);
+  if (rejected.length > 0) {
+    console.log(`  预筛跳过 ${rejected.length} 条（智慧畜牧关键词不足 ${SMART_AG_THRESHOLD} 个）`);
+    // 标记被跳过的 item，避免下次管线重复尝试
+    for (const item of rejected) {
+      await prisma.item.update({
+        where: { id: item.id },
+        data: {
+          isRelevant: false,
+          techTags: 'pre_filter_rejected',
+        },
+      });
+    }
+  }
+  console.log(`  预筛通过: ${accepted.length} 条\n`);
+
   let processed = 0;
-  for (const item of pending) {
+  for (const item of accepted) {
     try {
       const contentForAI = item.contentFull || item.contentHtml || '';
       const result = await analyzeItem(item.titleEn, contentForAI);

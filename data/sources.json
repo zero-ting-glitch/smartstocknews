@@ -26,7 +26,7 @@
       "type": "livestock",
       "defaultCategory": "livestock",
       "defaultSubcategory": "cattle",
-      "coreKeywords": "cattle|beef|feedlot|ranch|cow|heifer|steer|bull|calving|weaning|nutrition|health|disease|parasite|reproduction|genetics|breeding|precision|sensor|IoT|automation|robot|drone|AI|digital|monitoring|data|technology",
+      "coreKeywords": "cattle|beef|dairy|cow|feedlot|ranch|precision|sensor|IoT|automation|robot|drone|AI|digital|monitoring|data|technology|wearable|smart|camera|vision|algorithm|software|platform|app|GPS|tracking",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
@@ -39,7 +39,7 @@
       "type": "livestock",
       "defaultCategory": "livestock",
       "defaultSubcategory": "pig",
-      "coreKeywords": "pig|hog|swine|pork|sow|boar|piglet|farrowing|weaning|nursery|finisher|feed|mortality|health|disease|reproduction|genetics|breeding|precision|sensor|IoT|automation|robot|drone|AI|digital|monitoring|data|technology",
+      "coreKeywords": "pig|hog|swine|pork|precision|sensor|IoT|automation|robot|drone|AI|digital|monitoring|data|technology|wearable|smart|camera|vision|algorithm|software|platform|app|GPS|tracking",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
@@ -52,7 +52,7 @@
       "type": "livestock",
       "defaultCategory": "livestock",
       "defaultSubcategory": "pig",
-      "coreKeywords": "pig|hog|swine|pork|sow|boar|piglet|farrowing|weaning|nursery|finisher|feed|mortality|health|disease|reproduction|genetics|breeding|precision|sensor|IoT|automation|robot|drone|AI|digital|monitoring|data|technology|welfare|production",
+      "coreKeywords": "pig|hog|swine|pork|precision|sensor|IoT|automation|robot|drone|AI|digital|monitoring|data|technology|wearable|smart|camera|vision|algorithm|software|platform|app|GPS|tracking",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
@@ -65,7 +65,7 @@
       "type": "livestock",
       "defaultCategory": "livestock",
       "defaultSubcategory": "poultry",
-      "coreKeywords": "poultry|chicken|broiler|layer|egg|turkey|avian|feed|nutrition|health|disease|housing|ventilation|lighting|automation|IoT|sensor|monitoring|technology|precision| welfare|biosecurity|processing|slaughter",
+      "coreKeywords": "poultry|chicken|broiler|layer|egg|turkey|automation|IoT|sensor|monitoring|technology|precision|smart|camera|vision|robot|drone|AI|digital|data|wearable|algorithm|software|platform|ventilation|lighting",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
@@ -78,7 +78,7 @@
       "type": "livestock",
       "defaultCategory": "livestock",
       "defaultSubcategory": "poultry",
-      "coreKeywords": "meat|poultry|chicken|beef|pork|processing|slaughter|food safety|HACCP|automation|robot|sensor|IoT|traceability|packaging|cold chain|sanitation|inspection|technology|innovation",
+      "coreKeywords": "meat|poultry|chicken|beef|pork|automation|robot|sensor|IoT|traceability|technology|innovation|smart|AI|digital|data|monitoring|camera|vision|inspection|blockchain",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
@@ -91,7 +91,7 @@
       "type": "aggtech",
       "defaultCategory": "aggtech",
       "defaultSubcategory": "general",
-      "coreKeywords": "feed|nutrition|animal|livestock|poultry|swine|cattle|ingredient|additive|formulation|mill|production|quality|safety|precision|sensor|IoT|automation|technology|digital|monitoring|data",
+      "coreKeywords": "feed|nutrition|precision|sensor|IoT|automation|technology|digital|monitoring|data|smart|AI|robot|drone|algorithm|software|platform|formulation|optimization",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
@@ -104,7 +104,7 @@
       "type": "aggtech",
       "defaultCategory": "aggtech",
       "defaultSubcategory": "general",
-      "coreKeywords": "farm|agriculture|livestock|crop|precision|GPS|drone|sensor|IoT|automation|robot|AI|digital|monitoring|equipment|technology|irrigation|harvest|planting|soil|yield",
+      "coreKeywords": "precision|GPS|drone|sensor|IoT|automation|robot|AI|digital|monitoring|technology|smart|camera|vision|algorithm|software|platform|autonomous|telemetric|data analytics",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
