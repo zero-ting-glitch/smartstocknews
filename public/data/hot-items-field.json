@@ -1,10 +1,10 @@
 [
   {
-    "id": "cmr1fhpsu003lttbrjl6g5hxr",
+    "id": "cmr1jchhi003lr8n2f7gxnhou",
     "titleEn": "Tech alone won’t future-proof the food system, experts warn",
-    "titleZh": "专家警告：仅靠技术无法保障食品系统未来",
-    "summaryZh": "在阿姆斯特丹举行的Hello Tomorrow峰会上，专家们指出，尽管气候危机和地缘政治风险加剧，政府和企业拥有比以往更多的工具来发现食品系统脆弱性，但仅靠技术修补现有系统是不够的。Giga Futures创始人Christine Gould强调，恢复力可能只是让系统回到“根本上不奏效”的现状。麦肯锡全球研究所的Marc Canal呼吁继续推动技术发展和私营部门创新，而欧洲航天局的Giuseppe Borghi则指出，政治协调才是缺失的关键环节。文章核心价值在于提醒智慧畜牧行业：技术部署需与政策改革协同，才能实现系统性的可持续转型。",
-    "featuredReason": "本文为智慧畜牧行业提供了关键警示：技术（如IoT、AI、传感器）虽是工具，但若缺乏政策协同和系统性改革，仅用于修补现有体系，无法真正实现可持续的未来。值得从业者反思技术落地的战略定位。",
+    "titleZh": "专家警告：仅靠技术无法保障食品系统的未来",
+    "summaryZh": "本文报道了在阿姆斯特丹“你好明天”峰会上，多位专家就食品系统韧性展开的讨论。专家指出，尽管卫星监测、精准农业等技术工具日益强大，但若仅用于修补现有系统的漏洞，而不进行根本性的政策与结构改革，则无法应对气候与地缘政治风险。文章强调政治协调与系统性变革的重要性，对智慧畜牧行业具有宏观战略参考价值。",
+    "featuredReason": "本文虽非直接聚焦智慧畜牧，但其对技术局限性与系统性变革的深刻洞察，为畜牧行业从业者提供了重要的战略视角：在引入IoT、AI等新技术时，必须同步推动政策与商业模式创新，才能真正实现行业韧性。",
     "url": "https://agfundernews.com/tech-alone-wont-future-proof-the-food-system-experts-warn",
     "source": {
       "name": "AgFunderNews",
@@ -16,17 +16,17 @@
     "category": "crop",
     "subcategory": "field",
     "techTags": "",
-    "qualityScore": 81,
+    "qualityScore": 77,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-07-01T02:00:20.173Z"
+    "publishedAt": "2026-06-18T13:27:08.000Z"
   },
   {
-    "id": "cmr1fhptc003zttbrdljzyfi1",
+    "id": "cmr1jchi1003zr8n2e50alvcg",
     "titleEn": "Picketa Systems raises $1.5m to bring crop nutrient testing to the field",
-    "titleZh": "Picketa Systems获150万美元融资，将作物营养检测带入田间",
-    "summaryZh": "加拿大初创公司Picketa Systems完成150万美元融资，用于推广其基于AI光谱技术的便携式作物营养传感系统LENS。该系统可在几分钟内检测13种关键营养素，结合Fieldbook平台帮助农民将肥料成本降低20%并提高产量。CEO预测十年内通过作物传感、专用投入和自动驾驶车辆，将完全实现肥料循环闭环。",
-    "featuredReason": "该技术将AI光谱传感与精准农业结合，显著降低肥料成本并提升产量，其便携、实时、多营养检测能力对智慧畜牧中的饲草料营养管理具有直接借鉴价值。",
+    "titleZh": "Picketa Systems融资150万美元，将作物养分检测带到田间",
+    "summaryZh": "加拿大初创公司Picketa Systems完成150万美元融资，用于推广其便携式作物养分传感技术LENS。该技术利用AI光谱分析，可在几分钟内检测13种关键养分，帮助农民减少化肥成本最高20%并提高产量。CEO预测十年内将实现化肥循环完全闭环。文章还对比了传统叶片采样与新型传感方案，并介绍了其Fieldbook数据平台。",
+    "featuredReason": "该技术展示了AI与传感器在精准农业中的前沿应用，其便携、快速、低成本的特点对智慧畜牧行业中的饲草料养分管理具有直接借鉴意义，有助于提升养殖业投入品效率。",
     "url": "https://agfundernews.com/picketa-raises-1-5m-to-bring-crop-nutrient-testing-to-the-field",
     "source": {
       "name": "AgFunderNews",
@@ -41,14 +41,14 @@
     "qualityScore": 85,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-07-01T02:00:20.173Z"
+    "publishedAt": "2026-06-15T12:00:00.000Z"
   },
   {
-    "id": "cmr1fhpte0041ttbracn7ktjy",
+    "id": "cmr1jchi30041r8n2wh6uhrkk",
     "titleEn": "Fertilizer… without Haber Bosch: Can AI-optimized plasma make green ammonia cost-competitive?",
-    "titleZh": "无需哈伯-博世法：AI优化等离子体能否让绿色氨肥成本具有竞争力？",
-    "summaryZh": "本文介绍了初创公司Faraday Earth利用非热等离子体技术生产绿色氨，结合AI优化反应效率，目标将成本降至约500美元/吨，接近传统化石燃料氨的水平。其模块化、分布式系统可降低运输成本，有望颠覆化肥供应链。对智慧畜牧行业而言，绿色氨肥的本地化生产可减少碳足迹、降低饲料作物种植成本，但技术尚处早期，实践参考价值有限。",
-    "featuredReason": "该技术若成功，将大幅降低氮肥生产成本和碳排放，直接影响畜牧饲料作物的种植成本，为智慧畜牧行业提供更可持续的肥料来源，值得关注其进展。",
+    "titleZh": "AI优化等离子体技术能否让绿色氨肥成本与化石氨竞争？",
+    "summaryZh": "本文介绍了初创公司Faraday Earth利用非热等离子体技术生产绿色氨，并通过AI优化反应效率，目标将成本降至每吨500美元左右，接近传统哈伯-博世法生产的灰色氨。该技术采用模块化、分布式系统，可降低运输成本，对依赖氮肥的智慧畜牧行业（如饲料作物种植）具有潜在颠覆性影响。",
+    "featuredReason": "该技术若实现成本目标，将大幅降低氮肥生产对化石燃料的依赖和运输成本，直接影响畜牧饲料作物的种植成本与可持续性，是智慧畜牧产业链上游的重要创新。",
     "url": "https://agfundernews.com/fertilizer-without-haber-bosch-can-ai-optimized-plasma-make-green-ammonia-cost-competitive",
     "source": {
       "name": "AgFunderNews",
@@ -60,17 +60,17 @@
     "category": "crop",
     "subcategory": "field",
     "techTags": "",
-    "qualityScore": 79,
+    "qualityScore": 85,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-07-01T02:00:20.173Z"
+    "publishedAt": "2026-06-15T11:00:31.000Z"
   },
   {
-    "id": "cmr1fhorf000dttbrhvaa6djp",
+    "id": "cmr1jcg0i000dr8n27r1ba0m9",
     "titleEn": "Syngenta Signs MoU to Be Strategic Partner in India’s First Open-Data Agricultural Ecosystem Annam.AI",
     "titleZh": "先正达签署谅解备忘录，成为印度首个开放数据农业生态系统Annam.AI的战略合作伙伴",
-    "summaryZh": "先正达宣布签署谅解备忘录，成为印度首个开放数据农业生态系统Annam.AI的战略合作伙伴。Annam.AI由印度政府支持，联合谷歌等科技伙伴及IIT Ropar推动，旨在通过开放数据为农民提供免费、实时、个性化的农业智能服务，包括作物健康、病虫害预测和热应激模型。先正达将贡献其研发和农艺专长，助力精准农业和气候韧性建设。该计划覆盖印度1.5亿农户，其中80%以上为小农户，有望缩小技术鸿沟，提升农业生产效率。",
-    "featuredReason": "该新闻展示了开放数据与AI在农业中的大规模应用，为智慧畜牧行业提供了跨领域借鉴，尤其是气候韧性建模和精准决策支持系统的构建思路。",
+    "summaryZh": "先正达与印度政府支持的Annam.AI项目签署谅解备忘录，成为其战略合作伙伴。Annam.AI旨在构建基于开放数据的全国性农业智能基础设施，为小农户提供免费、实时、AI驱动的个性化农事建议，整合作物智能、微气候数据和多语言工具。先正达将利用其研发和农艺专长，参与构建精准的作物健康、病虫害预测和热胁迫模型。该项目有望通过开放数据与AI技术，提升印度农业的气候韧性和生产效率。",
+    "featuredReason": "该新闻展示了开放数据与AI在农业中的大规模应用模式，对智慧畜牧行业在数据共享、精准管理和气候适应性方面具有重要借鉴意义。",
     "url": "https://www.globalagtechinitiative.com/digital-farming/syngenta-signs-mou-to-be-strategic-partner-in-indias-first-open-data-agricultural-ecosystem-annam-ai/",
     "source": {
       "name": "PrecisionAg",
@@ -82,31 +82,9 @@
     "category": "crop",
     "subcategory": "field",
     "techTags": "",
-    "qualityScore": 80,
+    "qualityScore": 89,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-15T17:51:42.000Z"
-  },
-  {
-    "id": "cmr1fhorj000httbrk93gycc8",
-    "titleEn": "Tech Hub LIVE Returns to Des Moines July 20-22 with Practical Answers for a High-Pressure Ag Economy",
-    "titleZh": "Tech Hub LIVE 2026重返得梅因：为高压农业经济提供实用技术答案",
-    "summaryZh": "CropLife旗下Meister Media Worldwide宣布，农业零售渠道技术采纳领先会议Tech Hub LIVE将于2026年7月20-22日在爱荷华州得梅因举行。会议聚焦投入成本高企、利润压缩、贸易不确定性下的农业技术投资回报，设置智能技术、运营、销售赋能、田间实践等分论坛，邀请Land O'Lakes、AWS等企业高管及60多位演讲者，涵盖AI、无人机政策、网络安全、生物技术等议题，旨在帮助零售商和种植者做出明智技术决策。",
-    "featuredReason": "该会议聚焦农业技术投资回报与实用决策，涵盖AI、传感器、精准农业等智慧畜牧相关技术，为行业人士提供了直接可借鉴的实践案例和同行交流机会。",
-    "url": "https://www.globalagtechinitiative.com/digital-farming/tech-hub-live-returns-to-des-moines-july-20-22-with-practical-answers-for-a-high-pressure-ag-economy/",
-    "source": {
-      "name": "PrecisionAg",
-      "nameZh": "精准农业",
-      "tier": "T1"
-    },
-    "sourceId": "precisionag",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 79,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-12T15:38:48.000Z"
+    "publishedAt": "2026-05-19T00:00:00.000Z"
   }
 ]

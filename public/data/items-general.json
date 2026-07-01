@@ -22,28 +22,6 @@
     "publishedAt": "2026-06-29T07:00:00.000Z"
   },
   {
-    "id": "cmr1jcgu5002br8n2g3uiydfn",
-    "titleEn": "Presenting Greenhouse Grower’s 2026 Technology of the Year Finalists",
-    "titleZh": "2026年温室种植技术年度决赛入围者揭晓",
-    "summaryZh": "本文介绍了2026年温室种植技术年度奖的三项决赛技术：Air Tray Technologies通过空气修剪根系改善根质量和生产效率；PARPerfect Shading System实现动态精准光照控制；Pot-in-Tray Machine自动化装盆提高效率。这些技术虽聚焦温室种植，但其自动化、传感器和精准控制理念对智慧畜牧行业具有借鉴价值。",
-    "featuredReason": "虽然聚焦温室种植，但其中空气修剪根系、动态光照控制、自动化装盆等技术理念，与智慧畜牧中精准环境控制、自动化作业、传感器监测等方向高度相通，值得畜牧从业者跨界借鉴。",
-    "url": "https://www.greenhousegrower.com/technology/presenting-greenhouse-growers-2026-technology-of-the-year-finalists/",
-    "source": {
-      "name": "Greenhouse Grower",
-      "nameZh": "温室种植者",
-      "tier": "T1.5"
-    },
-    "sourceId": "greenhousegrower",
-    "species": "horticulture",
-    "category": "crop",
-    "subcategory": "horticulture",
-    "techTags": "",
-    "qualityScore": 54,
-    "isFeatured": false,
-    "isHot": false,
-    "publishedAt": "2026-06-26T00:00:00.000Z"
-  },
-  {
     "id": "cmr1jcgnk000nr8n20hyoxk7p",
     "titleEn": "Agreenculture acquires Chouette to add agronomic intelligence to autonomous machines",
     "titleZh": "法国农业自动化公司Agreenculture收购Chouette，为自主机器增添农艺智能",
@@ -64,28 +42,6 @@
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-25T06:30:00.000Z"
-  },
-  {
-    "id": "cmr1jcgnm000pr8n2qrjkh67p",
-    "titleEn": "Fieldwork Robotics secures new funding to accelerate raspberry harvesting robot",
-    "titleZh": "Fieldwork Robotics获新融资，加速树莓采摘机器人商业化",
-    "summaryZh": "英国Fieldwork Robotics公司获得由企业家Jim Mellon担任主席的SEED Innovations投资，以加速其自主树莓采摘机器人的商业部署。该机器人利用AI和视觉技术实现精准采摘，旨在解决农业劳动力短缺问题。虽然直接针对水果种植，但其自动化、机器人技术对智慧畜牧行业在精准作业、劳动力替代方面具有参考价值。",
-    "featuredReason": "该新闻展示了农业机器人领域的最新融资动态，其AI视觉与自主采摘技术对智慧畜牧行业在精准作业、劳动力替代方面具有重要借鉴意义。",
-    "url": "https://www.futurefarming.com/smart-farming/fieldwork-robotics-secures-new-funding-to-accelerate-raspberry-harvesting-robot/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1"
-    },
-    "sourceId": "futurefarming",
-    "species": "fruit",
-    "category": "crop",
-    "subcategory": "fruit",
-    "techTags": "",
-    "qualityScore": 74,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-25T06:00:00.000Z"
   },
   {
     "id": "cmr1jcg0e0009r8n2pwbeteyc",
@@ -132,94 +88,6 @@
     "publishedAt": "2026-06-24T13:19:17.000Z"
   },
   {
-    "id": "cmr1jchha003fr8n2qomsyknu",
-    "titleEn": "AgriFood Signals: Anthropic joins carbon removal coalition, Elanco launches venture arm, AeroFarms acquired",
-    "titleZh": "农业食品信号：Anthropic加入碳去除联盟，Elanco推出风险投资部门，AeroFarms被收购",
-    "summaryZh": "本文汇总了2026年6月18日农业食品科技领域的重要融资、并购、合作及政策动态。亮点包括：Anthropic加入碳去除联盟、Elanco设立2500万美元动物健康风投基金、AeroFarms被收购并计划扩张、多项精准发酵和基因编辑技术获资、欧盟通过新基因组技术法规及植物基肉类标签禁令。对智慧畜牧行业，Elanco风投和土壤健康测量技术具有直接参考价值。",
-    "featuredReason": "本文涵盖动物健康风投、精准发酵蛋白、土壤健康测量等与智慧畜牧直接相关的技术进展，为畜牧行业从业者提供了创新方向和投资趋势的参考。",
-    "url": "https://agfundernews.com/agrifood-signals-anthropic-joins-carbon-removal-coalition-elanco-launches-venture-arm-aerofarms-acquired",
-    "source": {
-      "name": "AgFunderNews",
-      "nameZh": "农业科技投",
-      "tier": "T1"
-    },
-    "sourceId": "agfundernews",
-    "species": "cattle",
-    "category": "livestock",
-    "subcategory": "cattle",
-    "techTags": "",
-    "qualityScore": 76,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-18T20:28:57.000Z"
-  },
-  {
-    "id": "cmr1jchhi003lr8n2f7gxnhou",
-    "titleEn": "Tech alone won’t future-proof the food system, experts warn",
-    "titleZh": "专家警告：仅靠技术无法保障食品系统的未来",
-    "summaryZh": "本文报道了在阿姆斯特丹“你好明天”峰会上，多位专家就食品系统韧性展开的讨论。专家指出，尽管卫星监测、精准农业等技术工具日益强大，但若仅用于修补现有系统的漏洞，而不进行根本性的政策与结构改革，则无法应对气候与地缘政治风险。文章强调政治协调与系统性变革的重要性，对智慧畜牧行业具有宏观战略参考价值。",
-    "featuredReason": "本文虽非直接聚焦智慧畜牧，但其对技术局限性与系统性变革的深刻洞察，为畜牧行业从业者提供了重要的战略视角：在引入IoT、AI等新技术时，必须同步推动政策与商业模式创新，才能真正实现行业韧性。",
-    "url": "https://agfundernews.com/tech-alone-wont-future-proof-the-food-system-experts-warn",
-    "source": {
-      "name": "AgFunderNews",
-      "nameZh": "农业科技投",
-      "tier": "T1"
-    },
-    "sourceId": "agfundernews",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 77,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-18T13:27:08.000Z"
-  },
-  {
-    "id": "cmr1jcgny0011r8n281y232z4",
-    "titleEn": "Croplands expands WEED-IT range with new releases, including orchard solution",
-    "titleZh": "Croplands扩展WEED-IT精准喷洒系列，推出果园专用光学点喷方案",
-    "summaryZh": "澳大利亚Croplands Equipment公司发布了WEED-IT精准喷洒系列的新技术，包括Series 2 Robot Ready Pinto、大型宽幅平台、扩展的改装能力以及首款专为果园设计的光学点喷解决方案。这些技术通过传感器和自动化实现精准除草，减少化学药剂使用，对智慧农业中的精准植保具有参考价值，但主要针对种植业而非养殖业。",
-    "featuredReason": "该新闻展示了精准农业中光学传感与自动化喷洒的最新进展，虽聚焦种植业，但其传感器融合与机器人集成技术对智慧畜牧中的精准饲喂、环境监测等场景有跨领域借鉴意义。",
-    "url": "https://www.futurefarming.com/smart-farming/croplands-expands-weed-it-range-with-new-releases-including-orchard-solution/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1"
-    },
-    "sourceId": "futurefarming",
-    "species": "fruit",
-    "category": "crop",
-    "subcategory": "fruit",
-    "techTags": "",
-    "qualityScore": 75,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-18T07:00:00.000Z"
-  },
-  {
-    "id": "cmr1jcg0g000br8n2wpxnal9n",
-    "titleEn": "UC Riverside Develops Modern-Day Robotic Divining Rod",
-    "titleZh": "加州大学河滨分校开发现代版机器人探水杖：逐树绘制土壤湿度图",
-    "summaryZh": "加州大学河滨分校的研究团队开发了一套结合机器人移动测量土壤电导率与固定传感器数据的系统，能够逐棵树绘制果园土壤湿度分布图，帮助种植者在干旱缺水时代实现精准灌溉，避免过度浇水或缺水，从而提升水资源利用效率和作物健康。该技术发表在《计算机与电子农业》期刊上。",
-    "featuredReason": "该技术将机器人移动传感与固定传感器数据融合，实现了逐棵树的精准灌溉，对智慧种植业（尤其是果园管理）具有直接借鉴意义，也为智慧畜牧中牧场水资源管理提供了技术思路。",
-    "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/uc-riverside-develops-modern-day-robotic-divining-rod/",
-    "source": {
-      "name": "PrecisionAg",
-      "nameZh": "精准农业",
-      "tier": "T1"
-    },
-    "sourceId": "precisionag",
-    "species": "fruit",
-    "category": "crop",
-    "subcategory": "fruit",
-    "techTags": "",
-    "qualityScore": 85,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-18T00:00:00.000Z"
-  },
-  {
     "id": "cmr1jcg0m000hr8n2fbc7lz4p",
     "titleEn": "Tech Hub LIVE Returns to Des Moines July 20-22 with Practical Answers for a High-Pressure Ag Economy",
     "titleZh": "",
@@ -240,28 +108,6 @@
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-06-18T00:00:00.000Z"
-  },
-  {
-    "id": "cmr1jchho003pr8n24ms6oewc",
-    "titleEn": "The Protein Brewery wins EU approval for Fermotein mycoprotein six years after novel foods filing",
-    "titleZh": "The Protein Brewery的Fermotein真菌蛋白获欧盟批准，六年新食品申请终落地",
-    "summaryZh": "荷兰公司The Protein Brewery的Fermotein真菌蛋白（学名Rhizomucor pusillus菌丝体）获得欧盟新型食品法规批准，成为首个获准在欧盟销售的新型菌丝体成分。该产品已在新加坡获批、在美国获得自我GRAS认定，并正在英国、加拿大、澳大利亚/新西兰推进监管。公司计划2027年供应600吨，2029年产能超2000吨。CEO称非无菌发酵工艺显著降低资本和运营成本。GFI Europe呼吁欧盟加快监管流程。",
-    "featuredReason": "虽然该新闻主要涉及食品科技和监管，但其非无菌发酵工艺和菌丝体蛋白规模化生产路径，为智慧畜牧行业在替代蛋白原料（如饲料添加剂）的工业化生产提供了可借鉴的低成本生物制造思路。",
-    "url": "https://agfundernews.com/the-protein-brewery-wins-eu-approval-for-fermotein-mycoprotein-six-years-after-novel-foods-filing",
-    "source": {
-      "name": "AgFunderNews",
-      "nameZh": "农业科技投",
-      "tier": "T1"
-    },
-    "sourceId": "agfundernews",
-    "species": "cattle",
-    "category": "livestock",
-    "subcategory": "cattle",
-    "techTags": "",
-    "qualityScore": 59,
-    "isFeatured": true,
-    "isHot": false,
-    "publishedAt": "2026-06-17T18:12:00.000Z"
   },
   {
     "id": "cmr1jchhq003rr8n28r51qklz",
@@ -330,50 +176,6 @@
     "publishedAt": "2026-06-17T00:00:00.000Z"
   },
   {
-    "id": "cmr1jchi1003zr8n2e50alvcg",
-    "titleEn": "Picketa Systems raises $1.5m to bring crop nutrient testing to the field",
-    "titleZh": "Picketa Systems融资150万美元，将作物养分检测带到田间",
-    "summaryZh": "加拿大初创公司Picketa Systems完成150万美元融资，用于推广其便携式作物养分传感技术LENS。该技术利用AI光谱分析，可在几分钟内检测13种关键养分，帮助农民减少化肥成本最高20%并提高产量。CEO预测十年内将实现化肥循环完全闭环。文章还对比了传统叶片采样与新型传感方案，并介绍了其Fieldbook数据平台。",
-    "featuredReason": "该技术展示了AI与传感器在精准农业中的前沿应用，其便携、快速、低成本的特点对智慧畜牧行业中的饲草料养分管理具有直接借鉴意义，有助于提升养殖业投入品效率。",
-    "url": "https://agfundernews.com/picketa-raises-1-5m-to-bring-crop-nutrient-testing-to-the-field",
-    "source": {
-      "name": "AgFunderNews",
-      "nameZh": "农业科技投",
-      "tier": "T1"
-    },
-    "sourceId": "agfundernews",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 85,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-15T12:00:00.000Z"
-  },
-  {
-    "id": "cmr1jchi30041r8n2wh6uhrkk",
-    "titleEn": "Fertilizer… without Haber Bosch: Can AI-optimized plasma make green ammonia cost-competitive?",
-    "titleZh": "AI优化等离子体技术能否让绿色氨肥成本与化石氨竞争？",
-    "summaryZh": "本文介绍了初创公司Faraday Earth利用非热等离子体技术生产绿色氨，并通过AI优化反应效率，目标将成本降至每吨500美元左右，接近传统哈伯-博世法生产的灰色氨。该技术采用模块化、分布式系统，可降低运输成本，对依赖氮肥的智慧畜牧行业（如饲料作物种植）具有潜在颠覆性影响。",
-    "featuredReason": "该技术若实现成本目标，将大幅降低氮肥生产对化石燃料的依赖和运输成本，直接影响畜牧饲料作物的种植成本与可持续性，是智慧畜牧产业链上游的重要创新。",
-    "url": "https://agfundernews.com/fertilizer-without-haber-bosch-can-ai-optimized-plasma-make-green-ammonia-cost-competitive",
-    "source": {
-      "name": "AgFunderNews",
-      "nameZh": "农业科技投",
-      "tier": "T1"
-    },
-    "sourceId": "agfundernews",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 85,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-15T11:00:31.000Z"
-  },
-  {
     "id": "cmr1jcgo40017r8n2rko1fryg",
     "titleEn": "If food security is strategic, why does agricultural innovation still struggle to scale?",
     "titleZh": "粮食安全是战略要务，为何农业创新仍难规模化？",
@@ -418,28 +220,6 @@
     "publishedAt": "2026-06-15T00:00:00.000Z"
   },
   {
-    "id": "cmr1jchic0047r8n2rpjpyjgl",
-    "titleEn": "AgriFood Signals: EIF commits $29m to Irish agrifoodtech, Aphea.Bio and Bayer team up, GLP-1 pills",
-    "titleZh": "AgriFood Signals：EIF向爱尔兰农业食品科技投资2900万美元，Aphea.Bio与拜耳合作，GLP-1药片获批",
-    "summaryZh": "本期AgriFood Signals汇总了农业食品科技领域的重要融资、并购、合作及行业动态。亮点包括：欧洲投资基金（EIF）承诺向爱尔兰农业食品创新基金注资2500万欧元；Aphea.Bio与拜耳合作开发生物杀虫剂；英国批准首款GLP-1减肥药片。此外，多家初创公司在精准喷洒、昆虫蛋白、替代蛋白、AI农业决策等领域获得融资，同时也有企业进入破产管理或面临重组。",
-    "featuredReason": "本期新闻涵盖精准喷洒、AI农业决策、生物杀虫剂等与智慧畜牧高度相关的技术进展，同时GLP-1药片获批可能间接影响畜牧业的蛋白需求格局，值得关注。",
-    "url": "https://agfundernews.com/agrifood-signals-eif-commits-29m-to-irish-agrifoodtech-aphea-bio-and-bayer-team-up-glp-1-pills",
-    "source": {
-      "name": "AgFunderNews",
-      "nameZh": "农业科技投",
-      "tier": "T1"
-    },
-    "sourceId": "agfundernews",
-    "species": "cattle",
-    "category": "livestock",
-    "subcategory": "cattle",
-    "techTags": "",
-    "qualityScore": 76,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-11T20:03:38.000Z"
-  },
-  {
     "id": "cmr1jcgob001dr8n2aanqxank",
     "titleEn": "Robot Raggy taking on one of farming’s most persistent weed problems",
     "titleZh": "机器人Raggy挑战农业中最顽固的杂草问题",
@@ -460,50 +240,6 @@
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-10T07:00:00.000Z"
-  },
-  {
-    "id": "cmr1jchi60043r8n2iql3s8sb",
-    "titleEn": "From Taxol to cocoa: Can plant cell culture make the leap from drugs to food?",
-    "titleZh": "植物细胞培养能否从制药跨界食品？对智慧畜牧的启示有限",
-    "summaryZh": "本文探讨植物细胞培养技术从制药（如紫杉醇）向食品原料（如可可、香草）拓展的商业可行性。尽管该技术可应对气候与地缘政治对供应链的冲击，但面临成本高、规模化难、融资环境严峻等挑战。文章通过初创公司案例分析了技术瓶颈与硬件选择，但对智慧畜牧（养殖/种植自动化）的直接关联较弱，更多属于生物制造与食品科技领域。",
-    "featuredReason": "本文虽聚焦植物细胞培养在食品领域的应用，但其关于生物反应器规模化、成本控制及供应链韧性的讨论，对智慧畜牧中植物基饲料、添加剂或药用植物的室内培养技术路线具有间接参考价值。",
-    "url": "https://agfundernews.com/from-taxol-to-cocoa-can-plant-cell-culture-make-the-leap-from-drugs-to-food",
-    "source": {
-      "name": "AgFunderNews",
-      "nameZh": "农业科技投",
-      "tier": "T1"
-    },
-    "sourceId": "agfundernews",
-    "species": "fruit",
-    "category": "crop",
-    "subcategory": "fruit",
-    "techTags": "",
-    "qualityScore": 63,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-09T06:00:32.000Z"
-  },
-  {
-    "id": "cmr1jcgoo001rr8n2atxzlakp",
-    "titleEn": "Yamaha Agriculture adds herbicide spraying to Prospr robot",
-    "titleZh": "雅马哈农业为Prospr机器人新增除草剂喷洒功能",
-    "summaryZh": "雅马哈农业为其Prospr自主混合动力车辆平台推出了除草剂喷洒附件，使该机器人能够在果园和葡萄园中实现自动化杂草控制。这一扩展功能提升了机器人的多用途性，为种植业提供了更高效的杂草管理方案，但对智慧畜牧行业的直接相关性有限。",
-    "featuredReason": "虽然该新闻主要针对种植业，但Prospr平台的模块化设计和自动化技术对智慧畜牧行业中的机器人应用具有借鉴意义，值得关注其技术演进方向。",
-    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/yamaha-agriculture-adds-herbicide-spraying-to-prospr-robot/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1"
-    },
-    "sourceId": "futurefarming",
-    "species": "fruit",
-    "category": "crop",
-    "subcategory": "fruit",
-    "techTags": "",
-    "qualityScore": 71,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-03T07:00:00.000Z"
   },
   {
     "id": "cmr1jcgoq001tr8n2kyb6ecev",
@@ -570,28 +306,6 @@
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-05-25T00:00:00.000Z"
-  },
-  {
-    "id": "cmr1jcg0i000dr8n27r1ba0m9",
-    "titleEn": "Syngenta Signs MoU to Be Strategic Partner in India’s First Open-Data Agricultural Ecosystem Annam.AI",
-    "titleZh": "先正达签署谅解备忘录，成为印度首个开放数据农业生态系统Annam.AI的战略合作伙伴",
-    "summaryZh": "先正达与印度政府支持的Annam.AI项目签署谅解备忘录，成为其战略合作伙伴。Annam.AI旨在构建基于开放数据的全国性农业智能基础设施，为小农户提供免费、实时、AI驱动的个性化农事建议，整合作物智能、微气候数据和多语言工具。先正达将利用其研发和农艺专长，参与构建精准的作物健康、病虫害预测和热胁迫模型。该项目有望通过开放数据与AI技术，提升印度农业的气候韧性和生产效率。",
-    "featuredReason": "该新闻展示了开放数据与AI在农业中的大规模应用模式，对智慧畜牧行业在数据共享、精准管理和气候适应性方面具有重要借鉴意义。",
-    "url": "https://www.globalagtechinitiative.com/digital-farming/syngenta-signs-mou-to-be-strategic-partner-in-indias-first-open-data-agricultural-ecosystem-annam-ai/",
-    "source": {
-      "name": "PrecisionAg",
-      "nameZh": "精准农业",
-      "tier": "T1"
-    },
-    "sourceId": "precisionag",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 89,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-05-19T00:00:00.000Z"
   },
   {
     "id": "cmr1jcg040001r8n29op5djpj",

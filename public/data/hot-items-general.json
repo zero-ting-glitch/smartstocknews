@@ -1,0 +1,112 @@
+[
+  {
+    "id": "cmr1jcgnh000lr8n2kpjcm0ym",
+    "titleEn": "AgXeed’s VCU brings existing tractors into the autonomous fold",
+    "titleZh": "AgXeed推出VCU套件，将现有拖拉机纳入自主作业生态",
+    "summaryZh": "AgXeed发布了车辆控制单元（VCU），这是一款紧凑型改装套件，可通过ISOBUS TIM协议将现有拖拉机接入其自主作业生态系统。VCU使传统农机能够连接TraXwise规划与监控平台，执行预编程的自动化作业，减少人工干预。该产品已被收录至《未来农业自主改装套件目录》，为种植业自动化提供了低成本升级路径，对智慧畜牧中的饲草料生产等环节具有间接参考价值。",
+    "featuredReason": "该技术展示了如何通过低成本改装套件实现传统农机自动化，对智慧畜牧中饲草料种植、牧场运输等环节的自动化升级具有借鉴意义。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/agxeeds-vcu-brings-existing-tractors-into-the-autonomous-fold/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 76,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-29T07:00:00.000Z"
+  },
+  {
+    "id": "cmr1jcgnk000nr8n20hyoxk7p",
+    "titleEn": "Agreenculture acquires Chouette to add agronomic intelligence to autonomous machines",
+    "titleZh": "法国农业自动化公司Agreenculture收购Chouette，为自主机器增添农艺智能",
+    "summaryZh": "法国自主机械专家Agreenculture收购了专注于葡萄栽培AI农艺分析的公司Chouette。此次交易将Agreenculture的自主技术与Chouette的作物监测算法相结合，旨在打造既能独立作业又能解读田间所见信息的机器。这标志着农业自动化从“执行动作”向“理解场景”的进化，对智慧畜牧领域也有启发意义。",
+    "featuredReason": "该收购展示了农业自动化从“执行动作”向“理解场景”的关键跃迁，其“自主+感知”融合模式对智慧畜牧领域的机器人巡检、个体识别与健康监测具有直接借鉴价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/agreenculture-acquires-chouette-to-add-agronomic-intelligence-to-autonomous-machines/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-25T06:30:00.000Z"
+  },
+  {
+    "id": "cmr1jcg0e0009r8n2pwbeteyc",
+    "titleEn": "Beyond Disruption: Earning Trust and Driving Impact in AgTech Through Grower-Led Innovation",
+    "titleZh": "超越颠覆：通过种植者主导的创新在农业科技中赢得信任并推动影响",
+    "summaryZh": "本文由Reservoir CEO Danny Bernstein撰写，反思硅谷软件文化在农业中的局限性，提出“物理人工智能”概念——在田间地头实时运行的实体技术。他强调农业科技应从“颠覆”转向“扎根”，通过种植者、初创企业与零售商在“奥运村”式创新社区中协作，在真实田间压力测试想法。文章引用2024年CropLife/普渡大学调查数据，指出无人机施药将从35%增长至50%以上，并呼吁技术设计者走进农田，而非仅坐在会议室。",
+    "featuredReason": "本文从硅谷视角反思农业科技落地困境，提出“物理AI”和种植者主导的创新模式，对智慧畜牧行业在养殖场实地部署IoT、机器人等方案具有直接借鉴意义——技术必须适应现场真实条件，而非强加标准化流程。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/beyond-disruption-earning-trust-and-driving-impact-in-agtech-through-grower-led-innovation/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-24T19:58:19.000Z"
+  },
+  {
+    "id": "cmr1jcgno000rr8n295jiens5",
+    "titleEn": "Horsch enters into partnership with application map specialist",
+    "titleZh": "Horsch战略入股精准施药地图公司Sam-Dimension",
+    "summaryZh": "农机巨头Horsch战略入股德国Sam-Dimension公司，后者专注于利用无人机影像生成杂草点喷施药地图。双方自2019年起合作，Sam-Dimension开发了分辨率达1毫米的特殊相机。此举虽主要针对种植业精准植保，但其无人机+高分辨率成像+AI地图生成的技术路径，对智慧畜牧中草场管理、精准施肥等场景具有借鉴意义。",
+    "featuredReason": "该新闻展示了精准农业中无人机与高分辨率成像技术的最新商业化合作，其技术逻辑（无人机+AI地图+精准作业）可迁移至智慧畜牧的草场管理、精准投喂等场景，值得关注跨界技术趋势的从业者阅读。",
+    "url": "https://www.futurefarming.com/smart-farming/horsch-enters-into-partnership-with-application-map-specialist/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 66,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-24T13:19:17.000Z"
+  },
+  {
+    "id": "cmr1jchhq003rr8n28r51qklz",
+    "titleEn": "AI’s role in agrifood biotech comes into sharper focus",
+    "titleZh": "人工智能在农业食品生物技术中的作用日益清晰",
+    "summaryZh": "本文报道了在阿姆斯特丹“明日峰会”上，专家们对AI在农业食品生物技术中作用的讨论。AI在加速生物发现、降低成本方面成效显著，但在个性化解决方案和大规模生产之间的平衡上存在争议。专家指出，AI并非万能，尤其在个性化营养领域，规模化生产更应关注共性而非个体差异。文章还提到AI帮助科学家从系统层面理解复杂生物学，并举例Nuritas公司利用AI从蚕豆中发现高效生物活性成分。",
+    "featuredReason": "本文揭示了AI在农业生物技术中的真实边界：在加速发现方面潜力巨大，但在个性化与规模化之间需谨慎平衡。智慧畜牧行业可借鉴其关于AI应用场景选择与成本效益分析的思路，避免盲目跟风。",
+    "url": "https://agfundernews.com/ais-role-in-agrifood-biotech-comes-into-sharper-focus",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 76,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-17T14:46:27.000Z"
+  }
+]
