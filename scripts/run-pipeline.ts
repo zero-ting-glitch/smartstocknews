@@ -239,7 +239,7 @@ async function callDeepSeek(prompt: string): Promise<string> {
       model: 'deepseek-chat',
       messages: [{ role: 'user', content: prompt }],
       temperature: 0.3,
-      max_tokens: 4000,
+      max_tokens: 8000,
     }),
   });
   const data = await res.json() as any;
@@ -268,7 +268,7 @@ ${contentSnippet ? `内容: ${contentSnippet}` : ''}
 - readability: 内容可读性和信息密度
 - actionability: 可操作性和实践参考价值
 
-同时提供中文翻译和推荐理由。全文翻译要求：忠实原文，完整翻译所有段落，不要遗漏任何内容。**必须保留原文的段落结构，段落之间用两个换行符(\\n\\n)分隔**。
+同时提供中文翻译和推荐理由。全文翻译要求：忠实原文，完整翻译所有段落，不要遗漏任何内容，不要截断。**必须保留原文的段落结构，段落之间用两个换行符(\\n\\n)分隔**。如果原文很长，也必须翻译完整，不得在中间停止。
 
 请直接返回JSON（不要markdown包裹）:
 {
