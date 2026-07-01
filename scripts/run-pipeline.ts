@@ -189,13 +189,14 @@ async function scrapeArticlesBatch(items: any[]): Promise<{ scraped: number; fai
       const result = results[j];
       const item = batch[j];
       if (result.status === 'fulfilled' && result.value) {
-        const { contentText, images, author } = result.value;
+        const { contentText, images, author, publishedAt } = result.value;
         await prisma.item.update({
           where: { id: item.id },
           data: {
             contentFull: contentText,
             images: JSON.stringify(images),
             author,
+            ...(publishedAt ? { publishedAt } : {}),
             scrapedAt: new Date(),
             scrapeMethod: 'web_scrape',
           },

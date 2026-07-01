@@ -147,7 +147,7 @@ function DetailContent() {
           {/* 元信息 */}
           <div className="detail-info">
             {item.author && <span>作者: {item.author}</span>}
-            <span>{new Date(item.publishedAt).toLocaleDateString('zh-CN')}</span>
+            <span>{new Date(item.publishedAt).toLocaleDateString('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' })} {new Date(item.publishedAt).toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' })}</span>
             {species.map((s) => (
               <span
                 key={s}
