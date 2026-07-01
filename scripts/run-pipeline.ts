@@ -268,7 +268,7 @@ ${contentSnippet ? `内容: ${contentSnippet}` : ''}
 - readability: 内容可读性和信息密度
 - actionability: 可操作性和实践参考价值
 
-同时提供中文翻译和推荐理由。全文翻译要求：忠实原文，完整翻译所有段落，不要遗漏任何内容。
+同时提供中文翻译和推荐理由。全文翻译要求：忠实原文，完整翻译所有段落，不要遗漏任何内容。**必须保留原文的段落结构，段落之间用两个换行符(\\n\\n)分隔**。
 
 请直接返回JSON（不要markdown包裹）:
 {
@@ -279,7 +279,7 @@ ${contentSnippet ? `内容: ${contentSnippet}` : ''}
   "actionability": 数,
   "titleZh": "中文标题(简短准确)",
   "summaryZh": "中文摘要(100-150字，说明核心内容和价值)",
-  "translationZh": "全文中文翻译(完整翻译所有段落，不要省略)",
+  "translationZh": "全文中文翻译(完整翻译所有段落，段落之间用\\n\\n分隔，不要省略)",
   "featuredReason": "推荐理由(1-2句话，说明为什么值得智慧畜牧行业人士阅读)"
 }`;
 
