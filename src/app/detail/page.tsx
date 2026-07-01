@@ -99,6 +99,25 @@ function DetailContent() {
     ? item.contentFull.split(/\n{2,}/).filter(Boolean)
     : [];
 
+  const translationParagraphs = (() => {
+    if (!item.translationZh) return [];
+    // 先按双换行分段
+    let paras = item.translationZh.split(/\n{2,}/).filter(Boolean);
+    // 如果只有一段且有单换行，按单换行再分
+    if (paras.length <= 1) {
+      paras = item.translationZh.split(/\n/).filter(Boolean);
+    }
+    // 如果还是只有一段，按中文句号分段（每 3 句一段）
+    if (paras.length <= 1 && item.translationZh.length > 200) {
+      const sentences = item.translationZh.split(/(?<=[。！？])/);
+      paras = [];
+      for (let i = 0; i < sentences.length; i += 3) {
+        paras.push(sentences.slice(i, i + 3).join(''));
+      }
+    }
+    return paras;
+  })();
+
   return (
     <>
       <Sidebar />
@@ -176,7 +195,7 @@ function DetailContent() {
                 {showOriginal || !item.translationZh ? (
                   contentParagraphs.map((p, i) => <p key={i}>{p}</p>)
                 ) : (
-                  item.translationZh.split(/\n{2,}/).filter(Boolean).map((p, i) => <p key={i}>{p}</p>)
+                  translationParagraphs.map((p, i) => <p key={i}>{p}</p>)
                 )}
               </div>
             </div>
