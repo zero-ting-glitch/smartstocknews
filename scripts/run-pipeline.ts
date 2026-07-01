@@ -439,8 +439,17 @@ async function main() {
   }
   console.log(`  总计: ${totalRaw} raw → ${totalSaved} saved (${totalDedup} 重复跳过)\n`);
 
-  // Step 2.5: 重新评估已有文章的相关性（关键词更新后，旧文章可能需要降级）
-  console.log('[2.5] 重新评估已有文章相关性...');
+  // Step 3: 全文爬取
+  console.log('[3/5] 全文爬取...');
+  const unscraped = await prisma.item.findMany({
+    where: { scrapedAt: null, isRelevant: true },
+    include: { source: true },
+  });
+  const { scraped: scrapedCount, failed: failedCount } = await scrapeArticlesBatch(unscraped);
+  console.log(`  全文爬取完成: ${scrapedCount} 成功, ${failedCount} 失败\n`);
+
+  // Step 3.5: 重新评估已有文章的相关性（全文爬取后，用完整内容重新判断）
+  console.log('[3.5] 重新评估已有文章相关性...');
   const sourceKwMap: Record<string, { core: string[]; exclude: string[] }> = {};
   for (const source of config.sources) {
     sourceKwMap[source.id] = {
@@ -457,8 +466,10 @@ async function main() {
     const kw = sourceKwMap[item.sourceId];
     if (!kw) continue;
     const text = `${item.titleEn} ${item.contentHtml || ''} ${item.contentFull || ''}`.toLowerCase();
-    const hitCore = kw.core.some((k: string) => k && text.includes(k));
-    const hitExclude = kw.exclude.some((k: string) => k && text.includes(k));
+    // 词边界匹配：短关键词（<=5字符）用正则避免子串误匹配（如 "ai" 匹配 "maintain"）
+    const matchKw = (t: string, k: string) => k.length <= 5 ? new RegExp(`\\b${k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`).test(t) : t.includes(k);
+    const hitCore = kw.core.some((k: string) => k && matchKw(text, k));
+    const hitExclude = kw.exclude.some((k: string) => k && matchKw(text, k));
     if (!hitCore || hitExclude) {
       await prisma.item.update({
         where: { id: item.id },
@@ -468,15 +479,6 @@ async function main() {
     }
   }
   console.log(`  降级 ${demoted} 条不再相关的文章\n`);
-
-  // Step 3: 全文爬取
-  console.log('[3/5] 全文爬取...');
-  const unscraped = await prisma.item.findMany({
-    where: { scrapedAt: null, isRelevant: true },
-    include: { source: true },
-  });
-  const { scraped: scrapedCount, failed: failedCount } = await scrapeArticlesBatch(unscraped);
-  console.log(`  全文爬取完成: ${scrapedCount} 成功, ${failedCount} 失败\n`);
 
   // Step 4: AI 处理（统一提示词，循环处理所有待处理 item）
   console.log('[4/5] AI 处理（统一分析）...');
