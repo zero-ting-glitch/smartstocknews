@@ -1,8 +1,10 @@
 /**
  * 相对时间格式化
  */
-export function timeAgo(date: Date | string): string {
+export function timeAgo(date: Date | string | null): string {
+  if (!date) return '';
   const d = typeof date === 'string' ? new Date(date) : date;
+  if (isNaN(d.getTime())) return '';
   const now = new Date();
   const seconds = Math.floor((now.getTime() - d.getTime()) / 1000);
 
@@ -16,8 +18,10 @@ export function timeAgo(date: Date | string): string {
 /**
  * 时间格式化 HH:MM
  */
-export function formatTime(date: Date | string): string {
+export function formatTime(date: Date | string | null): string {
+  if (!date) return '--:--';
   const d = typeof date === 'string' ? new Date(date) : date;
+  if (isNaN(d.getTime())) return '--:--';
   return d.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit', hour12: false });
 }
 
@@ -73,6 +77,7 @@ export function isYesterday(date: Date): boolean {
  * 获取日期标签（今天/昨天/具体日期）
  */
 export function getDateLabel(date: Date): { main: string; sub: string } {
+  if (date.getTime() === 0) return { main: '其他', sub: '' };
   if (isToday(date)) {
     return { main: '今天', sub: formatDate(date) };
   }

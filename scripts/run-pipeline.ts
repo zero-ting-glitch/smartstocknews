@@ -35,7 +35,7 @@ async function fetchRss(source: any): Promise<any[]> {
         items.push({
           title: entry.title.trim(),
           url: entry.link.trim(),
-          publishedAt: entry.pubDate ? new Date(entry.pubDate) : new Date(),
+          publishedAt: entry.pubDate ? new Date(entry.pubDate) : null,
           contentHtml: entry.contentSnippet || entry.content || '',
         });
       }
@@ -398,7 +398,7 @@ async function main() {
         raw.push({
           title: listing.title,
           url: listing.url,
-          publishedAt: listing.publishedAt || new Date(),
+          publishedAt: listing.publishedAt || null,
           contentHtml: '',
         });
       }
@@ -445,6 +445,28 @@ async function main() {
   }
   console.log(`  总计: ${totalRaw} raw → ${totalSaved} saved (${totalDedup} 重复跳过)\n`);
 
+  // Step 2.5: 修正错误的 publishedAt（以管线运行时间作为发表时间的文章）
+  // 检测条件：已爬取 + publishedAt 与 scrapedAt 相差 < 5 分钟（说明日期是 new Date() fallback）
+  const suspiciousItems = await prisma.$queryRaw`
+    SELECT id, titleEn, publishedAt, scrapedAt
+    FROM Item
+    WHERE isRelevant = 1
+      AND scrapedAt IS NOT NULL
+      AND publishedAt IS NOT NULL
+      AND ABS(CAST(julianday(publishedAt) - julianday(scrapedAt) AS REAL)) * 86400 < 300
+  ` as { id: string; titleEn: string; publishedAt: Date; scrapedAt: Date }[];
+
+  if (suspiciousItems.length > 0) {
+    console.log(`  修正 ${suspiciousItems.length} 条日期可疑的文章（重置爬取状态）`);
+    for (const item of suspiciousItems) {
+      await prisma.item.update({
+        where: { id: item.id },
+        data: { scrapedAt: null },
+      });
+    }
+    console.log(`  已重置，将在 Step 3 重新爬取\n`);
+  }
+
   // Step 3: 全文爬取
   console.log('[3/5] 全文爬取...');
   const unscraped = await prisma.item.findMany({
@@ -485,6 +507,26 @@ async function main() {
     }
   }
   console.log(`  降级 ${demoted} 条不再相关的文章\n`);
+
+  // Step 4 前置：清除被截断的翻译（以省略号结尾且长度不足），让管线重新生成
+  const withTranslation = await prisma.item.findMany({
+    where: { isRelevant: true, translationZh: { not: null } },
+    select: { id: true, translationZh: true },
+  });
+  let clearedTruncated = 0;
+  for (const item of withTranslation) {
+    const t = item.translationZh || '';
+    if ((t.endsWith('......') || t.endsWith('……')) && t.length < 500) {
+      await prisma.item.update({
+        where: { id: item.id },
+        data: { translationZh: null },
+      });
+      clearedTruncated++;
+    }
+  }
+  if (clearedTruncated > 0) {
+    console.log(`  清除 ${clearedTruncated} 条被截断的翻译，将重新生成\n`);
+  }
 
   // Step 4: AI 处理（统一提示词，循环处理所有待处理 item）
   console.log('[4/5] AI 处理（统一分析）...');

@@ -147,7 +147,12 @@ function DetailContent() {
           {/* 元信息 */}
           <div className="detail-info">
             {item.author && <span>作者: {item.author}</span>}
-            <span>{new Date(item.publishedAt).toLocaleDateString('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' })} {new Date(item.publishedAt).toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' })}</span>
+            {item.publishedAt && (() => {
+              const d = new Date(item.publishedAt);
+              return d.getTime() > 0 ? (
+                <span>{d.toLocaleDateString('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' })} {d.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' })}</span>
+              ) : null;
+            })()}
             {species.map((s) => (
               <span
                 key={s}

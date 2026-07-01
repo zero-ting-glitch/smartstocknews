@@ -11,7 +11,7 @@ export interface NewsItem {
   url: string;
   summaryZh: string | null;
   featuredReason: string | null;
-  publishedAt: string;
+  publishedAt: string | null;
   source: {
     name: string;
     nameZh: string;
@@ -80,18 +80,21 @@ export function Timeline({ items = [], showFilters = false }: TimelineProps) {
     });
   }, [items, speciesFilter, techFilter, searchQuery]);
 
-  // 按日期分组
+  // 按日期分组（无日期的归入"未知日期"组）
   const grouped = filteredItems.reduce((acc, item) => {
-    const date = new Date(item.publishedAt);
-    const key = date.toDateString();
-    if (!acc[key]) acc[key] = { date, items: [] };
+    const date = item.publishedAt ? new Date(item.publishedAt) : null;
+    const isValidDate = date && !isNaN(date.getTime());
+    const key = isValidDate ? date!.toDateString() : 'unknown';
+    if (!acc[key]) acc[key] = { date: isValidDate ? date! : new Date(0), items: [] };
     acc[key].items.push(item);
     return acc;
   }, {} as Record<string, { date: Date; items: NewsItem[] }>);
 
-  const groups = Object.values(grouped).sort(
-    (a, b) => b.date.getTime() - a.date.getTime()
-  );
+  const groups = Object.values(grouped).sort((a, b) => {
+    if (a.date.getTime() === 0) return 1;
+    if (b.date.getTime() === 0) return -1;
+    return b.date.getTime() - a.date.getTime();
+  });
 
   return (
     <div>

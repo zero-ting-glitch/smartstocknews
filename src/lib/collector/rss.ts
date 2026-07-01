@@ -27,7 +27,7 @@ export async function fetchRss(source: SourceConfig): Promise<RawItem[]> {
     return (feed.items || []).map(item => ({
       title: item.title || '',
       url: item.link || '',
-      publishedAt: item.pubDate ? new Date(item.pubDate) : new Date(),
+      publishedAt: item.pubDate ? new Date(item.pubDate) : null as any,
       contentHtml: item.content || item.contentSnippet || '',
       sourceId: source.id,
     })).filter(item => item.title && item.url);

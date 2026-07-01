@@ -10,7 +10,7 @@ interface RightPanelProps {
     titleZh: string | null;
     url: string;
     multiSourceCount: number;
-    publishedAt: string;
+    publishedAt: string | null;
     qualityScore: number;
   }>;
   stats?: {

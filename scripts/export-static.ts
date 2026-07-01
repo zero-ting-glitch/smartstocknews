@@ -69,7 +69,7 @@ async function main() {
     url: item.url,
     summaryZh: item.summaryZh,
     translationZh: item.translationZh,
-    publishedAt: item.publishedAt.toISOString(),
+    publishedAt: item.publishedAt ? item.publishedAt.toISOString() : '',
     source: item.source,
     species: item.species,
     category: item.category,
@@ -113,7 +113,7 @@ async function main() {
     titleZh: item.titleZh,
     url: item.url,
     multiSourceCount: item.multiSourceCount,
-    publishedAt: item.publishedAt.toISOString(),
+    publishedAt: item.publishedAt ? item.publishedAt.toISOString() : '',
     qualityScore: item.qualityScore,
   }));
 
