@@ -1,10 +1,10 @@
 [
   {
-    "id": "cmr0j8dmd003vawvjbxsyp65f",
+    "id": "cmr1eanvg003zpldzxg2f5iei",
     "titleEn": "Tech alone won’t future-proof the food system, experts warn",
-    "titleZh": "专家警告：仅靠技术无法保障食品系统的未来",
-    "summaryZh": "本文报道了在阿姆斯特丹Hello Tomorrow峰会上，多位专家就食品系统未来展开的讨论。核心观点是：尽管气候危机和地缘政治风险加剧，政府和企业拥有比以往更多的工具来识别系统脆弱性，但仅靠技术修补现有系统远远不够。专家指出，当前食品系统本质上是为产量和货架稳定性设计的，已无法满足当今世界需求。政治协调和系统性改革才是关键，技术只是辅助手段。文章对智慧畜牧行业有重要启示：技术应用必须与政策、商业模式和系统思维相结合。",
-    "featuredReason": "本文从系统思维角度提醒智慧畜牧从业者：技术只是工具，真正的变革需要政策、商业模式和行业生态的协同创新。对于正在推进智能化转型的畜牧企业，这是一次重要的战略反思。",
+    "titleZh": "专家警告：仅靠技术无法保障食品系统未来安全",
+    "summaryZh": "本文报道了在阿姆斯特丹Hello Tomorrow峰会上，多位专家就食品系统未来韧性展开的讨论。核心观点是：尽管卫星监测、精准农业、供应链数据等技术工具日益强大，但若仅用于修补现有系统而不进行根本性政治与政策改革，则无法应对气候危机和地缘政治风险。文章强调了技术部署与政治协调之间的鸿沟，并呼吁超越“恢复原状”的韧性思维，转向系统性变革。",
+    "featuredReason": "本文为智慧畜牧行业人士提供了关键警示：技术工具（如精准农业、卫星监测）虽重要，但若缺乏政策协同和系统性变革，无法真正解决食品系统的根本问题。这有助于从业者跳出纯技术思维，关注产业生态与政策环境。",
     "url": "https://agfundernews.com/tech-alone-wont-future-proof-the-food-system-experts-warn",
     "source": {
       "name": "AgFunderNews",
@@ -16,17 +16,17 @@
     "category": "crop",
     "subcategory": "field",
     "techTags": "",
-    "qualityScore": 77,
+    "qualityScore": 79,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-30T10:57:16.771Z"
+    "publishedAt": "2026-07-01T01:26:51.461Z"
   },
   {
-    "id": "cmr0j8dmp0043awvj6jilsivt",
+    "id": "cmr1eanvx0047pldzsr13cko8",
     "titleEn": "AI is everywhere in CPG R&D. But is it moving the needle? Turing Labs surveys the biggest players",
-    "titleZh": "AI在CPG研发中无处不在，但真正推动创新了吗？Turing Labs对行业巨头的调查",
-    "summaryZh": "Turing Labs调查显示，91%的大型CPG公司研发高管在工作中使用AI，但仅19%将其嵌入日常流程，且真正产生显著影响的更少。AI在营销端效果明显，但在产品创新（如配方开发）中面临通用工具与专业需求不匹配、企业仅用AI加速现有流程而非重构创新模式等问题。文章揭示了AI落地的深层挑战，对智慧畜牧行业如何有效应用AI具有警示和借鉴意义。",
-    "featuredReason": "本文揭示了AI在CPG研发中从‘广泛使用’到‘真正产生价值’之间的鸿沟，对智慧畜牧行业在引入AI时避免‘为用而用’、注重流程重构与专业适配具有重要警示和参考价值。",
+    "titleZh": "AI在CPG研发中无处不在，但真正推动变革了吗？Turing Labs调查行业巨头",
+    "summaryZh": "Turing Labs对290名大型CPG公司研发高管的调查显示，91%的受访者已在工作中使用AI，但仅19%将其嵌入日常流程，且真正产生显著影响的案例更少。问题在于通用AI工具与高度专业化的配方研发工作不匹配，以及企业仅用AI加速现有流程而非重构创新模式。文章揭示了AI在快速消费品研发领域的落地困境，对智慧畜牧行业如何避免类似陷阱具有警示意义。",
+    "featuredReason": "本文揭示了AI在快速消费品研发中从“热闹”到“落地”的鸿沟，智慧畜牧行业在引入AI时同样面临通用工具与专业场景不匹配、流程重构不足等核心挑战，值得借鉴其教训。",
     "url": "https://agfundernews.com/ai-is-everywhere-in-cpg-rd-but-is-it-moving-the-needle-turing-labs-surveys-the-biggest-players",
     "source": {
       "name": "AgFunderNews",
@@ -38,17 +38,17 @@
     "category": "crop",
     "subcategory": "field",
     "techTags": "",
-    "qualityScore": 70,
+    "qualityScore": 80,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-30T10:57:16.771Z"
+    "publishedAt": "2026-07-01T01:26:51.461Z"
   },
   {
-    "id": "cmr0j8dms0045awvjcm62ooid",
+    "id": "cmr1eanw00049pldziwhfpmxb",
     "titleEn": "Rainbow Crops raises $11.25m to scale AI-guided multiplex gene editing",
     "titleZh": "Rainbow Crops获1125万美元种子轮融资，用AI引导多重基因编辑提升作物产量与抗旱性",
-    "summaryZh": "比利时农业科技初创公司Rainbow Crops完成1125万美元种子轮融资，由LIFTT EuroInvest领投。该公司利用AI预测影响复杂性状（如产量、抗旱性）的基因组合，结合多重基因编辑与高通量筛选，构建系统生物学平台。该技术源自VIB研究所，旨在解决多基因控制的复杂农艺性状改良难题，为作物育种提供全新范式。",
-    "featuredReason": "该技术通过AI+多重基因编辑精准改良作物复杂性状，直接关联智慧畜牧中饲料作物（如玉米）的产量与抗逆性提升，为养殖业降本增效提供上游技术支撑，值得关注。",
+    "summaryZh": "比利时农业科技初创公司Rainbow Crops完成1125万美元种子轮融资，由LIFTT EuroInvest领投。该公司利用AI预测影响复杂性状（如产量、抗旱性）的基因组合，结合多重基因编辑与高通量筛选，构建系统生物学平台。其技术源自VIB研究所，旨在解决多基因控制性状的育种难题，并通过数据反馈持续优化模型。该轮融资将用于扩大玉米等作物的研发与商业化。",
+    "featuredReason": "该技术通过AI+多重基因编辑解决多基因复杂性状育种难题，与智慧畜牧中利用AI和基因编辑改良动物生产性能、抗病性等方向高度契合，为精准育种提供了可借鉴的系统生物学思路。",
     "url": "https://agfundernews.com/rainbow-crops-raises-11-25m-to-scale-ai-guided-multiplex-gene-editing",
     "source": {
       "name": "AgFunderNews",
@@ -63,14 +63,14 @@
     "qualityScore": 85,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-30T10:57:16.771Z"
+    "publishedAt": "2026-07-01T01:26:51.461Z"
   },
   {
-    "id": "cmr0j8dmy0049awvj1zn9xn2i",
+    "id": "cmr1eanw7004dpldzg448461y",
     "titleEn": "Picketa Systems raises $1.5m to bring crop nutrient testing to the field",
-    "titleZh": "Picketa Systems融资150万美元，将作物养分检测带到田间",
-    "summaryZh": "加拿大初创公司Picketa Systems完成150万美元融资，用于推广其便携式作物养分传感技术LENS。该技术利用AI光谱分析，可在几分钟内检测叶片中13种关键养分含量，替代传统耗时费钱的实验室检测。结合Fieldbook平台，帮助农民精准施肥，降低肥料成本20%并提高产量。CEO预测10年内通过作物传感、专用投入品和自动驾驶车辆，将完全闭环肥料管理。",
-    "featuredReason": "该技术展示了AI光谱传感在精准农业中的前沿应用，虽聚焦种植业，但其便携式实时检测、数据平台与自动化闭环理念对智慧畜牧中饲料营养管理、动物健康监测等场景具有高度借鉴价值。",
+    "titleZh": "Picketa Systems融资150万美元，将作物营养检测带到田间",
+    "summaryZh": "加拿大初创公司Picketa Systems完成150万美元融资，用于推广其便携式作物营养传感技术LENS。该技术利用AI光谱分析，在几分钟内检测作物叶片中13种关键营养元素，结合Fieldbook平台帮助农民精准施肥，可降低肥料成本20%并提高产量。CEO预测10年内将实现肥料循环闭环。",
+    "featuredReason": "该技术将AI光谱分析与精准农业结合，显著提升作物营养检测效率，降低肥料成本，与智慧畜牧中精准饲喂、环境监测等理念高度契合，为养殖业精准管理提供跨领域参考。",
     "url": "https://agfundernews.com/picketa-raises-1-5m-to-bring-crop-nutrient-testing-to-the-field",
     "source": {
       "name": "AgFunderNews",
@@ -82,17 +82,17 @@
     "category": "crop",
     "subcategory": "field",
     "techTags": "",
-    "qualityScore": 77,
+    "qualityScore": 85,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-30T10:57:16.771Z"
+    "publishedAt": "2026-07-01T01:26:51.461Z"
   },
   {
-    "id": "cmr0j8dn0004bawvjnblb6ude",
+    "id": "cmr1eanwa004fpldzxgmw2djd",
     "titleEn": "Fertilizer… without Haber Bosch: Can AI-optimized plasma make green ammonia cost-competitive?",
-    "titleZh": "无需哈伯-博世法：AI优化等离子体能否让绿色氨肥成本具有竞争力？",
-    "summaryZh": "本文报道了初创公司Faraday Earth利用非热等离子体技术生产绿色氨，并通过AI优化反应效率，目标将成本降至约500美元/吨，接近传统化石燃料氨的水平。该系统采用模块化、分布式设计，可减少运输成本，有望颠覆传统化肥供应链。文章详细介绍了技术原理、团队背景及AI在优化等离子体反应中的应用，对智慧畜牧行业关注可持续肥料来源具有参考价值。",
-    "featuredReason": "该技术若实现成本突破，将为智慧畜牧行业提供可持续、低成本的氮肥来源，减少对传统高碳化肥的依赖，契合绿色养殖与精准农业趋势。",
+    "titleZh": "无哈伯-博世法：AI优化等离子体能否让绿色氨肥成本具有竞争力？",
+    "summaryZh": "本文报道了初创公司Faraday Earth利用非热等离子体技术生产绿色氨的创新方法。通过AI优化等离子体反应器，该公司声称其系统可将绿色氨的平准化成本降至约每吨500美元，接近传统化石燃料基灰氨的成本。结合模块化、集装箱式分散化生产系统，可大幅降低运输成本。该技术有望颠覆传统哈伯-博世工艺，为农业提供更环保、经济的氮肥来源，对智慧畜牧行业中的饲料作物种植和肥料管理具有潜在影响。",
+    "featuredReason": "该技术若实现成本突破，将彻底改变氮肥供应模式，降低智慧畜牧中饲料种植的碳足迹和成本，并为牧场分布式肥料生产提供新思路，值得关注其AI优化与模块化设计对农业自动化的启示。",
     "url": "https://agfundernews.com/fertilizer-without-haber-bosch-can-ai-optimized-plasma-make-green-ammonia-cost-competitive",
     "source": {
       "name": "AgFunderNews",
@@ -104,17 +104,17 @@
     "category": "crop",
     "subcategory": "field",
     "techTags": "",
-    "qualityScore": 81,
+    "qualityScore": 85,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-30T10:57:16.771Z"
+    "publishedAt": "2026-07-01T01:26:51.461Z"
   },
   {
-    "id": "cmr0j8ck3000bawvjj3r28slp",
+    "id": "cmr1eamh7000dpldzjo0gu559",
     "titleEn": "Syngenta Signs MoU to Be Strategic Partner in India’s First Open-Data Agricultural Ecosystem Annam.AI",
     "titleZh": "先正达签署谅解备忘录，成为印度首个开放数据农业生态系统Annam.AI的战略合作伙伴",
-    "summaryZh": "印度农业面临气候多变、病虫害严重、小农户占比高等挑战。Annam.AI项目由印度政府支持，联合Google等科技伙伴，旨在构建基于开放数据的全国农业智能骨干网，为农民提供实时、个性化、多语言的AI农事建议。先正达作为战略合作伙伴，将利用其研发和农艺专长，构建作物健康、病虫害预测和热应激模型。该项目有望推动精准农业和气候韧性，对智慧畜牧行业在数据共享、AI应用和生态合作方面具有重要参考价值。",
-    "featuredReason": "该新闻展示了开放数据、AI和公私合作在农业中的前沿应用，对智慧畜牧行业在构建数据共享平台、推动精准养殖和气候适应性管理方面具有重要借鉴意义。",
+    "summaryZh": "先正达宣布签署谅解备忘录，成为印度首个开放数据农业生态系统Annam.AI的战略合作伙伴。该项目由印度政府支持，联合Google等科技伙伴及IIT Ropar主导，旨在为农民提供免费、实时、个性化的AI农业情报，包括作物健康、病虫害预测和热应激模型。先正达将贡献其研发和农艺专业知识。此举有望通过精准农业和气候韧性技术，惠及印度1.5亿农户（其中80%为小农户），应对极端天气和病虫害挑战。",
+    "featuredReason": "该新闻展示了开放数据与AI在农业中的大规模应用，虽侧重种植业，但其技术框架（如实时微气候数据、AI模型）和公私合作模式对智慧畜牧行业具有高度借鉴意义，尤其是气候韧性和精准管理方面。",
     "url": "https://www.globalagtechinitiative.com/digital-farming/syngenta-signs-mou-to-be-strategic-partner-in-indias-first-open-data-agricultural-ecosystem-annam-ai/",
     "source": {
       "name": "PrecisionAg",
@@ -126,17 +126,17 @@
     "category": "crop",
     "subcategory": "field",
     "techTags": "",
-    "qualityScore": 83,
+    "qualityScore": 85,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-15T17:51:42.000Z"
   },
   {
-    "id": "cmr0j8ck8000fawvjkjk4agyc",
+    "id": "cmr1eamhe000hpldz25auvgby",
     "titleEn": "Tech Hub LIVE Returns to Des Moines July 20-22 with Practical Answers for a High-Pressure Ag Economy",
-    "titleZh": "Tech Hub LIVE 2026大会重返得梅因：为高压农业经济提供实用技术答案",
-    "summaryZh": "Tech Hub LIVE 2026大会将于2026年7月20-22日在爱荷华州得梅因举行，聚焦农业零售商和种植者在成本高企、利润压缩、贸易不确定背景下的技术采纳难题。大会汇聚60多位演讲者、50多家展商，设置智能技术、运营、销售赋能、田间实践等分论坛，涵盖AI、无人机政策、网络安全、生物技术等前沿议题。Land O'Lakes首席技术官和AWS专家将发表主题演讲，强调以实践验证和同行交流帮助参会者做出明智技术投资决策。",
-    "featuredReason": "该大会聚焦农业技术采纳的实用性和投资回报，涵盖AI、无人机、传感器等智慧畜牧核心领域，为从业者提供可落地的决策参考和同行交流机会。",
+    "titleZh": "Tech Hub LIVE 2026重返得梅因：为高压农业经济提供实用技术答案",
+    "summaryZh": "CropLife主办的Tech Hub LIVE 2026会议将于7月20-22日在爱荷华州得梅因举行，聚焦农业零售渠道的技术采纳。面对投入成本高企、利润压缩和贸易不确定性，会议邀请60多位演讲者和50多家展商，通过实践者主导的会议、现场研究结果和同行交流，帮助参会者识别真正带来投资回报的技术。议题涵盖AI在农业中的实际影响、无人机政策、网络安全、生物技术创新等，并发布普渡大学精准农业调查结果。",
+    "featuredReason": "该会议聚焦农业技术采纳的实用性和投资回报，涉及AI、无人机、传感器等智慧畜牧和精准农业核心技术，为从业者提供了应对经济压力的实践策略和同行交流机会。",
     "url": "https://www.globalagtechinitiative.com/digital-farming/tech-hub-live-returns-to-des-moines-july-20-22-with-practical-answers-for-a-high-pressure-ag-economy/",
     "source": {
       "name": "PrecisionAg",
@@ -154,11 +154,11 @@
     "publishedAt": "2026-06-12T15:38:48.000Z"
   },
   {
-    "id": "cmr0j8ckb000hawvj0r3a2p7w",
+    "id": "cmr1eamhh000jpldzuq79gn8d",
     "titleEn": "5 Technologies That Are Making Farms Smarter – Worldwide",
-    "titleZh": "全球五大技术推动农业智能化转型",
-    "summaryZh": "本文介绍了人工智能、物联网、无人机、机器人等五大技术如何在全球范围内推动农业向更智能、更具韧性的方向发展。文章指出，面对劳动力短缺、气候异常等挑战，传统农业方法已难以应对，而数据驱动决策、自动化和数字市场正在使农业更高效、可持续。文中以IBM Watson和Plantix为例，展示了AI在作物健康预测、精准施药等方面的实际应用。虽然内容偏重种植业，但对智慧畜牧领域的自动化、传感器和数据分析应用有参考价值。",
-    "featuredReason": "本文系统梳理了全球农业智能化五大技术趋势，虽以种植业为主，但其AI、IoT、自动化等核心理念与智慧畜牧高度相通，适合畜牧从业者了解跨领域技术动向，启发养殖管理创新。",
+    "titleZh": "全球农业智能化五大技术：AI、IoT、无人机、机器人等正重塑农场",
+    "summaryZh": "本文介绍了全球农业正在经历的数字化转型，重点分析了人工智能、物联网、无人机、机器人等五大技术如何帮助农场应对劳动力短缺、气候异常等挑战。文章以AI为例，阐述了其在病虫害检测、产量预测、精准喷洒等方面的应用，并提到IBM Watson等实际案例。虽然内容偏重种植业，但对智慧畜牧行业的技术趋势理解有参考价值。",
+    "featuredReason": "本文系统梳理了全球农业智能化五大技术趋势，虽以种植业为主，但AI、IoT、无人机等核心技术在智慧畜牧领域同样适用，有助于行业人士拓宽技术视野、把握跨领域创新方向。",
     "url": "https://www.globalagtechinitiative.com/in-field-technologies/drones-uavs/5-technologies-that-are-making-farms-smarter-worldwide/",
     "source": {
       "name": "PrecisionAg",

@@ -1,10 +1,10 @@
 [
   {
-    "id": "cmr0j8d680027awvjzgtelmbc",
+    "id": "cmr1ean9d002bpldz5ut7c16c",
     "titleEn": "Presenting Greenhouse Grower’s 2026 Technology of the Year Finalists",
-    "titleZh": "2026年温室技术奖入围名单揭晓：空气托盘、PAR精准遮阳系统与自动装盆机",
-    "summaryZh": "本文介绍了《温室种植者》杂志评选的2026年度技术奖三项入围技术：Blackmore公司的Air Tray空气托盘技术，通过空气修剪根系改善根质量与作物均匀性；Svensson的PARPerfect动态遮阳系统，实现光合有效辐射的精准控制；BOLD Robotic Solutions的Pot-in-Tray自动装盆机，以高速自动化替代人工重复劳动。这些技术虽主要面向温室园艺，但其自动化、传感器控制、根系优化等理念对智慧畜牧（如精准环境调控、自动化作业、生物效率提升）具有跨领域借鉴价值。",
-    "featuredReason": "虽然聚焦温室园艺，但空气修剪根系、动态光环境精准控制、高速自动化装盆等技术与智慧畜牧中的精准饲喂、环境调控、自动化作业理念高度相通，可启发养殖业在生物效率提升和劳动力替代方面的创新思路。",
+    "titleZh": "2026年温室技术奖入围名单揭晓：空气托盘、PAR精准遮阳与自动装盆机引领行业创新",
+    "summaryZh": "本文介绍了2026年温室种植者年度技术奖的三项入围技术：Blackmore公司的空气托盘技术通过促进空气修剪根系改善根质量和生产效率；Svensson的PARPerfect遮阳系统实现动态精准光控，避免光胁迫；BOLD Robotic Solutions的盆栽入盘机以高速自动化解决重复性劳动。这些技术虽主要面向温室园艺，但其在自动化、环境精准控制、根系管理方面的创新对智慧畜牧（如设施养殖环境调控、自动化作业）具有跨领域参考价值。",
+    "featuredReason": "尽管聚焦温室园艺，但空气托盘的根系管理理念、PAR精准遮阳的环境控制逻辑、以及自动装盆的机器人方案，对智慧畜牧中养殖环境调控、自动化作业和生物效率提升具有直接借鉴意义。",
     "url": "https://www.greenhousegrower.com/technology/presenting-greenhouse-growers-2026-technology-of-the-year-finalists/",
     "source": {
       "name": "Greenhouse Grower",
@@ -16,8 +16,8 @@
     "category": "crop",
     "subcategory": "horticulture",
     "techTags": "",
-    "qualityScore": 55,
-    "isFeatured": true,
+    "qualityScore": 54,
+    "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-06-26T18:41:04.000Z"
   }

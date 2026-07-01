@@ -1,0 +1,28 @@
+{
+  "id": "cmr1ean2u0013pldz37rfqsj3",
+  "titleEn": "Farm-ING now offers a choice of 3 different smart weeders",
+  "titleZh": "Farm-ING新增两款智能除草机：点喷除草与激光除草可选",
+  "summaryZh": "奥地利智能农业设备专家Farm-ING在其产品线中新增了两款智能除草机选项，使农民和承包商现在可以选择点喷除草和激光除草技术。这标志着该公司从单一机械除草向多元化智能除草方案的扩展，提升了杂草管理的精准度和效率。虽然该新闻主要聚焦于种植业，但其背后的IoT、AI和自动化技术对智慧畜牧行业中的精准饲喂、环境监控等应用具有间接参考价值。",
+  "featuredReason": "虽然该新闻直接针对种植业，但其中涉及的智能传感、自动识别与精准作业技术，与智慧畜牧中动物个体识别、精准饲喂及环境自动化控制有技术共通性，值得跨界关注。",
+  "url": "https://www.futurefarming.com/crop-solutions/weed-pest-control/farm-ing-now-offers-a-choice-of-3-different-smart-weeders/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1"
+  },
+  "sourceId": "futurefarming",
+  "species": "general",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 61,
+  "isFeatured": true,
+  "isHot": true,
+  "publishedAt": "2026-06-17T07:00:00.000Z",
+  "contentFull": "",
+  "translationZh": "奥地利智能农业设备专家Farm-ING在其产品线中新增了两款智能除草机选项。农民和承包商现在也可以使用Farm-ING进行点喷除草和激光除草。",
+  "images": [],
+  "author": "",
+  "contentHtml": "Austrian smart farming equipment specialist Farm-ING has added 2 additional smart weeder options to its line-up. Farmers and contractors can now also spot-spray and laser-weed with Farm-ING.",
+  "scrapeMethod": "scrape_failed"
+}

@@ -1,10 +1,10 @@
 [
   {
-    "id": "cmr0j8dlw003lawvj9nmge43c",
+    "id": "cmr1eanuz003ppldz0182k9tq",
     "titleEn": "AgriFood Signals: Bayer wins roundup case, CEO change at Vow, Reservoir acquires Contain",
-    "titleZh": "AgriFood Signals周报：拜耳草甘膦案胜诉、Vow CEO换人、Reservoir收购Contain",
-    "summaryZh": "本文是AgFunderNews的AgriFood Signals周报，汇总了2026年6月26日当周农业科技与食品科技领域的重要融资、并购、人事变动及行业动态。核心事件包括：拜耳在草甘膦诉讼中获美国最高法院支持、人造肉公司Vow因重组更换CEO、Reservoir收购Contain以加速农业机器人技术。此外还涉及多家初创公司融资（如Omni、Terraxy）、大企业并购（如达能收购澳洲乳企）、政策动向（美国再生农业行政令、英国反毁林法规）及行业困境（Goterra破产、Keel Labs破产、Liberation Bioindustries停工）。",
-    "featuredReason": "虽然该周报覆盖范围广，但其中Reservoir收购Contain、Fieldwork Robotics融资等事件直接涉及农业机器人和自动化技术，对智慧畜牧领域的设备集成与AI应用有参考价值；同时拜耳草甘膦案和再生农业政策也间接影响养殖业上游种植环节。",
+    "titleZh": "AgriFood Signals：拜耳赢得草甘膦案、Vow CEO变更、Reservoir收购Contain",
+    "summaryZh": "本文是AgFunderNews的行业周报，汇总了2026年6月26日前后农业食品科技领域的重要融资、并购、人事变动及政策新闻。核心内容包括：拜耳在草甘膦诉讼中获美国最高法院支持、人造肉公司Vow因重组更换CEO、Reservoir收购Contain以加速农业机器人技术、多家初创公司获得融资（如Omni、Myota、Terraxy等），以及美国再生农业行政令、Keel Labs破产等。内容覆盖面广，但直接涉及智慧畜牧（IoT/AI/自动化/机器人）的条目较少。",
+    "featuredReason": "本文提供了农业食品科技领域的全景式动态，虽然直接涉及智慧畜牧的内容不多，但其中Reservoir收购Contain（加速农业机器人物理AI）以及多项与养殖、土壤、植物技术相关的融资并购，可为智慧畜牧从业者提供跨界技术趋势和资本流向的参考。",
     "url": "https://agfundernews.com/agrifood-signals-bayer-wins-roundup-case-ceo-change-at-vow-reservoir-acquires-contain",
     "source": {
       "name": "AgFunderNews",
@@ -19,15 +19,59 @@
     "qualityScore": 59,
     "isFeatured": true,
     "isHot": false,
-    "publishedAt": "2026-06-30T10:57:16.771Z"
+    "publishedAt": "2026-07-01T01:26:51.461Z"
   },
   {
-    "id": "cmr0j8dm4003pawvjjkm18t6h",
+    "id": "cmr1eanv6003tpldzqkw28ig6",
     "titleEn": "AgriFood Signals: Anthropic joins carbon removal coalition, Elanco launches venture arm, AeroFarms acquired",
-    "titleZh": "AgriFood Signals：Anthropic加入碳去除联盟，Elanco成立风险投资部门，AeroFarms被收购",
-    "summaryZh": "本文汇总了2026年6月18日农业食品科技领域的重要融资、并购、合作及政策动态。亮点包括：Anthropic加入碳去除联盟、Elanco启动2500万美元动物健康风投、AeroFarms被收购、多家初创公司获得融资（如Vertoro、Vivici、Rainbow Crops等），以及欧盟通过新基因组技术规则和植物基肉类标签禁令。内容涵盖精准发酵、基因编辑、土壤健康、AI农业助手等前沿技术，对智慧畜牧行业有一定参考价值，但直接关联度中等。",
-    "featuredReason": "本文汇总了农业食品科技领域的最新动态，包括动物健康风投、精准发酵、基因编辑等前沿技术，为智慧畜牧从业者提供了行业趋势和投资风向的参考，尤其Elanco Ventures的成立值得关注。",
+    "titleZh": "AgriFood Signals：Anthropic加入碳去除联盟，Elanco推出风险投资部门，AeroFarms被收购",
+    "summaryZh": "本文汇总了2026年6月18日农业食品科技领域的重要融资、并购、合作及政策动态。亮点包括：Anthropic加入碳去除联盟、Elanco成立2500万美元动物健康风险投资部门、AeroFarms被收购并计划扩张、多家公司获得融资用于精准发酵蛋白、AI基因编辑、土壤健康测量等技术。此外，欧盟通过了新基因组技术规则和植物基及细胞培养肉标签禁令。",
+    "featuredReason": "本文覆盖了动物健康风险投资、精准发酵蛋白、AI基因编辑等前沿技术，以及欧盟新规对替代蛋白的影响，为智慧畜牧从业者提供了跨领域创新和资本动向的参考。",
     "url": "https://agfundernews.com/agrifood-signals-anthropic-joins-carbon-removal-coalition-elanco-launches-venture-arm-aerofarms-acquired",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 58,
+    "isFeatured": true,
+    "isHot": false,
+    "publishedAt": "2026-07-01T01:26:51.461Z"
+  },
+  {
+    "id": "cmr1eanvq0043pldztwpl2dtk",
+    "titleEn": "The Protein Brewery wins EU approval for Fermotein mycoprotein six years after novel foods filing",
+    "titleZh": "蛋白质酿酒厂Fermotein真菌蛋白获欧盟批准，六年新食品申请终落地",
+    "summaryZh": "荷兰公司The Protein Brewery的真菌蛋白成分Fermotein获得欧盟新型食品法规批准，成为首个在欧盟获批销售的菌丝体新食品。该产品已在新加坡和美国获批，预计2026年第三季度上市，2027年供应600吨。CEO称此批准为食品技术历史性先例，但GFI Europe指出审批耗时六年，呼吁加快监管流程。",
+    "featuredReason": "虽然该新闻主要聚焦人类食品领域，但其非无菌发酵工艺和菌丝体蛋白生产技术对智慧畜牧中的新型饲料蛋白开发具有潜在借鉴意义，值得关注替代蛋白在养殖业的应用趋势。",
+    "url": "https://agfundernews.com/the-protein-brewery-wins-eu-approval-for-fermotein-mycoprotein-six-years-after-novel-foods-filing",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 59,
+    "isFeatured": true,
+    "isHot": false,
+    "publishedAt": "2026-07-01T01:26:51.461Z"
+  },
+  {
+    "id": "cmr1eanwj004lpldzl4sh5jt0",
+    "titleEn": "AgriFood Signals: EIF commits $29m to Irish agrifoodtech, Aphea.Bio and Bayer team up, GLP-1 pills",
+    "titleZh": "AgriFood Signals：EIF向爱尔兰农业食品科技投资2900万美元，Aphea.Bio与拜耳合作，GLP-1药片获批",
+    "summaryZh": "本文是AgFunderNews的农业食品科技周报，汇总了近期重要的融资、并购、合作及行业动态。核心内容包括：欧洲投资基金（EIF）承诺向爱尔兰农业食品创新基金注资2500万欧元（总规模1亿欧元）；比利时生物农药公司Aphea.Bio与拜耳合作开发生物杀虫剂；英国批准首款GLP-1减肥药片。此外还涉及昆虫蛋白、替代蛋白、精准喷洒、AI农业等领域的多项融资与并购。对智慧畜牧行业而言，直接相关的内容较少，但精准农业、生物农药等趋势值得关注。",
+    "featuredReason": "虽然本文并非专门聚焦智慧畜牧，但其中精准喷洒、生物农药、AI农业等动态与养殖业智能化管理间接相关，可作为行业趋势参考。",
+    "url": "https://agfundernews.com/agrifood-signals-eif-commits-29m-to-irish-agrifoodtech-aphea-bio-and-bayer-team-up-glp-1-pills",
     "source": {
       "name": "AgFunderNews",
       "nameZh": "农业科技投",
@@ -41,50 +85,6 @@
     "qualityScore": 57,
     "isFeatured": true,
     "isHot": false,
-    "publishedAt": "2026-06-30T10:57:16.771Z"
-  },
-  {
-    "id": "cmr0j8dmj003zawvjvbgbwhfa",
-    "titleEn": "The Protein Brewery wins EU approval for Fermotein mycoprotein six years after novel foods filing",
-    "titleZh": "The Protein Brewery获欧盟批准：Fermotein真菌蛋白成为首个新型菌丝体食品",
-    "summaryZh": "荷兰公司The Protein Brewery的Fermotein真菌蛋白在提交新型食品申请六年后，获得欧盟委员会批准，成为首个依据欧盟新型食品法规获批销售的菌丝体成分。该产品已在新加坡获批、在美国获得自我GRAS认定，并在英国、加拿大、澳大利亚/新西兰推进监管审批。公司预计2027年从荷兰示范工厂供应600吨，2029年产能超2000吨。CEO称非无菌发酵工艺显著降低资本和运营成本。GFI Europe呼吁加快监管流程。",
-    "featuredReason": "虽然该新闻主要聚焦食品科技而非智慧畜牧，但菌丝体蛋白作为替代蛋白来源，可能对畜牧饲料原料创新和可持续养殖模式提供参考，值得关注跨界技术趋势的行业人士阅读。",
-    "url": "https://agfundernews.com/the-protein-brewery-wins-eu-approval-for-fermotein-mycoprotein-six-years-after-novel-foods-filing",
-    "source": {
-      "name": "AgFunderNews",
-      "nameZh": "农业科技投",
-      "tier": "T1"
-    },
-    "sourceId": "agfundernews",
-    "species": "cattle",
-    "category": "livestock",
-    "subcategory": "cattle",
-    "techTags": "",
-    "qualityScore": 61,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-30T10:57:16.771Z"
-  },
-  {
-    "id": "cmr0j8dn9004hawvjb60i6m6m",
-    "titleEn": "AgriFood Signals: EIF commits $29m to Irish agrifoodtech, Aphea.Bio and Bayer team up, GLP-1 pills",
-    "titleZh": "农业食品信号：EIF向爱尔兰农业食品科技投资2900万美元，Aphea.Bio与拜耳合作，GLP-1药片获批",
-    "summaryZh": "本期AgriFood Signals汇总了农业食品科技领域的重要融资、并购、合作及行业动态。亮点包括：欧洲投资基金（EIF）承诺向爱尔兰农业食品创新基金注资2500万欧元；比利时生物农药公司Aphea.Bio与拜耳合作开发生物杀虫剂；英国批准首款GLP-1减肥药片。此外，三星投资工业机器人初创公司Theker，Innovafeed在昆虫蛋白工业化阶段融资5900万美元，以及UPSIDE Foods对Believer Meats的美国培养肉工厂提出5000万美元收购要约。",
-    "featuredReason": "本期新闻虽非直接聚焦智慧畜牧，但其中Aphea.Bio与拜耳合作开发生物杀虫剂、EIF对农业食品创新基金的投资，以及GLP-1药片获批对畜牧业减抗和人类健康的影响，均与智慧畜牧的可持续发展趋势高度相关，值得关注。",
-    "url": "https://agfundernews.com/agrifood-signals-eif-commits-29m-to-irish-agrifoodtech-aphea-bio-and-bayer-team-up-glp-1-pills",
-    "source": {
-      "name": "AgFunderNews",
-      "nameZh": "农业科技投",
-      "tier": "T1"
-    },
-    "sourceId": "agfundernews",
-    "species": "cattle",
-    "category": "livestock",
-    "subcategory": "cattle",
-    "techTags": "",
-    "qualityScore": 68,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-30T10:57:16.771Z"
+    "publishedAt": "2026-07-01T01:26:51.461Z"
   }
 ]
