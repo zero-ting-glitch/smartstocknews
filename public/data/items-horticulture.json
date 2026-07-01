@@ -1,10 +1,10 @@
 [
   {
-    "id": "cmr1eqrgm002b132zr2my4wqs",
+    "id": "cmr1fhpe0002bttbrrb8mdjwf",
     "titleEn": "Presenting Greenhouse Grower’s 2026 Technology of the Year Finalists",
     "titleZh": "2026年温室种植者年度技术奖入围名单揭晓",
-    "summaryZh": "本文介绍了2026年温室种植者年度技术奖的三项入围技术：Air Tray Technologies通过空气修剪根系改善根质量和作物均匀性；PARPerfect Shading System实现动态精准光照控制；Pot-in-Tray Machine自动化高速装盆提高效率。这些技术虽主要针对温室园艺，但其自动化、传感器和精准控制理念对智慧畜牧行业有借鉴价值。",
-    "featuredReason": "虽然这些技术主要针对温室园艺，但其自动化、精准控制和传感器集成理念对智慧畜牧行业（如环境调控、自动饲喂、机器人作业）具有直接借鉴意义，值得关注前沿农业科技趋势。",
+    "summaryZh": "本文介绍了2026年温室种植者年度技术奖的三项入围技术：Air Tray Technologies通过空气修剪根系改善根质量和生产效率；PARPerfect Shading System实现动态精准光照控制，提升作物均匀性和光利用效率；Pot-in-Tray Machine自动化装盆装盘，高速高效减少人工。这些技术虽聚焦温室种植，但其自动化、传感器和精准控制理念对智慧畜牧行业具有跨领域参考价值。",
+    "featuredReason": "虽然这些技术直接针对温室种植，但其空气修剪根系、动态光照控制和自动化装盆装盘的思路，与智慧畜牧中环境调控、精准饲喂和自动化作业高度相通，可为畜牧从业者提供跨领域创新启发。",
     "url": "https://www.greenhousegrower.com/technology/presenting-greenhouse-growers-2026-technology-of-the-year-finalists/",
     "source": {
       "name": "Greenhouse Grower",
@@ -16,7 +16,7 @@
     "category": "crop",
     "subcategory": "horticulture",
     "techTags": "",
-    "qualityScore": 55,
+    "qualityScore": 58,
     "isFeatured": true,
     "isHot": false,
     "publishedAt": "2026-06-26T18:41:04.000Z"

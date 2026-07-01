@@ -1,0 +1,28 @@
+{
+  "id": "cmr1fhp8o000lttbrzwa0bmf7",
+  "titleEn": "AgXeed’s VCU brings existing tractors into the autonomous fold",
+  "titleZh": "AgXeed推出车辆控制单元，将现有拖拉机纳入自主作业生态",
+  "summaryZh": "AgXeed发布了紧凑型改装套件VCU（车辆控制单元），通过ISOBUS TIM协议将现有拖拉机连接至其TraXwise规划与监控平台，使标准农机能够执行预编程的自动化作业，仅需少量人工干预。该单元已被收录至《未来农业自主改装套件目录》。虽然主要面向大田种植，但其“即插即用”的自主化思路对智慧畜牧中的饲喂、清粪等自动化作业场景具有借鉴意义。",
+  "featuredReason": "该技术展示了如何通过低成本改装套件实现现有农机的自主化，为智慧畜牧行业在存量设备升级、降低自动化门槛方面提供了可借鉴的路径。",
+  "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/agxeeds-vcu-brings-existing-tractors-into-the-autonomous-fold/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1"
+  },
+  "sourceId": "futurefarming",
+  "species": "general",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 72,
+  "isFeatured": true,
+  "isHot": true,
+  "publishedAt": "2026-06-29T07:00:00.000Z",
+  "contentFull": "",
+  "translationZh": "AgXeed推出了其车辆控制单元（VCU），这是一款紧凑型改装套件，可将现有拖拉机纳入该公司的自动化生态系统。该单元通过ISOBUS TIM协议连接，将拖拉机的控制系统与AgXeed自有的规划与监控平台TraXwise相连，从而使标准农机能够以极少的人工输入执行预先规划好的作业。VCU现已收录至《未来农业自主改装套件目录》。",
+  "images": [],
+  "author": "",
+  "contentHtml": "AgXeed has introduced its Vehicle Control Unit (VCU), a compact retrofit kit that brings existing tractors into the company’s automated ecosystem. The unit connects via ISOBUS TIM to link the tractor’s controls to TraXwise, AgXeed’s own planning and monitoring platform – allowing standard machines to carry out pre-planned operations with little manual input. The VCU has now been added to the Future Farming Autonomous Retrofit Kits Catalogue.",
+  "scrapeMethod": "scrape_failed"
+}

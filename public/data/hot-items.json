@@ -1,55 +1,11 @@
 [
   {
-    "id": "cmr1eqplc000b132ztcww8tfb",
-    "titleEn": "UC Riverside Develops Modern-Day Robotic Divining Rod",
-    "titleZh": "加州大学河滨分校开发现代机器人探水仪：逐树绘制土壤湿度图，精准灌溉助力抗旱",
-    "summaryZh": "加州大学河滨分校（UC Riverside）的研究团队开发了一套新型机器人系统，能够逐棵树绘制果园土壤湿度图，帮助农民在干旱和水资源短缺时代实现精准灌溉。该系统通过机器人测量土壤电导率，并结合埋入式传感器的数据，建立统计模型预测整个田块的水分分布，从而让农民知道每棵树需要多少水，只在需要的地方和时间浇水。这项技术有望替代传统昂贵的固定传感器，解决因土壤质地差异导致的灌溉不均问题，对提升水资源利用效率和作物健康具有重要意义。",
-    "featuredReason": "该技术将机器人、传感器与统计建模结合，实现了逐棵树的精准灌溉，对智慧畜牧行业中的种植业环节（如饲料作物或果园管理）具有直接借鉴意义，展示了如何通过低成本、高精度的土壤监测提升水资源利用效率，应对干旱挑战。",
-    "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/uc-riverside-develops-modern-day-robotic-divining-rod/",
-    "source": {
-      "name": "PrecisionAg",
-      "nameZh": "精准农业",
-      "tier": "T1"
-    },
-    "sourceId": "precisionag",
-    "species": "fruit",
-    "category": "crop",
-    "subcategory": "fruit",
-    "techTags": "",
-    "qualityScore": 90,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-15T18:17:17.000Z"
-  },
-  {
-    "id": "cmr1eqrym003j132zuim3lmhw",
-    "titleEn": "The food system needs a rewiring, not a reinvention, Anterra Capital says after $100m raise",
-    "titleZh": "食品系统需要“重新布线”而非“彻底改造”——Anterra Capital完成1亿美元募资后的战略洞察",
-    "summaryZh": "Anterra Capital宣布其第三期基金首轮关闭募资1亿美元（目标2亿美元），创始合伙人Maarten Goossens强调食品系统应聚焦“重新布线”而非“彻底改造”。该基金重点投资动物健康、AI解决食品瓶颈等领域，认为在肉类行业（年收入近2万亿美元）中通过技术优化比追逐替代蛋白（100-200亿美元）能创造更大价值和影响。文章批判了此前VC盲目涌入替代蛋白和垂直农业的泡沫，并指出Anterra坚持基本面投资、远离炒作，是其持续回报的关键。",
-    "featuredReason": "本文揭示了智慧畜牧领域投资的新风向：与其追逐替代蛋白等热门概念，不如通过AI、动物健康技术等对现有庞大肉类系统进行‘重新布线’，这为畜牧从业者提供了务实且高价值的创新路径参考。",
-    "url": "https://agfundernews.com/the-food-system-needs-a-rewiring-not-a-reinvention-anterra-capital-says-after-100m-raise",
-    "source": {
-      "name": "AgFunderNews",
-      "nameZh": "农业科技投",
-      "tier": "T1"
-    },
-    "sourceId": "agfundernews",
-    "species": "general",
-    "category": "aggtech",
-    "subcategory": "general",
-    "techTags": "",
-    "qualityScore": 85,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-07-01T01:39:23.261Z"
-  },
-  {
-    "id": "cmr1eqrz1003v132zum50n9j9",
-    "titleEn": "Rainbow Crops raises $11.25m to scale AI-guided multiplex gene editing",
-    "titleZh": "Rainbow Crops获1125万美元种子轮融资，用AI引导多重基因编辑提升作物产量与抗旱性",
-    "summaryZh": "比利时农业科技初创公司Rainbow Crops完成1125万美元种子轮融资，由LIFTT EuroInvest领投。该公司利用AI预测影响复杂性状的基因组合，结合多重基因编辑与高通量筛选，系统性地改良玉米等作物的产量、抗旱性等多基因控制性状。其平台整合了系统生物学、AI建模和基因编辑，形成闭环优化，有望突破传统育种瓶颈，为智慧种植业提供精准基因改良工具。",
-    "featuredReason": "该新闻展示了AI与基因编辑在作物育种中的前沿融合，虽直接针对种植业，但其系统生物学思路和闭环优化方法对智慧畜牧中动物基因组选择、精准育种具有重要借鉴意义，值得关注跨领域技术迁移。",
-    "url": "https://agfundernews.com/rainbow-crops-raises-11-25m-to-scale-ai-guided-multiplex-gene-editing",
+    "id": "cmr1fhptc003zttbrdljzyfi1",
+    "titleEn": "Picketa Systems raises $1.5m to bring crop nutrient testing to the field",
+    "titleZh": "Picketa Systems获150万美元融资，将作物营养检测带入田间",
+    "summaryZh": "加拿大初创公司Picketa Systems完成150万美元融资，用于推广其基于AI光谱技术的便携式作物营养传感系统LENS。该系统可在几分钟内检测13种关键营养素，结合Fieldbook平台帮助农民将肥料成本降低20%并提高产量。CEO预测十年内通过作物传感、专用投入和自动驾驶车辆，将完全实现肥料循环闭环。",
+    "featuredReason": "该技术将AI光谱传感与精准农业结合，显著降低肥料成本并提升产量，其便携、实时、多营养检测能力对智慧畜牧中的饲草料营养管理具有直接借鉴价值。",
+    "url": "https://agfundernews.com/picketa-raises-1-5m-to-bring-crop-nutrient-testing-to-the-field",
     "source": {
       "name": "AgFunderNews",
       "nameZh": "农业科技投",
@@ -63,14 +19,14 @@
     "qualityScore": 85,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-07-01T01:39:23.261Z"
+    "publishedAt": "2026-07-01T02:00:20.173Z"
   },
   {
-    "id": "cmr1eqpkx0001132zji1blub2",
+    "id": "cmr1fhor00001ttbr1a210ken",
     "titleEn": "Sabanto Inc. and Verdant Robotics Announce Technical Integration of Autonomous Tractor Operation with SharpShooter Plant-Level Precision Application",
-    "titleZh": "Sabanto与Verdant Robotics集成：实现无人驾驶拖拉机与植物级精准施药全自动作业",
-    "summaryZh": "Sabanto Inc.与Verdant Robotics宣布首次技术集成，将Sabanto的农机自主改装系统与Verdant的SharpShooter植物级精准施药系统直接通信。该集成使拖拉机无需驾驶员即可完成从导航到植物级精准施药的全自动化田间作业，通过Aim & Apply技术实时识别单株植物和杂草，仅对需要区域施药，大幅减少投入品使用。系统通过CAN总线实时传输田间数据，自动调整车速和机具高度，实现24/7无人工连续作业。已在Bethel Farms的商业草皮生产中验证效果，为农业劳动力短缺和精准农业提供了可落地的自主化解决方案。",
-    "featuredReason": "该集成展示了农机自主改装与植物级精准施药技术的深度融合，为智慧畜牧行业（尤其是种植业环节）提供了可复用的自动化、精准化作业范式，对解决劳动力短缺、提升投入品利用效率具有直接参考价值。",
+    "titleZh": "Sabanto与Verdant Robotics整合：实现无人驾驶拖拉机与植物级精准施药系统联动",
+    "summaryZh": "Sabanto Inc.与Verdant Robotics宣布首次技术整合，将Sabanto的拖拉机自主改装系统与Verdant的SharpShooter植物级精准施药系统直接通信。该整合实现了从导航到植物级精准施药的全程自动化，无需驾驶舱操作员。SharpShooter利用Aim & Apply™技术识别单株植物和杂草，仅在需要处施药，大幅减少投入。系统通过CAN总线实时传输田间数据，自主调整拖拉机车速和机具高度。已在Bethel Farms商业草皮生产中验证效果，可24/7运行，解决劳动力短缺问题。",
+    "featuredReason": "该整合展示了自主拖拉机与植物级精准施药系统的深度联动，代表了智慧农业中自动化与精准化融合的前沿方向，对智慧畜牧行业人士理解跨界技术协同、提升生产效率具有重要参考价值。",
     "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/sabanto-inc-and-verdant-robotics-announce-technical-integration-of-autonomous-tractor-operation-with-sharpshooter-plant-level-precision-application/",
     "source": {
       "name": "PrecisionAg",
@@ -88,11 +44,11 @@
     "publishedAt": "2026-06-30T19:48:08.000Z"
   },
   {
-    "id": "cmr1eqpl40005132zekp16ot8",
+    "id": "cmr1fhor60005ttbrtwn58i2h",
     "titleEn": "Niqo Robotics Takes India-Built Physical AI Farming Platform to Europe at Bharat Innovates 2026",
     "titleZh": "Niqo Robotics携印度造物理AI农业平台亮相Bharat Innovates 2026，进军欧洲市场",
-    "summaryZh": "印度物理AI公司Niqo Robotics被选为代表印度参加Bharat Innovates 2026深科技峰会，成为120家创新企业中唯一的精准AI农业机器人公司。其自主研发的物理AI农业平台已实现商业化，无需订阅、无隐藏成本，能为农民提供即时投资回报。此举标志着印度制造的农业机器人从本土走向全球，尤其以法国为欧洲切入点，展示其在提高生产力、减少投入和推动可持续农业方面的潜力。",
-    "featuredReason": "Niqo Robotics的物理AI农业平台展示了印度在精准农业机器人领域的突破性进展，其商业化模式（无订阅、即时ROI）为智慧畜牧和种植业的自动化与AI应用提供了可借鉴的路径，值得关注全球农业科技趋势的从业者阅读。",
+    "summaryZh": "印度物理AI公司Niqo Robotics被选为代表印度参加Bharat Innovates 2026深科技峰会，成为120家创新企业中唯一的精准AI农业机器人公司。其自主研发的物理AI农业平台已实现商业化，无需订阅、无隐藏成本，可直接为农民带来投资回报。公司计划以法国为切入点，拓展欧洲、澳大利亚等全球农业市场，标志着印度造农业机器人从本土走向全球的重要一步。",
+    "featuredReason": "Niqo Robotics的物理AI农业平台展示了印度造农业机器人从本土走向全球的突破，其无订阅、即用即回报的商业模式对智慧畜牧行业具有重要借鉴意义，尤其是在精准农业和自动化领域的应用前景广阔。",
     "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/niqo-robotics-takes-india-built-physical-ai-farming-platform-to-europe-at-bharat-innovates-2026/",
     "source": {
       "name": "PrecisionAg",
@@ -110,12 +66,56 @@
     "publishedAt": "2026-06-19T17:33:10.000Z"
   },
   {
-    "id": "cmr1eqqjn0017132zuriqjs1y",
-    "titleEn": "If food security is strategic, why does agricultural innovation still struggle to scale?",
-    "titleZh": "粮食安全战略地位凸显，农业创新为何仍难规模化？",
-    "summaryZh": "本文探讨了农业创新规模化面临的困境。尽管农业长期受益于从国防、汽车、硅谷等外部领域引入的GPS、传感器、AI等技术，但自身创新却难以实现大规模应用。文章从战略高度提出，若粮食安全被视为国家战略，为何农业技术创新仍缺乏足够的政策支持、资金投入和产业协同？这为智慧畜牧行业反思技术落地瓶颈、推动跨领域融合提供了重要视角。",
-    "featuredReason": "本文直击智慧畜牧行业技术规模化落地的核心痛点，启发从业者思考如何突破跨领域技术整合与政策支持的瓶颈，具有战略指导价值。",
-    "url": "https://www.futurefarming.com/tech-in-focus/if-food-security-is-strategic-why-does-agricultural-innovation-still-struggle-to-scale/",
+    "id": "cmr1fhord000bttbrf96id4o5",
+    "titleEn": "UC Riverside Develops Modern-Day Robotic Divining Rod",
+    "titleZh": "加州大学河滨分校开发现代机器人探水仪：逐树绘制土壤湿度图",
+    "summaryZh": "加州大学河滨分校（UC Riverside）的研究团队开发了一种新型机器人系统，能够逐棵树绘制果园土壤湿度图，帮助农民在干旱加剧和水资源短缺的时代实现精准灌溉。该系统通过机器人测量土壤电导率，并结合埋地传感器的数据，建立统计模型预测整个田地的水分含量，从而让农民知道每棵树需要多少水，只在需要的地方和时间浇水。这项技术有望解决传统土壤湿度传感器成本高、覆盖范围有限的问题，提升水资源利用效率，保障植物健康，并防止果园因缺水或过水而倒闭。研究成果发表在《计算机与电子农业》期刊上。",
+    "featuredReason": "该技术展示了机器人、传感器与数据建模在精准农业中的深度融合，虽主要针对种植业，但其逐点监测、按需灌溉的思路对智慧畜牧中的饲草料生产、牧场水资源管理具有直接借鉴价值，体现了跨领域技术迁移的潜力。",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/uc-riverside-develops-modern-day-robotic-divining-rod/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-15T18:17:17.000Z"
+  },
+  {
+    "id": "cmr1fhpsu003lttbrjl6g5hxr",
+    "titleEn": "Tech alone won’t future-proof the food system, experts warn",
+    "titleZh": "专家警告：仅靠技术无法保障食品系统未来",
+    "summaryZh": "在阿姆斯特丹举行的Hello Tomorrow峰会上，专家们指出，尽管气候危机和地缘政治风险加剧，政府和企业拥有比以往更多的工具来发现食品系统脆弱性，但仅靠技术修补现有系统是不够的。Giga Futures创始人Christine Gould强调，恢复力可能只是让系统回到“根本上不奏效”的现状。麦肯锡全球研究所的Marc Canal呼吁继续推动技术发展和私营部门创新，而欧洲航天局的Giuseppe Borghi则指出，政治协调才是缺失的关键环节。文章核心价值在于提醒智慧畜牧行业：技术部署需与政策改革协同，才能实现系统性的可持续转型。",
+    "featuredReason": "本文为智慧畜牧行业提供了关键警示：技术（如IoT、AI、传感器）虽是工具，但若缺乏政策协同和系统性改革，仅用于修补现有体系，无法真正实现可持续的未来。值得从业者反思技术落地的战略定位。",
+    "url": "https://agfundernews.com/tech-alone-wont-future-proof-the-food-system-experts-warn",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 81,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-01T02:00:20.173Z"
+  },
+  {
+    "id": "cmr1fhp8r000nttbroqgjabbx",
+    "titleEn": "Agreenculture acquires Chouette to add agronomic intelligence to autonomous machines",
+    "titleZh": "法国农业自动化公司Agreenculture收购Chouette，为自主机器增添农艺智能",
+    "summaryZh": "法国自主机器专家Agreenculture收购了专注于葡萄栽培AI农艺分析的公司Chouette。此次交易将Agreenculture的自主技术与Chouette的作物监测算法相结合，旨在打造既能独立作业又能解读田间观察结果的机器。该事件展示了农业自动化与AI农艺分析的融合趋势，对智慧畜牧领域在自主设备与智能监测结合方面具有借鉴意义。",
+    "featuredReason": "该收购案例展示了农业自动化与AI农艺分析的深度融合，为智慧畜牧行业在自主设备与智能监测系统集成方面提供了前瞻性参考。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/agreenculture-acquires-chouette-to-add-agronomic-intelligence-to-autonomous-machines/",
     "source": {
       "name": "Future Farming",
       "nameZh": "未来农业",
@@ -126,39 +126,39 @@
     "category": "aggtech",
     "subcategory": "general",
     "techTags": "",
-    "qualityScore": 85,
+    "qualityScore": 80,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-15T09:00:00.000Z"
+    "publishedAt": "2026-06-25T06:30:00.000Z"
   },
   {
-    "id": "cmr1eqple000d132zjvyw9wz3",
-    "titleEn": "Syngenta Signs MoU to Be Strategic Partner in India’s First Open-Data Agricultural Ecosystem Annam.AI",
-    "titleZh": "先正达签署谅解备忘录，成为印度首个开放数据农业生态系统Annam.AI的战略合作伙伴",
-    "summaryZh": "印度农业面临气候变化、病虫害等挑战，Annam.AI项目旨在构建基于开放数据的全国性农业智能基础设施，为农民提供免费、实时、个性化的AI决策支持。先正达作为战略合作伙伴，将利用其研发和农艺专长，构建作物健康、病虫害预测和热应激模型。该项目由印度政府、谷歌及IIT Ropar等机构支持，对智慧农业和气候韧性农业具有重要示范意义。",
-    "featuredReason": "该新闻展示了开放数据与AI在农业中的大规模应用，对智慧畜牧行业在数据共享、精准决策和气候适应性方面具有重要借鉴意义。",
-    "url": "https://www.globalagtechinitiative.com/digital-farming/syngenta-signs-mou-to-be-strategic-partner-in-indias-first-open-data-agricultural-ecosystem-annam-ai/",
+    "id": "cmr1fhor80007ttbrhyimfjue",
+    "titleEn": "9 Ways Collaboration Is Accelerating Innovation Across AgTech",
+    "titleZh": "九大合作加速农业科技创新的趋势分析",
+    "summaryZh": "本文总结了2025年3月至2026年1月期间农业科技领域的九项重要合作，涵盖AI驱动的企业系统、自主设备、卫星图像和数字害虫检测等。合作方包括SAP与先正达、Sentinel Ag与Nave Analytics等，旨在通过资源共享应对气候波动、成本压力、劳动力短缺和数据复杂性等挑战。文章强调农业零售商作为技术与农场之间的关键连接器，推动可扩展解决方案的落地。",
+    "featuredReason": "本文展示了农业科技领域跨企业合作的最新趋势，尤其是AI与数据整合在精准农业中的应用，为智慧畜牧行业提供了可借鉴的协同创新思路和落地案例。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/9-ways-collaboration-is-accelerating-innovation-across-agtech/",
     "source": {
       "name": "PrecisionAg",
       "nameZh": "精准农业",
       "tier": "T1"
     },
     "sourceId": "precisionag",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
-    "qualityScore": 82,
+    "qualityScore": 80,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-15T17:51:42.000Z"
+    "publishedAt": "2026-06-18T18:10:54.000Z"
   },
   {
-    "id": "cmr1eqpl90009132z9h01nxt4",
+    "id": "cmr1fhorb0009ttbrfqxu2pfc",
     "titleEn": "Beyond Disruption: Earning Trust and Driving Impact in AgTech Through Grower-Led Innovation",
-    "titleZh": "超越颠覆：通过种植者主导的创新在农业科技中赢得信任与推动影响",
-    "summaryZh": "本文由Reservoir CEO Danny Bernstein撰写，反思硅谷软件文化在农业领域的局限性，提出“物理人工智能”概念——即技术需在田间地头实时运行，适应作物节奏而非强迫作物适应技术。文章强调种植者与科技开发者协同创新的重要性，并介绍Reservoir“奥运村”式创新社区模式，让初创企业、种植者和零售商并肩工作，在真实农场环境中测试技术。文章引用2024年CropLife/普渡大学调查数据，显示无人机施药应用率预计从35%增长至50%以上，佐证技术落地趋势。核心价值在于呼吁从“颠覆”转向“信任构建”，为智慧畜牧行业提供跨领域创新方法论参考。",
-    "featuredReason": "本文虽聚焦种植业，但其提出的“物理AI”理念和种植者主导创新模式对智慧畜牧行业极具启发——强调技术必须适应养殖现场的真实条件（如动物行为、环境波动），而非强行套用软件思维，为畜牧IoT、自动化设备落地提供了可借鉴的信任构建路径。",
+    "titleZh": "超越颠覆：通过种植者主导的创新在农业科技中赢得信任并推动影响",
+    "summaryZh": "本文由Reservoir CEO Danny Bernstein撰写，反思硅谷软件文化在农业领域的局限性，提出“物理人工智能”（Physical AI）概念——即技术必须深入田间地头，与作物和土壤实时互动。文章强调农业科技不应孤立开发，而应让初创公司、种植者和零售商在类似“奥运村”的创新社区中协同工作，在真实农场环境中测试迭代。文中引用2024年CropLife/普渡大学调查数据，显示无人机施用农药的零售商比例预计从35%增长至2027年的50%以上，佐证了接地气的技术创新正在加速。文章核心价值在于呼吁从“颠覆”转向“共建信任”，对智慧畜牧行业同样具有启发意义。",
+    "featuredReason": "本文提出的‘物理AI’和‘种植者主导创新’理念，对智慧畜牧行业同样具有深刻启示——技术必须深入养殖一线，与动物、环境和养殖户真实需求结合，才能赢得信任并产生实际影响。",
     "url": "https://www.globalagtechinitiative.com/digital-farming/beyond-disruption-earning-trust-and-driving-impact-in-agtech-through-grower-led-innovation/",
     "source": {
       "name": "PrecisionAg",
@@ -176,11 +176,33 @@
     "publishedAt": "2026-06-17T15:15:53.000Z"
   },
   {
-    "id": "cmr1eqplh000f132zn3jxojm9",
+    "id": "cmr1fhorf000dttbrhvaa6djp",
+    "titleEn": "Syngenta Signs MoU to Be Strategic Partner in India’s First Open-Data Agricultural Ecosystem Annam.AI",
+    "titleZh": "先正达签署谅解备忘录，成为印度首个开放数据农业生态系统Annam.AI的战略合作伙伴",
+    "summaryZh": "先正达宣布签署谅解备忘录，成为印度首个开放数据农业生态系统Annam.AI的战略合作伙伴。Annam.AI由印度政府支持，联合谷歌等科技伙伴及IIT Ropar推动，旨在通过开放数据为农民提供免费、实时、个性化的农业智能服务，包括作物健康、病虫害预测和热应激模型。先正达将贡献其研发和农艺专长，助力精准农业和气候韧性建设。该计划覆盖印度1.5亿农户，其中80%以上为小农户，有望缩小技术鸿沟，提升农业生产效率。",
+    "featuredReason": "该新闻展示了开放数据与AI在农业中的大规模应用，为智慧畜牧行业提供了跨领域借鉴，尤其是气候韧性建模和精准决策支持系统的构建思路。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/syngenta-signs-mou-to-be-strategic-partner-in-indias-first-open-data-agricultural-ecosystem-annam-ai/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-15T17:51:42.000Z"
+  },
+  {
+    "id": "cmr1fhorh000fttbr0vloxyjq",
     "titleEn": "Inside One of America’s Largest Ag Co-Op’s Practical Approach to AI",
-    "titleZh": "美国最大农业合作社之一对AI的务实实践",
-    "summaryZh": "本文通过GROWMARK农艺总监Brendan Bachman的访谈，揭示了北美最大农业合作社系统之一如何将AI从概念转化为日常农艺实践。重点包括：构建数据基础设施、在联邦制组织中协调系统、赢得种植者信任、推动各FS网点采纳。AI被定位为现有工作流程中的实用层，而非颠覆性力量，旨在减少摩擦、帮助作物专家更快做出更明智的季节内决策。工具如MyFS Agronomy正在重塑而非取代农艺师的角色。",
-    "featuredReason": "本文展示了大型农业合作社如何务实落地AI，强调数据基础设施、信任建立和系统整合，对智慧畜牧行业在规模化部署IoT和AI时具有直接借鉴意义。",
+    "titleZh": "美国最大农业合作社之一对AI的务实应用：从概念到田间实践",
+    "summaryZh": "本文通过GROWMARK农艺总监Brendan Bachman的访谈，揭示了北美最大农业合作社系统之一如何将AI从概念落地为日常农艺实践。核心观点是：AI不是颠覆性技术，而是现有工作流程中的实用层，旨在减少摩擦、帮助作物专家更快做出更明智的季节内决策。文章重点讨论了数据基础设施建设、联邦制组织协调、用户信任建立等隐性工作，并指出AI的价值在于整合复杂农艺信息以支持而非替代人类判断。未来几季的关键是观察AI使用者和非使用者之间是否会出现绩效差距。",
+    "featuredReason": "本文展示了大型农业合作社如何务实落地AI，强调数据基础设施、用户信任和系统整合等隐性工作，对智慧畜牧行业从概念验证走向规模化应用具有直接借鉴意义。",
     "url": "https://www.globalagtechinitiative.com/digital-farming/inside-one-of-americas-largest-ag-co-ops-practical-approach-to-ai/",
     "source": {
       "name": "PrecisionAg",
@@ -196,27 +218,5 @@
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-12T16:46:56.000Z"
-  },
-  {
-    "id": "cmr1eqplj000h132zj3ov2uj9",
-    "titleEn": "Tech Hub LIVE Returns to Des Moines July 20-22 with Practical Answers for a High-Pressure Ag Economy",
-    "titleZh": "Tech Hub LIVE 2026重返得梅因：为高压农业经济提供实用技术答案",
-    "summaryZh": "Tech Hub LIVE 2026会议将于2026年7月20-22日在爱荷华州得梅因举行，聚焦农业零售商和种植者在高投入成本、利润压缩和贸易不确定性下的技术采纳挑战。会议邀请60多位演讲者、50多家参展商，涵盖AI在农业中的实际应用、无人机政策、网络安全、生物技术创新等议题，强调通过实践者主导的会议、现场研究结果和同行交流，帮助参会者识别真正带来投资回报的技术并制定可行计划。",
-    "featuredReason": "该会议聚焦农业技术采纳的实际回报，涵盖AI、无人机、数据工作流等智慧农业核心议题，对智慧畜牧行业人士理解跨领域技术趋势和投资决策具有重要参考价值。",
-    "url": "https://www.globalagtechinitiative.com/digital-farming/tech-hub-live-returns-to-des-moines-july-20-22-with-practical-answers-for-a-high-pressure-ag-economy/",
-    "source": {
-      "name": "PrecisionAg",
-      "nameZh": "精准农业",
-      "tier": "T1"
-    },
-    "sourceId": "precisionag",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 80,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-12T15:38:48.000Z"
   }
 ]
