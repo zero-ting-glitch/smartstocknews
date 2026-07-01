@@ -652,9 +652,11 @@ async function main() {
   };
   writeFileSync(join(outDir, 'stats.json'), JSON.stringify(stats, null, 2));
 
-  // 按物种（含种植业）
-  for (const sp of ['pig', 'poultry', 'cattle', 'sheep', 'field', 'fruit', 'horticulture']) {
-    const spItems = formatted.filter((i) => i.subcategory === sp || i.species.includes(sp));
+  // 按物种（含种植业 + 综合）
+  for (const sp of ['pig', 'poultry', 'cattle', 'sheep', 'field', 'fruit', 'horticulture', 'general']) {
+    const spItems = sp === 'general'
+      ? formatted.filter((i) => i.subcategory === 'general')
+      : formatted.filter((i) => i.subcategory === sp || i.species.includes(sp));
     writeFileSync(join(outDir, `items-${sp}.json`), JSON.stringify(spItems, null, 2));
     const spHot = spItems.filter((i) => i.isHot).slice(0, 5);
     writeFileSync(join(outDir, `hot-items-${sp}.json`), JSON.stringify(spHot, null, 2));

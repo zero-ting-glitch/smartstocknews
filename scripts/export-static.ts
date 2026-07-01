@@ -148,6 +148,7 @@ async function main() {
     { key: 'field', filter: (item: ExportItem) => (item as any).subcategory === 'field' },
     { key: 'fruit', filter: (item: ExportItem) => (item as any).subcategory === 'fruit' },
     { key: 'horticulture', filter: (item: ExportItem) => (item as any).subcategory === 'horticulture' },
+    { key: 'general', filter: (item: ExportItem) => (item as any).subcategory === 'general' },
   ];
 
   for (const cat of categories) {
