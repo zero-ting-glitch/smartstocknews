@@ -50,7 +50,7 @@
       "defaultCategory": "crop",
       "defaultSubcategory": "fruit",
       "coreKeywords": "sensor|IoT|robot|AI|smart|digital|monitoring|cold chain|traceability|blockchain|precision|drone|autonomous|computer vision|automation|robotic",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue|promotion|advertising|pricing|commercial growth|packaging|weighing|vacuum|cooperation|border"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue|promotion|advertising|pricing|commercial growth|packaging|weighing|vacuum|cooperation|border|cocoa|blueberry|nutrition|label|regulation|climate|export|import|tariff|quota"
     },
     {
       "id": "agfundernews",
