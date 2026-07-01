@@ -192,13 +192,13 @@ function DetailContent() {
           )}
 
           {/* AI 翻译 / 原文切换 */}
-          {item.contentFull && (
+          {(item.contentFull || item.translationZh) && (
             <div className="detail-translation">
               <div className="detail-translation-header">
                 <span className="detail-translation-label">
                   {item.translationZh ? 'AI 翻译 · 中文' : '原文'}
                 </span>
-                {item.translationZh && (
+                {item.translationZh && item.contentFull && (
                   <button
                     onClick={() => setShowOriginal(!showOriginal)}
                     className="detail-toggle-btn"
