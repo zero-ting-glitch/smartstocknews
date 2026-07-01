@@ -1,0 +1,27 @@
+{
+  "id": "cmqz24kw8004bdidxa91ohb13",
+  "titleEn": "Pigs positioned as premier models for next-gen flu vaccines",
+  "titleZh": "猪被定位为下一代流感疫苗的顶级模型",
+  "url": "https://www.nationalhogfarmer.com/livestock-management/pigs-positioned-as-premier-models-for-next-gen-flu-vaccines",
+  "summaryZh": "科学家正利用猪来研究包括冠状病毒和囊性纤维化在内的其他呼吸道疾病。该新闻指出，猪因其生理结构与人类相似，成为开发下一代流感疫苗的理想模型。虽然这一进展对生物医学研究具有重要意义，但与智慧畜牧（IoT/AI/自动化等）的直接关联较低，更多聚焦于基础科研而非养殖技术应用。",
+  "translationZh": null,
+  "publishedAt": "2026-06-16T16:39:25.000Z",
+  "source": {
+    "name": "National Hog Farmer",
+    "nameZh": "美国养猪人",
+    "tier": "T1.5"
+  },
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "pig",
+  "techTags": "",
+  "qualityScore": 35,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "featuredReason": "该新闻展示了猪在人类医学研究中的前沿价值，但智慧畜牧行业人士可从中获得启发：猪的健康监测与精准养殖技术未来或可服务于疫苗研发等跨领域合作，拓宽行业应用场景。",
+  "contentHtml": "Scientists are already using swine to study other respiratory diseases, including coronaviruses and cystic fibrosis.",
+  "scrapeMethod": "rss"
+}

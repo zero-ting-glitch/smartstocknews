@@ -240,7 +240,7 @@ async function callDeepSeek(prompt: string): Promise<string> {
       model: 'deepseek-chat',
       messages: [{ role: 'user', content: prompt }],
       temperature: 0.3,
-      max_tokens: 8000,
+      max_tokens: 16000,
     }),
   });
   const data = await res.json() as any;
@@ -296,6 +296,51 @@ ${contentSnippet ? `内容: ${contentSnippet}` : ''}
     console.error(`  [AI] JSON 解析失败: ${raw.slice(0, 200)}`);
     throw e;
   }
+}
+
+/**
+ * 续翻：翻译被截断时，把剩余原文再翻一次拼上去
+ * 策略：用最后几段已翻译内容定位原文断点，翻译剩余部分
+ */
+async function continueTranslation(
+  titleEn: string,
+  fullContent: string,
+  partialTranslation: string
+): Promise<string> {
+  // 已翻译文本去掉末尾省略号
+  const cleanPartial = partialTranslation.replace(/[.……]+$/, '').trim();
+
+  // 用已翻译的最后一段在原文中搜索断点
+  // 取已翻译最后 200 字符作为锚点
+  const anchor = cleanPartial.slice(-200);
+
+  // 简单策略：按段落估算已翻译比例，取剩余内容
+  const originalParagraphs = fullContent.split(/\n+/).filter(p => p.trim().length > 20);
+  const translatedChars = cleanPartial.length;
+  const totalChars = fullContent.length;
+  const ratio = Math.min(translatedChars / totalChars, 0.95);
+
+  // 从断点后的段落开始翻译
+  const startIdx = Math.floor(originalParagraphs.length * ratio);
+  const remaining = originalParagraphs.slice(startIdx).join('\n\n');
+
+  if (!remaining.trim()) return partialTranslation;
+
+  const prompt = `请将以下英文文章片段翻译成中文。只输出翻译结果，不要任何解释、标题、前缀。
+
+要求：
+- 忠实原文，完整翻译所有段落，不要遗漏
+- 保留段落结构，段落之间用两个换行符(\\n\\n)分隔
+- 小标题保留并加粗：**小标题**
+- 不要重复以下已翻译的内容，只翻译剩余部分
+
+原文剩余部分:
+${remaining.slice(0, 6000)}`;
+
+  const continuation = await callDeepSeek(prompt);
+  if (!continuation.trim()) return partialTranslation;
+
+  return cleanPartial + '\n\n' + continuation.trim();
 }
 
 function calculateQualityScore(
@@ -508,7 +553,8 @@ async function main() {
   }
   console.log(`  降级 ${demoted} 条不再相关的文章\n`);
 
-  // Step 4 前置：清除被截断的翻译（以省略号结尾且长度不足），让管线重新生成
+  // Step 4 前置：清除明显过短的截断翻译（<200字且以省略号结尾），让管线重新生成
+  // 长翻译即使截断也接受，避免无限重试烧 token
   const withTranslation = await prisma.item.findMany({
     where: { isRelevant: true, translationZh: { not: null } },
     select: { id: true, translationZh: true },
@@ -516,7 +562,7 @@ async function main() {
   let clearedTruncated = 0;
   for (const item of withTranslation) {
     const t = item.translationZh || '';
-    if ((t.endsWith('......') || t.endsWith('……')) && t.length < 500) {
+    if ((t.endsWith('......') || t.endsWith('……')) && t.length < 200) {
       await prisma.item.update({
         where: { id: item.id },
         data: { translationZh: null },
@@ -525,7 +571,7 @@ async function main() {
     }
   }
   if (clearedTruncated > 0) {
-    console.log(`  清除 ${clearedTruncated} 条被截断的翻译，将重新生成\n`);
+    console.log(`  清除 ${clearedTruncated} 条过短的截断翻译，将重新生成\n`);
   }
 
   // Step 4: AI 处理（统一提示词，循环处理所有待处理 item）
@@ -559,6 +605,18 @@ async function main() {
       const contentForAI = item.contentFull || item.contentHtml || '';
       const result = await analyzeItem(item.titleEn, contentForAI);
 
+      // 检测翻译是否被截断，如果是则续翻
+      let translation = result.translationZh || '';
+      if (contentForAI && translation && (translation.endsWith('……') || translation.endsWith('......'))) {
+        console.log(`    ⚠ 翻译截断，续翻中...`);
+        try {
+          translation = await continueTranslation(item.titleEn, contentForAI, translation);
+          console.log(`    ✓ 续翻完成 (${translation.length} 字)`);
+        } catch (e: any) {
+          console.error(`    ✗ 续翻失败: ${e.message}，使用原截断翻译`);
+        }
+      }
+
       const scores = {
         relevance: result.relevance,
         importance: result.importance,
@@ -576,7 +634,7 @@ async function main() {
           aiScores: JSON.stringify(scores),
           titleZh: result.titleZh,
           summaryZh: result.summaryZh,
-          translationZh: result.translationZh,
+          translationZh: translation,
           featuredReason: result.featuredReason,
           qualityScore,
           isHot: qualityScore >= 60,

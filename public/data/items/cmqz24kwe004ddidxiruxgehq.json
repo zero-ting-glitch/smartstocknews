@@ -1,0 +1,27 @@
+{
+  "id": "cmqz24kwe004ddidxiruxgehq",
+  "titleEn": "Keeping pace with current and evolving swine disease threats",
+  "titleZh": "爱荷华州立大学专家警告：猪病威胁持续加剧，行业需保持警惕",
+  "url": "https://www.nationalhogfarmer.com/livestock-management/keeping-pace-with-current-and-evolving-swine-disease-threats",
+  "summaryZh": "本文报道了爱荷华州立大学Phillip Gauger博士对当前及未来猪病威胁的警示。他指出，随着病原体不断演变和增强，养猪业必须持续保持高度警惕，加强生物安全与监测。文章虽未直接涉及智慧畜牧技术，但强调了疾病防控的紧迫性，为智能监测、预警系统的应用提供了现实背景。",
+  "translationZh": null,
+  "publishedAt": "2026-06-16T14:30:14.000Z",
+  "source": {
+    "name": "National Hog Farmer",
+    "nameZh": "美国养猪人",
+    "tier": "T1.5"
+  },
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "pig",
+  "techTags": "",
+  "qualityScore": 40,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "featuredReason": "虽然本文未直接讨论IoT或AI技术，但疾病威胁的加剧正是推动智慧畜牧监测与预警系统落地的核心驱动力，值得关注技术应用场景的从业者阅读。",
+  "contentHtml": "Iowa State University’s Phillip Gauger warns industry to stay vigilant as pathogens intensify.",
+  "scrapeMethod": "rss"
+}

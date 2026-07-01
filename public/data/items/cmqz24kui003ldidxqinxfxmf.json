@@ -1,0 +1,27 @@
+{
+  "id": "cmqz24kui003ldidxqinxfxmf",
+  "titleEn": "Hog prices projected to dip more than 3% below 2025 prices",
+  "titleZh": "美国农业部预测生猪价格将较2025年下跌超3%",
+  "url": "https://www.nationalhogfarmer.com/market-news/hog-prices-projected-to-dip-more-than-3-below-2025-prices",
+  "summaryZh": "美国农业部经济学家指出，春季培根需求疲软，加之高油价可能促使消费者从旅行转向家庭烧烤，预计生猪价格将比2025年水平下跌超过3%。该新闻主要聚焦于宏观经济与消费行为对猪价的影响，未涉及智慧畜牧技术（如IoT、AI、自动化等）在养殖业中的应用或创新。",
+  "translationZh": null,
+  "publishedAt": "2026-06-19T11:00:00.000Z",
+  "source": {
+    "name": "National Hog Farmer",
+    "nameZh": "美国养猪人",
+    "tier": "T1.5"
+  },
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "pig",
+  "techTags": "",
+  "qualityScore": 31,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "featuredReason": "虽然新闻本身与智慧畜牧技术无关，但猪价波动直接影响养殖户的盈利预期，可能间接推动行业对降本增效技术的关注，建议结合市场动态思考技术投资时机。",
+  "contentHtml": "USDA economists note the absence of strong spring bacon demand; high gas prices may be shifting consumers from travel to home BBQ.",
+  "scrapeMethod": "rss"
+}

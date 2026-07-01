@@ -1,0 +1,27 @@
+{
+  "id": "cmqyitbfs0035tw5imr7jbeom",
+  "titleEn": "Pig livability: Metric that drives everything else",
+  "titleZh": "猪只存活率：驱动一切的关键指标",
+  "url": "https://www.nationalhogfarmer.com/farming-business-management/beyond-the-pork-chop-and-beyond-the-hype",
+  "summaryZh": "本文从世界猪肉博览会出发，深入探讨猪只存活率如何悄然影响饲料效率、生长性能、生产成本及整个生猪生产系统的稳定性。值得畜牧从业者关注，以优化管理、提升效益。",
+  "translationZh": null,
+  "publishedAt": "2026-06-16T21:37:06.000Z",
+  "source": {
+    "name": "National Hog Farmer",
+    "nameZh": "美国养猪人",
+    "tier": "T1.5"
+  },
+  "species": "pig",
+  "category": "livestock",
+  "subcategory": "pig",
+  "techTags": "",
+  "qualityScore": 41,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "featuredReason": "",
+  "contentHtml": "From World Pork Expo, we sit down with Alltech’s Dr. Jose Soto to unpack why livability is the metric that quietly drives everything else: feed efficiency, growth performance, cost of production, and the stability of your whole pork production system.",
+  "scrapeMethod": "rss"
+}

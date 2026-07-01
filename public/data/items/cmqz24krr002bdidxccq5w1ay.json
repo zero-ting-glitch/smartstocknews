@@ -1,0 +1,27 @@
+{
+  "id": "cmqz24krr002bdidxccq5w1ay",
+  "titleEn": "U.S. hog inventory dips slightly to 73.7 million head",
+  "titleZh": "美国生猪存栏微降至7370万头，每窝断奶仔猪数再创新高",
+  "url": "https://www.nationalhogfarmer.com/market-news/u-s-hog-inventory-dips-slightly-to-73-7-million-head",
+  "summaryZh": "美国农业部最新数据显示，截至6月1日，美国生猪总存栏量小幅下降至7370万头，较去年同期略有减少。然而，在2025年3月至5月期间，每窝断奶仔猪数再次打破历史纪录，反映出养殖效率的持续提升。该数据主要反映传统养殖统计指标，未涉及物联网、AI、自动化等智慧畜牧技术的具体应用或创新突破，但对行业产能和效率趋势有一定参考价值。",
+  "translationZh": null,
+  "publishedAt": "2026-06-25T20:33:43.000Z",
+  "source": {
+    "name": "National Hog Farmer",
+    "nameZh": "美国养猪人",
+    "tier": "T1.5"
+  },
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "pig",
+  "techTags": "",
+  "qualityScore": 32,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "featuredReason": "虽然该新闻未直接涉及智慧畜牧技术，但每窝断奶仔猪数创新高背后可能隐含育种、饲喂或环境控制方面的效率提升，值得智慧畜牧从业者关注其潜在的技术驱动因素。",
+  "contentHtml": "Pigs saved per litter shattered another record during the March-May period.",
+  "scrapeMethod": "rss"
+}

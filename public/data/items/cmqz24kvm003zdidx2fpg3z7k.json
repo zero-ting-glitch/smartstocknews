@@ -1,0 +1,27 @@
+{
+  "id": "cmqz24kvm003zdidx2fpg3z7k",
+  "titleEn": "NCBA and FFAR host congressional staff briefing",
+  "titleZh": "NCBA与FFAR举办国会简报会：公私合作推动猪牛行业抗菌管理研究",
+  "url": "https://www.nationalhogfarmer.com/livestock-management/ncba-and-ffar-host-congressional-staff-briefing",
+  "summaryZh": "美国牛肉协会（NCBA）与食品农业研究基金会（FFAR）联合举办国会工作人员简报会，专题讨论公私合作伙伴关系在推进猪牛行业抗菌药物管理研究中的关键作用。会议强调了跨部门协作对于应对抗生素耐药性、提升养殖业可持续性的重要性。虽然该新闻聚焦政策与行业合作，未直接涉及物联网、AI或自动化技术，但抗菌管理是智慧畜牧中精准用药与健康监测的重要应用场景，间接关联数据驱动的养殖管理。",
+  "translationZh": null,
+  "publishedAt": "2026-06-17T21:29:07.000Z",
+  "source": {
+    "name": "National Hog Farmer",
+    "nameZh": "美国养猪人",
+    "tier": "T1.5"
+  },
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "pig",
+  "techTags": "",
+  "qualityScore": 34,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "featuredReason": "该新闻揭示了政策层面对抗菌药物管理的重视，智慧畜牧从业者可从中洞察未来监管趋势与公私合作机会，为技术研发方向提供参考。",
+  "contentHtml": "Panel highlights importance of public-private partnerships to advance research on beef and swine sector antimicrobial stewardship.",
+  "scrapeMethod": "rss"
+}

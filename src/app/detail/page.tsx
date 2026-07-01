@@ -5,6 +5,17 @@ import { useState, useEffect, Suspense } from 'react';
 import { Sidebar } from '@/components/Sidebar';
 import { BASE_PATH } from '@/lib/config';
 import { speciesNames, speciesColors } from '@/lib/utils';
+import { ReactNode } from 'react';
+
+function renderBoldText(text: string): ReactNode[] {
+  const parts = text.split(/(\*\*.*?\*\*)/g);
+  return parts.map((part, i) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return <strong key={i}>{part.slice(2, -2)}</strong>;
+    }
+    return part;
+  });
+}
 
 interface ItemDetail {
   id: string;
@@ -200,7 +211,7 @@ function DetailContent() {
                 {showOriginal || !item.translationZh ? (
                   contentParagraphs.map((p, i) => <p key={i}>{p}</p>)
                 ) : (
-                  translationParagraphs.map((p, i) => <p key={i}>{p}</p>)
+                  translationParagraphs.map((p, i) => <p key={i}>{renderBoldText(p)}</p>)
                 )}
               </div>
             </div>

@@ -1,0 +1,27 @@
+{
+  "id": "cmqz24nx20055didxx36c7mf6",
+  "titleEn": "FSIS issues chicken recall, alerts over labeling and <em>Listeria</em>",
+  "titleZh": "美国FSIS因标签错误和李斯特菌风险召回三款鸡肉产品",
+  "url": "https://www.meatpoultry.com/articles/33707-fsis-issues-chicken-recall-alerts-over-labeling-and-listeria",
+  "summaryZh": "美国农业部食品安全检验局（FSIS）发布召回公告，涉及三款鸡肉产品，原因是过敏原标签错误以及可能存在李斯特菌污染。这些产品已分销至零售和餐饮服务渠道。召回事件虽与食品安全直接相关，但未涉及智慧畜牧核心技术（如IoT、AI、自动化传感器等），对养殖环节的技术创新参考价值有限。",
+  "translationZh": null,
+  "publishedAt": "2026-06-26T12:28:35.000Z",
+  "source": {
+    "name": "MEAT+POULTRY",
+    "nameZh": "肉禽加工",
+    "tier": "T1.5"
+  },
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "poultry",
+  "techTags": "",
+  "qualityScore": 25,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "featuredReason": "该新闻虽不直接关联智慧畜牧技术，但提醒行业人士关注从养殖到加工的全链条食品安全追溯与标签合规，间接提示智能标签和冷链监控技术的应用潜力。",
+  "contentHtml": "The agency cited allergen mislabeling and Listeria risk in three chicken products distributed to retail and foodservice.",
+  "scrapeMethod": "rss"
+}

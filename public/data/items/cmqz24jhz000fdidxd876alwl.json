@@ -1,0 +1,27 @@
+{
+  "id": "cmqz24jhz000fdidxd876alwl",
+  "titleEn": "Latest look from Cattle on Feed, screwworm dashboard and MDM",
+  "titleZh": "美国育肥牛存栏与牛肉需求月度观察：家庭财务恶化与需求疲软信号",
+  "url": "https://www.beefmagazine.com/market-news/latest-look-from-cattle-on-feed-screwworm-dashboard-and-mdm",
+  "summaryZh": "该新闻基于美国农业部“育肥牛存栏”报告、螺旋蛆病仪表盘及MDM数据，指出5月份家庭财务状况恶化和牛肉需求走弱，对牛肉需求的强劲势头构成潜在风险。内容聚焦宏观消费趋势与畜牧市场基本面，未涉及IoT、AI、自动化等智慧畜牧技术应用，但需求变化间接影响养殖决策。",
+  "translationZh": null,
+  "publishedAt": "2026-06-24T15:45:04.000Z",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T2"
+  },
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 20,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "featuredReason": "虽然不直接涉及智慧畜牧技术，但牛肉需求趋势是养殖业盈利的核心指标，智慧畜牧从业者需关注下游市场变化以调整生产策略。",
+  "contentHtml": "Worsening household finances and weaker beef demand in May are a cautionary point for the broader risk to beef demand’s strong run.",
+  "scrapeMethod": "rss"
+}

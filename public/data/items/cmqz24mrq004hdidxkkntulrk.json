@@ -1,0 +1,27 @@
+{
+  "id": "cmqz24mrq004hdidxkkntulrk",
+  "titleEn": "Kiess officially named the head of the NCSU Prestage Department of Poultry Science",
+  "titleZh": "NCSU家禽科学系正式任命新主任",
+  "url": "https://www.poultrytimes.com/kiess-officially-named-the-head-of-the-ncsu-prestage-department-of-poultry-science/",
+  "summaryZh": "北卡罗来纳州立大学Prestage家禽科学系正式任命Aaron Kiess为系主任，此前他曾担任临时主任。该新闻主要涉及人事变动，未提及任何智慧畜牧相关技术（如IoT、AI、自动化、机器人或传感器）在养殖业中的应用。对于关注智慧畜牧技术的读者，该内容缺乏直接关联和技术价值。",
+  "translationZh": null,
+  "publishedAt": "2026-06-26T12:00:27.000Z",
+  "source": {
+    "name": "Poultry Times",
+    "nameZh": "禽业时报",
+    "tier": "T1.5"
+  },
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "poultry",
+  "techTags": "",
+  "qualityScore": 20,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "featuredReason": "该新闻仅涉及学术机构人事任命，与智慧畜牧核心技术（物联网、AI、自动化等）无直接关联，不建议智慧畜牧行业人士投入时间阅读。",
+  "contentHtml": "RALEIGH, N.C. — At the beginning of the year, North Carolina State University’s Prestage Department of Poultry Science named Aaron Kiess its interim department head after the previous department head, […]\nThe post Kiess officially named the head of the NCSU Prestage Department of Poultry Science first appeared on poultrytimes.com.",
+  "scrapeMethod": "rss"
+}

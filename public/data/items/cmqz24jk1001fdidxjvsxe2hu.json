@@ -1,0 +1,27 @@
+{
+  "id": "cmqz24jk1001fdidxjvsxe2hu",
+  "titleEn": "Screwworm cases climb to 12 as futures see choppy trade",
+  "titleZh": "螺旋蛆病例增至12例，活牛期货市场波动加剧",
+  "url": "https://www.beefmagazine.com/market-news/screwworm-cases-climb-to-12-as-futures-see-choppy-trade",
+  "summaryZh": "该新闻报道了螺旋蛆病例数量上升至12例，同时活牛期货市场出现震荡交易。文章指出，随着市场动态变化，牛肉加工企业面临日益增大的压力，导致部分工厂关闭和行业效率评估。虽然内容涉及畜牧业的疫病和市场波动，但未提及任何智慧畜牧技术（如IoT、AI、自动化等）的应用或创新，与智慧畜牧核心领域关联度较低。",
+  "translationZh": null,
+  "publishedAt": "2026-06-17T13:11:12.000Z",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T2"
+  },
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 20,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "featuredReason": "该新闻反映了畜牧行业面临的疫病与市场双重压力，但缺乏智慧畜牧技术层面的信息，适合作为行业背景参考，而非技术应用案例。",
+  "contentHtml": "Beef packers face mounting pressure as market dynamics shift, leading to facility closures and efficiency evaluations across the industry.",
+  "scrapeMethod": "rss"
+}

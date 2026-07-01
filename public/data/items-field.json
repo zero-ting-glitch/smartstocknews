@@ -1,90 +1,65 @@
 [
   {
-    "id": "cmr1jchhi003lr8n2f7gxnhou",
-    "titleEn": "Tech alone won’t future-proof the food system, experts warn",
-    "titleZh": "专家警告：仅靠技术无法保障食品系统的未来",
-    "summaryZh": "本文报道了在阿姆斯特丹“你好明天”峰会上，多位专家就食品系统韧性展开的讨论。专家指出，尽管卫星监测、精准农业等技术工具日益强大，但若仅用于修补现有系统的漏洞，而不进行根本性的政策与结构改革，则无法应对气候与地缘政治风险。文章强调政治协调与系统性变革的重要性，对智慧畜牧行业具有宏观战略参考价值。",
-    "featuredReason": "本文虽非直接聚焦智慧畜牧，但其对技术局限性与系统性变革的深刻洞察，为畜牧行业从业者提供了重要的战略视角：在引入IoT、AI等新技术时，必须同步推动政策与商业模式创新，才能真正实现行业韧性。",
-    "url": "https://agfundernews.com/tech-alone-wont-future-proof-the-food-system-experts-warn",
+    "id": "cmqt2nwav000x12t0q2t1ki4l",
+    "titleEn": "This Week in Agribusiness, June 20, 2026",
+    "titleZh": "本周农业商业资讯（2026年6月20日）",
+    "url": "https://www.beefmagazine.com/market-news/this-week-in-agribusiness-june-20-2026",
+    "summaryZh": "本期涵盖ARC与PLC基础面积计划、数据中心与太阳能农场、Barchart数据工具、生物柴油混合、粮仓安全及第12号提案等关键议题，为畜牧从业者提供政策、技术与市场多维度参考，值得关注。",
+    "translationZh": null,
+    "publishedAt": "2026-06-20T12:00:00.000Z",
     "source": {
-      "name": "AgFunderNews",
-      "nameZh": "农业科技投",
-      "tier": "T1"
+      "name": "Beef Magazine",
+      "nameZh": "肉牛杂志",
+      "tier": "T2"
     },
-    "sourceId": "agfundernews",
-    "species": "field",
+    "species": "cattle",
     "category": "crop",
     "subcategory": "field",
     "techTags": "",
-    "qualityScore": 77,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-18T13:27:08.000Z"
+    "qualityScore": 17,
+    "isHot": false,
+    "multiSourceCount": 1
   },
   {
-    "id": "cmr1jchi1003zr8n2e50alvcg",
-    "titleEn": "Picketa Systems raises $1.5m to bring crop nutrient testing to the field",
-    "titleZh": "Picketa Systems融资150万美元，将作物养分检测带到田间",
-    "summaryZh": "加拿大初创公司Picketa Systems完成150万美元融资，用于推广其便携式作物养分传感技术LENS。该技术利用AI光谱分析，可在几分钟内检测13种关键养分，帮助农民减少化肥成本最高20%并提高产量。CEO预测十年内将实现化肥循环完全闭环。文章还对比了传统叶片采样与新型传感方案，并介绍了其Fieldbook数据平台。",
-    "featuredReason": "该技术展示了AI与传感器在精准农业中的前沿应用，其便携、快速、低成本的特点对智慧畜牧行业中的饲草料养分管理具有直接借鉴意义，有助于提升养殖业投入品效率。",
-    "url": "https://agfundernews.com/picketa-raises-1-5m-to-bring-crop-nutrient-testing-to-the-field",
+    "id": "cmqyitbe8002ptw5i5ee9l6ce",
+    "titleEn": "This Week in Agribusiness, June 20, 2026",
+    "titleZh": "本周农业商业资讯（2026年6月20日）",
+    "url": "https://www.nationalhogfarmer.com/market-news/this-week-in-agribusiness-june-20-2026",
+    "summaryZh": "本期涵盖ARC与PLC基础面积计划、数据中心与太阳能农场、Barchart数据工具、生物柴油混合、粮仓安全及第12号提案等关键议题，为智慧畜牧从业者提供政策、技术与市场多维视角，值得关注以把握行业动态。",
+    "translationZh": null,
+    "publishedAt": "2026-06-20T12:00:00.000Z",
     "source": {
-      "name": "AgFunderNews",
-      "nameZh": "农业科技投",
-      "tier": "T1"
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
     },
-    "sourceId": "agfundernews",
-    "species": "field",
+    "species": "pig",
     "category": "crop",
     "subcategory": "field",
     "techTags": "",
-    "qualityScore": 85,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-15T12:00:00.000Z"
+    "qualityScore": 24,
+    "isHot": false,
+    "multiSourceCount": 1
   },
   {
-    "id": "cmr1jchi30041r8n2wh6uhrkk",
-    "titleEn": "Fertilizer… without Haber Bosch: Can AI-optimized plasma make green ammonia cost-competitive?",
-    "titleZh": "AI优化等离子体技术能否让绿色氨肥成本与化石氨竞争？",
-    "summaryZh": "本文介绍了初创公司Faraday Earth利用非热等离子体技术生产绿色氨，并通过AI优化反应效率，目标将成本降至每吨500美元左右，接近传统哈伯-博世法生产的灰色氨。该技术采用模块化、分布式系统，可降低运输成本，对依赖氮肥的智慧畜牧行业（如饲料作物种植）具有潜在颠覆性影响。",
-    "featuredReason": "该技术若实现成本目标，将大幅降低氮肥生产对化石燃料的依赖和运输成本，直接影响畜牧饲料作物的种植成本与可持续性，是智慧畜牧产业链上游的重要创新。",
-    "url": "https://agfundernews.com/fertilizer-without-haber-bosch-can-ai-optimized-plasma-make-green-ammonia-cost-competitive",
+    "id": "cmqt2nwb7001b12t0t18o9y1b",
+    "titleEn": "May 2026 sees broad-based retail fresh meat inflation",
+    "titleZh": "2026年5月零售鲜肉通胀全面蔓延",
+    "url": "https://www.beefmagazine.com/market-news/may-2026-sees-broad-based-retail-fresh-meat-inflation",
+    "summaryZh": "本文指出2026年5月零售鲜肉价格出现广泛上涨，长期天然气价格压力开始考验消费者承受力。值得关注的是，这反映了能源成本向食品终端的传导效应，对畜牧养殖及零售行业具有重要预警意义。",
+    "translationZh": null,
+    "publishedAt": "2026-06-17T12:30:02.000Z",
     "source": {
-      "name": "AgFunderNews",
-      "nameZh": "农业科技投",
-      "tier": "T1"
+      "name": "Beef Magazine",
+      "nameZh": "肉牛杂志",
+      "tier": "T2"
     },
-    "sourceId": "agfundernews",
-    "species": "field",
+    "species": "cattle",
     "category": "crop",
     "subcategory": "field",
     "techTags": "",
-    "qualityScore": 85,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-15T11:00:31.000Z"
-  },
-  {
-    "id": "cmr1jcg0i000dr8n27r1ba0m9",
-    "titleEn": "Syngenta Signs MoU to Be Strategic Partner in India’s First Open-Data Agricultural Ecosystem Annam.AI",
-    "titleZh": "先正达签署谅解备忘录，成为印度首个开放数据农业生态系统Annam.AI的战略合作伙伴",
-    "summaryZh": "先正达与印度政府支持的Annam.AI项目签署谅解备忘录，成为其战略合作伙伴。Annam.AI旨在构建基于开放数据的全国性农业智能基础设施，为小农户提供免费、实时、AI驱动的个性化农事建议，整合作物智能、微气候数据和多语言工具。先正达将利用其研发和农艺专长，参与构建精准的作物健康、病虫害预测和热胁迫模型。该项目有望通过开放数据与AI技术，提升印度农业的气候韧性和生产效率。",
-    "featuredReason": "该新闻展示了开放数据与AI在农业中的大规模应用模式，对智慧畜牧行业在数据共享、精准管理和气候适应性方面具有重要借鉴意义。",
-    "url": "https://www.globalagtechinitiative.com/digital-farming/syngenta-signs-mou-to-be-strategic-partner-in-indias-first-open-data-agricultural-ecosystem-annam-ai/",
-    "source": {
-      "name": "PrecisionAg",
-      "nameZh": "精准农业",
-      "tier": "T1"
-    },
-    "sourceId": "precisionag",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 89,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-05-19T00:00:00.000Z"
+    "qualityScore": 19,
+    "isHot": false,
+    "multiSourceCount": 1
   }
 ]

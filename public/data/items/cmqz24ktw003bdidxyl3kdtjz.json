@@ -1,0 +1,27 @@
+{
+  "id": "cmqz24ktw003bdidxyl3kdtjz",
+  "titleEn": "June Hogs and Pigs expectations",
+  "titleZh": "6月生猪存栏预期：爱荷华州5月每头生猪盈利21美元",
+  "url": "https://www.nationalhogfarmer.com/market-news/june-hogs-and-pigs-expectations",
+  "summaryZh": "该新闻引用爱荷华州立大学计算，显示5月典型育肥猪场每头生猪盈利21.03美元，但内容仅涉及传统养殖经济指标，未提及任何物联网、AI、自动化或传感器等智慧畜牧技术应用。对于智慧畜牧行业而言，该信息缺乏技术相关性，仅可作为市场背景参考。",
+  "translationZh": null,
+  "publishedAt": "2026-06-22T13:05:43.000Z",
+  "source": {
+    "name": "National Hog Farmer",
+    "nameZh": "美国养猪人",
+    "tier": "T1.5"
+  },
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "pig",
+  "techTags": "",
+  "qualityScore": 25,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "featuredReason": "该新闻虽反映生猪养殖盈利状况，但完全未涉及智慧畜牧技术，对关注IoT、AI、自动化应用的从业者参考价值极低，不建议作为行业重点阅读。",
+  "contentHtml": "Calculations by Iowa State University estimate the typical Iowa farrow-to-finish operation earned a profit of $21.03 for each hog marketed in May.",
+  "scrapeMethod": "rss"
+}

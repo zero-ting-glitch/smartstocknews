@@ -1,0 +1,27 @@
+{
+  "id": "cmqz24ksx002xdidx9d04iuzb",
+  "titleEn": "Senate farm bill draft omits Prop 12 fix for pork industry",
+  "titleZh": "美国参议院农业法案草案未纳入猪肉行业“第12号提案”修正条款",
+  "url": "https://www.nationalhogfarmer.com/livestock-management/senate-farm-bill-draft-omits-prop-12-fix-for-pork-industry",
+  "summaryZh": "由美国国家猪肉生产者委员会（NPPC）领导的330个组织联盟，呼吁参议院农业委员会在最终版2026年农业法案中纳入解决“第12号提案”（Prop 12）问题的方案。该提案是加州关于动物圈养空间标准的法规，对跨州猪肉生产商造成合规成本和技术挑战。目前草案未包含相关修正，引发行业对市场准入和贸易壁垒的担忧。",
+  "translationZh": null,
+  "publishedAt": "2026-06-23T18:54:56.000Z",
+  "source": {
+    "name": "National Hog Farmer",
+    "nameZh": "美国养猪人",
+    "tier": "T1.5"
+  },
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "pig",
+  "techTags": "",
+  "qualityScore": 33,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "featuredReason": "虽然该新闻主要涉及美国农业政策与动物福利法规，与智慧畜牧技术（IoT/AI/自动化）的直接关联度较低，但政策变化可能间接影响养殖场对自动化监控、环境控制等技术的需求，值得关注法规动态的从业者了解。",
+  "contentHtml": "NPPC-led coalition of 330 groups is calling on Senate Agriculture Committee leaders to include a solution in the final 2026 Farm Bill.",
+  "scrapeMethod": "rss"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "cmqz24kvw0045didx1bdpxqzo",
+  "titleEn": "UNL researchers pioneer new swine influenza vaccine approach",
+  "titleZh": "UNL研究人员开创猪流感疫苗新方法：DNA脂质载体肌肉注射",
+  "url": "https://www.nationalhogfarmer.com/livestock-management/unl-researchers-pioneer-new-swine-influenza-vaccine-approach",
+  "summaryZh": "内布拉斯加大学林肯分校（UNL）研究人员开发了一种新型猪流感疫苗接种方法，将DNA包裹在脂肪样微观载体中，然后注射到猪的肌肉组织。该方法旨在提高疫苗的稳定性和免疫效果，减少传统疫苗的副作用和制备复杂性。虽然该技术属于生物医学创新，但尚未直接涉及物联网、AI或自动化等智慧畜牧核心技术，其行业影响力主要体现在动物健康管理层面，对养殖业的疫病防控具有潜在价值。",
+  "translationZh": null,
+  "publishedAt": "2026-06-17T12:01:32.000Z",
+  "source": {
+    "name": "National Hog Farmer",
+    "nameZh": "美国养猪人",
+    "tier": "T1.5"
+  },
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "pig",
+  "techTags": "",
+  "qualityScore": 45,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "featuredReason": "该技术为猪流感疫苗研发提供了全新思路，可能提升养殖业疫病防控效率，但智慧畜牧从业者需关注其与现有数字化管理系统的整合潜力。",
+  "contentHtml": "Vaccination method encases DNA into fat-like microscopic carriers that are then injected into pigs’ muscle tissue.",
+  "scrapeMethod": "rss"
+}

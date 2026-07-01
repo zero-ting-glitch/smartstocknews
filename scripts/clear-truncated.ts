@@ -20,8 +20,7 @@ async function main() {
   for (const item of items) {
     const t = item.translationZh || '';
     // 判断是否被截断：以省略号结尾且长度不足
-    const isTruncated =
-      (t.endsWith('......') || t.endsWith('……')) && t.length < 500;
+    const isTruncated = (t.endsWith('......') || t.endsWith('……')) && t.length < 200;
 
     if (isTruncated) {
       console.log(`  清除: ${item.titleEn?.slice(0, 60)}... (${t.length} chars)`);

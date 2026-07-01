@@ -1,0 +1,27 @@
+{
+  "id": "cmqz24ks0002ddidx4qq6l7u3",
+  "titleEn": "USDA Cold Storage reports mixed meat inventories in May",
+  "titleZh": "美国农业部冷库报告：5月肉类库存分化，火腿增17%猪肋排降20%",
+  "url": "https://www.nationalhogfarmer.com/market-news/usda-cold-storage-reports-mixed-meat-inventories-in-may",
+  "summaryZh": "美国农业部发布的5月冷库库存数据显示，肉类库存呈现显著分化：火腿库存环比4月大幅增长17%，而猪肋排库存则下降20%。该数据反映了美国肉类供应链的季节性波动与市场需求变化，但未涉及任何智慧畜牧技术（如IoT、AI、自动化或传感器）的应用或影响。对于智慧畜牧行业而言，该新闻仅提供宏观市场背景，缺乏直接的技术或实践关联。",
+  "translationZh": null,
+  "publishedAt": "2026-06-25T19:25:23.000Z",
+  "source": {
+    "name": "National Hog Farmer",
+    "nameZh": "美国养猪人",
+    "tier": "T1.5"
+  },
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "pig",
+  "techTags": "",
+  "qualityScore": 32,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "featuredReason": "该新闻虽与智慧畜牧核心技术无直接关联，但作为行业宏观数据参考，可帮助从业者理解终端市场库存波动，间接辅助养殖决策与供应链管理。",
+  "contentHtml": "Ham stocks up 17%, pork ribs down 20% from April.",
+  "scrapeMethod": "rss"
+}

@@ -1,1 +1,506 @@
-[]
+[
+  {
+    "id": "cmqz24nwo0051didxqqzr5ehz",
+    "titleEn": "Immigration status ruling raises labor risks for meatpacking plants",
+    "titleZh": "移民身份裁决增加肉类加工厂用工风险",
+    "url": "https://www.meatpoultry.com/articles/33710-immigration-status-ruling-raises-labor-risks-for-meatpacking-plants",
+    "summaryZh": "美国最高法院近期一项关于移民身份的裁决引发了肉类加工行业的用工担忧。工会UFCW警告称，该裁决可能加剧劳动力短缺，并增加工厂因非法用工而面临的法律风险。虽然该新闻主要涉及劳工政策，而非直接的技术应用，但它凸显了肉类加工行业对稳定劳动力的依赖，从而间接推动了智慧畜牧领域对自动化、机器人替代人工的需求。对于关注行业趋势的智慧畜牧从业者，这是一个理解劳动力市场变化如何加速技术落地的背景信息。",
+    "translationZh": null,
+    "publishedAt": "2026-06-26T15:25:51.000Z",
+    "source": {
+      "name": "MEAT+POULTRY",
+      "nameZh": "肉禽加工",
+      "tier": "T1.5"
+    },
+    "species": "livestock",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 37,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqyit7gp0001tw5ic5lta7v2",
+    "titleEn": "Komet Invests in Irrigation Intelligence to Close One of Agriculture’s Biggest Data Gaps",
+    "titleZh": "Komet投资灌溉智能，填补农业最大数据缺口",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/irrigation/komet-invests-in-irrigation-intelligence-to-close-one-of-agricultures-biggest-data-gaps/",
+    "summaryZh": "Komet成立新的应用工程与数字系统部门及体验中心，旨在通过生成全球相关洞察，推动枢轴灌溉科学、工程和决策的进步。此举有望解决农业领域关键数据缺失问题，值得关注其技术落地与行业影响。",
+    "translationZh": null,
+    "publishedAt": "2026-06-26T15:01:07.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
+    "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 41,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqz24nww0053didxcs47y14c",
+    "titleEn": "FAM STUMABO advances cutting principles for meat processing",
+    "titleZh": "FAM STUMABO推进肉类加工切割技术革新",
+    "url": "https://www.meatpoultry.com/articles/33709-fam-stumabo-advances-cutting-principles-for-meat-processing",
+    "summaryZh": "FAM STUMABO公司推出了一套应用驱动的切割系统，能够以受控高速处理多种蛋白质产品。该技术通过自动化切割工艺，提升了肉类加工的效率与一致性，适用于牛肉、猪肉、禽肉等不同品类。虽然新闻未直接涉及养殖环节的物联网或传感器，但其在屠宰后加工环节的自动化创新，对智慧畜牧产业链下游的精细化、高效化运营具有参考价值，尤其适合关注肉类加工自动化的从业者。",
+    "translationZh": null,
+    "publishedAt": "2026-06-26T13:33:05.000Z",
+    "source": {
+      "name": "MEAT+POULTRY",
+      "nameZh": "肉禽加工",
+      "tier": "T1.5"
+    },
+    "species": "livestock",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 51,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqz24nx20055didxx36c7mf6",
+    "titleEn": "FSIS issues chicken recall, alerts over labeling and <em>Listeria</em>",
+    "titleZh": "美国FSIS因标签错误和李斯特菌风险召回三款鸡肉产品",
+    "url": "https://www.meatpoultry.com/articles/33707-fsis-issues-chicken-recall-alerts-over-labeling-and-listeria",
+    "summaryZh": "美国农业部食品安全检验局（FSIS）发布召回公告，涉及三款鸡肉产品，原因是过敏原标签错误以及可能存在李斯特菌污染。这些产品已分销至零售和餐饮服务渠道。召回事件虽与食品安全直接相关，但未涉及智慧畜牧核心技术（如IoT、AI、自动化传感器等），对养殖环节的技术创新参考价值有限。",
+    "translationZh": null,
+    "publishedAt": "2026-06-26T12:28:35.000Z",
+    "source": {
+      "name": "MEAT+POULTRY",
+      "nameZh": "肉禽加工",
+      "tier": "T1.5"
+    },
+    "species": "livestock",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 25,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqz24mrq004hdidxkkntulrk",
+    "titleEn": "Kiess officially named the head of the NCSU Prestage Department of Poultry Science",
+    "titleZh": "NCSU家禽科学系正式任命新主任",
+    "url": "https://www.poultrytimes.com/kiess-officially-named-the-head-of-the-ncsu-prestage-department-of-poultry-science/",
+    "summaryZh": "北卡罗来纳州立大学Prestage家禽科学系正式任命Aaron Kiess为系主任，此前他曾担任临时主任。该新闻主要涉及人事变动，未提及任何智慧畜牧相关技术（如IoT、AI、自动化、机器人或传感器）在养殖业中的应用。对于关注智慧畜牧技术的读者，该内容缺乏直接关联和技术价值。",
+    "translationZh": null,
+    "publishedAt": "2026-06-26T12:00:27.000Z",
+    "source": {
+      "name": "Poultry Times",
+      "nameZh": "禽业时报",
+      "tier": "T1.5"
+    },
+    "species": "livestock",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 20,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqz24nx90057didxf9d56xmb",
+    "titleEn": "12-to-1 Support for Pork From PRRS-Resistant Pigs",
+    "titleZh": "消费者市场以12比1支持抗PRRS猪的猪肉产品",
+    "url": "https://www.meatpoultry.com/articles/33698-12-to-1-support-for-pork-from-prrs-resistant-pigs",
+    "summaryZh": "该新闻报道了一项针对美国消费者的市场调研结果，显示消费者以12比1的压倒性比例支持来自抗猪繁殖与呼吸综合征（PRRS）基因编辑猪的猪肉产品。研究结论表明，尽管涉及基因编辑技术，但消费者对能减少疾病损失、提升动物福利的猪肉接受度很高。这一发现为智慧畜牧中基因育种技术的商业化落地提供了重要的市场信心，但新闻本身未涉及IoT、AI或自动化等智慧畜牧核心技术。",
+    "translationZh": null,
+    "publishedAt": "2026-06-25T17:49:29.000Z",
+    "source": {
+      "name": "MEAT+POULTRY",
+      "nameZh": "肉禽加工",
+      "tier": "T1.5"
+    },
+    "species": "livestock",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 41,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqz24ms1004jdidxurye92ig",
+    "titleEn": "TAMU AgriLife receives federal funding for New World screwworm research",
+    "titleZh": "德州农工大学获联邦资金用于新世界螺旋蝇研究",
+    "url": "https://www.poultrytimes.com/tamu-agrilife-receives-federal-funding-for-new-world-screwworm-research/",
+    "summaryZh": "美国农业部宣布拨款1.05亿美元用于加强国家对新世界螺旋蝇的防御，其中部分资金拨给德州农工大学AgriLife研究部门。该研究主要聚焦于害虫生物学与防控策略，而非智慧畜牧核心技术（如IoT、AI、自动化或传感器应用）。虽然对畜牧业疫病防控有间接影响，但缺乏直接的技术创新或实践指导价值。",
+    "translationZh": null,
+    "publishedAt": "2026-06-25T16:00:42.000Z",
+    "source": {
+      "name": "Poultry Times",
+      "nameZh": "禽业时报",
+      "tier": "T1.5"
+    },
+    "species": "livestock",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 26,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqz24ms9004ldidxeix51yms",
+    "titleEn": "AFIA celebrates Feed Industry Institute’s more than 80 graduates",
+    "titleZh": "美国饲料工业协会庆祝饲料工业研究所80余名毕业生结业",
+    "url": "https://www.poultrytimes.com/afia-celebrates-feed-industry-institutes-more-than-80-graduates/",
+    "summaryZh": "美国饲料工业协会（AFIA）在明尼苏达州明尼阿波利斯市举办了为期四天的饲料工业研究所（FII）培训项目，共有80余名学员顺利毕业。该项目每两年举办一次，旨在为饲料行业从业人员提供沉浸式学习体验，涵盖饲料生产、营养、法规等核心内容。新闻本身未涉及物联网、AI、自动化或传感器等智慧畜牧技术，主要聚焦传统饲料行业教育与人才培养。",
+    "translationZh": null,
+    "publishedAt": "2026-06-25T13:25:04.000Z",
+    "source": {
+      "name": "Poultry Times",
+      "nameZh": "禽业时报",
+      "tier": "T1.5"
+    },
+    "species": "livestock",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 27,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqz24nxh0059didxftx793cb",
+    "titleEn": "Meat Institute names Michael Schumpp VP of international affairs",
+    "titleZh": "美国肉类协会任命Michael Schumpp为国际事务副总裁",
+    "url": "https://www.meatpoultry.com/articles/33704-meat-institute-names-michael-schumpp-vp-of-international-affairs",
+    "summaryZh": "美国肉类协会（Meat Institute）宣布任命Michael Schumpp担任国际事务副总裁。Schumpp此前在该协会担任国际事务高级总监。该人事变动主要涉及国际贸易政策与市场准入，与智慧畜牧领域的技术应用（如IoT、AI、自动化等）无直接关联，属于行业组织管理层面的常规人事调整。",
+    "translationZh": null,
+    "publishedAt": "2026-06-25T12:31:34.000Z",
+    "source": {
+      "name": "MEAT+POULTRY",
+      "nameZh": "肉禽加工",
+      "tier": "T1.5"
+    },
+    "species": "livestock",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 21,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqz24nxo005bdidx1ua6hq4v",
+    "titleEn": "Power Plate Meals recalls meatloaf over soy allergen",
+    "titleZh": "Power Plate Meals因大豆过敏原标签错误召回肉饼",
+    "url": "https://www.meatpoultry.com/articles/33703-power-plate-meals-recalls-meatloaf-over-soy-allergen",
+    "summaryZh": "美国食品安全检验局（FSIS）报告称，Power Plate Meals公司生产的肉饼产品最终标签未在成分表中列出大豆，导致可能含有未声明的大豆过敏原，因此发起召回。该事件主要涉及食品标签合规与过敏原管理，与智慧畜牧行业的核心技术（如IoT、AI、自动化、传感器等）无直接关联，但对畜牧产品追溯和标签自动化系统有一定间接启示。",
+    "translationZh": null,
+    "publishedAt": "2026-06-25T11:55:38.000Z",
+    "source": {
+      "name": "MEAT+POULTRY",
+      "nameZh": "肉禽加工",
+      "tier": "T1.5"
+    },
+    "species": "livestock",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 20,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqz24msj004ndidxuuzddmun",
+    "titleEn": "AEB continues worldwide U.S. eggs push, most recently in Asia",
+    "titleZh": "美国蛋业委员会持续推动亚洲市场鸡蛋出口",
+    "url": "https://www.poultrytimes.com/aeb-continues-worldwide-u-s-eggs-push-most-recently-in-asia/",
+    "summaryZh": "美国蛋业委员会（AEB）今年继续在全球推广美国鸡蛋，最新动作聚焦亚洲两个国家。该新闻来自poultrytimes.com，主要报道AEB的市场营销和贸易促进活动，未涉及智慧畜牧领域的物联网、AI、自动化、机器人或传感器等技术应用。内容核心是出口贸易推广，而非养殖技术革新。",
+    "translationZh": null,
+    "publishedAt": "2026-06-24T13:30:01.000Z",
+    "source": {
+      "name": "Poultry Times",
+      "nameZh": "禽业时报",
+      "tier": "T1.5"
+    },
+    "species": "livestock",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 24,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqz24mst004pdidx2yk6u2sj",
+    "titleEn": "Australia is the final continent to join this bird flu outbreak with its first detection in June",
+    "titleZh": "澳大利亚首次检测到高致病性禽流感，全球大陆均受影响",
+    "url": "https://www.poultrytimes.com/australia-is-the-final-continent-to-join-this-bird-flu-outbreak-with-its-first-detection-in-june/",
+    "summaryZh": "该新闻报道了澳大利亚西澳州埃斯佩兰斯地区在6月首次检测到高致病性禽流感（HPAI），标志着此次全球禽流感疫情已波及所有大陆。文章指出，疫情对全球家禽业造成持续冲击，美国等地也深受其害。虽然新闻本身未涉及智慧畜牧技术，但禽流感的全球蔓延凸显了养殖业生物安全与监测预警的重要性，间接关联到物联网传感器、自动化消毒、AI疫情预测等智慧畜牧技术的应用场景。",
+    "translationZh": null,
+    "publishedAt": "2026-06-23T13:00:04.000Z",
+    "source": {
+      "name": "Poultry Times",
+      "nameZh": "禽业时报",
+      "tier": "T1.5"
+    },
+    "species": "livestock",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 32,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqz24mt3004rdidx2pppsn6a",
+    "titleEn": "Amanda Irwin promoted to Mountaire Farms CEO",
+    "titleZh": "Mountaire Farms任命Amanda Irwin为首席执行官",
+    "url": "https://www.poultrytimes.com/amanda-irwin-promoted-to-mountaire-farms-ceo/",
+    "summaryZh": "Mountaire Farms宣布Amanda Irwin晋升为总裁兼首席执行官。该新闻主要涉及公司高层人事变动，未提及任何与智慧畜牧相关的技术、IoT、AI、自动化或传感器应用内容。对于关注养殖业技术创新的读者而言，该信息缺乏直接的技术或实践参考价值。",
+    "translationZh": null,
+    "publishedAt": "2026-06-22T13:05:24.000Z",
+    "source": {
+      "name": "Poultry Times",
+      "nameZh": "禽业时报",
+      "tier": "T1.5"
+    },
+    "species": "livestock",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 22,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqrsbigm0001iiyf7r8ctq46",
+    "titleEn": "Niqo Robotics Takes India-Built Physical AI Farming Platform to Europe at Bharat Innovates 2026",
+    "titleZh": "Niqo Robotics携印度造实体AI农业平台亮相Bharat Innovates 2026，进军欧洲市场",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/niqo-robotics-takes-india-built-physical-ai-farming-platform-to-europe-at-bharat-innovates-2026/",
+    "summaryZh": "Niqo Robotics从印度政府旗舰深科技大会的120家创新企业中脱颖而出，标志着印度制造的农业机器人正从本土农田走向全球市场。该文最初发表于全球农业科技倡议。",
+    "translationZh": null,
+    "publishedAt": "2026-06-19T17:33:10.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
+    "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 48.3,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqz24mtc004tdidxzcvphmfy",
+    "titleEn": "Dr. Jianlin Si elected USAPEEC chairman",
+    "titleZh": "泰森食品高管司建林当选美国禽蛋出口协会主席",
+    "url": "https://www.poultrytimes.com/dr-jianlin-si-elected-usapeec-chairman/",
+    "summaryZh": "美国禽蛋出口协会（USAPEEC）选举泰森食品销售高级总监司建林博士担任2026-2027年度董事会主席。该新闻主要涉及行业组织人事变动，未提及任何智慧畜牧相关技术（如IoT、AI、自动化、机器人或传感器在养殖业的应用），也未涉及技术创新或实践案例。对于关注智慧畜牧的读者，此信息缺乏直接关联和技术价值。",
+    "translationZh": null,
+    "publishedAt": "2026-06-19T12:30:58.000Z",
+    "source": {
+      "name": "Poultry Times",
+      "nameZh": "禽业时报",
+      "tier": "T1.5"
+    },
+    "species": "livestock",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 22,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqyit7gw0005tw5i0wh0m5jo",
+    "titleEn": "9 Ways Collaboration Is Accelerating Innovation Across AgTech",
+    "titleZh": "九大合作方式加速农业科技创新",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/9-ways-collaboration-is-accelerating-innovation-across-agtech/",
+    "summaryZh": "本文介绍了近期农业科技领域的多项合作如何推动人工智能、精准农业和智能技术革新。通过跨企业、跨行业的协同创新，农业科技正加速落地应用，值得关注这些合作如何重塑未来农业格局。",
+    "translationZh": null,
+    "publishedAt": "2026-06-18T18:10:54.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
+    "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 35,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqz24mtl004vdidxi98dkzon",
+    "titleEn": "NestFresh shifts egg portfolio to be sourced through Humanely Hatched program",
+    "titleZh": "NestFresh将全部鸡蛋产品转向人道孵化计划",
+    "url": "https://www.poultrytimes.com/nestfresh-shifts-egg-portfolio-to-be-sourced-through-humanely-hatched-program/",
+    "summaryZh": "美国领先的人道鸡蛋品牌NestFresh宣布，其全部鸡蛋产品组合将转由其“人道孵化”计划供应，标志着该品牌在动物福利方面的重要里程碑。该计划强调从孵化到养殖全程的人道处理，但未涉及物联网、AI、自动化或传感器等智慧畜牧核心技术。新闻主要聚焦于供应链伦理和品牌策略，对养殖业的技术升级参考价值有限。",
+    "translationZh": null,
+    "publishedAt": "2026-06-18T13:00:57.000Z",
+    "source": {
+      "name": "Poultry Times",
+      "nameZh": "禽业时报",
+      "tier": "T1.5"
+    },
+    "species": "livestock",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 31,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqz24mtx004xdidxblgdbigs",
+    "titleEn": "America’s ‘Protein Triangle,’ and the advantages of our interconnected system",
+    "titleZh": "美国“蛋白质三角”与互联系统优势",
+    "url": "https://www.poultrytimes.com/americas-protein-triangle-and-the-advantages-of-our-interconnected-system/",
+    "summaryZh": "本文来自poultrytimes.com，主要讨论美国在日益竞争的世界中重新重视食品生产作为经济和国家力量来源，并提出了“蛋白质三角”概念，强调美国在肉类、乳制品等蛋白质生产领域的区域协同与系统互联优势。文章内容聚焦于宏观产业格局与地缘经济，未涉及智慧畜牧相关的物联网、AI、自动化、传感器等具体技术应用。对于关注养殖业数字化、智能化落地的从业者，本文提供的是产业背景视角，而非技术或实践指导。",
+    "translationZh": null,
+    "publishedAt": "2026-06-17T16:00:50.000Z",
+    "source": {
+      "name": "Poultry Times",
+      "nameZh": "禽业时报",
+      "tier": "T1.5"
+    },
+    "species": "livestock",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 25,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqyit7h30007tw5ijldkw716",
+    "titleEn": "Beyond Disruption: Earning Trust and Driving Impact in AgTech Through Grower-Led Innovation",
+    "titleZh": "超越颠覆：以种植者主导的创新赢得信任并推动农业科技影响",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/beyond-disruption-earning-trust-and-driving-impact-in-agtech-through-grower-led-innovation/",
+    "summaryZh": "Reservoir首席执行官Danny Bernstein指出，更智能的农业科技始于信任，种植者主导的创新正在超越传统颠覆模式，带来真实影响。本文值得关注，因为它揭示了如何通过信任与协作实现农业科技的实际落地与可持续增长。",
+    "translationZh": null,
+    "publishedAt": "2026-06-17T15:15:53.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
+    "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 35,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqz24mu5004zdidx0g4lydg4",
+    "titleEn": "USPOULTRY processor workshop highlights innovations, excellence and workforce development",
+    "titleZh": "USPOULTRY加工研讨会聚焦创新、卓越与劳动力发展",
+    "url": "https://www.poultrytimes.com/uspoultry-processor-workshop-highlights-innovations-excellence-and-workforce-development/",
+    "summaryZh": "2026年USPOULTRY家禽加工研讨会在南卡罗来纳州格林维尔举行，行业专业人士齐聚一堂，探讨食品安全、加工技术、设备维护等领域的最新进展。会议重点展示了加工环节的创新成果，并强调了劳动力发展对行业持续增长的重要性。虽然内容主要面向传统家禽加工工艺，但其中涉及的自动化、效率提升和食品安全技术对智慧畜牧领域的设备集成与数据管理有一定参考价值。",
+    "translationZh": null,
+    "publishedAt": "2026-06-17T13:20:56.000Z",
+    "source": {
+      "name": "Poultry Times",
+      "nameZh": "禽业时报",
+      "tier": "T1.5"
+    },
+    "species": "livestock",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 47,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqyit7hb0009tw5i29392lls",
+    "titleEn": "UC Riverside Develops Modern-Day Robotic Divining Rod",
+    "titleZh": "UC Riverside研发现代机器人探水棒",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/uc-riverside-develops-modern-day-robotic-divining-rod/",
+    "summaryZh": "加州大学河滨分校开发出一套新系统，能逐棵树绘制土壤湿度图，让种植者仅在需要的地点和时间浇水。这项技术精准节水，值得关注农业智能化与水资源管理的人士阅读。",
+    "translationZh": null,
+    "publishedAt": "2026-06-15T18:17:17.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
+    "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 32,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqt2nv82000312t0bqrzirne",
+    "titleEn": "Syngenta Signs MoU to Be Strategic Partner in India’s First Open-Data Agricultural Ecosystem Annam.AI",
+    "titleZh": "先正达签约成为印度首个开放数据农业生态系统Annam.AI战略伙伴",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/syngenta-signs-mou-to-be-strategic-partner-in-indias-first-open-data-agricultural-ecosystem-annam-ai/",
+    "summaryZh": "先正达与印度首个开放数据农业生态系统Annam.AI签署谅解备忘录，将贡献农艺专业知识，助力构建精准作物健康、病虫害预测及热应激模型。该合作标志着开放数据在农业科技领域的重大突破，值得关注其对智慧农业发展的示范效应。",
+    "translationZh": null,
+    "publishedAt": "2026-06-15T17:51:42.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
+    "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 41,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqt2nv8r000512t0mopzunom",
+    "titleEn": "Inside One of America’s Largest Ag Co-Op’s Practical Approach to AI",
+    "titleZh": "美国最大农业合作社的AI务实之道",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/inside-one-of-americas-largest-ag-co-ops-practical-approach-to-ai/",
+    "summaryZh": "GROWMARK农艺总监Brendan Bachman详解北美最大合作系统之一如何规模化应用AI，揭示技术落地的运营现实。本文为农业科技从业者提供了大型合作社AI部署的实战经验与关键洞察，值得关注。",
+    "translationZh": null,
+    "publishedAt": "2026-06-12T16:46:56.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
+    "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 39,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqt2nv8t000712t0ddvp1s3j",
+    "titleEn": "Tech Hub LIVE Returns to Des Moines July 20-22 with Practical Answers for a High-Pressure Ag Economy",
+    "titleZh": "科技枢纽LIVE重返得梅因，7月20-22日聚焦高压农业经济实用方案",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/tech-hub-live-returns-to-des-moines-july-20-22-with-practical-answers-for-a-high-pressure-ag-economy/",
+    "summaryZh": "农业零售顶级技术会议回归，提供数据驱动洞察、同行交流与创新解决方案，助力应对高压力农业经济挑战。值得关注其如何通过实战策略推动农业未来转型。",
+    "translationZh": null,
+    "publishedAt": "2026-06-12T15:38:48.000Z",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
+    "species": "pig,poultry,cattle,sheep",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 34,
+    "isHot": false,
+    "multiSourceCount": 1
+  }
+]

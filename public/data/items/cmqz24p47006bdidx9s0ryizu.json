@@ -1,0 +1,27 @@
+{
+  "id": "cmqz24p47006bdidx9s0ryizu",
+  "titleEn": "Find your fudge factor for corn yield estimates",
+  "titleZh": null,
+  "url": "https://www.farmprogress.com/corn/find-your-fudge-factor-for-corn-yield-estimates",
+  "summaryZh": null,
+  "translationZh": null,
+  "publishedAt": "2026-06-29T06:40:00.000Z",
+  "source": {
+    "name": "Farm Progress",
+    "nameZh": "农业进展",
+    "tier": "T2"
+  },
+  "species": "aggtech",
+  "category": null,
+  "subcategory": null,
+  "techTags": "",
+  "qualityScore": 0,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "featuredReason": "",
+  "contentHtml": "Corn Corner: Using the most accurate fudge factor will give you a more accurate snapshot of corn yields.",
+  "scrapeMethod": "rss"
+}

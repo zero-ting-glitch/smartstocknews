@@ -1,0 +1,27 @@
+{
+  "id": "cmqz24jla001tdidxdsfft21s",
+  "titleEn": "University of Florida receives $9.5M gift to address cattle pest threats",
+  "titleZh": "佛罗里达大学获950万美元捐赠，应对牛群虫媒疾病威胁",
+  "url": "https://www.beefmagazine.com/livestock-management/university-of-florida-receives-9-5m-gift-to-address-cattle-pest-threats",
+  "summaryZh": "佛罗里达大学获得950万美元捐赠，用于开发预防和治疗由蚊子、苍蝇等害虫传播的牛群疾病的新策略。该研究聚焦于虫媒病原体防控，但未明确提及物联网、人工智能或自动化等智慧畜牧核心技术。资金将支持传统流行病学、疫苗研发和害虫管理方案，对畜牧业的生物安全有潜在影响，但技术路径偏向生物学与兽医学，与智慧畜牧的数字化、智能化直接关联度较低。",
+  "translationZh": null,
+  "publishedAt": "2026-06-12T14:03:46.000Z",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T2"
+  },
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 27,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "featuredReason": "该新闻展示了畜牧业对虫媒疾病的重视和资金投入，但缺乏智慧畜牧核心技术元素，适合关注生物安全与疾病防控的从业者，而非追求技术创新的智慧畜牧读者。",
+  "contentHtml": "Funds will help develop new strategies to prevent and treat diseases spread by mosquitoes, flies and other pests.",
+  "scrapeMethod": "rss"
+}

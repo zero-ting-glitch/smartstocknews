@@ -1,0 +1,27 @@
+{
+  "id": "cmqz24mst004pdidx2yk6u2sj",
+  "titleEn": "Australia is the final continent to join this bird flu outbreak with its first detection in June",
+  "titleZh": "澳大利亚首次检测到高致病性禽流感，全球大陆均受影响",
+  "url": "https://www.poultrytimes.com/australia-is-the-final-continent-to-join-this-bird-flu-outbreak-with-its-first-detection-in-june/",
+  "summaryZh": "该新闻报道了澳大利亚西澳州埃斯佩兰斯地区在6月首次检测到高致病性禽流感（HPAI），标志着此次全球禽流感疫情已波及所有大陆。文章指出，疫情对全球家禽业造成持续冲击，美国等地也深受其害。虽然新闻本身未涉及智慧畜牧技术，但禽流感的全球蔓延凸显了养殖业生物安全与监测预警的重要性，间接关联到物联网传感器、自动化消毒、AI疫情预测等智慧畜牧技术的应用场景。",
+  "translationZh": null,
+  "publishedAt": "2026-06-23T13:00:04.000Z",
+  "source": {
+    "name": "Poultry Times",
+    "nameZh": "禽业时报",
+    "tier": "T1.5"
+  },
+  "species": "livestock",
+  "category": "livestock",
+  "subcategory": "poultry",
+  "techTags": "",
+  "qualityScore": 32,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "featuredReason": "尽管新闻未直接聚焦技术，但禽流感全球扩散的严峻形势，为智慧畜牧行业提供了生物安全防控技术（如智能监测、自动化消杀）的迫切需求与市场机遇，值得从业者关注疫情对技术落地的推动效应。",
+  "contentHtml": "ESPERANCE, Western Australia — The current outbreak of Highly Pathogenic Avian Influenza has been a thorn in the side of poultry industries across the world. From the United States down […]\nThe post Australia is the final continent to join this bird flu outbreak with its first detection in June first appeared on poultrytimes.com.",
+  "scrapeMethod": "rss"
+}

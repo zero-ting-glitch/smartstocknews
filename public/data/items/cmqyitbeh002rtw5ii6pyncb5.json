@@ -1,0 +1,27 @@
+{
+  "id": "cmqyitbeh002rtw5ii6pyncb5",
+  "titleEn": "Mycotoxin risks in pig feed: What producers need to know",
+  "titleZh": "猪饲料中的霉菌毒素风险：生产者须知",
+  "url": "https://www.nationalhogfarmer.com/feed/mycotoxin-risks-in-pig-feed-what-producers-need-to-know",
+  "summaryZh": "本文深入探讨了霉菌毒素对猪饲料的潜在危害，强调风险不仅取决于毒素种类，还与动物生理特性密切相关。值得养殖户关注，以优化饲料管理，降低经济损失。",
+  "translationZh": null,
+  "publishedAt": "2026-06-19T12:28:03.000Z",
+  "source": {
+    "name": "National Hog Farmer",
+    "nameZh": "美国养猪人",
+    "tier": "T1.5"
+  },
+  "species": "pig",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 41,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "featuredReason": "",
+  "contentHtml": "Risk can depend on the nature of the mycotoxin, but also the biology of the animal.",
+  "scrapeMethod": "rss"
+}
