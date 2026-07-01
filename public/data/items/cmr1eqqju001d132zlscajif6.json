@@ -1,0 +1,28 @@
+{
+  "id": "cmr1eqqju001d132zlscajif6",
+  "titleEn": "Robot Raggy taking on one of farming’s most persistent weed problems",
+  "titleZh": "机器人Raggy挑战农业中最顽固的杂草问题",
+  "summaryZh": "英国机器人公司Robotriks开发的电动自主机器人Raggy，将在多塞特郡的农场进行田间试验，专门用于识别和清除对牲畜有毒的杂草——狗舌草。该机器人已完成初步测试，即将在夏季进入实际农田作业。这一技术有望替代传统化学除草和人工拔除，为牧场管理提供自动化、精准化的解决方案，减少牲畜中毒风险，提升草地质量。",
+  "featuredReason": "该新闻展示了自主机器人在精准农业中的实际应用，尤其针对对牲畜有毒的杂草问题，为智慧畜牧中的牧场管理提供了创新且可落地的技术方案。",
+  "url": "https://www.futurefarming.com/tech-in-focus/field-robots/robot-raggy-taking-on-one-of-farmings-most-persistent-weed-problems/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1"
+  },
+  "sourceId": "futurefarming",
+  "species": "general",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 79,
+  "isFeatured": true,
+  "isHot": true,
+  "publishedAt": "2026-06-10T07:00:00.000Z",
+  "contentFull": "",
+  "translationZh": "一台小型自主机器人正准备于今年夏天进入多塞特郡的田野——而正遭受狗舌草侵扰的农民们正密切关注着。Raggy，一款由英国机器人公司Robotriks开发的电动农用机器人，已抵达韦勒姆附近的多塞特创新园，进行最后一轮测试，随后将在该郡的多个农场和土地上进行田间试验。对于农民和土地所有者来说，这款机器人的到来可谓恰逢其时。",
+  "images": [],
+  "author": "",
+  "contentHtml": "A small autonomous robot is preparing to head out into the fields of Dorset this summer – and farmers dealing with ragwort infestations are watching closely. Raggy, an electrically powered farm robot developed by UK robotics firm Robotriks, has arrived at Dorset Innovation Park near Wareham for its final round of testing before commencing field trials across farms and land in the county. For farmers and landowners, the arrival could hardly come soon enough.",
+  "scrapeMethod": "scrape_failed"
+}

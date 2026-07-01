@@ -1,10 +1,10 @@
 [
   {
-    "id": "cmr1eanv3003rpldz8kjclknn",
+    "id": "cmr1eqryd003d132zakzvqmug",
     "titleEn": "Liberation Bioindustries pauses construction again as it seeks funds to complete US biomanufacturing site",
     "titleZh": "Liberation Bioindustries再次暂停建设，寻求资金完成美国生物制造工厂",
-    "summaryZh": "Liberation Bioindustries因资金问题再次暂停其位于印第安纳州里士满的精密发酵工厂建设，该工厂已完成约75%，但需额外资金完成收尾工程。公司CEO表示，尽管面临融资挑战，但客户需求远超现有产能。这一事件反映了生物制造领域“中间断层”的融资困境，对智慧畜牧中替代蛋白和饲料原料的规模化生产具有警示意义。",
-    "featuredReason": "该新闻揭示了精密发酵等生物制造技术规模化面临的融资瓶颈，对智慧畜牧中替代蛋白、饲料添加剂等领域的产业化路径具有重要参考价值，值得关注行业基础设施建设的从业者阅读。",
+    "summaryZh": "Liberation Bioindustries位于印第安纳州里士满的精密发酵工厂（60万升产能）因资金问题再次暂停建设，目前已完成约75%。公司已筹集7000-8000万美元股权及大型设备融资，但需额外“巨额”资金完成收尾工程。CEO表示客户需求超过可用产能200%，但项目处于“先有鸡还是先有蛋”的困境：客户需确定投产时间才肯下单，而融资需客户承诺。CTO转为兼职，但强调并非信心丧失。该案例反映了精密发酵行业在从实验室走向商业化过程中面临的典型资金与市场匹配难题。",
+    "featuredReason": "尽管该新闻不直接涉及智慧畜牧，但精密发酵技术是替代蛋白和新型饲料原料的关键路径，其商业化融资困境对智慧畜牧行业关注供应链创新的从业者具有重要参考价值。",
     "url": "https://agfundernews.com/liberation-bioindustries-pauses-construction-again-as-it-seeks-funds-to-complete-us-biomanufacturing-site",
     "source": {
       "name": "AgFunderNews",
@@ -16,9 +16,9 @@
     "category": "livestock",
     "subcategory": "poultry",
     "techTags": "",
-    "qualityScore": 54,
+    "qualityScore": 52,
     "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-07-01T01:26:51.461Z"
+    "publishedAt": "2026-07-01T01:39:23.261Z"
   }
 ]

@@ -1,11 +1,55 @@
 [
   {
-    "id": "cmr1ean2b000ppldzet763dcg",
+    "id": "cmr1eqrzc0043132zaj309o2a",
+    "titleEn": "From Taxol to cocoa: Can plant cell culture make the leap from drugs to food?",
+    "titleZh": "从紫杉醇到可可：植物细胞培养能否从制药跨界到食品？",
+    "summaryZh": "本文探讨了植物细胞培养技术从制药领域向食品、保健品原料生产拓展的可行性。面对气候冲击和地缘政治不稳定对传统植物供应链的威胁，利用生物反应器室内培养高价值植物成分（如可可、香草、藏红花、南非醉茄等）具有明显吸引力。然而，该技术面临资本支出高、运营成本大、细胞系稳定性要求苛刻等挑战，一家英国初创公司因资金耗尽而倒闭。文章对比了不锈钢大罐与模块化小系统的不同技术路线，并指出当前融资环境严峻，但商业兴趣浓厚。",
+    "featuredReason": "虽然植物细胞培养技术本身不直接属于智慧畜牧范畴，但其在稳定供应链、减少环境风险、实现标准化生产方面的思路，对智慧畜牧中植物基饲料、药用植物添加剂及室内垂直农业的自动化、生物反应器应用具有重要借鉴意义。",
+    "url": "https://agfundernews.com/from-taxol-to-cocoa-can-plant-cell-culture-make-the-leap-from-drugs-to-food",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 69,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-01T01:39:23.261Z"
+  },
+  {
+    "id": "cmr1eqqj2000p132z6t3kfq99",
     "titleEn": "Fieldwork Robotics secures new funding to accelerate raspberry harvesting robot",
-    "titleZh": "Fieldwork Robotics获新融资加速树莓采摘机器人商业化",
-    "summaryZh": "英国Fieldwork Robotics公司获得由企业家Jim Mellon担任主席的SEED Innovations投资公司的新一轮融资，用于加速其自主树莓采摘机器人的商业部署。该机器人利用AI和机器人技术实现精准采摘，旨在解决农业劳动力短缺问题，提升采摘效率和降低损耗。虽然直接针对种植业而非养殖业，但其自动化、机器人技术在农业领域的应用模式对智慧畜牧行业具有借鉴意义。",
-    "featuredReason": "该新闻展示了农业机器人从研发到商业化的关键进展，其AI视觉、柔性抓取等技术路径对智慧畜牧中的自动化饲喂、巡检等场景有直接参考价值。",
+    "titleZh": "Fieldwork Robotics获新融资，加速树莓采摘机器人商业化",
+    "summaryZh": "英国Fieldwork Robotics公司从SEED Innovations获得额外投资，以加速其自主树莓采摘机器人的商业部署。该机器人利用AI和机器人技术实现精准采摘，旨在解决农业劳动力短缺问题。虽然直接针对种植业，但其技术路径（视觉识别、柔性抓取、自主导航）对智慧畜牧中的自动化作业（如挤奶、饲喂、巡检）具有参考价值。融资方由知名投资人Jim Mellon领投，表明资本市场对农业机器人前景的认可。",
+    "featuredReason": "该新闻展示了农业机器人从研发到商业化的关键融资进展，其AI视觉与柔性抓取技术对智慧畜牧中类似自动化场景（如果实采摘、物料搬运）有直接借鉴意义，值得关注农业自动化趋势的从业者阅读。",
     "url": "https://www.futurefarming.com/smart-farming/fieldwork-robotics-secures-new-funding-to-accelerate-raspberry-harvesting-robot/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 73,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-25T06:00:00.000Z"
+  },
+  {
+    "id": "cmr1eqqjf0011132zgof4yusc",
+    "titleEn": "Croplands expands WEED-IT range with new releases, including orchard solution",
+    "titleZh": "Croplands扩展WEED-IT精准喷洒系列：推出果园专用光学点喷解决方案",
+    "summaryZh": "澳大利亚Croplands Equipment公司发布了WEED-IT精准喷洒系列的新技术，包括Series 2 Robot Ready Pinto、大型宽幅平台、扩展的改造能力以及首款专为果园设计的光学点喷解决方案。这些技术提升了杂草检测与定点喷洒的自动化水平，对种植业精准农业有参考价值，但直接与智慧畜牧（养殖业）关联度中等。",
+    "featuredReason": "虽然该新闻聚焦于种植业精准喷洒，但其光学传感、机器人集成和自动化控制技术对智慧畜牧中牧场管理、杂草控制及精准作业具有跨领域借鉴意义。",
+    "url": "https://www.futurefarming.com/smart-farming/croplands-expands-weed-it-range-with-new-releases-including-orchard-solution/",
     "source": {
       "name": "Future Farming",
       "nameZh": "未来农业",
@@ -19,14 +63,14 @@
     "qualityScore": 76,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-25T06:00:00.000Z"
+    "publishedAt": "2026-06-18T07:00:00.000Z"
   },
   {
-    "id": "cmr1eamh4000bpldz6t65196a",
+    "id": "cmr1eqplc000b132ztcww8tfb",
     "titleEn": "UC Riverside Develops Modern-Day Robotic Divining Rod",
-    "titleZh": "加州大学河滨分校开发现代机器人探水仪：逐树绘制土壤湿度图，精准灌溉应对干旱",
-    "summaryZh": "加州大学河滨分校（UC Riverside）的研究团队开发了一种新型机器人系统，能够逐树绘制果园土壤湿度图，帮助农民在干旱和水资源短缺的背景下精准灌溉。该系统通过机器人测量土壤电导率，并结合固定传感器的水分数据，建立统计模型预测整个田地的含水量，从而生成每棵树的湿度分布图。这项技术解决了传统土壤湿度传感器成本高、覆盖范围有限的问题，让农民知道哪里需要浇水、何时需要浇水，避免过度灌溉或干旱胁迫，提升水资源利用效率和作物健康。研究发表在《计算机与电子农业》期刊上。",
-    "featuredReason": "该技术将机器人、传感器和统计建模结合，实现了种植业中逐棵树的精准灌溉，其方法论（电导率+固定传感器映射）对智慧畜牧中的精准饲喂、环境监控等场景有直接借鉴意义，展示了跨领域技术迁移的潜力。",
+    "titleZh": "加州大学河滨分校开发现代机器人探水仪：逐树绘制土壤湿度图，精准灌溉助力抗旱",
+    "summaryZh": "加州大学河滨分校（UC Riverside）的研究团队开发了一套新型机器人系统，能够逐棵树绘制果园土壤湿度图，帮助农民在干旱和水资源短缺时代实现精准灌溉。该系统通过机器人测量土壤电导率，并结合埋入式传感器的数据，建立统计模型预测整个田块的水分分布，从而让农民知道每棵树需要多少水，只在需要的地方和时间浇水。这项技术有望替代传统昂贵的固定传感器，解决因土壤质地差异导致的灌溉不均问题，对提升水资源利用效率和作物健康具有重要意义。",
+    "featuredReason": "该技术将机器人、传感器与统计建模结合，实现了逐棵树的精准灌溉，对智慧畜牧行业中的种植业环节（如饲料作物或果园管理）具有直接借鉴意义，展示了如何通过低成本、高精度的土壤监测提升水资源利用效率，应对干旱挑战。",
     "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/uc-riverside-develops-modern-day-robotic-divining-rod/",
     "source": {
       "name": "PrecisionAg",
@@ -44,11 +88,11 @@
     "publishedAt": "2026-06-15T18:17:17.000Z"
   },
   {
-    "id": "cmr1ean3k001rpldzygokm707",
+    "id": "cmr1eqqka001r132zuyw24knj",
     "titleEn": "Yamaha Agriculture adds herbicide spraying to Prospr robot",
     "titleZh": "雅马哈农业为Prospr机器人新增除草剂喷洒功能",
-    "summaryZh": "雅马哈农业为其Prospr自主混合动力车辆平台推出了除草剂喷洒附件，扩展了该机器在果园和葡萄园中实现自动化杂草控制的能力。该技术将机器人平台与精准喷洒结合，提升了种植业的自动化水平，但主要针对果树类作物，与畜牧养殖的直接关联较弱。",
-    "featuredReason": "该新闻展示了农业机器人从运输、监测向精准作业（如除草剂喷洒）的扩展趋势，对智慧畜牧中类似自动化设备（如饲喂、清洁机器人）的功能集成具有借鉴意义。",
+    "summaryZh": "雅马哈农业为其Prospr自主混合动力车辆平台推出了除草剂喷洒附件，扩展了该机器在果园和葡萄园中实现自动化杂草控制的能力。这一创新将机器人技术与精准农业结合，提升了作物管理的自动化水平，对智慧种植领域具有参考价值，但直接关联智慧畜牧（养殖业）的程度中等。",
+    "featuredReason": "该新闻展示了机器人技术在精准农业中的最新应用，虽聚焦种植业，但其自动化、传感器融合与自主决策思路对智慧畜牧领域的机器人化作业具有跨领域借鉴意义。",
     "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/yamaha-agriculture-adds-herbicide-spraying-to-prospr-robot/",
     "source": {
       "name": "Future Farming",
@@ -60,7 +104,7 @@
     "category": "crop",
     "subcategory": "fruit",
     "techTags": "",
-    "qualityScore": 68,
+    "qualityScore": 76,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-03T07:00:00.000Z"

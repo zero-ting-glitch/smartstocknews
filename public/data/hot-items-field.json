@@ -1,10 +1,10 @@
 [
   {
-    "id": "cmr1eanvg003zpldzxg2f5iei",
+    "id": "cmr1eqryp003l132zcakm5b23",
     "titleEn": "Tech alone won’t future-proof the food system, experts warn",
-    "titleZh": "专家警告：仅靠技术无法保障食品系统未来安全",
-    "summaryZh": "本文报道了在阿姆斯特丹Hello Tomorrow峰会上，多位专家就食品系统未来韧性展开的讨论。核心观点是：尽管卫星监测、精准农业、供应链数据等技术工具日益强大，但若仅用于修补现有系统而不进行根本性政治与政策改革，则无法应对气候危机和地缘政治风险。文章强调了技术部署与政治协调之间的鸿沟，并呼吁超越“恢复原状”的韧性思维，转向系统性变革。",
-    "featuredReason": "本文为智慧畜牧行业人士提供了关键警示：技术工具（如精准农业、卫星监测）虽重要，但若缺乏政策协同和系统性变革，无法真正解决食品系统的根本问题。这有助于从业者跳出纯技术思维，关注产业生态与政策环境。",
+    "titleZh": "专家警告：仅靠技术无法保障食品系统未来",
+    "summaryZh": "在阿姆斯特丹举行的Hello Tomorrow峰会上，多位专家指出，尽管气候危机和地缘政治风险加剧，政府和企业拥有比以往更多的工具来发现食品系统漏洞，但仅靠技术修补现有系统远远不够。Giga Futures创始人Christine Gould强调，恢复力意味着回到一个“根本行不通”的现状。麦肯锡全球研究所的Marc Canal呼吁继续发展技术、推动私营部门创新，而欧洲航天局的Giuseppe Borghi则指出，政治协调才是缺失的关键环节。文章核心价值在于提醒智慧畜牧行业：技术部署需与政策改革协同，才能实现系统性的可持续发展。",
+    "featuredReason": "本文揭示了智慧畜牧行业一个关键盲点：技术本身无法解决系统性问题，必须与政策改革和跨部门协作结合。对于关注长期可持续发展的从业者，这是避免陷入“技术万能论”陷阱的重要提醒。",
     "url": "https://agfundernews.com/tech-alone-wont-future-proof-the-food-system-experts-warn",
     "source": {
       "name": "AgFunderNews",
@@ -19,14 +19,14 @@
     "qualityScore": 79,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-07-01T01:26:51.461Z"
+    "publishedAt": "2026-07-01T01:39:23.261Z"
   },
   {
-    "id": "cmr1eanvx0047pldzsr13cko8",
+    "id": "cmr1eqryz003t132zrel1yoz7",
     "titleEn": "AI is everywhere in CPG R&D. But is it moving the needle? Turing Labs surveys the biggest players",
-    "titleZh": "AI在CPG研发中无处不在，但真正推动变革了吗？Turing Labs调查行业巨头",
-    "summaryZh": "Turing Labs对290名大型CPG公司研发高管的调查显示，91%的受访者已在工作中使用AI，但仅19%将其嵌入日常流程，且真正产生显著影响的案例更少。问题在于通用AI工具与高度专业化的配方研发工作不匹配，以及企业仅用AI加速现有流程而非重构创新模式。文章揭示了AI在快速消费品研发领域的落地困境，对智慧畜牧行业如何避免类似陷阱具有警示意义。",
-    "featuredReason": "本文揭示了AI在快速消费品研发中从“热闹”到“落地”的鸿沟，智慧畜牧行业在引入AI时同样面临通用工具与专业场景不匹配、流程重构不足等核心挑战，值得借鉴其教训。",
+    "titleZh": "AI在CPG研发中无处不在，但真正推动进展了吗？Turing Labs对行业巨头的调查",
+    "summaryZh": "Turing Labs对290位欧美大型CPG公司研发高管的调查显示，91%的受访者已在工作中使用AI，但仅19%将其嵌入日常流程，且真正产生业务影响的案例很少。文章指出，AI在概念生成和基础研究等通用任务上表现良好，但在配方优化等高度专业化的领域，通用工具往往失效，需要重新设计运营模式而非简单加速现有流程。",
+    "featuredReason": "本文揭示了AI在高度专业化研发中的落地困境与关键教训，智慧畜牧行业在引入AI进行育种、营养配方、疾病预测等复杂任务时，同样面临通用工具失效、流程重构等挑战，可从中汲取避免踩坑的宝贵经验。",
     "url": "https://agfundernews.com/ai-is-everywhere-in-cpg-rd-but-is-it-moving-the-needle-turing-labs-surveys-the-biggest-players",
     "source": {
       "name": "AgFunderNews",
@@ -38,17 +38,17 @@
     "category": "crop",
     "subcategory": "field",
     "techTags": "",
-    "qualityScore": 80,
+    "qualityScore": 79,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-07-01T01:26:51.461Z"
+    "publishedAt": "2026-07-01T01:39:23.261Z"
   },
   {
-    "id": "cmr1eanw00049pldziwhfpmxb",
+    "id": "cmr1eqrz1003v132zum50n9j9",
     "titleEn": "Rainbow Crops raises $11.25m to scale AI-guided multiplex gene editing",
     "titleZh": "Rainbow Crops获1125万美元种子轮融资，用AI引导多重基因编辑提升作物产量与抗旱性",
-    "summaryZh": "比利时农业科技初创公司Rainbow Crops完成1125万美元种子轮融资，由LIFTT EuroInvest领投。该公司利用AI预测影响复杂性状（如产量、抗旱性）的基因组合，结合多重基因编辑与高通量筛选，构建系统生物学平台。其技术源自VIB研究所，旨在解决多基因控制性状的育种难题，并通过数据反馈持续优化模型。该轮融资将用于扩大玉米等作物的研发与商业化。",
-    "featuredReason": "该技术通过AI+多重基因编辑解决多基因复杂性状育种难题，与智慧畜牧中利用AI和基因编辑改良动物生产性能、抗病性等方向高度契合，为精准育种提供了可借鉴的系统生物学思路。",
+    "summaryZh": "比利时农业科技初创公司Rainbow Crops完成1125万美元种子轮融资，由LIFTT EuroInvest领投。该公司利用AI预测影响复杂性状的基因组合，结合多重基因编辑与高通量筛选，系统性地改良玉米等作物的产量、抗旱性等多基因控制性状。其平台整合了系统生物学、AI建模和基因编辑，形成闭环优化，有望突破传统育种瓶颈，为智慧种植业提供精准基因改良工具。",
+    "featuredReason": "该新闻展示了AI与基因编辑在作物育种中的前沿融合，虽直接针对种植业，但其系统生物学思路和闭环优化方法对智慧畜牧中动物基因组选择、精准育种具有重要借鉴意义，值得关注跨领域技术迁移。",
     "url": "https://agfundernews.com/rainbow-crops-raises-11-25m-to-scale-ai-guided-multiplex-gene-editing",
     "source": {
       "name": "AgFunderNews",
@@ -63,14 +63,14 @@
     "qualityScore": 85,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-07-01T01:26:51.461Z"
+    "publishedAt": "2026-07-01T01:39:23.261Z"
   },
   {
-    "id": "cmr1eanw7004dpldzg448461y",
+    "id": "cmr1eqrz7003z132z87z4xj80",
     "titleEn": "Picketa Systems raises $1.5m to bring crop nutrient testing to the field",
-    "titleZh": "Picketa Systems融资150万美元，将作物营养检测带到田间",
-    "summaryZh": "加拿大初创公司Picketa Systems完成150万美元融资，用于推广其便携式作物营养传感技术LENS。该技术利用AI光谱分析，在几分钟内检测作物叶片中13种关键营养元素，结合Fieldbook平台帮助农民精准施肥，可降低肥料成本20%并提高产量。CEO预测10年内将实现肥料循环闭环。",
-    "featuredReason": "该技术将AI光谱分析与精准农业结合，显著提升作物营养检测效率，降低肥料成本，与智慧畜牧中精准饲喂、环境监测等理念高度契合，为养殖业精准管理提供跨领域参考。",
+    "titleZh": "Picketa Systems获150万美元融资，将作物养分检测带到田间",
+    "summaryZh": "加拿大初创公司Picketa Systems完成150万美元融资，用于推广其基于AI光谱技术的便携式作物养分传感系统LENS。该系统可在几分钟内检测叶片中13种关键养分，结合Fieldbook平台帮助农民精准施肥，降低肥料成本20%并提高产量。CEO预测十年内将实现完全闭环的肥料管理。",
+    "featuredReason": "该技术展示了AI与光谱传感在精准农业中的前沿应用，虽直接针对种植业，但其‘实时感知-精准决策-自动执行’的闭环逻辑对智慧畜牧中的精准饲喂、环境监控等场景具有高度借鉴价值。",
     "url": "https://agfundernews.com/picketa-raises-1-5m-to-bring-crop-nutrient-testing-to-the-field",
     "source": {
       "name": "AgFunderNews",
@@ -82,17 +82,17 @@
     "category": "crop",
     "subcategory": "field",
     "techTags": "",
-    "qualityScore": 85,
+    "qualityScore": 77,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-07-01T01:26:51.461Z"
+    "publishedAt": "2026-07-01T01:39:23.261Z"
   },
   {
-    "id": "cmr1eanwa004fpldzxgmw2djd",
+    "id": "cmr1eqrza0041132z8o9cpdyz",
     "titleEn": "Fertilizer… without Haber Bosch: Can AI-optimized plasma make green ammonia cost-competitive?",
-    "titleZh": "无哈伯-博世法：AI优化等离子体能否让绿色氨肥成本具有竞争力？",
-    "summaryZh": "本文报道了初创公司Faraday Earth利用非热等离子体技术生产绿色氨的创新方法。通过AI优化等离子体反应器，该公司声称其系统可将绿色氨的平准化成本降至约每吨500美元，接近传统化石燃料基灰氨的成本。结合模块化、集装箱式分散化生产系统，可大幅降低运输成本。该技术有望颠覆传统哈伯-博世工艺，为农业提供更环保、经济的氮肥来源，对智慧畜牧行业中的饲料作物种植和肥料管理具有潜在影响。",
-    "featuredReason": "该技术若实现成本突破，将彻底改变氮肥供应模式，降低智慧畜牧中饲料种植的碳足迹和成本，并为牧场分布式肥料生产提供新思路，值得关注其AI优化与模块化设计对农业自动化的启示。",
+    "titleZh": "无需哈伯-博世法：AI优化等离子体能否让绿色氨肥成本具备竞争力？",
+    "summaryZh": "本文报道了初创公司Faraday Earth利用非热等离子体技术生产绿色氨，并通过AI优化反应效率，目标将成本降至每吨约500美元，接近传统化石燃料氨的水平。该技术采用模块化、分布式系统，可减少运输成本，有望颠覆传统氨肥供应链。文章详细介绍了技术原理、团队背景及商业化前景，对智慧畜牧行业关注可持续肥料来源具有参考价值。",
+    "featuredReason": "该技术有望降低绿色氨肥成本，为智慧畜牧行业提供可持续、低成本的氮肥来源，减少对传统化石燃料的依赖，符合绿色农业和精准施肥趋势。",
     "url": "https://agfundernews.com/fertilizer-without-haber-bosch-can-ai-optimized-plasma-make-green-ammonia-cost-competitive",
     "source": {
       "name": "AgFunderNews",
@@ -104,9 +104,9 @@
     "category": "crop",
     "subcategory": "field",
     "techTags": "",
-    "qualityScore": 85,
+    "qualityScore": 79,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-07-01T01:26:51.461Z"
+    "publishedAt": "2026-07-01T01:39:23.261Z"
   }
 ]

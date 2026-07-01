@@ -1,10 +1,10 @@
 [
   {
-    "id": "cmr1eanwd004hpldz8pny3hg8",
+    "id": "cmr1eqrzc0043132zaj309o2a",
     "titleEn": "From Taxol to cocoa: Can plant cell culture make the leap from drugs to food?",
-    "titleZh": "从紫杉醇到可可：植物细胞培养能否从制药跨越到食品领域？",
-    "summaryZh": "本文探讨了植物细胞培养技术从制药领域向食品、保健品原料生产拓展的商业可行性。由于气候冲击和地缘政治不稳定威胁传统植物供应链，利用生物反应器室内培养高价值植物成分（如可可、香草、藏红花、南非醉茄等）具有明显吸引力。然而，该技术面临资本支出高、运营成本大、细胞系稳定性要求严苛等挑战，一家英国初创公司因资金耗尽而倒闭。文章分析了不同规模反应器的技术路线，并指出植物细胞培养在食品领域的商业化仍需克服经济性难题。",
-    "featuredReason": "虽然植物细胞培养技术本身不直接属于智慧畜牧范畴，但其在供应链稳定性、生物反应器规模化生产方面的经验教训，对智慧畜牧中植物基饲料、添加剂及药用植物的可控生产具有跨领域借鉴价值。",
+    "titleZh": "从紫杉醇到可可：植物细胞培养能否从制药跨界到食品？",
+    "summaryZh": "本文探讨了植物细胞培养技术从制药领域向食品、保健品原料生产拓展的可行性。面对气候冲击和地缘政治不稳定对传统植物供应链的威胁，利用生物反应器室内培养高价值植物成分（如可可、香草、藏红花、南非醉茄等）具有明显吸引力。然而，该技术面临资本支出高、运营成本大、细胞系稳定性要求苛刻等挑战，一家英国初创公司因资金耗尽而倒闭。文章对比了不锈钢大罐与模块化小系统的不同技术路线，并指出当前融资环境严峻，但商业兴趣浓厚。",
+    "featuredReason": "虽然植物细胞培养技术本身不直接属于智慧畜牧范畴，但其在稳定供应链、减少环境风险、实现标准化生产方面的思路，对智慧畜牧中植物基饲料、药用植物添加剂及室内垂直农业的自动化、生物反应器应用具有重要借鉴意义。",
     "url": "https://agfundernews.com/from-taxol-to-cocoa-can-plant-cell-culture-make-the-leap-from-drugs-to-food",
     "source": {
       "name": "AgFunderNews",
@@ -16,17 +16,17 @@
     "category": "crop",
     "subcategory": "fruit",
     "techTags": "",
-    "qualityScore": 59,
+    "qualityScore": 69,
     "isFeatured": true,
-    "isHot": false,
-    "publishedAt": "2026-07-01T01:26:51.461Z"
+    "isHot": true,
+    "publishedAt": "2026-07-01T01:39:23.261Z"
   },
   {
-    "id": "cmr1eann0002hpldzua1ph4tb",
+    "id": "cmr1eqrrj002h132zy6fmsutt",
     "titleEn": "Nationwide protests disrupt trading at Joburg municipal market",
     "titleZh": "全国性抗议活动扰乱约翰内斯堡市政市场交易",
-    "summaryZh": "南非全国性抗议活动针对来自非洲其他国家的移民（无论是否合法），导致约翰内斯堡市政生鲜市场交易中断。极端组织设定最后期限要求“无证”外国人离境，实际演变为针对所有非洲外国人的仇外攻击。市场交易员、农民和运输商因安全担忧而停工，许多买家为外国人，交易量大幅下降。政府正通过多个边境口岸加速驱逐数千人。文章还提及巴西果农探索低流量无人机喷洒技术、沙特解除黎巴嫩农产品禁令等农业新闻。",
-    "featuredReason": "尽管本文主要涉及南非社会政治事件，但其中提及的巴西果农探索低流量无人机喷洒技术、温室投资洞察等农业科技内容，以及市场动荡对生鲜供应链的影响，对智慧畜牧行业从业者理解全球农业市场动态和技术趋势具有参考价值。",
+    "summaryZh": "南非爆发全国性抗议，针对来自非洲其他国家的移民（无论是否合法），极端组织要求“无证”外国人离境，导致约翰内斯堡新鲜农产品市场交易停滞。市场交易员、农民和运输商因安全担忧而撤离，许多买家为外国人，交易量大幅下降。文章还提及排外情绪背后的经济、政治和毒品贸易因素，以及政府仓促驱逐移民的举措。",
+    "featuredReason": "该新闻揭示了社会动荡对农产品供应链的直接影响，智慧畜牧行业从业者需关注此类非技术因素对市场稳定性和物流安全的潜在风险，以优化应急预案和供应链韧性设计。",
     "url": "https://www.freshplaza.com/north-america/article/9852405/nationwide-protests-disrupt-trading-at-joburg-municipal-market/",
     "source": {
       "name": "Fresh Plaza",
@@ -38,39 +38,17 @@
     "category": "crop",
     "subcategory": "fruit",
     "techTags": "",
-    "qualityScore": 23,
+    "qualityScore": 22,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-06-30T11:46:00.000Z"
   },
   {
-    "id": "cmr1eannc002rpldzyugnil9v",
-    "titleEn": "Chinese entrepreneur helps expand Thailand's coconut exports",
-    "titleZh": "中国企业家助力泰国椰子出口：自动化加工与供应链升级案例",
-    "summaryZh": "中国企业家秦少宇自2015年进入泰国椰子产业，通过引入中国自动化去壳设备、优化加工流程、建立分级体系及冷链改进，将泰国香椰对华出口从2014年的少量集装箱提升至2015年约1000个集装箱，其公司占近40%份额。他还在广西南宁投资220万美元建加工厂，利用海运3天到港优势加工椰子水、椰肉等产品，并计划利用椰壳发电、椰糠制有机肥。该案例展示了自动化技术与供应链管理在热带水果出口中的实际应用与产业带动效应。",
-    "featuredReason": "该案例展示了自动化去壳设备、冷链改进和分级系统在热带水果出口中的实际应用，为智慧畜牧行业在种植业自动化与供应链优化方面提供了跨领域参考。",
-    "url": "https://www.freshplaza.com/north-america/article/9852175/chinese-entrepreneur-helps-expand-thailand-s-coconut-exports/",
-    "source": {
-      "name": "Fresh Plaza",
-      "nameZh": "新鲜广场",
-      "tier": "T2"
-    },
-    "sourceId": "freshplaza",
-    "species": "fruit",
-    "category": "crop",
-    "subcategory": "fruit",
-    "techTags": "",
-    "qualityScore": 30,
-    "isFeatured": false,
-    "isHot": false,
-    "publishedAt": "2026-06-30T11:35:00.000Z"
-  },
-  {
-    "id": "cmr1eannh002vpldzb5jkch5r",
+    "id": "cmr1eqrrq002n132zlzh16g94",
     "titleEn": "Celebrating America’s 250th anniversary with retail activation program for watermelons",
-    "titleZh": "美国西瓜零售商推出爱国主题展示计划庆祝建国250周年",
-    "summaryZh": "Melon 1公司推出美国主题西瓜展示箱计划，在东部和中西部零售点投放超过31.5万个爱国主题展示箱，以庆祝美国建国250周年和独立日。该计划旨在提升西瓜销售，同时强调美国农民家庭和本土农产品价值。零售商反馈积极，认为展示箱能吸引顾客并增强购物体验。文章还提到西瓜生产从佛罗里达转向佐治亚和南卡罗来纳，确保夏季供应。",
-    "featuredReason": "尽管该新闻主要聚焦于零售营销和消费者活动，而非智慧畜牧核心技术，但其中提及的供应链管理、季节性生产规划及农民-消费者连接策略，可为智慧畜牧行业在品牌化、数据驱动的零售激活和消费者互动方面提供跨界参考。",
+    "titleZh": "美国西瓜品牌推出250周年爱国主题零售陈列计划",
+    "summaryZh": "本文报道了Melon 1公司为庆祝美国建国250周年，在东部和中西部零售店投放超过31.5万个爱国主题西瓜展示箱，以吸引消费者、支持美国农民，并提升西瓜销量。文章还提及美国西瓜产季从佛罗里达向佐治亚和南卡罗来纳转移，以及公司对夏季和秋季供应的保障。该新闻主要聚焦传统零售营销和农产品供应链，与智慧畜牧（IoT/AI/自动化/机器人/传感器在养殖业/种植业的应用）相关性极低。",
+    "featuredReason": "本文虽与智慧畜牧技术无直接关联，但展示了农产品零售营销的创新思路，可作为智慧畜牧行业在品牌推广和消费者互动方面的参考案例。",
     "url": "https://www.freshplaza.com/north-america/article/9852129/celebrating-america-s-250th-anniversary-with-retail-activation-program-for-watermelons/",
     "source": {
       "name": "Fresh Plaza",
@@ -88,11 +66,11 @@
     "publishedAt": "2026-06-30T11:35:00.000Z"
   },
   {
-    "id": "cmr1eanno0031pldzklt3twua",
+    "id": "cmr1eqrrv002r132zeww0ox73",
     "titleEn": "Marketing strategies to regain product appeal",
-    "titleZh": "梨果营销困境：欧洲各国如何重获年轻消费者青睐",
-    "summaryZh": "本文报道了2026年Interpera会议关于梨果营销的讨论。由于年轻消费者流失，梨果销售日益困难。意大利在过去八年中市场份额下降，而荷兰、比利时、波兰等国出口策略各异。荷兰指出35岁以下消费者梨果消费量五年内下降20%，家庭购买率从70%降至60%。各国正探索通过品牌化、聚焦年轻世代等营销策略重振产品吸引力。",
-    "featuredReason": "尽管本文主要讨论梨果营销，但其中关于年轻消费者流失、品牌化策略及消费刺激的思考，对智慧畜牧行业在面向终端消费者进行产品推广和品牌建设时具有跨行业借鉴意义。",
+    "titleZh": "梨果营销困境：欧洲各国如何应对年轻消费者流失",
+    "summaryZh": "本文报道了Interpera会议上关于梨果营销的讨论，重点分析了欧洲主要梨生产国（意大利、荷兰、比利时、波兰、西班牙等）的出口格局与消费趋势。数据显示，梨果面临年轻消费者流失（荷兰35岁以下消费下降20%）、家庭购买率下滑（10年下降10个百分点）等挑战。各国采取不同策略：荷兰聚焦年轻一代品牌化沟通，法国转向内需市场，波兰依赖非欧盟出口。文章揭示了传统农产品在消费代际更替中的共性危机，但未涉及智慧畜牧或农业科技应用。",
+    "featuredReason": "本文揭示了传统农产品（梨）面临的年轻消费者流失和消费代际断层问题，虽未直接涉及智慧畜牧技术，但为农业从业者提供了营销转型和品牌年轻化的思考方向，可启发智慧畜牧领域在消费端的数据洞察与精准营销策略。",
     "url": "https://www.freshplaza.com/north-america/article/9851206/marketing-strategies-to-regain-product-appeal/",
     "source": {
       "name": "Fresh Plaza",
@@ -104,18 +82,40 @@
     "category": "crop",
     "subcategory": "fruit",
     "techTags": "",
-    "qualityScore": 19,
+    "qualityScore": 20,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-06-30T11:35:00.000Z"
   },
   {
-    "id": "cmr1ean2b000ppldzet763dcg",
+    "id": "cmr1eqqj2000p132z6t3kfq99",
     "titleEn": "Fieldwork Robotics secures new funding to accelerate raspberry harvesting robot",
-    "titleZh": "Fieldwork Robotics获新融资加速树莓采摘机器人商业化",
-    "summaryZh": "英国Fieldwork Robotics公司获得由企业家Jim Mellon担任主席的SEED Innovations投资公司的新一轮融资，用于加速其自主树莓采摘机器人的商业部署。该机器人利用AI和机器人技术实现精准采摘，旨在解决农业劳动力短缺问题，提升采摘效率和降低损耗。虽然直接针对种植业而非养殖业，但其自动化、机器人技术在农业领域的应用模式对智慧畜牧行业具有借鉴意义。",
-    "featuredReason": "该新闻展示了农业机器人从研发到商业化的关键进展，其AI视觉、柔性抓取等技术路径对智慧畜牧中的自动化饲喂、巡检等场景有直接参考价值。",
+    "titleZh": "Fieldwork Robotics获新融资，加速树莓采摘机器人商业化",
+    "summaryZh": "英国Fieldwork Robotics公司从SEED Innovations获得额外投资，以加速其自主树莓采摘机器人的商业部署。该机器人利用AI和机器人技术实现精准采摘，旨在解决农业劳动力短缺问题。虽然直接针对种植业，但其技术路径（视觉识别、柔性抓取、自主导航）对智慧畜牧中的自动化作业（如挤奶、饲喂、巡检）具有参考价值。融资方由知名投资人Jim Mellon领投，表明资本市场对农业机器人前景的认可。",
+    "featuredReason": "该新闻展示了农业机器人从研发到商业化的关键融资进展，其AI视觉与柔性抓取技术对智慧畜牧中类似自动化场景（如果实采摘、物料搬运）有直接借鉴意义，值得关注农业自动化趋势的从业者阅读。",
     "url": "https://www.futurefarming.com/smart-farming/fieldwork-robotics-secures-new-funding-to-accelerate-raspberry-harvesting-robot/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 73,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-25T06:00:00.000Z"
+  },
+  {
+    "id": "cmr1eqqjf0011132zgof4yusc",
+    "titleEn": "Croplands expands WEED-IT range with new releases, including orchard solution",
+    "titleZh": "Croplands扩展WEED-IT精准喷洒系列：推出果园专用光学点喷解决方案",
+    "summaryZh": "澳大利亚Croplands Equipment公司发布了WEED-IT精准喷洒系列的新技术，包括Series 2 Robot Ready Pinto、大型宽幅平台、扩展的改造能力以及首款专为果园设计的光学点喷解决方案。这些技术提升了杂草检测与定点喷洒的自动化水平，对种植业精准农业有参考价值，但直接与智慧畜牧（养殖业）关联度中等。",
+    "featuredReason": "虽然该新闻聚焦于种植业精准喷洒，但其光学传感、机器人集成和自动化控制技术对智慧畜牧中牧场管理、杂草控制及精准作业具有跨领域借鉴意义。",
+    "url": "https://www.futurefarming.com/smart-farming/croplands-expands-weed-it-range-with-new-releases-including-orchard-solution/",
     "source": {
       "name": "Future Farming",
       "nameZh": "未来农业",
@@ -129,36 +129,14 @@
     "qualityScore": 76,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-25T06:00:00.000Z"
-  },
-  {
-    "id": "cmr1ean2s0011pldzx54alkkp",
-    "titleEn": "Croplands expands WEED-IT range with new releases, including orchard solution",
-    "titleZh": "Croplands推出WEED-IT系列新品，包括首款果园精准喷雾解决方案",
-    "summaryZh": "澳大利亚Croplands Equipment公司发布了WEED-IT精准喷雾系列的多项新技术，主打产品为Series 2 Robot Ready Pinto，同时涵盖新型大规模宽幅平台、扩展的改装能力以及公司首款专为果园设计的光学定点喷雾解决方案。这些技术主要面向种植业精准施药，与智慧畜牧领域间接相关，但展示了精准农业中传感器与自动化技术的创新应用。",
-    "featuredReason": "虽然该新闻主要聚焦种植业精准喷雾，但其中涉及的传感器、自动化及机器人技术对智慧畜牧中精准饲喂、环境监测等场景具有技术借鉴价值，值得关注跨领域创新趋势。",
-    "url": "https://www.futurefarming.com/smart-farming/croplands-expands-weed-it-range-with-new-releases-including-orchard-solution/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1"
-    },
-    "sourceId": "futurefarming",
-    "species": "fruit",
-    "category": "crop",
-    "subcategory": "fruit",
-    "techTags": "",
-    "qualityScore": 57,
-    "isFeatured": true,
-    "isHot": false,
     "publishedAt": "2026-06-18T07:00:00.000Z"
   },
   {
-    "id": "cmr1eamh4000bpldz6t65196a",
+    "id": "cmr1eqplc000b132ztcww8tfb",
     "titleEn": "UC Riverside Develops Modern-Day Robotic Divining Rod",
-    "titleZh": "加州大学河滨分校开发现代机器人探水仪：逐树绘制土壤湿度图，精准灌溉应对干旱",
-    "summaryZh": "加州大学河滨分校（UC Riverside）的研究团队开发了一种新型机器人系统，能够逐树绘制果园土壤湿度图，帮助农民在干旱和水资源短缺的背景下精准灌溉。该系统通过机器人测量土壤电导率，并结合固定传感器的水分数据，建立统计模型预测整个田地的含水量，从而生成每棵树的湿度分布图。这项技术解决了传统土壤湿度传感器成本高、覆盖范围有限的问题，让农民知道哪里需要浇水、何时需要浇水，避免过度灌溉或干旱胁迫，提升水资源利用效率和作物健康。研究发表在《计算机与电子农业》期刊上。",
-    "featuredReason": "该技术将机器人、传感器和统计建模结合，实现了种植业中逐棵树的精准灌溉，其方法论（电导率+固定传感器映射）对智慧畜牧中的精准饲喂、环境监控等场景有直接借鉴意义，展示了跨领域技术迁移的潜力。",
+    "titleZh": "加州大学河滨分校开发现代机器人探水仪：逐树绘制土壤湿度图，精准灌溉助力抗旱",
+    "summaryZh": "加州大学河滨分校（UC Riverside）的研究团队开发了一套新型机器人系统，能够逐棵树绘制果园土壤湿度图，帮助农民在干旱和水资源短缺时代实现精准灌溉。该系统通过机器人测量土壤电导率，并结合埋入式传感器的数据，建立统计模型预测整个田块的水分分布，从而让农民知道每棵树需要多少水，只在需要的地方和时间浇水。这项技术有望替代传统昂贵的固定传感器，解决因土壤质地差异导致的灌溉不均问题，对提升水资源利用效率和作物健康具有重要意义。",
+    "featuredReason": "该技术将机器人、传感器与统计建模结合，实现了逐棵树的精准灌溉，对智慧畜牧行业中的种植业环节（如饲料作物或果园管理）具有直接借鉴意义，展示了如何通过低成本、高精度的土壤监测提升水资源利用效率，应对干旱挑战。",
     "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/uc-riverside-develops-modern-day-robotic-divining-rod/",
     "source": {
       "name": "PrecisionAg",
@@ -176,11 +154,11 @@
     "publishedAt": "2026-06-15T18:17:17.000Z"
   },
   {
-    "id": "cmr1ean3k001rpldzygokm707",
+    "id": "cmr1eqqka001r132zuyw24knj",
     "titleEn": "Yamaha Agriculture adds herbicide spraying to Prospr robot",
     "titleZh": "雅马哈农业为Prospr机器人新增除草剂喷洒功能",
-    "summaryZh": "雅马哈农业为其Prospr自主混合动力车辆平台推出了除草剂喷洒附件，扩展了该机器在果园和葡萄园中实现自动化杂草控制的能力。该技术将机器人平台与精准喷洒结合，提升了种植业的自动化水平，但主要针对果树类作物，与畜牧养殖的直接关联较弱。",
-    "featuredReason": "该新闻展示了农业机器人从运输、监测向精准作业（如除草剂喷洒）的扩展趋势，对智慧畜牧中类似自动化设备（如饲喂、清洁机器人）的功能集成具有借鉴意义。",
+    "summaryZh": "雅马哈农业为其Prospr自主混合动力车辆平台推出了除草剂喷洒附件，扩展了该机器在果园和葡萄园中实现自动化杂草控制的能力。这一创新将机器人技术与精准农业结合，提升了作物管理的自动化水平，对智慧种植领域具有参考价值，但直接关联智慧畜牧（养殖业）的程度中等。",
+    "featuredReason": "该新闻展示了机器人技术在精准农业中的最新应用，虽聚焦种植业，但其自动化、传感器融合与自主决策思路对智慧畜牧领域的机器人化作业具有跨领域借鉴意义。",
     "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/yamaha-agriculture-adds-herbicide-spraying-to-prospr-robot/",
     "source": {
       "name": "Future Farming",
@@ -192,7 +170,7 @@
     "category": "crop",
     "subcategory": "fruit",
     "techTags": "",
-    "qualityScore": 68,
+    "qualityScore": 76,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-03T07:00:00.000Z"
