@@ -30,7 +30,7 @@ export function SpeciesPage({ species, speciesName }: SpeciesPageProps) {
           <h1 className="page-title">{speciesName}业智养</h1>
           <p className="page-subtitle">{speciesName}业相关资讯全量信息流</p>
         </div>
-        <Timeline items={items} showFilters />
+        <Timeline items={items} showFilters initialSpecies={species} />
       </main>
       <RightPanel hotItems={hotItems} stats={stats} />
     </>

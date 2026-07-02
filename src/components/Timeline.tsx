@@ -28,6 +28,7 @@ export interface NewsItem {
 interface TimelineProps {
   items: NewsItem[];
   showFilters?: boolean;
+  initialSpecies?: string;
 }
 
 const SPECIES_FILTERS = [
@@ -50,8 +51,8 @@ const TECH_FILTERS = [
   { key: 'sensor', label: '传感器' },
 ];
 
-export function Timeline({ items = [], showFilters = false }: TimelineProps) {
-  const [speciesFilter, setSpeciesFilter] = useState('all');
+export function Timeline({ items = [], showFilters = false, initialSpecies }: TimelineProps) {
+  const [speciesFilter, setSpeciesFilter] = useState(initialSpecies || 'all');
   const [techFilter, setTechFilter] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
 
