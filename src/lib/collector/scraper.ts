@@ -68,10 +68,29 @@ async function fetchWithBrowser(url: string): Promise<string | null> {
 }
 
 /**
- * 用浏览器获取 RSS XML 内容（CF 拦截的 RSS 源回退）
+ * 用浏览器获取 RSS XML 原始内容（CF 拦截的 RSS 源回退）
+ * 直接拦截 HTTP 响应拿原始 XML，不经过 HTML 渲染
  */
 export async function fetchWithBrowserRss(url: string): Promise<string | null> {
-  return fetchWithBrowser(url);
+  const browser = await getBrowser();
+  const context = await browser.newContext({ userAgent: UA });
+  const page = await context.newPage();
+  try {
+    // 拦截主文档响应，获取原始 XML
+    const responsePromise = page.waitForResponse(
+      (resp) => resp.url() === url || resp.url().startsWith(url.split('?')[0]),
+      { timeout: 30000 }
+    );
+    await page.goto(url, { waitUntil: 'commit', timeout: 30000 });
+    const response = await responsePromise;
+    const body = await response.body();
+    return body.toString('utf-8');
+  } catch (e: any) {
+    console.error(`  [browser-rss] ${url}: ${e.message}`);
+    return null;
+  } finally {
+    await context.close();
+  }
 }
 
 // ========== SSRF 防护 ==========
