@@ -1,5 +1,71 @@
 [
   {
+    "id": "cmr3a8iyz000l10tseerh2hyv",
+    "titleEn": "Sabanto and Verdant Robotics integrate autonomy and precision application systems",
+    "titleZh": "Sabanto与Verdant Robotics整合自主导航与精准施药系统",
+    "summaryZh": "美国公司Sabanto与Verdant Robotics首次整合其自主导航与精准施药系统，实现从田间导航到单株级投入品施用的全自动化作业，无需驾驶舱操作员。该系统已在佛罗里达州Bethel Farms的草皮生产中商业化运行，覆盖超过9900英亩，显著降低人工和投入成本，为农业自动化提供了可落地的集成方案。",
+    "featuredReason": "该新闻展示了自主导航与精准施药技术的深度集成，为智慧畜牧行业（尤其是草场管理）提供了可借鉴的自动化降本增效方案，对关注劳动力替代和精准投入的从业者具有直接参考价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/sabanto-and-verdant-robotics-integrate-autonomy-and-precision-application-systems/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 88,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-02T09:00:00.000Z"
+  },
+  {
+    "id": "cmr3a8iza000n10ts3s2tdpmf",
+    "titleEn": "Tersus GNSS AG993: Modular autosteer kit with built-in satellite correction fallback",
+    "titleZh": "Tersus GNSS AG993模块化自动转向套件：内置卫星校正备份功能",
+    "summaryZh": "Tersus GNSS推出AG993模块化自动转向改装套件，具备优于2.5厘米的自动转向精度，支持0.2至30公里/小时工作速度及0.1公里/小时超低速。其核心亮点是TAP（Tersus高级定位）服务，通过L波段卫星信号提供实时校正，无需本地基站或移动网络，并在RTK信号丢失时自动切换为备份，保持定位一致性。系统兼容90%以上农用车辆，模块化设计便于安装和跨车辆迁移。",
+    "featuredReason": "该产品展示了高精度自动转向技术在农业中的最新进展，尤其是其独立于蜂窝网络的卫星校正备份功能，对智慧畜牧中大型牧场或田间作业的自动化升级具有参考价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/tersus-gnss-ag993-modular-autosteer-kit-with-built-in-satellite-correction-fallback/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 76,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-02T08:00:00.000Z"
+  },
+  {
+    "id": "cmr3a8vgf003510tszt3843as",
+    "titleEn": "Spring Innovation Fund debuts as first venture philanthropy firm dedicated to animal welfare tech",
+    "titleZh": "Spring创新基金：首家专注动物福利科技的风险慈善工作室",
+    "summaryZh": "Spring创新基金作为首家采用风险慈善模式、专门投资动物福利科技的非营利组织，通过孵化初创企业、提供初始资金和后续支持，推动低成本人道屠宰、疾病早期检测、AI与机器人等技术在畜牧业的商业化应用。其“常青”模式将商业回报循环再投资，为智慧畜牧行业提供了兼顾动物福利与经济效益的创新路径。",
+    "featuredReason": "该新闻展示了首个将慈善资本与商业回报结合的动物福利科技投资模式，为智慧畜牧行业提供了低成本人道屠宰、AI疾病检测等前沿技术的商业化路径参考，值得关注动物福利与经济效益协同发展的从业者阅读。",
+    "url": "https://agfundernews.com/spring-innovation-fund-debuts-as-first-venture-philanthropy-firm-dedicated-to-animal-welfare-tech",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-30T15:30:19.000Z"
+  },
+  {
     "id": "cmqt2nv92000h12t0ye840xum",
     "titleEn": "UK Firm Takes Leading Role in Cutting-Edge Farm Robots Project",
     "titleZh": "英国公司领衔前沿农场机器人项目，蜜蜂无人机与机器鼹鼠将上岗",
@@ -22,91 +88,25 @@
     "publishedAt": "2026-06-29T16:00:00.000Z"
   },
   {
-    "id": "cmr2zkgw50017fjpsxz1xtmpn",
-    "titleEn": "If food security is strategic, why does agricultural innovation still struggle to scale?",
-    "titleZh": "粮食安全战略地位凸显，为何农业创新规模化仍举步维艰？",
-    "summaryZh": "本文由《未来农业》主编Geert Hekkert撰写，指出农业长期依赖国防、汽车、硅谷等外领域技术，但如今农业正成为技术验证场，其成果反而在建筑、采矿和国防领域找到更大市场。文章以Monarch Tractor为例，探讨农业创新规模化面临的挑战，并呼吁行业反思：若粮食安全是战略问题，为何农业科技投资与落地仍显滞后？适合关注农业科技投资、自主化、电动化趋势的从业者阅读。",
-    "featuredReason": "本文从战略高度反思农业创新规模化困境，虽非直接聚焦智慧畜牧，但其对技术跨界应用、投资逻辑的剖析，对畜牧行业引入IoT、AI、机器人等创新具有重要启发。",
-    "url": "https://www.futurefarming.com/tech-in-focus/if-food-security-is-strategic-why-does-agricultural-innovation-still-struggle-to-scale/",
+    "id": "cmr3a8vi6003l10tsj67glbs9",
+    "titleEn": "Tech alone won’t future-proof the food system, experts warn",
+    "titleZh": "专家警告：仅靠技术无法确保食品系统的未来",
+    "summaryZh": "本文报道了阿姆斯特丹Hello Tomorrow峰会上多位专家的观点，指出尽管气候危机和地缘政治动荡加剧，但现有技术（如卫星监测、精准农业、供应链数据等）若仅用于修补现有食品系统，而缺乏根本性政治协调和系统性改革，则无法真正实现韧性。文章强调技术进步需要与政策、文化整合相结合，才能应对食品安全的长期挑战。",
+    "featuredReason": "本文虽非直接聚焦智慧畜牧，但深刻揭示了技术应用与政策协调之间的鸿沟，对智慧畜牧行业从业者具有战略警示意义：技术落地不能脱离系统改革与多方协作。",
+    "url": "https://agfundernews.com/tech-alone-wont-future-proof-the-food-system-experts-warn",
     "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
       "tier": "T1"
     },
-    "sourceId": "futurefarming",
+    "sourceId": "agfundernews",
     "species": "general",
     "category": "aggtech",
     "subcategory": "general",
     "techTags": "",
-    "qualityScore": 73,
+    "qualityScore": 62,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-15T09:00:00.000Z"
-  },
-  {
-    "id": "cmr2zkgy7001tfjps0orjgrf8",
-    "titleEn": "Elbit Systems acquires Bluewhite: a new chapter for autonomous farming",
-    "titleZh": "埃尔比特系统收购Bluewhite：自主农业的新篇章",
-    "summaryZh": "以色列国防与科技集团埃尔比特系统通过其子公司FUSE完成了对农业自动驾驶技术公司Bluewhite的收购。Bluewhite成立于2017年，总部位于特拉维夫，专注于为农业提供自主车辆技术。此次收购将国防领域的先进自主系统能力引入农业，有望加速精准农业和自动化在种植业的应用，但对智慧畜牧（养殖业）的直接关联度中等。",
-    "featuredReason": "该新闻展示了国防技术向农业领域的跨界融合，为智慧畜牧行业提供了自主化、精准化技术发展的新思路，值得关注其技术迁移潜力。",
-    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/elbit-systems-acquires-bluewhite-a-new-chapter-for-autonomous-farming/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1"
-    },
-    "sourceId": "futurefarming",
-    "species": "general",
-    "category": "aggtech",
-    "subcategory": "general",
-    "techTags": "",
-    "qualityScore": 79,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-02T13:30:00.000Z"
-  },
-  {
-    "id": "cmqrsbigm0001iiyf7r8ctq46",
-    "titleEn": "Niqo Robotics Takes India-Built Physical AI Farming Platform to Europe at Bharat Innovates 2026",
-    "titleZh": "Niqo Robotics携印度造物理AI农业平台亮相Bharat Innovates 2026，进军欧洲市场",
-    "summaryZh": "印度物理AI公司Niqo Robotics被选为代表印度参加Bharat Innovates 2026深科技峰会的唯一精准AI农业机器人企业。其智能除草平台已在印度农田验证，现计划通过欧洲（首站法国）向全球扩张。平台无订阅费、无隐藏成本，强调从第一天起为农民创造投资回报。该事件标志着印度制造的农业机器人技术从本土走向全球，对智慧农业领域的AI与机器人应用具有重要示范意义。",
-    "featuredReason": "该新闻展示了印度制造的物理AI农业机器人从本土走向全球的里程碑，其无订阅、即插即用、注重投资回报率的商业模式，对智慧畜牧与种植领域的自动化、AI应用具有直接参考价值。",
-    "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/niqo-robotics-takes-india-built-physical-ai-farming-platform-to-europe-at-bharat-innovates-2026/",
-    "source": {
-      "name": "PrecisionAg",
-      "nameZh": "精准农业",
-      "tier": "T1.5"
-    },
-    "sourceId": "precisionag",
-    "species": "general",
-    "category": "aggtech",
-    "subcategory": "general",
-    "techTags": "",
-    "qualityScore": 61,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-05-24T16:00:00.000Z"
-  },
-  {
-    "id": "cmqt2nv82000312t0bqrzirne",
-    "titleEn": "Syngenta Signs MoU to Be Strategic Partner in India’s First Open-Data Agricultural Ecosystem Annam.AI",
-    "titleZh": "先正达签署谅解备忘录，成为印度首个开放数据农业生态系统Annam.AI的战略合作伙伴",
-    "summaryZh": "先正达与印度政府支持的Annam.AI项目签署谅解备忘录，成为其战略合作伙伴。Annam.AI旨在构建基于开放数据的全国性农业智能基础设施，为农民提供免费、实时、个性化的AI农事建议，涵盖作物健康、病虫害预测和热应激模型。该项目由印度教育部、农业与农民福利部支持，谷歌等全球技术伙伴参与，由IIT Ropar主导。先正达将贡献其研发和农艺专长，助力精准农业和气候韧性。",
-    "featuredReason": "该新闻展示了开放数据与AI在农业中的大规模应用，对智慧畜牧行业具有跨领域借鉴意义，尤其是其病虫害预测、热应激模型和个性化农事建议的技术路径，可直接启发养殖业中的动物健康监测和环境控制方案。",
-    "url": "https://www.globalagtechinitiative.com/digital-farming/syngenta-signs-mou-to-be-strategic-partner-in-indias-first-open-data-agricultural-ecosystem-annam-ai/",
-    "source": {
-      "name": "PrecisionAg",
-      "nameZh": "精准农业",
-      "tier": "T1.5"
-    },
-    "sourceId": "precisionag",
-    "species": "general",
-    "category": "aggtech",
-    "subcategory": "general",
-    "techTags": "",
-    "qualityScore": 61,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-05-18T16:00:00.000Z"
+    "publishedAt": "2026-06-18T13:27:08.000Z"
   }
 ]
