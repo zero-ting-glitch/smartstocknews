@@ -6,7 +6,7 @@ import { PrismaClient } from '@prisma/client';
 import { mkdirSync, writeFileSync, readdirSync, unlinkSync } from 'fs';
 import { join } from 'path';
 import { readFileSync } from 'fs';
-import { scrapeArticle, scrapeListingPage } from '../src/lib/collector/scraper';
+import { scrapeArticle, scrapeListingPage, fetchWithBrowserRss, closeBrowser } from '../src/lib/collector/scraper';
 
 const prisma = new PrismaClient();
 const CONCURRENCY = 5;
@@ -42,7 +42,30 @@ async function fetchRss(source: any): Promise<any[]> {
       }
     }
   } catch (e: any) {
-    console.error(`  [RSS] ${source.name} failed: ${e.message}`);
+    // RSS 解析失败（可能 403），尝试浏览器回退
+    console.log(`  [RSS] ${source.name} 解析失败，尝试浏览器回退: ${e.message}`);
+    try {
+      const xml = await fetchWithBrowserRss(source.rssUrl);
+      if (xml) {
+        const rssParser = await import('rss-parser') as any;
+        const Parser = rssParser.default || rssParser;
+        const parser = new Parser();
+        const feed = await parser.parseString(xml);
+        for (const entry of feed.items || []) {
+          if (entry.title && entry.link) {
+            items.push({
+              title: entry.title.trim(),
+              url: entry.link.trim(),
+              publishedAt: entry.pubDate ? new Date(entry.pubDate) : null,
+              contentHtml: entry.contentSnippet || entry.content || '',
+            });
+          }
+        }
+        console.log(`  [RSS] ${source.name} 浏览器回退成功: ${items.length} 条`);
+      }
+    } catch (e2: any) {
+      console.error(`  [RSS] ${source.name} 浏览器回退也失败: ${e2.message}`);
+    }
   }
   return items;
 }
@@ -901,7 +924,8 @@ async function main() {
 
 main()
   .catch(console.error)
-  .finally(() => {
+  .finally(async () => {
+    await closeBrowser().catch(() => {});
     prisma.$disconnect().catch(() => {});
     // 防止 prisma disconnect 卡住导致进程不退出
     setTimeout(() => process.exit(0), 5000);

@@ -46,7 +46,7 @@ smartstock/
 │   ├── seed-sources.ts    # 信源初始化
 │   ├── check-items.ts     # 数据检查工具
 │   └── clear-truncated.ts # 清除截断翻译（一次性工具）
-├── data/sources.json      # 9 个信源配置
+├── data/sources.json      # 15 个信源配置（9 种植/综合 + 6 畜牧）
 ├── prisma/schema.prisma   # 数据库 schema
 ├── public/
 │   ├── _headers           # 安全头（CSP 等）
@@ -75,6 +75,7 @@ smartstock/
 - DeepSeek API（统一调用评分+全文翻译+摘要+精选理由）
 - cheerio（HTML 解析，全文爬取）
 - rss-parser（RSS feed 解析）
+- Playwright + Stealth 插件（Headless Browser，绕过 Cloudflare 反爬）
 - 部署：GitHub Pages + GitHub Actions CI/CD
 
 ## 数据管线
@@ -84,10 +85,12 @@ smartstock/
 [2/5] 采集 URL      RSS 解析 + 列表页爬取 → 跨源标题去重 → 发现文章链接
 [2.5] 修正日期      检测 publishedAt 与 scrapedAt 相差 < 5 分钟的文章，重置重新爬取
 [3/5] 全文爬取      cheerio 解析 → 提取文本/图片/作者/发表日期（已爬过跳过）
+                    域名级限速（2s 间隔）防 429，Chrome UA + 浏览器特征头防 403
 [3.5] 重评相关性    全文爬取后用完整内容重新判断是否与智慧畜牧相关
-[4/5] AI 处理       预筛过滤 → DeepSeek 调用 → 五维评分+全文翻译+摘要+精选理由
+[3.7] 智慧农业预筛  技术+农业双维度关键词匹配，阈值 ≥ 2（详见下方）
+[4/5] AI 处理       DeepSeek 调用 → 五维评分+全文翻译+摘要+精选理由+物种分类
 [4.5] 修复 species  将 subcategory 同步到 species 字段
-[5/5] 导出 JSON     items.json + items/{id}.json + hot-items.json + stats.json + 按分类导出
+[5/5] 导出 JSON     清理孤立 detail 文件 → items.json + items/{id}.json + hot-items(5条) + stats.json + 按分类导出
 ```
 
 ### 翻译完整度保障
@@ -105,12 +108,14 @@ smartstock/
 - Step 2.5 自动检测日期可疑文章（publishedAt 与 scrapedAt 相差 < 5 分钟），重置重新爬取
 - 前端适配 null 日期：formatTime 显示 `--:--`，Timeline 归入"其他"组
 
-### 预筛过滤（Step 4 前置）
+### 预筛过滤（Step 3.7）
 
 - 关键词分两组：`TECH_KEYWORDS`（技术）+ `AG_KEYWORDS`（农业）
-- 必须每组至少命中 1 个，总命中 ≥ 3 才进入 AI 处理
+- 必须每组至少命中 1 个，总命中 ≥ 2 才进入 AI 处理（阈值从 3 降到 2，允许边缘情况通过）
 - 支持中英文关键词（覆盖 agri.cn 中文源）
 - 被拒 item 标记 `isRelevant: false, techTags: 'pre_filter_rejected'`
+- **歧义词处理**（`AMBIGUOUS_KWS`）：对多义词（如 `layer`、`traceability`）维护负面上下文正则列表，命中歧义词时检查是否匹配负面模式（如 "supply chain layers"、"visit our traceability page"），匹配则排除
+- **短词边界匹配**：长度 ≤ 5 的关键词使用 `\b` 词边界匹配，避免子串误匹配（如 `iot` 不匹配 `riot`）
 
 ### 跨源标题去重（Step 2 内置）
 
@@ -124,6 +129,12 @@ smartstock/
 `article .entry-content` → `article .post-content` → `.article-body` → `.story-body` → `.article-content` → `.article-page` → `.post-body` → `.entry-content` → `.post-content` → `article` → `main`
 
 特殊站点可在 `sources.json` 的 `scrapeConfig` 中配置 `contentSelector`、`dateSelector`、`authorSelector` 等。
+
+**爬虫反封措施**：
+- Chrome UA + 完整浏览器特征头（Sec-Fetch-*, Accept-Encoding 等），绕过基础 bot 检测
+- 域名级限速（`DOMAIN_DELAY_MS = 2000ms`），同一域名请求间隔 ≥ 2 秒防 429
+- **Headless Browser 回退**：fetch 返回 403 时自动回退到 Playwright + Stealth 插件（真正的 Chrome，绕过 Cloudflare TLS 指纹 + JS challenge）
+- 浏览器懒加载单例，管线结束自动关闭；RSS 解析失败时也走浏览器回退
 
 ## 开发原则
 
@@ -186,13 +197,19 @@ npx tsx scripts/export-static.ts          # 独立导出静态 JSON
 
 ## 信源体系
 
-9 个信源，分 RSS 和列表页爬取两种方式。配置在 `data/sources.json`。
+15 个信源配置（9 种植/综合 + 6 畜牧），分 RSS 和列表页爬取两种方式。配置在 `data/sources.json`。
 
 | 等级 | 定义 | 质量分权重 |
 |------|------|-----------|
 | T1 | 官方一手/学术 | 1.0 |
 | T1.5 | 行业权威媒体 | 0.7 |
 | T2 | 综合媒体 | 0.4 |
+
+**种植/综合信源（9 个）**：precisionagriculture、agfundernews、futurefarming、freshplaza、agri.cn（3 个中文源）、thepigsite、world-agriculture、agriculture
+
+**畜牧信源（6 个）**：nationalhogfarmer、porkorg、beefmagazine、poultrytimes、meatpoultry、feedstuffs
+
+**Cloudflare 封锁说明**：farmprogress 系（nationalhogfarmer、beefmagazine、poultrytimes、meatpoultry）及 feedstuffs 均被 Cloudflare TLS 指纹检测封锁（403），管线标记 `blocked_cloudflare` 跳过。这些站点需要 headless browser 或非 undici HTTP 客户端才能绕过。
 
 ## 详情页
 

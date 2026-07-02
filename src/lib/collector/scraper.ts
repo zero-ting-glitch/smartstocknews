@@ -1,10 +1,15 @@
 /**
  * Web 爬虫模块：爬取完整文章页面和列表页
- * 使用 cheerio 解析 HTML，无需浏览器
+ * 使用 cheerio 解析 HTML，403 时回退到 Playwright headless browser
  */
 import * as cheerio from 'cheerio';
 import * as dns from 'dns';
 import * as net from 'net';
+import { chromium } from 'playwright-extra';
+import type { Browser } from 'playwright';
+import StealthPlugin from 'puppeteer-extra-plugin-stealth';
+
+chromium.use(StealthPlugin());
 
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
 const TIMEOUT = 15000;
@@ -22,6 +27,52 @@ const BROWSER_HEADERS: Record<string, string> = {
 };
 const MAX_CONTENT_LENGTH = 10000;
 const MAX_RESPONSE_BYTES = 5 * 1024 * 1024; // 5MB
+
+// ========== Headless Browser（403 回退） ==========
+
+let browserInstance: Browser | null = null;
+
+async function getBrowser(): Promise<Browser> {
+  if (!browserInstance || !browserInstance.isConnected()) {
+    browserInstance = await chromium.launch({ headless: true });
+  }
+  return browserInstance;
+}
+
+export async function closeBrowser(): Promise<void> {
+  if (browserInstance) {
+    await browserInstance.close();
+    browserInstance = null;
+  }
+}
+
+async function fetchWithBrowser(url: string): Promise<string | null> {
+  const browser = await getBrowser();
+  const context = await browser.newContext({
+    userAgent: UA,
+    viewport: { width: 1920, height: 1080 },
+  });
+  const page = await context.newPage();
+  try {
+    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
+    // 等 Cloudflare challenge 自动通过（通常 5-10 秒）
+    await page.waitForTimeout(5000);
+    const html = await page.content();
+    return html;
+  } catch (e: any) {
+    console.error(`  [browser] ${url}: ${e.message}`);
+    return null;
+  } finally {
+    await context.close();
+  }
+}
+
+/**
+ * 用浏览器获取 RSS XML 内容（CF 拦截的 RSS 源回退）
+ */
+export async function fetchWithBrowserRss(url: string): Promise<string | null> {
+  return fetchWithBrowser(url);
+}
 
 // ========== SSRF 防护 ==========
 
@@ -152,8 +203,23 @@ export interface ListingResult {
   publishedAt: Date | null;
 }
 
+function parseArticleHtml(html: string, url: string, config?: string): ScrapeResult | null {
+  const $ = cheerio.load(html);
+  const scrapeConfig = config ? JSON.parse(config) : null;
+  const title = extractTitle($, scrapeConfig);
+  const { contentText, images } = extractContent($, scrapeConfig, url);
+  const author = extractAuthor($, scrapeConfig);
+  const publishedAt = extractDate($, scrapeConfig);
+  if (!contentText || contentText.length < 50) {
+    console.error(`  [scrape] 内容太短: ${url}`);
+    return null;
+  }
+  return { title, contentText, images, author, publishedAt };
+}
+
 /**
  * 爬取单篇文章，提取全文内容、图片、作者
+ * fetch 返回 403 时自动回退到 headless browser
  */
 export async function scrapeArticle(
   url: string,
@@ -175,6 +241,14 @@ export async function scrapeArticle(
       signal: AbortSignal.timeout(TIMEOUT),
     });
 
+    // 403 时回退到 headless browser
+    if (res.status === 403) {
+      console.log(`  [scrape] 403，尝试浏览器回退: ${url}`);
+      const html = await fetchWithBrowser(url);
+      if (html) return parseArticleHtml(html, url, config);
+      return null;
+    }
+
     if (!res.ok) {
       console.error(`  [scrape] ${res.status} ${url}`);
       return null;
@@ -192,35 +266,35 @@ export async function scrapeArticle(
       console.error(`  [scrape] 响应体太大: ${url} (${html.length} bytes)`);
       return null;
     }
-    const $ = cheerio.load(html);
-    const scrapeConfig = config ? JSON.parse(config) : null;
-
-    // 提取标题
-    const title = extractTitle($, scrapeConfig);
-
-    // 提取文章内容
-    const { contentText, images } = extractContent($, scrapeConfig, url);
-
-    // 提取作者
-    const author = extractAuthor($, scrapeConfig);
-
-    // 提取日期
-    const publishedAt = extractDate($, scrapeConfig);
-
-    if (!contentText || contentText.length < 50) {
-      console.error(`  [scrape] 内容太短: ${url}`);
-      return null;
-    }
-
-    return { title, contentText, images, author, publishedAt };
+    return parseArticleHtml(html, url, config);
   } catch (e: any) {
     console.error(`  [scrape] ${url}: ${e.message}`);
     return null;
   }
 }
 
+function parseListingHtml(html: string, listUrl: string, config: string): ListingResult[] {
+  const $ = cheerio.load(html);
+  const scrapeConfig = JSON.parse(config);
+  const selector = scrapeConfig.listingSelector || 'article a[href]';
+  const results: ListingResult[] = [];
+  const seen = new Set<string>();
+  $(selector).each((_: number, el: any) => {
+    const href = $(el).attr('href');
+    if (!href) return;
+    const absoluteUrl = resolveUrl(href, listUrl);
+    if (!isSafeUrl(absoluteUrl)) return;
+    if (seen.has(absoluteUrl)) return;
+    seen.add(absoluteUrl);
+    const title = $(el).text().trim() || $(el).find('h2, h3, h4').first().text().trim();
+    results.push({ url: absoluteUrl, title, publishedAt: null });
+  });
+  return results;
+}
+
 /**
  * 爬取列表页，发现文章链接
+ * fetch 返回 403 时自动回退到 headless browser
  */
 export async function scrapeListingPage(
   listUrl: string,
@@ -242,6 +316,18 @@ export async function scrapeListingPage(
       signal: AbortSignal.timeout(TIMEOUT),
     });
 
+    // 403 时回退到 headless browser
+    if (res.status === 403) {
+      console.log(`  [listing] 403，尝试浏览器回退: ${listUrl}`);
+      const html = await fetchWithBrowser(listUrl);
+      if (html) {
+        const results = parseListingHtml(html, listUrl, config);
+        console.log(`  [listing] ${listUrl}: 发现 ${results.length} 篇文章`);
+        return results;
+      }
+      return [];
+    }
+
     if (!res.ok) {
       console.error(`  [listing] ${res.status} ${listUrl}`);
       return [];
@@ -259,26 +345,7 @@ export async function scrapeListingPage(
       console.error(`  [listing] 响应体太大: ${listUrl}`);
       return [];
     }
-    const $ = cheerio.load(html);
-    const scrapeConfig = JSON.parse(config);
-    const selector = scrapeConfig.listingSelector || 'article a[href]';
-
-    const results: ListingResult[] = [];
-    const seen = new Set<string>();
-
-    $(selector).each((_: number, el: any) => {
-      const href = $(el).attr('href');
-      if (!href) return;
-
-      const absoluteUrl = resolveUrl(href, listUrl);
-      if (!isSafeUrl(absoluteUrl)) return;
-      if (seen.has(absoluteUrl)) return;
-      seen.add(absoluteUrl);
-
-      const title = $(el).text().trim() || $(el).find('h2, h3, h4').first().text().trim();
-      results.push({ url: absoluteUrl, title, publishedAt: null });
-    });
-
+    const results = parseListingHtml(html, listUrl, config);
     console.log(`  [listing] ${listUrl}: 发现 ${results.length} 篇文章`);
     return results;
   } catch (e: any) {
