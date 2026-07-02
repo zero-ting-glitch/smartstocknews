@@ -6,7 +6,7 @@
 
 ## 功能特性
 
-- **全文爬取**：RSS + 列表页发现链接 → cheerio 爬取完整文章（文本 + 图片 + 作者）
+- **全文爬取**：RSS + 列表页发现链接 → cheerio 爬取完整文章（文本 + 图片 + 作者），403 时自动回退 Playwright headless browser 绕过 Cloudflare
 - **统一 AI 处理**：单次 DeepSeek API 调用完成评分 / 全文翻译 / 摘要 / 精选理由
 - **多维度评分**：相关性、重要性、新颖性、可读性、可操作性（0-100）
 - **预筛过滤**：技术词+农业词双维度交叉匹配，过滤非农业技术文章
@@ -24,7 +24,7 @@
 | 样式 | Tailwind CSS v4 + CSS 变量（亮色主题） |
 | 数据库 | Prisma + SQLite（仅 CI 管线使用） |
 | AI | DeepSeek API（openai SDK） |
-| 爬虫 | cheerio（HTML 解析）、rss-parser（RSS） |
+| 爬虫 | cheerio（HTML 解析）、rss-parser（RSS）、Playwright + Stealth（绕过 Cloudflare） |
 | 部署 | GitHub Pages（静态导出 `output: 'export'`） |
 | CI/CD | GitHub Actions |
 
@@ -55,7 +55,7 @@ smartstock/
 │   │   └── StatsCard.tsx       # 统计卡片
 │   └── lib/
 │       ├── collector/          # 数据采集
-│       │   ├── scraper.ts      # Web 爬虫（cheerio）+ SSRF 防护
+│       │   ├── scraper.ts      # Web 爬虫（cheerio + Playwright 回退）+ SSRF 防护
 │       │   ├── index.ts        # RSS 采集 + 聚合
 │       │   ├── rss.ts          # RSS 解析
 │       │   └── filter.ts       # 关键词过滤 + 去重
@@ -74,7 +74,7 @@ smartstock/
 │   ├── seed-sources.ts         # 信源初始化
 │   └── check-items.ts          # 数据检查工具
 ├── data/
-│   └── sources.json            # 信源配置（12 个源）
+│   └── sources.json            # 信源配置（15 个源）
 ├── prisma/
 │   └── schema.prisma           # 数据库 schema
 ├── public/
@@ -146,8 +146,8 @@ npm run build
 
 ```
 [1/5] 同步信源    → sources.json → SQLite
-[2/5] 采集 URL    → RSS + 列表页爬取 → 跨源标题去重 → 发现文章链接
-[3/5] 全文爬取    → cheerio 解析 → 提取文本/图片/作者
+[2/5] 采集 URL    → RSS + 列表页爬取 → 跨源标题去重 → 发现文章链接（RSS 403 时自动回退浏览器）
+[3/5] 全文爬取    → cheerio 解析 → 提取文本/图片/作者（403 时自动回退 Playwright headless browser）
 [4/5] AI 处理     → 预筛过滤 → DeepSeek 统一调用 → 评分+全文翻译+摘要+精选理由
 [5/5] 导出 JSON   → 列表 JSON + 详情 JSON（含全文翻译）+ 热点 + 统计
 ```
@@ -156,7 +156,7 @@ npm run build
 
 AI 处理前进行关键词预筛，降低成本：
 - 关键词分两组：`TECH_KEYWORDS`（技术）+ `AG_KEYWORDS`（农业）
-- 必须每组至少命中 1 个，总命中 ≥ 3 才进入 AI 处理
+- 必须每组至少命中 1 个，总命中 ≥ 2 才进入 AI 处理
 - 支持中英文关键词（覆盖 agri.cn 中文源）
 
 ### AI 处理
@@ -171,7 +171,9 @@ AI 处理前进行关键词预筛，降低成本：
 
 ## 信源体系
 
-### 当前 9 个信源
+### 当前 15 个信源
+
+**种植/综合信源（9 个）**
 
 | 信源 | 方向 | 采集方式 | 等级 |
 |------|------|----------|------|
@@ -184,6 +186,17 @@ AI 处理前进行关键词预筛，降低成本：
 | Agri-Pulse | 农业政策+技术 | 列表页 | T1 |
 | 中国农业农村信息网-智慧农业 | 中国智慧农业 | 列表页 | T1 |
 | 中国农业农村信息网-信息化 | 中国农业信息化 | 列表页 | T1 |
+
+**畜牧信源（6 个）**
+
+| 信源 | 方向 | 采集方式 | 等级 |
+|------|------|----------|------|
+| National Hog Farmer | 养猪技术 | RSS | T1.5 |
+| Pork.org | 猪业协会 | RSS | T1 |
+| Beef Magazine | 肉牛养殖 | RSS | T1.5 |
+| Poultry Times | 禽业 | RSS | T1.5 |
+| MEAT+POULTRY | 肉禽加工 | RSS | T1.5 |
+| Feedstuffs | 饲料营养 | RSS | T1.5 |
 
 ### 信源配置
 

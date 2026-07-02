@@ -45,27 +45,38 @@
 | T1.5 | 行业权威媒体 | 0.7 |
 | T2 | 综合媒体/KOL | 0.4 |
 
-### 当前 12 个信源
+### 当前 15 个信源
 
-| 信源 | 物种 | 采集方式 | 优先级 |
-|------|------|---------|--------|
-| PrecisionAg | 综合 | 列表页爬取 | T1 |
+**种植/综合信源（9 个）**
+
+| 信源 | 物种 | 采集方式 | 等级 |
+|------|------|----------|------|
+| PrecisionAg | 综合 | RSS | T1 |
+| Future Farming | 综合 | RSS | T1 |
+| Global Ag Tech Initiative | 综合 | RSS | T1 |
+| Greenhouse Grower | 园艺 | RSS | T1.5 |
+| Fresh Plaza | 果蔬 | RSS | T2 |
 | AgFunderNews | 综合 | 列表页爬取 | T1 |
 | Agri-Pulse | 综合 | 列表页爬取 | T1 |
-| Pork.org | 猪业 | RSS | T1 |
+| 中国农业农村信息网-智慧农业 | 综合 | 列表页爬取 | T1 |
+| 中国农业农村信息网-信息化 | 综合 | 列表页爬取 | T1 |
+
+**畜牧信源（6 个）**
+
+| 信源 | 物种 | 采集方式 | 等级 |
+|------|------|----------|------|
 | National Hog Farmer | 猪业 | RSS | T1.5 |
+| Pork.org | 猪业 | RSS | T1 |
+| Beef Magazine | 牛业 | RSS | T1.5 |
 | Poultry Times | 禽业 | RSS | T1.5 |
 | MEAT+POULTRY | 禽业 | RSS | T1.5 |
-| Beef Magazine | 牛业 | RSS | T1.5 |
 | Feedstuffs | 综合 | RSS | T1.5 |
-| Greenhouse Grower | 园艺 | RSS | T1.5 |
-| Fresh Plaza | 果蔬 | RSS | T1.5 |
-| Farm Progress | 综合 | RSS | T2 |
 
 ### 采集方式
 
-- **RSS**：配置 `rssUrl`，管线用 rss-parser 解析
-- **列表页爬取**：配置 `scrapeType: "listing_page"` + `listUrl` + `scrapeConfig`（CSS 选择器），cheerio 爬取
+- **RSS**：配置 `rssUrl`，管线用 rss-parser 解析（403 时自动回退 Playwright headless browser 获取 XML）
+- **列表页爬取**：配置 `scrapeType: "listing_page"` + `listUrl` + `scrapeConfig`（CSS 选择器），cheerio 爬取（403 时回退 Playwright）
+- **反爬绕过**：Playwright + Stealth 插件，绕过 Cloudflare TLS 指纹 + JS challenge
 
 ### 过滤策略
 
@@ -79,8 +90,8 @@
 
 ```
 [1/5] 同步信源    sources.json → SQLite Source 表（upsert）
-[2/5] 采集 URL    RSS 解析 + 列表页爬取 → 发现文章链接 → 关键词过滤 → Item 表
-[3/5] 全文爬取    cheerio 解析每篇文章 → 提取文本/图片/作者 → 写入 contentFull/images/author
+[2/5] 采集 URL    RSS 解析 + 列表页爬取 → 发现文章链接 → 关键词过滤 → Item 表（RSS 403 时自动回退浏览器）
+[3/5] 全文爬取    cheerio 解析每篇文章 → 提取文本/图片/作者 → 写入 contentFull/images/author（403 时回退 Playwright headless browser）
 [4/5] AI 处理     DeepSeek 统一调用 → 五维评分+中文标题+摘要+精选理由
 [5/5] 导出 JSON   列表 JSON + 详情 JSON + 热点 JSON + 统计 JSON
 ```
@@ -98,11 +109,12 @@
 ### 质量分计算
 
 ```
-qualityScore = 五维平均分 × 信源权重 + min(多源数, 3) × 5
+qualityScore = 五维平均分 × 信源权重 × 多源系数
+多源系数 = 1 + 0.2 × min(多源数 - 1, 3)
 ```
 
-- `isHot`：qualityScore >= 60
-- `isFeatured`：qualityScore >= 55
+- `isHot`：qualityScore >= 75 或 multiSourceCount >= 3
+- `isFeatured`：按信源等级分级，T1 >= 60，T1.5 >= 70，T2 >= 80
 
 ## 6. 数据模型
 
@@ -132,7 +144,7 @@ qualityScore = 五维平均分 × 信源权重 + min(多源数, 3) × 5
 | sourceId | String | 外键 |
 | titleEn | String | 英文原标题 |
 | url | String | 原文链接（唯一） |
-| publishedAt | DateTime | 发布时间 |
+| publishedAt | DateTime? | 发布时间（可能为 null） |
 | contentHtml | String? | 原文 HTML |
 | contentFull | String? | 纯文本全文（max ~10000 chars） |
 | images | String? | 图片 URL 数组（JSON） |
@@ -225,4 +237,4 @@ ADMIN_TOKEN=xxx
 - 静态导出：`npm run build` → `out/` 目录
 - GitHub Pages：push to master 自动构建部署
 - 采集：GitHub Actions 手动触发，运行管线后自动提交数据变更
-- Secret：`CFG_1`（DeepSeek API Key）
+- Secret：`CFG_01`（DeepSeek API Key）
