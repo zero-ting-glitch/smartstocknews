@@ -69,22 +69,30 @@ async function fetchWithBrowser(url: string): Promise<string | null> {
 
 /**
  * 用浏览器获取 RSS XML 原始内容（CF 拦截的 RSS 源回退）
- * 直接拦截 HTTP 响应拿原始 XML，不经过 HTML 渲染
+ * 拦截最终（非重定向）HTTP 响应，获取原始 XML
  */
 export async function fetchWithBrowserRss(url: string): Promise<string | null> {
   const browser = await getBrowser();
   const context = await browser.newContext({ userAgent: UA });
   const page = await context.newPage();
   try {
-    // 拦截主文档响应，获取原始 XML
-    const responsePromise = page.waitForResponse(
-      (resp) => resp.url() === url || resp.url().startsWith(url.split('?')[0]),
-      { timeout: 30000 }
-    );
-    await page.goto(url, { waitUntil: 'commit', timeout: 30000 });
-    const response = await responsePromise;
-    const body = await response.body();
-    return body.toString('utf-8');
+    // 收集所有响应，等页面加载完后取最终的 XML 响应
+    const responses: Array<{ url: string; status: number; body: () => Promise<Buffer> }> = [];
+    page.on('response', (resp) => {
+      responses.push({ url: resp.url(), status: resp.status(), body: () => resp.body() });
+    });
+    await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 });
+    // 从后往前找第一个 200 的响应（跳过重定向）
+    for (let i = responses.length - 1; i >= 0; i--) {
+      const resp = responses[i];
+      if (resp.status >= 200 && resp.status < 300) {
+        try {
+          const buf = await resp.body();
+          return buf.toString('utf-8');
+        } catch { continue; }
+      }
+    }
+    return null;
   } catch (e: any) {
     console.error(`  [browser-rss] ${url}: ${e.message}`);
     return null;
