@@ -20,6 +20,12 @@ function loadSources() {
 }
 
 // ========== RSS 采集 ==========
+
+/** 清理不规范的 XML：转义裸 & 字符（非实体引用的 & → &amp;） */
+function sanitizeXml(xml: string): string {
+  return xml.replace(/&(?!amp;|lt;|gt;|apos;|quot;|#\d+;|#x[0-9a-fA-F]+;)/g, '&amp;');
+}
+
 async function fetchRss(source: any): Promise<any[]> {
   const items: any[] = [];
   if (!source.rssUrl) return items;
@@ -45,12 +51,12 @@ async function fetchRss(source: any): Promise<any[]> {
     // RSS 解析失败（可能 403），尝试浏览器回退
     console.log(`  [RSS] ${source.name} 解析失败，尝试浏览器回退: ${e.message}`);
     try {
-      const xml = await fetchWithBrowserRss(source.rssUrl);
-      if (xml) {
+      const rawXml = await fetchWithBrowserRss(source.rssUrl);
+      if (rawXml) {
         const rssParser = await import('rss-parser') as any;
         const Parser = rssParser.default || rssParser;
         const parser = new Parser();
-        const feed = await parser.parseString(xml);
+        const feed = await parser.parseString(sanitizeXml(rawXml));
         for (const entry of feed.items || []) {
           if (entry.title && entry.link) {
             items.push({
