@@ -81,7 +81,9 @@ export async function fetchWithBrowserRss(url: string): Promise<string | null> {
     page.on('response', (resp) => {
       responses.push({ url: resp.url(), status: resp.status(), body: () => resp.body() });
     });
-    await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 });
+    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
+    // 等待可能的重定向和 CF challenge 完成
+    await page.waitForTimeout(5000);
     // 从后往前找第一个 200 的响应（跳过重定向）
     for (let i = responses.length - 1; i >= 0; i--) {
       const resp = responses[i];
