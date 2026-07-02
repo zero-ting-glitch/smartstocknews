@@ -27,7 +27,7 @@ smartstock/
 │   │   └── StatsCard.tsx      # 统计卡片
 │   └── lib/
 │       ├── collector/     # 数据采集
-│       │   ├── scraper.ts # Web 爬虫（cheerio）+ SSRF 防护
+│       │   ├── scraper.ts # Web 爬虫（cheerio + Playwright 回退）+ SSRF 防护
 │       │   ├── index.ts   # RSS 采集 + 聚合
 │       │   ├── rss.ts     # RSS 解析
 │       │   └── filter.ts  # 关键词过滤 + 去重
@@ -83,9 +83,10 @@ smartstock/
 ```
 [1/5] 同步信源      sources.json → SQLite（upsert）
 [2/5] 采集 URL      RSS 解析 + 列表页爬取 → 跨源标题去重 → 发现文章链接
+                    RSS/列表页 403 时自动回退 headless browser
 [2.5] 修正日期      检测 publishedAt 与 scrapedAt 相差 < 5 分钟的文章，重置重新爬取
 [3/5] 全文爬取      cheerio 解析 → 提取文本/图片/作者/发表日期（已爬过跳过）
-                    域名级限速（2s 间隔）防 429，Chrome UA + 浏览器特征头防 403
+                    域名级限速（2s 间隔）防 429，403 时自动回退 Playwright headless browser
 [3.5] 重评相关性    全文爬取后用完整内容重新判断是否与智慧畜牧相关
 [3.7] 智慧农业预筛  技术+农业双维度关键词匹配，阈值 ≥ 2（详见下方）
 [4/5] AI 处理       DeepSeek 调用 → 五维评分+全文翻译+摘要+精选理由+物种分类
@@ -209,7 +210,7 @@ npx tsx scripts/export-static.ts          # 独立导出静态 JSON
 
 **畜牧信源（6 个）**：nationalhogfarmer、porkorg、beefmagazine、poultrytimes、meatpoultry、feedstuffs
 
-**Cloudflare 封锁说明**：farmprogress 系（nationalhogfarmer、beefmagazine、poultrytimes、meatpoultry）及 feedstuffs 均被 Cloudflare TLS 指纹检测封锁（403），管线标记 `blocked_cloudflare` 跳过。这些站点需要 headless browser 或非 undici HTTP 客户端才能绕过。
+**Cloudflare 封锁说明**：farmprogress 系（nationalhogfarmer、beefmagazine、poultrytimes、meatpoultry）及 feedstuffs、agfundernews 等站点被 Cloudflare 封锁。管线通过 Playwright + Stealth 插件（headless browser）自动回退绕过，403 时启动真实 Chrome 获取内容。feedstuffs 的 RSS XML 不规范（含 HTML 实体），目前仍无法解析。
 
 ## 详情页
 
