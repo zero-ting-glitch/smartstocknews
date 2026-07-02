@@ -21,9 +21,28 @@ function loadSources() {
 
 // ========== RSS 采集 ==========
 
-/** 清理不规范的 XML：转义裸 & 字符（非实体引用的 & → &amp;） */
+/** 清理不规范的 XML：将 HTML 实体转为 Unicode 字符，修复裸 & */
 function sanitizeXml(xml: string): string {
-  return xml.replace(/&(?!amp;|lt;|gt;|apos;|quot;|#\d+;|#x[0-9a-fA-F]+;)/g, '&amp;');
+  // 常见 HTML 实体 → Unicode 字符
+  const htmlEntities: Record<string, string> = {
+    '&mdash;': '—', '&ndash;': '–', '&nbsp;': ' ', '&hellip;': '…',
+    '&lsquo;': '‘', '&rsquo;': '’', '&ldquo;': '“', '&rdquo;': '”',
+    '&bull;': '•', '&middot;': '·', '&copy;': '©', '&reg;': '®',
+    '&trade;': '™', '&euro;': '€', '&pound;': '£', '&yen;': '¥',
+    '&deg;': '°', '&micro;': 'µ', '&para;': '¶', '&sect;': '§',
+  };
+  let result = xml;
+  for (const [entity, char] of Object.entries(htmlEntities)) {
+    result = result.replaceAll(entity, char);
+  }
+  // 剩余未识别的 HTML 实体（&xxx; 格式）直接移除
+  result = result.replace(/&[a-zA-Z]+;/g, (match) => {
+    if (['&amp;', '&lt;', '&gt;', '&apos;', '&quot;'].includes(match)) return match;
+    return '';
+  });
+  // 修复裸 & 字符
+  result = result.replace(/&(?!amp;|lt;|gt;|apos;|quot;|#\d+;|#x[0-9a-fA-F]+;)/g, '&amp;');
+  return result;
 }
 
 async function fetchRss(source: any): Promise<any[]> {
