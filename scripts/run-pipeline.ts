@@ -872,7 +872,7 @@ async function main() {
   console.log(`  items/*.json: ${allItems.length} 个详情文件`);
 
   // 热点
-  const hot = formatted.filter((i) => i.isHot).sort((a, b) => b.qualityScore - a.qualityScore).slice(0, 10);
+  const hot = formatted.filter((i) => i.isHot).sort((a, b) => b.qualityScore - a.qualityScore).slice(0, 5);
   writeFileSync(join(outDir, 'hot-items.json'), JSON.stringify(hot, null, 2));
 
   // 统计
