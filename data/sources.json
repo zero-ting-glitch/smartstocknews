@@ -80,7 +80,7 @@
       "defaultSubcategory": "general",
       "scrapeType": "listing_page",
       "listUrl": "https://www.agri.cn/xxh/zhny/",
-      "scrapeConfig": "{\"listingSelector\": \".con_tit a\"}",
+      "scrapeConfig": "{\"listingSelector\": \".con_tit a\", \"contentSelector\": \".TRS_Editor\", \"titleSelector\": \".detailCon_info_tit\", \"dateSelector\": \"meta[name=\\\"publishdate\\\"]\"}",
       "coreKeywords": "智慧农业|精准农业|AI|人工智能|物联网|传感器|无人机|机器人|自动化|数字化|大数据|遥感|卫星|灌溉|环控|监控|算法|平台|无人|智能|装备|创新|标准|信息化",
       "excludeKeywords": "价格|行情|批发|补贴|政策文件|通知|公告|征求意见"
     },
@@ -96,7 +96,7 @@
       "defaultSubcategory": "general",
       "scrapeType": "listing_page",
       "listUrl": "https://www.agri.cn/xxh/",
-      "scrapeConfig": "{\"listingSelector\": \".con_tit a\"}",
+      "scrapeConfig": "{\"listingSelector\": \".con_tit a\", \"contentSelector\": \".TRS_Editor\", \"titleSelector\": \".detailCon_info_tit\", \"dateSelector\": \"meta[name=\\\"publishdate\\\"]\"}",
       "coreKeywords": "智慧农业|精准农业|AI|人工智能|物联网|传感器|无人机|机器人|自动化|数字化|大数据|遥感|卫星|信息化|标准|平台|无人|智能|装备|创新",
       "excludeKeywords": "价格|行情|批发|补贴|政策文件|通知|公告|征求意见"
     },

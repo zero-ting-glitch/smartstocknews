@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "id": "cmr2zkgtx000lfjpsir388csh",
+    "titleEn": "AgXeed’s VCU brings existing tractors into the autonomous fold",
+    "titleZh": "AgXeed推出VCU改装套件，将现有拖拉机纳入自动驾驶生态",
+    "summaryZh": "AgXeed发布车辆控制单元（VCU），这是一款紧凑型改装套件，通过ISOBUS TIM协议将现有拖拉机接入其TraXwise规划与监控平台，实现高度自动化作业。系统支持预先规划路线和农具控制，适用于大田作物、蔬菜种植及大型农场，具备多品牌兼容性、GPS RTK导航和自主掉头等功能，但牵引式农具的倒车仍需手动操作。",
+    "featuredReason": "该技术展示了如何通过低成本改装套件将传统农机升级为自动驾驶系统，对智慧畜牧行业中的大田作物和饲料种植环节具有直接借鉴意义，可提升作业效率并减少人力依赖。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/agxeeds-vcu-brings-existing-tractors-into-the-autonomous-fold/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 76,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-29T07:00:00.000Z"
+  },
+  {
+    "id": "cmr2zkgum000rfjps32zbnw4t",
+    "titleEn": "Horsch enters into partnership with application map specialist",
+    "titleZh": "赫氏与施药地图专家达成战略合作",
+    "summaryZh": "德国农机巨头赫氏战略入股施药地图专家Sam-Dimension，该公司利用1毫米分辨率无人机影像和AI系统生成精准施药地图，支持洋葱、马铃薯、胡萝卜等多种作物的点喷除草，作业效率达60公顷/小时，且兼容多家主流喷雾机品牌。此举标志着精准农业领域又一重要技术整合。",
+    "featuredReason": "该合作展示了AI与无人机影像在精准植保中的落地应用，对智慧畜牧行业中的饲草料作物（如玉米、甜菜）的杂草管理具有直接参考价值，体现了跨领域精准农业技术的融合趋势。",
+    "url": "https://www.futurefarming.com/smart-farming/horsch-enters-into-partnership-with-application-map-specialist/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-24T13:19:17.000Z"
+  },
+  {
+    "id": "cmr2zkgv5000xfjpsgszj6ovl",
+    "titleEn": "Tested: first Einböck intra-row precision hoe",
+    "titleZh": "首台Einböck行内精准中耕机实地测试",
+    "summaryZh": "奥地利中耕专家Einböck推出新型Invera行内精准中耕机，采用捷克Ullmanna植物识别技术，在荷兰甜菜田完成首次作业。尽管潮湿天气给摄像头深度调节带来挑战，但机器仍以约2公里/小时的速度精准除草。该技术结合Claas Culticam相机，展示了智能视觉在田间杂草管理中的最新应用，对智慧种植领域具有参考价值。",
+    "featuredReason": "该新闻展示了视觉识别与精准机械除草在田间的最新结合，对智慧畜牧行业人士理解跨领域自动化技术趋势有启发意义。",
+    "url": "https://www.futurefarming.com/crop-solutions/tested-first-einbock-intra-row-precision-hoe/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 70,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-23T06:00:00.000Z"
+  },
+  {
+    "id": "cmr2zkgvc000zfjpsv0htu5pr",
+    "titleEn": "New retrofit spot spraying system for every type of sprayer",
+    "titleZh": "新型改装式定点喷洒系统适配各类喷雾机",
+    "summaryZh": "德国初创公司DynamoBot推出WeSee定点喷洒系统，可加装在几乎所有类型的田间喷雾机上（包括老旧机型），通过RGB摄像头和NIR传感器实现杂草识别与单个喷嘴独立控制，支持绿-棕和绿-绿检测，无需PWM喷嘴，适用于马铃薯、玉米和甜菜等作物，售价每米喷杆2000欧元，具备自安装能力。",
+    "featuredReason": "该技术展示了AI视觉与精准施药在种植业中的最新融合，其高兼容性（适配老旧机型）和低成本方案对智慧畜牧行业中的饲草料作物管理具有直接借鉴意义。",
+    "url": "https://www.futurefarming.com/crop-solutions/weed-pest-control/new-retrofit-spot-spraying-system-for-every-type-of-sprayer/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-22T06:00:00.000Z"
+  },
+  {
+    "id": "cmr2zkgvi0011fjpsvluqvb9i",
+    "titleEn": "Croplands expands WEED-IT range with new releases, including orchard solution",
+    "titleZh": "Croplands扩展WEED-IT精准喷雾系列：推出果园专用方案及新一代自主喷雾平台",
+    "summaryZh": "澳大利亚Croplands Equipment公司发布WEED-IT精准喷雾系列多项新技术，包括与SwarmFarm Robotics合作的Series 2 Robot Ready Pinto自主喷雾平台、36米桁架式大型大田喷雾机Pegasus，以及首款专为果园设计的光学点喷方案。同时，其WEED-IT改装套件已成功适配多品牌喷雾机，展示出强大的兼容性和实践价值。",
+    "featuredReason": "该新闻展示了精准农业技术在种植业（尤其是大田和果园）中的最新集成应用，其自主化、光学点喷和广泛改装能力对智慧畜牧行业中的饲料作物种植、牧场杂草管理等场景具有直接借鉴意义。",
+    "url": "https://www.futurefarming.com/smart-farming/croplands-expands-weed-it-range-with-new-releases-including-orchard-solution/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-18T07:00:00.000Z"
+  }
+]

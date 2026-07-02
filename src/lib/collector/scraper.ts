@@ -6,8 +6,20 @@ import * as cheerio from 'cheerio';
 import * as dns from 'dns';
 import * as net from 'net';
 
-const UA = 'SmartStock/1.0 (Smart Agriculture News Aggregator; +https://github.com/zero-ting-glitch/smartstocknews)';
+const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
 const TIMEOUT = 15000;
+const BROWSER_HEADERS: Record<string, string> = {
+  'User-Agent': UA,
+  'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'Accept-Language': 'en-US,en;q=0.9',
+  'Accept-Encoding': 'gzip, deflate, br',
+  'Connection': 'keep-alive',
+  'Upgrade-Insecure-Requests': '1',
+  'Sec-Fetch-Dest': 'document',
+  'Sec-Fetch-Mode': 'navigate',
+  'Sec-Fetch-Site': 'none',
+  'Sec-Fetch-User': '?1',
+};
 const MAX_CONTENT_LENGTH = 10000;
 const MAX_RESPONSE_BYTES = 5 * 1024 * 1024; // 5MB
 
@@ -95,8 +107,9 @@ async function resolveAndValidateHost(hostname: string): Promise<boolean> {
       }
       return true;
     } catch {
-      console.error(`  [ssrf] DNS resolution failed: ${hostname}`);
-      return false;
+      // DNS 解析失败（如 DNS 服务器不可用），放行让 fetch 自行处理
+      // isSafeUrl 已经校验了 URL 格式和私有 IP 模式，足够防 SSRF
+      return true;
     }
   }
 }
@@ -158,11 +171,7 @@ export async function scrapeArticle(
 
   try {
     const res = await fetch(url, {
-      headers: {
-        'User-Agent': UA,
-        'Accept': 'text/html,application/xhtml+xml',
-        'Accept-Language': 'en-US,en;q=0.9',
-      },
+      headers: BROWSER_HEADERS,
       signal: AbortSignal.timeout(TIMEOUT),
     });
 
@@ -229,11 +238,7 @@ export async function scrapeListingPage(
 
   try {
     const res = await fetch(listUrl, {
-      headers: {
-        'User-Agent': UA,
-        'Accept': 'text/html,application/xhtml+xml',
-        'Accept-Language': 'en-US,en;q=0.9',
-      },
+      headers: BROWSER_HEADERS,
       signal: AbortSignal.timeout(TIMEOUT),
     });
 

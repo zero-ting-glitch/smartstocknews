@@ -1,1 +1,68 @@
-[]
+[
+  {
+    "id": "cmqz24r19008bdidx33p1egi3",
+    "titleEn": "Presenting Greenhouse Grower’s 2026 Technology of the Year Finalists",
+    "titleZh": "2026年温室种植者年度技术奖入围名单揭晓",
+    "summaryZh": "本文介绍了2026年温室种植者年度技术奖的三项入围技术：Air Tray Technologies通过空气修剪根系改善根质量和生产效率；PARPerfect Shading System实现动态精准光照控制，提升作物均匀性和光利用效率；Pot-in-Tray Machine自动化装盆入盘，大幅提高温室作业效率。这些技术虽聚焦园艺温室场景，但其自动化、传感器控制、精准环境管理等理念对智慧畜牧行业（如环境调控、自动化作业）具有跨领域借鉴价值。",
+    "featuredReason": "虽然聚焦园艺温室，但三项技术分别涉及根系环境优化、动态光照精准控制、自动化作业，其传感器、AI决策、机器人自动化等核心逻辑与智慧畜牧中的环境调控、饲喂机器人、数据驱动管理高度相通，可为畜牧从业者提供跨领域创新启发。",
+    "url": "https://www.greenhousegrower.com/technology/presenting-greenhouse-growers-2026-technology-of-the-year-finalists/",
+    "source": {
+      "name": "Greenhouse Grower",
+      "nameZh": "温室种植者",
+      "tier": "T1.5"
+    },
+    "sourceId": "greenhousegrower",
+    "species": "horticulture",
+    "category": "crop",
+    "subcategory": "horticulture",
+    "techTags": "",
+    "qualityScore": 54,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-06-25T16:00:00.000Z"
+  },
+  {
+    "id": "cmqz24r2l008ldidx4fc6kwmr",
+    "titleEn": "Costs, Lead Time Concerns Leading to More Standardization in Greenhouse Technology",
+    "titleZh": "成本与交货期压力推动温室技术标准化趋势",
+    "summaryZh": "本文基于对美国国家温室制造商协会（NGMA）成员的调查，探讨了温室制造商在成本上升、利润压缩的背景下，是倾向于标准化产品还是定制化方案。多数受访者表示，为降低工程成本、缩短交货期，正逐步推出标准化基础产品，但大型复杂项目仍需定制。部分企业同时提供两种选项，或通过硬件标准化、软件/服务定制来平衡效率与灵活性。该趋势反映了农业设施行业在自动化、集成化需求下的战略调整。",
+    "featuredReason": "温室行业的标准化与定制化博弈，与智慧畜牧中养殖设备、环控系统的模块化、可扩展设计思路高度相通，可为畜牧自动化方案的成本控制与交付效率提供参考。",
+    "url": "https://www.greenhousegrower.com/technology/costs-lead-time-concerns-leading-to-more-standardization-in-greenhouse-technology/",
+    "source": {
+      "name": "Greenhouse Grower",
+      "nameZh": "温室种植者",
+      "tier": "T1.5"
+    },
+    "sourceId": "greenhousegrower",
+    "species": "horticulture",
+    "category": "crop",
+    "subcategory": "horticulture",
+    "techTags": "",
+    "qualityScore": 55,
+    "isFeatured": true,
+    "isHot": false,
+    "publishedAt": "2026-06-24T16:00:00.000Z"
+  },
+  {
+    "id": "cmr2zkgvy0015fjps7uuduid1",
+    "titleEn": "From novelty to necessity: Why tulip growers are betting on robotic disease selection",
+    "titleZh": "从新奇到必需：郁金香种植者为何押注机器人病害筛选",
+    "summaryZh": "本文报道了H2L Selector 180和225两款机器人，它们能识别并处理郁金香花床中的病株，已售出139台，用户平均评分4.1/5。尽管机器人病害筛选正成为主流，但种植者强调，广泛采用仍需进一步提升可靠性和性能。文章通过四位用户的经验分享，展示了该技术在园艺领域的实际应用价值与挑战。",
+    "featuredReason": "虽然聚焦于园艺（郁金香），但机器人病害筛选技术、用户反馈与可靠性改进路径，对智慧畜牧中类似自动化病害检测（如猪只健康监测、禽类疫病识别）具有直接借鉴意义。",
+    "url": "https://www.futurefarming.com/smart-farming/from-novelty-to-necessity-why-tulip-growers-are-betting-on-robotic-disease-selection/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "horticulture",
+    "category": "crop",
+    "subcategory": "horticulture",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-16T07:00:00.000Z"
+  }
+]

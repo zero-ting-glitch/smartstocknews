@@ -1,0 +1,37 @@
+{
+  "id": "cmr2zkgz2001zfjpsro0yc5n3",
+  "titleEn": "U.S. Sugar deploys autonomous John Deere tractor fleet across 255,000 acres",
+  "titleZh": "美国糖业公司在25.5万英亩甘蔗田部署自动驾驶约翰迪尔拖拉机队",
+  "summaryZh": "美国糖业公司（U.S. Sugar）在佛罗里达州甘蔗田部署了由无人驾驶约翰迪尔拖拉机组成的车队，实现24小时连续作业，号称美国糖业最大规模的自动驾驶拖拉机商业应用。该案例展示了自动驾驶技术在大型种植业中的规模化落地，对智慧畜牧行业在自动化、机器人及传感器应用方面具有重要参考价值。",
+  "featuredReason": "该案例展示了自动驾驶技术在大型种植业中的规模化应用，对智慧畜牧行业在自动化、机器人及传感器集成方面具有直接借鉴意义。",
+  "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/u-s-sugar-deploys-autonomous-john-deere-tractor-fleet-across-255000-acres/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1"
+  },
+  "sourceId": "futurefarming",
+  "species": "field",
+  "category": "crop",
+  "subcategory": "field",
+  "techTags": "",
+  "qualityScore": 85,
+  "isFeatured": true,
+  "isHot": true,
+  "publishedAt": "2026-05-28T07:00:00.000Z",
+  "contentFull": "U.S. Sugar deploys autonomous John Deere tractor fleet across 255,000 acres 28-05 | Autonomous/semi-autosteering systems | NewsAn autonomous John Deere tractor equipped with ASI automation technology operating in a South Florida sugarcane field as part of U.S. Sugar’s large-scale autonomous farming deployment. Photo: U.S. SugarU.S. Sugar has launched what it describes as the largest commercial deployment of autonomous tractors in the American sugar industry, using unmanned John Deere tractors operating around the clock in Florida sugarcane fields.The company is deploying a fleet consisting of four John Deere 8R tractors and one 9R tractor equipped with autonomous technology from Autonomous Solutions, Inc.. The machines operate autonomously using ASI’s Vehicle Automation Kit (VAK) and are supervised remotely through the Mobius fleet-management platform. A single operator can oversee multiple tractors simultaneously from a central control station.24/7 autonomous field operationsThe tractors are currently used for sugarcane land preparation and cultivation and can operate up to 24 hours a day, 7 days a week.According to U.S. Sugar, the autonomous fleet improves:operational accuracy field efficiency sustainability and reliability during land preparation The technology was tested during an 18-month pilot phase before commercial rollout.Retrofitted autonomy on existing tractorsRather than developing a dedicated autonomous machine, ASI integrated its automation system into existing John Deere tractors using the machines’ drive-by-wire architecture.The project was supported by Everglades Equipment Group, which supplied the tractors and integration support.Scaling autonomy in large-scale farmingOver the next decade, U.S. Sugar plans to expand the autonomous system across its 255,000 acres (103,000 hectares) of farmland in South Florida. Besides sugarcane, the company is also evaluating the technology for sweet corn and green bean operations.The deployment reflects a growing trend in large-scale farming where autonomy is increasingly focused on practical fleet management and continuous operation rather than standalone prototype machines.Join 17,000+ subscribersSubscribe to our newsletter to stay updated about all the need-to-know content in the agricultural sector, two times a week. \"*\" indicates required fieldsEmail* First name*EmailThis field is for validation purposes and should be left unchanged. Geert Hekkert Chief editor of Future FarmingMore aboutautonomous farm equipmentautonomous tractorsfleet managementprecision agriculturesugarcaneRelated articlesPremium30-06 | Photo reportDLG Feldtage: hot, dusty and relatively quiet29-06 | NewsAgXeed’s VCU brings existing tractors into the autonomous fold18-06 | NewsCroplands expands WEED-IT range with new releases, including orchard solution10-06 | NewsRobot Raggy taking on one of farming’s most persistent weed problems Buyers guides & Catalogues Subscribe to our YouTube channel Taiwan Smart Agriweek 2026Sep 8-10, 2026 TaiNEX 1, Tapei",
+  "translationZh": "美国糖业公司（U.S. Sugar）已启动其所谓的美国糖业史上最大规模的自动驾驶拖拉机商业部署，在佛罗里达州甘蔗田中投入无人驾驶的约翰迪尔拖拉机，实现全天候不间断作业。",
+  "images": [
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_848,h_565/https://www.futurefarming.com/app/uploads/2026/05/photo-1-US-Sugar-JD-clean-jpg-848x565.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_300,h_300/https://www.futurefarming.com/app/uploads/2024/01/Geert_300x300_zoom.png",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/06/01-IMG-8937-clean-JPG-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/06/1-AgXeed-CU-clean-jpg-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/06/Croplands-Series-2-jpg-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/06/Raggy-at-DIP-clean-jpg-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_818,h_619/https://www.futurefarming.com/app/uploads/2025/02/DG-Do-you-want-to-know-whats-happening-2.png",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.futurefarming.com/app/uploads/2026/05/taiwan-60x30-1.jpg"
+  ],
+  "author": "Geert Hekkert",
+  "contentHtml": "U.S. Sugar has launched what it describes as the largest commercial deployment of autonomous tractors in the American sugar industry, using unmanned John Deere tractors operating around the clock in Florida sugarcane fields.",
+  "scrapeMethod": "web_scrape"
+}

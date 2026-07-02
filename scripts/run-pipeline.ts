@@ -3,7 +3,7 @@
  * 用法: npx tsx scripts/run-pipeline.ts
  */
 import { PrismaClient } from '@prisma/client';
-import { mkdirSync, writeFileSync } from 'fs';
+import { mkdirSync, writeFileSync, readdirSync, unlinkSync } from 'fs';
 import { join } from 'path';
 import { readFileSync } from 'fs';
 import { scrapeArticle, scrapeListingPage } from '../src/lib/collector/scraper';
@@ -11,6 +11,7 @@ import { scrapeArticle, scrapeListingPage } from '../src/lib/collector/scraper';
 const prisma = new PrismaClient();
 const CONCURRENCY = 5;
 const DELAY_MS = 100;
+const DOMAIN_DELAY_MS = 2000; // 同域名请求间隔，防 429
 
 // ========== 信源配置 ==========
 function loadSources() {
@@ -82,75 +83,133 @@ function relevanceFilter(items: any[], source: any): any[] {
   });
 }
 
-// ========== 智慧农业预筛（AI 处理前快速过滤） ==========
+// ========== 智慧农业预筛（全文爬取后快速过滤） ==========
 // 核心逻辑：必须同时命中「技术词」和「农业词」才算相关
 // 防止智慧城市/医疗/零售等非农业技术文章混入
+// 运行时机：Step 3 全文爬取之后，Step 4 AI 处理之前（用全文内容判断）
 
 const TECH_KEYWORDS = [
-  // English
-  'iot', 'ai ', 'ai-', 'artificial intelligence', 'machine learning', 'deep learning',
-  'automation', 'automated', 'robot', 'robotic', 'drone', 'uav',
-  'sensor', 'wearable', 'telemetric', 'gps', 'remote sensing',
-  'computer vision', 'image recognition', 'nlp',
-  'blockchain', 'data analytics', 'predictive', 'smart ',
+  // AI/ML
+  'artificial intelligence', 'machine learning', 'deep learning', 'neural network',
+  'computer vision', 'machine vision', 'image recognition', 'object detection',
+  'natural language', 'nlp', 'predictive analytics', 'data analytics',
+  // 自动化/机器人
+  'automation', 'automated', 'robot', 'robotic', 'robotics',
+  'autonomous', 'unmanned', 'self-driving', 'self-propelled',
+  // 无人机
+  'drone', 'uav', 'uas', 'unmanned aerial',
+  // IoT/传感器
+  'iot', 'internet of things', 'sensor', 'wearable', 'telemetric', 'telemetry',
+  'rfid', 'camera system', 'imaging', 'spectral', 'ndvi',
+  // 精准/数字（复合词，不加单独 "precision" 以避免 "precision of measurement" 等误匹配）
+  'precision agriculture', 'precision farming', 'precision livestock',
+  'smart farming', 'smart agriculture', 'digital farming', 'digital agriculture',
+  'variable rate', 'yield mapping', 'crop monitoring', 'livestock monitoring',
+  'gps', 'gnss', 'remote sensing', 'satellite', 'satellite imagery', 'geospatial',
+  // 数据/平台
+  'data-driven', 'analytics platform', 'cloud platform', 'dashboard',
+  'blockchain', 'traceability', 'digital twin',
+  // 环境/能源监测
+  'methane', 'biogas', 'carbon credit',
   // 中文
-  '人工智能', '机器学习', '深度学习', '物联网', '传感器', '无人机',
-  '机器人', '自动化', '遥感', '卫星', '计算机视觉', '图像识别',
-  '大数据', '算法', '数字化', '区块链', '视觉识别', '自然语言', '智能',
+  '人工智能', '机器学习', '深度学习', '神经网络',
+  '计算机视觉', '机器视觉', '图像识别', '目标检测',
+  '自然语言', '预测分析', '数据分析',
+  '自动化', '自动', '机器人', '无人驾驶', '无人', '自主',
+  '无人机',
+  '物联网', '传感器', '穿戴', '射频', '摄像头', '光谱',
+  '精准', '智慧农业', '智慧牧场', '数字农业',
+  '变量', '产量图', '作物监测', '畜牧监测',
+  '遥感', '卫星',
+  '数据驱动', '云平台', '看板', '区块链', '溯源', '数字孪生',
 ];
 
 const AG_KEYWORDS = [
-  // English - 种植业
-  'farm', 'farming', 'agriculture', 'crop', 'greenhouse', 'horticulture',
+  // 种植业 - 通用
+  'farm', 'farming', 'agriculture', 'agricultural', 'agronom', 'crop',
+  'greenhouse', 'horticulture', 'nursery', 'garden',
   'irrigation', 'soil', 'field', 'orchard', 'vineyard',
   'harvest', 'yield', 'planting', 'sowing', 'fertigation',
-  'precision farming', 'precision agriculture', 'smart farm',
-  'digital agriculture', 'digital farming',
-  'controlled environment', 'vertical farm', 'hydroponic',
-  'variable rate', 'yield mapping', 'crop monitoring',
-  'satellite imagery', 'ndvi', 'spectral',
-  'rice', 'paddy', 'wheat', 'corn', 'soybean', 'maize',
-  'spraying', 'spray', 'weeding', 'weed', 'weed control',
-  'grazing', 'pasture', 'forage',
-  'detection', 'detect', 'monitoring', 'phenotyping', 'breeding',
-  // English - 养殖业
-  'livestock', 'cattle', 'pig', 'poultry', 'sheep', 'dairy',
-  'feedlot', 'ranch', 'barn', 'stall',
-  'precision livestock', 'smart barn',
+  'controlled environment', 'vertical farm', 'hydroponic', 'aeropon',
+  'spraying', 'spray', 'weeding', 'weed control', 'pesticide',
+  // 大田作物
+  'rice', 'paddy', 'wheat', 'corn', 'soybean', 'maize', 'cotton',
+  'sugarcane', 'potato', 'tomato', 'lettuce', 'grain', 'cereal',
+  // 种植管理
+  'seedling', 'nursery', 'acreage', 'hectare', 'protected cultivation',
+  // 养殖业 - 通用
+  'livestock', 'cattle', 'pig', 'poultry', 'sheep', 'goat', 'dairy',
+  'feedlot', 'ranch', 'barn', 'stall', 'piggery',
+  'broiler', 'layer', 'turkey', 'duck', 'quail',
+  'calf', 'heifer', 'bull', 'cow', 'lamb', 'ewe', 'hog', 'sow',
+  'chicken', 'hen', 'rooster',
+  // 养殖业 - 技术场景
+  'precision livestock', 'smart barn', 'smart farm',
   'animal monitoring', 'livestock monitoring', 'herd management',
   'automated feeding', 'automated milking', 'robotic milking',
-  'environment control', 'climate control', 'ventilation control',
+  'environment control', 'climate control', 'ventilation',
   'feed optimization', 'health monitoring', 'disease detection',
   'behavior analysis', 'weight estimation', 'body condition',
+  'breeding', 'phenotyping', 'genomic',
+  // 水产
+  'aquaculture', 'fish farm', 'shrimp', 'salmon', 'tilapia', 'fisheries',
+  // 昆虫/其他
+  'insect farm', 'apiculture', 'beekeeping',
   // 中文 - 种植业
   '农业', '种植', '作物', '温室', '大棚', '园艺', '灌溉',
   '土壤', '田间', '果园', '采摘', '播种', '施肥',
   '精准农业', '智慧农业', '数字农业', '植物工厂',
   '无土栽培', '水培', '气雾培', '环控',
-  '水稻', '小麦', '玉米', '大豆', '杂草', '除草', '喷洒',
+  '水稻', '小麦', '玉米', '大豆', '棉花', '杂草', '除草', '喷洒',
   '检测', '监测', '探测', '育种', '表型',
   // 中文 - 养殖业
   '养殖', '畜牧', '猪', '牛', '羊', '鸡', '禽', '奶牛',
-  '牧场', '圈舍', '畜禽',
+  '牧场', '圈舍', '畜禽', '生猪', '肉牛', '蛋鸡', '肉鸡',
   '精准畜牧', '智能养殖', '智慧牧场',
   '自动饲喂', '自动挤奶', '机器人挤奶',
-  '环境控制', '通风控制', '饲料优化',
+  '环境控制', '通风', '饲料',
   '健康监测', '疾病检测', '行为分析',
+  // 中文 - 水产
+  '水产', '渔业', '鱼', '虾', '养殖池',
 ];
+
+// 短关键词列表（<=5字符），需要用词边界匹配避免子串误匹配
+const SHORT_TECH_KWS = ['iot', 'gps', 'gnss', 'nlp', 'uav', 'uas', 'rfid', 'ndvi'];
+const SHORT_AG_KWS = ['farm', 'crop', 'soil', 'rice', 'corn', 'weed', 'pig', 'cow', 'dairy', 'fish', 'goat', 'duck', 'hen', 'layer'];
+
+// 歧义词：匹配后需检查上下文，命中 negative patterns 则判定为非农业语义
+const AMBIGUOUS_KWS: Record<string, RegExp[]> = {
+  layer: [/supply.chain.{0,15}layer/i, /management.{0,15}layer/i, /organizati.{0,15}layer/i, /layer.{0,15}(of the|of a|between)/i],
+  traceability: [/(visit|read|learn|discover|explore).{0,30}traceability/i, /traceability.{0,20}(page|platform|solution|program)/i],
+};
+
+function matchKeyword(text: string, kw: string): boolean {
+  // 歧义词：先做词边界匹配，再排除非农业上下文
+  if (AMBIGUOUS_KWS[kw]) {
+    const regex = new RegExp(`\\b${kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
+    if (!regex.test(text)) return false;
+    return !AMBIGUOUS_KWS[kw].some((neg) => neg.test(text));
+  }
+  // 短关键词用正则词边界匹配
+  if (kw.length <= 5 || SHORT_TECH_KWS.includes(kw) || SHORT_AG_KWS.includes(kw)) {
+    return new RegExp(`\\b${kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`).test(text);
+  }
+  return text.includes(kw);
+}
 
 function smartAgScore(text: string): number {
   const lower = text.toLowerCase();
-  const hitTech = TECH_KEYWORDS.some((kw) => lower.includes(kw));
-  const hitAg = AG_KEYWORDS.some((kw) => lower.includes(kw));
+  const hitTech = TECH_KEYWORDS.some((kw) => matchKeyword(lower, kw));
+  const hitAg = AG_KEYWORDS.some((kw) => matchKeyword(lower, kw));
   if (!hitTech || !hitAg) return 0;
   let hits = 0;
   for (const kw of [...TECH_KEYWORDS, ...AG_KEYWORDS]) {
-    if (lower.includes(kw)) hits++;
+    if (matchKeyword(lower, kw)) hits++;
   }
   return hits;
 }
 
-const SMART_AG_THRESHOLD = 3; // 技术+农业各至少1个，总命中至少3个
+const SMART_AG_THRESHOLD = 2; // 技术+农业各至少1个，总命中至少2个（宁可放过边缘，不可漏掉智慧农业）
 
 function preFilterItems(items: any[]): { accepted: any[]; rejected: any[] } {
   const accepted: any[] = [];
@@ -179,10 +238,27 @@ async function scrapeArticlesBatch(items: any[]): Promise<{ scraped: number; fai
   let scraped = 0;
   let failed = 0;
 
+  // 域名级限速：同域名请求间隔 DOMAIN_DELAY_MS，防 429
+  const domainLastRequest = new Map<string, number>();
+  async function scrapeWithDomainDelay(url: string, config?: string) {
+    try {
+      const domain = new URL(url).hostname;
+      const lastReq = domainLastRequest.get(domain) || 0;
+      const elapsed = Date.now() - lastReq;
+      if (elapsed < DOMAIN_DELAY_MS) {
+        domainLastRequest.set(domain, Date.now());
+        await new Promise((r) => setTimeout(r, DOMAIN_DELAY_MS - elapsed));
+      } else {
+        domainLastRequest.set(domain, Date.now());
+      }
+    } catch { /* ignore URL parse errors */ }
+    return scrapeArticle(url, config);
+  }
+
   for (let i = 0; i < toScrape.length; i += CONCURRENCY) {
     const batch = toScrape.slice(i, i + CONCURRENCY);
     const results = await Promise.allSettled(
-      batch.map((item) => scrapeArticle(item.url, item.source?.scrapeConfig))
+      batch.map((item) => scrapeWithDomainDelay(item.url, item.source?.scrapeConfig))
     );
 
     for (let j = 0; j < results.length; j++) {
@@ -203,15 +279,8 @@ async function scrapeArticlesBatch(items: any[]): Promise<{ scraped: number; fai
         });
         scraped++;
       } else {
-        // 爬取失败：标记 scrapedAt 防止无限重试
+        // 爬取失败：不标记 scrapedAt，下次管线可重试
         failed++;
-        await prisma.item.update({
-          where: { id: item.id },
-          data: {
-            scrapedAt: new Date(),
-            scrapeMethod: 'scrape_failed',
-          },
-        });
       }
     }
 
@@ -269,6 +338,16 @@ ${contentSnippet ? `内容: ${contentSnippet}` : ''}
 - readability: 内容可读性和信息密度
 - actionability: 可操作性和实践参考价值
 
+分类（选一个最匹配的 subcategory）:
+- pig: 猪业（养猪、猪肉、猪病、猪场管理等）
+- poultry: 禽业（鸡、鸭、鸡蛋、禽流感、禽舍管理等）
+- cattle: 牛业（养牛、牛肉、牛奶、奶牛、牧场管理等）
+- sheep: 羊业（养羊、羊肉、羊毛等）
+- field: 大田作物（小麦、玉米、水稻、大豆、田间管理等）
+- fruit: 果蔬（水果、蔬菜、采摘、冷链等）
+- horticulture: 园艺（温室、花卉、苗圃、观赏植物等）
+- general: 综合/跨领域/无法归入以上类别
+
 同时提供中文翻译和推荐理由。全文翻译要求：
 - 只翻译文章正文内容，**不要翻译以下杂项**：标题、日期、作者署名、来源标签/category tags、图片说明（如"图片来源：xxx"）、byline、share buttons文字
 - 忠实原文，完整翻译所有段落，不要遗漏，不要截断
@@ -283,6 +362,7 @@ ${contentSnippet ? `内容: ${contentSnippet}` : ''}
   "novelty": 数,
   "readability": 数,
   "actionability": 数,
+  "subcategory": "pig|poultry|cattle|sheep|field|fruit|horticulture|general",
   "titleZh": "中文标题(简短准确)",
   "summaryZh": "中文摘要(100-150字，说明核心内容和价值)",
   "translationZh": "全文中文翻译(只翻译正文，去掉标题/日期/作者/标签/图片来源等杂项，段落用\\n\\n分隔，小标题加粗)",
@@ -355,8 +435,20 @@ function calculateQualityScore(
   return Math.round(avg * tierWeight + multiBonus);
 }
 
-function classifyItem(item: any, source: any): { category: string; subcategory: string } {
-  // source.species 存的是类别（"livestock"/"crop"/"aggtech"），由管线写入
+const VALID_SUBCATEGORIES = ['pig', 'poultry', 'cattle', 'sheep', 'field', 'fruit', 'horticulture', 'general'];
+const SUBCATEGORY_TO_CATEGORY: Record<string, string> = {
+  pig: 'livestock', poultry: 'livestock', cattle: 'livestock', sheep: 'livestock',
+  field: 'crop', fruit: 'crop', horticulture: 'crop',
+  general: 'aggtech',
+};
+
+function classifyItem(item: any, source: any, aiSubcategory?: string): { category: string; subcategory: string } {
+  // 优先用 AI 返回的分类
+  if (aiSubcategory && VALID_SUBCATEGORIES.includes(aiSubcategory)) {
+    return { category: SUBCATEGORY_TO_CATEGORY[aiSubcategory], subcategory: aiSubcategory };
+  }
+
+  // 回退：source.species 大类 + defaultSubcategory
   if (source.species === 'livestock') {
     return { category: 'livestock', subcategory: source.defaultSubcategory || 'cattle' };
   }
@@ -364,7 +456,8 @@ function classifyItem(item: any, source: any): { category: string; subcategory: 
     return { category: 'crop', subcategory: source.defaultSubcategory || 'field' };
   }
 
-  const text = `${item.title} ${item.contentHtml || ''} ${item.contentFull || ''}`.toLowerCase();
+  // 回退：关键词匹配
+  const text = `${item.titleEn || ''} ${item.contentHtml || ''} ${item.contentFull || ''}`.toLowerCase();
 
   if (text.includes('pig') || text.includes('hog') || text.includes('swine') || text.includes('pork')) {
     return { category: 'livestock', subcategory: 'pig' };
@@ -514,6 +607,22 @@ async function main() {
 
   // Step 3: 全文爬取
   console.log('[3/5] 全文爬取...');
+
+  // 前置：重置 contentFull 为空但已标记爬取的文章（上次爬取失败或数据丢失）
+  const emptyContentItems = await prisma.item.findMany({
+    where: { isRelevant: true, contentFull: null, scrapedAt: { not: null } },
+    select: { id: true },
+  });
+  if (emptyContentItems.length > 0) {
+    console.log(`  重置 ${emptyContentItems.length} 条无正文但已标记爬取的文章`);
+    for (const item of emptyContentItems) {
+      await prisma.item.update({
+        where: { id: item.id },
+        data: { scrapedAt: null, scrapeMethod: null },
+      });
+    }
+  }
+
   const unscraped = await prisma.item.findMany({
     where: { scrapedAt: null, isRelevant: true },
     include: { source: true },
@@ -553,6 +662,25 @@ async function main() {
   }
   console.log(`  降级 ${demoted} 条不再相关的文章\n`);
 
+  // Step 3.7: 智慧农业预筛（全文爬取后，用完整内容判断）
+  // 必须同时命中「技术词」和「农业词」才算相关
+  console.log('[3.7] 智慧农业预筛...');
+  const allRelevant = await prisma.item.findMany({
+    where: { isRelevant: true },
+    select: { id: true, titleEn: true, contentFull: true, contentHtml: true },
+  });
+  const { accepted: preAccepted, rejected: preRejected } = preFilterItems(allRelevant);
+  if (preRejected.length > 0) {
+    console.log(`  预筛淘汰 ${preRejected.length} 条（技术+农业关键词不足 ${SMART_AG_THRESHOLD} 个）`);
+    for (const item of preRejected) {
+      await prisma.item.update({
+        where: { id: item.id },
+        data: { isRelevant: false, techTags: 'pre_filter_rejected' },
+      });
+    }
+  }
+  console.log(`  预筛通过: ${preAccepted.length} 条\n`);
+
   // Step 4 前置：清除明显过短的截断翻译（<200字且以省略号结尾），让管线重新生成
   // 长翻译即使截断也接受，避免无限重试烧 token
   const withTranslation = await prisma.item.findMany({
@@ -580,27 +708,10 @@ async function main() {
     where: { OR: [{ aiScores: null }, { category: null }, { translationZh: null }], isRelevant: true },
     include: { source: true },
   });
-  console.log(`  待处理: ${pending.length} 条`);
-
-  // 预筛：跳过明显与智慧畜牧无关的 item
-  const { accepted, rejected } = preFilterItems(pending);
-  if (rejected.length > 0) {
-    console.log(`  预筛跳过 ${rejected.length} 条（智慧畜牧关键词不足 ${SMART_AG_THRESHOLD} 个）`);
-    for (const item of rejected) {
-      console.log(`    ✗ ${item.titleEn?.slice(0, 80)}`);
-      await prisma.item.update({
-        where: { id: item.id },
-        data: {
-          isRelevant: false,
-          techTags: 'pre_filter_rejected',
-        },
-      });
-    }
-  }
-  console.log(`  预筛通过: ${accepted.length} 条\n`);
+  console.log(`  待处理: ${pending.length} 条\n`);
 
   let processed = 0;
-  for (const item of accepted) {
+  for (const item of pending) {
     try {
       const contentForAI = item.contentFull || item.contentHtml || '';
       const result = await analyzeItem(item.titleEn, contentForAI);
@@ -625,7 +736,7 @@ async function main() {
         actionability: result.actionability,
       };
       const qualityScore = calculateQualityScore(scores, item.source.tier, item.multiSourceCount);
-      const { category, subcategory } = classifyItem(item, item.source);
+      const { category, subcategory } = classifyItem(item, item.source, result.subcategory);
       const species = subcategory || item.species;
 
       await prisma.item.update({
@@ -704,7 +815,7 @@ async function main() {
     qualityScore: item.qualityScore || 0,
     isFeatured: (item.qualityScore || 0) >= 55,
     isHot: item.isHot,
-    publishedAt: item.publishedAt.toISOString(),
+    publishedAt: item.publishedAt ? item.publishedAt.toISOString() : '',
   });
 
   // 详情格式（含全文、图片等）
@@ -739,6 +850,21 @@ async function main() {
   // 详情 JSON（每条一个文件）
   const detailDir = join(outDir, 'items');
   mkdirSync(detailDir, { recursive: true });
+
+  // 清理孤立 detail 文件（不在当前导出列表中的旧文件）
+  const validIds = new Set(allItems.map(item => item.id));
+  const existingDetailFiles = readdirSync(detailDir);
+  let cleanedFiles = 0;
+  for (const file of existingDetailFiles) {
+    if (file.endsWith('.json')) {
+      const id = file.replace('.json', '');
+      if (!validIds.has(id)) {
+        unlinkSync(join(detailDir, file));
+        cleanedFiles++;
+      }
+    }
+  }
+  if (cleanedFiles > 0) console.log(`  清理 ${cleanedFiles} 个孤立 detail 文件`);
   for (const item of allItems) {
     const detail = formatDetailItem(item);
     writeFileSync(join(detailDir, `${item.id}.json`), JSON.stringify(detail, null, 2));

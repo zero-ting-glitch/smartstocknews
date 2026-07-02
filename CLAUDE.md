@@ -14,6 +14,7 @@ smartstock/
 │   │   ├── detail/        # 文章详情页（query param 路由）
 │   │   ├── pig|poultry|cattle|sheep/  # 畜种频道
 │   │   ├── field|fruit|horticulture/   # 作物频道
+│   │   ├── general/       # 综合资讯频道
 │   │   ├── all/           # 全部动态
 │   │   └── about/         # 关于页面
 │   ├── components/        # React 组件
@@ -40,10 +41,11 @@ smartstock/
 │       ├── config.ts      # BASE_PATH 等前端配置
 │       └── utils.ts       # formatTime, speciesNames, speciesColors
 ├── scripts/
-│   ├── run-pipeline.ts    # 一键管线（5 步：同步→采集(去重)→爬取→AI(预筛+翻译)→导出）
+│   ├── run-pipeline.ts    # 一键管线（5+步：同步→采集→修正日期→爬取→AI→修正物种→导出）
 │   ├── export-static.ts   # 独立导出脚本
 │   ├── seed-sources.ts    # 信源初始化
-│   └── check-items.ts     # 数据检查工具
+│   ├── check-items.ts     # 数据检查工具
+│   └── clear-truncated.ts # 清除截断翻译（一次性工具）
 ├── data/sources.json      # 9 个信源配置
 ├── prisma/schema.prisma   # 数据库 schema
 ├── public/
@@ -75,15 +77,33 @@ smartstock/
 - rss-parser（RSS feed 解析）
 - 部署：GitHub Pages + GitHub Actions CI/CD
 
-## 数据管线（5 步）
+## 数据管线
 
 ```
-[1/5] 同步信源    sources.json → SQLite（upsert）
-[2/5] 采集 URL    RSS 解析 + 列表页爬取 → 跨源标题去重 → 发现文章链接
-[3/5] 全文爬取    cheerio 解析 → 提取文本/图片/作者（已爬过跳过）
-[4/5] AI 处理     预筛过滤 → 单次 DeepSeek 调用 → 五维评分+全文翻译+摘要+精选理由
-[5/5] 导出 JSON   items.json + items/{id}.json（含全文翻译）+ hot-items.json + stats.json
+[1/5] 同步信源      sources.json → SQLite（upsert）
+[2/5] 采集 URL      RSS 解析 + 列表页爬取 → 跨源标题去重 → 发现文章链接
+[2.5] 修正日期      检测 publishedAt 与 scrapedAt 相差 < 5 分钟的文章，重置重新爬取
+[3/5] 全文爬取      cheerio 解析 → 提取文本/图片/作者/发表日期（已爬过跳过）
+[3.5] 重评相关性    全文爬取后用完整内容重新判断是否与智慧畜牧相关
+[4/5] AI 处理       预筛过滤 → DeepSeek 调用 → 五维评分+全文翻译+摘要+精选理由
+[4.5] 修复 species  将 subcategory 同步到 species 字段
+[5/5] 导出 JSON     items.json + items/{id}.json + hot-items.json + stats.json + 按分类导出
 ```
+
+### 翻译完整度保障
+
+- `max_tokens: 16000`（DeepSeek-V3 上限），覆盖绝大多数长文章
+- Prompt 要求"完整翻译所有段落，不得截断"
+- **截断续翻**：翻译以 `……`/`......` 结尾时，自动定位原文断点，翻译剩余部分拼接
+- **截断清理**：Step 4 前置清除 < 200 字的明显废翻译（以省略号结尾），让管线重新生成
+- 详情页翻译支持 `**加粗**` markdown 语法渲染
+
+### 发表时间修正
+
+- RSS/列表页不再用 `new Date()` 作 publishedAt fallback，改为 null
+- Step 3 爬虫提取真实发表日期（`extractDate`：time[datetime]、meta[property="article:published_time"] 等）
+- Step 2.5 自动检测日期可疑文章（publishedAt 与 scrapedAt 相差 < 5 分钟），重置重新爬取
+- 前端适配 null 日期：formatTime 显示 `--:--`，Timeline 归入"其他"组
 
 ### 预筛过滤（Step 4 前置）
 
@@ -97,6 +117,13 @@ smartstock/
 - 标题归一化后计算 Jaccard 相似度
 - 相似度 ≥ 0.6 视为重复，跳过入库
 - 防止同一文章在多个信源重复出现
+
+### 爬虫选择器
+
+默认选择器按优先级尝试（第一个匹配 > 200 字的生效）：
+`article .entry-content` → `article .post-content` → `.article-body` → `.story-body` → `.article-content` → `.article-page` → `.post-body` → `.entry-content` → `.post-content` → `article` → `main`
+
+特殊站点可在 `sources.json` 的 `scrapeConfig` 中配置 `contentSelector`、`dateSelector`、`authorSelector` 等。
 
 ## 开发原则
 
@@ -131,7 +158,9 @@ npm run build            # 静态导出到 out/
 npx prisma generate      # 生成 Prisma 客户端
 npx prisma db push       # 同步 schema 到 SQLite
 npx prisma studio        # 可视化查看数据库
-npx tsx scripts/run-pipeline.ts   # 运行完整管线
+npx tsx scripts/run-pipeline.ts           # 运行完整管线
+npx tsx scripts/clear-truncated.ts        # 清除截断翻译（一次性）
+npx tsx scripts/export-static.ts          # 独立导出静态 JSON
 ```
 
 ## 部署
@@ -140,7 +169,7 @@ npx tsx scripts/run-pipeline.ts   # 运行完整管线
 - GitHub 仓库：https://github.com/zero-ting-glitch/smartstocknews
 - 推送到 master 自动触发构建和部署
 - 采集工作流：GitHub Actions 手动触发，运行管线后自动提交 `public/data/` 的变更
-- Secret 名称：`CFG_1`（DeepSeek API Key）
+- Secret 名称：`CFG_01`（DeepSeek API Key）
 
 ## 物种/作物频道
 
@@ -153,6 +182,7 @@ npx tsx scripts/run-pipeline.ts   # 运行完整管线
 | 大田 | `/field` | field |
 | 果蔬 | `/fruit` | fruit |
 | 园艺 | `/horticulture` | horticulture |
+| 综合 | `/general` | general |
 
 ## 信源体系
 
@@ -163,3 +193,12 @@ npx tsx scripts/run-pipeline.ts   # 运行完整管线
 | T1 | 官方一手/学术 | 1.0 |
 | T1.5 | 行业权威媒体 | 0.7 |
 | T2 | 综合媒体 | 0.4 |
+
+## 详情页
+
+- 路由：`/detail?id={articleId}`（静态导出，query param 路由）
+- 翻译卡片显示条件：`contentFull` 或 `translationZh` 存在即显示
+- 翻译中 `**加粗**` 语法渲染为实际粗体
+- 有原文时可切换"显示中文"/"显示原文"；无原文时只显示翻译
+- 发表时间：优先显示爬虫提取的真实日期，null 时不显示
+- 数据来源：`public/data/items/{id}.json`（导出时含 contentFull、translationZh、images 等）

@@ -18,6 +18,7 @@ interface ExportItem {
   url: string;
   summaryZh: string | null;
   translationZh: string | null;
+  featuredReason: string | null;
   publishedAt: string;
   source: {
     name: string;
@@ -69,6 +70,7 @@ async function main() {
     url: item.url,
     summaryZh: item.summaryZh,
     translationZh: item.translationZh,
+    featuredReason: item.featuredReason,
     publishedAt: item.publishedAt ? item.publishedAt.toISOString() : '',
     source: item.source,
     species: item.species,
@@ -90,6 +92,7 @@ async function main() {
     const detail = {
       ...exportItems.find(e => e.id === item.id),
       contentFull: item.contentFull || '',
+      translationZh: item.translationZh || '',
       images: item.images ? (() => { try { return JSON.parse(item.images); } catch { return []; } })() : [],
       author: item.author || '',
       featuredReason: item.featuredReason || '',

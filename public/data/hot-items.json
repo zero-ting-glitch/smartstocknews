@@ -1,1 +1,222 @@
-[]
+[
+  {
+    "id": "cmr2zkgz2001zfjpsro0yc5n3",
+    "titleEn": "U.S. Sugar deploys autonomous John Deere tractor fleet across 255,000 acres",
+    "titleZh": "美国糖业公司在25.5万英亩甘蔗田部署自动驾驶约翰迪尔拖拉机队",
+    "summaryZh": "美国糖业公司（U.S. Sugar）在佛罗里达州甘蔗田部署了由无人驾驶约翰迪尔拖拉机组成的车队，实现24小时连续作业，号称美国糖业最大规模的自动驾驶拖拉机商业应用。该案例展示了自动驾驶技术在大型种植业中的规模化落地，对智慧畜牧行业在自动化、机器人及传感器应用方面具有重要参考价值。",
+    "featuredReason": "该案例展示了自动驾驶技术在大型种植业中的规模化应用，对智慧畜牧行业在自动化、机器人及传感器集成方面具有直接借鉴意义。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/u-s-sugar-deploys-autonomous-john-deere-tractor-fleet-across-255000-acres/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-05-28T07:00:00.000Z"
+  },
+  {
+    "id": "cmr2zkgu8000nfjps6ec4tmww",
+    "titleEn": "Agreenculture acquires Chouette to add agronomic intelligence to autonomous machines",
+    "titleZh": "Agreenculture收购Chouette：为自主农机注入农艺智能",
+    "summaryZh": "法国自主农机专家Agreenculture收购了专注于葡萄栽培AI农艺分析的公司Chouette，将自主导航技术与实时作物监测算法结合，使机器不仅能自主作业，还能解读田间数据。该技术已处理超2亿张图像，覆盖法国8%葡萄园，未来将扩展至果园等特种作物，旨在应对劳动力短缺、成本上升和农业环境转型等挑战。",
+    "featuredReason": "该案例展示了如何将AI农艺分析与自主农机深度融合，为智慧畜牧中类似场景（如果园、牧场监测）提供了可借鉴的技术路径和商业模式。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/agreenculture-acquires-chouette-to-add-agronomic-intelligence-to-autonomous-machines/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-25T06:30:00.000Z"
+  },
+  {
+    "id": "cmr2zkgum000rfjps32zbnw4t",
+    "titleEn": "Horsch enters into partnership with application map specialist",
+    "titleZh": "赫氏与施药地图专家达成战略合作",
+    "summaryZh": "德国农机巨头赫氏战略入股施药地图专家Sam-Dimension，该公司利用1毫米分辨率无人机影像和AI系统生成精准施药地图，支持洋葱、马铃薯、胡萝卜等多种作物的点喷除草，作业效率达60公顷/小时，且兼容多家主流喷雾机品牌。此举标志着精准农业领域又一重要技术整合。",
+    "featuredReason": "该合作展示了AI与无人机影像在精准植保中的落地应用，对智慧畜牧行业中的饲草料作物（如玉米、甜菜）的杂草管理具有直接参考价值，体现了跨领域精准农业技术的融合趋势。",
+    "url": "https://www.futurefarming.com/smart-farming/horsch-enters-into-partnership-with-application-map-specialist/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-24T13:19:17.000Z"
+  },
+  {
+    "id": "cmr2zkgut000tfjpsn6ws4mhq",
+    "titleEn": "Australian vegetable farm puts 2 weeding technologies to the test",
+    "titleZh": "澳大利亚蔬菜农场实测两种除草技术",
+    "summaryZh": "澳大利亚有机蔬菜农场Busch Organics测试了两种前沿除草技术：丹麦Agrointelli公司的自主机器人平台Robotti，以及激光除草设备。该农场位于维多利亚州吉普斯兰，占地超过300英亩，已有百年历史。文章介绍了这些技术如何帮助有机农场减少人工除草依赖，提高效率，并可能重塑有机蔬菜种植方式。",
+    "featuredReason": "该新闻展示了自主机器人和激光除草技术在有机蔬菜种植中的实际应用案例，对智慧畜牧行业人士理解跨领域自动化技术趋势具有参考价值，尤其是机器人平台在精准农业中的潜力。",
+    "url": "https://www.futurefarming.com/crop-solutions/australian-vegetable-farm-puts-2-weeding-technologies-to-the-test/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-24T06:28:12.000Z"
+  },
+  {
+    "id": "cmr2zkgvc000zfjpsv0htu5pr",
+    "titleEn": "New retrofit spot spraying system for every type of sprayer",
+    "titleZh": "新型改装式定点喷洒系统适配各类喷雾机",
+    "summaryZh": "德国初创公司DynamoBot推出WeSee定点喷洒系统，可加装在几乎所有类型的田间喷雾机上（包括老旧机型），通过RGB摄像头和NIR传感器实现杂草识别与单个喷嘴独立控制，支持绿-棕和绿-绿检测，无需PWM喷嘴，适用于马铃薯、玉米和甜菜等作物，售价每米喷杆2000欧元，具备自安装能力。",
+    "featuredReason": "该技术展示了AI视觉与精准施药在种植业中的最新融合，其高兼容性（适配老旧机型）和低成本方案对智慧畜牧行业中的饲草料作物管理具有直接借鉴意义。",
+    "url": "https://www.futurefarming.com/crop-solutions/weed-pest-control/new-retrofit-spot-spraying-system-for-every-type-of-sprayer/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-22T06:00:00.000Z"
+  },
+  {
+    "id": "cmr2zkgvi0011fjpsvluqvb9i",
+    "titleEn": "Croplands expands WEED-IT range with new releases, including orchard solution",
+    "titleZh": "Croplands扩展WEED-IT精准喷雾系列：推出果园专用方案及新一代自主喷雾平台",
+    "summaryZh": "澳大利亚Croplands Equipment公司发布WEED-IT精准喷雾系列多项新技术，包括与SwarmFarm Robotics合作的Series 2 Robot Ready Pinto自主喷雾平台、36米桁架式大型大田喷雾机Pegasus，以及首款专为果园设计的光学点喷方案。同时，其WEED-IT改装套件已成功适配多品牌喷雾机，展示出强大的兼容性和实践价值。",
+    "featuredReason": "该新闻展示了精准农业技术在种植业（尤其是大田和果园）中的最新集成应用，其自主化、光学点喷和广泛改装能力对智慧畜牧行业中的饲料作物种植、牧场杂草管理等场景具有直接借鉴意义。",
+    "url": "https://www.futurefarming.com/smart-farming/croplands-expands-weed-it-range-with-new-releases-including-orchard-solution/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-18T07:00:00.000Z"
+  },
+  {
+    "id": "cmr2zkgvy0015fjps7uuduid1",
+    "titleEn": "From novelty to necessity: Why tulip growers are betting on robotic disease selection",
+    "titleZh": "从新奇到必需：郁金香种植者为何押注机器人病害筛选",
+    "summaryZh": "本文报道了H2L Selector 180和225两款机器人，它们能识别并处理郁金香花床中的病株，已售出139台，用户平均评分4.1/5。尽管机器人病害筛选正成为主流，但种植者强调，广泛采用仍需进一步提升可靠性和性能。文章通过四位用户的经验分享，展示了该技术在园艺领域的实际应用价值与挑战。",
+    "featuredReason": "虽然聚焦于园艺（郁金香），但机器人病害筛选技术、用户反馈与可靠性改进路径，对智慧畜牧中类似自动化病害检测（如猪只健康监测、禽类疫病识别）具有直接借鉴意义。",
+    "url": "https://www.futurefarming.com/smart-farming/from-novelty-to-necessity-why-tulip-growers-are-betting-on-robotic-disease-selection/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "horticulture",
+    "category": "crop",
+    "subcategory": "horticulture",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-16T07:00:00.000Z"
+  },
+  {
+    "id": "cmr2zkguf000pfjps2gb6ihze",
+    "titleEn": "Fieldwork Robotics secures new funding to accelerate raspberry harvesting robot",
+    "titleZh": "Fieldwork Robotics获新融资，加速树莓采摘机器人商业化",
+    "summaryZh": "英国Fieldwork Robotics获得SEED Innovations等投资方共250万英镑种子+轮融资，用于加速其自主树莓采摘机器人的商业化部署。该机器人已在英国商业农场测试，计划2027年实现多机集群商业运营，并拓展至澳大利亚。技术旨在解决劳动力短缺导致的果实损失问题，降低采摘成本并提升产量。",
+    "featuredReason": "该新闻展示了机器人采摘技术在果蔬领域的突破性进展，对智慧畜牧行业人士理解自动化采摘在种植业中的落地路径、融资模式及规模化前景具有重要参考价值。",
+    "url": "https://www.futurefarming.com/smart-farming/fieldwork-robotics-secures-new-funding-to-accelerate-raspberry-harvesting-robot/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 79,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-25T06:00:00.000Z"
+  },
+  {
+    "id": "cmr2zkgvr0013fjpsf5c9pwa5",
+    "titleEn": "Farm-ING now offers a choice of 3 different smart weeders",
+    "titleZh": "Farm-ING推出三款智能除草机，激光除草器即将上市",
+    "summaryZh": "奥地利智能农业设备专家Farm-ING扩展了其智能除草产品线，新增两款智能除草机选项，现共提供三种不同的智能除草方案：行内中耕除草机InRowING（工作宽度达7.5米，起价6.5万欧元）、精准点喷除草机SpotSprayING（工作宽度2.75至12米，起价7.5万欧元）以及即将于2026年上市的激光除草机LaserING（工作宽度2或3米，起价30万欧元）。该公司凭借AI支持的精准除草技术，成为该领域产品组合最丰富的专业厂商之一。",
+    "featuredReason": "该新闻展示了AI和自动化技术在精准除草领域的创新应用，与智慧畜牧中强调的智能化、精准化管理理念高度契合，可为从事大田作物或牧草管理的从业者提供前沿技术参考。",
+    "url": "https://www.futurefarming.com/crop-solutions/weed-pest-control/farm-ing-now-offers-a-choice-of-3-different-smart-weeders/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 79,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-17T07:00:00.000Z"
+  },
+  {
+    "id": "cmr2zkgwp001dfjpsdobtphfq",
+    "titleEn": "Robot Raggy taking on one of farming’s most persistent weed problems",
+    "titleZh": "机器人Raggy挑战农业中最顽固的杂草问题",
+    "summaryZh": "英国机器人公司Robotriks开发的电动自主机器人Raggy，将于今年夏季在多塞特郡的农田进行最终测试，旨在通过自动化方式清除对牲畜有毒的杂草——狗舌草。该机器人利用视觉识别和精准作业，有望减少对化学除草剂的依赖，为牧场和农田管理提供可持续的杂草控制方案，对智慧畜牧和精准农业具有重要参考价值。",
+    "featuredReason": "该新闻展示了机器人技术在牧场杂草管理中的创新应用，直接关系到牲畜健康和饲料安全，为智慧畜牧行业提供了自动化、精准化的杂草防控新思路。",
+    "url": "https://www.futurefarming.com/tech-in-focus/field-robots/robot-raggy-taking-on-one-of-farmings-most-persistent-weed-problems/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 79,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-10T07:00:00.000Z"
+  }
+]

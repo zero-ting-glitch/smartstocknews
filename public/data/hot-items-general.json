@@ -1,77 +1,33 @@
 [
   {
-    "id": "cmr1jcgnh000lr8n2kpjcm0ym",
-    "titleEn": "AgXeed’s VCU brings existing tractors into the autonomous fold",
-    "titleZh": "AgXeed推出VCU套件，将现有拖拉机纳入自主作业生态",
-    "summaryZh": "AgXeed发布了车辆控制单元（VCU），这是一款紧凑型改装套件，可通过ISOBUS TIM协议将现有拖拉机接入其自主作业生态系统。VCU使传统农机能够连接TraXwise规划与监控平台，执行预编程的自动化作业，减少人工干预。该产品已被收录至《未来农业自主改装套件目录》，为种植业自动化提供了低成本升级路径，对智慧畜牧中的饲草料生产等环节具有间接参考价值。",
-    "featuredReason": "该技术展示了如何通过低成本改装套件实现传统农机自动化，对智慧畜牧中饲草料种植、牧场运输等环节的自动化升级具有借鉴意义。",
-    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/agxeeds-vcu-brings-existing-tractors-into-the-autonomous-fold/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1"
-    },
-    "sourceId": "futurefarming",
-    "species": "general",
-    "category": "aggtech",
-    "subcategory": "general",
-    "techTags": "",
-    "qualityScore": 76,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-29T07:00:00.000Z"
-  },
-  {
-    "id": "cmr1jcgnk000nr8n20hyoxk7p",
-    "titleEn": "Agreenculture acquires Chouette to add agronomic intelligence to autonomous machines",
-    "titleZh": "法国农业自动化公司Agreenculture收购Chouette，为自主机器增添农艺智能",
-    "summaryZh": "法国自主机械专家Agreenculture收购了专注于葡萄栽培AI农艺分析的公司Chouette。此次交易将Agreenculture的自主技术与Chouette的作物监测算法相结合，旨在打造既能独立作业又能解读田间所见信息的机器。这标志着农业自动化从“执行动作”向“理解场景”的进化，对智慧畜牧领域也有启发意义。",
-    "featuredReason": "该收购展示了农业自动化从“执行动作”向“理解场景”的关键跃迁，其“自主+感知”融合模式对智慧畜牧领域的机器人巡检、个体识别与健康监测具有直接借鉴价值。",
-    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/agreenculture-acquires-chouette-to-add-agronomic-intelligence-to-autonomous-machines/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1"
-    },
-    "sourceId": "futurefarming",
-    "species": "general",
-    "category": "aggtech",
-    "subcategory": "general",
-    "techTags": "",
-    "qualityScore": 80,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-25T06:30:00.000Z"
-  },
-  {
-    "id": "cmr1jcg0e0009r8n2pwbeteyc",
-    "titleEn": "Beyond Disruption: Earning Trust and Driving Impact in AgTech Through Grower-Led Innovation",
-    "titleZh": "超越颠覆：通过种植者主导的创新在农业科技中赢得信任并推动影响",
-    "summaryZh": "本文由Reservoir CEO Danny Bernstein撰写，反思硅谷软件文化在农业中的局限性，提出“物理人工智能”概念——在田间地头实时运行的实体技术。他强调农业科技应从“颠覆”转向“扎根”，通过种植者、初创企业与零售商在“奥运村”式创新社区中协作，在真实田间压力测试想法。文章引用2024年CropLife/普渡大学调查数据，指出无人机施药将从35%增长至50%以上，并呼吁技术设计者走进农田，而非仅坐在会议室。",
-    "featuredReason": "本文从硅谷视角反思农业科技落地困境，提出“物理AI”和种植者主导的创新模式，对智慧畜牧行业在养殖场实地部署IoT、机器人等方案具有直接借鉴意义——技术必须适应现场真实条件，而非强加标准化流程。",
-    "url": "https://www.globalagtechinitiative.com/digital-farming/beyond-disruption-earning-trust-and-driving-impact-in-agtech-through-grower-led-innovation/",
+    "id": "cmqt2nv92000h12t0ye840xum",
+    "titleEn": "UK Firm Takes Leading Role in Cutting-Edge Farm Robots Project",
+    "titleZh": "英国公司领衔前沿农场机器人项目，蜜蜂无人机与机器鼹鼠将上岗",
+    "summaryZh": "英国工程公司Forth UK成为FARMAR全球项目的行业合作伙伴，该项目旨在将传统农耕知识转化为智能机器人系统。项目将开发蜜蜂无人机和机器鼹鼠等地面与空中机器人，通过AI学习农民日常操作，实现自动化田间巡检与作业，应对劳动力短缺、气候冲击和成本上升等挑战。项目为期四年，涉及多国合作，强调文化传承与技术创新结合。",
+    "featuredReason": "该新闻展示了将传统农耕知识与AI、机器人深度融合的前沿实践，蜜蜂无人机和机器鼹鼠等创新概念对智慧畜牧行业具有启发性，尤其适用于需要精细巡检和自动化作业的养殖与种植场景。",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/uk-firm-takes-leading-role-in-cutting-edge-farm-robots-project/",
     "source": {
       "name": "PrecisionAg",
       "nameZh": "精准农业",
-      "tier": "T1"
+      "tier": "T1.5"
     },
     "sourceId": "precisionag",
     "species": "general",
     "category": "aggtech",
     "subcategory": "general",
     "techTags": "",
-    "qualityScore": 85,
+    "qualityScore": 61,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-24T19:58:19.000Z"
+    "publishedAt": "2026-06-29T16:00:00.000Z"
   },
   {
-    "id": "cmr1jcgno000rr8n295jiens5",
-    "titleEn": "Horsch enters into partnership with application map specialist",
-    "titleZh": "Horsch战略入股精准施药地图公司Sam-Dimension",
-    "summaryZh": "农机巨头Horsch战略入股德国Sam-Dimension公司，后者专注于利用无人机影像生成杂草点喷施药地图。双方自2019年起合作，Sam-Dimension开发了分辨率达1毫米的特殊相机。此举虽主要针对种植业精准植保，但其无人机+高分辨率成像+AI地图生成的技术路径，对智慧畜牧中草场管理、精准施肥等场景具有借鉴意义。",
-    "featuredReason": "该新闻展示了精准农业中无人机与高分辨率成像技术的最新商业化合作，其技术逻辑（无人机+AI地图+精准作业）可迁移至智慧畜牧的草场管理、精准投喂等场景，值得关注跨界技术趋势的从业者阅读。",
-    "url": "https://www.futurefarming.com/smart-farming/horsch-enters-into-partnership-with-application-map-specialist/",
+    "id": "cmr2zkgw50017fjpsxz1xtmpn",
+    "titleEn": "If food security is strategic, why does agricultural innovation still struggle to scale?",
+    "titleZh": "粮食安全战略地位凸显，为何农业创新规模化仍举步维艰？",
+    "summaryZh": "本文由《未来农业》主编Geert Hekkert撰写，指出农业长期依赖国防、汽车、硅谷等外领域技术，但如今农业正成为技术验证场，其成果反而在建筑、采矿和国防领域找到更大市场。文章以Monarch Tractor为例，探讨农业创新规模化面临的挑战，并呼吁行业反思：若粮食安全是战略问题，为何农业科技投资与落地仍显滞后？适合关注农业科技投资、自主化、电动化趋势的从业者阅读。",
+    "featuredReason": "本文从战略高度反思农业创新规模化困境，虽非直接聚焦智慧畜牧，但其对技术跨界应用、投资逻辑的剖析，对畜牧行业引入IoT、AI、机器人等创新具有重要启发。",
+    "url": "https://www.futurefarming.com/tech-in-focus/if-food-security-is-strategic-why-does-agricultural-innovation-still-struggle-to-scale/",
     "source": {
       "name": "Future Farming",
       "nameZh": "未来农业",
@@ -82,31 +38,75 @@
     "category": "aggtech",
     "subcategory": "general",
     "techTags": "",
-    "qualityScore": 66,
+    "qualityScore": 73,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-24T13:19:17.000Z"
+    "publishedAt": "2026-06-15T09:00:00.000Z"
   },
   {
-    "id": "cmr1jchhq003rr8n28r51qklz",
-    "titleEn": "AI’s role in agrifood biotech comes into sharper focus",
-    "titleZh": "人工智能在农业食品生物技术中的作用日益清晰",
-    "summaryZh": "本文报道了在阿姆斯特丹“明日峰会”上，专家们对AI在农业食品生物技术中作用的讨论。AI在加速生物发现、降低成本方面成效显著，但在个性化解决方案和大规模生产之间的平衡上存在争议。专家指出，AI并非万能，尤其在个性化营养领域，规模化生产更应关注共性而非个体差异。文章还提到AI帮助科学家从系统层面理解复杂生物学，并举例Nuritas公司利用AI从蚕豆中发现高效生物活性成分。",
-    "featuredReason": "本文揭示了AI在农业生物技术中的真实边界：在加速发现方面潜力巨大，但在个性化与规模化之间需谨慎平衡。智慧畜牧行业可借鉴其关于AI应用场景选择与成本效益分析的思路，避免盲目跟风。",
-    "url": "https://agfundernews.com/ais-role-in-agrifood-biotech-comes-into-sharper-focus",
+    "id": "cmr2zkgy7001tfjps0orjgrf8",
+    "titleEn": "Elbit Systems acquires Bluewhite: a new chapter for autonomous farming",
+    "titleZh": "埃尔比特系统收购Bluewhite：自主农业的新篇章",
+    "summaryZh": "以色列国防与科技集团埃尔比特系统通过其子公司FUSE完成了对农业自动驾驶技术公司Bluewhite的收购。Bluewhite成立于2017年，总部位于特拉维夫，专注于为农业提供自主车辆技术。此次收购将国防领域的先进自主系统能力引入农业，有望加速精准农业和自动化在种植业的应用，但对智慧畜牧（养殖业）的直接关联度中等。",
+    "featuredReason": "该新闻展示了国防技术向农业领域的跨界融合，为智慧畜牧行业提供了自主化、精准化技术发展的新思路，值得关注其技术迁移潜力。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/elbit-systems-acquires-bluewhite-a-new-chapter-for-autonomous-farming/",
     "source": {
-      "name": "AgFunderNews",
-      "nameZh": "农业科技投",
+      "name": "Future Farming",
+      "nameZh": "未来农业",
       "tier": "T1"
     },
-    "sourceId": "agfundernews",
+    "sourceId": "futurefarming",
     "species": "general",
     "category": "aggtech",
     "subcategory": "general",
     "techTags": "",
-    "qualityScore": 76,
+    "qualityScore": 79,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-17T14:46:27.000Z"
+    "publishedAt": "2026-06-02T13:30:00.000Z"
+  },
+  {
+    "id": "cmqrsbigm0001iiyf7r8ctq46",
+    "titleEn": "Niqo Robotics Takes India-Built Physical AI Farming Platform to Europe at Bharat Innovates 2026",
+    "titleZh": "Niqo Robotics携印度造物理AI农业平台亮相Bharat Innovates 2026，进军欧洲市场",
+    "summaryZh": "印度物理AI公司Niqo Robotics被选为代表印度参加Bharat Innovates 2026深科技峰会的唯一精准AI农业机器人企业。其智能除草平台已在印度农田验证，现计划通过欧洲（首站法国）向全球扩张。平台无订阅费、无隐藏成本，强调从第一天起为农民创造投资回报。该事件标志着印度制造的农业机器人技术从本土走向全球，对智慧农业领域的AI与机器人应用具有重要示范意义。",
+    "featuredReason": "该新闻展示了印度制造的物理AI农业机器人从本土走向全球的里程碑，其无订阅、即插即用、注重投资回报率的商业模式，对智慧畜牧与种植领域的自动化、AI应用具有直接参考价值。",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/niqo-robotics-takes-india-built-physical-ai-farming-platform-to-europe-at-bharat-innovates-2026/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
+    "sourceId": "precisionag",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 61,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-05-24T16:00:00.000Z"
+  },
+  {
+    "id": "cmqt2nv82000312t0bqrzirne",
+    "titleEn": "Syngenta Signs MoU to Be Strategic Partner in India’s First Open-Data Agricultural Ecosystem Annam.AI",
+    "titleZh": "先正达签署谅解备忘录，成为印度首个开放数据农业生态系统Annam.AI的战略合作伙伴",
+    "summaryZh": "先正达与印度政府支持的Annam.AI项目签署谅解备忘录，成为其战略合作伙伴。Annam.AI旨在构建基于开放数据的全国性农业智能基础设施，为农民提供免费、实时、个性化的AI农事建议，涵盖作物健康、病虫害预测和热应激模型。该项目由印度教育部、农业与农民福利部支持，谷歌等全球技术伙伴参与，由IIT Ropar主导。先正达将贡献其研发和农艺专长，助力精准农业和气候韧性。",
+    "featuredReason": "该新闻展示了开放数据与AI在农业中的大规模应用，对智慧畜牧行业具有跨领域借鉴意义，尤其是其病虫害预测、热应激模型和个性化农事建议的技术路径，可直接启发养殖业中的动物健康监测和环境控制方案。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/syngenta-signs-mou-to-be-strategic-partner-in-indias-first-open-data-agricultural-ecosystem-annam-ai/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1.5"
+    },
+    "sourceId": "precisionag",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 61,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-05-18T16:00:00.000Z"
   }
 ]

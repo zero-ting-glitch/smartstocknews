@@ -39,7 +39,7 @@ model Item {
   // 原文
   titleEn          String   // 英文原标题
   url              String   // 原文链接（唯一）
-  publishedAt      DateTime // 原文发布时间
+  publishedAt      DateTime? // 原文发布时间
   contentHtml      String?  // 原文HTML（备用）
 
   // 全文内容（爬取自原始页面）
