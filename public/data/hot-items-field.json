@@ -1,112 +1,20 @@
 [
   {
-    "id": "cmr4bplqu000l50rdhrxbpa82",
-    "titleEn": "Can AI replace seed potato rogueing crews? Three Dutch robots take the next step",
-    "titleZh": "AI能否取代种薯拔除病株团队？三款荷兰机器人迈出下一步",
-    "url": "https://www.futurefarming.com/smart-farming/can-ai-replace-seed-potato-rogueing-crews-three-dutch-robots-take-the-next-step/",
-    "summaryZh": "本文报道了荷兰三家制造商正在商业田块中测试AI驱动的拔除病株机器人，用于种薯生产中去除患病和异型植株这一劳动密集型环节。虽然技术仍在开发中，但算法学习速度惊人，未来可能媲美甚至超越经验丰富的拔除团队。文章通过实地演示展示了机器性能，并指出经验丰富的选种人员角色将发生变化，但短期内不会被完全取代。",
-    "translationZh": "马铃薯选种机器人如今已成为现实。经验丰富的选种人员很快会被淘汰吗？暂时还不会，但他们的角色将发生变化。\n\n去除患病和异型植株是种薯生产中最劳动密集型的工作之一。本季，三家荷兰制造商正在商业田块中测试AI驱动的拔除病株机器人。《未来农业》杂志走访了首次田间演示，了解这些机器在实际中的表现。虽然技术仍在开发中，但有一点已经明确：算法学习速度惊人，最终可能媲美——甚至超越——经验丰富的拔除团队。",
-    "featuredReason": "该新闻展示了AI和机器人技术在种薯生产中的前沿应用，对智慧畜牧行业人士理解农业自动化趋势、以及技术如何改变传统劳动密集型环节具有重要参考价值。",
-    "publishedAt": "2026-07-02T12:39:28.000Z",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1"
-    },
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 80,
-    "isHot": true,
-    "multiSourceCount": 1
+    "id": "cmr2zkgz2001zfjpsro0yc5n3",
+    "titleEn": "U.S. Sugar deploys autonomous John Deere tractor fleet across 255,000 acres",
+    "titleZh": "美国糖业公司在25.5万英亩甘蔗田部署自动驾驶约翰迪尔拖拉机队",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/u-s-sugar-deploys-autonomous-john-deere-tractor-fleet-across-255000-acres/",
+    "multiSourceCount": 1,
+    "publishedAt": "2026-05-28T07:00:00.000Z",
+    "qualityScore": 85
   },
   {
-    "id": "cmr4ekuuz000lc2wkrtxuqe5l",
-    "titleEn": "Can AI replace seed potato rogueing crews? Three Dutch robots take the next step",
-    "titleZh": "AI能否取代种薯拔除病株团队？三款荷兰机器人迈出下一步",
-    "summaryZh": "本文报道了三家荷兰制造商在商业田块中测试AI驱动的拔除病株机器人，用于替代种薯生产中劳动密集型的病株和异型植株识别与移除工作。虽然技术仍在开发中，但算法学习速度极快，未来有望达到甚至超越经验丰富的选种人员。文章提供了现场演示的观察结果，并指出选种人员的角色将发生转变。",
-    "featuredReason": "该新闻展示了AI和机器人技术在精准农业（种薯生产）中的前沿应用，对智慧畜牧行业人士理解自动化与AI如何替代或辅助高技能人工劳动具有重要参考价值。",
-    "url": "https://www.futurefarming.com/smart-farming/can-ai-replace-seed-potato-rogueing-crews-three-dutch-robots-take-the-next-step/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1"
-    },
-    "sourceId": "futurefarming",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 85,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-07-02T12:39:28.000Z"
-  },
-  {
-    "id": "cmr4jyzl8000l125d5tzwaavf",
-    "titleEn": "Can AI replace seed potato rogueing crews? Three Dutch robots take the next step",
-    "titleZh": "AI能否取代种子马铃薯田间去杂工？三款荷兰机器人迈出下一步",
-    "summaryZh": "本文报道了三家荷兰制造商在商业田块中测试AI驱动的去杂机器人，用于替代种子马铃薯生产中劳动密集的病害及异型植株清除工作。尽管技术仍在开发中，但算法学习速度惊人，未来有望达到甚至超越经验丰富的去杂工人。文章为智慧农业从业者提供了机器人替代人工的最新进展与趋势参考。",
-    "featuredReason": "该新闻展示了AI和机器人技术在种植业（尤其是种子马铃薯生产）中的前沿应用，对智慧畜牧行业人士理解跨领域自动化趋势具有启发价值。",
-    "url": "https://www.futurefarming.com/smart-farming/can-ai-replace-seed-potato-rogueing-crews-three-dutch-robots-take-the-next-step/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1"
-    },
-    "sourceId": "futurefarming",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 79,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-07-02T12:39:28.000Z"
-  },
-  {
-    "id": "cmr4ekuve000nc2wkrsi2holy",
-    "titleEn": "Sabanto and Verdant Robotics integrate autonomy and precision application systems",
-    "titleZh": "Sabanto与Verdant Robotics整合自主导航与精准施药系统",
-    "summaryZh": "美国公司Sabanto与Verdant Robotics首次将自主导航系统与精准施药系统集成，实现无人在驾驶室的全自动化田间作业。该系统通过CAN总线实时通信，根据田间数据自动调整车速和机具高度，已在佛罗里达州Bethel Farms的草皮生产中商业化运行超9900英亩，显著降低人工和投入成本。",
-    "featuredReason": "该集成展示了自主导航与精准施药在种植业中的深度融合，虽非直接针对畜牧，但其自动化、传感器融合和实时决策技术对智慧畜牧的精准饲喂、环境监控和无人作业有重要借鉴意义。",
-    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/sabanto-and-verdant-robotics-integrate-autonomy-and-precision-application-systems/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1"
-    },
-    "sourceId": "futurefarming",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 85,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-07-02T09:00:00.000Z"
-  },
-  {
-    "id": "cmr4ekuvg000pc2wk0mx9qpkp",
-    "titleEn": "Tersus GNSS AG993: Modular autosteer kit with built-in satellite correction fallback",
-    "titleZh": "Tersus GNSS AG993：内置卫星校正备份的模块化自动转向套件",
-    "summaryZh": "Tersus GNSS推出AG993模块化自动转向改装系统，结合高精度GNSS定位与自有TAP卫星校正服务及传统RTK支持，精度优于2.5厘米，工作速度0.2-30公里/小时，支持超低速（0.1公里/小时）作业和自动U型掉头。其核心亮点是TAPFill功能：在RTK信号丢失时自动切换至L波段卫星校正，保持厘米级精度和坐标参考系一致性，适合网络覆盖差的偏远农田。系统兼容90%以上农用车辆，模块化设计便于安装和跨车转移。",
-    "featuredReason": "该产品通过卫星备份校正解决了偏远农田RTK信号不稳定的痛点，对智慧种植业（大田作物）的自动化作业具有直接参考价值，其模块化设计也降低了改装门槛。",
-    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/tersus-gnss-ag993-modular-autosteer-kit-with-built-in-satellite-correction-fallback/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1"
-    },
-    "sourceId": "futurefarming",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 80,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-07-02T08:00:00.000Z"
+    "id": "cmr2zkgum000rfjps32zbnw4t",
+    "titleEn": "Horsch enters into partnership with application map specialist",
+    "titleZh": "赫氏与施药地图专家达成战略合作",
+    "url": "https://www.futurefarming.com/smart-farming/horsch-enters-into-partnership-with-application-map-specialist/",
+    "multiSourceCount": 1,
+    "publishedAt": "2026-06-24T13:19:17.000Z",
+    "qualityScore": 80
   }
 ]

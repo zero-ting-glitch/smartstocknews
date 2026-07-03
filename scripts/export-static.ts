@@ -63,10 +63,13 @@ function readExistingItems(): ExportItem[] {
   }
 }
 
-// 合并：新数据按 ID 覆盖旧数据，旧数据中未出现的 ID 保留
+// 合并：新数据按 ID 覆盖旧数据，**旧数据中未出现在新数据集中的 ID 不再保留**
+// DB 是权威来源（WHERE isRelevant=true），已标记为不相关的文章不应出现在导出中
 function mergeItems(existing: ExportItem[], fresh: ExportItem[]): ExportItem[] {
+  const freshIds = new Set(fresh.map(i => i.id));
   const map = new Map<string, ExportItem>();
-  for (const item of existing) map.set(item.id, item);
+  // 只保留旧数据中仍在 DB 里标记为相关的文章
+  for (const item of existing) if (freshIds.has(item.id)) map.set(item.id, item);
   for (const item of fresh) map.set(item.id, item);
   return Array.from(map.values()).sort((a, b) =>
     (b.publishedAt || '').localeCompare(a.publishedAt || '')

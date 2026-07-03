@@ -940,12 +940,14 @@ async function main() {
   const freshFormatted = allItems.map(formatListItem);
 
   // 增量合并：读取旧 items.json，新数据按 ID 覆盖，旧数据保留
+  // 注意：旧数据中未出现在 DB 查询结果中的 ID 不再保留
   const existingPath = join(outDir, 'items.json');
   let existingFormatted: any[] = [];
   if (existsSync(existingPath)) {
     try { existingFormatted = JSON.parse(readFileSync(existingPath, 'utf-8')); } catch {}
   }
-  const existingMap = new Map(existingFormatted.map((i: any) => [i.id, i]));
+  const freshIds = new Set(freshFormatted.map((i: any) => i.id));
+  const existingMap = new Map(existingFormatted.filter((i: any) => freshIds.has(i.id)).map((i: any) => [i.id, i]));
   for (const item of freshFormatted) existingMap.set(item.id, item);
   const formatted = Array.from(existingMap.values())
     .sort((a: any, b: any) => (b.publishedAt || '').localeCompare(a.publishedAt || ''));

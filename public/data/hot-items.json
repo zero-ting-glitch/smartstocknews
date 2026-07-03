@@ -1,112 +1,47 @@
 [
   {
-    "id": "cmr4jzo2g01j3125dhjycsgnd",
-    "titleEn": "FeedingFor healthier cows and a more efficient production",
-    "titleZh": "自动饲喂系统：提升奶牛健康与生产效率的智能方案",
-    "summaryZh": "本文介绍了Lely公司针对奶牛养殖的自动饲喂解决方案，包括自动饲喂机器人、自动推料机器人和自动犊牛饲喂器。核心强调通过频繁少量饲喂、定制化日粮和精准配料，稳定瘤胃pH值、改善奶牛健康、提高饲料转化率并节省劳动力。文章还分享了关于奶牛采食量优化和代谢病早期检测的行业洞察，为智慧牧场提供了可落地的技术路径。",
-    "featuredReason": "本文系统展示了自动饲喂技术在奶牛养殖中的实际应用与价值，尤其强调精准饲喂、频繁投料对瘤胃健康和代谢管理的改善，是智慧畜牧从业者了解机器人饲喂方案与数据驱动养殖的优质参考。",
-    "url": "https://www.lely.com/solutions/feeding/?epslanguage=en",
-    "source": {
-      "name": "Lely",
-      "nameZh": "Lely 自动化乳业",
-      "tier": "T1"
-    },
-    "sourceId": "lely",
-    "species": "cattle",
-    "category": "livestock",
-    "subcategory": "cattle",
-    "techTags": "",
-    "qualityScore": 92,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": ""
+    "id": "cmr3a8iyz000l10tseerh2hyv",
+    "titleEn": "Sabanto and Verdant Robotics integrate autonomy and precision application systems",
+    "titleZh": "Sabanto与Verdant Robotics整合自主导航与精准施药系统",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/sabanto-and-verdant-robotics-integrate-autonomy-and-precision-application-systems/",
+    "multiSourceCount": 1,
+    "publishedAt": "2026-07-02T09:00:00.000Z",
+    "qualityScore": 88
   },
   {
-    "id": "cmr4jyyxz0001125dqbe1nhf4",
-    "titleEn": "Sabanto Inc. and Verdant Robotics Announce Technical Integration of Autonomous Tractor Operation with SharpShooter Plant-Level Precision Application",
-    "titleZh": "Sabanto与Verdant Robotics整合：实现无人驾驶拖拉机与植物级精准施药系统协同作业",
-    "summaryZh": "Sabanto Inc.与Verdant Robotics宣布首次技术整合，将Sabanto的拖拉机自主改装系统与Verdant的SharpShooter植物级精准施药系统直接通信，实现从导航到定点施药的全自动化田间作业，无需驾驶舱操作员。该系统通过Aim & Apply™技术识别单株植物和杂草，仅在需要处施药，大幅减少投入品使用，并支持24/7连续作业，已在商业草皮生产中验证效果。",
-    "featuredReason": "该整合展示了自主驾驶与植物级精准施药在田间作业中的实际应用，对智慧畜牧行业（尤其是种植业与养殖业结合场景）具有高度借鉴意义，可启发牧场精准饲草管理或作物-养殖循环中的自动化方案设计。",
-    "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/sabanto-inc-and-verdant-robotics-announce-technical-integration-of-autonomous-tractor-operation-with-sharpshooter-plant-level-precision-application/",
-    "source": {
-      "name": "PrecisionAg",
-      "nameZh": "精准农业",
-      "tier": "T1"
-    },
-    "sourceId": "precisionag",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 90,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2024-10-23T00:00:00.000Z"
+    "id": "cmr2zkgz2001zfjpsro0yc5n3",
+    "titleEn": "U.S. Sugar deploys autonomous John Deere tractor fleet across 255,000 acres",
+    "titleZh": "美国糖业公司在25.5万英亩甘蔗田部署自动驾驶约翰迪尔拖拉机队",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/u-s-sugar-deploys-autonomous-john-deere-tractor-fleet-across-255000-acres/",
+    "multiSourceCount": 1,
+    "publishedAt": "2026-05-28T07:00:00.000Z",
+    "qualityScore": 85
   },
   {
-    "id": "cmr4elnya01ixc2wkgzu7qul2",
-    "titleEn": "Go to Manure",
-    "titleZh": "迈向粪污管理自动化：Lely机器人解决方案提升奶牛健康与农场可持续性",
-    "summaryZh": "本文介绍了Lely公司针对奶牛场粪污处理的系列机器人解决方案，包括Discovery Collector（用于半密集/密集地板）、Discovery Scraper（用于漏缝地板）以及Lely Sphere循环粪污处理系统。这些机器人可全天候自主清洁牛舍地板，减少人工劳动，改善牛蹄、牛尾和乳房卫生，降低感染风险。Lely Sphere系统则将粪污中的氮、钾、磷酸盐分离为三种液态肥料，实现养分循环利用。文章还讨论了劳动力短缺、传统刮粪系统维护成本高、深层垫料管理难等现实挑战，并指出自动化是可持续的解决路径。",
-    "featuredReason": "该新闻聚焦奶牛场粪污处理的自动化与循环利用，直接回应了劳动力短缺和环保压力两大行业痛点，其机器人导航技术和养分分离系统具有较高的实践参考价值，适合关注智慧牧场升级的从业者阅读。",
-    "url": "https://www.lely.com/solutions/manure/",
-    "source": {
-      "name": "Lely",
-      "nameZh": "Lely 自动化乳业",
-      "tier": "T1"
-    },
-    "sourceId": "lely",
-    "species": "cattle",
-    "category": "livestock",
-    "subcategory": "cattle",
-    "techTags": "",
-    "qualityScore": 90,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": ""
+    "id": "cmr2zkgu8000nfjps6ec4tmww",
+    "titleEn": "Agreenculture acquires Chouette to add agronomic intelligence to autonomous machines",
+    "titleZh": "Agreenculture收购Chouette：为自主农机注入农艺智能",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/agreenculture-acquires-chouette-to-add-agronomic-intelligence-to-autonomous-machines/",
+    "multiSourceCount": 1,
+    "publishedAt": "2026-06-25T06:30:00.000Z",
+    "qualityScore": 80
   },
   {
-    "id": "cmr4elnzn01j5c2wkpc6boqx6",
-    "titleEn": "ManureCreate a comfortable environment conducive to cow health",
-    "titleZh": "智能清粪机器人助力奶牛健康与牧场循环农业",
-    "summaryZh": "本文介绍了Lely公司针对奶牛场的智能清粪解决方案，包括Discovery Collector和Discovery Scraper两款自主导航机器人，以及Lely Sphere循环粪肥处理系统。机器人可全天候自动清理牛舍地面，减少人工劳动，改善蹄部、尾部及乳房卫生，降低感染风险。Sphere系统则将粪便转化为三种液态循环肥料，实现矿物质闭环利用。文章还分析了当前牧场面临的劳动力短缺、传统清粪维护成本高等痛点，突出自动化与循环农业的实践价值。",
-    "featuredReason": "该新闻聚焦奶牛场自动化清粪与循环农业技术，直接对应智慧畜牧中机器人、传感器和闭环养分管理的核心应用，对提升牛群健康、降低人工成本及实现可持续养殖具有高实践参考价值。",
-    "url": "https://www.lely.com/solutions/manure/?epslanguage=en",
-    "source": {
-      "name": "Lely",
-      "nameZh": "Lely 自动化乳业",
-      "tier": "T1"
-    },
-    "sourceId": "lely",
-    "species": "cattle",
-    "category": "livestock",
-    "subcategory": "cattle",
-    "techTags": "",
-    "qualityScore": 90,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": ""
+    "id": "cmr2zkgum000rfjps32zbnw4t",
+    "titleEn": "Horsch enters into partnership with application map specialist",
+    "titleZh": "赫氏与施药地图专家达成战略合作",
+    "url": "https://www.futurefarming.com/smart-farming/horsch-enters-into-partnership-with-application-map-specialist/",
+    "multiSourceCount": 1,
+    "publishedAt": "2026-06-24T13:19:17.000Z",
+    "qualityScore": 80
   },
   {
-    "id": "cmr4jzo2t01j5125duz3dd9i7",
-    "titleEn": "ManureCreate a comfortable environment conducive to cow health",
-    "titleZh": "利拉伐粪便处理机器人：打造奶牛健康舒适环境",
-    "summaryZh": "本文介绍了利拉伐（Lely）的粪便处理解决方案，包括Discovery Scraper和Discovery Collector两款自动导航机器人，以及Lely Sphere循环粪肥系统。机器人可全天候自动清洁牛舍地面，减少人工劳动，改善牛蹄、牛尾和乳房卫生，降低感染风险。Lely Sphere系统将粪便转化为三种液态循环肥料，实现矿物质循环闭环。文章还分析了当前牧场面临的劳动力短缺、传统刮粪系统维护成本高等痛点，强调自动化解决方案的可持续性。",
-    "featuredReason": "该新闻聚焦于奶牛养殖中粪便处理的自动化与循环利用，直接关联智慧畜牧的核心技术（机器人、传感器、闭环系统），对提升牛群健康、降低人工成本、实现可持续农业具有重要实践价值。",
-    "url": "https://www.lely.com/solutions/manure/?epslanguage=en",
-    "source": {
-      "name": "Lely",
-      "nameZh": "Lely 自动化乳业",
-      "tier": "T1"
-    },
-    "sourceId": "lely",
-    "species": "cattle",
-    "category": "livestock",
-    "subcategory": "cattle",
-    "techTags": "",
-    "qualityScore": 90,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": ""
+    "id": "cmr2zkgut000tfjpsn6ws4mhq",
+    "titleEn": "Australian vegetable farm puts 2 weeding technologies to the test",
+    "titleZh": "澳大利亚蔬菜农场实测两种除草技术",
+    "url": "https://www.futurefarming.com/crop-solutions/australian-vegetable-farm-puts-2-weeding-technologies-to-the-test/",
+    "multiSourceCount": 1,
+    "publishedAt": "2026-06-24T06:28:12.000Z",
+    "qualityScore": 80
   }
 ]
