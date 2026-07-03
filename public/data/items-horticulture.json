@@ -44,6 +44,28 @@
     "publishedAt": "2026-07-02T00:00:00.000Z"
   },
   {
+    "id": "cmr4jyzrh0029125d3alepu9u",
+    "titleEn": "Underrated (And Overrated) Trends in Greenhouse Design, and Future Market Shifts",
+    "titleZh": "温室设计中被低估（和被高估）的趋势及未来市场变化",
+    "summaryZh": "本文基于对全美温室制造商协会（NGMA）成员的调查，揭示了当前温室技术中被高估和被低估的趋势。被高估的趋势包括：垂直农业、无线传感器、AI、纯灯具效能以及复杂全自动化设施；被低估的趋势包括：气候趋势分析、匹配作物需求的温室设计、结构层面的运营效率、灌溉施肥以及具备实操经验的合作。文章指出，简单、设计良好的温室系统往往能带来更好的投资回报，而数据收集虽快但有效利用仍是难题。",
+    "featuredReason": "虽然本文聚焦温室园艺，但其对自动化、AI、传感器等技术的冷静评估，以及强调运营效率和数据有效利用的观点，对智慧畜牧行业（如智能环控、精准饲喂、数据驱动决策）同样具有重要借鉴意义，能帮助畜牧从业者避免技术炒作陷阱。",
+    "url": "https://www.greenhousegrower.com/technology/underrated-and-overrated-trends-in-greenhouse-design-and-future-market-shifts/",
+    "source": {
+      "name": "Greenhouse Grower",
+      "nameZh": "温室种植者",
+      "tier": "T1.5"
+    },
+    "sourceId": "greenhousegrower",
+    "species": "horticulture",
+    "category": "crop",
+    "subcategory": "horticulture",
+    "techTags": "",
+    "qualityScore": 55,
+    "isFeatured": true,
+    "isHot": false,
+    "publishedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
     "id": "cmr4bpmwq002750rdaltuieu4",
     "titleEn": "McHutchison Adds New Southern California Sales Representative",
     "titleZh": "McHutchison新增南加州销售代表",
@@ -171,6 +193,28 @@
     "subcategory": "horticulture",
     "techTags": "",
     "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-16T07:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyzmj001b125dqqpfyb6g",
+    "titleEn": "From novelty to necessity: Why tulip growers are betting on robotic disease selection",
+    "titleZh": "从新奇到必需：郁金香种植者为何押注机器人病害筛选",
+    "summaryZh": "本文报道了H2L Selector机器人在郁金香种植中的应用进展。该机器人能够识别并处理花床中的病害郁金香，已售出139台，用户平均评分4.1/5。尽管机器人已走出实验阶段，但种植者强调，广泛采用仍需在可靠性和性能上进一步改进。文章采访了四位用户，总体反馈积极。",
+    "featuredReason": "虽然本文聚焦花卉种植，但机器人病害筛选技术对智慧畜牧中的动物健康监测、自动化巡检具有跨领域借鉴意义，展示了AI视觉+机器人从实验到商业化的路径。",
+    "url": "https://www.futurefarming.com/smart-farming/from-novelty-to-necessity-why-tulip-growers-are-betting-on-robotic-disease-selection/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "horticulture",
+    "category": "crop",
+    "subcategory": "horticulture",
+    "techTags": "",
+    "qualityScore": 75,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-16T07:00:00.000Z"

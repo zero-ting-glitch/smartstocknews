@@ -44,6 +44,28 @@
     "publishedAt": "2026-07-02T12:39:28.000Z"
   },
   {
+    "id": "cmr4jyzl8000l125d5tzwaavf",
+    "titleEn": "Can AI replace seed potato rogueing crews? Three Dutch robots take the next step",
+    "titleZh": "AI能否取代种子马铃薯田间去杂工？三款荷兰机器人迈出下一步",
+    "summaryZh": "本文报道了三家荷兰制造商在商业田块中测试AI驱动的去杂机器人，用于替代种子马铃薯生产中劳动密集的病害及异型植株清除工作。尽管技术仍在开发中，但算法学习速度惊人，未来有望达到甚至超越经验丰富的去杂工人。文章为智慧农业从业者提供了机器人替代人工的最新进展与趋势参考。",
+    "featuredReason": "该新闻展示了AI和机器人技术在种植业（尤其是种子马铃薯生产）中的前沿应用，对智慧畜牧行业人士理解跨领域自动化趋势具有启发价值。",
+    "url": "https://www.futurefarming.com/smart-farming/can-ai-replace-seed-potato-rogueing-crews-three-dutch-robots-take-the-next-step/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 79,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-02T12:39:28.000Z"
+  },
+  {
     "id": "cmr4ekuve000nc2wkrsi2holy",
     "titleEn": "Sabanto and Verdant Robotics integrate autonomy and precision application systems",
     "titleZh": "Sabanto与Verdant Robotics整合自主导航与精准施药系统",
@@ -88,6 +110,28 @@
     "publishedAt": "2026-07-02T08:00:00.000Z"
   },
   {
+    "id": "cmr4jyzlh000p125dbh7szd6n",
+    "titleEn": "Tersus GNSS AG993: Modular autosteer kit with built-in satellite correction fallback",
+    "titleZh": "Tersus GNSS AG993模块化自动转向套件：内置卫星校正备份功能",
+    "summaryZh": "Tersus GNSS推出AG993模块化自动转向改装系统，结合高精度GNSS定位与自有TAP卫星校正服务及传统RTK支持，精度优于2.5厘米，工作速度0.2-30公里/小时，支持超低速（0.1公里/小时）作业和自动U型掉头。其核心亮点是TAPFill功能：在RTK信号丢失时自动切换至L波段卫星校正，保持厘米级精度和坐标一致性。系统兼容90%以上农用车辆，模块化设计便于安装和跨车转移。",
+    "featuredReason": "该产品展示了高精度自动转向技术在农业中的最新进展，其卫星校正备份功能解决了RTK信号不稳定的痛点，对智慧畜牧中大型牧场、饲料作物种植的精准作业具有直接参考价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/tersus-gnss-ag993-modular-autosteer-kit-with-built-in-satellite-correction-fallback/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 75,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-02T08:00:00.000Z"
+  },
+  {
     "id": "cmr4ektvx0003c2wkwb6uf0ad",
     "titleEn": "Komet Invests in Irrigation Intelligence to Close One of Agriculture’s Biggest Data Gaps",
     "titleZh": "科迈特投资灌溉智能技术，填补农业最大数据空白之一",
@@ -105,6 +149,28 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyyy70003125d4j83cqc7",
+    "titleEn": "Komet Invests in Irrigation Intelligence to Close One of Agriculture’s Biggest Data Gaps",
+    "titleZh": "科迈特投资灌溉智能技术，填补农业最大数据空白之一",
+    "summaryZh": "科迈特灌溉公司宣布成立新的应用工程与数字系统部门，并启动“科迈特体验中心”，旨在通过科学测量和可重复数据，解决喷灌系统长期缺乏精确数据的问题。该投资将推动喷灌科学、工程和决策的全球性进步，帮助种植者、经销商和设备制造商更自信地优化灌溉性能，应对水资源短缺和气候波动挑战。",
+    "featuredReason": "该新闻展示了灌溉领域从经验驱动向数据驱动转型的关键举措，其智能传感与数字分析思路与智慧畜牧中精准饲喂、环境监控等理念高度相通，值得关注跨领域技术迁移的从业者阅读。",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/irrigation/komet-invests-in-irrigation-intelligence-to-close-one-of-agricultures-biggest-data-gaps/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 75,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-30T00:00:00.000Z"
@@ -154,6 +220,28 @@
     "multiSourceCount": 1
   },
   {
+    "id": "cmr4jyzll000r125dtxtg8r9j",
+    "titleEn": "AgXeed’s VCU brings existing tractors into the autonomous fold",
+    "titleZh": "AgXeed推出VCU套件，将现有拖拉机纳入自动驾驶生态",
+    "summaryZh": "AgXeed发布车辆控制单元（VCU），这是一款紧凑型改装套件，通过ISOBUS TIM连接拖拉机控制系统与TraXwise平台，使现有拖拉机能够执行预规划作业，包括转弯和农具控制。系统支持多品牌兼容，可提前规划田间路线和作业参数，适用于大田作物、蔬菜种植及大型农场。VCU已入选未来农业自动驾驶改装套件目录，标志着传统农机向自动化升级的又一重要进展。",
+    "featuredReason": "该技术展示了传统农机向自动化升级的可行路径，对智慧畜牧行业中的大田作物种植和饲料生产具有直接参考价值，尤其是其多品牌兼容和预规划能力，可降低自动化门槛。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/agxeeds-vcu-brings-existing-tractors-into-the-autonomous-fold/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-29T07:00:00.000Z"
+  },
+  {
     "id": "cmqz24p4h006ddidxrlqcp0z0",
     "titleEn": "Do agricultural spray drones actually pay off?",
     "titleZh": "农业喷雾无人机真的划算吗？",
@@ -198,6 +286,28 @@
     "publishedAt": "2026-06-25T17:23:05.000Z"
   },
   {
+    "id": "cmr4jz2rt005p125d57wsb4f0",
+    "titleEn": "ISU research targets smarter manure strategies",
+    "titleZh": "爱荷华州立大学研究：精准施肥策略助力粪肥智慧管理",
+    "summaryZh": "爱荷华州立大学丹·安德森教授团队正在探索利用精准农业工具优化畜禽粪肥管理，以提升作物产量、改善土壤健康并减少水污染。研究聚焦于粪肥施用时机、覆盖作物配合及分次施用策略，旨在为农民提供数据驱动的决策支持。项目由爱荷华猪肉生产者协会和爱荷华营养研究中心资助，目前已完成两年试验，初步显示黑麦覆盖作物对大豆产量有稳定提升作用。",
+    "featuredReason": "该研究将精准农业工具与粪肥管理结合，为智慧畜牧行业提供了从废弃物处理到资源化利用的数据驱动方案，对提升养殖业与种植业协同效率具有重要参考价值。",
+    "url": "https://www.nationalhogfarmer.com/farming-business-management/isu-research-targets-smarter-manure-strategies",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
+    "sourceId": "nationalhogfarmer",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 54,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-06-25T17:23:05.000Z"
+  },
+  {
     "id": "cmr2zkgum000rfjps32zbnw4t",
     "titleEn": "Horsch enters into partnership with application map specialist",
     "titleZh": "赫氏与施药地图专家达成战略合作",
@@ -237,6 +347,28 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-24T13:19:17.000Z"
+  },
+  {
+    "id": "cmr4jyzlx000x125dozkbxycj",
+    "titleEn": "Horsch enters into partnership with application map specialist",
+    "titleZh": "Horsch战略入股精准施药地图公司Sam-Dimension",
+    "summaryZh": "农机制造商Horsch战略入股德国精准施药地图公司Sam-Dimension，该公司利用无人机搭载高分辨率相机（1毫米精度）和AI系统生成施药地图，支持多种作物（洋葱、马铃薯、胡萝卜、甜菜等）的绿色-棕色背景下的点状除草喷洒。系统每小时处理60公顷，兼容Horsch、Amazone、John Deere等多品牌喷药机。双方自2019年起已有合作。",
+    "featuredReason": "该合作展示了AI与无人机技术在精准农业中的落地应用，对智慧畜牧行业（尤其是种植饲料作物或大田作物）的精准施药、减少化学品使用具有参考价值。",
+    "url": "https://www.futurefarming.com/smart-farming/horsch-enters-into-partnership-with-application-map-specialist/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 71,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-24T13:19:17.000Z"
@@ -330,6 +462,28 @@
     "publishedAt": "2026-06-23T06:00:00.000Z"
   },
   {
+    "id": "cmr4jyzm60013125dqeytb332",
+    "titleEn": "Tested: first Einböck intra-row precision hoe",
+    "titleZh": "首台Einböck行内精准中耕机实地测试",
+    "summaryZh": "奥地利中耕专家Einböck推出新型Invera行内精准中耕机，采用捷克Ullmanna植物识别技术，在荷兰甜菜田首次作业。尽管潮湿条件给摄像头深度控制带来挑战，但机器仍以约2公里/小时的速度精准除草。该技术代表智能农业在杂草防控领域的最新进展，对智慧畜牧中的饲料作物管理具有参考价值。",
+    "featuredReason": "该新闻展示了AI视觉识别与精准农业机械在作物管理中的前沿应用，对智慧畜牧行业关注饲料作物（如甜菜、玉米）的精准除草和自动化管理具有直接借鉴意义。",
+    "url": "https://www.futurefarming.com/crop-solutions/tested-first-einbock-intra-row-precision-hoe/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 75,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-23T06:00:00.000Z"
+  },
+  {
     "id": "cmr2zkgvc000zfjpsv0htu5pr",
     "titleEn": "New retrofit spot spraying system for every type of sprayer",
     "titleZh": "新型改装式定点喷洒系统适配各类喷雾机",
@@ -374,6 +528,28 @@
     "publishedAt": "2026-06-22T06:00:00.000Z"
   },
   {
+    "id": "cmr4jyzm90015125doaprcza7",
+    "titleEn": "New retrofit spot spraying system for every type of sprayer",
+    "titleZh": "新型改装式定点喷雾系统适配各类喷雾机",
+    "summaryZh": "德国初创公司DynamoBot推出WeSee定点喷雾系统，通过为每个喷嘴安装电子控制阀，实现对杂草的单独开关喷雾。该系统可加装在几乎所有类型的田间喷雾机上，包括新旧机型，并采用RGB摄像头和近红外传感器进行杂草识别。作为波恩大学和PhenoRob的衍生企业，DynamoBot的技术为精准杂草管理提供了高性价比的改装方案。",
+    "featuredReason": "该技术展示了AI视觉与传感器在精准农业中的低成本改装方案，对智慧畜牧行业中的种植饲料作物管理具有参考价值，体现了物联网与自动化在田间作业中的实际应用。",
+    "url": "https://www.futurefarming.com/crop-solutions/weed-pest-control/new-retrofit-spot-spraying-system-for-every-type-of-sprayer/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 75,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-22T06:00:00.000Z"
+  },
+  {
     "id": "cmr2zkgvi0011fjpsvluqvb9i",
     "titleEn": "Croplands expands WEED-IT range with new releases, including orchard solution",
     "titleZh": "Croplands扩展WEED-IT精准喷雾系列：推出果园专用方案及新一代自主喷雾平台",
@@ -401,6 +577,28 @@
     "titleZh": "Croplands扩展WEED-IT精准喷洒产品线，推出果园专用光学点喷方案",
     "summaryZh": "澳大利亚Croplands Equipment公司发布了WEED-IT精准喷洒系列的多项新技术，包括第二代机器人就绪型Pinto平台、36米桁架式大型大田喷雾机、以及首款专为果园设计的光学点喷解决方案。这些产品结合了SwarmFarm Robotics的SwarmBot、WEED-IT光学点喷技术和成熟的Pinto平台，可实现自动化喷洒作业，提高精度和效率，节省化学品用量。此外，公司还展示了WEED-IT改装套件在多种品牌喷雾机上的成功安装案例，体现了该系统的广泛适配性。",
     "featuredReason": "该新闻展示了精准农业技术在种植业（尤其是大田和果园）中的最新应用，包括自主机器人、光学点喷和改装方案，对智慧畜牧行业人士了解跨领域自动化技术趋势有参考价值。",
+    "url": "https://www.futurefarming.com/smart-farming/croplands-expands-weed-it-range-with-new-releases-including-orchard-solution/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 75,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-18T07:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyzmc0017125dbbl8d5kx",
+    "titleEn": "Croplands expands WEED-IT range with new releases, including orchard solution",
+    "titleZh": "Croplands扩展WEED-IT系列，发布包括果园解决方案在内的新产品",
+    "summaryZh": "澳大利亚Croplands Equipment公司发布了WEED-IT精准喷洒系列的多项新技术，包括第二代机器人就绪型Pinto、大型宽幅平台、扩展的改装能力以及首款专为果园设计的光学点喷解决方案。其中Series 2 Robot Ready Pinto结合了SwarmFarm Robotics的SwarmBot、WEED-IT光学点喷技术和成熟的Pinto平台，可实现自动化喷洒作业，提高精度和效率，节省化学品并增加灵活性。",
+    "featuredReason": "该新闻展示了精准农业技术在种植业（大田和果园）中的最新进展，特别是光学点喷与自主机器人的结合，对智慧畜牧行业人士理解跨领域自动化技术趋势有参考价值。",
     "url": "https://www.futurefarming.com/smart-farming/croplands-expands-weed-it-range-with-new-releases-including-orchard-solution/",
     "source": {
       "name": "Future Farming",
@@ -457,6 +655,28 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 79,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-17T07:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyzmf0019125dqzr9jmjn",
+    "titleEn": "Farm-ING now offers a choice of 3 different smart weeders",
+    "titleZh": "Farm-ING推出三款智能除草机，覆盖行内除草、精准喷洒与激光除草",
+    "summaryZh": "奥地利智能农业设备公司Farm-ING在其原有行内除草机InRowING基础上，新增SpotSprayING精准喷洒机和LaserING激光除草机，形成三款AI驱动的智能除草产品组合。其中SpotSprayING工作宽度可达12米，起价7.5万欧元；LaserING预计今年上市。此举标志着智能除草技术从单一机械除草向多模式、高精度、广幅宽方向迈进，对减少化学除草剂使用、提升杂草防控效率具有重要实践意义。",
+    "featuredReason": "该新闻展示了AI与机器人技术在种植业杂草防控中的最新集成应用，其多模式智能除草方案（机械、喷洒、激光）对智慧畜牧行业中的饲草料种植、生态牧场杂草管理具有直接借鉴价值。",
+    "url": "https://www.futurefarming.com/crop-solutions/weed-pest-control/farm-ing-now-offers-a-choice-of-3-different-smart-weeders/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 75,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-17T07:00:00.000Z"
@@ -550,6 +770,28 @@
     "publishedAt": "2026-06-12T10:00:41.000Z"
   },
   {
+    "id": "cmr4jyzms001h125dtxa0q8di",
+    "titleEn": "iQuus put to the test in practice",
+    "titleZh": "iQuus自动驾驶系统在荷兰农场实战测试",
+    "summaryZh": "本文报道了荷兰农民Frits和Berthy Broekman在300公顷大田作物农场中，对搭载iQuus自动驾驶系统的纽荷兰T6.180拖拉机进行了66小时的实地测试，主要用于马铃薯种植前的土地准备。文章基于星级评分体系，初步评估了该系统的优缺点，旨在探讨自动驾驶拖拉机能否缓解熟练操作手短缺的问题。",
+    "featuredReason": "该新闻展示了自动驾驶系统在真实大田作业中的实际表现，为智慧畜牧行业（尤其是种植业自动化）提供了宝贵的实践数据和评估参考，有助于从业者了解技术落地效果。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/iquus-put-to-the-test-in-practice/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 75,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-12T10:00:41.000Z"
+  },
+  {
     "id": "cmr2zkgwp001dfjpsdobtphfq",
     "titleEn": "Robot Raggy taking on one of farming’s most persistent weed problems",
     "titleZh": "机器人Raggy挑战农业中最顽固的杂草问题",
@@ -577,6 +819,28 @@
     "titleZh": "机器人Raggy挑战农业中最顽固的杂草问题",
     "summaryZh": "英国机器人公司Robotriks开发了一款名为Raggy的电动农业机器人，专门用于识别和机械清除对牲畜有毒的杂草——千里光（ragwort）。该机器人基于Robotic Traction Unit（RTU）平台，配备机器视觉和AI，可实时决策并根除杂草，成本仅为7000英镑，约为同类产品的十分之一。其模块化设计还支持精准喷洒、自主种植和作物监测等任务，对减少化学除草剂使用、保护土壤和动物健康具有重要价值。",
     "featuredReason": "该新闻展示了低成本、模块化农业机器人在杂草精准清除方面的创新应用，结合AI视觉和机械根除技术，对减少化学除草剂依赖、保护牲畜健康具有直接参考价值，适合关注自动化与可持续农业的从业者阅读。",
+    "url": "https://www.futurefarming.com/tech-in-focus/field-robots/robot-raggy-taking-on-one-of-farmings-most-persistent-weed-problems/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-10T07:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyzmw001j125d411zv4pw",
+    "titleEn": "Robot Raggy taking on one of farming’s most persistent weed problems",
+    "titleZh": "机器人Raggy挑战农业中最顽固的杂草问题",
+    "summaryZh": "英国机器人公司Robotriks开发了一款名为Raggy的自主机器人，用于机械识别和清除对牲畜有毒的杂草——狗舌草。该机器人基于低成本（7000英镑）的模块化平台RTU，配备机器视觉和AI，可实时决策并根除杂草，减少化学除草剂使用，保护土壤和动物健康。其模块化设计还支持精准喷洒、自主种植和作物监测，对种植业具有广泛潜力。",
+    "featuredReason": "该机器人展示了低成本、模块化AI机器人在精准除草中的实际应用，对减少化学农药依赖、保护牲畜健康和提升田间管理效率具有直接参考价值，适合关注自动化与可持续农业的从业者。",
     "url": "https://www.futurefarming.com/tech-in-focus/field-robots/robot-raggy-taking-on-one-of-farmings-most-persistent-weed-problems/",
     "source": {
       "name": "Future Farming",
@@ -638,6 +902,28 @@
     "publishedAt": "2026-06-04T07:00:00.000Z"
   },
   {
+    "id": "cmr4jyzn9001r125d4gbw58zc",
+    "titleEn": "Väderstad launches new generation of Tempo T maize planters",
+    "titleZh": "Väderstad推出新一代Tempo T玉米播种机，实现行距自动调节",
+    "summaryZh": "瑞典农机巨头Väderstad发布了新一代Tempo T伸缩式玉米播种机，包括T6（6行）和T7（7行）型号，最大亮点是行距自动调节功能。操作员只需在折叠状态下旋转选择器，播种机展开时行单元自动定位到所需间距（T6：45-70cm，T7：50-80cm），彻底告别手动调整。该机型还搭载了2025年Agritechnica展出的新行单元，预计2027年上市。",
+    "featuredReason": "该新闻展示了精准播种技术的最新进展——行距自动调节，大幅提升作业效率和精度，对智慧种植（尤其是玉米等大田作物）的自动化升级具有直接参考价值。",
+    "url": "https://www.futurefarming.com/smart-farming/vaderstad-launches-new-generation-of-tempo-t-maize-planters/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 77,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-04T07:00:00.000Z"
+  },
+  {
     "id": "cmr4ekuxu001tc2wkxmwcqxt7",
     "titleEn": "From overlap to precision: How a retrofit autosteer system changed life on the farm",
     "titleZh": "从重叠到精准：一套后装自动转向系统如何改变农场生活",
@@ -665,6 +951,50 @@
     "titleZh": "ePropelled推出农业无人机专用集成推进动力单元",
     "summaryZh": "美国公司ePropelled发布了一款专为农业无人机设计的集成推进与动力单元，旨在提升喷洒精度。该单元融合高效无刷电机、先进电子调速器和智能电源管理，支持重载喷洒和撒播任务，延长飞行时间并降低运营成本。随着全球农业无人机市场预计2026年突破40亿美元，该技术有望推动精准农业和化学减量应用。",
     "featuredReason": "该技术直接提升农业无人机在精准喷洒、重载作业中的性能，与智慧畜牧中种植业（饲料作物、大田管理）的自动化需求高度契合，为牧场和农场提供更高效的植保方案。",
+    "url": "https://www.futurefarming.com/tech-in-focus/drones/epropelled-launches-new-integrated-propulsion-unit-for-agricultural-drones/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 75,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-03T07:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyznd001t125droikujdt",
+    "titleEn": "From overlap to precision: How a retrofit autosteer system changed life on the farm",
+    "titleZh": "从重叠到精准：一套后装自动转向系统如何改变农场生活",
+    "summaryZh": "荷兰农业企业Van den Borne Voerman的农场主Frans van den Borne三年前首次购买了一套CHCNAV NX510后装自动转向系统，从最初在主力拖拉机上试用，到如今四台芬特拖拉机全部配备。该系统不仅消除了作业重叠、节省了燃油和时间，还降低了驾驶员疲劳，使农场管理更加精准高效。文章通过真实案例展示了后装自动转向系统在降低成本和提升作业精度方面的实践价值，对智慧农业从业者具有参考意义。",
+    "featuredReason": "本文通过真实农场案例展示了后装自动转向系统在降低成本和提升作业精度方面的实践价值，对智慧农业从业者具有参考意义。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/from-overlap-to-precision-how-a-retrofit-autosteer-system-changed-life-on-the-farm/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 76,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-03T07:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyznh001v125dfjkyokui",
+    "titleEn": "ePropelled launches new integrated propulsion unit for agricultural drones",
+    "titleZh": "ePropelled推出农业无人机新型集成推进装置",
+    "summaryZh": "美国公司ePropelled发布了一款专为农业无人机设计的集成推进与动力单元，旨在提升喷洒精度。该装置结合高效无刷电机、先进电子调速器和智能电源管理，支持重载喷洒和撒播任务，并优化了热管理和能效，以延长飞行时间、降低运营成本。随着全球农业无人机市场预计2026年突破40亿美元，该技术有望推动精准农业和自动化田间作业的发展。",
+    "featuredReason": "该新闻展示了农业无人机推进系统的关键技术进步，直接关联精准农业和自动化作业，对智慧畜牧行业中的大田作物管理具有实践参考价值。",
     "url": "https://www.futurefarming.com/tech-in-focus/drones/epropelled-launches-new-integrated-propulsion-unit-for-agricultural-drones/",
     "source": {
       "name": "Future Farming",
@@ -726,6 +1056,28 @@
     "publishedAt": "2026-06-01T10:12:38.000Z"
   },
   {
+    "id": "cmr4jyznq0021125dt3yq1dir",
+    "titleEn": "Photos | Robots, drones and packed fields at Dutch Arable Farming Day",
+    "titleZh": "荷兰大田种植日：机器人、无人机与精准除草技术集中亮相",
+    "summaryZh": "2025年5月28日，荷兰莱利斯塔德举办的大田种植日吸引了超过1000名参观者。现场展示了机械与激光除草机器人、AI视觉引导的自主耕作机、无人机施肥以及覆盖作物处理等前沿技术。展商与瓦赫宁根大学研究人员在14场“随便问”环节中与观众深入互动。活动聚焦精准农业与自动化，体现了大田作物种植中AI、机器人与传感器融合的最新进展。",
+    "featuredReason": "该新闻展示了AI视觉、机器人除草、无人机施肥等智慧农业技术在大田作物中的实际应用，对智慧畜牧行业人士理解跨领域自动化与精准管理趋势具有启发意义。",
+    "url": "https://www.futurefarming.com/uncategorized/photos-robots-drones-and-packed-fields-at-dutch-arable-farming-day/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-01T10:12:38.000Z"
+  },
+  {
     "id": "cmr2zkgys001xfjpsfvxxdkef",
     "titleEn": "Ropa introduces automatic steering system for potato harvesters",
     "titleZh": "Ropa为马铃薯收获机推出自动转向系统",
@@ -765,6 +1117,28 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 81,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-01T09:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyznt0023125dw9lgrr4v",
+    "titleEn": "Ropa introduces automatic steering system for potato harvesters",
+    "titleZh": "Ropa为马铃薯收获机推出自动转向系统",
+    "summaryZh": "德国机械制造商Ropa为其牵引式Keiler 2 RK22马铃薯收获机推出了自动转向系统。该系统可自主控制转向轴，计算行驶速度和转向角度，使收获机精确跟随拖拉机路径，无需操作员干预。系统还支持倒车时工作，通过控制杆按钮激活，在地头自动切换。该功能将于下个收获季提供，价格尚未公布。",
+    "featuredReason": "该技术展示了自动化在田间作业中的实际应用，通过减少操作员疲劳提升作业效率，对智慧种植领域具有参考价值。",
+    "url": "https://www.futurefarming.com/smart-farming/ropa-introduces-automatic-steering-system-for-potato-harvesters/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 73,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-01T09:00:00.000Z"
@@ -814,6 +1188,28 @@
     "publishedAt": "2026-05-28T07:00:00.000Z"
   },
   {
+    "id": "cmr4jyznw0025125d1mjh11qr",
+    "titleEn": "U.S. Sugar deploys autonomous John Deere tractor fleet across 255,000 acres",
+    "titleZh": "美国糖业部署255,000英亩自主约翰迪尔拖拉机车队",
+    "summaryZh": "美国糖业公司在美国糖业中部署了最大规模的商业自主拖拉机车队，使用5台配备ASI自动化技术的约翰迪尔拖拉机，在佛罗里达甘蔗田实现24/7无人作业。该系统通过Mobius平台远程监控，一名操作员可同时管理多台拖拉机。经过18个月试点后，公司计划在未来十年将自主系统扩展至全部255,000英亩农田，并评估在甜玉米和青豆作物上的应用。这体现了大型农场自动化从原型机向实用车队管理的趋势。",
+    "featuredReason": "该案例展示了大型农场如何通过改装现有设备实现大规模自主化作业，为智慧畜牧行业（尤其是种植业与养殖业结合的大型农场）提供了可借鉴的规模化部署路径和效率提升数据。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/u-s-sugar-deploys-autonomous-john-deere-tractor-fleet-across-255000-acres/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-05-28T07:00:00.000Z"
+  },
+  {
     "id": "cmr4ektwj0005c2wkpmic21g8",
     "titleEn": "Niqo Robotics Takes India-Built Physical AI Farming Platform to Europe at Bharat Innovates 2026",
     "titleZh": "Niqo Robotics携印度造物理AI农业平台亮相Bharat Innovates 2026，进军欧洲市场",
@@ -831,6 +1227,28 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-05-25T00:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyyyb0005125duv7uedun",
+    "titleEn": "Niqo Robotics Takes India-Built Physical AI Farming Platform to Europe at Bharat Innovates 2026",
+    "titleZh": "Niqo Robotics携印度造物理AI农业平台亮相Bharat Innovates 2026，进军欧洲市场",
+    "summaryZh": "印度物理AI公司Niqo Robotics被选为代表参加法国举办的Bharat Innovates 2026创新峰会，成为120家深度科技企业中唯一的精准AI农业机器人公司。其物理AI除草平台已在印度农田验证商业可行性，无需订阅、无隐藏成本，从第一天起为农民带来投资回报。此次亮相标志着印度造农业机器人从本土走向全球，尤其瞄准欧洲、澳大利亚等市场，展示印度在农业自动化领域的硬科技实力。",
+    "featuredReason": "Niqo Robotics的物理AI除草平台展示了印度造农业机器人的全球竞争力，其无订阅、即插即用的商业模式对智慧畜牧和精准农业从业者具有重要参考价值，尤其适合关注大田作物自动化管理的行业人士。",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/niqo-robotics-takes-india-built-physical-ai-farming-platform-to-europe-at-bharat-innovates-2026/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 82,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-05-25T00:00:00.000Z"
@@ -897,6 +1315,28 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2024-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyyxz0001125dqbe1nhf4",
+    "titleEn": "Sabanto Inc. and Verdant Robotics Announce Technical Integration of Autonomous Tractor Operation with SharpShooter Plant-Level Precision Application",
+    "titleZh": "Sabanto与Verdant Robotics整合：实现无人驾驶拖拉机与植物级精准施药系统协同作业",
+    "summaryZh": "Sabanto Inc.与Verdant Robotics宣布首次技术整合，将Sabanto的拖拉机自主改装系统与Verdant的SharpShooter植物级精准施药系统直接通信，实现从导航到定点施药的全自动化田间作业，无需驾驶舱操作员。该系统通过Aim & Apply™技术识别单株植物和杂草，仅在需要处施药，大幅减少投入品使用，并支持24/7连续作业，已在商业草皮生产中验证效果。",
+    "featuredReason": "该整合展示了自主驾驶与植物级精准施药在田间作业中的实际应用，对智慧畜牧行业（尤其是种植业与养殖业结合场景）具有高度借鉴意义，可启发牧场精准饲草管理或作物-养殖循环中的自动化方案设计。",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/sabanto-inc-and-verdant-robotics-announce-technical-integration-of-autonomous-tractor-operation-with-sharpshooter-plant-level-precision-application/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 90,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2024-10-23T00:00:00.000Z"

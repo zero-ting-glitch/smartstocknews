@@ -22,6 +22,28 @@
     "multiSourceCount": 1
   },
   {
+    "id": "cmr4jyzlp000t125d09roq35l",
+    "titleEn": "Agreenculture acquires Chouette to add agronomic intelligence to autonomous machines",
+    "titleZh": "Agreenculture收购Chouette：为自主农机注入农艺智能",
+    "summaryZh": "法国自主机械专家Agreenculture收购了专注于葡萄栽培AI农艺分析的公司Chouette，将自主驾驶技术与作物监测算法结合，打造能独立作业并解读田间信息的智能农机。该技术已处理超2亿张图像，覆盖法国约8%的葡萄园面积，未来将扩展至果园等特种作物，旨在应对劳动力短缺、投入成本上升等农业挑战。",
+    "featuredReason": "该收购展示了自主农机与AI农艺分析的深度融合，为智慧畜牧（尤其是种植业）提供了从数据采集到决策支持的完整闭环案例，对行业从业者理解未来智能农机发展方向具有重要参考价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/agreenculture-acquires-chouette-to-add-agronomic-intelligence-to-autonomous-machines/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-25T06:30:00.000Z"
+  },
+  {
     "id": "cmr2zkguf000pfjps2gb6ihze",
     "titleEn": "Fieldwork Robotics secures new funding to accelerate raspberry harvesting robot",
     "titleZh": "Fieldwork Robotics获新融资，加速树莓采摘机器人商业化",
@@ -61,6 +83,28 @@
     "subcategory": "fruit",
     "techTags": "",
     "qualityScore": 75,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-25T06:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyzlt000v125d246t5y11",
+    "titleEn": "Fieldwork Robotics secures new funding to accelerate raspberry harvesting robot",
+    "titleZh": "Fieldwork Robotics获新融资加速覆盆子采摘机器人商业化",
+    "summaryZh": "英国Fieldwork Robotics获得SEED Innovations等投资方共250万英镑种子+轮融资，用于加速其自主覆盆子采摘机器人的商业部署。该机器人已在英国商业农场测试，计划2027年实现多机集群商业运营。技术旨在解决劳动力短缺导致的果实损失问题，降低采摘成本并提升产量。",
+    "featuredReason": "该案例展示了机器人技术在果蔬采摘中的商业化进展，对智慧畜牧行业（尤其是种植业自动化）有直接参考价值，可启发养殖业中类似自动化解决方案的探索。",
+    "url": "https://www.futurefarming.com/smart-farming/fieldwork-robotics-secures-new-funding-to-accelerate-raspberry-harvesting-robot/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 73,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-25T06:00:00.000Z"
@@ -110,6 +154,28 @@
     "publishedAt": "2026-06-24T06:28:12.000Z"
   },
   {
+    "id": "cmr4jyzm0000z125dnmdt3lq2",
+    "titleEn": "Australian vegetable farm puts 2 weeding technologies to the test",
+    "titleZh": "澳大利亚蔬菜农场测试两种除草技术",
+    "summaryZh": "澳大利亚有机农场Busch Organics测试了两种自动化除草技术：丹麦Agrointelli公司的自主作业平台Robotti，以及激光除草技术。该农场位于维多利亚州吉普斯兰地区，占地超过300英亩，已运营一个多世纪。文章介绍了这些技术如何帮助有机蔬菜种植实现更高效的杂草管理，并可能重塑有机农业的未来。",
+    "featuredReason": "该新闻展示了自动化除草技术在有机蔬菜种植中的实际应用，为智慧畜牧行业人士提供了跨领域技术借鉴，尤其是自主作业平台和AI视觉识别在精准农业中的潜力。",
+    "url": "https://www.futurefarming.com/crop-solutions/australian-vegetable-farm-puts-2-weeding-technologies-to-the-test/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 72,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-24T06:28:12.000Z"
+  },
+  {
     "id": "cmr4ektym000bc2wkeqqcn4ea",
     "titleEn": "UC Riverside Develops Modern-Day Robotic Divining Rod",
     "titleZh": "加州大学河滨分校开发现代版机器人探水杖：逐树绘制土壤水分图",
@@ -127,6 +193,28 @@
     "subcategory": "fruit",
     "techTags": "",
     "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-18T00:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyyyk000b125deagqmh4l",
+    "titleEn": "UC Riverside Develops Modern-Day Robotic Divining Rod",
+    "titleZh": "加州大学河滨分校开发出现代版机器人探水杖：逐树精准土壤湿度测绘系统",
+    "summaryZh": "加州大学河滨分校的研究团队开发了一套结合机器人移动测量土壤电导率与固定传感器数据的系统，能够生成果园中每棵树的土壤水分分布图。该系统解决了传统土壤湿度传感器成本高、覆盖有限的问题，帮助种植者在干旱加剧的背景下实现精准灌溉，避免过度浇水或缺水，从而提升作物健康与水资源利用效率。",
+    "featuredReason": "该技术将机器人移动测量与固定传感器数据融合，实现了果园级别的逐树精准灌溉，对智慧种植（尤其是果树等高价值作物）的水资源管理具有直接借鉴意义，展示了IoT和自动化在农业中的前沿应用。",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/uc-riverside-develops-modern-day-robotic-divining-rod/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 88,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-18T00:00:00.000Z"
@@ -198,11 +286,55 @@
     "publishedAt": "2026-06-03T07:00:00.000Z"
   },
   {
+    "id": "cmr4jyznk001x125d4z4gq8ez",
+    "titleEn": "Yamaha Agriculture adds herbicide spraying to Prospr robot",
+    "titleZh": "雅马哈农业为Prospr机器人新增除草剂喷洒功能",
+    "summaryZh": "雅马哈农业为其Prospr自主混合动力平台推出除草剂喷洒附件，与Croplands Equipment合作开发，专为果园和葡萄园的自动化杂草控制设计。该附件集成自动喷嘴激活、药箱搅拌、液位监测及基于车速的实时喷雾调节，支持直接混药或在线定量配药，并通过多车远程界面实现车队管理。Prospr采用柴电混合动力，续航40小时，油耗降低70%，已在美、澳、新西兰部署。",
+    "featuredReason": "该新闻展示了模块化自主机器人在果园精准植保中的最新应用，结合AI与混合动力技术，为智慧种植业提供了可落地的自动化杂草控制方案，对关注果树和葡萄园管理的从业者具有直接参考价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/yamaha-agriculture-adds-herbicide-spraying-to-prospr-robot/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-03T07:00:00.000Z"
+  },
+  {
     "id": "cmr4ekuxz001zc2wkxj0p1nbc",
     "titleEn": "Elbit Systems acquires Bluewhite: a new chapter for autonomous farming",
     "titleZh": "埃尔比特系统收购Bluewhite：自主农业的新篇章",
     "summaryZh": "以色列国防与科技集团埃尔比特系统通过其子公司FUSE完成了对农业自主车辆技术公司Bluewhite的收购。Bluewhite专注于果树和葡萄等永久性作物的精准作业，已积累数十万小时的自主运行经验，并与凯斯纽荷兰（CNH）旗下New Holland品牌建立了多阶段合作伙伴关系。此次收购将加速智能自主系统在农业领域的规模化部署，结合物联网和云计算实现实时决策与预测分析，标志着自主农机从实验走向主流的重要转折。",
     "featuredReason": "该收购事件标志着军工级自主技术正式大规模进入农业领域，对智慧畜牧行业（尤其是果园/葡萄园等精准作业场景）的自动化趋势具有重要参考价值，展示了跨行业技术融合的可行路径。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/elbit-systems-acquires-bluewhite-a-new-chapter-for-autonomous-farming/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 79,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-02T13:30:00.000Z"
+  },
+  {
+    "id": "cmr4jyznn001z125d3qp3yz12",
+    "titleEn": "Elbit Systems acquires Bluewhite: a new chapter for autonomous farming",
+    "titleZh": "埃尔比特系统收购Bluewhite：自主农业新篇章",
+    "summaryZh": "以色列国防与科技集团埃尔比特系统通过其子公司FUSE完成了对农业自动驾驶技术公司Bluewhite的收购。Bluewhite专注于果园、葡萄园等永久性作物的精准作业，已积累数十万小时实际运行经验，并与凯斯纽荷兰（CNH）旗下New Holland品牌建立多阶段合作。此次收购将加速智能自主系统在农业中的规模化部署，结合物联网与云计算实现实时决策与预测分析，反映农业自动化从试验走向主流的大趋势。",
+    "featuredReason": "该收购案例展示了军工级技术向农业自动化领域的跨界赋能，对智慧畜牧行业探索高精度、高可靠性自主系统在养殖环境（如精准饲喂、巡检机器人）的应用具有重要借鉴意义。",
     "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/elbit-systems-acquires-bluewhite-a-new-chapter-for-autonomous-farming/",
     "source": {
       "name": "Future Farming",

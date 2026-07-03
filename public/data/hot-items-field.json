@@ -44,6 +44,28 @@
     "publishedAt": "2026-07-02T12:39:28.000Z"
   },
   {
+    "id": "cmr4jyzl8000l125d5tzwaavf",
+    "titleEn": "Can AI replace seed potato rogueing crews? Three Dutch robots take the next step",
+    "titleZh": "AI能否取代种子马铃薯田间去杂工？三款荷兰机器人迈出下一步",
+    "summaryZh": "本文报道了三家荷兰制造商在商业田块中测试AI驱动的去杂机器人，用于替代种子马铃薯生产中劳动密集的病害及异型植株清除工作。尽管技术仍在开发中，但算法学习速度惊人，未来有望达到甚至超越经验丰富的去杂工人。文章为智慧农业从业者提供了机器人替代人工的最新进展与趋势参考。",
+    "featuredReason": "该新闻展示了AI和机器人技术在种植业（尤其是种子马铃薯生产）中的前沿应用，对智慧畜牧行业人士理解跨领域自动化趋势具有启发价值。",
+    "url": "https://www.futurefarming.com/smart-farming/can-ai-replace-seed-potato-rogueing-crews-three-dutch-robots-take-the-next-step/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 79,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-02T12:39:28.000Z"
+  },
+  {
     "id": "cmr4ekuve000nc2wkrsi2holy",
     "titleEn": "Sabanto and Verdant Robotics integrate autonomy and precision application systems",
     "titleZh": "Sabanto与Verdant Robotics整合自主导航与精准施药系统",
@@ -86,27 +108,5 @@
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-07-02T08:00:00.000Z"
-  },
-  {
-    "id": "cmr4ektvx0003c2wkwb6uf0ad",
-    "titleEn": "Komet Invests in Irrigation Intelligence to Close One of Agriculture’s Biggest Data Gaps",
-    "titleZh": "科迈特投资灌溉智能技术，填补农业最大数据空白之一",
-    "summaryZh": "科迈特灌溉公司宣布投资六位数成立应用工程与数字系统部门，并推出“科迈特体验中心”，旨在通过科学测量和可重复数据，解决农业灌溉领域长期依赖经验、缺乏数据支撑的问题。该举措将推动喷灌机科学、工程和决策的全球性进步，帮助种植者、经销商和OEM厂商更精准地优化灌溉性能，应对水资源短缺和气候波动。",
-    "featuredReason": "该新闻展示了灌溉领域从经验驱动向数据驱动转型的关键突破，其数字系统和体验中心模式可为智慧畜牧中的精准饲喂、环境控制等环节提供借鉴，推动整个农业智能化升级。",
-    "url": "https://www.globalagtechinitiative.com/in-field-technologies/irrigation/komet-invests-in-irrigation-intelligence-to-close-one-of-agricultures-biggest-data-gaps/",
-    "source": {
-      "name": "PrecisionAg",
-      "nameZh": "精准农业",
-      "tier": "T1"
-    },
-    "sourceId": "precisionag",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 85,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-30T00:00:00.000Z"
   }
 ]

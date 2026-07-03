@@ -88,6 +88,28 @@
     "publishedAt": "2026-07-02T12:39:28.000Z"
   },
   {
+    "id": "cmr4jyzl8000l125d5tzwaavf",
+    "titleEn": "Can AI replace seed potato rogueing crews? Three Dutch robots take the next step",
+    "titleZh": "AI能否取代种子马铃薯田间去杂工？三款荷兰机器人迈出下一步",
+    "summaryZh": "本文报道了三家荷兰制造商在商业田块中测试AI驱动的去杂机器人，用于替代种子马铃薯生产中劳动密集的病害及异型植株清除工作。尽管技术仍在开发中，但算法学习速度惊人，未来有望达到甚至超越经验丰富的去杂工人。文章为智慧农业从业者提供了机器人替代人工的最新进展与趋势参考。",
+    "featuredReason": "该新闻展示了AI和机器人技术在种植业（尤其是种子马铃薯生产）中的前沿应用，对智慧畜牧行业人士理解跨领域自动化趋势具有启发价值。",
+    "url": "https://www.futurefarming.com/smart-farming/can-ai-replace-seed-potato-rogueing-crews-three-dutch-robots-take-the-next-step/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 79,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-02T12:39:28.000Z"
+  },
+  {
     "id": "cmr3a8iyz000l10tseerh2hyv",
     "titleEn": "Sabanto and Verdant Robotics integrate autonomy and precision application systems",
     "titleZh": "Sabanto与Verdant Robotics整合自主导航与精准施药系统",
@@ -125,6 +147,28 @@
     "species": "field",
     "category": "crop",
     "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-02T09:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyzld000n125d4oz5bhx5",
+    "titleEn": "Sabanto and Verdant Robotics integrate autonomy and precision application systems",
+    "titleZh": "Sabanto与Verdant Robotics整合自主导航与精准施药系统",
+    "summaryZh": "美国公司Sabanto与Verdant Robotics首次整合其系统，实现从田间导航到植株级精准施药的全程无人化作业。Sabanto的自主系统与Verdant的SharpShooter精准施药系统通过CAN总线实时通信，可根据田间数据自动调整车速和机具高度。该集成已在佛罗里达Bethel Farms的草皮生产中商业化运行，覆盖近万英亩，显著降低投入成本并缓解劳动力短缺。",
+    "featuredReason": "该整合展示了自主导航与精准施药在田间作业中的深度融合，对智慧畜牧行业（尤其是草场管理）具有技术借鉴意义，可启发养殖场在饲料作物种植中实现降本增效与无人化运营。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/sabanto-and-verdant-robotics-integrate-autonomy-and-precision-application-systems/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
     "techTags": "",
     "qualityScore": 85,
     "isFeatured": true,
@@ -176,6 +220,28 @@
     "publishedAt": "2026-07-02T08:00:00.000Z"
   },
   {
+    "id": "cmr4jyzlh000p125dbh7szd6n",
+    "titleEn": "Tersus GNSS AG993: Modular autosteer kit with built-in satellite correction fallback",
+    "titleZh": "Tersus GNSS AG993模块化自动转向套件：内置卫星校正备份功能",
+    "summaryZh": "Tersus GNSS推出AG993模块化自动转向改装系统，结合高精度GNSS定位与自有TAP卫星校正服务及传统RTK支持，精度优于2.5厘米，工作速度0.2-30公里/小时，支持超低速（0.1公里/小时）作业和自动U型掉头。其核心亮点是TAPFill功能：在RTK信号丢失时自动切换至L波段卫星校正，保持厘米级精度和坐标一致性。系统兼容90%以上农用车辆，模块化设计便于安装和跨车转移。",
+    "featuredReason": "该产品展示了高精度自动转向技术在农业中的最新进展，其卫星校正备份功能解决了RTK信号不稳定的痛点，对智慧畜牧中大型牧场、饲料作物种植的精准作业具有直接参考价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/tersus-gnss-ag993-modular-autosteer-kit-with-built-in-satellite-correction-fallback/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 75,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-02T08:00:00.000Z"
+  },
+  {
     "id": "cmr4ekv5n0027c2wkpovdrbq2",
     "titleEn": "McHutchison Adds New Southern California Sales Representative",
     "titleZh": "McHutchison新增南加州销售代表",
@@ -216,6 +282,28 @@
     "techTags": "",
     "qualityScore": 51,
     "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyzrh0029125d3alepu9u",
+    "titleEn": "Underrated (And Overrated) Trends in Greenhouse Design, and Future Market Shifts",
+    "titleZh": "温室设计中被低估（和被高估）的趋势及未来市场变化",
+    "summaryZh": "本文基于对全美温室制造商协会（NGMA）成员的调查，揭示了当前温室技术中被高估和被低估的趋势。被高估的趋势包括：垂直农业、无线传感器、AI、纯灯具效能以及复杂全自动化设施；被低估的趋势包括：气候趋势分析、匹配作物需求的温室设计、结构层面的运营效率、灌溉施肥以及具备实操经验的合作。文章指出，简单、设计良好的温室系统往往能带来更好的投资回报，而数据收集虽快但有效利用仍是难题。",
+    "featuredReason": "虽然本文聚焦温室园艺，但其对自动化、AI、传感器等技术的冷静评估，以及强调运营效率和数据有效利用的观点，对智慧畜牧行业（如智能环控、精准饲喂、数据驱动决策）同样具有重要借鉴意义，能帮助畜牧从业者避免技术炒作陷阱。",
+    "url": "https://www.greenhousegrower.com/technology/underrated-and-overrated-trends-in-greenhouse-design-and-future-market-shifts/",
+    "source": {
+      "name": "Greenhouse Grower",
+      "nameZh": "温室种植者",
+      "tier": "T1.5"
+    },
+    "sourceId": "greenhousegrower",
+    "species": "horticulture",
+    "category": "crop",
+    "subcategory": "horticulture",
+    "techTags": "",
+    "qualityScore": 55,
+    "isFeatured": true,
     "isHot": false,
     "publishedAt": "2026-07-02T00:00:00.000Z"
   },
@@ -269,6 +357,28 @@
     "titleZh": "加拿大企业推出全球最早孵化期蛋内性别鉴定系统",
     "summaryZh": "加拿大三家企业合作商业化全球最早（孵化第4天）的蛋内性别鉴定系统，采用高光谱成像技术无损检测胚胎性别，计划2026年底或2027年初全球上市。该系统可提前淘汰雄性蛋，释放孵化器容量、降低资源消耗，是家禽孵化管理领域的重大突破。",
     "featuredReason": "该技术将高光谱成像与AI分析结合，实现孵化早期无损性别鉴定，是智慧畜牧中传感器与自动化在禽业场景的典型应用，对提升孵化效率、减少资源浪费具有直接实践价值。",
+    "url": "https://www.thepoultrysite.com/news/2026/07/canadian-firms-launch-worlds-earliest-in-ovo-egg-sexing-system",
+    "source": {
+      "name": "The Poultry Site",
+      "nameZh": "禽业网",
+      "tier": "T1.5"
+    },
+    "sourceId": "thepoultrysite",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 67,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-01T14:59:00.000Z"
+  },
+  {
+    "id": "cmr4jzbzh016j125dea3q3k0r",
+    "titleEn": "Canadian firms launch world's earliest in-ovo egg sexing system",
+    "titleZh": "加拿大企业推出全球最早蛋内性别鉴定系统",
+    "summaryZh": "加拿大三家企业合作商业化全球最早的蛋内性别鉴定系统，可在孵化第4天通过高光谱成像技术无损、准确地鉴定鸡胚性别。该系统由加拿大蛋业技术公司、SANOVO技术集团和MatrixSpec Solutions联合推出，计划2026年底或2027年初全球上市。该技术能显著提高孵化器利用率、减少资源消耗，是家禽孵化管理领域的里程碑式突破。",
+    "featuredReason": "该技术将高光谱成像与AI分析结合，实现了孵化早期无损性别鉴定，是智慧畜牧中传感器与自动化技术的典型应用，能大幅提升家禽养殖效率与动物福利，值得行业人士关注其商业化进展。",
     "url": "https://www.thepoultrysite.com/news/2026/07/canadian-firms-launch-worlds-earliest-in-ovo-egg-sexing-system",
     "source": {
       "name": "The Poultry Site",
@@ -352,11 +462,55 @@
     "publishedAt": "2026-07-01T07:01:00.124Z"
   },
   {
+    "id": "cmr4jzm9401hr125d6a594j0v",
+    "titleEn": "Poultry WorldJune poultry business update: What did you miss?Jul 1News",
+    "titleZh": "六月全球家禽业动态：AI、自动化与基因育种齐头并进",
+    "summaryZh": "本文汇总了2025年6月全球家禽行业的重要商业动态，涵盖默克动物保健收购Targan（含自动性别鉴定与疫苗注射技术）、帝斯曼-芬美意与Zenkei合作在日本蛋鸡业引入AI预测平台Verax、科宝与Irvine's在坦桑尼亚开设祖代育种场、Sanovo-led联盟推进早期非侵入性卵内性别鉴定技术，以及Speria收购英国AI牲畜监测公司Optifarm。这些事件集中体现了智慧畜牧领域在AI、自动化、基因育种和动物福利方面的最新突破，对家禽养殖的精准管理、供应链韧性和可持续发展具有重要参考价值。",
+    "featuredReason": "本文集中呈现了家禽业在AI预测、自动化性别鉴定、基因育种和孵化技术上的最新突破，是智慧畜牧从业者了解行业前沿趋势、评估技术落地路径的必读内容。",
+    "url": "https://www.foodagribusiness.world/poultry/june-poultry-business-update-what-did-you-miss",
+    "source": {
+      "name": "Poultry World",
+      "nameZh": "禽业世界",
+      "tier": "T1.5"
+    },
+    "sourceId": "poultryworld",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 66,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-01T07:01:00.124Z"
+  },
+  {
     "id": "cmr4eli5701gnc2wkeshoofbe",
     "titleEn": "Jul 1NewsPig ProgressWrapping up June: What’s new in the world of pigs?Pig Progress reports on the latest business news and developments from the global pig industry.",
     "titleZh": "六月全球养猪业动态：从仔猪营养到AI监测，多领域创新齐发",
     "summaryZh": "本文汇总了2025年6月全球养猪业的最新商业新闻与技术进展，涵盖Trouw Nutrition推出的仔猪诱食棒Milkiwean ActiBar、Elanco发布的饲料配方在线计算器、FeedArmor对非洲猪瘟病毒替代毒株的灭活研究、Speria收购AI牲畜监测公司Optifarm、Alltech推出猪肠道健康产品并扩建研发实验室，以及Animistic与Blackhive的战略合作。这些动态反映了行业在精准营养、生物安全、AI监测和供应链整合方面的持续创新。",
     "featuredReason": "本文集中呈现了养猪业在精准营养、生物安全、AI监测和供应链协同方面的最新实践，为智慧畜牧从业者提供了多角度的技术趋势参考和可落地的创新案例。",
+    "url": "https://www.foodagribusiness.world/pigs/wrapping-up-june-what-s-new-in-the-world-of-pigs",
+    "source": {
+      "name": "Pig Progress",
+      "nameZh": "猪业进展",
+      "tier": "T1.5"
+    },
+    "sourceId": "pigprogress",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 58,
+    "isFeatured": true,
+    "isHot": false,
+    "publishedAt": "2026-07-01T07:00:00.066Z"
+  },
+  {
+    "id": "cmr4jzhn201gn125da5mgbkpu",
+    "titleEn": "Jul 1NewsPig ProgressWrapping up June: What’s new in the world of pigs?Pig Progress reports on the latest business news and developments from the global pig industry.",
+    "titleZh": "六月全球猪业动态：从智能饲喂到AI监测，多项创新助力产业升级",
+    "summaryZh": "本文汇总了2025年6月全球养猪业的最新商业新闻与技术进展，涵盖Trouw Nutrition推出的仔猪训练棒Milkiwean ActiBar、Elanco发布的饲料配方在线计算器、FeedArmor对非洲猪瘟病毒替代株的灭活效果验证、Speria收购AI牲畜监测公司Optifarm、Alltech推出新型植物源性肠道健康产品并扩建实验室，以及Animistic与Blackhive的战略合作。这些创新聚焦于仔猪断奶过渡、饲料效率优化、生物安全防控、AI健康监测和供应链协同，为智慧畜牧从业者提供了从精准营养到数字化管理的实践参考。",
+    "featuredReason": "本文集中呈现了全球猪业在精准营养、生物安全、AI监测和供应链协同方面的最新商业动态，为智慧畜牧从业者提供了从技术选型到产业合作的多维度参考，尤其适合关注养猪业数字化转型和降本增效的读者。",
     "url": "https://www.foodagribusiness.world/pigs/wrapping-up-june-what-s-new-in-the-world-of-pigs",
     "source": {
       "name": "Pig Progress",
@@ -418,6 +572,28 @@
     "publishedAt": "2026-06-30T15:30:19.000Z"
   },
   {
+    "id": "cmr4jz078003b125djy7a8nxr",
+    "titleEn": "Spring Innovation Fund debuts as first venture philanthropy firm dedicated to animal welfare tech",
+    "titleZh": "Spring创新基金：首个专注动物福利技术的公益创投工作室成立",
+    "summaryZh": "Spring创新基金作为首个专注动物福利技术的公益创投工作室，采用“常青”模式，利用慈善资本孵化和投资初创企业，旨在改善数十亿养殖动物的生存条件并实现商业回报。该基金已识别100多个潜在空白领域，初期聚焦低成本人道屠宰、禽类福利、早期疾病检测、AI与机器人等技术，为智慧畜牧行业提供了新的资本与技术创新结合路径。",
+    "featuredReason": "该新闻展示了动物福利技术与商业回报结合的新资本模式，为智慧畜牧行业提供了技术创新与投资的新视角，尤其关注低成本人道屠宰、AI和机器人等前沿方向。",
+    "url": "https://agfundernews.com/spring-innovation-fund-debuts-as-first-venture-philanthropy-firm-dedicated-to-animal-welfare-tech",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-30T15:30:19.000Z"
+  },
+  {
     "id": "cmr35c4kt003txb63smcu0wh0",
     "titleEn": "Indiana Livestock Summit focuses on collaboration, innovation",
     "titleZh": "印第安纳州畜牧业峰会聚焦协作与创新",
@@ -462,6 +638,28 @@
     "publishedAt": "2026-06-30T13:32:05.000Z"
   },
   {
+    "id": "cmr4jz2qd004z125din4p112k",
+    "titleEn": "Indiana Livestock Summit focuses on collaboration, innovation",
+    "titleZh": "印第安纳州畜牧业峰会聚焦协作与创新",
+    "summaryZh": "2026年6月30日，印第安纳州畜牧业峰会在印第安纳波利斯召开，由印第安纳大豆联盟和玉米种植者协会主办。峰会主题为协作、创新、多元化和创业精神。州长Mike Braun强调了农业对州经济的重要性，并宣布了10亿美元的生命科学计划。会议讨论了为养猪业吸引顶尖人才、开发AI监测系统观察猪只行为等议题，展示了畜牧业与种植业协同增效的成果：过去30年肉奶产量增长50%，饲料使用仅增20%。",
+    "featuredReason": "该新闻展示了美国中西部畜牧业与种植业协同创新的政策与实践，其中提及的AI监测系统开发、人才吸引策略以及州级生命科学计划，为智慧畜牧从业者提供了跨区域合作与政策驱动的参考案例。",
+    "url": "https://www.nationalhogfarmer.com/livestock-management/indiana-livestock-summit-focuses-on-collaboration-innovation",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
+    "sourceId": "nationalhogfarmer",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 46,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-06-30T13:32:05.000Z"
+  },
+  {
     "id": "cmr4ektvx0003c2wkwb6uf0ad",
     "titleEn": "Komet Invests in Irrigation Intelligence to Close One of Agriculture’s Biggest Data Gaps",
     "titleZh": "科迈特投资灌溉智能技术，填补农业最大数据空白之一",
@@ -479,6 +677,28 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyyy70003125d4j83cqc7",
+    "titleEn": "Komet Invests in Irrigation Intelligence to Close One of Agriculture’s Biggest Data Gaps",
+    "titleZh": "科迈特投资灌溉智能技术，填补农业最大数据空白之一",
+    "summaryZh": "科迈特灌溉公司宣布成立新的应用工程与数字系统部门，并启动“科迈特体验中心”，旨在通过科学测量和可重复数据，解决喷灌系统长期缺乏精确数据的问题。该投资将推动喷灌科学、工程和决策的全球性进步，帮助种植者、经销商和设备制造商更自信地优化灌溉性能，应对水资源短缺和气候波动挑战。",
+    "featuredReason": "该新闻展示了灌溉领域从经验驱动向数据驱动转型的关键举措，其智能传感与数字分析思路与智慧畜牧中精准饲喂、环境监控等理念高度相通，值得关注跨领域技术迁移的从业者阅读。",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/irrigation/komet-invests-in-irrigation-intelligence-to-close-one-of-agricultures-biggest-data-gaps/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 75,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-30T00:00:00.000Z"
@@ -572,6 +792,28 @@
     "publishedAt": "2026-06-29T12:43:19.000Z"
   },
   {
+    "id": "cmr4jz2r6005d125dq5eb5nm8",
+    "titleEn": "dsm-firmenich brings Verax in house",
+    "titleZh": "帝斯曼-芬美意全资收购Verax，强化动物健康AI预测平台",
+    "summaryZh": "帝斯曼-芬美意动物营养与健康部门宣布从InsideTracker手中全资收购Verax™预测性农场分析平台。该平台基于血液生物标志物，是全球唯一部署的早期预警系统，可预测和评估动物健康状况。此次收购将Verax整合进其精准服务生态系统，增强AI、数据分析和精准营养能力，帮助养殖户提前发现健康问题，降低成本并提升可持续性。三名InsideTracker员工加入以确保平稳过渡。",
+    "featuredReason": "该新闻展示了智慧畜牧领域AI预测平台从合作到全资收购的典型商业化路径，为行业提供了将人类生物标志物技术跨界应用于动物健康管理的创新案例，值得关注精准养殖和AI落地的从业者深入研读。",
+    "url": "https://www.nationalhogfarmer.com/livestock-management/dsm-firmenich-brings-verax-in-house",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
+    "sourceId": "nationalhogfarmer",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 65,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-29T12:43:19.000Z"
+  },
+  {
     "id": "cmr4el08r009lc2wks78p7xjp",
     "titleEn": "Casey’s expansion targets growth with pizza, wings",
     "titleZh": "Casey's便利店扩张计划：聚焦披萨与鸡翅，数字化与AI助力运营",
@@ -631,6 +873,28 @@
     "species": "general",
     "category": "aggtech",
     "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-29T07:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyzll000r125dtxtg8r9j",
+    "titleEn": "AgXeed’s VCU brings existing tractors into the autonomous fold",
+    "titleZh": "AgXeed推出VCU套件，将现有拖拉机纳入自动驾驶生态",
+    "summaryZh": "AgXeed发布车辆控制单元（VCU），这是一款紧凑型改装套件，通过ISOBUS TIM连接拖拉机控制系统与TraXwise平台，使现有拖拉机能够执行预规划作业，包括转弯和农具控制。系统支持多品牌兼容，可提前规划田间路线和作业参数，适用于大田作物、蔬菜种植及大型农场。VCU已入选未来农业自动驾驶改装套件目录，标志着传统农机向自动化升级的又一重要进展。",
+    "featuredReason": "该技术展示了传统农机向自动化升级的可行路径，对智慧畜牧行业中的大田作物种植和饲料生产具有直接参考价值，尤其是其多品牌兼容和预规划能力，可降低自动化门槛。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/agxeeds-vcu-brings-existing-tractors-into-the-autonomous-fold/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
     "techTags": "",
     "qualityScore": 80,
     "isFeatured": true,
@@ -792,6 +1056,28 @@
     "publishedAt": "2026-06-25T17:23:05.000Z"
   },
   {
+    "id": "cmr4jz2rt005p125d57wsb4f0",
+    "titleEn": "ISU research targets smarter manure strategies",
+    "titleZh": "爱荷华州立大学研究：精准施肥策略助力粪肥智慧管理",
+    "summaryZh": "爱荷华州立大学丹·安德森教授团队正在探索利用精准农业工具优化畜禽粪肥管理，以提升作物产量、改善土壤健康并减少水污染。研究聚焦于粪肥施用时机、覆盖作物配合及分次施用策略，旨在为农民提供数据驱动的决策支持。项目由爱荷华猪肉生产者协会和爱荷华营养研究中心资助，目前已完成两年试验，初步显示黑麦覆盖作物对大豆产量有稳定提升作用。",
+    "featuredReason": "该研究将精准农业工具与粪肥管理结合，为智慧畜牧行业提供了从废弃物处理到资源化利用的数据驱动方案，对提升养殖业与种植业协同效率具有重要参考价值。",
+    "url": "https://www.nationalhogfarmer.com/farming-business-management/isu-research-targets-smarter-manure-strategies",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
+    "sourceId": "nationalhogfarmer",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 54,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-06-25T17:23:05.000Z"
+  },
+  {
     "id": "cmqz24r19008bdidx33p1egi3",
     "titleEn": "Presenting Greenhouse Grower’s 2026 Technology of the Year Finalists",
     "titleZh": "2026年温室种植者年度技术奖入围名单揭晓",
@@ -880,6 +1166,28 @@
     "publishedAt": "2026-06-25T06:30:00.000Z"
   },
   {
+    "id": "cmr4jyzlp000t125d09roq35l",
+    "titleEn": "Agreenculture acquires Chouette to add agronomic intelligence to autonomous machines",
+    "titleZh": "Agreenculture收购Chouette：为自主农机注入农艺智能",
+    "summaryZh": "法国自主机械专家Agreenculture收购了专注于葡萄栽培AI农艺分析的公司Chouette，将自主驾驶技术与作物监测算法结合，打造能独立作业并解读田间信息的智能农机。该技术已处理超2亿张图像，覆盖法国约8%的葡萄园面积，未来将扩展至果园等特种作物，旨在应对劳动力短缺、投入成本上升等农业挑战。",
+    "featuredReason": "该收购展示了自主农机与AI农艺分析的深度融合，为智慧畜牧（尤其是种植业）提供了从数据采集到决策支持的完整闭环案例，对行业从业者理解未来智能农机发展方向具有重要参考价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/agreenculture-acquires-chouette-to-add-agronomic-intelligence-to-autonomous-machines/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-25T06:30:00.000Z"
+  },
+  {
     "id": "cmr2zkguf000pfjps2gb6ihze",
     "titleEn": "Fieldwork Robotics secures new funding to accelerate raspberry harvesting robot",
     "titleZh": "Fieldwork Robotics获新融资，加速树莓采摘机器人商业化",
@@ -919,6 +1227,28 @@
     "subcategory": "fruit",
     "techTags": "",
     "qualityScore": 75,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-25T06:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyzlt000v125d246t5y11",
+    "titleEn": "Fieldwork Robotics secures new funding to accelerate raspberry harvesting robot",
+    "titleZh": "Fieldwork Robotics获新融资加速覆盆子采摘机器人商业化",
+    "summaryZh": "英国Fieldwork Robotics获得SEED Innovations等投资方共250万英镑种子+轮融资，用于加速其自主覆盆子采摘机器人的商业部署。该机器人已在英国商业农场测试，计划2027年实现多机集群商业运营。技术旨在解决劳动力短缺导致的果实损失问题，降低采摘成本并提升产量。",
+    "featuredReason": "该案例展示了机器人技术在果蔬采摘中的商业化进展，对智慧畜牧行业（尤其是种植业自动化）有直接参考价值，可启发养殖业中类似自动化解决方案的探索。",
+    "url": "https://www.futurefarming.com/smart-farming/fieldwork-robotics-secures-new-funding-to-accelerate-raspberry-harvesting-robot/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 73,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-25T06:00:00.000Z"
@@ -1017,6 +1347,28 @@
     "titleZh": "超越颠覆：通过种植者主导的创新在农业科技中赢得信任与推动影响",
     "summaryZh": "本文由Reservoir CEO Danny Bernstein撰写，反思硅谷式快速迭代在农业中的局限性，提出“物理人工智能”概念——在田间地头实时作业的技术。他强调农业科技应摒弃孤立开发模式，建立种植者、初创企业与零售商协同创新的“奥运村”社区，让技术从设计到测试都扎根于真实农场环境。文章引用2024年CropLife/普渡大学调查数据，显示无人机施药应用率预计从35%增长至50%以上，为智慧畜牧领域跨行业借鉴提供启示。",
     "featuredReason": "本文提出的“物理人工智能”和“种植者主导创新”理念，对智慧畜牧行业同样具有启发——养殖场同样面临环境不可控、劳动力不稳定等挑战，借鉴其从田间到圈舍的协同开发模式，可加速畜牧IoT与机器人技术的落地与信任建立。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/beyond-disruption-earning-trust-and-driving-impact-in-agtech-through-grower-led-innovation/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-24T19:58:19.000Z"
+  },
+  {
+    "id": "cmr4jyyyh0009125d50xk5f2a",
+    "titleEn": "Beyond Disruption: Earning Trust and Driving Impact in AgTech Through Grower-Led Innovation",
+    "titleZh": "超越颠覆：通过种植者主导的创新在农业科技中赢得信任并推动影响",
+    "summaryZh": "本文由Reservoir CEO Danny Bernstein撰写，反思了硅谷软件文化在农业领域的局限性，提出农业科技需要更贴近地面、适应作物节奏的物理人工智能。文章介绍了“Reservoir”创新社区模式——让初创公司、种植者和零售商在田间并肩工作，以实地测试取代孤立开发。文中引用2024年CropLife/普渡大学调查数据，显示无人机施用农药的零售商比例预计从35%增长至2027年的50%以上，强调了技术落地与信任建立的重要性。",
+    "featuredReason": "本文从种植者主导的创新视角出发，强调物理AI和实地协作在农业科技中的重要性，对智慧畜牧行业同样具有借鉴意义——技术必须适应养殖场的实际环境与节奏，而非强行套用软件思维。",
     "url": "https://www.globalagtechinitiative.com/digital-farming/beyond-disruption-earning-trust-and-driving-impact-in-agtech-through-grower-led-innovation/",
     "source": {
       "name": "PrecisionAg",
@@ -1144,6 +1496,28 @@
     "publishedAt": "2026-06-24T13:19:17.000Z"
   },
   {
+    "id": "cmr4jyzlx000x125dozkbxycj",
+    "titleEn": "Horsch enters into partnership with application map specialist",
+    "titleZh": "Horsch战略入股精准施药地图公司Sam-Dimension",
+    "summaryZh": "农机制造商Horsch战略入股德国精准施药地图公司Sam-Dimension，该公司利用无人机搭载高分辨率相机（1毫米精度）和AI系统生成施药地图，支持多种作物（洋葱、马铃薯、胡萝卜、甜菜等）的绿色-棕色背景下的点状除草喷洒。系统每小时处理60公顷，兼容Horsch、Amazone、John Deere等多品牌喷药机。双方自2019年起已有合作。",
+    "featuredReason": "该合作展示了AI与无人机技术在精准农业中的落地应用，对智慧畜牧行业（尤其是种植饲料作物或大田作物）的精准施药、减少化学品使用具有参考价值。",
+    "url": "https://www.futurefarming.com/smart-farming/horsch-enters-into-partnership-with-application-map-specialist/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 71,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-24T13:19:17.000Z"
+  },
+  {
     "id": "cmr2zkgut000tfjpsn6ws4mhq",
     "titleEn": "Australian vegetable farm puts 2 weeding technologies to the test",
     "titleZh": "澳大利亚蔬菜农场实测两种除草技术",
@@ -1183,6 +1557,28 @@
     "subcategory": "fruit",
     "techTags": "",
     "qualityScore": 77,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-24T06:28:12.000Z"
+  },
+  {
+    "id": "cmr4jyzm0000z125dnmdt3lq2",
+    "titleEn": "Australian vegetable farm puts 2 weeding technologies to the test",
+    "titleZh": "澳大利亚蔬菜农场测试两种除草技术",
+    "summaryZh": "澳大利亚有机农场Busch Organics测试了两种自动化除草技术：丹麦Agrointelli公司的自主作业平台Robotti，以及激光除草技术。该农场位于维多利亚州吉普斯兰地区，占地超过300英亩，已运营一个多世纪。文章介绍了这些技术如何帮助有机蔬菜种植实现更高效的杂草管理，并可能重塑有机农业的未来。",
+    "featuredReason": "该新闻展示了自动化除草技术在有机蔬菜种植中的实际应用，为智慧畜牧行业人士提供了跨领域技术借鉴，尤其是自主作业平台和AI视觉识别在精准农业中的潜力。",
+    "url": "https://www.futurefarming.com/crop-solutions/australian-vegetable-farm-puts-2-weeding-technologies-to-the-test/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 72,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-24T06:28:12.000Z"
@@ -1320,6 +1716,28 @@
     "publishedAt": "2026-06-23T08:00:00.000Z"
   },
   {
+    "id": "cmr4jzmar01i3125dy8kuioen",
+    "titleEn": "Poultry WorldPartnerRoundtable: Experts discuss the future of broiler productionJun 23",
+    "titleZh": "肉鸡生产未来圆桌讨论：专家共议痛点与自动化解决方案",
+    "summaryZh": "本次圆桌讨论由《Poultry World》主办，Targan协办，聚焦当前及未来肉鸡生产中的主要痛点及行业应对策略。专家们探讨了自动化、优质雏鸡品质和智能解决方案如何最大化生产效益。讨论涉及饲料研究、加工设备、家禽养殖实践等环节，为肉鸡产业升级提供了多维度视角。",
+    "featuredReason": "该圆桌汇聚了饲料、加工、养殖等多环节专家，直接回应肉鸡生产中的实际痛点，并引入自动化与智能解决方案，对智慧畜牧从业者具有跨领域参考价值。",
+    "url": "https://www.foodagribusiness.world/poultry/experts-discuss-the-future-of-broiler-production",
+    "source": {
+      "name": "Poultry World",
+      "nameZh": "禽业世界",
+      "tier": "T1.5"
+    },
+    "sourceId": "poultryworld",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 54,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-06-23T08:00:00.000Z"
+  },
+  {
     "id": "cmr2zkguy000vfjpsw3ihwljh",
     "titleEn": "Rauch shows latest top-of-the-range fertiliser spreader at DLG Feldtage",
     "titleZh": "劳赫在DLG田间日展示最新顶级肥料撒播机Axis 55",
@@ -1408,6 +1826,28 @@
     "publishedAt": "2026-06-23T06:00:00.000Z"
   },
   {
+    "id": "cmr4jyzm60013125dqeytb332",
+    "titleEn": "Tested: first Einböck intra-row precision hoe",
+    "titleZh": "首台Einböck行内精准中耕机实地测试",
+    "summaryZh": "奥地利中耕专家Einböck推出新型Invera行内精准中耕机，采用捷克Ullmanna植物识别技术，在荷兰甜菜田首次作业。尽管潮湿条件给摄像头深度控制带来挑战，但机器仍以约2公里/小时的速度精准除草。该技术代表智能农业在杂草防控领域的最新进展，对智慧畜牧中的饲料作物管理具有参考价值。",
+    "featuredReason": "该新闻展示了AI视觉识别与精准农业机械在作物管理中的前沿应用，对智慧畜牧行业关注饲料作物（如甜菜、玉米）的精准除草和自动化管理具有直接借鉴意义。",
+    "url": "https://www.futurefarming.com/crop-solutions/tested-first-einbock-intra-row-precision-hoe/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 75,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-23T06:00:00.000Z"
+  },
+  {
     "id": "cmr4elmzv01i5c2wkq3qdj7ek",
     "titleEn": "Poultry WorldPartnerBroiler meta-analyses link performance to sustainabilityJun 22",
     "titleZh": "肉鸡荟萃分析：性能提升与可持续发展紧密相连",
@@ -1425,6 +1865,28 @@
     "subcategory": "poultry",
     "techTags": "",
     "qualityScore": 50,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-06-22T11:48:59.915Z"
+  },
+  {
+    "id": "cmr4jzmay01i5125dsgqtsvta",
+    "titleEn": "Poultry WorldPartnerBroiler meta-analyses link performance to sustainabilityJun 22",
+    "titleZh": "肉鸡荟萃分析将生产性能与可持续性联系起来",
+    "summaryZh": "本文介绍了Alltech公司针对肉鸡生产的三项荟萃分析，分别评估了甘露聚糖丰富片段（MRF）对肠道健康、酵母细胞壁提取物（YCWE）对霉菌毒素缓解以及有机蛋白化微量元素（PTM）对微量元素营养优化的效果。研究表明，改善饲料转化率、生长速度和存活率等关键性能指标，不仅能提高利润，还能显著降低每公斤肉鸡产品的温室气体排放强度。文章强调，饲料成本占肉鸡总成本和碳足迹的约70%，因此性能提升与可持续性密切相关。",
+    "featuredReason": "该新闻通过荟萃分析为肉鸡生产者提供了基于证据的性能与可持续性关联见解，虽然不直接涉及IoT/AI等智慧畜牧技术，但其数据驱动的方法和成本效益分析对智慧畜牧行业人士优化养殖管理具有参考价值。",
+    "url": "https://www.foodagribusiness.world/poultry/broiler-meta-analyses-link-performance-to-sustainability",
+    "source": {
+      "name": "Poultry World",
+      "nameZh": "禽业世界",
+      "tier": "T1.5"
+    },
+    "sourceId": "poultryworld",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 45,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-06-22T11:48:59.915Z"
@@ -1474,6 +1936,28 @@
     "publishedAt": "2026-06-22T08:30:00.000Z"
   },
   {
+    "id": "cmr4jzhqe01h3125d7qdeuyrh",
+    "titleEn": "Pig ProgressYoung pig farmers gain global perspective at agri benchmark AcademyJun 22News",
+    "titleZh": "全球青年养猪人齐聚芬兰：第三届agri benchmark学院聚焦数字化与人工智能",
+    "summaryZh": "第三届agri benchmark学院于2025年6月2-4日在芬兰塞伊奈约基举行，面向全球青年养猪人。活动通过工作坊、演讲和农场参观，探讨了国际竞争力、农场数据应用、数字化、人工智能、基于摄像头的牲畜监测、动物福利、社交媒体等热点议题。参与者还参观了Atria公司及当地育肥场和母猪场，强化了全球视野下的养猪管理技能。",
+    "featuredReason": "该新闻展示了全球青年养猪人如何通过国际交流学习数字化、AI和摄像头监测等智慧畜牧技术，对国内猪场管理者了解国际前沿趋势具有参考价值。",
+    "url": "https://www.foodagribusiness.world/pigs/young-pig-farmers-gain-global-perspective-at-agri-benchmark-academy",
+    "source": {
+      "name": "Pig Progress",
+      "nameZh": "猪业进展",
+      "tier": "T1.5"
+    },
+    "sourceId": "pigprogress",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 55,
+    "isFeatured": true,
+    "isHot": false,
+    "publishedAt": "2026-06-22T08:30:00.000Z"
+  },
+  {
     "id": "cmr2zkgvc000zfjpsv0htu5pr",
     "titleEn": "New retrofit spot spraying system for every type of sprayer",
     "titleZh": "新型改装式定点喷洒系统适配各类喷雾机",
@@ -1518,6 +2002,28 @@
     "publishedAt": "2026-06-22T06:00:00.000Z"
   },
   {
+    "id": "cmr4jyzm90015125doaprcza7",
+    "titleEn": "New retrofit spot spraying system for every type of sprayer",
+    "titleZh": "新型改装式定点喷雾系统适配各类喷雾机",
+    "summaryZh": "德国初创公司DynamoBot推出WeSee定点喷雾系统，通过为每个喷嘴安装电子控制阀，实现对杂草的单独开关喷雾。该系统可加装在几乎所有类型的田间喷雾机上，包括新旧机型，并采用RGB摄像头和近红外传感器进行杂草识别。作为波恩大学和PhenoRob的衍生企业，DynamoBot的技术为精准杂草管理提供了高性价比的改装方案。",
+    "featuredReason": "该技术展示了AI视觉与传感器在精准农业中的低成本改装方案，对智慧畜牧行业中的种植饲料作物管理具有参考价值，体现了物联网与自动化在田间作业中的实际应用。",
+    "url": "https://www.futurefarming.com/crop-solutions/weed-pest-control/new-retrofit-spot-spraying-system-for-every-type-of-sprayer/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 75,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-22T06:00:00.000Z"
+  },
+  {
     "id": "cmr3a8vhk003f10tsg5k3g6hd",
     "titleEn": "AgriFood Signals: Anthropic joins carbon removal coalition, Elanco launches venture arm, AeroFarms acquired",
     "titleZh": "AgriFood Signals：Anthropic加入碳去除联盟，Elanco成立风投部门，AeroFarms被收购",
@@ -1545,6 +2051,28 @@
     "titleZh": "AgriFood Signals：Anthropic加入碳去除联盟，Elanco成立风险投资部门，AeroFarms被收购",
     "summaryZh": "本文汇总了农业食品科技领域的最新融资、并购、政策与人事动态，涵盖碳去除、精准发酵蛋白、AI基因编辑、土壤健康、动物健康风险投资、垂直农场收购、欧盟基因技术法规及植物基食品标签禁令等关键事件，为行业提供全景式信息参考。",
     "featuredReason": "本文覆盖了动物健康风险投资、土壤健康传感器、AI基因编辑等与智慧畜牧直接相关的技术进展，同时提供了全球农业科技政策与市场趋势，适合行业人士快速把握宏观动态。",
+    "url": "https://agfundernews.com/agrifood-signals-anthropic-joins-carbon-removal-coalition-elanco-launches-venture-arm-aerofarms-acquired",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 63,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-18T20:28:57.000Z"
+  },
+  {
+    "id": "cmr4jz07s003l125d367ebdoz",
+    "titleEn": "AgriFood Signals: Anthropic joins carbon removal coalition, Elanco launches venture arm, AeroFarms acquired",
+    "titleZh": "AgriFood Signals：Anthropic加入碳去除联盟，Elanco成立风险投资部门，AeroFarms被收购",
+    "summaryZh": "本文汇总了农业食品科技领域的最新融资、并购、政策与人事动态。亮点包括：Elanco投入2500万美元成立动物健康风险投资部门；AeroFarms被收购并计划扩大分销；欧盟通过新基因组技术法规及植物基和细胞培养肉标签禁令；加拿大启动30亿美元国家粮食安全战略；Solar Foods获8920万美元支持“空气蛋白”工厂等。这些事件反映了精准发酵、基因编辑、土壤健康、碳去除等前沿方向，但对智慧畜牧的直接关联有限。",
+    "featuredReason": "本文提供了全球农业食品科技的全景扫描，其中Elanco Ventures的成立、欧盟新基因组技术法规、加拿大粮食安全战略等对智慧畜牧从业者具有宏观参考价值，可帮助把握行业资本流向和政策趋势。",
     "url": "https://agfundernews.com/agrifood-signals-anthropic-joins-carbon-removal-coalition-elanco-launches-venture-arm-aerofarms-acquired",
     "source": {
       "name": "AgFunderNews",
@@ -1694,6 +2222,28 @@
     "publishedAt": "2026-06-18T07:00:00.000Z"
   },
   {
+    "id": "cmr4jyzmc0017125dbbl8d5kx",
+    "titleEn": "Croplands expands WEED-IT range with new releases, including orchard solution",
+    "titleZh": "Croplands扩展WEED-IT系列，发布包括果园解决方案在内的新产品",
+    "summaryZh": "澳大利亚Croplands Equipment公司发布了WEED-IT精准喷洒系列的多项新技术，包括第二代机器人就绪型Pinto、大型宽幅平台、扩展的改装能力以及首款专为果园设计的光学点喷解决方案。其中Series 2 Robot Ready Pinto结合了SwarmFarm Robotics的SwarmBot、WEED-IT光学点喷技术和成熟的Pinto平台，可实现自动化喷洒作业，提高精度和效率，节省化学品并增加灵活性。",
+    "featuredReason": "该新闻展示了精准农业技术在种植业（大田和果园）中的最新进展，特别是光学点喷与自主机器人的结合，对智慧畜牧行业人士理解跨领域自动化技术趋势有参考价值。",
+    "url": "https://www.futurefarming.com/smart-farming/croplands-expands-weed-it-range-with-new-releases-including-orchard-solution/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 75,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-18T07:00:00.000Z"
+  },
+  {
     "id": "cmr4ektym000bc2wkeqqcn4ea",
     "titleEn": "UC Riverside Develops Modern-Day Robotic Divining Rod",
     "titleZh": "加州大学河滨分校开发现代版机器人探水杖：逐树绘制土壤水分图",
@@ -1733,6 +2283,50 @@
     "subcategory": "general",
     "techTags": "",
     "qualityScore": 83,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-18T00:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyyyk000b125deagqmh4l",
+    "titleEn": "UC Riverside Develops Modern-Day Robotic Divining Rod",
+    "titleZh": "加州大学河滨分校开发出现代版机器人探水杖：逐树精准土壤湿度测绘系统",
+    "summaryZh": "加州大学河滨分校的研究团队开发了一套结合机器人移动测量土壤电导率与固定传感器数据的系统，能够生成果园中每棵树的土壤水分分布图。该系统解决了传统土壤湿度传感器成本高、覆盖有限的问题，帮助种植者在干旱加剧的背景下实现精准灌溉，避免过度浇水或缺水，从而提升作物健康与水资源利用效率。",
+    "featuredReason": "该技术将机器人移动测量与固定传感器数据融合，实现了果园级别的逐树精准灌溉，对智慧种植（尤其是果树等高价值作物）的水资源管理具有直接借鉴意义，展示了IoT和自动化在农业中的前沿应用。",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/uc-riverside-develops-modern-day-robotic-divining-rod/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 88,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-18T00:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyyyv000h125dn23pigti",
+    "titleEn": "Tech Hub LIVE Returns to Des Moines July 20-22 with Practical Answers for a High-Pressure Ag Economy",
+    "titleZh": "Tech Hub LIVE 2026：为高压农业经济提供实用技术答案",
+    "summaryZh": "Tech Hub LIVE 2026会议将于7月20-22日在得梅因举行，聚焦农业零售商和种植者在高投入、低利润、贸易不确定背景下的技术采纳挑战。会议设置智能技术、运营、销售赋能、田间实践等分论坛，涵盖AI、无人机政策、网络安全、生物技术等热点，强调实践者主导的分享和可落地的投资回报方案。适合智慧畜牧行业人士了解跨领域技术趋势和行业协作模式。",
+    "featuredReason": "该会议聚焦农业技术采纳的实用性和投资回报，涵盖AI、数据工作流、无人机政策等跨领域议题，对智慧畜牧行业人士了解行业技术趋势、协作模式及应对经济压力的策略具有重要参考价值。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/tech-hub-live-returns-to-des-moines-july-20-22-with-practical-answers-for-a-high-pressure-ag-economy/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 82,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-18T00:00:00.000Z"
@@ -1848,6 +2442,28 @@
     "publishedAt": "2026-06-17T14:46:27.000Z"
   },
   {
+    "id": "cmr4jz08i003z125db3fdly23",
+    "titleEn": "AI’s role in agrifood biotech comes into sharper focus",
+    "titleZh": "AI在农业食品生物技术中的作用日益清晰",
+    "summaryZh": "本文报道了在阿姆斯特丹Hello Tomorrow峰会上，专家们对AI在农业食品生物技术中应用的讨论。AI在加速生物发现方面展现出巨大潜力，如大幅降低成本和缩短时间线，但专家也指出其在个性化解决方案和规模化生产中的局限性。文章强调AI更适合系统级生物学分析，而非过度个性化，并提醒创业者需平衡技术成本与市场推广。",
+    "featuredReason": "本文深入探讨了AI在农业食品生物技术中的实际应用边界，特别是对个性化与规模化之间的权衡分析，对智慧畜牧行业从业者理解AI技术的适用场景和投资决策具有重要参考价值。",
+    "url": "https://agfundernews.com/ais-role-in-agrifood-biotech-comes-into-sharper-focus",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 73,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-17T14:46:27.000Z"
+  },
+  {
     "id": "cmqz24mu5004zdidx0g4lydg4",
     "titleEn": "USPOULTRY processor workshop highlights innovations, excellence and workforce development",
     "titleZh": "USPOULTRY家禽加工研讨会聚焦创新、卓越与劳动力发展",
@@ -1914,6 +2530,28 @@
     "publishedAt": "2026-06-17T07:00:00.000Z"
   },
   {
+    "id": "cmr4jyzmf0019125dqzr9jmjn",
+    "titleEn": "Farm-ING now offers a choice of 3 different smart weeders",
+    "titleZh": "Farm-ING推出三款智能除草机，覆盖行内除草、精准喷洒与激光除草",
+    "summaryZh": "奥地利智能农业设备公司Farm-ING在其原有行内除草机InRowING基础上，新增SpotSprayING精准喷洒机和LaserING激光除草机，形成三款AI驱动的智能除草产品组合。其中SpotSprayING工作宽度可达12米，起价7.5万欧元；LaserING预计今年上市。此举标志着智能除草技术从单一机械除草向多模式、高精度、广幅宽方向迈进，对减少化学除草剂使用、提升杂草防控效率具有重要实践意义。",
+    "featuredReason": "该新闻展示了AI与机器人技术在种植业杂草防控中的最新集成应用，其多模式智能除草方案（机械、喷洒、激光）对智慧畜牧行业中的饲草料种植、生态牧场杂草管理具有直接借鉴价值。",
+    "url": "https://www.futurefarming.com/crop-solutions/weed-pest-control/farm-ing-now-offers-a-choice-of-3-different-smart-weeders/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 75,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-17T07:00:00.000Z"
+  },
+  {
     "id": "cmr4ektx90007c2wkhlpdg5vy",
     "titleEn": "9 Ways Collaboration Is Accelerating Innovation Across AgTech",
     "titleZh": "九大合作加速农业科技创新的趋势分析",
@@ -1931,6 +2569,28 @@
     "subcategory": "general",
     "techTags": "",
     "qualityScore": 79,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-17T00:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyyyd0007125dh35cwfgr",
+    "titleEn": "9 Ways Collaboration Is Accelerating Innovation Across AgTech",
+    "titleZh": "九大合作加速农业科技创新的趋势分析",
+    "summaryZh": "本文分析了2025年3月至2026年1月期间农业科技领域的九项重要合作，涵盖AI、卫星数据、水氮管理、自主设备等方向。合作方包括SAP与先正达、Sentinel Ag与Nave Analytics等，展示了技术提供商、设备商、数据公司如何通过战略联盟推动规模化创新。文章强调农业零售商作为技术落地关键节点的角色，为智慧畜牧行业提供了跨领域协作的参考模式。",
+    "featuredReason": "本文展示了跨领域技术合作如何推动农业创新，智慧畜牧行业可借鉴其协作模式，将AI、数据集成和自动化技术引入养殖管理，提升效率与可持续性。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/9-ways-collaboration-is-accelerating-innovation-across-agtech/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 80,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-17T00:00:00.000Z"
@@ -2090,6 +2750,28 @@
     "publishedAt": "2026-06-16T07:00:00.000Z"
   },
   {
+    "id": "cmr4jyzmj001b125dqqpfyb6g",
+    "titleEn": "From novelty to necessity: Why tulip growers are betting on robotic disease selection",
+    "titleZh": "从新奇到必需：郁金香种植者为何押注机器人病害筛选",
+    "summaryZh": "本文报道了H2L Selector机器人在郁金香种植中的应用进展。该机器人能够识别并处理花床中的病害郁金香，已售出139台，用户平均评分4.1/5。尽管机器人已走出实验阶段，但种植者强调，广泛采用仍需在可靠性和性能上进一步改进。文章采访了四位用户，总体反馈积极。",
+    "featuredReason": "虽然本文聚焦花卉种植，但机器人病害筛选技术对智慧畜牧中的动物健康监测、自动化巡检具有跨领域借鉴意义，展示了AI视觉+机器人从实验到商业化的路径。",
+    "url": "https://www.futurefarming.com/smart-farming/from-novelty-to-necessity-why-tulip-growers-are-betting-on-robotic-disease-selection/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "horticulture",
+    "category": "crop",
+    "subcategory": "horticulture",
+    "techTags": "",
+    "qualityScore": 75,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-16T07:00:00.000Z"
+  },
+  {
     "id": "cmr4el9h0017lc2wkl6i0uutd",
     "titleEn": "Targan announces sale to Merck Animal Health",
     "titleZh": "Targan宣布出售给默克动物保健公司",
@@ -2107,6 +2789,28 @@
     "subcategory": "poultry",
     "techTags": "",
     "qualityScore": 64,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-15T12:15:00.000Z"
+  },
+  {
+    "id": "cmr4jzc3l017l125dbuc0e7zs",
+    "titleEn": "Targan announces sale to Merck Animal Health",
+    "titleZh": "Targan宣布出售给默沙东动物保健",
+    "summaryZh": "Targan公司宣布被默沙东动物保健收购，其高速生物设备技术（包括性别识别产品WingScan™）可提升家禽生产性能。WingScan利用视觉技术每小时处理16万只雏鸡，自动识别性别并分拣，同时具备高速眼部喷雾疫苗技术。此次收购将加速默沙东在家禽领域的生物制药布局，并为跨物种动物健康解决方案提供设备开发能力。",
+    "featuredReason": "该收购案将高速视觉性别识别与精准疫苗喷雾技术整合至全球动物保健巨头，为智慧家禽养殖提供了可落地的自动化解决方案，对行业数字化转型具有标杆意义。",
+    "url": "https://www.thepoultrysite.com/news/2026/06/targan-announces-sale-to-merck-animal-health",
+    "source": {
+      "name": "The Poultry Site",
+      "nameZh": "禽业网",
+      "tier": "T1.5"
+    },
+    "sourceId": "thepoultrysite",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 65,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-15T12:15:00.000Z"
@@ -2156,6 +2860,28 @@
     "publishedAt": "2026-06-15T09:00:00.000Z"
   },
   {
+    "id": "cmr4jyzml001d125deg57pvgm",
+    "titleEn": "If food security is strategic, why does agricultural innovation still struggle to scale?",
+    "titleZh": "粮食安全是战略问题，为何农业创新仍难规模化？",
+    "summaryZh": "本文探讨了农业技术创新规模化面临的困境。尽管农业从GPS、传感器、AI等技术中受益，但农业本身正成为其他行业（如建筑、采矿、国防）的技术试验场，而非主要受益者。文章以Monarch Tractor为例，指出农业创新资金不足、市场分散、回报周期长等问题，导致技术难以大规模推广。作者呼吁重新审视农业创新的战略地位，并推动政策与资本更有效地支持农业科技落地。",
+    "featuredReason": "本文从宏观视角剖析了农业创新规模化难的深层原因，对智慧畜牧行业从业者理解技术落地瓶颈、调整创新策略具有重要启发。",
+    "url": "https://www.futurefarming.com/tech-in-focus/if-food-security-is-strategic-why-does-agricultural-innovation-still-struggle-to-scale/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 69,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-15T09:00:00.000Z"
+  },
+  {
     "id": "cmr4el9h9017pc2wkddhmkmer",
     "titleEn": "Australia's first commercial in-ovo sexed chicks delivered",
     "titleZh": "澳大利亚首批商业化蛋胚性别鉴定雏鸡交付",
@@ -2173,6 +2899,28 @@
     "subcategory": "poultry",
     "techTags": "",
     "qualityScore": 64,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-14T23:00:00.000Z"
+  },
+  {
+    "id": "cmr4jzc44017p125ds56zxebk",
+    "titleEn": "Australia's first commercial in-ovo sexed chicks delivered",
+    "titleZh": "澳大利亚首批商业化体内性别鉴定雏鸡交付，禽业福利与智慧养殖迈入新阶段",
+    "summaryZh": "澳大利亚特种育种公司（SBA）向McLean Farms交付了该国首批商业化体内性别鉴定（in-ovo sexing）雏鸡，标志着澳大利亚成为继德国、法国、巴西和美国之后又一个在商业规模应用该技术的国家。该技术采用非侵入式高光谱光学分析，在孵化前即可判定雏鸡性别，从而避免大规模淘汰雄性雏鸡，显著提升动物福利。消费者调查显示84%的受访者有意购买此类鸡蛋，66%愿意支付溢价。此举不仅为蛋鸡产业提供了更高福利的产品选项，也体现了智慧畜牧中AI、光学传感与自动化技术的深度融合，对全球禽业可持续发展具有重要示范意义。",
+    "featuredReason": "该新闻展示了高光谱光学分析、AI识别与自动化分拣技术在禽业中的商业化落地，是智慧畜牧中“精准养殖+福利提升+消费端驱动”的典型案例，对关注禽业智能化转型和动物福利创新的从业者具有重要参考价值。",
+    "url": "https://www.thepoultrysite.com/news/2026/06/australias-first-commercial-in-ovo-sexed-chicks-delivered",
+    "source": {
+      "name": "The Poultry Site",
+      "nameZh": "禽业网",
+      "tier": "T1.5"
+    },
+    "sourceId": "thepoultrysite",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 61,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-14T23:00:00.000Z"
@@ -2266,6 +3014,28 @@
     "publishedAt": "2026-06-12T10:00:41.000Z"
   },
   {
+    "id": "cmr4jyzms001h125dtxa0q8di",
+    "titleEn": "iQuus put to the test in practice",
+    "titleZh": "iQuus自动驾驶系统在荷兰农场实战测试",
+    "summaryZh": "本文报道了荷兰农民Frits和Berthy Broekman在300公顷大田作物农场中，对搭载iQuus自动驾驶系统的纽荷兰T6.180拖拉机进行了66小时的实地测试，主要用于马铃薯种植前的土地准备。文章基于星级评分体系，初步评估了该系统的优缺点，旨在探讨自动驾驶拖拉机能否缓解熟练操作手短缺的问题。",
+    "featuredReason": "该新闻展示了自动驾驶系统在真实大田作业中的实际表现，为智慧畜牧行业（尤其是种植业自动化）提供了宝贵的实践数据和评估参考，有助于从业者了解技术落地效果。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/iquus-put-to-the-test-in-practice/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 75,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-12T10:00:41.000Z"
+  },
+  {
     "id": "cmr4el9hd017rc2wk3hg9hbiu",
     "titleEn": "USDA forecast for broiler production raised for 2026",
     "titleZh": "美国农业部上调2026年肉鸡产量预测",
@@ -2305,6 +3075,28 @@
     "subcategory": "poultry",
     "techTags": "",
     "qualityScore": 58,
+    "isFeatured": true,
+    "isHot": false,
+    "publishedAt": "2026-06-12T07:00:00.000Z"
+  },
+  {
+    "id": "cmr4jzmbm01ib125dp27savql",
+    "titleEn": "Poultry WorldJun 12VideoPoultry Talks: Maximising automation in the poultry industry",
+    "titleZh": "家禽行业自动化最大化：从WingScan到日常运营优化",
+    "summaryZh": "本文报道了《家禽世界》最新一期“家禽对话”视频内容，聚焦家禽行业在农场、加工厂和孵化场中日益依赖自动化的趋势。以Targan公司开发的WingScan自动羽毛性别分选机为例，展示了自动化带来的高产出、高精度和高效流程。节目邀请了Targan客户成功经理，讨论如何通过安装、培训、优化、故障排除和长期性能跟踪，将先进技术转化为日常成果，并强调防止停机是最大化自动化的关键条件。",
+    "featuredReason": "本文以实际案例和专家对话形式，深入探讨了家禽自动化落地的关键条件（如防止停机），对智慧畜牧从业者理解自动化技术从部署到长期运维的全链条具有直接参考价值。",
+    "url": "https://www.foodagribusiness.world/poultry/poultry-talks-maximising-automation-in-the-poultry-industry",
+    "source": {
+      "name": "Poultry World",
+      "nameZh": "禽业世界",
+      "tier": "T1.5"
+    },
+    "sourceId": "poultryworld",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 55,
     "isFeatured": true,
     "isHot": false,
     "publishedAt": "2026-06-12T07:00:00.000Z"
@@ -2442,6 +3234,28 @@
     "publishedAt": "2026-06-10T07:00:00.000Z"
   },
   {
+    "id": "cmr4jyzmw001j125d411zv4pw",
+    "titleEn": "Robot Raggy taking on one of farming’s most persistent weed problems",
+    "titleZh": "机器人Raggy挑战农业中最顽固的杂草问题",
+    "summaryZh": "英国机器人公司Robotriks开发了一款名为Raggy的自主机器人，用于机械识别和清除对牲畜有毒的杂草——狗舌草。该机器人基于低成本（7000英镑）的模块化平台RTU，配备机器视觉和AI，可实时决策并根除杂草，减少化学除草剂使用，保护土壤和动物健康。其模块化设计还支持精准喷洒、自主种植和作物监测，对种植业具有广泛潜力。",
+    "featuredReason": "该机器人展示了低成本、模块化AI机器人在精准除草中的实际应用，对减少化学农药依赖、保护牲畜健康和提升田间管理效率具有直接参考价值，适合关注自动化与可持续农业的从业者。",
+    "url": "https://www.futurefarming.com/tech-in-focus/field-robots/robot-raggy-taking-on-one-of-farmings-most-persistent-weed-problems/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-10T07:00:00.000Z"
+  },
+  {
     "id": "cmr4el9i9017xc2wkaywf8w2b",
     "titleEn": "New software update for the Egg Tester Ultimate™ and Egg Tester Plus™",
     "titleZh": "ORKA食品科技发布蛋品测试仪软件更新，提升蛋黄颜色测量精度",
@@ -2461,6 +3275,28 @@
     "qualityScore": 51,
     "isFeatured": false,
     "isHot": false,
+    "publishedAt": "2026-06-08T14:10:00.000Z"
+  },
+  {
+    "id": "cmr4jzc4u017x125djcdwbd57",
+    "titleEn": "New software update for the Egg Tester Ultimate™ and Egg Tester Plus™",
+    "titleZh": "ORKA食品科技发布蛋品测试仪软件更新，蛋黄颜色测量精度提升至小数位",
+    "summaryZh": "ORKA食品科技宣布为Egg Tester Ultimate™和Egg Tester Plus™推出软件更新，将蛋黄颜色测量值从原来的整数（1-16级）提升至小数位精度（如2.6、3.2、8.7），使研究人员、饲料制造商、家禽生产商和质控人员能更精细地检测和分析蛋黄颜色的微小差异，有助于优化饲料配方和产品质量监控。",
+    "featuredReason": "该软件更新通过小数位精度测量蛋黄颜色，为智慧畜牧中的饲料配方优化和蛋品质量自动化检测提供了更精细的数据支撑，是传感器与数据分析在禽业应用的典型进步。",
+    "url": "https://www.thepoultrysite.com/news/2026/06/new-software-update-for-the-egg-tester-ultimate-and-egg-tester-plus",
+    "source": {
+      "name": "The Poultry Site",
+      "nameZh": "禽业网",
+      "tier": "T1.5"
+    },
+    "sourceId": "thepoultrysite",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 60,
+    "isFeatured": true,
+    "isHot": true,
     "publishedAt": "2026-06-08T14:10:00.000Z"
   },
   {
@@ -2503,6 +3339,28 @@
     "subcategory": "general",
     "techTags": "",
     "qualityScore": 70,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-08T06:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyzmz001l125d2aq3hy8q",
+    "titleEn": "The art(s) of laser weeding demystified: laser expert Matthias Lautenschläger explains",
+    "titleZh": "激光除草技术揭秘：专家Matthias Lautenschläger详解",
+    "summaryZh": "本文由激光专家Matthias Lautenschläger撰写，深入解析激光除草技术的原理、现状与前景。文章指出，激光虽已广泛应用于金属切割、测距、土地平整和视力矫正等领域，但在除草方面仍被视为“黑箱”，充满神秘与炒作。作者旨在帮助农民、种植者和承包商客观评估这项技术，揭示其真实潜力与局限。",
+    "featuredReason": "激光除草作为精准农业的前沿技术，对智慧畜牧行业中的种植业环节（如饲料作物管理）具有潜在应用价值，本文提供了客观的技术解析，有助于行业人士理性评估其可行性。",
+    "url": "https://www.futurefarming.com/smart-farming/the-arts-of-laser-weeding-demystified-laser-expert-matthias-lautenschlager-explains/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 75,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-08T06:00:00.000Z"
@@ -2574,6 +3432,28 @@
     "publishedAt": "2026-06-04T08:00:00.000Z"
   },
   {
+    "id": "cmr4jyzn6001p125dcp50n457",
+    "titleEn": "Former Volkswagen CEO Herbert Diess develops electric tractor",
+    "titleZh": "前大众CEO迪斯进军电动拖拉机市场，计划2027年推出换电式中型拖拉机",
+    "summaryZh": "前大众汽车CEO赫伯特·迪斯通过其新公司DIESS E-Agrartechnik，计划于2027年推出一款中型电动拖拉机，配备电池更换系统和可反转操作台，适用于农业和市政作业。该拖拉机旨在与柴油机型直接竞争，运营成本可降低50%。尽管技术细节尚未公布，但此举标志着电动拖拉机市场向中型、日常使用领域拓展，对智慧农业的电气化转型具有潜在推动意义。",
+    "featuredReason": "该新闻展示了传统汽车行业高管跨界进入农业机械电气化领域，其换电设计和多功能定位对智慧畜牧中的能源管理、设备自动化有潜在启发，值得关注行业跨界创新趋势的从业者阅读。",
+    "url": "https://www.futurefarming.com/smart-farming/former-volkswagen-ceo-herbert-diess-develops-electric-tractor/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 59,
+    "isFeatured": true,
+    "isHot": false,
+    "publishedAt": "2026-06-04T08:00:00.000Z"
+  },
+  {
     "id": "cmr4ekuxs001rc2wkacl98qqv",
     "titleEn": "Väderstad launches new generation of Tempo T maize planters",
     "titleZh": "Väderstad推出新一代Tempo T玉米播种机",
@@ -2591,6 +3471,28 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-04T07:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyzn9001r125d4gbw58zc",
+    "titleEn": "Väderstad launches new generation of Tempo T maize planters",
+    "titleZh": "Väderstad推出新一代Tempo T玉米播种机，实现行距自动调节",
+    "summaryZh": "瑞典农机巨头Väderstad发布了新一代Tempo T伸缩式玉米播种机，包括T6（6行）和T7（7行）型号，最大亮点是行距自动调节功能。操作员只需在折叠状态下旋转选择器，播种机展开时行单元自动定位到所需间距（T6：45-70cm，T7：50-80cm），彻底告别手动调整。该机型还搭载了2025年Agritechnica展出的新行单元，预计2027年上市。",
+    "featuredReason": "该新闻展示了精准播种技术的最新进展——行距自动调节，大幅提升作业效率和精度，对智慧种植（尤其是玉米等大田作物）的自动化升级具有直接参考价值。",
+    "url": "https://www.futurefarming.com/smart-farming/vaderstad-launches-new-generation-of-tempo-t-maize-planters/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 77,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-04T07:00:00.000Z"
@@ -2706,6 +3608,72 @@
     "publishedAt": "2026-06-03T07:00:00.000Z"
   },
   {
+    "id": "cmr4jyznd001t125droikujdt",
+    "titleEn": "From overlap to precision: How a retrofit autosteer system changed life on the farm",
+    "titleZh": "从重叠到精准：一套后装自动转向系统如何改变农场生活",
+    "summaryZh": "荷兰农业企业Van den Borne Voerman的农场主Frans van den Borne三年前首次购买了一套CHCNAV NX510后装自动转向系统，从最初在主力拖拉机上试用，到如今四台芬特拖拉机全部配备。该系统不仅消除了作业重叠、节省了燃油和时间，还降低了驾驶员疲劳，使农场管理更加精准高效。文章通过真实案例展示了后装自动转向系统在降低成本和提升作业精度方面的实践价值，对智慧农业从业者具有参考意义。",
+    "featuredReason": "本文通过真实农场案例展示了后装自动转向系统在降低成本和提升作业精度方面的实践价值，对智慧农业从业者具有参考意义。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/from-overlap-to-precision-how-a-retrofit-autosteer-system-changed-life-on-the-farm/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 76,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-03T07:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyznh001v125dfjkyokui",
+    "titleEn": "ePropelled launches new integrated propulsion unit for agricultural drones",
+    "titleZh": "ePropelled推出农业无人机新型集成推进装置",
+    "summaryZh": "美国公司ePropelled发布了一款专为农业无人机设计的集成推进与动力单元，旨在提升喷洒精度。该装置结合高效无刷电机、先进电子调速器和智能电源管理，支持重载喷洒和撒播任务，并优化了热管理和能效，以延长飞行时间、降低运营成本。随着全球农业无人机市场预计2026年突破40亿美元，该技术有望推动精准农业和自动化田间作业的发展。",
+    "featuredReason": "该新闻展示了农业无人机推进系统的关键技术进步，直接关联精准农业和自动化作业，对智慧畜牧行业中的大田作物管理具有实践参考价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/drones/epropelled-launches-new-integrated-propulsion-unit-for-agricultural-drones/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 75,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-03T07:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyznk001x125d4z4gq8ez",
+    "titleEn": "Yamaha Agriculture adds herbicide spraying to Prospr robot",
+    "titleZh": "雅马哈农业为Prospr机器人新增除草剂喷洒功能",
+    "summaryZh": "雅马哈农业为其Prospr自主混合动力平台推出除草剂喷洒附件，与Croplands Equipment合作开发，专为果园和葡萄园的自动化杂草控制设计。该附件集成自动喷嘴激活、药箱搅拌、液位监测及基于车速的实时喷雾调节，支持直接混药或在线定量配药，并通过多车远程界面实现车队管理。Prospr采用柴电混合动力，续航40小时，油耗降低70%，已在美、澳、新西兰部署。",
+    "featuredReason": "该新闻展示了模块化自主机器人在果园精准植保中的最新应用，结合AI与混合动力技术，为智慧种植业提供了可落地的自动化杂草控制方案，对关注果树和葡萄园管理的从业者具有直接参考价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/yamaha-agriculture-adds-herbicide-spraying-to-prospr-robot/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-03T07:00:00.000Z"
+  },
+  {
     "id": "cmr2zkgy7001tfjps0orjgrf8",
     "titleEn": "Elbit Systems acquires Bluewhite: a new chapter for autonomous farming",
     "titleZh": "埃尔比特系统收购Bluewhite：自主农业的新篇章",
@@ -2750,11 +3718,55 @@
     "publishedAt": "2026-06-02T13:30:00.000Z"
   },
   {
+    "id": "cmr4jyznn001z125d3qp3yz12",
+    "titleEn": "Elbit Systems acquires Bluewhite: a new chapter for autonomous farming",
+    "titleZh": "埃尔比特系统收购Bluewhite：自主农业新篇章",
+    "summaryZh": "以色列国防与科技集团埃尔比特系统通过其子公司FUSE完成了对农业自动驾驶技术公司Bluewhite的收购。Bluewhite专注于果园、葡萄园等永久性作物的精准作业，已积累数十万小时实际运行经验，并与凯斯纽荷兰（CNH）旗下New Holland品牌建立多阶段合作。此次收购将加速智能自主系统在农业中的规模化部署，结合物联网与云计算实现实时决策与预测分析，反映农业自动化从试验走向主流的大趋势。",
+    "featuredReason": "该收购案例展示了军工级技术向农业自动化领域的跨界赋能，对智慧畜牧行业探索高精度、高可靠性自主系统在养殖环境（如精准饲喂、巡检机器人）的应用具有重要借鉴意义。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/elbit-systems-acquires-bluewhite-a-new-chapter-for-autonomous-farming/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 79,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-02T13:30:00.000Z"
+  },
+  {
     "id": "cmr4ektzz000fc2wkvp581pjw",
     "titleEn": "Inside One of America’s Largest Ag Co-Op’s Practical Approach to AI",
     "titleZh": "北美最大农业合作社之一：AI落地的务实路径",
     "summaryZh": "本文通过GROWMARK农艺总监Brendan Bachman的访谈，揭示了大型农业合作社如何将AI从概念转化为日常农艺实践。核心观点是：AI不是颠覆性技术，而是嵌入现有工作流程的实用层，旨在减少摩擦、辅助农艺师更快做出决策。文章强调了数据基础设施建设、联邦制组织协调、用户信任建立等“看不见”的落地工作，并指出衡量成功的核心指标是用户持续参与度及由此产生的绩效差距。",
     "featuredReason": "本文提供了大型农业组织AI落地的真实案例与实操经验，其关于数据基础设施、用户信任、组织协调的讨论，对智慧畜牧行业（尤其是规模化养殖场）的数字化推进具有直接借鉴意义。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/inside-one-of-americas-largest-ag-co-ops-practical-approach-to-ai/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-02T00:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyyyt000f125d4apst2il",
+    "titleEn": "Inside One of America’s Largest Ag Co-Op’s Practical Approach to AI",
+    "titleZh": "美国最大农业合作社之一对AI的务实应用",
+    "summaryZh": "本文通过GROWMARK农艺总监Brendan Bachman的访谈，揭示了AI在北美大型合作社系统中从概念到日常农艺实践的落地过程。核心观点是AI并非颠覆性技术，而是嵌入现有工作流程的实用工具，旨在减少摩擦、辅助作物专家更快做出决策。文章强调了数据基础设施建设、系统对齐、赢得种植者信任以及跨区域推广等隐性工作，并指出衡量成功的标准是用户参与度和性能差距。",
+    "featuredReason": "本文展示了AI在大型农业合作社中的务实落地路径，强调数据基础设施、信任建立和用户参与度，对智慧畜牧行业（尤其是规模化养殖场）如何将AI融入日常管理具有直接借鉴意义。",
     "url": "https://www.globalagtechinitiative.com/digital-farming/inside-one-of-americas-largest-ag-co-ops-practical-approach-to-ai/",
     "source": {
       "name": "PrecisionAg",
@@ -2816,11 +3828,55 @@
     "publishedAt": "2026-06-01T14:33:00.000Z"
   },
   {
+    "id": "cmr4jzc650189125dbnmuj7v8",
+    "titleEn": "Targan and Vetiplus partner to accelerate advanced automation in Colombia’s poultry industry",
+    "titleZh": "Targan与Vetiplus合作加速哥伦比亚家禽业自动化进程",
+    "summaryZh": "全球动物蛋白自动化技术领导者Targan与哥伦比亚动物健康公司Vetiplus达成分销合作，旨在为哥伦比亚家禽业提供先进自动化解决方案。合作聚焦于应对劳动力短缺、法规变化和动物福利压力，通过WingScan™等技术提升孵化场运营的一致性和可靠性。此举是Targan在拉丁美洲扩张战略的一部分，有助于巩固哥伦比亚作为区域及全球重要家禽生产国的竞争力。",
+    "featuredReason": "该合作展示了自动化技术（如WingScan™）在解决家禽业劳动力短缺、法规合规和动物福利等核心痛点中的实际应用，对智慧畜牧从业者具有明确的借鉴意义。",
+    "url": "https://www.thepoultrysite.com/news/2026/06/targan-and-vetiplus-partner-to-accelerate-advanced-automation-in-colombias-poultry-industry",
+    "source": {
+      "name": "The Poultry Site",
+      "nameZh": "禽业网",
+      "tier": "T1.5"
+    },
+    "sourceId": "thepoultrysite",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 65,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-01T14:33:00.000Z"
+  },
+  {
     "id": "cmr4ekuyg0021c2wkp2ryn0ff",
     "titleEn": "Photos | Robots, drones and packed fields at Dutch Arable Farming Day",
     "titleZh": "荷兰大田日：机器人与无人机亮相，精准农业技术引关注",
     "summaryZh": "2025年5月28日，荷兰莱利斯塔德举办的大田日吸引了超1000名参观者，展示了机械与激光除草机器人、无人机施肥、精准中耕除草等前沿技术。活动由瓦赫宁根大学等机构联合组织，强调AI与自动化在作物管理中的应用，尤其聚焦于覆盖作物处理、行内除草和智能农机演示。",
     "featuredReason": "该新闻展示了AI视觉、机器人除草和无人机施肥等精准农业技术在田间的最新应用，与智慧畜牧中强调的自动化、传感器和智能决策高度相关，为养殖业向精准管理转型提供了可借鉴的技术思路。",
+    "url": "https://www.futurefarming.com/uncategorized/photos-robots-drones-and-packed-fields-at-dutch-arable-farming-day/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-01T10:12:38.000Z"
+  },
+  {
+    "id": "cmr4jyznq0021125dt3yq1dir",
+    "titleEn": "Photos | Robots, drones and packed fields at Dutch Arable Farming Day",
+    "titleZh": "荷兰大田种植日：机器人、无人机与精准除草技术集中亮相",
+    "summaryZh": "2025年5月28日，荷兰莱利斯塔德举办的大田种植日吸引了超过1000名参观者。现场展示了机械与激光除草机器人、AI视觉引导的自主耕作机、无人机施肥以及覆盖作物处理等前沿技术。展商与瓦赫宁根大学研究人员在14场“随便问”环节中与观众深入互动。活动聚焦精准农业与自动化，体现了大田作物种植中AI、机器人与传感器融合的最新进展。",
+    "featuredReason": "该新闻展示了AI视觉、机器人除草、无人机施肥等智慧农业技术在大田作物中的实际应用，对智慧畜牧行业人士理解跨领域自动化与精准管理趋势具有启发意义。",
     "url": "https://www.futurefarming.com/uncategorized/photos-robots-drones-and-packed-fields-at-dutch-arable-farming-day/",
     "source": {
       "name": "Future Farming",
@@ -2877,6 +3933,28 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 81,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-01T09:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyznt0023125dw9lgrr4v",
+    "titleEn": "Ropa introduces automatic steering system for potato harvesters",
+    "titleZh": "Ropa为马铃薯收获机推出自动转向系统",
+    "summaryZh": "德国机械制造商Ropa为其牵引式Keiler 2 RK22马铃薯收获机推出了自动转向系统。该系统可自主控制转向轴，计算行驶速度和转向角度，使收获机精确跟随拖拉机路径，无需操作员干预。系统还支持倒车时工作，通过控制杆按钮激活，在地头自动切换。该功能将于下个收获季提供，价格尚未公布。",
+    "featuredReason": "该技术展示了自动化在田间作业中的实际应用，通过减少操作员疲劳提升作业效率，对智慧种植领域具有参考价值。",
+    "url": "https://www.futurefarming.com/smart-farming/ropa-introduces-automatic-steering-system-for-potato-harvesters/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 73,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-01T09:00:00.000Z"
@@ -2948,6 +4026,28 @@
     "publishedAt": "2026-05-28T07:00:00.000Z"
   },
   {
+    "id": "cmr4jyznw0025125d1mjh11qr",
+    "titleEn": "U.S. Sugar deploys autonomous John Deere tractor fleet across 255,000 acres",
+    "titleZh": "美国糖业部署255,000英亩自主约翰迪尔拖拉机车队",
+    "summaryZh": "美国糖业公司在美国糖业中部署了最大规模的商业自主拖拉机车队，使用5台配备ASI自动化技术的约翰迪尔拖拉机，在佛罗里达甘蔗田实现24/7无人作业。该系统通过Mobius平台远程监控，一名操作员可同时管理多台拖拉机。经过18个月试点后，公司计划在未来十年将自主系统扩展至全部255,000英亩农田，并评估在甜玉米和青豆作物上的应用。这体现了大型农场自动化从原型机向实用车队管理的趋势。",
+    "featuredReason": "该案例展示了大型农场如何通过改装现有设备实现大规模自主化作业，为智慧畜牧行业（尤其是种植业与养殖业结合的大型农场）提供了可借鉴的规模化部署路径和效率提升数据。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/u-s-sugar-deploys-autonomous-john-deere-tractor-fleet-across-255000-acres/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-05-28T07:00:00.000Z"
+  },
+  {
     "id": "cmqt2nv94000j12t0agxnvcts",
     "titleEn": "Niqo Robotics Charts Path to Profitability as Physical AI Weeding Platform Expands into New Crops, Markets, and New Generation of Products",
     "titleZh": "Niqo Robotics宣布盈利路径：物理AI除草平台扩展至新作物、新市场和新产品线",
@@ -2992,6 +4092,28 @@
     "publishedAt": "2026-05-25T00:00:00.000Z"
   },
   {
+    "id": "cmr4jyyyb0005125duv7uedun",
+    "titleEn": "Niqo Robotics Takes India-Built Physical AI Farming Platform to Europe at Bharat Innovates 2026",
+    "titleZh": "Niqo Robotics携印度造物理AI农业平台亮相Bharat Innovates 2026，进军欧洲市场",
+    "summaryZh": "印度物理AI公司Niqo Robotics被选为代表参加法国举办的Bharat Innovates 2026创新峰会，成为120家深度科技企业中唯一的精准AI农业机器人公司。其物理AI除草平台已在印度农田验证商业可行性，无需订阅、无隐藏成本，从第一天起为农民带来投资回报。此次亮相标志着印度造农业机器人从本土走向全球，尤其瞄准欧洲、澳大利亚等市场，展示印度在农业自动化领域的硬科技实力。",
+    "featuredReason": "Niqo Robotics的物理AI除草平台展示了印度造农业机器人的全球竞争力，其无订阅、即插即用的商业模式对智慧畜牧和精准农业从业者具有重要参考价值，尤其适合关注大田作物自动化管理的行业人士。",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/niqo-robotics-takes-india-built-physical-ai-farming-platform-to-europe-at-bharat-innovates-2026/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 82,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-05-25T00:00:00.000Z"
+  },
+  {
     "id": "cmqrsbigm0001iiyf7r8ctq46",
     "titleEn": "Niqo Robotics Takes India-Built Physical AI Farming Platform to Europe at Bharat Innovates 2026",
     "titleZh": "Niqo Robotics携印度造物理AI农业平台亮相Bharat Innovates 2026，进军欧洲市场",
@@ -3019,6 +4141,28 @@
     "titleZh": "先正达签约成为印度首个开放数据农业生态系统Annam.AI战略合作伙伴",
     "summaryZh": "先正达与印度政府主导的开放数据农业平台Annam.AI签署谅解备忘录，成为其战略合作伙伴。Annam.AI旨在构建全国性农业智能骨干网，为小农户提供基于AI的超本地化农事建议，整合作物智能、实时微气候数据和多语言工具。先正达将贡献其研发和农艺专长，用于构建精准的作物健康、病虫害预测和热应激模型。此举有望推动印度农业精准化与气候韧性转型。",
     "featuredReason": "该新闻展示了开放数据与AI在农业中的大规模应用范式，虽聚焦大田作物，但其技术架构（超本地化建议、微气候数据、多语言工具）对智慧畜牧领域同样具有借鉴意义，尤其是气候韧性和精准管理方向。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/syngenta-signs-mou-to-be-strategic-partner-in-indias-first-open-data-agricultural-ecosystem-annam-ai/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 79,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-05-19T00:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyyyq000d125d2jd6i99u",
+    "titleEn": "Syngenta Signs MoU to Be Strategic Partner in India’s First Open-Data Agricultural Ecosystem Annam.AI",
+    "titleZh": "先正达签署谅解备忘录，成为印度首个开放数据农业生态系统Annam.AI的战略合作伙伴",
+    "summaryZh": "先正达与印度政府支持的Annam.AI项目签署谅解备忘录，成为其战略合作伙伴。Annam.AI旨在构建基于开放数据的全国农业智能骨干网，为印度农民提供免费、实时、个性化的农业情报，包括超本地化AI建议、作物智能、微气候数据和多语言工具。先正达将利用其研发和农艺专长，构建精准的作物健康、病虫害预测和热应激模型。该项目由印度教育部、农业和农民福利部支持，谷歌等全球科技合作伙伴参与，由IIT Ropar主导。",
+    "featuredReason": "该新闻展示了开放数据与AI在农业中的大规模应用模式，对智慧畜牧行业在数据共享、精准管理和气候适应性方面具有重要借鉴意义。",
     "url": "https://www.globalagtechinitiative.com/digital-farming/syngenta-signs-mou-to-be-strategic-partner-in-indias-first-open-data-agricultural-ecosystem-annam-ai/",
     "source": {
       "name": "PrecisionAg",
@@ -3075,6 +4219,28 @@
     "subcategory": "poultry",
     "techTags": "",
     "qualityScore": 61,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-05-15T10:09:00.000Z"
+  },
+  {
+    "id": "cmr4jzc97018x125dt6wl2pvl",
+    "titleEn": "Australia gets its first in-ovo sexing technology for layer production",
+    "titleZh": "澳大利亚引入首项蛋鸡产业卵内性别鉴定技术",
+    "summaryZh": "Specialised Breeders Australia (SBA) 宣布在澳大利亚及亚太地区首次引入卵内性别鉴定技术，该技术由EW集团历时15年研发，以Cheggy品牌提供。采用该技术生产的雌性雏鸡将获得人道认证，预计2026年6月1日起供应。此举经过两年与客户、监管机构及非政府组织的协商，旨在提升蛋鸡生产中的动物福利水平。",
+    "featuredReason": "该技术是智慧畜牧中精准养殖与动物福利结合的重要案例，通过自动化性别鉴定减少雄性雏鸡淘汰，对蛋鸡产业可持续发展具有标杆意义。",
+    "url": "https://www.thepoultrysite.com/news/2026/05/australia-gets-its-first-in-ovo-sexing-technology-for-layer-production",
+    "source": {
+      "name": "The Poultry Site",
+      "nameZh": "禽业网",
+      "tier": "T1.5"
+    },
+    "sourceId": "thepoultrysite",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 64,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-05-15T10:09:00.000Z"
@@ -3212,6 +4378,28 @@
     "publishedAt": "2026-04-27T23:00:00.000Z"
   },
   {
+    "id": "cmr4jz9bb00g9125d7rf0aink",
+    "titleEn": "EuroTier and EnergyDecentral return to Hanover in 2026",
+    "titleZh": "EuroTier与EnergyDecentral将于2026年重返汉诺威",
+    "summaryZh": "全球畜牧业顶级展会EuroTier 2026与能源展EnergyDecentral将于2026年11月10-13日在德国汉诺威同期举办，覆盖22万平方米，预计吸引来自50多个国家的2100多家参展商。展会以“智慧养殖”为主题，聚焦效率、可持续与动物福利，涵盖奶牛、肉牛、猪、禽、羊、马等畜种，并新增EuroTier Milky Way（奶牛技术专区）、DLG-VetCon（大型动物兽医培训）等创新板块。同期还将举办Inhouse Farming – Feed & Food Show，展示水产养殖和替代蛋白等前沿领域。展会还设有DLG Spotlight专题演示区，包括TopTierTreff育种论坛、饲草生产智能演示、机器人挤奶技术等。门票现已开售。",
+    "featuredReason": "EuroTier是全球畜牧业技术风向标，2026年展会新增多个智慧养殖专题（机器人挤奶、智能饲草、兽医数字化培训），是了解国际畜牧科技趋势、寻找自动化与物联网解决方案的绝佳窗口。",
+    "url": "https://www.thepigsite.com/news/2026/04/eurotier-and-energydecentral-return-to-hanover-in-2026",
+    "source": {
+      "name": "The Pig Site",
+      "nameZh": "猪业网",
+      "tier": "T1.5"
+    },
+    "sourceId": "thepigsite",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 57,
+    "isFeatured": true,
+    "isHot": false,
+    "publishedAt": "2026-04-27T23:00:00.000Z"
+  },
+  {
     "id": "cmr4el6b800h9c2wkdzon93vy",
     "titleEn": "VIV Select India debuts with global livestock focus",
     "titleZh": "VIV Select India 2026首秀：聚焦全球畜牧业，链接技术与贸易",
@@ -3230,6 +4418,28 @@
     "techTags": "",
     "qualityScore": 53,
     "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-04-16T23:00:00.000Z"
+  },
+  {
+    "id": "cmr4jz9dy00h9125db8wnp3sx",
+    "titleEn": "VIV Select India debuts with global livestock focus",
+    "titleZh": "VIV Select India 2026首秀：聚焦全球畜牧产业链技术转移与商业合作",
+    "summaryZh": "VIV Select India 2026将于4月22-24日在新德里Yashobhoomi会展中心首次登陆印度市场，汇聚130余家国内外展商，覆盖饲料、养殖、加工全产业链。展会得到印度家禽联合会等机构支持，重点展示自动化、精准系统、动物健康、生物安全、加工及数字化工具，旨在推动印度动物蛋白产业的技术升级与国际合作。对于智慧畜牧行业，该展会提供了观察印度市场技术需求、对接国际供应商的窗口。",
+    "featuredReason": "该展会首次将VIV全球平台落地印度，集中展示自动化、数字化等智慧畜牧技术，为关注新兴市场技术转移和供应链整合的从业者提供了重要的行业风向标和商业对接机会。",
+    "url": "https://www.thepigsite.com/news/2026/04/viv-select-india-debuts-with-global-livestock-focus",
+    "source": {
+      "name": "The Pig Site",
+      "nameZh": "猪业网",
+      "tier": "T1.5"
+    },
+    "sourceId": "thepigsite",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 58,
+    "isFeatured": true,
     "isHot": false,
     "publishedAt": "2026-04-16T23:00:00.000Z"
   },
@@ -3344,6 +4554,28 @@
     "publishedAt": "2026-03-23T00:00:00.000Z"
   },
   {
+    "id": "cmr4jzchz01av125dc2d74m6w",
+    "titleEn": "USask secures funding for advanced poultry research facility",
+    "titleZh": "萨斯喀彻温大学获资建设先进家禽研究设施，推动福利与数据驱动养殖",
+    "summaryZh": "萨斯喀彻温大学（USask）获得加拿大创新基金会（CFI）620万加元及行业合作伙伴400万加元资助，用于建设一座先进的家禽蛋鸡研究设施。该设施将支持精准饲料、环境与福利研究，帮助加拿大应对2036年淘汰传统鸡舍的行业新规。研究团队将利用新工具开展数据驱动的实验，提升家禽生产与动物福利水平。",
+    "featuredReason": "该新闻展示了加拿大在禽业福利转型中的基础设施投资，虽未直接涉及IoT/AI等智慧畜牧技术，但其数据驱动研究理念和行业标准变革对智慧畜牧从业者具有参考价值。",
+    "url": "https://www.thepoultrysite.com/news/2026/03/usask-secures-funding-for-advanced-poultry-research-facility",
+    "source": {
+      "name": "The Poultry Site",
+      "nameZh": "禽业网",
+      "tier": "T1.5"
+    },
+    "sourceId": "thepoultrysite",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 43,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-03-23T00:00:00.000Z"
+  },
+  {
     "id": "cmr4el9ys01b5c2wktomgcoo9",
     "titleEn": "Targan expands into Peru through WingScan™ partnership with Redondos",
     "titleZh": "Targan通过WingScan™与Redondos合作进入秘鲁市场",
@@ -3366,11 +4598,55 @@
     "publishedAt": "2026-03-16T16:11:00.000Z"
   },
   {
+    "id": "cmr4jzcjb01b5125ddk81kx2t",
+    "titleEn": "Targan expands into Peru through WingScan™ partnership with Redondos",
+    "titleZh": "Targan通过WingScan™与Redondos合作进入秘鲁市场",
+    "summaryZh": "Targan与秘鲁最大禽肉生产商Redondos达成协议，将在其孵化场部署WingScan™自动性别鉴定系统，标志着该技术首次进入南美市场。WingScan利用先进成像和机器学习，以超过97%的准确率每小时分拣16万只雏鸡，已在全球安装超过55套系统，处理超过20亿只禽类。此次合作将推动拉美家禽业自动化升级，应对劳动力代际变化和规模化生产需求。",
+    "featuredReason": "该新闻展示了AI和机器视觉在禽业孵化环节的成熟应用，为国内家禽企业提供了自动化性别鉴定的实践案例，有助于提升生产效率并应对劳动力短缺挑战。",
+    "url": "https://www.thepoultrysite.com/news/2026/03/targan-expands-into-peru-through-wingscan-partnership-with-redondos",
+    "source": {
+      "name": "The Poultry Site",
+      "nameZh": "禽业网",
+      "tier": "T1.5"
+    },
+    "sourceId": "thepoultrysite",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 65,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-03-16T16:11:00.000Z"
+  },
+  {
     "id": "cmr4el9zr01bdc2wk3jwo8a71",
     "titleEn": "Arkansas team develops robot to handle poultry carcasses",
     "titleZh": "阿肯色团队开发家禽胴体处理机器人",
     "summaryZh": "阿肯色农业实验站研究人员开发了名为ChicGrasp的机器人系统，利用模仿学习算法和摄像头感知，通过双颚机器人夹爪抓取鸡胴体腿部并挂上传送带。该系统旨在应对家禽加工厂劳动力短缺，目前成功率近81%，但单次循环需38秒（人工约3秒）。原型成本约5.9万美元，研究获美国农业部与 NSF 联合资助100万美元，代码和设计已开源。",
     "featuredReason": "该新闻展示了具身AI与模仿学习在家禽加工自动化中的前沿应用，直接回应劳动力短缺痛点，且开源设计为行业提供了低成本探索路径，对智慧畜牧从业者具有重要参考价值。",
+    "url": "https://www.thepoultrysite.com/news/2026/03/arkansas-team-develops-robot-to-handle-poultry-carcasses",
+    "source": {
+      "name": "The Poultry Site",
+      "nameZh": "禽业网",
+      "tier": "T1.5"
+    },
+    "sourceId": "thepoultrysite",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 64,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-03-12T11:42:00.000Z"
+  },
+  {
+    "id": "cmr4jzckd01bd125dzuvdpgdy",
+    "titleEn": "Arkansas team develops robot to handle poultry carcasses",
+    "titleZh": "阿肯色团队开发家禽胴体处理机器人",
+    "summaryZh": "阿肯色农业实验站的研究人员开发了名为ChicGrasp的机器人系统，利用模仿学习算法和摄像头感知，通过双颚夹具抓取鸡胴体并挂上挂钩输送线。该系统旨在应对家禽加工厂劳动力短缺，目前成功率约81%，但单次循环需38秒（人工约3秒）。原型成本约5.9万美元，研究获美国农业部与 NSF 100万美元资助，代码和设计已开源。",
+    "featuredReason": "该新闻展示了模仿学习与具身AI在家禽加工自动化中的前沿应用，直接回应行业劳动力短缺痛点，开源设计为智慧畜牧从业者提供了可复现的技术参考。",
     "url": "https://www.thepoultrysite.com/news/2026/03/arkansas-team-develops-robot-to-handle-poultry-carcasses",
     "source": {
       "name": "The Poultry Site",
@@ -3454,6 +4730,28 @@
     "publishedAt": "2026-02-13T11:48:00.000Z"
   },
   {
+    "id": "cmr4jz9sg00mb125djheumycv",
+    "titleEn": "ASF spreads beyond initial Barcelona zone",
+    "titleZh": "非洲猪瘟疫情扩散至巴塞罗那初始疫区以外区域",
+    "summaryZh": "西班牙加泰罗尼亚地区在巴塞罗那都市区西部两个城镇附近发现新的非洲猪瘟野猪病例，这是首次在初始疫区外检测到疫情。新病例所在区域无养猪场，但疫情扩散促使当局加强人员与牲畜流动限制。西班牙作为欧盟最大猪肉生产国，此次疫情可能影响其猪肉出口。",
+    "featuredReason": "虽然该新闻本身不直接涉及智慧畜牧技术，但非洲猪瘟的扩散对养猪业影响巨大，智慧畜牧行业人士需关注疫情动态，以便为养殖场提供生物安全防控的数字化解决方案。",
+    "url": "https://www.thepigsite.com/news/2026/02/asf-spreads-beyond-initial-barcelona-zone",
+    "source": {
+      "name": "The Pig Site",
+      "nameZh": "猪业网",
+      "tier": "T1.5"
+    },
+    "sourceId": "thepigsite",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 36,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-02-13T11:48:00.000Z"
+  },
+  {
     "id": "cmr4el8wf014vc2wk8owzevqm",
     "titleEn": "MBRF reaches full cattle traceability across Brazil",
     "titleZh": "MBRF实现巴西全牛群供应链100%可追溯",
@@ -3473,6 +4771,28 @@
     "qualityScore": 59,
     "isFeatured": true,
     "isHot": false,
+    "publishedAt": "2026-02-06T00:00:00.000Z"
+  },
+  {
+    "id": "cmr4jzbnj014v125d54lcz79m",
+    "titleEn": "MBRF reaches full cattle traceability across Brazil",
+    "titleZh": "MBRF实现巴西全牛源供应链100%可追溯",
+    "summaryZh": "巴西肉类加工商MBRF宣布已实现其牛源供应链的100%可追溯，覆盖直接和间接供应商，成为全球首家通过卫星地理监控系统对全供应链进行社会和环境违规监测的企业。该系统覆盖约2500万公顷牧场，24小时运行，旨在杜绝来自毁林、奴隶劳动、童工、保护区或原住民土地的原料。此举将推动巴西养牛业向更高效、可持续的方向转型，为智慧畜牧中的物联网、卫星遥感与供应链管理结合提供了标杆案例。",
+    "featuredReason": "该案例展示了卫星遥感、物联网与供应链管理在养牛业中的深度融合，为智慧畜牧行业提供了从牧场到餐桌全程可追溯的实践范本，尤其对关注可持续发展和合规管理的从业者具有重要参考价值。",
+    "url": "https://www.thecattlesite.com/news/mbrf-reaches-full-cattle-traceability-across-brazil",
+    "source": {
+      "name": "The Cattle Site",
+      "nameZh": "牛业网",
+      "tier": "T1.5"
+    },
+    "sourceId": "thecattlesite",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 61,
+    "isFeatured": true,
+    "isHot": true,
     "publishedAt": "2026-02-06T00:00:00.000Z"
   },
   {
@@ -3498,6 +4818,28 @@
     "publishedAt": "2026-02-05T10:04:00.000Z"
   },
   {
+    "id": "cmr4jz9ty00mx125didoy16th",
+    "titleEn": "Muyuan Foods prices Hong Kong IPO at top of range",
+    "titleZh": "牧原食品港股IPO定价上限，募资107亿港元",
+    "summaryZh": "中国最大生猪养殖企业牧原食品将其香港IPO定价在发行价上限，拟募资约107亿港元（13.7亿美元）。此次发行2.74亿股H股，每股39港元，将成为香港今年最大规模IPO之一。募资将用于育种、智慧养殖、营养管理和生物安全等领域的研发。当前中国正面临猪肉供应过剩、需求疲软和经济放缓的挑战，猪价下跌挤压了养殖户利润。",
+    "featuredReason": "牧原作为中国猪业龙头，其IPO募资明确投向智慧养殖研发，表明大型养殖企业对智能化、生物安全等技术的战略投入，对智慧畜牧行业具有风向标意义。",
+    "url": "https://www.thepigsite.com/news/2026/02/muyuan-foods-prices-hong-kong-ipo-at-top-of-range",
+    "source": {
+      "name": "The Pig Site",
+      "nameZh": "猪业网",
+      "tier": "T1.5"
+    },
+    "sourceId": "thepigsite",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 49,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-02-05T10:04:00.000Z"
+  },
+  {
     "id": "cmr4el9dk016pc2wk8v71dry6",
     "titleEn": "Hy-Line hosts II Latin America Seminar for White Layers in Brazil",
     "titleZh": "海兰国际在巴西举办第二届拉丁美洲白羽蛋鸡研讨会",
@@ -3515,6 +4857,28 @@
     "subcategory": "poultry",
     "techTags": "",
     "qualityScore": 40,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-02-03T15:38:00.000Z"
+  },
+  {
+    "id": "cmr4jzc01016p125dsgmsykdr",
+    "titleEn": "Hy-Line hosts II Latin America Seminar for White Layers in Brazil",
+    "titleZh": "海兰国际在巴西举办第二届拉丁美洲白羽蛋鸡研讨会",
+    "summaryZh": "2025年8月，海兰国际在巴西伊瓜苏瀑布举办第二届拉丁美洲白羽蛋鸡研讨会，吸引320名区域领先蛋鸡生产商及行业专业人士参与。会议涵盖遗传学、营养、管理和商业策略，亮点包括人工智能、鸡蛋销售策略及废弃物可持续管理最佳实践等主题演讲。活动以参观伊瓜苏瀑布结束，促进交流合作。",
+    "featuredReason": "该新闻展示了传统蛋鸡育种企业如何将人工智能、可持续管理等前沿议题融入行业培训，对智慧畜牧从业者理解技术落地场景和行业趋势有参考价值。",
+    "url": "https://www.thepoultrysite.com/news/2026/02/hy-line-hosts-ii-latin-america-seminar-for-white-layers-in-brazil",
+    "source": {
+      "name": "The Poultry Site",
+      "nameZh": "禽业网",
+      "tier": "T1.5"
+    },
+    "sourceId": "thepoultrysite",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 48,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-02-03T15:38:00.000Z"
@@ -3718,6 +5082,28 @@
     "publishedAt": "2025-11-24T14:04:00.000Z"
   },
   {
+    "id": "cmr4jzd2o01fr125dzgyw05kz",
+    "titleEn": "Tanmiah signs MoUs to speed decarbonisation efforts",
+    "titleZh": "Tanmiah签署谅解备忘录加速脱碳进程",
+    "summaryZh": "沙特领先的垂直整合家禽和食品生产商Tanmiah Food Company与施耐德电气、Strataphy和Kayes Arabia签署了三份谅解备忘录，以加速其脱碳计划并提高运营能效。合作内容包括碳清单评估、地源冷却系统安装（打造区域首个地源冷却家禽运营）以及将柴油设备转换为液化石油气系统。公司还利用物联网和人工智能优化物流和养殖，并试验本地替代饲料原料。此举支持沙特2030愿景可持续发展目标。",
+    "featuredReason": "该新闻展示了家禽行业如何通过物联网、人工智能、地源冷却和燃料转换等创新技术实现脱碳，为智慧畜牧从业者提供了可借鉴的可持续转型路径和实际案例。",
+    "url": "https://www.thepoultrysite.com/news/2025/11/tanmiah-signs-mous-to-speed-decarbonisation-efforts",
+    "source": {
+      "name": "The Poultry Site",
+      "nameZh": "禽业网",
+      "tier": "T1.5"
+    },
+    "sourceId": "thepoultrysite",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 58,
+    "isFeatured": true,
+    "isHot": false,
+    "publishedAt": "2025-11-24T14:04:00.000Z"
+  },
+  {
     "id": "cmr4elcm701gbc2wkpcaivv0u",
     "titleEn": "EU poultry producers spotlight AMR efforts during awareness week",
     "titleZh": "欧盟家禽生产商在抗微生物药物耐药性意识周期间强调减抗努力",
@@ -3779,6 +5165,28 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2024-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "cmr4jyyxz0001125dqbe1nhf4",
+    "titleEn": "Sabanto Inc. and Verdant Robotics Announce Technical Integration of Autonomous Tractor Operation with SharpShooter Plant-Level Precision Application",
+    "titleZh": "Sabanto与Verdant Robotics整合：实现无人驾驶拖拉机与植物级精准施药系统协同作业",
+    "summaryZh": "Sabanto Inc.与Verdant Robotics宣布首次技术整合，将Sabanto的拖拉机自主改装系统与Verdant的SharpShooter植物级精准施药系统直接通信，实现从导航到定点施药的全自动化田间作业，无需驾驶舱操作员。该系统通过Aim & Apply™技术识别单株植物和杂草，仅在需要处施药，大幅减少投入品使用，并支持24/7连续作业，已在商业草皮生产中验证效果。",
+    "featuredReason": "该整合展示了自主驾驶与植物级精准施药在田间作业中的实际应用，对智慧畜牧行业（尤其是种植业与养殖业结合场景）具有高度借鉴意义，可启发牧场精准饲草管理或作物-养殖循环中的自动化方案设计。",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/sabanto-inc-and-verdant-robotics-announce-technical-integration-of-autonomous-tractor-operation-with-sharpshooter-plant-level-precision-application/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 90,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2024-10-23T00:00:00.000Z"
@@ -3965,6 +5373,182 @@
     "titleZh": "智能清粪机器人助力奶牛健康与牧场循环农业",
     "summaryZh": "本文介绍了Lely公司针对奶牛场的智能清粪解决方案，包括Discovery Collector和Discovery Scraper两款自主导航机器人，以及Lely Sphere循环粪肥处理系统。机器人可全天候自动清理牛舍地面，减少人工劳动，改善蹄部、尾部及乳房卫生，降低感染风险。Sphere系统则将粪便转化为三种液态循环肥料，实现矿物质闭环利用。文章还分析了当前牧场面临的劳动力短缺、传统清粪维护成本高等痛点，突出自动化与循环农业的实践价值。",
     "featuredReason": "该新闻聚焦奶牛场自动化清粪与循环农业技术，直接对应智慧畜牧中机器人、传感器和闭环养分管理的核心应用，对提升牛群健康、降低人工成本及实现可持续养殖具有高实践参考价值。",
+    "url": "https://www.lely.com/solutions/manure/?epslanguage=en",
+    "source": {
+      "name": "Lely",
+      "nameZh": "Lely 自动化乳业",
+      "tier": "T1"
+    },
+    "sourceId": "lely",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 90,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": ""
+  },
+  {
+    "id": "cmr4jzo0w01ir125dks2p9w9x",
+    "titleEn": "Dairy XL",
+    "titleZh": "Lely Dairy XL：大型奶牛场自动化综合解决方案",
+    "summaryZh": "本文介绍了Lely公司针对大型奶牛场推出的Dairy XL自动化解决方案，涵盖机器人挤奶、自动饲喂、数字管理系统Lely Horizon以及Red Cow Community全球用户社区。方案强调通过自动化减少重复劳动、提升动物福利，并利用数据驱动决策，帮助牧场主聚焦关键管理环节。文章还分享了全球用户案例，展示了实际应用效果。",
+    "featuredReason": "本文展示了大型奶牛场自动化与数字管理的成熟实践，对国内规模化牧场探索智能化转型具有直接参考价值，尤其是Lely Horizon数据系统与Red Cow社区模式值得关注。",
+    "url": "https://www.lely.com/solutions/milking/dairy-xl/",
+    "source": {
+      "name": "Lely",
+      "nameZh": "Lely 自动化乳业",
+      "tier": "T1"
+    },
+    "sourceId": "lely",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 86,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": ""
+  },
+  {
+    "id": "cmr4jzo1701it125dphxb9w06",
+    "titleEn": "Go to milking",
+    "titleZh": "挤奶机器人：从自动化到智慧化，赋能奶牛健康与自由",
+    "summaryZh": "本文介绍了Lely自动挤奶系统（如Astronaut A5 Next）的核心理念：通过自由牛流、个体化治疗和精准健康管理，实现“控制输入、优化输出”。文章还探讨了选择性干奶牛疗法（基于体细胞数）和机器人挤奶与放牧结合的实践，展示了自动化设备如何提升奶牛福利、延长生产寿命并提高效率。",
+    "featuredReason": "本文聚焦自动挤奶系统与奶牛健康管理的深度融合，展示了智慧畜牧中机器人、传感器和数据分析的实际应用，对追求高效、福利化养殖的牧场主具有直接参考价值。",
+    "url": "https://www.lely.com/solutions/milking/",
+    "source": {
+      "name": "Lely",
+      "nameZh": "Lely 自动化乳业",
+      "tier": "T1"
+    },
+    "sourceId": "lely",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 86,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": ""
+  },
+  {
+    "id": "cmr4jzo1e01iv125do8e26z54",
+    "titleEn": "Go to Feeding",
+    "titleZh": "自动饲喂与推料：提升奶牛养殖效率的智能解决方案",
+    "summaryZh": "本文介绍了Lely公司针对奶牛养殖的自动饲喂和推料解决方案，强调通过频繁饲喂、定制化日粮和精准配料来优化饲喂过程，从而提升奶牛健康、产奶量和农场效率。文章还探讨了饲料效率、奶牛代谢健康等关键话题，展示了自动化技术如何帮助牧场主实现数据驱动的管理。",
+    "featuredReason": "本文详细介绍了自动饲喂和推料机器人在奶牛养殖中的实际应用，结合频繁饲喂、定制化日粮等原则，为智慧畜牧从业者提供了提升饲料效率和动物健康的具体路径，具有较高的实践参考价值。",
+    "url": "https://www.lely.com/solutions/feeding/",
+    "source": {
+      "name": "Lely",
+      "nameZh": "Lely 自动化乳业",
+      "tier": "T1"
+    },
+    "sourceId": "lely",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": ""
+  },
+  {
+    "id": "cmr4jzo1l01ix125dz00ck6fz",
+    "titleEn": "Go to Manure",
+    "titleZh": "迈向粪污管理自动化：Lely机器人清粪与循环肥料系统解析",
+    "summaryZh": "本文介绍了Lely公司针对奶牛场粪污管理的全套机器人解决方案，包括Discovery Collector（适用于半密集/密集地板）和Discovery Scraper（适用于漏缝地板）两款自主导航清粪机器人，以及Lely Sphere循环粪污处理系统，可将粪尿分离并转化为三种液态肥料。文章强调这些方案能减少人工劳动、改善牛群健康（清洁蹄尾和乳房、降低感染风险），并适用于各种牛舍布局。同时指出当前牧场面临的劳动力短缺、传统刮粪维护成本高、深垫料清理难等痛点，为智慧畜牧自动化清粪提供了实践参考。",
+    "featuredReason": "本文聚焦奶牛场粪污处理的自动化与资源化，直接回应了智慧畜牧中劳动力短缺、动物健康与环保循环的核心痛点，对牧场管理者及技术选型人员具有实际参考价值。",
+    "url": "https://www.lely.com/solutions/manure/",
+    "source": {
+      "name": "Lely",
+      "nameZh": "Lely 自动化乳业",
+      "tier": "T1"
+    },
+    "sourceId": "lely",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 86,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": ""
+  },
+  {
+    "id": "cmr4jzo1t01iz125dgpm9h1sw",
+    "titleEn": "Barn",
+    "titleZh": "奶牛场智慧化解决方案：从牛舍设计到精准饲喂与健康管理",
+    "summaryZh": "本文介绍了Lely公司针对奶牛场的一系列智慧化解决方案，涵盖牛舍优化设计、自动挤奶系统、精准饲喂（Cosmix）、智能放牧（Grazeway）、奶牛舒适度提升（Luna牛体刷）、蹄部护理（Lely Meteor蹄浴）以及牛奶冷却罐等。这些方案通过物联网、自动化和机器人技术，实现个体化奶牛管理，提升健康水平、产奶量和运营效率，同时降低劳动强度和成本，是智慧畜牧在奶牛养殖中的典型应用。",
+    "featuredReason": "本文系统展示了奶牛养殖中从环境控制、精准饲喂到健康管理的全链条智慧化方案，对于正在推进牧场数字化、自动化升级的从业者具有直接参考价值。",
+    "url": "https://www.lely.com/solutions/barn/",
+    "source": {
+      "name": "Lely",
+      "nameZh": "Lely 自动化乳业",
+      "tier": "T1"
+    },
+    "sourceId": "lely",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 79,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": ""
+  },
+  {
+    "id": "cmr4jzo2001j1125dwdh072ez",
+    "titleEn": "MilkingMilk in the tank with less effort",
+    "titleZh": "更省力地将牛奶存入储奶罐——自动挤奶系统如何优化奶牛福利与生产效率",
+    "summaryZh": "本文介绍了Lely自动挤奶系统的核心理念：通过自由牛流、个体化治疗、健康优化和牛奶精细处理，实现“控制输入、优化输出”。文章强调自动挤奶不仅是效率工具，更是对牧场主直觉和行动的映射，让奶牛自主决定采食、休息和挤奶时间，从而提升福利、延长生产寿命。同时，文章还探讨了选择性干奶牛治疗与机器人挤奶结合放牧的实践挑战与机遇，为智慧畜牧从业者提供了从技术到管理的全面参考。",
+    "featuredReason": "本文深入解析了自动挤奶系统在智慧畜牧中的核心价值，特别是自由牛流、个体化治疗与健康优化如何通过IoT和机器人技术实现，同时探讨了放牧与机器人结合的实践挑战，为牧场数字化转型提供了切实可行的思路。",
+    "url": "https://www.lely.com/solutions/milking/?epslanguage=en",
+    "source": {
+      "name": "Lely",
+      "nameZh": "Lely 自动化乳业",
+      "tier": "T1"
+    },
+    "sourceId": "lely",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 86,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": ""
+  },
+  {
+    "id": "cmr4jzo2g01j3125dhjycsgnd",
+    "titleEn": "FeedingFor healthier cows and a more efficient production",
+    "titleZh": "自动饲喂系统：提升奶牛健康与生产效率的智能方案",
+    "summaryZh": "本文介绍了Lely公司针对奶牛养殖的自动饲喂解决方案，包括自动饲喂机器人、自动推料机器人和自动犊牛饲喂器。核心强调通过频繁少量饲喂、定制化日粮和精准配料，稳定瘤胃pH值、改善奶牛健康、提高饲料转化率并节省劳动力。文章还分享了关于奶牛采食量优化和代谢病早期检测的行业洞察，为智慧牧场提供了可落地的技术路径。",
+    "featuredReason": "本文系统展示了自动饲喂技术在奶牛养殖中的实际应用与价值，尤其强调精准饲喂、频繁投料对瘤胃健康和代谢管理的改善，是智慧畜牧从业者了解机器人饲喂方案与数据驱动养殖的优质参考。",
+    "url": "https://www.lely.com/solutions/feeding/?epslanguage=en",
+    "source": {
+      "name": "Lely",
+      "nameZh": "Lely 自动化乳业",
+      "tier": "T1"
+    },
+    "sourceId": "lely",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 92,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": ""
+  },
+  {
+    "id": "cmr4jzo2t01j5125duz3dd9i7",
+    "titleEn": "ManureCreate a comfortable environment conducive to cow health",
+    "titleZh": "利拉伐粪便处理机器人：打造奶牛健康舒适环境",
+    "summaryZh": "本文介绍了利拉伐（Lely）的粪便处理解决方案，包括Discovery Scraper和Discovery Collector两款自动导航机器人，以及Lely Sphere循环粪肥系统。机器人可全天候自动清洁牛舍地面，减少人工劳动，改善牛蹄、牛尾和乳房卫生，降低感染风险。Lely Sphere系统将粪便转化为三种液态循环肥料，实现矿物质循环闭环。文章还分析了当前牧场面临的劳动力短缺、传统刮粪系统维护成本高等痛点，强调自动化解决方案的可持续性。",
+    "featuredReason": "该新闻聚焦于奶牛养殖中粪便处理的自动化与循环利用，直接关联智慧畜牧的核心技术（机器人、传感器、闭环系统），对提升牛群健康、降低人工成本、实现可持续农业具有重要实践价值。",
     "url": "https://www.lely.com/solutions/manure/?epslanguage=en",
     "source": {
       "name": "Lely",

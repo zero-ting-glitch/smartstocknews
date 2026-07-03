@@ -44,6 +44,28 @@
     "publishedAt": "2026-07-01T07:00:00.066Z"
   },
   {
+    "id": "cmr4jzhn201gn125da5mgbkpu",
+    "titleEn": "Jul 1NewsPig ProgressWrapping up June: What’s new in the world of pigs?Pig Progress reports on the latest business news and developments from the global pig industry.",
+    "titleZh": "六月全球猪业动态：从智能饲喂到AI监测，多项创新助力产业升级",
+    "summaryZh": "本文汇总了2025年6月全球养猪业的最新商业新闻与技术进展，涵盖Trouw Nutrition推出的仔猪训练棒Milkiwean ActiBar、Elanco发布的饲料配方在线计算器、FeedArmor对非洲猪瘟病毒替代株的灭活效果验证、Speria收购AI牲畜监测公司Optifarm、Alltech推出新型植物源性肠道健康产品并扩建实验室，以及Animistic与Blackhive的战略合作。这些创新聚焦于仔猪断奶过渡、饲料效率优化、生物安全防控、AI健康监测和供应链协同，为智慧畜牧从业者提供了从精准营养到数字化管理的实践参考。",
+    "featuredReason": "本文集中呈现了全球猪业在精准营养、生物安全、AI监测和供应链协同方面的最新商业动态，为智慧畜牧从业者提供了从技术选型到产业合作的多维度参考，尤其适合关注养猪业数字化转型和降本增效的读者。",
+    "url": "https://www.foodagribusiness.world/pigs/wrapping-up-june-what-s-new-in-the-world-of-pigs",
+    "source": {
+      "name": "Pig Progress",
+      "nameZh": "猪业进展",
+      "tier": "T1.5"
+    },
+    "sourceId": "pigprogress",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 58,
+    "isFeatured": true,
+    "isHot": false,
+    "publishedAt": "2026-07-01T07:00:00.066Z"
+  },
+  {
     "id": "cmr4eli7501gtc2wk7oxtj0kx",
     "titleEn": "Pig ProgressPartnerSustainability and welfare: Two sides of the same coinJun 26",
     "titleZh": "可持续性与动物福利：养猪业的一体两面",
@@ -198,6 +220,28 @@
     "publishedAt": "2026-06-22T08:30:00.000Z"
   },
   {
+    "id": "cmr4jzhqe01h3125d7qdeuyrh",
+    "titleEn": "Pig ProgressYoung pig farmers gain global perspective at agri benchmark AcademyJun 22News",
+    "titleZh": "全球青年养猪人齐聚芬兰：第三届agri benchmark学院聚焦数字化与人工智能",
+    "summaryZh": "第三届agri benchmark学院于2025年6月2-4日在芬兰塞伊奈约基举行，面向全球青年养猪人。活动通过工作坊、演讲和农场参观，探讨了国际竞争力、农场数据应用、数字化、人工智能、基于摄像头的牲畜监测、动物福利、社交媒体等热点议题。参与者还参观了Atria公司及当地育肥场和母猪场，强化了全球视野下的养猪管理技能。",
+    "featuredReason": "该新闻展示了全球青年养猪人如何通过国际交流学习数字化、AI和摄像头监测等智慧畜牧技术，对国内猪场管理者了解国际前沿趋势具有参考价值。",
+    "url": "https://www.foodagribusiness.world/pigs/young-pig-farmers-gain-global-perspective-at-agri-benchmark-academy",
+    "source": {
+      "name": "Pig Progress",
+      "nameZh": "猪业进展",
+      "tier": "T1.5"
+    },
+    "sourceId": "pigprogress",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 55,
+    "isFeatured": true,
+    "isHot": false,
+    "publishedAt": "2026-06-22T08:30:00.000Z"
+  },
+  {
     "id": "cmqyitbeo002ttw5ido5youn8",
     "titleEn": "A simpler way to monitor manure temperature in deep-pit swine barns",
     "titleZh": "深坑猪舍粪污温度监测新方法：一个传感器就够了",
@@ -308,6 +352,28 @@
     "publishedAt": "2026-02-13T11:48:00.000Z"
   },
   {
+    "id": "cmr4jz9sg00mb125djheumycv",
+    "titleEn": "ASF spreads beyond initial Barcelona zone",
+    "titleZh": "非洲猪瘟疫情扩散至巴塞罗那初始疫区以外区域",
+    "summaryZh": "西班牙加泰罗尼亚地区在巴塞罗那都市区西部两个城镇附近发现新的非洲猪瘟野猪病例，这是首次在初始疫区外检测到疫情。新病例所在区域无养猪场，但疫情扩散促使当局加强人员与牲畜流动限制。西班牙作为欧盟最大猪肉生产国，此次疫情可能影响其猪肉出口。",
+    "featuredReason": "虽然该新闻本身不直接涉及智慧畜牧技术，但非洲猪瘟的扩散对养猪业影响巨大，智慧畜牧行业人士需关注疫情动态，以便为养殖场提供生物安全防控的数字化解决方案。",
+    "url": "https://www.thepigsite.com/news/2026/02/asf-spreads-beyond-initial-barcelona-zone",
+    "source": {
+      "name": "The Pig Site",
+      "nameZh": "猪业网",
+      "tier": "T1.5"
+    },
+    "sourceId": "thepigsite",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 36,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-02-13T11:48:00.000Z"
+  },
+  {
     "id": "cmr4el6ye00mxc2wkx4yp9dmx",
     "titleEn": "Muyuan Foods prices Hong Kong IPO at top of range",
     "titleZh": "牧原食品港股IPO定价上限，募资107亿港元",
@@ -325,6 +391,28 @@
     "subcategory": "pig",
     "techTags": "",
     "qualityScore": 48,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-02-05T10:04:00.000Z"
+  },
+  {
+    "id": "cmr4jz9ty00mx125didoy16th",
+    "titleEn": "Muyuan Foods prices Hong Kong IPO at top of range",
+    "titleZh": "牧原食品港股IPO定价上限，募资107亿港元",
+    "summaryZh": "中国最大生猪养殖企业牧原食品将其香港IPO定价在发行价上限，拟募资约107亿港元（13.7亿美元）。此次发行2.74亿股H股，每股39港元，将成为香港今年最大规模IPO之一。募资将用于育种、智慧养殖、营养管理和生物安全等领域的研发。当前中国正面临猪肉供应过剩、需求疲软和经济放缓的挑战，猪价下跌挤压了养殖户利润。",
+    "featuredReason": "牧原作为中国猪业龙头，其IPO募资明确投向智慧养殖研发，表明大型养殖企业对智能化、生物安全等技术的战略投入，对智慧畜牧行业具有风向标意义。",
+    "url": "https://www.thepigsite.com/news/2026/02/muyuan-foods-prices-hong-kong-ipo-at-top-of-range",
+    "source": {
+      "name": "The Pig Site",
+      "nameZh": "猪业网",
+      "tier": "T1.5"
+    },
+    "sourceId": "thepigsite",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 49,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-02-05T10:04:00.000Z"

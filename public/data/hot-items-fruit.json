@@ -22,6 +22,28 @@
     "multiSourceCount": 1
   },
   {
+    "id": "cmr4jyzlp000t125d09roq35l",
+    "titleEn": "Agreenculture acquires Chouette to add agronomic intelligence to autonomous machines",
+    "titleZh": "Agreenculture收购Chouette：为自主农机注入农艺智能",
+    "summaryZh": "法国自主机械专家Agreenculture收购了专注于葡萄栽培AI农艺分析的公司Chouette，将自主驾驶技术与作物监测算法结合，打造能独立作业并解读田间信息的智能农机。该技术已处理超2亿张图像，覆盖法国约8%的葡萄园面积，未来将扩展至果园等特种作物，旨在应对劳动力短缺、投入成本上升等农业挑战。",
+    "featuredReason": "该收购展示了自主农机与AI农艺分析的深度融合，为智慧畜牧（尤其是种植业）提供了从数据采集到决策支持的完整闭环案例，对行业从业者理解未来智能农机发展方向具有重要参考价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/agreenculture-acquires-chouette-to-add-agronomic-intelligence-to-autonomous-machines/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-25T06:30:00.000Z"
+  },
+  {
     "id": "cmr2zkguf000pfjps2gb6ihze",
     "titleEn": "Fieldwork Robotics secures new funding to accelerate raspberry harvesting robot",
     "titleZh": "Fieldwork Robotics获新融资，加速树莓采摘机器人商业化",
@@ -66,34 +88,12 @@
     "publishedAt": "2026-06-25T06:00:00.000Z"
   },
   {
-    "id": "cmr2zkgut000tfjpsn6ws4mhq",
-    "titleEn": "Australian vegetable farm puts 2 weeding technologies to the test",
-    "titleZh": "澳大利亚蔬菜农场实测两种除草技术",
-    "url": "https://www.futurefarming.com/crop-solutions/australian-vegetable-farm-puts-2-weeding-technologies-to-the-test/",
-    "summaryZh": "澳大利亚有机蔬菜农场Busch Organics测试了两种前沿除草技术：丹麦Agrointelli公司的自主机器人平台Robotti，以及激光除草设备。该农场位于维多利亚州吉普斯兰，占地超过300英亩，已有百年历史。文章介绍了这些技术如何帮助有机农场减少人工除草依赖，提高效率，并可能重塑有机蔬菜种植方式。",
-    "translationZh": "位于澳大利亚吉普斯兰拜恩斯代尔附近的米切尔河滩，可能不是你最先想到能看到农业机器人作业的地方。但在这个由凯恩·布施的曾祖父在一个多世纪前建立的有机农场上，这个家族正在试验可能重塑有机蔬菜种植方式的技术。\n\nBusch Organics农场占地超过300英亩（121公顷），位于拜恩斯代尔以西13公里的丘陵地带。获得有机认证意味着每一……\n\n**获取《未来农业》全部深度文章**\n这篇高级文章仅对订阅用户开放\n获取独家采访洞见\n借助我们的购买指南做出正确采购决策\n深入阅读涵盖创新发展的文章\n所有新闻均由来自世界各地的资深编辑和专家为您呈现\nGeert Hekkert、Matt Mcintosh、René Groeneveld\n查看订阅选项\n已有订阅？点击此处登录\n\nRené Groeneveld 澳大利亚特约记者\n\n更多关于：自主技术、激光除草、机械除草、有机农业、机器人采收\n\n相关文章\n30-06 | 图片报道\nDLG田间日：炎热、尘土飞扬且相对安静\n25-06 | 新闻\nAgreenculture收购Chouette，为自主机器增加农艺智能\n25-06 | 新闻\nFieldwork Robotics获得新资金，加速树莓采收机器人研发\n15-06 | 专家观点\n如果粮食安全具有战略意义，为何农业创新仍难以规模化？\n\n购买指南与目录\n订阅我们的YouTube频道\n台湾智慧农业周2026\n2026年9月8-10日 台北南港展览馆1馆",
-    "featuredReason": "该新闻展示了自主机器人和激光除草技术在有机蔬菜种植中的实际应用案例，对智慧畜牧行业人士理解跨领域自动化技术趋势具有参考价值，尤其是机器人平台在精准农业中的潜力。",
-    "publishedAt": "2026-06-24T06:28:12.000Z",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1"
-    },
-    "species": "fruit",
-    "category": "crop",
-    "subcategory": "fruit",
-    "techTags": "",
-    "qualityScore": 80,
-    "isHot": true,
-    "multiSourceCount": 1
-  },
-  {
-    "id": "cmr4ekuvp000zc2wkrzkj0fq3",
-    "titleEn": "Australian vegetable farm puts 2 weeding technologies to the test",
-    "titleZh": "澳大利亚蔬菜农场实测两种除草技术",
-    "summaryZh": "澳大利亚一家百年有机农场在蔬菜种植中测试了两种前沿除草技术：丹麦Agrointelli公司的自主作业平台Robotti和激光除草设备。该试验旨在解决有机农业中杂草控制这一核心难题，展示了自动化与精准技术在果蔬种植中的实际应用潜力，为智慧农业在种植业中的落地提供了参考案例。",
-    "featuredReason": "该新闻展示了自动化除草技术在有机蔬菜种植中的实际测试，虽然直接针对种植业，但其涉及的自主机器人、精准作业等技术与智慧畜牧中的自动化饲喂、巡检等场景高度相通，值得畜牧从业者借鉴跨界技术思路。",
-    "url": "https://www.futurefarming.com/crop-solutions/australian-vegetable-farm-puts-2-weeding-technologies-to-the-test/",
+    "id": "cmr4jyzlt000v125d246t5y11",
+    "titleEn": "Fieldwork Robotics secures new funding to accelerate raspberry harvesting robot",
+    "titleZh": "Fieldwork Robotics获新融资加速覆盆子采摘机器人商业化",
+    "summaryZh": "英国Fieldwork Robotics获得SEED Innovations等投资方共250万英镑种子+轮融资，用于加速其自主覆盆子采摘机器人的商业部署。该机器人已在英国商业农场测试，计划2027年实现多机集群商业运营。技术旨在解决劳动力短缺导致的果实损失问题，降低采摘成本并提升产量。",
+    "featuredReason": "该案例展示了机器人技术在果蔬采摘中的商业化进展，对智慧畜牧行业（尤其是种植业自动化）有直接参考价值，可启发养殖业中类似自动化解决方案的探索。",
+    "url": "https://www.futurefarming.com/smart-farming/fieldwork-robotics-secures-new-funding-to-accelerate-raspberry-harvesting-robot/",
     "source": {
       "name": "Future Farming",
       "nameZh": "未来农业",
@@ -104,9 +104,9 @@
     "category": "crop",
     "subcategory": "fruit",
     "techTags": "",
-    "qualityScore": 77,
+    "qualityScore": 73,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-24T06:28:12.000Z"
+    "publishedAt": "2026-06-25T06:00:00.000Z"
   }
 ]

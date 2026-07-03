@@ -1,5 +1,49 @@
 [
   {
+    "id": "cmr4jzo2g01j3125dhjycsgnd",
+    "titleEn": "FeedingFor healthier cows and a more efficient production",
+    "titleZh": "自动饲喂系统：提升奶牛健康与生产效率的智能方案",
+    "summaryZh": "本文介绍了Lely公司针对奶牛养殖的自动饲喂解决方案，包括自动饲喂机器人、自动推料机器人和自动犊牛饲喂器。核心强调通过频繁少量饲喂、定制化日粮和精准配料，稳定瘤胃pH值、改善奶牛健康、提高饲料转化率并节省劳动力。文章还分享了关于奶牛采食量优化和代谢病早期检测的行业洞察，为智慧牧场提供了可落地的技术路径。",
+    "featuredReason": "本文系统展示了自动饲喂技术在奶牛养殖中的实际应用与价值，尤其强调精准饲喂、频繁投料对瘤胃健康和代谢管理的改善，是智慧畜牧从业者了解机器人饲喂方案与数据驱动养殖的优质参考。",
+    "url": "https://www.lely.com/solutions/feeding/?epslanguage=en",
+    "source": {
+      "name": "Lely",
+      "nameZh": "Lely 自动化乳业",
+      "tier": "T1"
+    },
+    "sourceId": "lely",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 92,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": ""
+  },
+  {
+    "id": "cmr4jyyxz0001125dqbe1nhf4",
+    "titleEn": "Sabanto Inc. and Verdant Robotics Announce Technical Integration of Autonomous Tractor Operation with SharpShooter Plant-Level Precision Application",
+    "titleZh": "Sabanto与Verdant Robotics整合：实现无人驾驶拖拉机与植物级精准施药系统协同作业",
+    "summaryZh": "Sabanto Inc.与Verdant Robotics宣布首次技术整合，将Sabanto的拖拉机自主改装系统与Verdant的SharpShooter植物级精准施药系统直接通信，实现从导航到定点施药的全自动化田间作业，无需驾驶舱操作员。该系统通过Aim & Apply™技术识别单株植物和杂草，仅在需要处施药，大幅减少投入品使用，并支持24/7连续作业，已在商业草皮生产中验证效果。",
+    "featuredReason": "该整合展示了自主驾驶与植物级精准施药在田间作业中的实际应用，对智慧畜牧行业（尤其是种植业与养殖业结合场景）具有高度借鉴意义，可启发牧场精准饲草管理或作物-养殖循环中的自动化方案设计。",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/sabanto-inc-and-verdant-robotics-announce-technical-integration-of-autonomous-tractor-operation-with-sharpshooter-plant-level-precision-application/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 90,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2024-10-23T00:00:00.000Z"
+  },
+  {
     "id": "cmr4elnya01ixc2wkgzu7qul2",
     "titleEn": "Go to Manure",
     "titleZh": "迈向粪污管理自动化：Lely机器人解决方案提升奶牛健康与农场可持续性",
@@ -44,12 +88,12 @@
     "publishedAt": ""
   },
   {
-    "id": "cmr4elnyi01j1c2wk8220yn9c",
-    "titleEn": "MilkingMilk in the tank with less effort",
-    "titleZh": "更省力地将牛奶送入储奶罐——自动挤奶系统如何实现高效与动物福利的统一",
-    "summaryZh": "本文围绕Lely自动挤奶系统，介绍了其核心理念：通过自由牛流、个体化治疗、健康优化和牛奶精细处理，实现“控制输入、优化输出”。文章还探讨了选择性干奶牛疗法（基于体细胞数精准用药）以及放牧与机器人挤奶的协同可能性，展示了自动化设备如何在不牺牲奶牛福利的前提下提升生产效率。",
-    "featuredReason": "本文展示了自动挤奶系统如何通过自由牛流、个体化治疗和精准健康管理，在提升效率的同时保障动物福利，对智慧畜牧从业者理解自动化与奶牛行为的融合具有重要参考价值。",
-    "url": "https://www.lely.com/solutions/milking/?epslanguage=en",
+    "id": "cmr4jzo2t01j5125duz3dd9i7",
+    "titleEn": "ManureCreate a comfortable environment conducive to cow health",
+    "titleZh": "利拉伐粪便处理机器人：打造奶牛健康舒适环境",
+    "summaryZh": "本文介绍了利拉伐（Lely）的粪便处理解决方案，包括Discovery Scraper和Discovery Collector两款自动导航机器人，以及Lely Sphere循环粪肥系统。机器人可全天候自动清洁牛舍地面，减少人工劳动，改善牛蹄、牛尾和乳房卫生，降低感染风险。Lely Sphere系统将粪便转化为三种液态循环肥料，实现矿物质循环闭环。文章还分析了当前牧场面临的劳动力短缺、传统刮粪系统维护成本高等痛点，强调自动化解决方案的可持续性。",
+    "featuredReason": "该新闻聚焦于奶牛养殖中粪便处理的自动化与循环利用，直接关联智慧畜牧的核心技术（机器人、传感器、闭环系统），对提升牛群健康、降低人工成本、实现可持续农业具有重要实践价值。",
+    "url": "https://www.lely.com/solutions/manure/?epslanguage=en",
     "source": {
       "name": "Lely",
       "nameZh": "Lely 自动化乳业",
@@ -60,51 +104,7 @@
     "category": "livestock",
     "subcategory": "cattle",
     "techTags": "",
-    "qualityScore": 89,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": ""
-  },
-  {
-    "id": "cmr3a8iyz000l10tseerh2hyv",
-    "titleEn": "Sabanto and Verdant Robotics integrate autonomy and precision application systems",
-    "titleZh": "Sabanto与Verdant Robotics整合自主导航与精准施药系统",
-    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/sabanto-and-verdant-robotics-integrate-autonomy-and-precision-application-systems/",
-    "summaryZh": "美国公司Sabanto与Verdant Robotics首次整合其自主导航与精准施药系统，实现从田间导航到单株级投入品施用的全自动化作业，无需驾驶舱操作员。该系统已在佛罗里达州Bethel Farms的草皮生产中商业化运行，覆盖超过9900英亩，显著降低人工和投入成本，为农业自动化提供了可落地的集成方案。",
-    "translationZh": "美国公司Sabanto Inc.与Verdant Robotics首次整合其系统，使生产者能够实现从导航到单株级投入品施用的田间作业自动化，且无需驾驶舱内操作员。\n\n该整合将Sabanto的自主系统与Verdant Robotics的SharpShooter精准施药系统连接起来。SharpShooter采用“瞄准与施用”技术，可识别单株作物和杂草，仅在需要处施用投入品，现可挂接在配备Sabanto系统的自主拖拉机后方运行。据两家公司称，两套系统现已作为一个集成解决方案协同工作。\n\n拖拉机负责导航并为农具提供动力，而SharpShooter通过CAN总线直接与配备Sabanto系统的拖拉机通信，在主动导航过程中将实时田间数据反馈给Sabanto自主系统。基于这些数据，SharpShooter指示拖拉机根据田间条件调整速度和农具高度。Sabanto表示，这套组合系统可自主执行以往需要驾驶舱内熟练操作员才能完成的决策。\n\n该整合已在多种作物市场的商业运营中运行，包括佛罗里达州阿卡迪亚Bethel Farms的草皮生产。Bethel Farms是一家家族经营的草皮、柑橘和草种苗种植企业，已使用Sabanto自主系统作业超过9900英亩。该公司表示，这套组合系统在苛刻的田间条件下展现了可靠的性能。\n\n**降低投入成本**\n\n“我们的目标始终是让全自主化变得可及且对农业行业中的每个人——农民、农具供应商、零售商、投入品供应商以及拖拉机制造商——立即产生价值，”Sabanto创始人兼首席执行官Craig Rupp表示。“通过将我们的改装自主系统与Verdant的技术配对，我们为生产者和利益相关方提供了一套可在其现有设备上运行的完整解决方案。农民可以24/7运行精准作业，直接应对劳动力短缺问题，同时大幅降低投入成本。”\n\n“投资SharpShooter的种植者旨在减少投入、运行其团队无法始终配备人手的作业，并重新掌控施药窗口，”Verdant Robotics联合创始人兼首席执行官Gabe Sibley强调。“这次整合意味着他们可以在没有驾驶舱操作员的情况下实现这一切——覆盖更多英亩、所需人员更少，且每次作业都保持相同的单株级精准度。”\n\n**改装兼容性**\n\nSabanto自主系统将高精度GNSS、摄像头硬件安装在改装的拖拉机上。",
-    "featuredReason": "该新闻展示了自主导航与精准施药技术的深度集成，为智慧畜牧行业（尤其是草场管理）提供了可借鉴的自动化降本增效方案，对关注劳动力替代和精准投入的从业者具有直接参考价值。",
-    "publishedAt": "2026-07-02T09:00:00.000Z",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1"
-    },
-    "species": "general",
-    "category": "aggtech",
-    "subcategory": "general",
-    "techTags": "",
-    "qualityScore": 88,
-    "isHot": true,
-    "multiSourceCount": 1
-  },
-  {
-    "id": "cmr4elnz301j3c2wk25qpj6o1",
-    "titleEn": "FeedingFor healthier cows and a more efficient production",
-    "titleZh": "自动饲喂与精准营养：提升奶牛健康与生产效率的智能方案",
-    "summaryZh": "本文介绍了Lely公司针对奶牛养殖的自动饲喂解决方案，包括自动饲喂机器人、自动推料机器人和自动犊牛饲喂器。核心强调通过频繁少量饲喂、定制化日粮和精准配比，稳定瘤胃pH值、改善奶牛健康、提高饲料转化效率并减少浪费。文章还关联了奶牛采食量、代谢健康（如能量负平衡、酮病）等关键指标，展示了数据驱动管理在现代化牧场中的应用价值。",
-    "featuredReason": "本文系统展示了自动饲喂机器人与精准营养管理在奶牛场的实际应用，结合瘤胃健康、代谢监测等关键指标，为智慧畜牧从业者提供了从设备选型到数据驱动的完整参考路径。",
-    "url": "https://www.lely.com/solutions/feeding/?epslanguage=en",
-    "source": {
-      "name": "Lely",
-      "nameZh": "Lely 自动化乳业",
-      "tier": "T1"
-    },
-    "sourceId": "lely",
-    "species": "cattle",
-    "category": "livestock",
-    "subcategory": "cattle",
-    "techTags": "",
-    "qualityScore": 87,
+    "qualityScore": 90,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": ""

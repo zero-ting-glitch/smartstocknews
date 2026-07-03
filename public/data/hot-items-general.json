@@ -44,6 +44,28 @@
     "multiSourceCount": 1
   },
   {
+    "id": "cmr4jyzld000n125d4oz5bhx5",
+    "titleEn": "Sabanto and Verdant Robotics integrate autonomy and precision application systems",
+    "titleZh": "Sabanto与Verdant Robotics整合自主导航与精准施药系统",
+    "summaryZh": "美国公司Sabanto与Verdant Robotics首次整合其系统，实现从田间导航到植株级精准施药的全程无人化作业。Sabanto的自主系统与Verdant的SharpShooter精准施药系统通过CAN总线实时通信，可根据田间数据自动调整车速和机具高度。该集成已在佛罗里达Bethel Farms的草皮生产中商业化运行，覆盖近万英亩，显著降低投入成本并缓解劳动力短缺。",
+    "featuredReason": "该整合展示了自主导航与精准施药在田间作业中的深度融合，对智慧畜牧行业（尤其是草场管理）具有技术借鉴意义，可启发养殖场在饲料作物种植中实现降本增效与无人化运营。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/sabanto-and-verdant-robotics-integrate-autonomy-and-precision-application-systems/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-02T09:00:00.000Z"
+  },
+  {
     "id": "cmr3a8iza000n10ts3s2tdpmf",
     "titleEn": "Tersus GNSS AG993: Modular autosteer kit with built-in satellite correction fallback",
     "titleZh": "Tersus GNSS AG993模块化自动转向套件：内置卫星校正备份功能",
@@ -86,27 +108,5 @@
     "qualityScore": 85,
     "isHot": true,
     "multiSourceCount": 1
-  },
-  {
-    "id": "cmr4ekvpt003bc2wkplytfz4k",
-    "titleEn": "Spring Innovation Fund debuts as first venture philanthropy firm dedicated to animal welfare tech",
-    "titleZh": "Spring创新基金：首家专注动物福利技术的风险慈善机构",
-    "summaryZh": "Spring创新基金作为首家专注于动物福利技术的风险慈善工作室，利用慈善资本孵化和投资初创企业，旨在通过低成本人道屠宰、疾病早期检测、AI与机器人等技术，在商业规模上改善养殖动物福利，同时实现商业回报。该基金采用“常青”模式，收益回流再投资，已识别100多个潜在空白领域，初期聚焦虾类人道屠宰、肉鸡福利等方向，为智慧畜牧行业提供了技术商业化与伦理结合的新路径。",
-    "featuredReason": "该基金聚焦低成本人道屠宰、AI疾病检测等技术与商业化的结合，为智慧畜牧行业提供了将伦理与效率融合的创新模式，值得关注技术落地与投资趋势的从业者阅读。",
-    "url": "https://agfundernews.com/spring-innovation-fund-debuts-as-first-venture-philanthropy-firm-dedicated-to-animal-welfare-tech",
-    "source": {
-      "name": "AgFunderNews",
-      "nameZh": "农业科技投",
-      "tier": "T1"
-    },
-    "sourceId": "agfundernews",
-    "species": "general",
-    "category": "aggtech",
-    "subcategory": "general",
-    "techTags": "",
-    "qualityScore": 85,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-30T15:30:19.000Z"
   }
 ]
