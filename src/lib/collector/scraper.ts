@@ -27,6 +27,8 @@ const BROWSER_HEADERS: Record<string, string> = {
 };
 const MAX_CONTENT_LENGTH = 10000;
 const MAX_RESPONSE_BYTES = 5 * 1024 * 1024; // 5MB
+const JINA_TIMEOUT = 30000;
+const ARCHIVE_TIMEOUT = 20000;
 
 // ========== Headless Browser（403 回退） ==========
 
@@ -100,6 +102,80 @@ export async function fetchWithBrowserRss(url: string): Promise<string | null> {
     return null;
   } finally {
     await context.close();
+  }
+}
+
+// ========== 回退方案：Jina Reader ==========
+
+async function fetchViaJina(url: string): Promise<string | null> {
+  try {
+    const res = await fetch(`https://r.jina.ai/${url}`, {
+      headers: {
+        'Accept': 'application/json',
+        'X-Return-Format': 'markdown',
+        'X-Timeout': '20',
+      },
+      signal: AbortSignal.timeout(JINA_TIMEOUT),
+    });
+    if (!res.ok) return null;
+    const json = await res.json() as { data?: { content?: string } };
+    const content = json?.data?.content;
+    if (!content || content.length < 100) return null;
+    return content;
+  } catch {
+    return null;
+  }
+}
+
+function parseJinaText(markdown: string): ScrapeResult | null {
+  // 去掉 markdown 标记，提取纯文本
+  const lines = markdown.split('\n').filter(l => l.trim());
+  const title = lines[0]?.replace(/^#+\s*/, '').replace(/\*\*/g, '').trim() || '';
+  const contentText = lines.slice(1)
+    .join(' ')
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')  // [text](url) → text
+    .replace(/[*_~`#>/]/g, '')                   // markdown 符号
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, MAX_CONTENT_LENGTH);
+  if (contentText.length < 50) return null;
+  return { title, contentText, images: [], author: null, publishedAt: null };
+}
+
+// ========== 回退方案：Google Cache ==========
+
+async function fetchViaGoogleCache(url: string): Promise<string | null> {
+  try {
+    const cacheUrl = `https://webcache.googleusercontent.com/search?q=cache:${encodeURIComponent(url)}`;
+    const res = await fetch(cacheUrl, {
+      headers: BROWSER_HEADERS,
+      signal: AbortSignal.timeout(TIMEOUT),
+    });
+    if (!res.ok) return null;
+    const html = await res.text();
+    if (html.length < 500) return null;
+    return html;
+  } catch {
+    return null;
+  }
+}
+
+// ========== 回退方案：Wayback Machine ==========
+
+async function fetchViaWayback(url: string): Promise<string | null> {
+  try {
+    const wbUrl = `https://web.archive.org/web/${url}`;
+    const res = await fetch(wbUrl, {
+      headers: BROWSER_HEADERS,
+      signal: AbortSignal.timeout(ARCHIVE_TIMEOUT),
+      redirect: 'follow',
+    });
+    if (!res.ok) return null;
+    const html = await res.text();
+    if (html.length < 500) return null;
+    return html;
+  } catch {
+    return null;
   }
 }
 
@@ -248,7 +324,7 @@ function parseArticleHtml(html: string, url: string, config?: string): ScrapeRes
 
 /**
  * 爬取单篇文章，提取全文内容、图片、作者
- * fetch 返回 403 时自动回退到 headless browser
+ * 多层回退：直接 fetch → Playwright → Jina Reader → Google Cache → Wayback Machine
  */
 export async function scrapeArticle(
   url: string,
@@ -265,37 +341,71 @@ export async function scrapeArticle(
   }
 
   try {
+    // 层1：直接 fetch
     const res = await fetch(url, {
       headers: BROWSER_HEADERS,
       signal: AbortSignal.timeout(TIMEOUT),
     });
 
-    // 403 时回退到 headless browser
-    if (res.status === 403) {
-      console.log(`  [scrape] 403，尝试浏览器回退: ${url}`);
-      const html = await fetchWithBrowser(url);
-      if (html) return parseArticleHtml(html, url, config);
-      return null;
+    if (res.ok) {
+      const contentLength = res.headers.get('content-length');
+      if (contentLength && parseInt(contentLength) > MAX_RESPONSE_BYTES) {
+        console.error(`  [scrape] 响应太大: ${url} (${contentLength} bytes)`);
+      } else {
+        const html = await res.text();
+        if (html.length <= MAX_RESPONSE_BYTES) {
+          const result = parseArticleHtml(html, url, config);
+          if (result) return result;
+        }
+      }
     }
 
-    if (!res.ok) {
-      console.error(`  [scrape] ${res.status} ${url}`);
-      return null;
+    // 层2：Playwright headless browser（403 / 解析失败时回退）
+    console.log(`  [scrape] 直接fetch失败(${res.status})，尝试浏览器回退: ${url}`);
+    const browserHtml = await fetchWithBrowser(url);
+    if (browserHtml) {
+      const result = parseArticleHtml(browserHtml, url, config);
+      if (result) {
+        console.log(`  [scrape] 浏览器回退成功: ${url}`);
+        return result;
+      }
     }
 
-    // 检查响应大小
-    const contentLength = res.headers.get('content-length');
-    if (contentLength && parseInt(contentLength) > MAX_RESPONSE_BYTES) {
-      console.error(`  [scrape] 响应太大: ${url} (${contentLength} bytes)`);
-      return null;
+    // 层3：Jina Reader
+    console.log(`  [scrape] 浏览器失败，尝试Jina Reader: ${url}`);
+    const jinaText = await fetchViaJina(url);
+    if (jinaText) {
+      const result = parseJinaText(jinaText);
+      if (result) {
+        console.log(`  [scrape] Jina Reader成功: ${url}`);
+        return result;
+      }
     }
 
-    const html = await res.text();
-    if (html.length > MAX_RESPONSE_BYTES) {
-      console.error(`  [scrape] 响应体太大: ${url} (${html.length} bytes)`);
-      return null;
+    // 层4：Google Cache
+    console.log(`  [scrape] Jina失败，尝试Google Cache: ${url}`);
+    const cacheHtml = await fetchViaGoogleCache(url);
+    if (cacheHtml) {
+      const result = parseArticleHtml(cacheHtml, url, config);
+      if (result) {
+        console.log(`  [scrape] Google Cache成功: ${url}`);
+        return result;
+      }
     }
-    return parseArticleHtml(html, url, config);
+
+    // 层5：Wayback Machine
+    console.log(`  [scrape] Google Cache失败，尝试Wayback: ${url}`);
+    const wbHtml = await fetchViaWayback(url);
+    if (wbHtml) {
+      const result = parseArticleHtml(wbHtml, url, config);
+      if (result) {
+        console.log(`  [scrape] Wayback成功: ${url}`);
+        return result;
+      }
+    }
+
+    console.error(`  [scrape] 所有方式均失败: ${url}`);
+    return null;
   } catch (e: any) {
     console.error(`  [scrape] ${url}: ${e.message}`);
     return null;

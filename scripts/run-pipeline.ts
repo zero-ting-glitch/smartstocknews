@@ -3,7 +3,7 @@
  * 用法: npx tsx scripts/run-pipeline.ts
  */
 import { PrismaClient } from '@prisma/client';
-import { mkdirSync, writeFileSync, readdirSync, unlinkSync } from 'fs';
+import { mkdirSync, writeFileSync, readdirSync, unlinkSync, existsSync } from 'fs';
 import { join } from 'path';
 import { readFileSync } from 'fs';
 import { scrapeArticle, scrapeListingPage, fetchWithBrowserRss, closeBrowser } from '../src/lib/collector/scraper';
@@ -885,22 +885,34 @@ async function main() {
     scrapeMethod: item.scrapeMethod || 'rss',
   });
 
-  const formatted = allItems.map(formatListItem);
+  const freshFormatted = allItems.map(formatListItem);
+
+  // 增量合并：读取旧 items.json，新数据按 ID 覆盖，旧数据保留
+  const existingPath = join(outDir, 'items.json');
+  let existingFormatted: any[] = [];
+  if (existsSync(existingPath)) {
+    try { existingFormatted = JSON.parse(readFileSync(existingPath, 'utf-8')); } catch {}
+  }
+  const existingMap = new Map(existingFormatted.map((i: any) => [i.id, i]));
+  for (const item of freshFormatted) existingMap.set(item.id, item);
+  const formatted = Array.from(existingMap.values())
+    .sort((a: any, b: any) => (b.publishedAt || '').localeCompare(a.publishedAt || ''));
+  const preserved = formatted.length - freshFormatted.length;
 
   // 列表 JSON
   writeFileSync(join(outDir, 'items.json'), JSON.stringify(formatted, null, 2));
-  console.log(`  items.json: ${formatted.length} 条`);
+  console.log(`  items.json: ${formatted.length} 条 (${freshFormatted.length} new + ${preserved} preserved)`);
 
   // Item IDs 列表（供 generateStaticParams 使用）
-  const itemIds = allItems.map((item) => item.id);
+  const itemIds = formatted.map((item: any) => item.id);
   writeFileSync(join(outDir, 'item-ids.json'), JSON.stringify(itemIds));
 
   // 详情 JSON（每条一个文件）
   const detailDir = join(outDir, 'items');
   mkdirSync(detailDir, { recursive: true });
 
-  // 清理孤立 detail 文件（不在当前导出列表中的旧文件）
-  const validIds = new Set(allItems.map(item => item.id));
+  // 清理孤立 detail 文件（不在合并后导出列表中的旧文件）
+  const validIds = new Set(formatted.map((item: any) => item.id));
   const existingDetailFiles = readdirSync(detailDir);
   let cleanedFiles = 0;
   for (const file of existingDetailFiles) {

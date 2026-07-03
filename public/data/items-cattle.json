@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "id": "cmqz24jhz000fdidxd876alwl",
+    "titleEn": "Latest look from Cattle on Feed, screwworm dashboard and MDM",
+    "titleZh": "育肥牛存栏最新数据、螺旋蝇监控面板及MDM动态",
+    "url": "https://www.beefmagazine.com/market-news/latest-look-from-cattle-on-feed-screwworm-dashboard-and-mdm",
+    "summaryZh": "本文简要提及了育肥牛存栏数据的最新观察、螺旋蝇监控仪表盘以及MDM（可能指牛病或管理相关）内容，但核心篇幅转向了美国农村兽医短缺问题的讨论，邀请爱荷华州兽医协会主席等专家呼吁优先加强农村兽医队伍建设。内容与智慧畜牧技术（IoT/AI/自动化）的直接关联度较低，更多聚焦于行业人力资源政策。",
+    "translationZh": "**育肥牛存栏最新数据、螺旋蝇监控面板及MDM**\n\n农场商业管理\n\n电视登录\n\nICYMI：现可点播\n\n**加强农村兽医队伍建设需成为优先事项**\n\n爱荷华州斯莱特市的肯·梅博士（DVM），爱荷华州兽医协会主席，以及兰迪·惠勒博士，爱荷华州兽医协会执行主任，与我们共同探讨美国兽医短缺问题。\n\n点击观看",
+    "featuredReason": "虽然本文核心讨论兽医短缺问题，与智慧畜牧技术关联较弱，但农村兽医人才短缺是影响养殖业可持续运营的关键因素，值得行业人士关注政策动向。",
+    "publishedAt": "2026-06-24T15:45:04.000Z",
+    "source": {
+      "name": "Beef Magazine",
+      "nameZh": "肉牛杂志",
+      "tier": "T2"
+    },
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 17,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqt2nwbe001j12t0rjxuhyrt",
+    "titleEn": "Neogen updates Igenity Beef with new traits",
+    "titleZh": "Neogen更新Igenity Beef牛遗传评估性状",
+    "url": "https://www.beefmagazine.com/livestock-management/neogen-updates-igenity-beef-with-new-traits",
+    "summaryZh": "Neogen公司宣布更新其Igenity Beef牛遗传评估产品，新增了若干性状指标。但新闻正文实际内容为一段关于美国农村兽医短缺问题的访谈预告，与智慧畜牧技术（IoT/AI/自动化等）关联度较低，主要聚焦兽医人力短缺议题。",
+    "translationZh": "农场商业管理\n电视登录\nICYM：现已提供点播\n\n加强农村兽医队伍建设需成为优先事项\n\n肯·梅博士，爱荷华州斯莱特市，爱荷华州兽医协会主席，与兰迪·惠勒博士，爱荷华州兽医协会执行主任，共同探讨美国兽医短缺问题。\n\n观看",
+    "featuredReason": "该新闻标题涉及牛遗传评估性状更新，但正文实际聚焦兽医短缺问题，与智慧畜牧核心技术关联有限，建议关注更直接的技术应用报道。",
+    "publishedAt": "2026-06-10T22:24:03.000Z",
+    "source": {
+      "name": "Beef Magazine",
+      "nameZh": "肉牛杂志",
+      "tier": "T2"
+    },
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 13,
+    "isHot": false,
+    "multiSourceCount": 1
+  }
+]

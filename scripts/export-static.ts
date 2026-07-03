@@ -5,7 +5,7 @@
  * 用法: npx tsx scripts/export-static.ts
  */
 import { PrismaClient } from '@prisma/client';
-import { mkdirSync, writeFileSync } from 'fs';
+import { mkdirSync, writeFileSync, readFileSync, existsSync } from 'fs';
 import { join } from 'path';
 
 const prisma = new PrismaClient();
@@ -52,6 +52,27 @@ interface ExportStats {
   lastUpdated: string;
 }
 
+// 读取已导出的 items.json（增量合并用）
+function readExistingItems(): ExportItem[] {
+  const filePath = join(OUTPUT_DIR, 'items.json');
+  if (!existsSync(filePath)) return [];
+  try {
+    return JSON.parse(readFileSync(filePath, 'utf-8'));
+  } catch {
+    return [];
+  }
+}
+
+// 合并：新数据按 ID 覆盖旧数据，旧数据中未出现的 ID 保留
+function mergeItems(existing: ExportItem[], fresh: ExportItem[]): ExportItem[] {
+  const map = new Map<string, ExportItem>();
+  for (const item of existing) map.set(item.id, item);
+  for (const item of fresh) map.set(item.id, item);
+  return Array.from(map.values()).sort((a, b) =>
+    (b.publishedAt || '').localeCompare(a.publishedAt || '')
+  );
+}
+
 async function main() {
   mkdirSync(OUTPUT_DIR, { recursive: true });
 
@@ -63,7 +84,7 @@ async function main() {
     take: 200,
   });
 
-  const exportItems: ExportItem[] = items.map(item => ({
+  const freshItems: ExportItem[] = items.map(item => ({
     id: item.id,
     titleEn: item.titleEn,
     titleZh: item.titleZh,
@@ -82,8 +103,12 @@ async function main() {
     multiSourceCount: item.multiSourceCount,
   }));
 
+  // 增量合并：保留旧数据中未被本次管线处理的条目
+  const existingItems = readExistingItems();
+  const exportItems = mergeItems(existingItems, freshItems);
+  const preserved = exportItems.length - freshItems.length;
   writeFileSync(join(OUTPUT_DIR, 'items.json'), JSON.stringify(exportItems, null, 2));
-  console.log(`Exported ${exportItems.length} items`);
+  console.log(`Exported ${exportItems.length} items (${freshItems.length} new + ${preserved} preserved from previous run)`);
 
   // 1.5 导出详情 JSON（每条一个文件，含全文）
   const detailDir = join(OUTPUT_DIR, 'items');

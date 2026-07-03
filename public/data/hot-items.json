@@ -3,110 +3,45 @@
     "id": "cmr3a8iyz000l10tseerh2hyv",
     "titleEn": "Sabanto and Verdant Robotics integrate autonomy and precision application systems",
     "titleZh": "Sabanto与Verdant Robotics整合自主导航与精准施药系统",
-    "summaryZh": "美国公司Sabanto与Verdant Robotics首次整合其自主导航与精准施药系统，实现从田间导航到单株级投入品施用的全自动化作业，无需驾驶舱操作员。该系统已在佛罗里达州Bethel Farms的草皮生产中商业化运行，覆盖超过9900英亩，显著降低人工和投入成本，为农业自动化提供了可落地的集成方案。",
-    "featuredReason": "该新闻展示了自主导航与精准施药技术的深度集成，为智慧畜牧行业（尤其是草场管理）提供了可借鉴的自动化降本增效方案，对关注劳动力替代和精准投入的从业者具有直接参考价值。",
     "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/sabanto-and-verdant-robotics-integrate-autonomy-and-precision-application-systems/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1"
-    },
-    "sourceId": "futurefarming",
-    "species": "general",
-    "category": "aggtech",
-    "subcategory": "general",
-    "techTags": "",
-    "qualityScore": 88,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-07-02T09:00:00.000Z"
-  },
-  {
-    "id": "cmr3a8vgf003510tszt3843as",
-    "titleEn": "Spring Innovation Fund debuts as first venture philanthropy firm dedicated to animal welfare tech",
-    "titleZh": "Spring创新基金：首家专注动物福利科技的风险慈善工作室",
-    "summaryZh": "Spring创新基金作为首家采用风险慈善模式、专门投资动物福利科技的非营利组织，通过孵化初创企业、提供初始资金和后续支持，推动低成本人道屠宰、疾病早期检测、AI与机器人等技术在畜牧业的商业化应用。其“常青”模式将商业回报循环再投资，为智慧畜牧行业提供了兼顾动物福利与经济效益的创新路径。",
-    "featuredReason": "该新闻展示了首个将慈善资本与商业回报结合的动物福利科技投资模式，为智慧畜牧行业提供了低成本人道屠宰、AI疾病检测等前沿技术的商业化路径参考，值得关注动物福利与经济效益协同发展的从业者阅读。",
-    "url": "https://agfundernews.com/spring-innovation-fund-debuts-as-first-venture-philanthropy-firm-dedicated-to-animal-welfare-tech",
-    "source": {
-      "name": "AgFunderNews",
-      "nameZh": "农业科技投",
-      "tier": "T1"
-    },
-    "sourceId": "agfundernews",
-    "species": "general",
-    "category": "aggtech",
-    "subcategory": "general",
-    "techTags": "",
-    "qualityScore": 85,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-30T15:30:19.000Z"
+    "multiSourceCount": 1,
+    "publishedAt": "2026-07-02T09:00:00.000Z",
+    "qualityScore": 88
   },
   {
     "id": "cmr2zkgz2001zfjpsro0yc5n3",
     "titleEn": "U.S. Sugar deploys autonomous John Deere tractor fleet across 255,000 acres",
     "titleZh": "美国糖业公司在25.5万英亩甘蔗田部署自动驾驶约翰迪尔拖拉机队",
-    "summaryZh": "美国糖业公司（U.S. Sugar）在佛罗里达州甘蔗田部署了由无人驾驶约翰迪尔拖拉机组成的车队，实现24小时连续作业，号称美国糖业最大规模的自动驾驶拖拉机商业应用。该案例展示了自动驾驶技术在大型种植业中的规模化落地，对智慧畜牧行业在自动化、机器人及传感器应用方面具有重要参考价值。",
-    "featuredReason": "该案例展示了自动驾驶技术在大型种植业中的规模化应用，对智慧畜牧行业在自动化、机器人及传感器集成方面具有直接借鉴意义。",
     "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/u-s-sugar-deploys-autonomous-john-deere-tractor-fleet-across-255000-acres/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1"
-    },
-    "sourceId": "futurefarming",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 85,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-05-28T07:00:00.000Z"
+    "multiSourceCount": 1,
+    "publishedAt": "2026-05-28T07:00:00.000Z",
+    "qualityScore": 85
+  },
+  {
+    "id": "cmr3a8vgf003510tszt3843as",
+    "titleEn": "Spring Innovation Fund debuts as first venture philanthropy firm dedicated to animal welfare tech",
+    "titleZh": "Spring创新基金：首家专注动物福利科技的风险慈善工作室",
+    "url": "https://agfundernews.com/spring-innovation-fund-debuts-as-first-venture-philanthropy-firm-dedicated-to-animal-welfare-tech",
+    "multiSourceCount": 1,
+    "publishedAt": "2026-06-30T15:30:19.000Z",
+    "qualityScore": 85
   },
   {
     "id": "cmr2zkgu8000nfjps6ec4tmww",
     "titleEn": "Agreenculture acquires Chouette to add agronomic intelligence to autonomous machines",
     "titleZh": "Agreenculture收购Chouette：为自主农机注入农艺智能",
-    "summaryZh": "法国自主农机专家Agreenculture收购了专注于葡萄栽培AI农艺分析的公司Chouette，将自主导航技术与实时作物监测算法结合，使机器不仅能自主作业，还能解读田间数据。该技术已处理超2亿张图像，覆盖法国8%葡萄园，未来将扩展至果园等特种作物，旨在应对劳动力短缺、成本上升和农业环境转型等挑战。",
-    "featuredReason": "该案例展示了如何将AI农艺分析与自主农机深度融合，为智慧畜牧中类似场景（如果园、牧场监测）提供了可借鉴的技术路径和商业模式。",
     "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/agreenculture-acquires-chouette-to-add-agronomic-intelligence-to-autonomous-machines/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1"
-    },
-    "sourceId": "futurefarming",
-    "species": "fruit",
-    "category": "crop",
-    "subcategory": "fruit",
-    "techTags": "",
-    "qualityScore": 80,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-25T06:30:00.000Z"
+    "multiSourceCount": 1,
+    "publishedAt": "2026-06-25T06:30:00.000Z",
+    "qualityScore": 80
   },
   {
     "id": "cmr2zkgum000rfjps32zbnw4t",
     "titleEn": "Horsch enters into partnership with application map specialist",
     "titleZh": "赫氏与施药地图专家达成战略合作",
-    "summaryZh": "德国农机巨头赫氏战略入股施药地图专家Sam-Dimension，该公司利用1毫米分辨率无人机影像和AI系统生成精准施药地图，支持洋葱、马铃薯、胡萝卜等多种作物的点喷除草，作业效率达60公顷/小时，且兼容多家主流喷雾机品牌。此举标志着精准农业领域又一重要技术整合。",
-    "featuredReason": "该合作展示了AI与无人机影像在精准植保中的落地应用，对智慧畜牧行业中的饲草料作物（如玉米、甜菜）的杂草管理具有直接参考价值，体现了跨领域精准农业技术的融合趋势。",
     "url": "https://www.futurefarming.com/smart-farming/horsch-enters-into-partnership-with-application-map-specialist/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1"
-    },
-    "sourceId": "futurefarming",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 80,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-24T13:19:17.000Z"
+    "multiSourceCount": 1,
+    "publishedAt": "2026-06-24T13:19:17.000Z",
+    "qualityScore": 80
   }
 ]

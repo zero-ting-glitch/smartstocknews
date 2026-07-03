@@ -46,7 +46,7 @@ smartstock/
 │   ├── seed-sources.ts    # 信源初始化
 │   ├── check-items.ts     # 数据检查工具
 │   └── clear-truncated.ts # 清除截断翻译（一次性工具）
-├── data/sources.json      # 15 个信源配置（9 种植/综合 + 6 畜牧）
+├── data/sources.json      # 26 个信源配置（9 种植/综合 + 17 畜牧）
 ├── prisma/schema.prisma   # 数据库 schema
 ├── public/
 │   ├── _headers           # 安全头（CSP 等）
@@ -76,6 +76,7 @@ smartstock/
 - cheerio（HTML 解析，全文爬取）
 - rss-parser（RSS feed 解析）
 - Playwright + Stealth 插件（Headless Browser，绕过 Cloudflare 反爬）
+- Jina Reader API / Google Cache / Wayback Machine（全文抓取多层回退）
 - 部署：GitHub Pages + GitHub Actions CI/CD
 
 ## 数据管线
@@ -91,7 +92,7 @@ smartstock/
 [3.7] 智慧农业预筛  技术+农业双维度关键词匹配，阈值 ≥ 2（详见下方）
 [4/5] AI 处理       DeepSeek 调用 → 五维评分+全文翻译+摘要+精选理由+物种分类
 [4.5] 修复 species  将 subcategory 同步到 species 字段
-[5/5] 导出 JSON     清理孤立 detail 文件 → items.json + items/{id}.json + hot-items(5条) + stats.json + 按分类导出
+[5/5] 导出 JSON     增量合并（旧数据保留） → 清理孤立 detail 文件 → items.json + items/{id}.json + hot-items(5条) + stats.json + 按分类导出
 ```
 
 ### 翻译完整度保障
@@ -131,11 +132,16 @@ smartstock/
 
 特殊站点可在 `sources.json` 的 `scrapeConfig` 中配置 `contentSelector`、`dateSelector`、`authorSelector` 等。
 
-**爬虫反封措施**：
-- Chrome UA + 完整浏览器特征头（Sec-Fetch-*, Accept-Encoding 等），绕过基础 bot 检测
+**爬虫反封措施（5 层回退链）**：
+1. **直接 fetch**：Chrome UA + 完整浏览器特征头（Sec-Fetch-*, Accept-Encoding 等），绕过基础 bot 检测
+2. **Playwright + Stealth**：fetch 失败时自动回退到 headless browser（真正的 Chrome，绕过 Cloudflare TLS 指纹 + JS challenge）
+3. **Jina Reader**：`r.jina.ai/URL`，第三方全文提取服务，自带反爬
+4. **Google Cache**：`webcache.googleusercontent.com`，谷歌缓存版本
+5. **Wayback Machine**：`web.archive.org`，互联网档案馆存档
+
 - 域名级限速（`DOMAIN_DELAY_MS = 2000ms`），同一域名请求间隔 ≥ 2 秒防 429
-- **Headless Browser 回退**：fetch 返回 403 时自动回退到 Playwright + Stealth 插件（真正的 Chrome，绕过 Cloudflare TLS 指纹 + JS challenge）
 - 浏览器懒加载单例，管线结束自动关闭；RSS 解析失败时也走浏览器回退
+- 任何一层成功即跳过后续层，日志标注使用了哪种方式
 
 ## 开发原则
 
@@ -198,7 +204,7 @@ npx tsx scripts/export-static.ts          # 独立导出静态 JSON
 
 ## 信源体系
 
-15 个信源配置（9 种植/综合 + 6 畜牧），分 RSS 和列表页爬取两种方式。配置在 `data/sources.json`。
+26 个信源配置（9 种植/综合 + 17 畜牧），分 RSS 和列表页爬取两种方式。配置在 `data/sources.json`。
 
 | 等级 | 定义 | 质量分权重 |
 |------|------|-----------|
@@ -208,7 +214,11 @@ npx tsx scripts/export-static.ts          # 独立导出静态 JSON
 
 **种植/综合信源（9 个）**：precisionagriculture、agfundernews、futurefarming、freshplaza、agri.cn（3 个中文源）、thepigsite、world-agriculture、agriculture
 
-**畜牧信源（6 个）**：nationalhogfarmer、porkorg、beefmagazine、poultrytimes、meatpoultry、feedstuffs
+**畜牧信源（17 个）**：
+- 传统行业媒体（6）：nationalhogfarmer、porkorg、beefmagazine、poultrytimes、meatpoultry、feedstuffs
+- 行业技术媒体（5）：thepigsite、thecattlesite、thepoultrysite、pigprogress、poultryworld
+- 设备厂商（3）：nedap、lely、delaval
+- 中文信源（3）：caaa（中国畜牧业协会）、zkzhimu（中科智牧）、jxct（精讯畅通）
 
 **Cloudflare 封锁说明**：farmprogress 系（nationalhogfarmer、beefmagazine、poultrytimes、meatpoultry）及 feedstuffs、agfundernews 等站点被 Cloudflare 封锁。管线通过 Playwright + Stealth 插件（headless browser）自动回退绕过，403 时启动真实 Chrome 获取内容。feedstuffs 的 RSS XML 不规范（含 HTML 实体），目前仍无法解析。
 

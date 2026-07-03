@@ -1,68 +1,112 @@
 [
   {
-    "id": "cmqz24r19008bdidx33p1egi3",
-    "titleEn": "Presenting Greenhouse Grower’s 2026 Technology of the Year Finalists",
-    "titleZh": "2026年温室种植者年度技术奖入围名单揭晓",
-    "summaryZh": "本文介绍了2026年温室种植者年度技术奖的三项入围技术：Air Tray Technologies通过空气修剪根系改善根质量和生产效率；PARPerfect Shading System实现动态精准光照控制，提升作物均匀性和光利用效率；Pot-in-Tray Machine自动化装盆入盘，大幅提高温室作业效率。这些技术虽聚焦园艺温室场景，但其自动化、传感器控制、精准环境管理等理念对智慧畜牧行业（如环境调控、自动化作业）具有跨领域借鉴价值。",
-    "featuredReason": "虽然聚焦园艺温室，但三项技术分别涉及根系环境优化、动态光照精准控制、自动化作业，其传感器、AI决策、机器人自动化等核心逻辑与智慧畜牧中的环境调控、饲喂机器人、数据驱动管理高度相通，可为畜牧从业者提供跨领域创新启发。",
-    "url": "https://www.greenhousegrower.com/technology/presenting-greenhouse-growers-2026-technology-of-the-year-finalists/",
+    "id": "cmr4bpmwq002750rdaltuieu4",
+    "titleEn": "McHutchison Adds New Southern California Sales Representative",
+    "titleZh": "McHutchison新增南加州销售代表",
+    "url": "https://www.greenhousegrower.com/management/mchutchison-adds-new-southern-california-sales-representative/",
+    "summaryZh": "McHutchison公司宣布任命Don Golema为南加州销售代表。Golema拥有超过十年在精准农业和新兴技术领域的业务发展经验，曾供职于飞利浦照明和Signify，专注于园艺照明解决方案。他将常驻加州圣巴巴拉，负责拓展南加州市场。",
+    "translationZh": "McHutchison已任命Don Golema为其新的南加州销售代表。Golema在精准农业和新兴技术领域的业务发展和企业客户管理方面拥有超过十年的经验。最近，Golema在飞利浦照明和Signify支持园艺照明业务，与种植者和行业合作伙伴密切合作，推动园艺生产的创新解决方案。\n\n“Don最突出的是他真实且富有吸引力的商业方式，”McHutchison总裁Ken Turrentine表示。“他以建立牢固关系、诚信领导以及对客户和行业保持真正的好奇心而闻名。他的协作风格和对园艺的热情使他成为我们团队的优秀补充。”\n\nGolema最近刚加入公司，但园艺行业的许多人已经见过他，因为McHutchison团队刚刚参观了阿拉巴马州、佐治亚州和北卡罗来纳州的多个南方花园。这次旅行让他有机会会见供应商、学习业务，并立即熟悉许多客户和团队成员。\n\nGolema毕业于南伊利诺伊大学卡本代尔分校，获得项目管理学士学位。在McHutchison工作期间，他将常驻加州圣巴巴拉。",
+    "featuredReason": "该新闻主要涉及园艺领域的人事变动，与智慧畜牧（养殖业）的核心技术应用关联度极低，但可作为跨行业销售人才流动的参考。",
+    "publishedAt": "2026-07-01T16:00:00.000Z",
     "source": {
       "name": "Greenhouse Grower",
       "nameZh": "温室种植者",
       "tier": "T1.5"
     },
-    "sourceId": "greenhousegrower",
+    "species": "horticulture",
+    "category": "crop",
+    "subcategory": "horticulture",
+    "techTags": "",
+    "qualityScore": 23,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmr4bpmx0002950rd3wcd6nor",
+    "titleEn": "Underrated (And Overrated) Trends in Greenhouse Design, and Future Market Shifts",
+    "titleZh": "温室设计中被低估（与高估）的趋势及未来市场转变",
+    "url": "https://www.greenhousegrower.com/technology/underrated-and-overrated-trends-in-greenhouse-design-and-future-market-shifts/",
+    "summaryZh": "本文基于对温室制造商协会成员的调查，揭示了当前温室技术中被高估和低估的趋势。受访者指出，无线传感器、垂直农业、AI及复杂全自动化设施常被过度追捧，而气候趋势分析、匹配作物需求的温室设计、结构层面的运营效率、水肥灌溉以及真正懂运营的合作方则被低估。文章强调，简单但设计良好的系统往往比高度复杂的自动化设施更能带来投资回报，数据收集虽快但有效利用仍是挑战。",
+    "translationZh": "温室制造商和组件供应商正面临着与种植者相同的诸多压力。从利润空间收窄和能源成本，到自动化和集成方面不断变化的期望，塑造植物生产的力量正在改变其背后的结构和系统。为了更好地了解市场走向，《温室种植者》杂志对全国温室制造商协会（NGMA）的成员进行了调查，其产品范围涵盖从温室结构和覆盖材料到控制系统和照明系统。以下是第八部分，内容涉及温室技术中被低估和高估的趋势，以及供应商对未来市场转变的预测。您可以在此处找到该系列的前几部分，内容涵盖需要克服的脱节、标准项目与定制项目、地缘政治问题、资本投资趋势、能源成本、种植者痛点以及整体市场挑战与机遇。\n\n**当前受控环境农业中最被低估或高估的趋势是什么？**\n\n“无线传感器被高估了。被低估的可能是气候趋势分析，它应该被更多地用于确定产量信息、健康状况/体积/质量等。”\n\n“建造与气候相匹配的作物需求的温室是一个值得更多关注的趋势。垂直农场是最被高估的趋势。”\n\n“对我来说，是某些技术或术语，比如VPD（蒸汽压差）或作物调控。这些东西已经使用多年，但现在却被当作新事物来宣传。”\n\n“我认为最被高估的趋势是认为规模化技术能自动保证盈利。最被低估的方面是结构层面的运营效率——材料、设计和环境控制系统如何协同工作。这才是真正实现长期收益的地方。”\n\n“一个被高估的趋势是认为高度复杂、全自动化的设施总是最佳解决方案。在许多情况下，更简单、设计良好的温室系统，配合良好的环境控制和灌溉自动化，能提供更好的投资回报。数据收集也在迅速增加，但许多种植者仍在摸索如何有效利用这些数据。人们对利用AI帮助解读数据和优化种植的兴趣日益浓厚，但这种方法最适合于作物一致、生长条件稳定的大型单一作物农场。许多小型种植者生产多种作物，这使得标准化的作物模型和AI优化变得更加困难。”\n\n“最被低估的可能是施肥灌溉。”\n\n“AI是最被高估的；它只是基于系统根据先前输入进行调整的事实信息。”\n\n“高估：纯粹的灯具效能。如果光谱对植物不合适，一个超高效的灯也是无用的。低估：与懂得如何运营温室的公司合作。”\n\n“在我看来，最被高估的是垂直农业。它尚未完善，而且",
+    "featuredReason": "尽管本文聚焦温室园艺，但其中关于自动化、AI、传感器、数据利用及运营效率的讨论，对智慧畜牧行业（如智能环控、精准饲喂、数据驱动决策）具有高度借鉴意义，尤其是对技术落地时避免盲目追求复杂化、重视基础运营效率的警示。",
+    "publishedAt": "2026-07-01T16:00:00.000Z",
+    "source": {
+      "name": "Greenhouse Grower",
+      "nameZh": "温室种植者",
+      "tier": "T1.5"
+    },
+    "species": "horticulture",
+    "category": "crop",
+    "subcategory": "horticulture",
+    "techTags": "",
+    "qualityScore": 58,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmqz24r19008bdidx33p1egi3",
+    "titleEn": "Presenting Greenhouse Grower’s 2026 Technology of the Year Finalists",
+    "titleZh": "2026年温室种植者年度技术奖入围名单揭晓",
+    "url": "https://www.greenhousegrower.com/technology/presenting-greenhouse-growers-2026-technology-of-the-year-finalists/",
+    "summaryZh": "本文介绍了2026年温室种植者年度技术奖的三项入围技术：Air Tray Technologies通过空气修剪根系改善根质量和生产效率；PARPerfect Shading System实现动态精准光照控制，提升作物均匀性和光利用效率；Pot-in-Tray Machine自动化装盆入盘，大幅提高温室作业效率。这些技术虽聚焦园艺温室场景，但其自动化、传感器控制、精准环境管理等理念对智慧畜牧行业（如环境调控、自动化作业）具有跨领域借鉴价值。",
+    "translationZh": "温室种植者将在7月13日Cultivate'26的卓越之夜颁发多个奖项。在获奖者公布之前，您有机会了解今年年度技术奖的入围者。\n\n**Air Tray Technologies（Blackmore公司）**\n\nAir Tray Technologies为种植者提供了一种实用的方法，无需彻底改造种植系统即可改善根系质量、作物均匀性和生产效率。它针对我们行业的一个核心问题：由于持续使用传统圆形容器导致根系盘旋，从而造成根系发育效率低下。通过促进空气修剪的纤维状根系系统，Air Tray帮助植物在移栽后更快定植、更一致地恢复，并更高效地利用水分和养分。通过促进空气修剪的、纤维状的、非盘旋的根系，Air Tray有助于从生产初期就培育出更高效的植物。它改善了根区的氧气交换，减少了过湿条件，并支持移栽或换盆后更一致的定植。该技术还非常灵活，提供多种托盘和容器尺寸，适用于园艺和农业作物，包括观赏植物、树木、灌木、柑橘和葡萄栽培。\n\n**PARPerfect Shading System（Svensson公司）**\n\nPARperfect将温室光照管理从固定或反应性遮光方法推进到基于光合有效辐射（PAR）的动态、精准控制。它能够根据室外辐射变化和作物需求连续调整遮光水平，并采用双层幕布配置，将高散射性的Harmony PARperfect气候幕布与可变遮光幕布配对，实现全天幕布位置从约20%到100%的渐进控制。这种设计使种植者能够稳定PAR水平，同时避免可能导致作物胁迫、叶片损伤或不均匀生长的直射阳光峰值。过去几年中，PARperfect的采用支持了更好的光照均匀性、更高的可用累积光照以及更一致的生长条件，尤其适用于对极端光照敏感的观赏花卉作物。\n\n**Pot-in-Tray Machine（BOLD Robotic Solutions公司）**\n\nPot-In-Tray Machine是一种高效、可靠的解决方案，针对行业中重复性最高、最耗时的任务之一。通过自动化将花盆高速装入托盘的过程，BOLD帮助温室减少了非生产性开销和运营波动。Pot-In-Tray Machine的紧凑设计在保持强大性能的同时，最大限度地提高了狭小工作空间的效率，高速输出可达每分钟15个托盘。快速模块化换型允许在不同尺寸之间轻松切换，创建了需要最少人工干预的简化工作流程。该机器还",
+    "featuredReason": "虽然聚焦园艺温室，但三项技术分别涉及根系环境优化、动态光照精准控制、自动化作业，其传感器、AI决策、机器人自动化等核心逻辑与智慧畜牧中的环境调控、饲喂机器人、数据驱动管理高度相通，可为畜牧从业者提供跨领域创新启发。",
+    "publishedAt": "2026-06-25T16:00:00.000Z",
+    "source": {
+      "name": "Greenhouse Grower",
+      "nameZh": "温室种植者",
+      "tier": "T1.5"
+    },
     "species": "horticulture",
     "category": "crop",
     "subcategory": "horticulture",
     "techTags": "",
     "qualityScore": 54,
-    "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-25T16:00:00.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmqz24r2l008ldidx4fc6kwmr",
     "titleEn": "Costs, Lead Time Concerns Leading to More Standardization in Greenhouse Technology",
     "titleZh": "成本与交货期压力推动温室技术标准化趋势",
-    "summaryZh": "本文基于对美国国家温室制造商协会（NGMA）成员的调查，探讨了温室制造商在成本上升、利润压缩的背景下，是倾向于标准化产品还是定制化方案。多数受访者表示，为降低工程成本、缩短交货期，正逐步推出标准化基础产品，但大型复杂项目仍需定制。部分企业同时提供两种选项，或通过硬件标准化、软件/服务定制来平衡效率与灵活性。该趋势反映了农业设施行业在自动化、集成化需求下的战略调整。",
-    "featuredReason": "温室行业的标准化与定制化博弈，与智慧畜牧中养殖设备、环控系统的模块化、可扩展设计思路高度相通，可为畜牧自动化方案的成本控制与交付效率提供参考。",
     "url": "https://www.greenhousegrower.com/technology/costs-lead-time-concerns-leading-to-more-standardization-in-greenhouse-technology/",
+    "summaryZh": "本文基于对美国国家温室制造商协会（NGMA）成员的调查，探讨了温室制造商在成本上升、利润压缩的背景下，是倾向于标准化产品还是定制化方案。多数受访者表示，为降低工程成本、缩短交货期，正逐步推出标准化基础产品，但大型复杂项目仍需定制。部分企业同时提供两种选项，或通过硬件标准化、软件/服务定制来平衡效率与灵活性。该趋势反映了农业设施行业在自动化、集成化需求下的战略调整。",
+    "translationZh": "温室制造商和组件供应商正面临着与种植者相同的压力。从利润空间收窄和能源成本，到对自动化和集成化不断变化的期望，塑造植物生产的各种力量正在改变其背后的结构和系统。为了更好地了解市场走向，《温室种植者》杂志对美国国家温室制造商协会（NGMA）的成员进行了调查，他们的产品涵盖从温室结构和覆盖物到控制系统和照明系统。以下是第六部分，我们探讨制造商是在标准化其产品，还是转向更定制化的解决方案。您可以在此处找到该系列的前几部分，内容涉及地缘政治问题、资本投资趋势、能源成本、种植者痛点以及整体市场挑战与机遇。\n\n**您是否更倾向于标准化产品，还是转向更定制化的解决方案？为什么？**\n\n“我们正朝着为小型和低成本系统提供更多标准化产品的方向发展，以缩短交货期并减少工程时间。然而，大型复杂项目仍然需要定制解决方案。我们公司的优势在于我们的工程团队以及为每位客户设计合适解决方案的能力，而不是采用一刀切的方法。”——帕特里夏·迪恩，Wadsworth Control Systems\n\n“我们正在标准化低成本、入门级产品，同时保留以后完全定制的选项。”——鲍勃·布伦斯，Link4 Corp.\n\n“我们正在标准化基础产品以控制成本，同时在一定程度上以更高的价格点扩展定制化解决方案。”——贾斯汀·雅各布斯，Argus Controls Ltd.\n\n“尽管我们努力标准化，但客户仍然不断要求定制化解决方案。”——亚当·庞德，AgraTech Inc.\n\n“更多定制化。对特定植物的研究需要特定的生长环境。我们享受定制化。”——约书亚·苏彻，Crystal Structures\n\n“我的公司两种选项都提供。我们有标准的现成产品，但如果客户要求非标准的东西，我们也可以在一定程度上进行定制。”——约翰·尤勒，Vostermans Ventilation Inc.\n\n“我们标准化硬件，但定制化体验。从本质上讲，我们一直是根据种植者的需求进行定制或量身定做。”——卡西姆·特伦布莱，Sollum Technologies\n\n“35年来，我们一直是一家定制化工厂。现在我们正朝着标准化的方向发展，以提高效率和利润。”——厄尔·克雷克，Green-Tek, Inc.\n\n“我们正在标准化核心产品线，以提高运营效率、可扩展性和供应链可靠性。然而，市场仍然需要定制化，特别是在高性能温室应用中，投资回报率与精确的环境控制和产量优化息息相关。因此，我们专注于在规模化运营中保持高效，同时在最重要的地方保持灵活性。”——彼得·卢卡·阿尔迪佐内，Macrolux USA\n\n“我们一直提供定制化解决方案，但商品和劳动力成本迫使您考虑标准化。”——蒂姆·劳尔",
+    "featuredReason": "温室行业的标准化与定制化博弈，与智慧畜牧中养殖设备、环控系统的模块化、可扩展设计思路高度相通，可为畜牧自动化方案的成本控制与交付效率提供参考。",
+    "publishedAt": "2026-06-24T16:00:00.000Z",
     "source": {
       "name": "Greenhouse Grower",
       "nameZh": "温室种植者",
       "tier": "T1.5"
     },
-    "sourceId": "greenhousegrower",
     "species": "horticulture",
     "category": "crop",
     "subcategory": "horticulture",
     "techTags": "",
     "qualityScore": 55,
-    "isFeatured": true,
     "isHot": false,
-    "publishedAt": "2026-06-24T16:00:00.000Z"
+    "multiSourceCount": 1
   },
   {
     "id": "cmr2zkgvy0015fjps7uuduid1",
     "titleEn": "From novelty to necessity: Why tulip growers are betting on robotic disease selection",
     "titleZh": "从新奇到必需：郁金香种植者为何押注机器人病害筛选",
-    "summaryZh": "本文报道了H2L Selector 180和225两款机器人，它们能识别并处理郁金香花床中的病株，已售出139台，用户平均评分4.1/5。尽管机器人病害筛选正成为主流，但种植者强调，广泛采用仍需进一步提升可靠性和性能。文章通过四位用户的经验分享，展示了该技术在园艺领域的实际应用价值与挑战。",
-    "featuredReason": "虽然聚焦于园艺（郁金香），但机器人病害筛选技术、用户反馈与可靠性改进路径，对智慧畜牧中类似自动化病害检测（如猪只健康监测、禽类疫病识别）具有直接借鉴意义。",
     "url": "https://www.futurefarming.com/smart-farming/from-novelty-to-necessity-why-tulip-growers-are-betting-on-robotic-disease-selection/",
+    "summaryZh": "本文报道了H2L Selector 180和225两款机器人，它们能识别并处理郁金香花床中的病株，已售出139台，用户平均评分4.1/5。尽管机器人病害筛选正成为主流，但种植者强调，广泛采用仍需进一步提升可靠性和性能。文章通过四位用户的经验分享，展示了该技术在园艺领域的实际应用价值与挑战。",
+    "translationZh": "H2L Selector 180及其更大的兄弟型号225，是能够识别并处理花床中患病郁金香的机器人。这两款机器人的作业宽度分别为180厘米和225厘米，专为郁金香种植而生产。H2L目前已售出139台。\n\nH2L Selector已走出实验阶段。凭借139台的销量和用户给出的平均4.1分（满分5分）评价，机器人病害筛选正在郁金香生产中成为主流。然而，种植者强调，广泛采用将取决于可靠性和性能的进一步改进。Future Farming采访了四位H2L Selector 180的用户，了解他们对这款机器人的使用体验。结论是：在5分制的评分中，平均得分4.1，他们普遍持积极态度。",
+    "featuredReason": "虽然聚焦于园艺（郁金香），但机器人病害筛选技术、用户反馈与可靠性改进路径，对智慧畜牧中类似自动化病害检测（如猪只健康监测、禽类疫病识别）具有直接借鉴意义。",
+    "publishedAt": "2026-06-16T07:00:00.000Z",
     "source": {
       "name": "Future Farming",
       "nameZh": "未来农业",
       "tier": "T1"
     },
-    "sourceId": "futurefarming",
     "species": "horticulture",
     "category": "crop",
     "subcategory": "horticulture",
     "techTags": "",
     "qualityScore": 80,
-    "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-16T07:00:00.000Z"
+    "multiSourceCount": 1
   }
 ]
