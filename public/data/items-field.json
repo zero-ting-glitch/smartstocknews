@@ -110,6 +110,28 @@
     "multiSourceCount": 1
   },
   {
+    "id": "cmr2zkguy000vfjpsw3ihwljh",
+    "titleEn": "Rauch shows latest top-of-the-range fertiliser spreader at DLG Feldtage",
+    "titleZh": "劳赫在DLG田间日展示最新顶级肥料撒播机Axis 55",
+    "url": "https://www.futurefarming.com/crop-solutions/rauch-shows-latest-top-of-the-range-fertiliser-spreader-at-dlg-feldtage/",
+    "summaryZh": "劳赫在DLG田间日推出新型Axis 55肥料撒播机，取代Axis 50.2系列，配备3500升料斗，最大流量提升30%至675公斤/分钟，工作宽度12-56米，仅需3套撒播盘。支持高速作业（25公里/小时下36米幅宽可施900公斤/公顷），并配备新型GSE-X边界撒播板和Axmat-X雷达监测系统。该设备虽主要面向大田作物，但其精准撒播和自动化监测技术对智慧种植业有参考价值。",
+    "translationZh": "DLG田间日上并没有太多机器首发，但肥料撒播机制造商劳赫确实利用该活动展示了一款新机器。\n\n而Axis 55，在制造商去年推出新款Axis 25之后，立即成为顶级型号。Axis 55接替现有的Axis 50.2系列，因此也将提供机械式PTO驱动版本和液压驱动版本。与其“小兄弟”Axis 25的相似之处在于最大流量提升至675公斤/分钟，比之前增加了30%。劳赫进一步开发了撒播盘和叶片，以覆盖更宽的工作宽度范围。其意图是使用3套撒播盘即可实现12至56米宽的撒播，尽管不能排除对于轻质肥料在大工作宽度下可能需要第4套撒播盘。\n\n**高达900公斤/公顷**\n\n这款新的劳赫顶级型号顺应了提高产能的发展趋势，料斗容积尤其是流量增加，以便在相对较高的前进速度下进行撒播。得益于增加的流量，在36米工作宽度、25公里/小时行驶速度下，应能施用900公斤/公顷。在另一个极端，低施用量（例如杀蛞蝓颗粒剂）无需改装或附件即可施用。\n\n**3套撒播盘，可达56米**\n\n根据肥料类型，撒播机的最小工作宽度为12米，最大为56米。为此“仅”需要3套不同的撒播盘。此前覆盖这些工作宽度需要6套撒播盘。撒播盘和叶片的形状已针对更多工作宽度进行了进一步开发，此前为18-50米，并且叶片仍采用涂层处理以延长使用寿命。边界撒播板也是新的，现称为GSE-X。使用它，在畦作栽培中还可以防止肥料落入轮辙中。\n\n可选的Axmat系统（带雷达传感器用于监测撒播模式）和GSE边界撒播板也已更新，现分别称为Axmat-X和GSE-X。使用后者，在畦作栽培中还可以防止肥料落入轮辙中。\n\nAxis 55的最大有效载荷为5500公斤，制造商强调，在选择最大料斗容积时，可以装载多达6500升容重较低的肥料。熟悉的EMC系统自动监测流量，从而监测施用量。为了了解当前料斗内容物，劳赫像以前一样提供称重框架。\n\n进口商Reesink Agri将",
+    "featuredReason": "该新闻展示了肥料撒播机在精准农业方面的最新进展，尤其是流量提升、自动化监测和边界控制技术，对智慧种植业（大田作物）的精准施肥实践具有参考价值。",
+    "publishedAt": "2026-06-23T07:00:00.000Z",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 50,
+    "isHot": false,
+    "multiSourceCount": 1
+  },
+  {
     "id": "cmr2zkgv5000xfjpsgszj6ovl",
     "titleEn": "Tested: first Einböck intra-row precision hoe",
     "titleZh": "首台Einböck行内精准中耕机实地测试",

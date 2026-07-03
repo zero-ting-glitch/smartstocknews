@@ -18,6 +18,15 @@
     "qualityScore": 85
   },
   {
+    "id": "cmr3a8vgf003510tszt3843as",
+    "titleEn": "Spring Innovation Fund debuts as first venture philanthropy firm dedicated to animal welfare tech",
+    "titleZh": "Spring创新基金：首家专注动物福利科技的风险慈善工作室",
+    "url": "https://agfundernews.com/spring-innovation-fund-debuts-as-first-venture-philanthropy-firm-dedicated-to-animal-welfare-tech",
+    "multiSourceCount": 1,
+    "publishedAt": "2026-06-30T15:30:19.000Z",
+    "qualityScore": 85
+  },
+  {
     "id": "cmr2zkgu8000nfjps6ec4tmww",
     "titleEn": "Agreenculture acquires Chouette to add agronomic intelligence to autonomous machines",
     "titleZh": "Agreenculture收购Chouette：为自主农机注入农艺智能",
@@ -33,15 +42,6 @@
     "url": "https://www.futurefarming.com/smart-farming/horsch-enters-into-partnership-with-application-map-specialist/",
     "multiSourceCount": 1,
     "publishedAt": "2026-06-24T13:19:17.000Z",
-    "qualityScore": 80
-  },
-  {
-    "id": "cmr2zkgut000tfjpsn6ws4mhq",
-    "titleEn": "Australian vegetable farm puts 2 weeding technologies to the test",
-    "titleZh": "澳大利亚蔬菜农场实测两种除草技术",
-    "url": "https://www.futurefarming.com/crop-solutions/australian-vegetable-farm-puts-2-weeding-technologies-to-the-test/",
-    "multiSourceCount": 1,
-    "publishedAt": "2026-06-24T06:28:12.000Z",
     "qualityScore": 80
   }
 ]
