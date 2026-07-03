@@ -4,8 +4,109 @@
     "titleEn": "Agreenculture acquires Chouette to add agronomic intelligence to autonomous machines",
     "titleZh": "Agreenculture收购Chouette：为自主农机注入农艺智能",
     "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/agreenculture-acquires-chouette-to-add-agronomic-intelligence-to-autonomous-machines/",
-    "multiSourceCount": 1,
+    "summaryZh": "法国自主农机专家Agreenculture收购了专注于葡萄栽培AI农艺分析的公司Chouette，将自主导航技术与实时作物监测算法结合，使机器不仅能自主作业，还能解读田间数据。该技术已处理超2亿张图像，覆盖法国8%葡萄园，未来将扩展至果园等特种作物，旨在应对劳动力短缺、成本上升和农业环境转型等挑战。",
+    "translationZh": "法国自主农机专家Agreenculture收购了Chouette——一家专注于葡萄栽培AI农艺分析的公司。该交易将Agreenculture的自主技术与Chouette的作物监测算法相结合，旨在打造既能独立作业又能解读田间所见信息的机器。\n\n此次收购是Agreenculture更广泛战略的一部分，即构建一个涵盖机器路径管理和地块级农艺分析的一体化平台。结合Chouette团队，Agreenculture约60人的工业和技术人员队伍预计将加速现有开发工作，特别是在检测葡萄金黄化病方面——这是法国葡萄栽培面临的一种严重植物检疫威胁。\n\n**扩展底层技术**\n两家公司计划将底层技术扩展到其他特种作物，如果园，并逐步将这些能力融入Agreenculture向设备制造商提供的自主解决方案中。据两家公司称，总体目标是应对该行业最紧迫的一些挑战：劳动力短缺、投入成本上升、农场盈利能力以及农业面临的环境转型。\n\n**自主套件**\nAgreenculture花了十多年时间开发自主套件，使设备制造商能够部署可在无人监督下运行并符合欧洲安全标准的拖拉机和机器。Chouette为这一组合带来了不同的能力：车载农艺分析，可将田间观察转化为作物管理洞察，包括葡萄藤健康监测、田间变异绘图和早期病害检测。\n\n**庞大的数据集**\nAgreenculture首席执行官Christophe Aubé将此次收购视为自主农业缺失的一环。据Aubé称，没有对地形的真正农艺理解，自主田间作业是不完整的。Chouette的技术依赖于安装在拖拉机上的传感器，这些传感器可捕获高分辨率田间图像。该系统处理这些图像以标记白粉病、葡萄藤枯病和缺株等情况，同时跟踪冠层活力并生成葡萄园健康的地理参考地图。\n\n在此过程中，该公司积累了庞大的数据集：在法国超过64,000公顷的土地上处理了超过2亿张图像——约占该国葡萄园总面积的8%——跨越11个生长季。\n\n**新阶段的开始**\nChouette联合创始人Cyril de Chassey和Charles Nespoulous将此次收购描述为一个新阶段的开始。",
+    "featuredReason": "该案例展示了如何将AI农艺分析与自主农机深度融合，为智慧畜牧中类似场景（如果园、牧场监测）提供了可借鉴的技术路径和商业模式。",
     "publishedAt": "2026-06-25T06:30:00.000Z",
-    "qualityScore": 80
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 80,
+    "isHot": true,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmr2zkguf000pfjps2gb6ihze",
+    "titleEn": "Fieldwork Robotics secures new funding to accelerate raspberry harvesting robot",
+    "titleZh": "Fieldwork Robotics获新融资，加速树莓采摘机器人商业化",
+    "url": "https://www.futurefarming.com/smart-farming/fieldwork-robotics-secures-new-funding-to-accelerate-raspberry-harvesting-robot/",
+    "summaryZh": "英国Fieldwork Robotics获得SEED Innovations等投资方共250万英镑种子+轮融资，用于加速其自主树莓采摘机器人的商业化部署。该机器人已在英国商业农场测试，计划2027年实现多机集群商业运营，并拓展至澳大利亚。技术旨在解决劳动力短缺导致的果实损失问题，降低采摘成本并提升产量。",
+    "translationZh": "总部位于英国的Fieldwork Robotics已从SEED Innovations获得额外投资，以加速其自主树莓采摘机器人的商业部署。SEED Innovations是一家投资公司，由企业家Jim Mellon担任董事长。\n\n该投资是250万英镑（约290万欧元/340万美元）种子+轮融资的一部分。此前该公司已于2026年4月完成一轮220万英镑（约250万欧元/300万美元）融资，此外还获得了Innovate UK和一项气候补助金提供的170万英镑（约200万欧元/230万美元）资助。\n\n**从技术验证转向商业农场部署**\n\nFieldwork Robotics是普利茅斯大学的衍生公司，专注于开发用于采摘新鲜树莓的选择性模块化机器人。该公司目前正通过为期两年的Innovate UK ADOPT项目，在诺福克郡的Place UK和斯塔福德郡的Littywood Farm部署生产型机器人。据首席执行官David Fulton称，这笔额外资金将支持公司从技术验证转向商业农场部署。该公司计划在澳大利亚开展试验，拓展英国以外的市场，并预计从2027年起实现多台机器人集群的商业化运营。\n\n**降低采摘成本**\n\nSEED Innovations董事长Jim Mellon表示，该技术解决了浆果种植者面临的最大挑战之一。他指出，劳动力短缺可能导致大量果实损失，而自主采摘提供了一种可扩展的解决方案来提高生产力。Fieldwork表示，其目标是实现与人工采摘相当的果实品质，同时降低采摘成本，使种植者能够扩大生产规模。",
+    "featuredReason": "该新闻展示了机器人采摘技术在果蔬领域的突破性进展，对智慧畜牧行业人士理解自动化采摘在种植业中的落地路径、融资模式及规模化前景具有重要参考价值。",
+    "publishedAt": "2026-06-25T06:00:00.000Z",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 79,
+    "isHot": true,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmr4ekuvl000vc2wk8ic01amu",
+    "titleEn": "Fieldwork Robotics secures new funding to accelerate raspberry harvesting robot",
+    "titleZh": "Fieldwork Robotics获新融资加速树莓采摘机器人商业化",
+    "summaryZh": "英国Fieldwork Robotics获得SEED Innovations等投资方共250万英镑种子轮融资，用于加速其自主树莓采摘机器人的商业化部署。该机器人已在英国商业农场测试，计划2027年实现多机器人集群商业运营。技术旨在解决劳动力短缺导致的果实损失问题，降低采摘成本并提升产量。",
+    "featuredReason": "该新闻展示了采摘机器人在高价值水果领域的商业化进展，对智慧畜牧行业人士理解自动化技术在种植业中的落地路径和投资趋势有参考价值。",
+    "url": "https://www.futurefarming.com/smart-farming/fieldwork-robotics-secures-new-funding-to-accelerate-raspberry-harvesting-robot/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 75,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-25T06:00:00.000Z"
+  },
+  {
+    "id": "cmr2zkgut000tfjpsn6ws4mhq",
+    "titleEn": "Australian vegetable farm puts 2 weeding technologies to the test",
+    "titleZh": "澳大利亚蔬菜农场实测两种除草技术",
+    "url": "https://www.futurefarming.com/crop-solutions/australian-vegetable-farm-puts-2-weeding-technologies-to-the-test/",
+    "summaryZh": "澳大利亚有机蔬菜农场Busch Organics测试了两种前沿除草技术：丹麦Agrointelli公司的自主机器人平台Robotti，以及激光除草设备。该农场位于维多利亚州吉普斯兰，占地超过300英亩，已有百年历史。文章介绍了这些技术如何帮助有机农场减少人工除草依赖，提高效率，并可能重塑有机蔬菜种植方式。",
+    "translationZh": "位于澳大利亚吉普斯兰拜恩斯代尔附近的米切尔河滩，可能不是你最先想到能看到农业机器人作业的地方。但在这个由凯恩·布施的曾祖父在一个多世纪前建立的有机农场上，这个家族正在试验可能重塑有机蔬菜种植方式的技术。\n\nBusch Organics农场占地超过300英亩（121公顷），位于拜恩斯代尔以西13公里的丘陵地带。获得有机认证意味着每一……\n\n**获取《未来农业》全部深度文章**\n这篇高级文章仅对订阅用户开放\n获取独家采访洞见\n借助我们的购买指南做出正确采购决策\n深入阅读涵盖创新发展的文章\n所有新闻均由来自世界各地的资深编辑和专家为您呈现\nGeert Hekkert、Matt Mcintosh、René Groeneveld\n查看订阅选项\n已有订阅？点击此处登录\n\nRené Groeneveld 澳大利亚特约记者\n\n更多关于：自主技术、激光除草、机械除草、有机农业、机器人采收\n\n相关文章\n30-06 | 图片报道\nDLG田间日：炎热、尘土飞扬且相对安静\n25-06 | 新闻\nAgreenculture收购Chouette，为自主机器增加农艺智能\n25-06 | 新闻\nFieldwork Robotics获得新资金，加速树莓采收机器人研发\n15-06 | 专家观点\n如果粮食安全具有战略意义，为何农业创新仍难以规模化？\n\n购买指南与目录\n订阅我们的YouTube频道\n台湾智慧农业周2026\n2026年9月8-10日 台北南港展览馆1馆",
+    "featuredReason": "该新闻展示了自主机器人和激光除草技术在有机蔬菜种植中的实际应用案例，对智慧畜牧行业人士理解跨领域自动化技术趋势具有参考价值，尤其是机器人平台在精准农业中的潜力。",
+    "publishedAt": "2026-06-24T06:28:12.000Z",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 80,
+    "isHot": true,
+    "multiSourceCount": 1
+  },
+  {
+    "id": "cmr4ekuvp000zc2wkrzkj0fq3",
+    "titleEn": "Australian vegetable farm puts 2 weeding technologies to the test",
+    "titleZh": "澳大利亚蔬菜农场实测两种除草技术",
+    "summaryZh": "澳大利亚一家百年有机农场在蔬菜种植中测试了两种前沿除草技术：丹麦Agrointelli公司的自主作业平台Robotti和激光除草设备。该试验旨在解决有机农业中杂草控制这一核心难题，展示了自动化与精准技术在果蔬种植中的实际应用潜力，为智慧农业在种植业中的落地提供了参考案例。",
+    "featuredReason": "该新闻展示了自动化除草技术在有机蔬菜种植中的实际测试，虽然直接针对种植业，但其涉及的自主机器人、精准作业等技术与智慧畜牧中的自动化饲喂、巡检等场景高度相通，值得畜牧从业者借鉴跨界技术思路。",
+    "url": "https://www.futurefarming.com/crop-solutions/australian-vegetable-farm-puts-2-weeding-technologies-to-the-test/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 77,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-24T06:28:12.000Z"
   }
 ]

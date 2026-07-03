@@ -1,0 +1,35 @@
+{
+  "id": "cmr4el9go017hc2wk1julz512",
+  "titleEn": "USDA lowers US broiler price forecast for 2026, lifts 2027 outlook",
+  "titleZh": "美国农业部下调2026年肉鸡价格预测，上调2027年展望",
+  "summaryZh": "美国农业部（USDA）最新报告显示，由于春季价格稳定，2026年美国肉鸡价格预测小幅下调至121.9美分/磅，而2027年预计上涨1.7%至124美分/磅，主要受竞争性动物蛋白价格强劲支撑。该新闻对肉鸡养殖业市场预期有重要参考价值，但与智慧畜牧技术（IoT/AI/自动化等）的直接关联度较低。",
+  "featuredReason": "该新闻提供了美国肉鸡市场未来两年的价格趋势预测，对从事肉鸡养殖的智慧畜牧企业制定生产计划和市场策略具有参考价值，但技术相关性有限。",
+  "url": "https://www.thepoultrysite.com/news/2026/06/usda-lowers-us-broiler-price-forecast-for-2026-lifts-2027-outlook",
+  "source": {
+    "name": "The Poultry Site",
+    "nameZh": "禽业网",
+    "tier": "T1.5"
+  },
+  "sourceId": "thepoultrysite",
+  "species": "poultry",
+  "category": "livestock",
+  "subcategory": "poultry",
+  "techTags": "",
+  "qualityScore": 33,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-06-16T13:19:00.000Z",
+  "contentFull": "Markets & policy Market trends USDA lowers US broiler price forecast for 2026, lifts 2027 outlook Stable spring prices prompt modest downward revision 16 June 2026 1 minute read By: Global Ag Media North America The US Department of Agriculture has revised its 2026 broiler price forecast lower while projecting a modest increase for 2027, according to the agency's latest estimates.The national composite wholesale whole broiler price averaged 121.13 cents per pound in April. Weekly averages for the weeks ending May 1 and May 8 came in at 122.75 and 121.86 cents per pound respectively.With prices holding relatively stable, the USDA lowered its second-quarter 2026 projection by 3 cents to 122 cents per pound. Third- and fourth-quarter forecasts were also trimmed to 123 cents per pound each, bringing the projected annual average for 2026 to 121.9 cents per pound, down 1.7 cents from last month's estimate.For 2027, the USDA projected the national composite whole broiler price will average 124 cents per pound, up 1.7% from 2026, with strong prices for competing animal proteins expected to support broiler markets. Our Partners World Poultry Science Association Congress Poultry Science Association Targan dsm-firmenich Lallemand Lanxess BioZyme Hy-Line International Global Ag Media More from this author More News View all WOAH reports 2.16 million birds lost to HPAI in May Health & disease Diseases Avian influenza 1 July 2026 1 minute read Canadian firms launch world's earliest in-ovo egg sexing system In-ovo sexing 1 July 2026 1 minute read Hyperspectral technology determines sex from day four of incubation Nepal culls birds as H5N1 outbreak spreads to 11 districts Health & disease Diseases Avian influenza 1 July 2026 1 minute read Kathmandu Valley worst affected as zoo closes to public Our Partners World Poultry Science Association Congress Poultry Science Association Targan dsm-firmenich Lallemand Lanxess BioZyme Hy-Line International",
+  "translationZh": "美国农业部（USDA）根据其最新预估，下调了2026年肉鸡价格预测，同时预计2027年将小幅上涨。\n\n4月份全国综合批发整鸡均价为每磅121.13美分。截至5月1日和5月8日的周均价分别为每磅122.75美分和121.86美分。\n\n由于价格保持相对稳定，USDA将2026年第二季度预测下调3美分至每磅122美分。第三和第四季度预测也下调至每磅123美分，使得2026年全年预测均价为每磅121.9美分，较上月预估下降1.7美分。\n\n对于2027年，USDA预计全国综合批发整鸡均价为每磅124美分，较2026年上涨1.7%，竞争性动物蛋白价格强劲预计将支撑肉鸡市场。",
+  "images": [
+    "https://cdn1.globalagmedia.com/Pagebuilder/Facebook.svg",
+    "https://cdn1.globalagmedia.com/Pagebuilder/Twitter.svg",
+    "https://cdn1.globalagmedia.com/Pagebuilder/Linkedin.svg",
+    "https://cdn1.globalagmedia.com/Pagebuilder/E-mail.svg",
+    "https://cdn1.globalagmedia.com/poultry/articles/layers-and-eggs/eggs/_articleCard/eggs-incubator.jpg",
+    "https://cdn1.globalagmedia.com/poultry/articles/health-disease-pests/_articleCard/avian-influenza_2023-05-19-174235_oweb.jpg"
+  ],
+  "author": "",
+  "contentHtml": "USDA lowers US broiler price forecast for 2026, lifts 2027 outlook \nStable spring prices prompt modest downward revision",
+  "scrapeMethod": "web_scrape"
+}

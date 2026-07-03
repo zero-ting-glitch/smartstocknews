@@ -1,0 +1,35 @@
+{
+  "id": "cmr4el68400gbc2wkmln3bxbj",
+  "titleEn": "EU protein gap puts focus on Ukrainian soybeans",
+  "titleZh": "欧盟蛋白质缺口聚焦乌克兰大豆：供应潜力与监管挑战并存",
+  "summaryZh": "本文报道了欧盟为应对饲料蛋白需求增长和全球市场波动，将乌克兰大豆视为潜在供应来源的讨论。乌克兰年产大豆约600万吨，已向欧盟出口大量非转基因大豆，但面临欧盟毁林法规和RED III指令等合规成本压力。乌克兰政府呼吁更早参与欧盟政策制定，以协调贸易与可持续目标。该新闻对智慧畜牧行业影响有限，但涉及饲料原料供应链稳定性，间接影响养殖成本。",
+  "featuredReason": "虽然本文不直接涉及智慧畜牧技术，但饲料原料供应链的稳定性和可持续性法规变化直接影响养殖成本与生产规划，值得关注行业宏观趋势的从业者阅读。",
+  "url": "https://www.thepigsite.com/news/2026/04/eu-protein-gap-puts-focus-on-ukrainian-soybeans",
+  "source": {
+    "name": "The Pig Site",
+    "nameZh": "猪业网",
+    "tier": "T1.5"
+  },
+  "sourceId": "thepigsite",
+  "species": "field",
+  "category": "crop",
+  "subcategory": "field",
+  "techTags": "",
+  "qualityScore": 41,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-04-27T23:00:00.000Z",
+  "contentFull": "Policy and regulation Market Trends Feed markets EU protein gap puts focus on Ukrainian soybeans Panel highlights supply potential but warns of EU rules burden 28 April 2026 1 minute read By: Global Ag Media Europe Europe is looking at how to secure long-term protein supplies as livestock feed demand rises and global markets become more volatile, with Ukrainian soybeans highlighted as a potential source, according to a government-issued press release. The issue was discussed at a European Parliament panel on a European protein strategy, where Ukrainian officials said the country could play a larger role in supplying the EU feed market.EU domestic soybean production is around 3 million tonnes, while demand is estimated at more than 35 million tonnes. Ukraine produces about 6 million tonnes annually and already exports a significant share to the EU.Around 25% of Ukrainian soybeans are currently certified as meeting EU standards and are produced without genetically modified organisms, according to Ukrainian officials. They also pointed to proximity to the EU, lower transport costs, and scope for expanding processing as advantages.At the same time, exporters highlighted regulatory challenges, including the EU Deforestation Regulation, which requires detailed traceability of supply chains, and the RED III directive on biofuels feedstock sustainability. They said these requirements add compliance and certification costs, particularly for smaller producers.The Ukraine government called for closer involvement in EU policy discussions as new regulations are developed, arguing that clearer frameworks would help align trade and sustainability goals. Our Partners PIC dsm-firmenich Lanxess Hamlet Protein Global Ag Media More from this author More News View all US food stamp cuts strip 4.7 million of benefits Policy and regulation Government and regulatory Food Security 25 June 2026 5 minute read US pork exports to Philippines up 26% in April Markets Imports and Exports 24 June 2026 1 minute read Four-month shipments 21% above last year Hog futures mixed as pork prices slide - CME Market Trends Markets and economics 24 June 2026 1 minute read Cattle futures fall on profit-taking and demand concerns Our Partners PIC dsm-firmenich Lanxess Hamlet Protein",
+  "translationZh": "欧洲正在寻求如何确保长期蛋白质供应，因为牲畜饲料需求上升且全球市场变得更加波动，根据一份政府发布的新闻稿，乌克兰大豆被强调为潜在来源。这一问题在欧洲议会的欧洲蛋白质战略小组会议上进行了讨论，乌克兰官员表示该国可以在供应欧盟饲料市场方面发挥更大作用。\n\n欧盟国内大豆产量约为300万吨，而需求估计超过3500万吨。乌克兰年产量约600万吨，且已向欧盟出口相当大份额。\n\n据乌克兰官员称，目前约25%的乌克兰大豆已通过认证符合欧盟标准，且为非转基因生产。他们还指出，靠近欧盟、运输成本较低以及扩大加工空间是优势。\n\n与此同时，出口商强调了监管挑战，包括欧盟毁林法规（要求供应链详细可追溯性）以及关于生物燃料原料可持续性的RED III指令。他们表示，这些要求增加了合规和认证成本，尤其是对小型生产商。\n\n乌克兰政府呼吁在制定新法规时更密切地参与欧盟政策讨论，认为更清晰的框架将有助于协调贸易与可持续目标。",
+  "images": [
+    "https://cdn1.globalagmedia.com/Pagebuilder/Facebook.svg",
+    "https://cdn1.globalagmedia.com/Pagebuilder/Twitter.svg",
+    "https://cdn1.globalagmedia.com/Pagebuilder/Linkedin.svg",
+    "https://cdn1.globalagmedia.com/Pagebuilder/E-mail.svg",
+    "https://cdn1.globalagmedia.com/Import-Export/_articleCard/Shipping-containers.jpg",
+    "https://cdn1.globalagmedia.com/Markets/_articleCard/markets-economics.jpg"
+  ],
+  "author": "",
+  "contentHtml": "EU protein gap puts focus on Ukrainian soybeans \nPanel highlights supply potential but warns of EU rules burden",
+  "scrapeMethod": "web_scrape"
+}

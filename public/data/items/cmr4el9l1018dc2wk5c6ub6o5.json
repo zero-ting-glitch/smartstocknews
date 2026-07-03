@@ -1,0 +1,35 @@
+{
+  "id": "cmr4el9l1018dc2wk5c6ub6o5",
+  "titleEn": "Hong Kong bans poultry imports from Alberta amid H5N1 outbreak",
+  "titleZh": "香港因H5N1疫情禁止从加拿大阿尔伯塔省进口禽类产品",
+  "summaryZh": "香港食品安全中心因加拿大阿尔伯塔省报告高致病性H5N1禽流感疫情，立即暂停从该地区进口禽肉、禽产品及蛋类。此举旨在保护公众健康，尽管今年前三个月香港未从加拿大进口任何禽类产品。中心已与加方联系，并将持续监测世界动物卫生组织等机构的最新动态。该事件对禽业贸易和生物安全防控具有警示意义。",
+  "featuredReason": "该新闻展示了国际贸易中禽流感疫情对供应链的即时影响，提醒智慧畜牧从业者关注生物安全监测与跨境贸易预警系统的价值。",
+  "url": "https://www.thepoultrysite.com/news/2026/06/hong-kong-bans-poultry-imports-from-alberta-amid-h5n1-outbreak",
+  "source": {
+    "name": "The Poultry Site",
+    "nameZh": "禽业网",
+    "tier": "T1.5"
+  },
+  "sourceId": "thepoultrysite",
+  "species": "poultry",
+  "category": "livestock",
+  "subcategory": "poultry",
+  "techTags": "",
+  "qualityScore": 32,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-05-31T23:00:00.000Z",
+  "contentFull": "Health & disease Diseases Avian influenza Hong Kong bans poultry imports from Alberta amid H5N1 outbreak Hong Kong has imported no poultry products from Canada in 2026 1 June 2026 1 minute read By: Global Ag Media North America Asia Hong Kong has suspended imports of poultry meat, products and eggs from a designated area in Alberta, Canada, following a highly pathogenic H5N1 avian influenza outbreak reported to the World Organisation for Animal Health (WOAH).The Centre for Food Safety (CFS) issued the ban with immediate effect, saying the measure was necessary to protect public health. According to Hong Kong's Census and Statistics Department, no poultry meat or eggs were imported from Canada in the first three months of this year.The CFS said it has contacted Canadian authorities and will continue to monitor updates from the WOAH and other relevant bodies, with further action to be taken as the situation develops. Our Partners World Poultry Science Association Congress Poultry Science Association Targan dsm-firmenich Lallemand Lanxess BioZyme Hy-Line International Global Ag Media More from this author More News View all Chicken sticks enter US snack market as turkey output falls Markets & policy Market trends 2 July 2026 1 minute read WOAH reports 2.16 million birds lost to HPAI in May Health & disease Diseases Avian influenza 1 July 2026 1 minute read Europe worst affected as outbreaks spread across seven countries Canadian firms launch world's earliest in-ovo egg sexing system In-ovo sexing 1 July 2026 1 minute read Hyperspectral technology determines sex from day four of incubation Our Partners World Poultry Science Association Congress Poultry Science Association Targan dsm-firmenich Lallemand Lanxess BioZyme Hy-Line International",
+  "translationZh": "香港已暂停从加拿大阿尔伯塔省指定区域进口禽肉、禽产品及蛋类，此前该地区向世界动物卫生组织报告了一起高致病性H5N1禽流感疫情。\n\n食品安全中心立即实施该禁令，称此措施对于保护公众健康是必要的。根据香港政府统计处的数据，今年前三个月香港未从加拿大进口任何禽肉或蛋类。\n\n食品安全中心表示已与加拿大当局取得联系，并将继续监测世界动物卫生组织及其他相关机构的最新信息，随着事态发展将采取进一步行动。",
+  "images": [
+    "https://cdn1.globalagmedia.com/Pagebuilder/Facebook.svg",
+    "https://cdn1.globalagmedia.com/Pagebuilder/Twitter.svg",
+    "https://cdn1.globalagmedia.com/Pagebuilder/Linkedin.svg",
+    "https://cdn1.globalagmedia.com/Pagebuilder/E-mail.svg",
+    "https://cdn1.globalagmedia.com/poultry/articles/health-disease-pests/_articleCard/H5N1-avian-influenza.jpg",
+    "https://cdn1.globalagmedia.com/poultry/articles/layers-and-eggs/eggs/_articleCard/eggs-incubator.jpg"
+  ],
+  "author": "",
+  "contentHtml": "Hong Kong bans poultry imports from Alberta amid H5N1 outbreak \nHong Kong has imported no poultry products from Canada in 2026",
+  "scrapeMethod": "web_scrape"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "cmr4eln0s01ibc2wkhdjwv9sh",
+  "titleEn": "Poultry WorldJun 12VideoPoultry Talks: Maximising automation in the poultry industry",
+  "titleZh": "家禽行业自动化最大化：从WingScan到日常运维的实践探讨",
+  "summaryZh": "本文报道了《Poultry World》最新一期《Poultry Talks》视频内容，聚焦家禽行业在农场、加工厂和孵化场中日益依赖自动化的趋势。以Targan公司开发的WingScan自动羽毛性别分选机为例，展示了自动化带来的产量提升、精度提高和流程优化。节目还深入探讨了如何通过安装、培训、优化、故障排除和长期性能跟踪来最大化自动化效益，强调预防停机的重要性。",
+  "featuredReason": "本文以实际案例（WingScan）和专家对话形式，系统介绍了家禽自动化从部署到运维的全链条实践，对智慧畜牧行业从业者理解自动化落地的关键条件（如停机预防、持续优化）具有直接参考价值。",
+  "url": "https://www.foodagribusiness.world/poultry/poultry-talks-maximising-automation-in-the-poultry-industry",
+  "source": {
+    "name": "Poultry World",
+    "nameZh": "禽业世界",
+    "tier": "T1.5"
+  },
+  "sourceId": "poultryworld",
+  "species": "poultry",
+  "category": "livestock",
+  "subcategory": "poultry",
+  "techTags": "",
+  "qualityScore": 58,
+  "isFeatured": true,
+  "isHot": false,
+  "publishedAt": "2026-06-12T07:00:00.000Z",
+  "contentFull": "Poultry Talks: Maximising automation in the poultry industryThe poultry industry is increasingly reliant on automation on farms, in processing facilities and in hatcheries. The benefits are clear: higher output, greater accuracy and more efficient processes. A good example is the WingScan automated feather-sexing machine developed by Targan, which has been installed in hatcheries around the world. Fabian BrockötterEditor in Chief, Poultry WorldJun 12VideoIn this episode of Poultry Talks, we examine the conditions needed to get the most out of automation, as downtime must be prevented at all costs. Editorial director at Misset, Fabian Brockötter, is joined by Targan customer success managers Jason Fryar and Ricardo Martin to discuss how their teams turn advanced technology into day-to-day results — from installation and training to optimisation, troubleshooting and long-term performance tracking.Watch the previous episode of Poultry Talks, which focussed on soy, exploring its role as a feed ingredient and examining the Soy Moratorium, what it is and what it means for Brazil.",
+  "translationZh": "家禽行业在农场、加工厂和孵化场中越来越依赖自动化。其好处显而易见：更高的产量、更高的精度以及更高效的流程。一个很好的例子是Targan公司开发的WingScan自动羽毛性别分选机，该设备已安装在全球各地的孵化场中。\n\n在本期《Poultry Talks》中，我们探讨了充分发挥自动化效益所需的条件——必须不惜一切代价防止停机。Misset公司编辑总监Fabian Brockötter与Targan公司客户成功经理Jason Fryar和Ricardo Martin一同讨论了他们的团队如何将先进技术转化为日常成果——从安装、培训到优化、故障排除以及长期性能跟踪。\n\n观看上一期《Poultry Talks》，该期聚焦大豆，探讨其作为饲料原料的作用，并审视大豆禁令及其对巴西的意义。",
+  "images": [
+    "https://www.foodagribusiness.world/_next/image?url=%2Fapi%2Fucms-image%3Fpath%3D%252Fapi%252Fmedia%252Ffile%252Fimported-image-a7d2ade1e4e37756.png&w=3840&q=75&dpl=58382783f7181cef04d2538bc1bbcd0c95065bbd"
+  ],
+  "author": "Fabian Brockötter",
+  "contentHtml": "",
+  "scrapeMethod": "web_scrape"
+}

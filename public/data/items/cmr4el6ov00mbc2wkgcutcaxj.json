@@ -1,0 +1,35 @@
+{
+  "id": "cmr4el6ov00mbc2wkgcutcaxj",
+  "titleEn": "ASF spreads beyond initial Barcelona zone",
+  "titleZh": "非洲猪瘟在西班牙扩散至巴塞罗那初始疫区以外区域",
+  "summaryZh": "西班牙加泰罗尼亚地区在巴塞罗那附近的两个西部城镇发现两例野猪非洲猪瘟病例，这是初始疫区外的首次发现。新病例位于无养猪场的区域，但疫情扩散促使当局对人员和牲畜流动实施额外限制。西班牙是欧盟最大猪肉生产国，年出口额约35亿欧元。此次疫情是西班牙自1994年以来首次暴发，目前共发现155头感染猪只。",
+  "featuredReason": "非洲猪瘟疫情扩散对全球猪肉贸易和养猪业防控策略有重大影响，智慧畜牧行业需关注疫情监测、生物安全自动化及野猪活动追踪技术（如无人机、传感器）的应用机会。",
+  "url": "https://www.thepigsite.com/news/2026/02/asf-spreads-beyond-initial-barcelona-zone",
+  "source": {
+    "name": "The Pig Site",
+    "nameZh": "猪业网",
+    "tier": "T1.5"
+  },
+  "sourceId": "thepigsite",
+  "species": "pig",
+  "category": "livestock",
+  "subcategory": "pig",
+  "techTags": "",
+  "qualityScore": 35,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-02-13T11:48:00.000Z",
+  "contentFull": "Disease Notifiable diseases African swine fever ASF spreads beyond initial Barcelona zone Spain finds new wild boar cases near city 13 February 2026 1 minute read By: Global Ag Media Europe Two African swine fever cases have been detected in Spain among wild boar for the first time outside an original outbreak area near Barcelona, prompting additional restrictions on the movement of people and livestock, regional authorities in Catalonia said on Friday, reported Reuters. The new cases were found near the western towns of El Papiol and Molins de Rei in Barcelona's metropolitan area, where there are no pork farms, officials said.African swine fever is not harmful to humans but spreads rapidly among pigs and wild boar. Outbreaks often prompt countries to restrict their pork imports from countries or regions with active cases.Spain is the European Union's leading pork producer, accounting for a quarter of the bloc's output and with annual exports worth about 3.5 billion euros ($4.2 billion).The initial outbreak, Spain's first since 1994, took place in the Collserola hills to the north of Barcelona, with no cases reported on farms.\"It was an expected outcome that at some point one of the boar would move to the south,\" the head of the Catalan agriculture department, Oscar Ordeig, told reporters at a media briefing.He added that it being a secondary outbreak meant the new measures - including disinfection, collection and management of boar carcasses, drone-based searches and an estimation of wild boar population densities in the infected area - would only affect the two towns.In total, 155 infected pigs have been found in the Barcelona area, with 13 new cases detected in recent days, he said.($1 = 0.8437 euros) Our Partners PIC dsm-firmenich Lanxess Hamlet Protein Global Ag Media More from this author More News View all US food stamp cuts strip 4.7 million of benefits Policy and regulation Government and regulatory Food Security 25 June 2026 5 minute read US pork exports to Philippines up 26% in April Markets Imports and Exports 24 June 2026 1 minute read Four-month shipments 21% above last year Hog futures mixed as pork prices slide - CME Market Trends Markets and economics 24 June 2026 1 minute read Cattle futures fall on profit-taking and demand concerns Our Partners PIC dsm-firmenich Lanxess Hamlet Protein",
+  "translationZh": "据路透社报道，西班牙加泰罗尼亚地区当局周五表示，在巴塞罗那附近的两个西部城镇埃尔帕皮奥尔和莫林斯德雷伊附近发现了新的野猪非洲猪瘟病例，这是首次在初始暴发区域外发现病例，该区域没有养猪场。非洲猪瘟对人类无害，但在猪和野猪中传播迅速。疫情暴发常促使各国限制从有活跃病例的国家或地区进口猪肉。西班牙是欧盟最大的猪肉生产国，占欧盟总产量的四分之一，年出口额约35亿欧元（42亿美元）。\n\n最初的疫情暴发于巴塞罗那以北的科塞罗拉丘陵地带，是西班牙自1994年以来的首次，未报告农场病例。加泰罗尼亚农业部门负责人奥斯卡·奥尔德伊格在媒体简报会上告诉记者：“野猪在某个时候向南移动是意料之中的结果。”他补充说，这是二次暴发，意味着新措施——包括消毒、野猪尸体的收集和管理、基于无人机的搜索以及受感染区域野猪种群密度的估算——只会影响这两个城镇。他说，巴塞罗那地区共发现155头感染猪只，最近几天又检测到13例新病例。",
+  "images": [
+    "https://cdn1.globalagmedia.com/Pagebuilder/Facebook.svg",
+    "https://cdn1.globalagmedia.com/Pagebuilder/Twitter.svg",
+    "https://cdn1.globalagmedia.com/Pagebuilder/Linkedin.svg",
+    "https://cdn1.globalagmedia.com/Pagebuilder/E-mail.svg",
+    "https://cdn1.globalagmedia.com/Import-Export/_articleCard/Shipping-containers.jpg",
+    "https://cdn1.globalagmedia.com/Markets/_articleCard/markets-economics.jpg"
+  ],
+  "author": "",
+  "contentHtml": "ASF spreads beyond initial Barcelona zone \nSpain finds new wild boar cases near city",
+  "scrapeMethod": "web_scrape"
+}

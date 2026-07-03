@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "id": "cmr4el9cw016jc2wkw7tbxce4",
+    "titleEn": "Canadian firms launch world's earliest in-ovo egg sexing system",
+    "titleZh": "加拿大企业推出全球最早孵化期蛋内性别鉴定系统",
+    "summaryZh": "加拿大三家企业合作商业化全球最早（孵化第4天）的蛋内性别鉴定系统，采用高光谱成像技术无损检测胚胎性别，计划2026年底或2027年初全球上市。该系统可提前淘汰雄性蛋，释放孵化器容量、降低资源消耗，是家禽孵化管理领域的重大突破。",
+    "featuredReason": "该技术将高光谱成像与AI分析结合，实现孵化早期无损性别鉴定，是智慧畜牧中传感器与自动化在禽业场景的典型应用，对提升孵化效率、减少资源浪费具有直接实践价值。",
+    "url": "https://www.thepoultrysite.com/news/2026/07/canadian-firms-launch-worlds-earliest-in-ovo-egg-sexing-system",
+    "source": {
+      "name": "The Poultry Site",
+      "nameZh": "禽业网",
+      "tier": "T1.5"
+    },
+    "sourceId": "thepoultrysite",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 67,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-01T14:59:00.000Z"
+  },
+  {
+    "id": "cmr4elmy001hrc2wkdmmhhab1",
+    "titleEn": "Poultry WorldJune poultry business update: What did you miss?Jul 1News",
+    "titleZh": "六月全球家禽业动态：AI、自动化与育种投资齐头并进",
+    "summaryZh": "本文汇总了2025年6月全球家禽业的重要商业动态，涵盖默克动物保健收购Targan（含自动性别鉴定与疫苗递送技术）、帝斯曼-芬美意与Zenkei合作在日本蛋鸡行业引入AI预测平台Verax、Cobb与Irvine在坦桑尼亚开设祖代育种场、Sanovo-led联盟推进早期非侵入性卵内性别鉴定技术（计划2026年底全球上市），以及Speria收购英国AI牲畜监测公司Optifarm。这些事件集中体现了AI、自动化、生物传感和遗传育种在提升家禽生产效率、动物福利和供应链韧性方面的前沿应用。",
+    "featuredReason": "本文集中呈现了家禽业在AI预测、自动化性别鉴定、非侵入性卵内检测和区域化育种等前沿领域的突破性进展，为智慧畜牧从业者提供了清晰的技术趋势和商业合作案例，具有极高的行业参考价值。",
+    "url": "https://www.foodagribusiness.world/poultry/june-poultry-business-update-what-did-you-miss",
+    "source": {
+      "name": "Poultry World",
+      "nameZh": "禽业世界",
+      "tier": "T1.5"
+    },
+    "sourceId": "poultryworld",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 66,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-01T07:01:00.124Z"
+  },
+  {
+    "id": "cmr4el9h0017lc2wkl6i0uutd",
+    "titleEn": "Targan announces sale to Merck Animal Health",
+    "titleZh": "Targan宣布出售给默克动物保健公司",
+    "summaryZh": "Targan公司宣布将被默克动物保健收购。Targan的核心技术包括高速性别识别系统WingScan™（每小时处理16万只雏鸡）和精准眼部喷雾疫苗技术，这些技术已在商业孵化场应用，能显著提升家禽生产性能。收购后，默克将整合Targan的生物设备能力，扩大其在全球家禽领域的生物制药和数字化解决方案布局，为智慧畜牧行业带来从孵化到养殖的全链条自动化升级。",
+    "featuredReason": "该收购事件标志着传统动保巨头与智能生物设备初创企业的深度融合，WingScan™性别识别和精准喷雾技术代表了家禽孵化环节自动化和AI应用的最新突破，对智慧畜牧从业者具有直接的技术参考和战略启示价值。",
+    "url": "https://www.thepoultrysite.com/news/2026/06/targan-announces-sale-to-merck-animal-health",
+    "source": {
+      "name": "The Poultry Site",
+      "nameZh": "禽业网",
+      "tier": "T1.5"
+    },
+    "sourceId": "thepoultrysite",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 64,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-15T12:15:00.000Z"
+  },
+  {
+    "id": "cmr4el9h9017pc2wkddhmkmer",
+    "titleEn": "Australia's first commercial in-ovo sexed chicks delivered",
+    "titleZh": "澳大利亚首批商业化蛋胚性别鉴定雏鸡交付",
+    "summaryZh": "澳大利亚特种育种公司（SBA）向McLean Farms交付了该国首批商业化蛋胚性别鉴定雏鸡，标志着澳大利亚成为继德国、法国、巴西和美国之后又一个应用该技术的国家。该技术采用Agri Advanced Technology的Cheggy技术，通过非侵入式高光谱光学分析在孵化前确定雏鸡性别，实现商业化规模生产。消费者调查显示84%受访者有意购买此类鸡蛋，66%愿意支付溢价。SBA自2026年6月起将蛋胚性别鉴定雏鸡作为新增产品，并注册“人道认证”商标。",
+    "featuredReason": "该新闻展示了蛋胚性别鉴定技术在澳大利亚的商业化落地，结合高光谱光学分析等AI/传感器技术，是智慧畜牧在禽业精准养殖和动物福利领域的典型应用案例，对关注禽业自动化、消费者趋势和可持续生产的从业者具有重要参考价值。",
+    "url": "https://www.thepoultrysite.com/news/2026/06/australias-first-commercial-in-ovo-sexed-chicks-delivered",
+    "source": {
+      "name": "The Poultry Site",
+      "nameZh": "禽业网",
+      "tier": "T1.5"
+    },
+    "sourceId": "thepoultrysite",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 64,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-14T23:00:00.000Z"
+  },
+  {
+    "id": "cmr4el9kn0189c2wkzcxbkaof",
+    "titleEn": "Targan and Vetiplus partner to accelerate advanced automation in Colombia’s poultry industry",
+    "titleZh": "Targan与Vetiplus合作加速哥伦比亚家禽业自动化升级",
+    "summaryZh": "全球动物蛋白自动化技术领导者Targan与哥伦比亚动物保健公司Vetiplus达成分销合作，旨在为当地家禽业提供先进自动化解决方案。合作将引入WingScan™等技术，应对劳动力短缺、法规变化及动物福利压力，助力哥伦比亚提升区域及全球竞争力。此举也是Targan在拉丁美洲扩张战略的关键一步。",
+    "featuredReason": "该合作展示了自动化技术（如WingScan™）在禽业中的实际落地，结合本地化服务应对劳动力与法规挑战，对关注拉美市场及家禽智能化升级的从业者具有直接参考价值。",
+    "url": "https://www.thepoultrysite.com/news/2026/06/targan-and-vetiplus-partner-to-accelerate-advanced-automation-in-colombias-poultry-industry",
+    "source": {
+      "name": "The Poultry Site",
+      "nameZh": "禽业网",
+      "tier": "T1.5"
+    },
+    "sourceId": "thepoultrysite",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 65,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-01T14:33:00.000Z"
+  }
+]

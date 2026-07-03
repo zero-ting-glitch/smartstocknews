@@ -22,6 +22,50 @@
     "multiSourceCount": 1
   },
   {
+    "id": "cmr4eli5701gnc2wkeshoofbe",
+    "titleEn": "Jul 1NewsPig ProgressWrapping up June: What’s new in the world of pigs?Pig Progress reports on the latest business news and developments from the global pig industry.",
+    "titleZh": "六月全球养猪业动态：从仔猪营养到AI监测，多领域创新齐发",
+    "summaryZh": "本文汇总了2025年6月全球养猪业的最新商业新闻与技术进展，涵盖Trouw Nutrition推出的仔猪诱食棒Milkiwean ActiBar、Elanco发布的饲料配方在线计算器、FeedArmor对非洲猪瘟病毒替代毒株的灭活研究、Speria收购AI牲畜监测公司Optifarm、Alltech推出猪肠道健康产品并扩建研发实验室，以及Animistic与Blackhive的战略合作。这些动态反映了行业在精准营养、生物安全、AI监测和供应链整合方面的持续创新。",
+    "featuredReason": "本文集中呈现了养猪业在精准营养、生物安全、AI监测和供应链协同方面的最新实践，为智慧畜牧从业者提供了多角度的技术趋势参考和可落地的创新案例。",
+    "url": "https://www.foodagribusiness.world/pigs/wrapping-up-june-what-s-new-in-the-world-of-pigs",
+    "source": {
+      "name": "Pig Progress",
+      "nameZh": "猪业进展",
+      "tier": "T1.5"
+    },
+    "sourceId": "pigprogress",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 58,
+    "isFeatured": true,
+    "isHot": false,
+    "publishedAt": "2026-07-01T07:00:00.066Z"
+  },
+  {
+    "id": "cmr4eli7501gtc2wk7oxtj0kx",
+    "titleEn": "Pig ProgressPartnerSustainability and welfare: Two sides of the same coinJun 26",
+    "titleZh": "可持续性与动物福利：养猪业的一体两面",
+    "summaryZh": "本文由Alltech专家撰写，核心观点是养猪生产中母猪健康与可持续性密不可分。通过改善母猪健康可提高产仔数、降低死亡率，从而减少饲料、水、粪污等资源消耗和整体碳排放。文章引用Alltech E-CO₂模型数据，量化了产仔数减少和死亡率上升对排放强度及利润的具体影响，并强调肠道健康对疾病防控和环保效益的关键作用。",
+    "featuredReason": "本文从数据角度量化了母猪健康与碳排放、经济效益的直接关联，为智慧畜牧从业者提供了将动物福利指标纳入可持续管理决策的实践依据。",
+    "url": "https://www.foodagribusiness.world/pigs/sustainability-and-welfare-two-sides-of-the-same-coin",
+    "source": {
+      "name": "Pig Progress",
+      "nameZh": "猪业进展",
+      "tier": "T1.5"
+    },
+    "sourceId": "pigprogress",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 47,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-06-26T06:45:47.666Z"
+  },
+  {
     "id": "cmqz24ksx002xdidx9d04iuzb",
     "titleEn": "Senate farm bill draft omits Prop 12 fix for pork industry",
     "titleZh": "美国参议院农业法案草案未纳入加州第12号提案修正案，猪业组织持续施压",
@@ -44,6 +88,28 @@
     "multiSourceCount": 1
   },
   {
+    "id": "cmr4ekypq0069c2wki9x8jhex",
+    "titleEn": "Senate farm bill draft omits Prop 12 fix for pork industry",
+    "titleZh": "美国参议院农业法案草案未纳入解决加州第12号提案的条款，猪业组织强烈呼吁",
+    "summaryZh": "美国参议院农业委员会发布的2026年农业法案讨论草案未包含解决加州第12号提案（Prop 12）的条款，该提案对猪肉生产空间标准提出严格限制，影响跨州贸易。由全国猪肉生产者委员会（NPPC）领导的330个组织联盟呼吁参议院农业委员会领导人在最终法案中加入解决方案。尽管草案包含多项养猪生产者优先事项，但缺失Prop 12修正案令行业担忧，NPPC主席表示生产者将“像依赖生计一样”继续争取修正案。此前众议院已通过类似法案，但参议院版本未采纳，且已有参议员撤回支持，肉类生产者协会投入3000万美元广告施压反对该修正案。",
+    "featuredReason": "该新闻直接关系到美国猪肉产业的跨州贸易规则与动物福利法规冲突，对智慧畜牧行业人士理解政策环境、评估市场风险及合规成本具有重要参考价值。",
+    "url": "https://www.nationalhogfarmer.com/livestock-management/senate-farm-bill-draft-omits-prop-12-fix-for-pork-industry",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
+    "sourceId": "nationalhogfarmer",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 36,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-06-23T18:54:56.000Z"
+  },
+  {
     "id": "cmqz24kt70031didx5iaiw8ci",
     "titleEn": "New World screwworm: Why every wound deserves a second look",
     "titleZh": "新世界螺旋蛆：为何每个伤口都值得二次检查",
@@ -64,6 +130,72 @@
     "qualityScore": 48,
     "isHot": false,
     "multiSourceCount": 1
+  },
+  {
+    "id": "cmr4ekypu006dc2wk5xje226y",
+    "titleEn": "New World screwworm: Why every wound deserves a second look",
+    "titleZh": "新世界螺旋蛆：为何每个伤口都值得二次检查",
+    "summaryZh": "本文由兽医专家撰写，警告新世界螺旋蛆（NWS）已重新侵入美国多州，威胁生猪产业。与普通蛆虫不同，NWS幼虫侵袭健康组织，可在产后仔猪、阉割、断尾、注射等常规操作造成的伤口上产卵。文章强调无需全面改造生产流程，但需加强伤口管理和日常观察，对每处伤口进行二次评估，发现异常及时送检。",
+    "featuredReason": "本文从兽医实战角度揭示了新世界螺旋蛆对生猪产业的紧迫威胁，并提供了具体、可操作的伤口管理建议，对智慧畜牧从业者理解生物安全与日常监测的结合点具有重要参考价值。",
+    "url": "https://www.nationalhogfarmer.com/livestock-management/new-world-screwworm-why-every-wound-deserves-a-second-look",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5"
+    },
+    "sourceId": "nationalhogfarmer",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 51,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-06-23T12:59:18.000Z"
+  },
+  {
+    "id": "cmr4elicz01h1c2wk9p2ba2lb",
+    "titleEn": "Pig ProgressSouth Korea’s CAVAC receives export licence for ASF vaccineJun 22Article",
+    "titleZh": "韩国CAVAC获非洲猪瘟疫苗出口许可，瞄准越南和菲律宾市场",
+    "summaryZh": "韩国动物保健公司CAVAC开发的非洲猪瘟（ASF）疫苗Suishot ASF-X已获韩国出口许可，预计未来几个月将在越南和菲律宾获得上市批准。该疫苗为细胞适应活疫苗，针对基因2型病毒，可降低临床症状和死亡率，并可作为诱饵疫苗用于野猪群体控制。CAVAC选择越南和菲律宾作为首批市场，因其对ASF控制需求迫切，而韩国因采取零容忍政策暂不适用疫苗接种策略。",
+    "featuredReason": "非洲猪瘟疫苗的突破对全球养猪业至关重要，CAVAC采用自然减毒株的差异化路径值得关注，其诱饵疫苗设计也为野猪防控提供了新思路。",
+    "url": "https://www.foodagribusiness.world/pigs/south-korea-s-cavac-receives-export-licence-for-asf-vaccine",
+    "source": {
+      "name": "Pig Progress",
+      "nameZh": "猪业进展",
+      "tier": "T1.5"
+    },
+    "sourceId": "pigprogress",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 50,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-06-22T09:53:47.075Z"
+  },
+  {
+    "id": "cmr4elid401h3c2wk546dst1v",
+    "titleEn": "Pig ProgressYoung pig farmers gain global perspective at agri benchmark AcademyJun 22News",
+    "titleZh": "全球青年养猪人齐聚芬兰，agri benchmark学院聚焦智慧畜牧与全球视野",
+    "summaryZh": "第三届agri benchmark学院于2025年6月2-4日在芬兰塞伊奈约基举办，面向全球青年养猪人。活动通过工作坊、演讲和农场参观，探讨了国际竞争力、农场数据应用、数字化、人工智能、摄像头牲畜监测、动物福利、社交媒体等热点议题。该学院由非营利组织agri benchmark运营，旨在培养下一代养猪业人才，促进全球视角下的知识交流。",
+    "featuredReason": "该新闻展示了全球青年养猪人如何通过国际平台学习AI、摄像头监测、数据驱动管理等智慧畜牧技术，对关注养猪业数字化转型和人才培养的从业者具有启发意义。",
+    "url": "https://www.foodagribusiness.world/pigs/young-pig-farmers-gain-global-perspective-at-agri-benchmark-academy",
+    "source": {
+      "name": "Pig Progress",
+      "nameZh": "猪业进展",
+      "tier": "T1.5"
+    },
+    "sourceId": "pigprogress",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 54,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-06-22T08:30:00.000Z"
   },
   {
     "id": "cmqyitbeo002ttw5ido5youn8",
@@ -152,5 +284,71 @@
     "qualityScore": 42,
     "isHot": false,
     "multiSourceCount": 1
+  },
+  {
+    "id": "cmr4el6ov00mbc2wkgcutcaxj",
+    "titleEn": "ASF spreads beyond initial Barcelona zone",
+    "titleZh": "非洲猪瘟在西班牙扩散至巴塞罗那初始疫区以外区域",
+    "summaryZh": "西班牙加泰罗尼亚地区在巴塞罗那附近的两个西部城镇发现两例野猪非洲猪瘟病例，这是初始疫区外的首次发现。新病例位于无养猪场的区域，但疫情扩散促使当局对人员和牲畜流动实施额外限制。西班牙是欧盟最大猪肉生产国，年出口额约35亿欧元。此次疫情是西班牙自1994年以来首次暴发，目前共发现155头感染猪只。",
+    "featuredReason": "非洲猪瘟疫情扩散对全球猪肉贸易和养猪业防控策略有重大影响，智慧畜牧行业需关注疫情监测、生物安全自动化及野猪活动追踪技术（如无人机、传感器）的应用机会。",
+    "url": "https://www.thepigsite.com/news/2026/02/asf-spreads-beyond-initial-barcelona-zone",
+    "source": {
+      "name": "The Pig Site",
+      "nameZh": "猪业网",
+      "tier": "T1.5"
+    },
+    "sourceId": "thepigsite",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 35,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-02-13T11:48:00.000Z"
+  },
+  {
+    "id": "cmr4el6ye00mxc2wkx4yp9dmx",
+    "titleEn": "Muyuan Foods prices Hong Kong IPO at top of range",
+    "titleZh": "牧原食品港股IPO定价上限，募资107亿港元",
+    "summaryZh": "中国最大生猪养殖企业牧原食品将其香港IPO定价在发行价上限，每股39港元，拟募资约107亿港元（13.7亿美元）。此次发行2.74亿股H股，将成为香港今年迄今最大规模IPO之一。募资将用于育种、智慧养殖、营养管理和生物安全等领域的研发。在中国猪肉供应过剩、需求疲软、经济放缓导致猪价下跌、养殖利润受压的背景下，牧原逆势上市。",
+    "featuredReason": "牧原作为中国最大猪企，其IPO募资明确投向智慧养殖（智能养殖、营养管理、生物安全）研发，对智慧畜牧行业具有风向标意义，值得关注其后续技术投入与行业影响。",
+    "url": "https://www.thepigsite.com/news/2026/02/muyuan-foods-prices-hong-kong-ipo-at-top-of-range",
+    "source": {
+      "name": "The Pig Site",
+      "nameZh": "猪业网",
+      "tier": "T1.5"
+    },
+    "sourceId": "thepigsite",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 48,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-02-05T10:04:00.000Z"
+  },
+  {
+    "id": "cmr4el7f600s3c2wkzhcx18gl",
+    "titleEn": "Catalonia probes lab link in swine fever outbreak",
+    "titleZh": "加泰罗尼亚调查非洲猪瘟疫情与实验室关联",
+    "summaryZh": "西班牙加泰罗尼亚地区政府将调查一家研究机构，因马德里实验室的基因组测序显示，近期爆发的非洲猪瘟病毒株与2007年格鲁吉亚发现的毒株高度相似，该毒株广泛用于研究和疫苗开发。此前官方怀疑病毒通过受污染食物传入，但新证据指向实验室泄漏可能。该事件对欧盟最大猪肉生产国西班牙的贸易造成压力，也凸显生物安全在畜牧防疫中的关键作用。",
+    "featuredReason": "该事件揭示了生物安全漏洞对养猪业的巨大威胁，智慧畜牧行业可借此反思如何通过物联网、AI监控等技术加强实验室与养殖场的生物安全防控，避免类似泄漏风险。",
+    "url": "https://www.thepigsite.com/news/2025/12/catalonia-probes-lab-link-in-swine-fever-outbreak",
+    "source": {
+      "name": "The Pig Site",
+      "nameZh": "猪业网",
+      "tier": "T1.5"
+    },
+    "sourceId": "thepigsite",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 40,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2025-12-08T10:08:00.000Z"
   }
 ]

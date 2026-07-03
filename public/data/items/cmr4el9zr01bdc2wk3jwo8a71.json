@@ -1,0 +1,35 @@
+{
+  "id": "cmr4el9zr01bdc2wk3jwo8a71",
+  "titleEn": "Arkansas team develops robot to handle poultry carcasses",
+  "titleZh": "阿肯色团队开发家禽胴体处理机器人",
+  "summaryZh": "阿肯色农业实验站研究人员开发了名为ChicGrasp的机器人系统，利用模仿学习算法和摄像头感知，通过双颚机器人夹爪抓取鸡胴体腿部并挂上传送带。该系统旨在应对家禽加工厂劳动力短缺，目前成功率近81%，但单次循环需38秒（人工约3秒）。原型成本约5.9万美元，研究获美国农业部与 NSF 联合资助100万美元，代码和设计已开源。",
+  "featuredReason": "该新闻展示了具身AI与模仿学习在家禽加工自动化中的前沿应用，直接回应劳动力短缺痛点，且开源设计为行业提供了低成本探索路径，对智慧畜牧从业者具有重要参考价值。",
+  "url": "https://www.thepoultrysite.com/news/2026/03/arkansas-team-develops-robot-to-handle-poultry-carcasses",
+  "source": {
+    "name": "The Poultry Site",
+    "nameZh": "禽业网",
+    "tier": "T1.5"
+  },
+  "sourceId": "thepoultrysite",
+  "species": "poultry",
+  "category": "livestock",
+  "subcategory": "poultry",
+  "techTags": "",
+  "qualityScore": 64,
+  "isFeatured": true,
+  "isHot": true,
+  "publishedAt": "2026-03-12T11:42:00.000Z",
+  "contentFull": "Processing Equipment & innovation Digital innovation Arkansas team develops robot to handle poultry carcasses Imitation-learning system mimics human movements in plants 12 March 2026 1 minute read By: Global Ag Media North America Researchers at the Arkansas Agricultural Experiment Station have developed a robotic system that can learn by imitating human movements to handle chickens on poultry processing lines, according to a news release from Arkansas State University. The system, called ChicGrasp, uses an advanced imitation learning algorithm and camera perceptions to guide a dual-jaw robotic gripper with pinchers that can grasp a chicken carcass by the legs, lift it and hang it on a shackle conveyor for further processing.The technology was initially developed in response to labour shortages in poultry processing plants during the COVID-19 pandemic.\"Embodied AI is used to create intelligent, agent-like robotics to interact with a real-world environment,\" said Dongyi Wang, leader of the project and an assistant professor in the Departments of Biological and Agricultural Engineering and Food Science.\"It's a physical art that has just developed in the past couple of years, which you see in things like full self-driving cars,\" he said. \"We are trying to do similar things using that imitation learning idea, but in chicken processing.\"The project has been supported by a $1 million grant from a joint program between the U.S. Department of Agriculture’s National Institute of Food and Agriculture and the National Science Foundation. Results of the study were published in Advanced Robotics Research, and the team released all design files, code and datasets as open source.The researchers designed the system to address challenges faced by traditional robotics on poultry processing lines, where birds can be cold, slippery and irregular in size and posture.\"In imitation learning, the role of the human is to give a trajectory, give a ground truth to the robot, so we don't need to start from scratch to learn,\" said Amirreza Davar, a graduate student who designed the gripper and modified the learning system. \"It's more efficient and more accurate. From the get-go, the robot knows what we need to do.\"So far, ChicGrasp has demonstrated a success rate of nearly 81%. However, speed remains a challenge. While a human worker can hang a chicken carcass on a conveyor in about three seconds, the full cycle for ChicGrasp currently takes about 38 seconds.The prototype system cost about $59,000 to build using off-the-shelf robotic arm hardware and 3D-printed components. Researchers said future work will focus on improving speed and refining the algorithm to move the technology closer to industrial use. Our Partners World Poultry Science Association Congress Poultry Science Association Targan dsm-firmenich Lallemand Lanxess BioZyme Hy-Line International Global Ag Media More from this author More News View all Australia ramps up avian influenza testing Health & disease Diseases Avian influenza 24 June 2026 1 minute read H5N1 spreads to second Australian state Health & disease Diseases Avian influenza 24 June 2026 1 minute read Cases confirmed in South Australia after dead seabirds found Canada launches $3B food security strategy to boost domestic output Markets & policy Policy and regulation Food security 24 June 2026 1 minute read Plan targets grocery competition, local production and red tape cuts Our Partners World Poultry Science Association Congress Poultry Science Association Targan dsm-firmenich Lallemand Lanxess BioZyme Hy-Line International",
+  "translationZh": "阿肯色农业实验站的研究人员开发了一种机器人系统，可以通过模仿人类动作来学习处理家禽加工线上的鸡，据阿肯色州立大学发布的新闻稿称。\n\n该系统名为ChicGrasp，采用先进的模仿学习算法和摄像头感知，引导一个带有钳子的双颚机器人夹爪，能够抓住鸡胴体的腿部，将其提起并挂到挂钩传送带上进行后续加工。\n\n该技术最初是为了应对新冠疫情期间家禽加工厂的劳动力短缺而开发的。\n\n“具身人工智能用于创建智能的、类似代理的机器人，以与现实世界环境交互，”项目负责人、生物与农业工程系及食品科学系助理教授王东义说。\n\n“这是一种刚刚在过去几年发展起来的物理艺术，你在全自动驾驶汽车等事物中可以看到它，”他说。“我们正尝试利用这种模仿学习理念做类似的事情，但是在鸡肉加工领域。”\n\n该项目得到了美国农业部国家食品与农业研究所与美国国家科学基金会联合项目100万美元资助的支持。研究结果发表在《先进机器人研究》上，团队将所有设计文件、代码和数据集作为开源资源发布。\n\n研究人员设计该系统是为了应对家禽加工线上传统机器人面临的挑战，这些加工线上的鸡可能冰冷、湿滑，且大小和姿态不规则。\n\n“在模仿学习中，人类的角色是给机器人提供轨迹，提供真实数据，这样我们就不必从头开始学习，”设计夹爪并修改学习系统的研究生Amirreza Davar说。“它更高效、更准确。从一开始，机器人就知道我们需要做什么。”\n\n到目前为止，ChicGrasp的成功率接近81%。然而，速度仍然是一个挑战。虽然人类工人大约在三秒钟内可以将一只鸡胴体挂上传送带，但ChicGrasp的完整循环目前需要大约38秒。\n\n该原型系统使用现成的机器人手臂硬件和3D打印组件建造，成本约为5.9万美元。研究人员表示，未来的工作将集中在提高速度和优化算法上，以使该技术更接近工业应用。",
+  "images": [
+    "https://cdn1.globalagmedia.com/Pagebuilder/Facebook.svg",
+    "https://cdn1.globalagmedia.com/Pagebuilder/Twitter.svg",
+    "https://cdn1.globalagmedia.com/Pagebuilder/Linkedin.svg",
+    "https://cdn1.globalagmedia.com/Pagebuilder/E-mail.svg",
+    "https://cdn1.globalagmedia.com/poultry/_articleCard/avian-influenza-H5N1.jpg",
+    "https://cdn1.globalagmedia.com/Flags/_articleCard/Canada-flags.jpg"
+  ],
+  "author": "",
+  "contentHtml": "Arkansas team develops robot to handle poultry carcasses \nImitation-learning system mimics human movements in plants",
+  "scrapeMethod": "web_scrape"
+}
