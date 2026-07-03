@@ -43,6 +43,7 @@ smartstock/
 ├── scripts/
 │   ├── run-pipeline.ts    # 一键管线（5+步：同步→采集→修正日期→爬取→AI→修正物种→导出）
 │   ├── export-static.ts   # 独立导出脚本
+│   ├── cleanup-irrelevant.ts # 一次性：AI 语义清理现有文章中不相关的
 │   ├── seed-sources.ts    # 信源初始化
 │   ├── check-items.ts     # 数据检查工具
 │   └── clear-truncated.ts # 清除截断翻译（一次性工具）
@@ -92,7 +93,7 @@ smartstock/
 [3.7] 智慧农业预筛  增量执行：仅本轮新爬文章，技术+农业双维度关键词匹配，阈值 ≥ 2（详见下方）
 [4/5] AI 处理       两级处理：Stage 1 语义筛选 → Stage 2 完整评分+翻译+物种分类（详见下方）
 [4.5] 修复 species  将 subcategory 同步到 species 字段
-[5/5] 导出 JSON     增量合并（旧数据保留） → 清理孤立 detail 文件 → items.json + items/{id}.json + hot-items(5条) + stats.json + 按分类导出
+[5/5] 导出 JSON     增量合并（旧数据保留，但已标记不相关的自动清除） → 清理孤立 detail 文件 → items.json + items/{id}.json + hot-items(5条) + stats.json + 按分类导出
 ```
 
 ### 翻译完整度保障
@@ -127,6 +128,21 @@ smartstock/
 - **Stage 2 完整分析**：仅筛选通过的文章进入五维评分 + 全文翻译 + 摘要 + 精选理由
 - 筛选失败标记 `isRelevant: false, techTags: 'ai_rejected'`，DB 保留但不导出（前端完全不可见）
 - API 失败时默认通过，避免意外丢失文章
+
+**筛选 prompt 设计要点**：
+- "相关"示例覆盖畜牧科技（自动饲喂、机器人挤奶、育种基因、健康监测、疾病检测等）和种植科技（精准农业、无人机、温室自动化等），避免偏科
+- "不相关"范围精准，不误杀畜牧技术文章（如 meat processing 涉及 automation 应保留）
+- Stage 1 不通过则不调用 Stage 2，节省 token（被拒文章只消耗 ~200 token）
+
+### AI 分类（Step 4 内置）
+
+`analyzeItem` 的 prompt 要求 AI 将文章归入 8 个 subcategory 之一：
+
+- **强制分类原则**："不要轻易选 general"，仅当确属多品类或完全无法归入时才选
+- 畜牧业细分：pig / poultry / cattle / sheep
+- 种植业细分：field / fruit / horticulture
+- 兜底：general（综合/跨领域）
+- 分类不精准时，可通过优化 prompt 中各类别的示例描述来改进
 
 ### 跨源标题去重（Step 2 内置）
 
@@ -187,6 +203,7 @@ npx prisma db push       # 同步 schema 到 SQLite
 npx prisma studio        # 可视化查看数据库
 npx tsx scripts/run-pipeline.ts           # 运行完整管线
 npx tsx scripts/clear-truncated.ts        # 清除截断翻译（一次性）
+npx tsx scripts/cleanup-irrelevant.ts     # AI 语义清理现有文章（一次性，需 DEEPSEEK_API_KEY）
 npx tsx scripts/export-static.ts          # 独立导出静态 JSON
 ```
 
