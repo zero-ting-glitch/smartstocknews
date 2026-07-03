@@ -275,16 +275,17 @@ function preFilterItems(items: any[]): { accepted: any[]; rejected: any[] } {
 }
 
 // ========== 全文爬取 ==========
-async function scrapeArticlesBatch(items: any[]): Promise<{ scraped: number; failed: number }> {
+async function scrapeArticlesBatch(items: any[]): Promise<{ scraped: number; failed: number; scrapedIds: string[] }> {
   const toScrape = items.filter((item) => !item.scrapedAt);
   if (toScrape.length === 0) {
     console.log(`  所有 ${items.length} 条已爬取过，跳过`);
-    return { scraped: 0, failed: 0 };
+    return { scraped: 0, failed: 0, scrapedIds: [] };
   }
 
   console.log(`  需爬取: ${toScrape.length} 条`);
   let scraped = 0;
   let failed = 0;
+  const scrapedIds: string[] = [];
 
   // 域名级限速：同域名请求间隔 DOMAIN_DELAY_MS，防 429
   const domainLastRequest = new Map<string, number>();
@@ -326,6 +327,7 @@ async function scrapeArticlesBatch(items: any[]): Promise<{ scraped: number; fai
           },
         });
         scraped++;
+        scrapedIds.push(item.id);
       } else {
         // 爬取失败：不标记 scrapedAt，下次管线可重试
         failed++;
@@ -338,11 +340,11 @@ async function scrapeArticlesBatch(items: any[]): Promise<{ scraped: number; fai
   }
 
   console.log(`  爬取完成: ${scraped} 成功, ${failed} 失败`);
-  return { scraped, failed };
+  return { scraped, failed, scrapedIds };
 }
 
 // ========== AI 处理（统一提示词） ==========
-async function callDeepSeek(prompt: string): Promise<string> {
+async function callDeepSeek(prompt: string, maxTokens = 16000): Promise<string> {
   const apiKey = process.env.DEEPSEEK_API_KEY;
   const baseUrl = process.env.DEEPSEEK_BASE_URL || 'https://api.deepseek.com';
   if (!apiKey) throw new Error('DEEPSEEK_API_KEY not set');
@@ -357,7 +359,7 @@ async function callDeepSeek(prompt: string): Promise<string> {
       model: 'deepseek-chat',
       messages: [{ role: 'user', content: prompt }],
       temperature: 0.3,
-      max_tokens: 16000,
+      max_tokens: maxTokens,
     }),
   });
   const data = await res.json() as any;
@@ -423,6 +425,35 @@ ${contentSnippet ? `内容: ${contentSnippet}` : ''}
   } catch (e) {
     console.error(`  [AI] JSON 解析失败: ${raw.slice(0, 200)}`);
     throw e;
+  }
+}
+
+/**
+ * Stage 1 语义筛选：轻量 AI 调用判断文章是否与智慧畜牧相关
+ * 只在通过后才进入 Stage 2 完整评分+翻译，节省 token
+ * API 失败时默认通过（保守侧，不漏文章）
+ */
+async function screeningEvaluate(titleEn: string, content?: string): Promise<boolean> {
+  const snippet = content ? content.slice(0, 1500) : '';
+  const prompt = `判断这篇新闻是否与智慧农业或智慧畜牧相关。
+
+相关：IoT、AI、自动化、机器人、计算机视觉、无人机、传感器、精准农业、精准畜牧、智慧农业、数字农业、农业科技在种植/养殖中的应用。
+
+不相关：普通农业新闻、市场价格/商品、不带技术视角的疾病爆发、不含技术的政策法规、食品加工/零售、供应链物流、消费趋势、不含技术视角的可持续发展/ESG 报告。
+
+标题: ${titleEn}
+${snippet ? `内容: ${snippet}` : ''}
+
+只返回 JSON，不要其他内容：
+{"shouldInclude": true} 或 {"shouldInclude": false}`;
+
+  try {
+    const raw = await callDeepSeek(prompt, 200);
+    const parsed = JSON.parse(cleanJson(raw));
+    return parsed.shouldInclude === true;
+  } catch (e: any) {
+    console.error(`  [AI] 语义筛选失败 "${titleEn.slice(0, 40)}": ${e.message}，默认通过`);
+    return true;
   }
 }
 
@@ -675,11 +706,11 @@ async function main() {
     where: { scrapedAt: null, isRelevant: true },
     include: { source: true },
   });
-  const { scraped: scrapedCount, failed: failedCount } = await scrapeArticlesBatch(unscraped);
+  const { scraped: scrapedCount, failed: failedCount, scrapedIds } = await scrapeArticlesBatch(unscraped);
   console.log(`  全文爬取完成: ${scrapedCount} 成功, ${failedCount} 失败\n`);
 
-  // Step 3.5: 重新评估已有文章的相关性（全文爬取后，用完整内容重新判断）
-  console.log('[3.5] 重新评估已有文章相关性...');
+  // Step 3.5: 增量重新评估相关性（仅本轮新爬取的文章）
+  console.log('[3.5] 重新评估新爬文章相关性...');
   const sourceKwMap: Record<string, { core: string[]; exclude: string[] }> = {};
   for (const source of config.sources) {
     sourceKwMap[source.id] = {
@@ -687,47 +718,53 @@ async function main() {
       exclude: (source.excludeKeywords || '').split('|').map((k: string) => k.trim().toLowerCase()),
     };
   }
-  const existingItems = await prisma.item.findMany({
-    where: { isRelevant: true },
-    include: { source: true },
-  });
   let demoted = 0;
-  for (const item of existingItems) {
-    const kw = sourceKwMap[item.sourceId];
-    if (!kw) continue;
-    const text = `${item.titleEn} ${item.contentHtml || ''} ${item.contentFull || ''}`.toLowerCase();
-    // 词边界匹配：短关键词（<=5字符）用正则避免子串误匹配（如 "ai" 匹配 "maintain"）
-    const matchKw = (t: string, k: string) => k.length <= 5 ? new RegExp(`\\b${k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`).test(t) : t.includes(k);
-    const hitCore = kw.core.some((k: string) => k && matchKw(text, k));
-    const hitExclude = kw.exclude.some((k: string) => k && matchKw(text, k));
-    if (!hitCore || hitExclude) {
-      await prisma.item.update({
-        where: { id: item.id },
-        data: { isRelevant: false, techTags: 'relevance_demoted' },
-      });
-      demoted++;
+  if (scrapedIds.length > 0) {
+    const existingItems = await prisma.item.findMany({
+      where: { id: { in: scrapedIds }, isRelevant: true },
+      include: { source: true },
+    });
+    for (const item of existingItems) {
+      const kw = sourceKwMap[item.sourceId];
+      if (!kw) continue;
+      const text = `${item.titleEn} ${item.contentHtml || ''} ${item.contentFull || ''}`.toLowerCase();
+      const matchKw = (t: string, k: string) => k.length <= 5 ? new RegExp(`\\b${k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`).test(t) : t.includes(k);
+      const hitCore = kw.core.some((k: string) => k && matchKw(text, k));
+      const hitExclude = kw.exclude.some((k: string) => k && matchKw(text, k));
+      if (!hitCore || hitExclude) {
+        await prisma.item.update({
+          where: { id: item.id },
+          data: { isRelevant: false, techTags: 'relevance_demoted' },
+        });
+        demoted++;
+      }
     }
+    console.log(`  降级 ${demoted} 条不再相关的文章\n`);
+  } else {
+    console.log('  本次无新爬文章，跳过\n');
   }
-  console.log(`  降级 ${demoted} 条不再相关的文章\n`);
 
-  // Step 3.7: 智慧农业预筛（全文爬取后，用完整内容判断）
-  // 必须同时命中「技术词」和「农业词」才算相关
+  // Step 3.7: 智慧农业预筛（仅本轮新爬取的文章）
   console.log('[3.7] 智慧农业预筛...');
-  const allRelevant = await prisma.item.findMany({
-    where: { isRelevant: true },
-    select: { id: true, titleEn: true, contentFull: true, contentHtml: true },
-  });
-  const { accepted: preAccepted, rejected: preRejected } = preFilterItems(allRelevant);
-  if (preRejected.length > 0) {
-    console.log(`  预筛淘汰 ${preRejected.length} 条（技术+农业关键词不足 ${SMART_AG_THRESHOLD} 个）`);
-    for (const item of preRejected) {
-      await prisma.item.update({
-        where: { id: item.id },
-        data: { isRelevant: false, techTags: 'pre_filter_rejected' },
-      });
+  if (scrapedIds.length > 0) {
+    const allRelevant = await prisma.item.findMany({
+      where: { id: { in: scrapedIds }, isRelevant: true },
+      select: { id: true, titleEn: true, contentFull: true, contentHtml: true },
+    });
+    const { accepted: preAccepted, rejected: preRejected } = preFilterItems(allRelevant);
+    if (preRejected.length > 0) {
+      console.log(`  预筛淘汰 ${preRejected.length} 条（技术+农业关键词不足 ${SMART_AG_THRESHOLD} 个）`);
+      for (const item of preRejected) {
+        await prisma.item.update({
+          where: { id: item.id },
+          data: { isRelevant: false, techTags: 'pre_filter_rejected' },
+        });
+      }
     }
+    console.log(`  预筛通过: ${preAccepted.length} 条\n`);
+  } else {
+    console.log('  本次无新爬文章，跳过\n');
   }
-  console.log(`  预筛通过: ${preAccepted.length} 条\n`);
 
   // Step 4 前置：清除明显过短的截断翻译（<200字且以省略号结尾），让管线重新生成
   // 长翻译即使截断也接受，避免无限重试烧 token
@@ -759,9 +796,24 @@ async function main() {
   console.log(`  待处理: ${pending.length} 条\n`);
 
   let processed = 0;
+  let rejected = 0;
   for (const item of pending) {
     try {
       const contentForAI = item.contentFull || item.contentHtml || '';
+
+      // Stage 1: 语义筛选（轻量 AI 调用，判断是否与智慧畜牧相关）
+      const shouldInclude = await screeningEvaluate(item.titleEn, contentForAI);
+      if (!shouldInclude) {
+        await prisma.item.update({
+          where: { id: item.id },
+          data: { isRelevant: false, techTags: 'ai_rejected' },
+        });
+        rejected++;
+        console.log(`  ✗ [AI_REJECTED] ${item.titleEn.slice(0, 40)}`);
+        continue;
+      }
+
+      // Stage 2: 完整分析（现有逻辑）
       const result = await analyzeItem(item.titleEn, contentForAI);
 
       // 检测翻译是否被截断，如果是则续翻
@@ -808,7 +860,7 @@ async function main() {
       console.error(`  ✗ ${item.titleEn.slice(0, 40)}: ${e.message}`);
     }
   }
-  console.log(`  处理完成: ${processed}/${pending.length}\n`);
+  console.log(`  处理完成: ${processed} 篇通过, ${rejected} 篇被 AI 拒稿\n`);
 
   // Step 4.5: 修复 species 字段（将 subcategory 同步到 species）
   const speciesMap: Record<string, string> = {

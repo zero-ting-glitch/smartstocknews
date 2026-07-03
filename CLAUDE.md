@@ -88,9 +88,9 @@ smartstock/
 [2.5] 修正日期      检测 publishedAt 与 scrapedAt 相差 < 5 分钟的文章，重置重新爬取
 [3/5] 全文爬取      cheerio 解析 → 提取文本/图片/作者/发表日期（已爬过跳过）
                     域名级限速（2s 间隔）防 429，403 时自动回退 Playwright headless browser
-[3.5] 重评相关性    全文爬取后用完整内容重新判断是否与智慧畜牧相关
-[3.7] 智慧农业预筛  技术+农业双维度关键词匹配，阈值 ≥ 2（详见下方）
-[4/5] AI 处理       DeepSeek 调用 → 五维评分+全文翻译+摘要+精选理由+物种分类
+[3.5] 重评相关性    增量执行：仅本轮新爬文章，用完整内容重新判断（不再全表扫描）
+[3.7] 智慧农业预筛  增量执行：仅本轮新爬文章，技术+农业双维度关键词匹配，阈值 ≥ 2（详见下方）
+[4/5] AI 处理       两级处理：Stage 1 语义筛选 → Stage 2 完整评分+翻译+物种分类（详见下方）
 [4.5] 修复 species  将 subcategory 同步到 species 字段
 [5/5] 导出 JSON     增量合并（旧数据保留） → 清理孤立 detail 文件 → items.json + items/{id}.json + hot-items(5条) + stats.json + 按分类导出
 ```
@@ -118,6 +118,15 @@ smartstock/
 - 被拒 item 标记 `isRelevant: false, techTags: 'pre_filter_rejected'`
 - **歧义词处理**（`AMBIGUOUS_KWS`）：对多义词（如 `layer`、`traceability`）维护负面上下文正则列表，命中歧义词时检查是否匹配负面模式（如 "supply chain layers"、"visit our traceability page"），匹配则排除
 - **短词边界匹配**：长度 ≤ 5 的关键词使用 `\b` 词边界匹配，避免子串误匹配（如 `iot` 不匹配 `riot`）
+
+### AI 语义筛选（Step 4 内置）
+
+预筛（关键词匹配）通过的文章，仍可能语义上不相关。在 AI 完整处理前增加一级轻量语义筛选：
+
+- **Stage 1 筛选**：轻量 API 调用（title + 前 1500 字，max_tokens=200），判断是否与智慧农业/畜牧语义相关
+- **Stage 2 完整分析**：仅筛选通过的文章进入五维评分 + 全文翻译 + 摘要 + 精选理由
+- 筛选失败标记 `isRelevant: false, techTags: 'ai_rejected'`，DB 保留但不导出（前端完全不可见）
+- API 失败时默认通过，避免意外丢失文章
 
 ### 跨源标题去重（Step 2 内置）
 
