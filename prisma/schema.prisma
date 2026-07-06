@@ -15,7 +15,6 @@ model Source {
   url         String   // "https://www.thepigsite.com"
   rssUrl      String?  // RSS地址
   tier        String   // T1 | T1.5 | T2
-  species     String   // "livestock" | "crop" | "aggtech"
   category    String   // "livestock" | "crop" | "aggtech"
   defaultSubcategory String @default("general") // pig/poultry/cattle/sheep/field/fruit/horticulture/general
   isActive    Boolean  @default(true)
@@ -71,7 +70,6 @@ model Item {
   multiSourceCount Int      @default(1)    // 同一事件被几个信源报道
 
   createdAt        DateTime @default(now())
-  feedbacks        Feedback[]
 
   @@unique([url]) // URL去重
   @@index([publishedAt(sort: Desc)])
@@ -82,13 +80,3 @@ model Item {
   @@index([qualityScore(sort: Desc)])
 }
 
-// 用户反馈
-model Feedback {
-  id        String   @id @default(cuid())
-  itemId    String
-  item      Item     @relation(fields: [itemId], references: [id])
-  rating    String   // "up" | "down"
-  createdAt DateTime @default(now())
-
-  @@index([itemId])
-}

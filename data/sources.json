@@ -10,7 +10,7 @@
       "type": "aggtech",
       "defaultCategory": "aggtech",
       "defaultSubcategory": "general",
-      "coreKeywords": "precision|smart farming|IoT|sensor|automation|robot|drone|AI|digital|monitoring|technology|autonomous|variable rate|GPS|yield|irrigation|satellite|agtech|data|platform|machine learning|vision|wearable",
+      "coreKeywords": "precision|smart farming|IoT|sensor|automation|robot|drone|AI|autonomous|variable rate|GPS|yield|irrigation|satellite|agtech|machine learning|vision|wearable",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
@@ -23,7 +23,7 @@
       "type": "aggtech",
       "defaultCategory": "aggtech",
       "defaultSubcategory": "general",
-      "coreKeywords": "autonomous|robot|precision|AI|sensor|IoT|drone|automation|laser|weeding|smart|digital|monitoring|technology|data|machine|vision|platform|retrofit|GPS|telematic",
+      "coreKeywords": "autonomous|robot|precision|AI|sensor|IoT|drone|automation|laser|weeding|smart|machine|vision|retrofit|GPS|telematic",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
@@ -36,7 +36,7 @@
       "type": "crop",
       "defaultCategory": "crop",
       "defaultSubcategory": "horticulture",
-      "coreKeywords": "automation|sensor|IoT|robot|LED|lighting|climate|temperature|humidity|irrigation|hydroponic|controlled environment|vertical farm|technology|monitoring|smart|AI|data|fertigation|phenotyping",
+      "coreKeywords": "automation|sensor|IoT|robot|LED|lighting|climate|temperature|humidity|irrigation|hydroponic|controlled environment|vertical farm|smart|AI|fertigation|phenotyping",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue|retail|garden center"
     },
     {
@@ -49,7 +49,7 @@
       "type": "crop",
       "defaultCategory": "crop",
       "defaultSubcategory": "fruit",
-      "coreKeywords": "sensor|IoT|robot|AI|smart|digital|monitoring|cold chain|traceability|blockchain|precision|drone|autonomous|computer vision|automation|robotic",
+      "coreKeywords": "sensor|IoT|robot|AI|smart|cold chain|traceability|blockchain|precision|drone|autonomous|computer vision|automation|robotic",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue|promotion|advertising|pricing|commercial growth|packaging|weighing|vacuum|cooperation|border|cocoa|blueberry|nutrition|label|regulation|climate|export|import|tariff|quota"
     },
     {
@@ -65,7 +65,7 @@
       "scrapeType": "listing_page",
       "listUrl": "https://agfundernews.com",
       "scrapeConfig": "{\"listingSelector\": \"article h4.article-title a\"}",
-      "coreKeywords": "agtech|startup|investment|robot|AI|drone|sensor|IoT|precision|biotech|vertical farm|indoor|automation|digital|data|sustainability|food|supply chain|livestock|crop|funding|venture",
+      "coreKeywords": "agtech|startup|investment|robot|AI|drone|sensor|IoT|precision|biotech|vertical farm|indoor|automation|sustainability|food|supply chain|livestock|crop|funding|venture",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
@@ -110,7 +110,7 @@
       "type": "aggtech",
       "defaultCategory": "aggtech",
       "defaultSubcategory": "general",
-      "coreKeywords": "precision|smart farming|IoT|sensor|automation|robot|drone|AI|digital|monitoring|technology|autonomous|variable rate|GPS|yield|irrigation|satellite|agtech|data|platform|machine learning|vision|wearable|biotech|sustainability",
+      "coreKeywords": "precision|smart farming|IoT|sensor|automation|robot|drone|AI|autonomous|variable rate|GPS|yield|irrigation|satellite|agtech|machine learning|vision|wearable|biotech|sustainability",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
@@ -126,7 +126,7 @@
       "scrapeType": "listing_page",
       "listUrl": "https://www.agri-pulse.com",
       "scrapeConfig": "{\"listingSelector\": \"article.featured-article a, .daily-voice__article-title-link\"}",
-      "coreKeywords": "precision|technology|IoT|automation|robot|drone|AI|digital|biotech|food safety|sustainability|climate|policy|regulation|USDA|farm bill",
+      "coreKeywords": "precision|IoT|automation|robot|drone|AI|biotech|food safety|sustainability|climate|policy|regulation|USDA|farm bill",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
@@ -139,7 +139,7 @@
       "type": "livestock",
       "defaultCategory": "livestock",
       "defaultSubcategory": "pig",
-      "coreKeywords": "pig|hog|swine|pork|precision|sensor|IoT|automation|robot|drone|AI|digital|monitoring|data|technology|wearable|smart|camera|vision|algorithm|software|platform|app|GPS|tracking",
+      "coreKeywords": "pig|hog|swine|pork|precision|sensor|IoT|automation|robot|drone|AI|wearable|smart|camera|vision|algorithm|software|app|GPS|tracking",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
@@ -152,7 +152,7 @@
       "type": "livestock",
       "defaultCategory": "livestock",
       "defaultSubcategory": "pig",
-      "coreKeywords": "pig|hog|swine|pork|precision|sensor|IoT|automation|robot|drone|AI|digital|monitoring|data|technology|wearable|smart|camera|vision|algorithm|software|platform|app|GPS|tracking",
+      "coreKeywords": "pig|hog|swine|pork|precision|sensor|IoT|automation|robot|drone|AI|wearable|smart|camera|vision|algorithm|software|app|GPS|tracking",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
@@ -165,7 +165,7 @@
       "type": "livestock",
       "defaultCategory": "livestock",
       "defaultSubcategory": "cattle",
-      "coreKeywords": "cattle|beef|dairy|cow|feedlot|ranch|precision|sensor|IoT|automation|robot|drone|AI|digital|monitoring|data|technology|wearable|smart|camera|vision|algorithm|software|platform|app|GPS|tracking",
+      "coreKeywords": "cattle|beef|dairy|cow|feedlot|ranch|precision|sensor|IoT|automation|robot|drone|AI|wearable|smart|camera|vision|algorithm|software|app|GPS|tracking",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
@@ -178,7 +178,7 @@
       "type": "livestock",
       "defaultCategory": "livestock",
       "defaultSubcategory": "poultry",
-      "coreKeywords": "poultry|chicken|broiler|layer|egg|turkey|automation|IoT|sensor|monitoring|technology|precision|smart|camera|vision|robot|drone|AI|digital|data|wearable|algorithm|software|platform|ventilation|lighting",
+      "coreKeywords": "poultry|chicken|broiler|layer|egg|turkey|automation|IoT|sensor|precision|smart|camera|vision|robot|drone|AI|wearable|algorithm|software|ventilation|lighting",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
@@ -191,7 +191,7 @@
       "type": "livestock",
       "defaultCategory": "livestock",
       "defaultSubcategory": "poultry",
-      "coreKeywords": "meat|poultry|chicken|beef|pork|automation|robot|sensor|IoT|traceability|technology|innovation|smart|AI|digital|data|monitoring|camera|vision|inspection|blockchain",
+      "coreKeywords": "meat|poultry|chicken|beef|pork|automation|robot|sensor|IoT|traceability|innovation|smart|AI|camera|vision|inspection|blockchain",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
@@ -204,7 +204,7 @@
       "type": "livestock",
       "defaultCategory": "livestock",
       "defaultSubcategory": "general",
-      "coreKeywords": "feed|nutrition|precision|sensor|IoT|automation|technology|digital|monitoring|data|smart|AI|robot|drone|algorithm|software|platform|formulation|optimization",
+      "coreKeywords": "feed|nutrition|precision|sensor|IoT|automation|smart|AI|robot|drone|algorithm|software|formulation|optimization",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
@@ -217,7 +217,7 @@
       "type": "livestock",
       "defaultCategory": "livestock",
       "defaultSubcategory": "pig",
-      "coreKeywords": "pig|swine|hog|pork|precision|sensor|IoT|automation|robot|AI|digital|monitoring|technology|wearable|smart|camera|vision|genomic|gene|CRISPR|genome|edit|vaccine|health|disease|detection|algorithm|software|platform|data|analytics",
+      "coreKeywords": "pig|swine|hog|pork|precision|sensor|IoT|automation|robot|AI|wearable|smart|camera|vision|genomic|gene|CRISPR|genome|edit|vaccine|health|disease|detection|algorithm|software|analytics",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
@@ -230,7 +230,7 @@
       "type": "livestock",
       "defaultCategory": "livestock",
       "defaultSubcategory": "cattle",
-      "coreKeywords": "cattle|beef|dairy|cow|precision|sensor|IoT|automation|robot|AI|digital|monitoring|technology|wearable|smart|camera|vision|genomic|gene|CRISPR|genome|edit|vaccine|health|disease|detection|BRD|algorithm|software|platform|data|analytics",
+      "coreKeywords": "cattle|beef|dairy|cow|precision|sensor|IoT|automation|robot|AI|wearable|smart|camera|vision|genomic|gene|CRISPR|genome|edit|vaccine|health|disease|detection|BRD|algorithm|software|analytics",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
@@ -243,7 +243,7 @@
       "type": "livestock",
       "defaultCategory": "livestock",
       "defaultSubcategory": "poultry",
-      "coreKeywords": "poultry|chicken|broiler|layer|egg|turkey|precision|sensor|IoT|automation|robot|AI|digital|monitoring|technology|wearable|smart|camera|vision|genomic|gene|CRISPR|genome|edit|vaccine|health|disease|detection|HPAI|algorithm|software|platform|data|analytics",
+      "coreKeywords": "poultry|chicken|broiler|layer|egg|turkey|precision|sensor|IoT|automation|robot|AI|wearable|smart|camera|vision|genomic|gene|CRISPR|genome|edit|vaccine|health|disease|detection|HPAI|algorithm|software|analytics",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
@@ -259,7 +259,7 @@
       "scrapeType": "listing_page",
       "listUrl": "https://www.pigprogress.net",
       "scrapeConfig": "{\"listingSelector\": \"a[href*='/pigs/']\"}",
-      "coreKeywords": "pig|swine|hog|pork|precision|sensor|IoT|automation|robot|AI|digital|monitoring|technology|wearable|smart|camera|vision|genomic|gene|health|disease|detection|algorithm|software|platform|data|analytics|nutrition|feed",
+      "coreKeywords": "pig|swine|hog|pork|precision|sensor|IoT|automation|robot|AI|wearable|smart|camera|vision|genomic|gene|health|disease|detection|algorithm|software|analytics|nutrition|feed",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
@@ -275,7 +275,7 @@
       "scrapeType": "listing_page",
       "listUrl": "https://www.poultryworld.net",
       "scrapeConfig": "{\"listingSelector\": \"a[href*='/poultry/']\"}",
-      "coreKeywords": "poultry|chicken|broiler|layer|egg|turkey|precision|sensor|IoT|automation|robot|AI|digital|monitoring|technology|wearable|smart|camera|vision|genomic|gene|health|disease|detection|algorithm|software|platform|data|analytics|nutrition|feed",
+      "coreKeywords": "poultry|chicken|broiler|layer|egg|turkey|precision|sensor|IoT|automation|robot|AI|wearable|smart|camera|vision|genomic|gene|health|disease|detection|algorithm|software|analytics|nutrition|feed",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
     },
     {
@@ -291,7 +291,7 @@
       "scrapeType": "listing_page",
       "listUrl": "https://nedap-livestockmanagement.com/knowledge-base/",
       "scrapeConfig": "{\"listingSelector\": \"a[href*='/knowledge-base/']\", \"contentSelector\": \".article-content, .entry-content, article\"}",
-      "coreKeywords": "sensor|IoT|automation|robot|AI|digital|monitoring|technology|wearable|smart|camera|vision|RFID|heat stress|health|fertility|detection|cow|cattle|dairy|pig|swine|data|analytics|platform",
+      "coreKeywords": "sensor|IoT|automation|robot|AI|wearable|smart|camera|vision|RFID|heat stress|health|fertility|detection|cow|cattle|dairy|pig|swine|analytics",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue|career|vacancy"
     },
     {
@@ -307,7 +307,7 @@
       "scrapeType": "listing_page",
       "listUrl": "https://www.lely.com/solutions/",
       "scrapeConfig": "{\"listingSelector\": \"a[href*='/solutions/']\", \"contentSelector\": \".content, .article-body, main\"}",
-      "coreKeywords": "robot|automation|milking|feeding|sensor|IoT|AI|digital|monitoring|technology|smart|camera|data|analytics|platform|dairy|cow|cattle|barn|manure|welfare|precision",
+      "coreKeywords": "robot|automation|milking|feeding|sensor|IoT|AI|smart|camera|analytics|dairy|cow|cattle|barn|manure|welfare|precision",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue|career|vacancy"
     },
     {
@@ -323,7 +323,7 @@
       "scrapeType": "listing_page",
       "listUrl": "https://www.delaval.com/en-hub/",
       "scrapeConfig": "{\"listingSelector\": \"a[href*='/en-hub/']\", \"contentSelector\": \".article-content, .content-block, main\"}",
-      "coreKeywords": "robot|automation|milking|feeding|sensor|IoT|AI|digital|monitoring|technology|smart|BioSensor|data|analytics|platform|dairy|cow|cattle|barn|manure|welfare|precision|DelPro",
+      "coreKeywords": "robot|automation|milking|feeding|sensor|IoT|AI|smart|BioSensor|analytics|dairy|cow|cattle|barn|manure|welfare|precision|DelPro",
       "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue|career|vacancy"
     },
     {
@@ -376,12 +376,28 @@
     }
   ],
   "contentFarmBlacklist": [
-    "震惊", "转发", "必看", "深度好文", "不转不是",
-    "shocking", "you won't believe", "must read", "amazing trick"
+    "震惊",
+    "转发",
+    "必看",
+    "深度好文",
+    "不转不是",
+    "shocking",
+    "you won't believe",
+    "must read",
+    "amazing trick"
   ],
   "tiers": {
-    "T1": { "weight": 1.0, "label": "官方一手" },
-    "T1.5": { "weight": 0.7, "label": "行业权威" },
-    "T2": { "weight": 0.4, "label": "综合媒体" }
+    "T1": {
+      "weight": 1,
+      "label": "官方一手"
+    },
+    "T1.5": {
+      "weight": 0.7,
+      "label": "行业权威"
+    },
+    "T2": {
+      "weight": 0.4,
+      "label": "综合媒体"
+    }
   }
 }

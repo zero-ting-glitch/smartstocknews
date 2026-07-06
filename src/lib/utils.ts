@@ -98,6 +98,7 @@ export const speciesColors: Record<string, string> = {
   field: '#fb923c',    // 橙
   fruit: '#f87171',    // 红
   horticulture: '#e879f9', // 紫粉
+  general: '#94a3b8',  // 灰
 };
 
 /**
@@ -111,6 +112,7 @@ export const speciesNames: Record<string, string> = {
   field: '大田',
   fruit: '果蔬',
   horticulture: '园艺',
+  general: '综合',
 };
 
 /**

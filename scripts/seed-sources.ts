@@ -20,7 +20,6 @@ async function main() {
           url: source.url,
           rssUrl: source.rssUrl,
           tier: source.tier,
-          species: source.species,
           category: source.category,
         },
         create: {
@@ -30,7 +29,6 @@ async function main() {
           url: source.url,
           rssUrl: source.rssUrl,
           tier: source.tier,
-          species: source.species,
           category: source.category,
         },
       });

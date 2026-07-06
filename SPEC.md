@@ -45,7 +45,7 @@
 | T1.5 | 行业权威媒体 | 0.7 |
 | T2 | 综合媒体/KOL | 0.4 |
 
-### 当前 15 个信源
+### 当前 26 个信源
 
 **种植/综合信源（9 个）**
 
@@ -61,7 +61,7 @@
 | 中国农业农村信息网-智慧农业 | 综合 | 列表页爬取 | T1 |
 | 中国农业农村信息网-信息化 | 综合 | 列表页爬取 | T1 |
 
-**畜牧信源（6 个）**
+**畜牧信源（17 个）**
 
 | 信源 | 物种 | 采集方式 | 等级 |
 |------|------|----------|------|
@@ -71,6 +71,17 @@
 | Poultry Times | 禽业 | RSS | T1.5 |
 | MEAT+POULTRY | 禽业 | RSS | T1.5 |
 | Feedstuffs | 综合 | RSS | T1.5 |
+| The Pig Site | 猪业 | RSS | T1.5 |
+| The Cattle Site | 牛业 | RSS | T1.5 |
+| The Poultry Site | 禽业 | RSS | T1.5 |
+| Pig Progress | 猪业 | RSS | T1.5 |
+| Poultry World | 禽业 | RSS | T1.5 |
+| Nedap | 综合 | RSS | T1 |
+| Lely | 综合 | RSS | T1 |
+| DeLaval | 综合 | RSS | T1 |
+| 中国畜牧业协会 | 综合 | RSS | T1 |
+| 中科智牧 | 综合 | RSS | T1.5 |
+| 精讯畅通 | 综合 | RSS | T1.5 |
 
 ### 采集方式
 
@@ -78,22 +89,26 @@
 - **列表页爬取**：配置 `scrapeType: "listing_page"` + `listUrl` + `scrapeConfig`（CSS 选择器），cheerio 爬取（403 时回退 Playwright）
 - **反爬绕过**：Playwright + Stealth 插件，绕过 Cloudflare TLS 指纹 + JS challenge
 
-### 过滤策略
+### 过滤策略（三层）
 
-1. 信源白名单制（`sources.json` 配置 `coreKeywords` + `excludeKeywords`）
-2. 标题 + 内容关键词匹配（命中核心关键词 + 排除垃圾关键词）
-3. AI 判断相关性（`isRelevant` 字段）
+1. **信源级别**：`sources.json` 各信源配置 `coreKeywords`，标题命中任一关键词即通过
+2. **管线预筛（Step 3.7）**：技术词 + 农业词双维度交叉匹配，每组至少 1 个，总命中 ≥ 2；包含歧义词处理 + 短词边界匹配；不通过标记 `pre_filter_rejected`
+3. **AI 语义筛选（Step 4 Stage 1）**：轻量 API 判断是否与智慧农业/畜牧语义相关；不通过标记 `ai_rejected`，DB 保留但不导出
 
 ## 5. 数据处理流程
 
 ### 管线步骤
 
 ```
-[1/5] 同步信源    sources.json → SQLite Source 表（upsert）
-[2/5] 采集 URL    RSS 解析 + 列表页爬取 → 发现文章链接 → 关键词过滤 → Item 表（RSS 403 时自动回退浏览器）
-[3/5] 全文爬取    cheerio 解析每篇文章 → 提取文本/图片/作者 → 写入 contentFull/images/author（403 时回退 Playwright headless browser）
-[4/5] AI 处理     DeepSeek 统一调用 → 五维评分+中文标题+摘要+精选理由
-[5/5] 导出 JSON   列表 JSON + 详情 JSON + 热点 JSON + 统计 JSON
+[1/5]   同步信源    sources.json → SQLite Source 表（upsert）
+[2/5]   采集 URL    RSS 解析 + 列表页爬取 → 发现文章链接 → 关键词过滤 → Item 表（403 时自动回退浏览器）
+[2.5]   修正日期    检测 publishedAt 与 scrapedAt 相差 < 5 分钟的文章，重置重新爬取
+[3/5]   全文爬取    cheerio 解析每篇文章 → 提取文本/图片/作者/发表日期 → 写入 contentFull/images/author（403 时回退 Playwright）
+[3.5]   重评相关性  仅本轮新爬文章，用完整内容重新判断
+[3.7]   智慧农业预筛 技术+农业双维度关键词匹配，阈值 ≥ 2（歧义词处理 + 短词边界匹配）
+[4/5]   AI 处理     Stage 1 语义筛选 → Stage 2 五维评分+中文标题+摘要+全文翻译+精选理由+物种分类
+[4.5]   修复 species 将 subcategory 同步到 species 字段
+[5/5]   导出 JSON   增量合并（已标记不相关的自动清除）+ 列表 JSON + 详情 JSON + 热点 JSON + 统计 JSON
 ```
 
 ### AI 评分维度
@@ -109,8 +124,7 @@
 ### 质量分计算
 
 ```
-qualityScore = 五维平均分 × 信源权重 × 多源系数
-多源系数 = 1 + 0.2 × min(多源数 - 1, 3)
+qualityScore = 五维平均分 × 信源权重 + min(多源数, 3) × 5
 ```
 
 - `isHot`：qualityScore >= 75 或 multiSourceCount >= 3

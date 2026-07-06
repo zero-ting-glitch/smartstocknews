@@ -53,7 +53,7 @@ async function fetchRss(source: any): Promise<any[]> {
     const Parser = rssParser.default || rssParser;
     const parser = new Parser({
       timeout: 15000,
-      headers: { 'User-Agent': 'SmartStock/1.0 (RSS Reader)' },
+      headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36' },
     });
     const feed = await parser.parseURL(source.rssUrl);
     for (const entry of feed.items || []) {
@@ -288,19 +288,18 @@ async function scrapeArticlesBatch(items: any[]): Promise<{ scraped: number; fai
   const scrapedIds: string[] = [];
 
   // 域名级限速：同域名请求间隔 DOMAIN_DELAY_MS，防 429
-  const domainLastRequest = new Map<string, number>();
+  // 使用 Promise 链避免并发竞态（同一域名的多个请求串行排队）
+  const domainQueues = new Map<string, Promise<void>>();
   async function scrapeWithDomainDelay(url: string, config?: string) {
-    try {
-      const domain = new URL(url).hostname;
-      const lastReq = domainLastRequest.get(domain) || 0;
-      const elapsed = Date.now() - lastReq;
-      if (elapsed < DOMAIN_DELAY_MS) {
-        domainLastRequest.set(domain, Date.now());
-        await new Promise((r) => setTimeout(r, DOMAIN_DELAY_MS - elapsed));
-      } else {
-        domainLastRequest.set(domain, Date.now());
-      }
-    } catch { /* ignore URL parse errors */ }
+    let domain = 'unknown';
+    try { domain = new URL(url).hostname; } catch { /* ignore */ }
+
+    // 排队：同一域名串行等待，不同域名并行
+    const prev = domainQueues.get(domain) || Promise.resolve();
+    const next = prev.then(() => new Promise<void>((r) => setTimeout(r, DOMAIN_DELAY_MS)));
+    domainQueues.set(domain, next);
+    await next;
+
     return scrapeArticle(url, config);
   }
 
@@ -530,11 +529,11 @@ function classifyItem(item: any, source: any, aiSubcategory?: string): { categor
     return { category: SUBCATEGORY_TO_CATEGORY[aiSubcategory], subcategory: aiSubcategory };
   }
 
-  // 回退：source.species 大类 + defaultSubcategory
-  if (source.species === 'livestock') {
+  // 回退：source.category 大类 + defaultSubcategory
+  if (source.category === 'livestock') {
     return { category: 'livestock', subcategory: source.defaultSubcategory || 'cattle' };
   }
-  if (source.species === 'crop') {
+  if (source.category === 'crop') {
     return { category: 'crop', subcategory: source.defaultSubcategory || 'field' };
   }
 
@@ -578,7 +577,6 @@ async function main() {
     await prisma.source.upsert({
       where: { id: source.id },
       update: {
-        species: source.type || 'aggtech',
         category: source.defaultCategory || 'aggtech',
         defaultSubcategory: source.defaultSubcategory || 'general',
       },
@@ -589,7 +587,6 @@ async function main() {
         url: source.url,
         rssUrl: source.rssUrl,
         tier: source.tier,
-        species: source.type || 'aggtech',
         category: source.defaultCategory || 'aggtech',
         defaultSubcategory: source.defaultSubcategory || 'general',
       },
@@ -647,7 +644,7 @@ async function main() {
             url: item.url,
             publishedAt: item.publishedAt,
             contentHtml: item.contentHtml,
-            species: source.type || source.defaultCategory || 'aggtech',
+            species: source.defaultCategory || 'aggtech',
             techTags: '',
             isRelevant: true,
           },
@@ -851,7 +848,7 @@ async function main() {
           translationZh: translation,
           featuredReason: result.featuredReason,
           qualityScore,
-          isHot: qualityScore >= 60,
+          isHot: qualityScore >= 75 || item.multiSourceCount >= 3,
           category,
           subcategory,
           species,
@@ -916,19 +913,32 @@ async function main() {
     subcategory: item.subcategory || 'general',
     techTags: item.techTags || '',
     qualityScore: item.qualityScore || 0,
-    isFeatured: (item.qualityScore || 0) >= 55,
+    isFeatured: (() => {
+      const tier = item.source?.tier || 'T2';
+      const qs = item.qualityScore || 0;
+      if (tier === 'T1') return qs >= 60;
+      if (tier === 'T1.5') return qs >= 70;
+      return qs >= 80; // T2
+    })(),
     isHot: item.isHot,
     publishedAt: item.publishedAt ? item.publishedAt.toISOString() : '',
   });
 
   // 详情格式（含全文、图片等）
-  // contentHtml 在导出前净化：移除 script/style 标签和事件属性，防止存储型 XSS
+  // contentHtml 在导出前净化：移除危险标签/属性/协议，防止存储型 XSS
   const sanitizeHtml = (html: string): string =>
     html
       .replace(/<script[\s\S]*?<\/script>/gi, '')
       .replace(/<style[\s\S]*?<\/style>/gi, '')
+      .replace(/<iframe[\s\S]*?<\/iframe>/gi, '')
+      .replace(/<embed[\s\S]*?<\/embed>/gi, '')
+      .replace(/<object[\s\S]*?<\/object>/gi, '')
+      .replace(/<svg[\s\S]*?on\w+\s*=[\s\S]*?>/gi, '')
       .replace(/\son\w+\s*=\s*["'][^"']*["']/gi, '')
-      .replace(/javascript\s*:/gi, '');
+      .replace(/\son\w+\s*=\s*\S+/gi, '')
+      .replace(/javascript\s*:/gi, '')
+      .replace(/data:\s*text\/html/gi, '')
+      .replace(/<form[\s\S]*?<\/form>/gi, '');
 
   const formatDetailItem = (item: any) => ({
     ...formatListItem(item),

@@ -69,10 +69,12 @@ smartstock/
 │       ├── config.ts           # 前端配置
 │       └── utils.ts            # 工具函数
 ├── scripts/
-│   ├── run-pipeline.ts         # 一键管线（采集→爬取→AI→导出）
-│   ├── export-static.ts        # 静态 JSON 导出
+│   ├── run-pipeline.ts         # 一键管线（同步→采集→日期修正→爬取→预筛→AI→物种修复→导出）
+│   ├── export-static.ts        # 独立导出脚本
+│   ├── cleanup-irrelevant.ts   # AI 语义清理不相关文章（一次性）
 │   ├── seed-sources.ts         # 信源初始化
-│   └── check-items.ts          # 数据检查工具
+│   ├── check-items.ts          # 数据检查工具
+│   └── clear-truncated.ts      # 清除截断翻译（一次性）
 ├── data/
 │   └── sources.json            # 信源配置（15 个源）
 ├── prisma/
@@ -142,36 +144,47 @@ npm run build
 
 ## 数据管线
 
-`scripts/run-pipeline.ts` 一键运行 5 个步骤：
+`scripts/run-pipeline.ts` 一键运行 5+ 个步骤：
 
 ```
-[1/5] 同步信源    → sources.json → SQLite
-[2/5] 采集 URL    → RSS + 列表页爬取 → 跨源标题去重 → 发现文章链接（RSS 403 时自动回退浏览器）
-[3/5] 全文爬取    → cheerio 解析 → 提取文本/图片/作者（403 时自动回退 Playwright headless browser）
-[4/5] AI 处理     → 预筛过滤 → DeepSeek 统一调用 → 评分+全文翻译+摘要+精选理由
-[5/5] 导出 JSON   → 列表 JSON + 详情 JSON（含全文翻译）+ 热点 + 统计
+[1/5]   同步信源    sources.json → SQLite（upsert）
+[2/5]   采集 URL    RSS + 列表页爬取 → 跨源标题去重 → 发现文章链接（403 时自动回退 headless browser）
+[2.5]   修正日期    检测 publishedAt 与 scrapedAt 相差 < 5 分钟的文章，重置重新爬取
+[3/5]   全文爬取    cheerio 解析 → 提取文本/图片/作者（域名级限速 2s，403 时回退 Playwright headless browser）
+[3.5]   重评相关性  仅本轮新爬文章，用完整内容重新判断
+[3.7]   智慧农业预筛 技术+农业双维度关键词匹配，阈值 ≥ 2
+[4/5]   AI 处理     Stage 1 语义筛选 → Stage 2 评分+全文翻译+摘要+精选理由+物种分类
+[4.5]   修复 species 将 subcategory 同步到 species 字段
+[5/5]   导出 JSON   增量合并（已标记不相关的自动清除）+ 按分类导出 + 热点 + 统计
 ```
 
-### 预筛过滤
+### 预筛过滤（Step 3.7）
 
 AI 处理前进行关键词预筛，降低成本：
 - 关键词分两组：`TECH_KEYWORDS`（技术）+ `AG_KEYWORDS`（农业）
-- 必须每组至少命中 1 个，总命中 ≥ 2 才进入 AI 处理
+- 必须每组至少命中 1 个，总命中 ≥ 2 才进入 AI 处理（阈值从 3 降到 2）
 - 支持中英文关键词（覆盖 agri.cn 中文源）
+- **歧义词处理**：对多义词（如 `layer`、`traceability`）维护负面上下文正则列表，匹配负面模式时排除
+- **短词边界匹配**：长度 ≤ 5 的关键词使用 `\b` 词边界匹配，避免子串误匹配
+- 被拒 item 标记 `isRelevant: false, techTags: 'pre_filter_rejected'`
 
-### AI 处理
+### AI 处理（Step 4）
 
-单次 API 调用返回：
-- 五维评分（relevance / importance / novelty / readability / actionability）
-- 中文标题和摘要（100-150 字）
-- 全文中文翻译（完整翻译所有段落）
-- 精选理由（1-2 句推荐语）
+两级处理，节省 token：
+
+- **Stage 1 语义筛选**：轻量 API 调用（title + 前 1500 字，max_tokens=200），判断是否与智慧农业/畜牧语义相关。API 失败时默认通过。
+- **Stage 2 完整分析**：仅筛选通过的文章进入：
+  - 五维评分（relevance / importance / novelty / readability / actionability）
+  - 中文标题和摘要（100-150 字）
+  - 全文中文翻译（完整翻译所有段落）
+  - 精选理由（1-2 句推荐语）
+  - 物种分类（pig / poultry / cattle / sheep / field / fruit / horticulture / general）
 
 最终质量分 = 五维平均分 × 信源权重 + 多源验证加分
 
 ## 信源体系
 
-### 当前 15 个信源
+### 当前 26 个信源
 
 **种植/综合信源（9 个）**
 
@@ -187,7 +200,7 @@ AI 处理前进行关键词预筛，降低成本：
 | 中国农业农村信息网-智慧农业 | 中国智慧农业 | 列表页 | T1 |
 | 中国农业农村信息网-信息化 | 中国农业信息化 | 列表页 | T1 |
 
-**畜牧信源（6 个）**
+**畜牧信源（17 个）**
 
 | 信源 | 方向 | 采集方式 | 等级 |
 |------|------|----------|------|
@@ -197,6 +210,17 @@ AI 处理前进行关键词预筛，降低成本：
 | Poultry Times | 禽业 | RSS | T1.5 |
 | MEAT+POULTRY | 肉禽加工 | RSS | T1.5 |
 | Feedstuffs | 饲料营养 | RSS | T1.5 |
+| The Pig Site | 养猪技术 | RSS | T1.5 |
+| The Cattle Site | 养牛技术 | RSS | T1.5 |
+| The Poultry Site | 养禽技术 | RSS | T1.5 |
+| Pig Progress | 养猪进展 | RSS | T1.5 |
+| Poultry World | 全球禽业 | RSS | T1.5 |
+| Nedap | 畜牧物联网设备 | RSS | T1 |
+| Lely | 挤奶/饲喂机器人 | RSS | T1 |
+| DeLaval | 牧场自动化设备 | RSS | T1 |
+| 中国畜牧业协会 | 中国畜牧政策/行业 | RSS | T1 |
+| 中科智牧 | 中国智慧畜牧 | RSS | T1.5 |
+| 精讯畅通 | 农业物联网设备 | RSS | T1.5 |
 
 ### 信源配置
 
