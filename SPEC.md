@@ -252,3 +252,47 @@ ADMIN_TOKEN=xxx
 - GitHub Pages：push to master 自动构建部署
 - 采集：GitHub Actions 手动触发，运行管线后自动提交数据变更
 - Secret：`CFG_01`（DeepSeek API Key）
+
+---
+
+## 附录：2026-07 洁癖审查与修复记录
+
+### 审查背景
+
+从第一性原理、最终目的、用户第一三个角度出发，识别系统设计与实现中的问题。2026-07-03 审查，2026-07-06 修复完成。
+
+### 已修复项
+
+| 组 | 问题 | 改动 |
+|---|------|------|
+| A1 | Source 表 `species`/`category` 同义 | 删 `species`，统一用 `category` |
+| A2 | Feedback 模型死代码 | 整表移除 |
+| B1 | `isHot` 阈值代码 60 但 SPEC 写 75 | 改为 `>= 75 \|\| multiSource >= 3` |
+| B2 | `isFeatured` 代码扁平 55，SPEC 写三档 | 改为 T1≥60 / T1.5≥70 / T2≥80 |
+| C1 | `speciesColors`/`speciesNames` 缺 general | 补灰色 #94a3b8 + "综合" |
+| C2 | HTML 净化不完整 | 增加 iframe/embed/object/svg onload/data: 过滤 |
+| D1 | RSS User-Agent 自报家门 | 改为 Chrome 125 标准 UA |
+| D2 | 并发域名限速竞态条件 | 改为 Promise 链串行排队 |
+| D3 | coreKeywords 泛化词过多 | 21 个信源移除 93 个通用词 |
+| E  | SPEC 质量分公式乘法→加法 | 同步代码 |
+
+### 讨论待定项
+
+| 问题 | 原因 |
+|------|------|
+| DB 暂存区架构 | 每次 CI 空 DB，增量合并复杂，待业务稳定后评估 |
+| 站内搜索 | 新功能，非修复 |
+| general 频道定位 | 设计决策，需确认产品意图 |
+| Stage 1 AI 筛选经济性 | 需生产数据验证拒绝率 |
+| 爬虫失败通知 | 需通知通道配合 |
+| 自动更新定时触发 | 等业务稳定后恢复 cron |
+
+### 根目录 `_temp.xlsx`
+
+来自另一 Claude 会话的临时工作文件，非本项目产出。**勿提交、勿删除**，由原会话自行清理。
+
+### Commit 记录
+
+- `1d855ee` — 主修复（Source 清理 + 阈值调优 + 爬虫改进 + 文档同步）
+- `e4445f1` — .gitignore 加入 .claude/
+- `99a7546` — 更新审查记录
