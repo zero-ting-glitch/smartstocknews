@@ -1,7 +1,7 @@
 # SmartStock 洁癖审查与整改记录
 
-> 日期：2026-07-03
-> 审查者：Claude（neat-freak skill）
+> 审查日期：2026-07-03 ｜ 修复完成：2026-07-06
+> 审查+修复者：Claude（neat-freak skill）
 
 ## 背景
 
@@ -136,3 +136,15 @@
 `technology`, `data`, `digital`, `platform`, `monitoring`
 
 这些词汇过于通用，在技术媒体中几乎每篇文章都会出现，使其失去过滤价值。
+
+---
+
+## 后续说明
+
+### 根目录 `_temp.xlsx`
+
+该文件为另一会话中 Claude 产生的临时工作文件，非本项目产出。**不要提交到 git，不要删除**——会由原会话自行清理。
+
+### Commit 记录
+
+本次修复所有代码变更提交于 commit `1d855ee`（主修复）和 `e4445f1`（.gitignore），均已推送到 master。
