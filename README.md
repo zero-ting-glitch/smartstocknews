@@ -14,7 +14,7 @@
 - **物种频道**：猪业 / 禽业 / 牛业 / 羊业 / 大田 / 果蔬 / 园艺
 - **详情页**：精选理由、AI 摘要、全文中文翻译（中英切换）、原文链接
 - **信源分级**：T1（官方一手）/ T1.5（行业权威）/ T2（综合媒体）
-- **自动采集**：GitHub Actions 手动触发，自动导出静态 JSON
+- **自动采集**：GitHub Actions 每周一 08:07 自动 + 手动触发，自动导出静态 JSON
 
 ## 技术栈
 
@@ -234,7 +234,7 @@ AI 处理前进行关键词预筛，降低成本：
 ### 自动部署
 
 - Push to `master` → GitHub Actions 自动构建 → 部署到 GitHub Pages
-- 手动触发采集：GitHub Actions → "采集 + AI处理 + 导出" → Run workflow
+- 手动触发采集（或每周一 08:07 自动）：GitHub Actions → "采集 + AI处理 + 导出" → Run workflow
 
 ### 线上地址
 

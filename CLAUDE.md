@@ -54,7 +54,7 @@ smartstock/
 │   └── data/              # 导出的静态 JSON
 ├── .github/workflows/
 │   ├── deploy.yml         # push to master → 构建 → GitHub Pages
-│   └── collect.yml        # 手动触发 → 采集+AI+导出 → 自动提交
+│   └── collect.yml        # 每周一 08:07 自动 + 手动触发 → 采集+AI+导出 → 自动提交
 ├── .env.example           # 环境变量模板
 └── .env                   # 本地密钥（不进 git）
 ```
@@ -212,7 +212,7 @@ npx tsx scripts/export-static.ts          # 独立导出静态 JSON
 - 线上地址：https://zero-ting-glitch.github.io/smartstocknews/
 - GitHub 仓库：https://github.com/zero-ting-glitch/smartstocknews
 - 推送到 master 自动触发构建和部署
-- 采集工作流：GitHub Actions 手动触发，运行管线后自动提交 `public/data/` 的变更
+- 采集工作流：GitHub Actions 每周一 08:07 自动运行 + 手动触发，运行管线后自动提交 `public/data/` 的变更
 - Secret 名称：`CFG_01`（DeepSeek API Key）
 
 ## 物种/作物频道
