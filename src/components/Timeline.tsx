@@ -42,18 +42,8 @@ const SPECIES_FILTERS = [
   { key: 'horticulture', label: '园艺' },
 ];
 
-const TECH_FILTERS = [
-  { key: 'all', label: '全部' },
-  { key: 'iot', label: 'IoT' },
-  { key: 'ai', label: 'AI' },
-  { key: 'automation', label: '自动化' },
-  { key: 'robot', label: '机器人' },
-  { key: 'sensor', label: '传感器' },
-];
-
 export function Timeline({ items = [], showFilters = false, initialSpecies }: TimelineProps) {
   const [speciesFilter, setSpeciesFilter] = useState(initialSpecies || 'all');
-  const [techFilter, setTechFilter] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
 
   const filteredItems = useMemo(() => {
@@ -63,11 +53,6 @@ export function Timeline({ items = [], showFilters = false, initialSpecies }: Ti
         const inSpecies = item.species.split(',').includes(speciesFilter);
         const inSubcategory = item.subcategory === speciesFilter;
         if (!inSpecies && !inSubcategory) return false;
-      }
-      // 技术筛选
-      if (techFilter !== 'all') {
-        const tags = item.techTags.split(',').map(t => t.toLowerCase());
-        if (!tags.includes(techFilter)) return false;
       }
       // 搜索
       if (searchQuery) {
@@ -79,7 +64,7 @@ export function Timeline({ items = [], showFilters = false, initialSpecies }: Ti
       }
       return true;
     });
-  }, [items, speciesFilter, techFilter, searchQuery]);
+  }, [items, speciesFilter, searchQuery]);
 
   // 按日期分组（无日期的归入"未知日期"组）
   const grouped = filteredItems.reduce((acc, item) => {
@@ -121,17 +106,6 @@ export function Timeline({ items = [], showFilters = false, initialSpecies }: Ti
                 onChange={e => setSearchQuery(e.target.value)}
               />
             </div>
-          </div>
-          <div className="m-chips" style={{ paddingTop: 0 }}>
-            {TECH_FILTERS.map(f => (
-              <button
-                key={f.key}
-                className={`m-chip ${techFilter === f.key ? 'is-active' : ''}`}
-                onClick={() => setTechFilter(f.key)}
-              >
-                {f.label}
-              </button>
-            ))}
           </div>
         </>
       )}

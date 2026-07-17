@@ -91,6 +91,36 @@ body {
   flex-shrink: 0;
 }
 
+/* 侧边栏 Logo */
+.sidebar-logo {
+  display: block;
+  padding: 0 8px;
+  margin-bottom: 24px;
+  text-decoration: none;
+}
+
+.sidebar-title {
+  font-family: 'Outfit', var(--font-body);
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--m-ink);
+  line-height: 1;
+  margin: 0;
+  letter-spacing: -0.03em;
+}
+
+.sidebar-title-highlight {
+  color: var(--m-brand);
+}
+
+.sidebar-subtitle {
+  font-size: 10px;
+  color: var(--m-ink-soft);
+  margin: 8px 0 0;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .side-link {
   color: var(--m-ink-muted);
   font-size: 14px;

@@ -9,9 +9,10 @@ import { BASE_PATH } from '@/lib/config';
 interface SpeciesPageProps {
   species: string;
   speciesName: string;
+  titleSuffix?: string;
 }
 
-export function SpeciesPage({ species, speciesName }: SpeciesPageProps) {
+export function SpeciesPage({ species, speciesName, titleSuffix = '智养' }: SpeciesPageProps) {
   const [items, setItems] = useState<NewsItem[]>([]);
   const [hotItems, setHotItems] = useState<any[]>([]);
   const [stats, setStats] = useState<any>(undefined);
@@ -27,7 +28,7 @@ export function SpeciesPage({ species, speciesName }: SpeciesPageProps) {
       <Sidebar />
       <main className="flex-1 min-h-screen" style={{ background: 'var(--bg-main)' }}>
         <div className="page-header">
-          <h1 className="page-title">{speciesName}业智养</h1>
+          <h1 className="page-title">{speciesName}业{titleSuffix}</h1>
           <p className="page-subtitle">{speciesName}业相关资讯全量信息流</p>
         </div>
         <Timeline items={items} showFilters initialSpecies={species} />

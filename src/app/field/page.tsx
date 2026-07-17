@@ -3,5 +3,5 @@
 import { SpeciesPage } from '@/components/SpeciesPage';
 
 export default function FieldPage() {
-  return <SpeciesPage species="field" speciesName="大田" />;
+  return <SpeciesPage species="field" speciesName="大田" titleSuffix="智农" />;
 }

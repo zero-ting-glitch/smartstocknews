@@ -31,13 +31,11 @@ export function Sidebar() {
 
   return (
     <aside className="sidebar">
-      <Link href="/" className="block mb-6">
-        <h1 className="text-lg font-bold" style={{ color: 'var(--accent)' }}>
-          SmartStock
+      <Link href="/" className="sidebar-logo">
+        <h1 className="sidebar-title">
+          <span className="sidebar-title-highlight">Smart</span>Stock
         </h1>
-        <p className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>
-          智慧畜牧信息聚合
-        </p>
+        <p className="sidebar-subtitle">智慧农业信息聚合</p>
       </Link>
 
       <nav className="flex-1">

@@ -1,8 +1,8 @@
-# SmartStock - 智慧畜牧信息聚合站
+# SmartStock - 智慧农业信息聚合站
 
 ## 项目简介
 
-聚焦智慧畜牧（IoT/AI/自动化/机器人在养殖业和种植业的应用）的新闻聚合站。中海外信源结合，按物种/作物细分频道。RSS 仅作发现入口，实际爬取完整文章页面，AI 评分、全文翻译后以自定义排版展示。参考 AIHOT (aihot.virxact.com) 设计。
+聚焦智慧农业（IoT/AI/自动化/机器人在种植业与养殖业的应用）的新闻聚合站。中海外信源结合，按物种/作物细分频道。RSS 仅作发现入口，实际爬取完整文章页面，AI 评分、全文翻译后以自定义排版展示。参考 AIHOT (aihot.virxact.com) 设计。
 
 ## 目录结构
 
@@ -24,7 +24,8 @@ smartstock/
 │   │   ├── HotCard.tsx    # 热点卡片
 │   │   ├── SpeciesPage.tsx    # 物种频道通用页面
 │   │   ├── RightPanel.tsx     # 右侧面板
-│   │   └── StatsCard.tsx      # 统计卡片
+│   │   ├── StatsCard.tsx      # 统计卡片
+│   │   └── BackToTop.tsx      # 回到顶部按钮
 │   └── lib/
 │       ├── collector/     # 数据采集
 │       │   ├── scraper.ts # Web 爬虫（cheerio + Playwright 回退）+ SSRF 防护
