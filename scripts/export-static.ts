@@ -63,6 +63,21 @@ function readExistingItems(): ExportItem[] {
   }
 }
 
+/** contentHtml 导出前净化：移除危险标签/属性/协议，防止存储型 XSS */
+const sanitizeHtml = (html: string): string =>
+  html
+    .replace(/<script[\s\S]*?<\/script>/gi, '')
+    .replace(/<style[\s\S]*?<\/style>/gi, '')
+    .replace(/<iframe[\s\S]*?<\/iframe>/gi, '')
+    .replace(/<embed[\s\S]*?<\/embed>/gi, '')
+    .replace(/<object[\s\S]*?<\/object>/gi, '')
+    .replace(/<svg[\s\S]*?on\w+\s*=[\s\S]*?>/gi, '')
+    .replace(/\son\w+\s*=\s*["'][^"']*["']/gi, '')
+    .replace(/\son\w+\s*=\s*\S+/gi, '')
+    .replace(/javascript\s*:/gi, '')
+    .replace(/data:\s*text\/html/gi, '')
+    .replace(/<form[\s\S]*?<\/form>/gi, '');
+
 // 合并：新数据按 ID 覆盖旧数据，**旧数据中未出现在新数据集中的 ID 不再保留**
 // DB 是权威来源（WHERE isRelevant=true），已标记为不相关的文章不应出现在导出中
 function mergeItems(existing: ExportItem[], fresh: ExportItem[]): ExportItem[] {
@@ -124,7 +139,7 @@ async function main() {
       images: item.images ? (() => { try { return JSON.parse(item.images); } catch { return []; } })() : [],
       author: item.author || '',
       featuredReason: item.featuredReason || '',
-      contentHtml: item.contentHtml || '',
+      contentHtml: item.contentHtml ? sanitizeHtml(item.contentHtml) : '',
       scrapeMethod: item.scrapeMethod || 'rss',
     };
     writeFileSync(join(detailDir, `${item.id}.json`), JSON.stringify(detail, null, 2));
