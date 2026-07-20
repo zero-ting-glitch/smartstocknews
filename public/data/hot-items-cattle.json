@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "id": "cmrsp2zpr01h311ygndlxqt84",
+    "titleEn": "Dairy XL",
+    "titleZh": "Dairy XL：大型奶牛场自动化综合解决方案",
+    "summaryZh": "本文介绍了Lely公司针对大型奶牛场推出的Dairy XL自动化解决方案，涵盖挤奶机器人、自动饲喂系统、数字管理平台Lely Horizon以及Red Cow Community全球用户社区。通过自动化减少重复劳动、提升动物福利，并利用数据驱动决策，帮助牧场主更高效地管理大规模牛群。文中还分享了全球用户的实际应用案例与经验。",
+    "featuredReason": "本文详细展示了大型奶牛场自动化从硬件到软件、从单场到社区的全链条解决方案，对智慧畜牧行业从业者理解规模化牧场数字化转型路径具有直接参考价值。",
+    "url": "https://www.lely.com/solutions/milking/dairy-xl/",
+    "source": {
+      "name": "Lely",
+      "nameZh": "Lely 自动化乳业",
+      "tier": "T1"
+    },
+    "sourceId": "lely",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 86,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": ""
+  },
+  {
+    "id": "cmrsp2zq301h511ygg8pyktsn",
+    "titleEn": "Go to milking",
+    "titleZh": "迈向自动化挤奶：智慧牧场中的奶牛自由与个体化管理",
+    "summaryZh": "本文系统介绍了自动挤奶系统（AMS）在奶牛养殖中的应用理念，强调通过“自由牛流”让奶牛自主决定采食、饮水、休息和挤奶时间，从而提升动物福利与生产效率。文章还涵盖了选择性干奶牛疗法、放牧与机器人挤奶的结合等前沿实践，展示了物联网、传感器和机器人技术如何实现个体化健康管理和精准挤奶，为智慧畜牧从业者提供了从理论到落地的完整参考。",
+    "featuredReason": "本文从奶牛福利和个体化管理出发，深入解析自动挤奶系统与自由牛流、选择性干奶牛疗法等前沿技术的结合，为智慧畜牧从业者提供了提升效率与动物健康的实操思路，极具行业参考价值。",
+    "url": "https://www.lely.com/solutions/milking/",
+    "source": {
+      "name": "Lely",
+      "nameZh": "Lely 自动化乳业",
+      "tier": "T1"
+    },
+    "sourceId": "lely",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 93,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": ""
+  },
+  {
+    "id": "cmrsp2zq801h711ygscmbqc6c",
+    "titleEn": "Go to Feeding",
+    "titleZh": "迈向自动化饲喂：Lely智能饲喂解决方案全面解析",
+    "summaryZh": "本文介绍了Lely公司针对奶牛养殖的自动化饲喂解决方案，包括Lely Vector自动饲喂系统、Lely Juno自动推料机器人和Lely Calm自动犊牛饲喂器。文章阐述了智能饲喂的六大原则（频繁饲喂、定制日粮、精准配比等），强调通过自动化和数据集成（Lely Horizon平台）提升饲料效率、减少浪费、节省劳动力，并改善奶牛健康与产奶性能。内容兼具技术深度与实践指导价值，适合智慧畜牧从业者参考。",
+    "featuredReason": "本文系统介绍了Lely在奶牛自动化饲喂领域的最新解决方案与核心理念，涵盖机器人、精准饲喂与数据平台，对智慧畜牧从业者理解行业前沿技术趋势及实践落地具有重要参考价值。",
+    "url": "https://www.lely.com/solutions/feeding/",
+    "source": {
+      "name": "Lely",
+      "nameZh": "Lely 自动化乳业",
+      "tier": "T1"
+    },
+    "sourceId": "lely",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 84,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": ""
+  },
+  {
+    "id": "cmrsp2zqd01h911yg1ppw8h09",
+    "titleEn": "Go to Manure",
+    "titleZh": "迈向粪污管理：Lely机器人清粪与循环肥料系统解析",
+    "summaryZh": "本文介绍了Lely公司针对奶牛场粪污管理的全套机器人解决方案，包括Discovery Collector和Discovery Scraper两款自动清粪机器人，以及Lely Sphere循环粪污处理系统。这些方案通过自主导航、无需线缆或沟槽的设计，实现全天候清洁，减少人工劳动，改善牛蹄、牛尾和乳房卫生，降低感染风险。同时，Lely Sphere系统将粪污转化为三种液态肥料，帮助农场闭合矿物循环。文章还分析了当前牧场面临的劳动力短缺、维护成本高、深垫料挑战等痛点，展示了自动化清粪在提升动物健康和生产效率方面的实际价值。",
+    "featuredReason": "本文详细介绍了Lely在奶牛场粪污管理领域的机器人自动化与循环农业技术，直接回应了当前牧场劳动力短缺、动物健康与环保合规的核心痛点，对智慧畜牧从业者具有很高的实践参考价值。",
+    "url": "https://www.lely.com/solutions/manure/",
+    "source": {
+      "name": "Lely",
+      "nameZh": "Lely 自动化乳业",
+      "tier": "T1"
+    },
+    "sourceId": "lely",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 93,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": ""
+  },
+  {
+    "id": "cmrsp2zqh01hb11ygqlstnqwt",
+    "titleEn": "Barn",
+    "titleZh": "Lely奶牛智慧牧场解决方案：从牛舍设计到精准饲喂与健康管理",
+    "summaryZh": "本文系统介绍了Lely公司针对奶牛养殖的智慧牧场解决方案，涵盖牛舍优化设计、自动挤奶系统（Astronaut）、精准饲喂系统（Cosmix）、智能放牧通道（Grazeway）、奶牛舒适刷（Luna）、自动蹄浴系统（Lely Meteor）以及配套冷却罐和Horizon管理平台。这些技术通过物联网、自动化和机器人手段，提升奶牛健康、减少劳动负担、提高产奶效率，是智慧畜牧在牛业落地的典型范例。",
+    "featuredReason": "本文集中展示了Lely在奶牛智慧牧场领域的成熟产品矩阵，从自动挤奶、精准饲喂到环境舒适与健康管理，覆盖了智慧畜牧在牛业落地的关键环节，对牧场智能化升级具有直接参考价值。",
+    "url": "https://www.lely.com/solutions/barn/",
+    "source": {
+      "name": "Lely",
+      "nameZh": "Lely 自动化乳业",
+      "tier": "T1"
+    },
+    "sourceId": "lely",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 79,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": ""
+  }
+]

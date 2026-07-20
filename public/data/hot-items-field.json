@@ -1,20 +1,112 @@
 [
   {
-    "id": "cmr2zkgz2001zfjpsro0yc5n3",
-    "titleEn": "U.S. Sugar deploys autonomous John Deere tractor fleet across 255,000 acres",
-    "titleZh": "美国糖业公司在25.5万英亩甘蔗田部署自动驾驶约翰迪尔拖拉机队",
-    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/u-s-sugar-deploys-autonomous-john-deere-tractor-fleet-across-255000-acres/",
-    "multiSourceCount": 1,
-    "publishedAt": "2026-05-28T07:00:00.000Z",
-    "qualityScore": 85
+    "id": "cmrsp2emj002j11yghu2wgpeh",
+    "titleEn": "Many growers still find ‘no meaningful benefit’ from AI use on the farm: survey",
+    "titleZh": "调查显示多数农民认为AI在农场“无实质益处”",
+    "summaryZh": "普渡大学/CME集团农业经济晴雨表最新调查显示，52%的美国农民认为AI和数据驱动工具目前对其经营“无实质益处”，仅14%认为能减少劳动力需求，22.8%认为能提高产量。调查还指出高投入成本是农场财务健康的最大制约因素（42%）。尽管专家认为随着时间推移农民会逐渐发现AI的价值，但当前采纳障碍包括执行难度和外部因素（如天气、设备故障）。",
+    "featuredReason": "该调查直接反映了农业（包括畜牧与种植）一线生产者对AI技术的真实态度，揭示了技术推广中的核心痛点——农民认为AI“无实质益处”，这对智慧畜牧行业从业者理解用户需求、调整产品策略具有重要参考价值。",
+    "url": "https://agfundernews.com/many-growers-still-find-no-meaningful-benefit-from-ai-use-on-the-farm-survey",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-15T19:55:25.000Z"
   },
   {
-    "id": "cmr2zkgum000rfjps32zbnw4t",
-    "titleEn": "Horsch enters into partnership with application map specialist",
-    "titleZh": "赫氏与施药地图专家达成战略合作",
-    "url": "https://www.futurefarming.com/smart-farming/horsch-enters-into-partnership-with-application-map-specialist/",
-    "multiSourceCount": 1,
-    "publishedAt": "2026-06-24T13:19:17.000Z",
-    "qualityScore": 80
+    "id": "cmrsp2948000d11ygqofqig4f",
+    "titleEn": "Komet Invests in Irrigation Intelligence to Close One of Agriculture’s Biggest Data Gaps",
+    "titleZh": "科迈特投资灌溉智能技术，填补农业最大数据空白之一",
+    "summaryZh": "科迈特灌溉公司宣布成立新的应用工程与数字系统部门，并推出“体验中心”，旨在通过科学测量和可重复数据，深入研究喷灌系统从喷头到作物的全过程，填补灌溉领域长期缺乏精准数据的空白。该举措将推动喷灌科学、工程和决策的全球进步，帮助种植者、经销商和OEM厂商在气候多变和水资源稀缺背景下做出更明智的灌溉决策。",
+    "featuredReason": "该新闻展示了灌溉领域从经验驱动向数据驱动转型的关键突破，其智能传感与数字分析思路对智慧畜牧中水管理、环境监控等场景具有直接借鉴价值。",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/irrigation/komet-invests-in-irrigation-intelligence-to-close-one-of-agricultures-biggest-data-gaps/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-14T00:00:00.000Z"
+  },
+  {
+    "id": "cmrsp2dw1000t11ygi0b6v0l1",
+    "titleEn": "Opinion | Why agricultural robots may never become much cheaper",
+    "titleZh": "农业机器人为何可能永远不会大幅降价？",
+    "summaryZh": "本文探讨了农业机器人价格不会像GPS、无人机等科技产品那样大幅下降的原因。核心观点是：机器人定价取决于其为农场创造的经济价值，而非制造成本。随着劳动力短缺和除草剂禁用加剧，机器人可能成为少数可行方案之一，其价值将进一步提升。文章提供了农场主评估机器人投资回报的新视角，对智慧畜牧和精准农业从业者具有重要参考价值。",
+    "featuredReason": "本文颠覆了“技术产品必然降价”的惯性思维，从经济价值角度重新定义农业机器人的定价逻辑，对智慧畜牧行业评估自动化设备投资回报具有直接指导意义。",
+    "url": "https://www.futurefarming.com/crop-solutions/opinion-why-agricultural-robots-may-never-become-much-cheaper/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 92,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-13T09:00:00.000Z"
+  },
+  {
+    "id": "cmrsp2dw3000v11yg0ogcfymx",
+    "titleEn": "Retrofit autonomy grows up: Planning software, sensor fusion and consolidation reshape the sector",
+    "titleZh": "改装自动驾驶走向成熟：规划软件、传感器融合与行业整合重塑农业机械领域",
+    "summaryZh": "本文分析了农业机械改装自动驾驶套件的最新发展趋势，指出该技术已从简单的转向辅助升级为集传感器、云连接和实时规划软件于一体的完整自动化平台。文章以AgXeed VCU及其TraXwise规划监控平台为例，展示了如何通过软件和传感器融合实现田间作业的全程自动化规划与调整。该技术对缓解农业劳动力短缺、优化机械投资和提升田间作业效率具有重要价值，尤其适用于大田作物生产场景。",
+    "featuredReason": "本文揭示了农业自动化从单一功能向集成平台演进的趋势，对智慧畜牧行业从业者理解跨领域技术整合、劳动力替代方案和精准作业管理具有重要参考价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/retrofit-autonomy-grows-up-planning-software-sensor-fusion-and-consolidation-reshape-the-sector/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-13T06:00:00.000Z"
+  },
+  {
+    "id": "cmrsp2dw9001111ygxpliqvhz",
+    "titleEn": "Inside the Dutch organic field day where weeding robots stole the show",
+    "titleZh": "荷兰有机田间日：除草机器人成为全场焦点",
+    "summaryZh": "本文报道了荷兰有机田间日上机械除草技术的最新进展。AI引导的锄头、激光除草机和热水机器人等自动化设备展示了如何重塑有机作物生产。参观者不再质疑机器人能否工作，而是比较它们行内除草的精准度。文章反映了精准农业在有机种植领域的实际应用和行业趋势。",
+    "featuredReason": "虽然本文聚焦大田作物，但其中涉及的AI视觉识别、精准作业机器人技术对智慧畜牧中的智能饲喂、巡检、粪污清理等场景有直接借鉴意义，展示了自动化与AI在农业中的前沿应用趋势。",
+    "url": "https://www.futurefarming.com/uncategorized/inside-the-dutch-organic-fieldday-where-weeding-robots-stole-the-show/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 79,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-07T13:30:00.000Z"
   }
 ]

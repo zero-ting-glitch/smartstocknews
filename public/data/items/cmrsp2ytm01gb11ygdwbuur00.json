@@ -1,0 +1,31 @@
+{
+  "id": "cmrsp2ytm01gb11ygdwbuur00",
+  "titleEn": "Poultry WorldPremiumAI tracking reveals broiler behaviour throughout productionJul 13Article",
+  "titleZh": "AI追踪揭示肉鸡全生产周期行为变化",
+  "summaryZh": "比利时多所学术机构的研究人员利用AI多摄像头追踪系统，监测肉鸡在生长周期中的活动水平、采食和饮水行为，并分析日龄、热应激和时段的影响。该研究涉及4个生产批次共1120只Ross 308肉鸡，通过自动化追踪获取高精度行为数据，为肉鸡福利评估和精准管理提供了新工具。",
+  "featuredReason": "该研究展示了AI视觉技术在肉鸡行为监测中的前沿应用，为智慧畜牧行业提供了从实验室到生产场景的实践参考，尤其对热应激管理和福利评估具有直接指导意义。",
+  "url": "https://www.foodagribusiness.world/poultry/ai-tracking-reveals-broiler-behaviour-throughout-production",
+  "source": {
+    "name": "Poultry World",
+    "nameZh": "禽业世界",
+    "tier": "T1.5"
+  },
+  "sourceId": "poultryworld",
+  "species": "poultry",
+  "category": "livestock",
+  "subcategory": "poultry",
+  "techTags": "",
+  "qualityScore": 61,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-07-13T08:25:00.000Z",
+  "contentFull": "AI tracking reveals broiler behaviour throughout productionUnderstanding behavioural changes across the production cycle is essential for broiler welfare assessment. Researchers from academic institutes across Belgium carried out research to study 3 key broiler chicken behaviours over time: activity level (based on net displacement per second) and time spent at the feeder and drinker zones.Tony McDougalFreelance journalistJul 13ArticleResearchers used an AI-powered multi-camera tracking system to monitor how broiler activity, feeding and drinking behaviour changed with age, heat exposure and time of day. Photo: Koos GroenewoldIt included the analysis of activity dynamics (high, medium, and low activity level), distance travelled over time, the effect of time of day (morning: 9:00–12:00, midday: 13:00–16:00, and evening: 18:00–21:00) on behaviours, and behaviour during periods of experimentally induced high environmental temperature (29.4 ± 1°C; from days 29-33 and 36-40).Automated tracking monitors broiler behaviourThis study involved 4 production rounds, each with 280 as hatched Ross 308 broilers (1,120 total), housed in 2 climate-controlled pens (9×4 m) per round (140 birds/pen; 14 kg/m²).Register for free to read this article.To continue reading, please choose a subscription.Existing user? Sign inAccess reliable, unbiased reporting on the poultry industry.Stay well-informed via a full-service media platform across print, digital, events, and audiovisual content.Support investigative journalism and industry insights.See subscription optionsRegister for 3 free articles a month",
+  "translationZh": "理解整个生产周期中的行为变化对于肉鸡福利评估至关重要。比利时多所学术机构的研究人员开展了一项研究，追踪肉鸡三种关键行为随时间的变化：活动水平（基于每秒净位移）以及在采食区和饮水区停留的时间。\n\n研究人员使用AI驱动的多摄像头追踪系统，监测肉鸡的活动、采食和饮水行为如何随日龄、热暴露和一天中的时段而变化。研究内容包括活动动态分析（高、中、低活动水平）、随时间变化的移动距离、一天中时段（上午9:00–12:00、中午13:00–16:00、傍晚18:00–21:00）对行为的影响，以及在实验诱导的高环境温度（29.4±1°C；第29-33天和第36-40天）期间的行为。\n\n**自动化追踪监测肉鸡行为**\n\n本研究涉及4个生产批次，每批次280只Ross 308肉鸡（共1120只），每批次饲养在2个气候控制圈舍（9×4米）中，每圈140只鸡，饲养密度为14 kg/m²。",
+  "images": [
+    "https://www.foodagribusiness.world/_next/image?url=%2Fapi%2Fucms-image%3Fpath%3D%252Fapi%252Fmedia%252Ffile%252Fimported-image-033b24ddc8a1c53f.png&w=3840&q=75&dpl=fe4e169ddd03079ca234588bd7b35132ca97e776",
+    "https://www.foodagribusiness.world/_next/image?url=%2Fapi%2Fucms-image%3Fpath%3D%252Fapi%252Fmedia%252Ffile%252FBroiler%252520behaviour.jpg%253Fprefix%253Dfoodagribusiness-world&w=3840&q=75&dpl=fe4e169ddd03079ca234588bd7b35132ca97e776"
+  ],
+  "author": "Tony McDougal",
+  "contentHtml": "",
+  "scrapeMethod": "web_scrape"
+}

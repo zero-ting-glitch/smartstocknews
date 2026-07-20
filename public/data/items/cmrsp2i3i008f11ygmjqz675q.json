@@ -1,0 +1,28 @@
+{
+  "id": "cmrsp2i3i008f11ygmjqz675q",
+  "titleEn": "Georgia researcher utilizes AI-based <em>Salmonella</em> detection technology",
+  "titleZh": "佐治亚大学利用AI技术实现肉鸡沙门氏菌现场检测",
+  "summaryZh": "美国禽蛋协会及其基金会公布了佐治亚大学的一项新研究，利用基于人工智能的工具检测沙门氏菌。研究团队开发了一款智能手机应用，通过分析家禽粪便图像预测沙门氏菌感染，准确率超过93%（同区域数据）。但跨区域应用时准确率降至40%-60%，表明需更多多样化数据才能开发广泛适用的商业系统。该技术有望减少对实验室检测的依赖，实现早期疾病预警，改善鸡群管理，并推动自动化精准家禽养殖。",
+  "featuredReason": "该研究展示了AI与智能手机结合在禽业疾病检测中的前沿应用，虽然跨区域泛化性有待提升，但为智慧畜牧中的低成本、现场化诊断提供了重要参考方向。",
+  "url": "https://www.meatpoultry.com/articles/33783-georgia-researcher-utilizes-ai-based-salmonella-detection-technology",
+  "source": {
+    "name": "MEAT+POULTRY",
+    "nameZh": "肉禽加工",
+    "tier": "T1.5"
+  },
+  "sourceId": "meatpoultry",
+  "species": "poultry",
+  "category": "livestock",
+  "subcategory": "poultry",
+  "techTags": "",
+  "qualityScore": 65,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-07-14T15:45:25.000Z",
+  "contentFull": "TUCKER, GA. — The US Poultry & Egg Association (USPOULTRY) and its Foundation detailed new research using artificial intelligence (AI)-based tools to detect Salmonella.The new study, Salmonella Detector: A Mobile Application for On-site Broiler Salmonella Infection Diagnosis, comes from the University of Georgia and Guoming Li, PhD, of the Department of Poultry Science and Institute for Artificial Intelligence.The research team evaluated an AI system capable of predicting the presence of Salmonella using smartphone images of poultry feces. The group studied whether changes in bird activity and daily movement patterns, also known as the Broiler Activity Index, could serve as an early indication of a Salmonella infection.“The AI model performed very well when it was trained and tested using fecal images collected from the same geographic region, achieving greater than 93% accuracy,” the summary provided by USPOULTRY stated. “However, when the model was applied to images collected from different regions, accuracy dropped significantly to between 40% and 60%. These findings indicate that environmental and regional differences influence how well AI models perform and that additional data from diverse locations will be needed before a broadly applicable commercial system can be developed.”While working on the project the research team noted it made the software and smartphone application available through GitHub which allowed technology and industry developers to see the platform.Other points made by the summary and early findings concluded additional work is needed to improve accuracy across different geographic regions. The technology could eventually reduce reliance on laboratory testing, provide earlier detection of disease, improve flock management, strengthen on-farm biosecurity and support the development of automated precision poultry farming systems.",
+  "translationZh": "美国禽蛋协会（USPOULTRY）及其基金会详细介绍了利用人工智能（AI）工具检测沙门氏菌的新研究。\n\n这项名为“沙门氏菌检测器：用于肉鸡沙门氏菌感染现场诊断的移动应用程序”的新研究来自佐治亚大学家禽科学系和人工智能研究所的顾明（Guoming Li）博士。\n\n研究团队评估了一个能够通过智能手机拍摄的家禽粪便图像预测沙门氏菌存在的AI系统。研究人员研究了鸟类活动及日常运动模式的变化（也称为肉鸡活动指数）是否可以作为沙门氏菌感染的早期指标。\n\nUSPOULTRY提供的摘要指出：“当使用来自同一地理区域的粪便图像对AI模型进行训练和测试时，其表现非常出色，准确率超过93%。然而，当将该模型应用于来自不同区域的图像时，准确率显著下降至40%至60%之间。这些发现表明，环境和区域差异会影响AI模型的表现，在开发广泛适用的商业系统之前，需要来自不同地点的更多数据。”\n\n在项目进行过程中，研究团队注意到他们已通过GitHub提供了该软件和智能手机应用程序，使技术和行业开发者能够查看该平台。\n\n摘要和初步研究结果的其他结论指出，需要进一步开展工作以提高跨不同地理区域的准确性。该技术最终可能减少对实验室检测的依赖，实现疾病的更早发现，改善鸡群管理，加强农场生物安全，并支持自动化精准家禽养殖系统的发展。",
+  "images": [],
+  "author": "",
+  "contentHtml": "The project received funding from the USPOULTRY Foundation.",
+  "scrapeMethod": "web_scrape"
+}

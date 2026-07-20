@@ -1,20 +1,90 @@
 [
   {
-    "id": "cmr3a8iyz000l10tseerh2hyv",
-    "titleEn": "Sabanto and Verdant Robotics integrate autonomy and precision application systems",
-    "titleZh": "Sabanto与Verdant Robotics整合自主导航与精准施药系统",
-    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/sabanto-and-verdant-robotics-integrate-autonomy-and-precision-application-systems/",
-    "multiSourceCount": 1,
-    "publishedAt": "2026-07-02T09:00:00.000Z",
-    "qualityScore": 88
+    "id": "cmrsp293t000111yg74k0gi0o",
+    "titleEn": "Agriculture Doesn’t Just Need Data. It Needs AI-Ready Data.",
+    "titleZh": "农业不仅需要数据，更需要AI就绪的数据",
+    "summaryZh": "本文指出农业领域面临数据丰富但可用性不足的悖论：大量卫星、物联网传感器和平台产生了海量数据，但由于缺乏标准化、一致性和及时性，这些数据难以支撑实际决策和AI应用。文章强调，农业需要的是“AI就绪”的数据——即及时、一致、校准且机器可信任的测量结果，而非单纯增加数据量。世界银行和FAO的研究均支持这一观点，认为标准化高质量数据集是AI在农业中落地的关键障碍。",
+    "featuredReason": "本文深刻揭示了智慧农业（包括畜牧）中数据质量与AI落地的核心矛盾，对智慧畜牧行业人士理解数据基础设施的重要性、避免“数据多但无用”的陷阱具有重要启发。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/analytics/agriculture-doesnt-just-need-data-it-needs-ai-ready-data/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-17T00:00:00.000Z"
   },
   {
-    "id": "cmr3a8vgf003510tszt3843as",
+    "id": "cmrsp2enf003911ygorquwoan",
     "titleEn": "Spring Innovation Fund debuts as first venture philanthropy firm dedicated to animal welfare tech",
-    "titleZh": "Spring创新基金：首家专注动物福利科技的风险慈善工作室",
+    "titleZh": "Spring创新基金：首个专注动物福利技术的风险慈善机构亮相",
+    "summaryZh": "Spring创新基金作为首个专注动物福利技术的风险慈善机构，采用“常青”模式，利用慈善资本孵化和投资初创企业，旨在改善数十亿养殖动物的生存条件并实现商业回报。该基金已识别100多个潜在空白领域，重点关注低成本人道屠宰、禽类福利、疾病早期检测、富集技术、AI和机器人等方向，为智慧畜牧行业提供了新的资本与技术创新结合路径。",
+    "featuredReason": "该新闻展示了动物福利技术与智慧畜牧（如AI、机器人、疾病检测）的结合潜力，以及一种创新的非营利资本运作模式，为行业从业者提供了技术投资和商业化的新视角。",
     "url": "https://agfundernews.com/spring-innovation-fund-debuts-as-first-venture-philanthropy-firm-dedicated-to-animal-welfare-tech",
-    "multiSourceCount": 1,
-    "publishedAt": "2026-06-30T15:30:19.000Z",
-    "qualityScore": 85
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-30T15:30:19.000Z"
+  },
+  {
+    "id": "cmrsp294e000j11ygt5vzndtv",
+    "titleEn": "Beyond Disruption: Earning Trust and Driving Impact in AgTech Through Grower-Led Innovation",
+    "titleZh": "超越颠覆：通过种植者主导的创新在农业科技中赢得信任与推动影响",
+    "summaryZh": "本文由Reservoir公司CEO Danny Bernstein撰写，反思硅谷软件文化在农业领域的局限性，提出农业科技应转向“物理人工智能”——在田间地头实时作业的技术。他强调种植者主导的创新模式，通过建立“奥运村”式创新社区（如加州Reservoir项目），让初创企业、种植者和零售商协同工作，在真实农场环境中测试技术。文章引用2024年CropLife/普渡大学精准农业经销商调查数据，指出无人机施药应用正快速增长，但真正的突破来自技术开发者深入农场一线。",
+    "featuredReason": "本文提出的“种植者主导创新”和“物理AI”理念，对智慧畜牧行业同样具有启发意义——技术必须深入养殖一线，与养殖户协同，才能解决真实痛点，而非闭门造车。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/beyond-disruption-earning-trust-and-driving-impact-in-agtech-through-grower-led-innovation/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-24T19:58:19.000Z"
+  },
+  {
+    "id": "cmrsp2941000511ygx2m6hghm",
+    "titleEn": "Ag Tech Talk Podcast: Using AI to Unlock the Value of Farm Data",
+    "titleZh": "Ag Tech Talk播客：利用AI解锁农场数据的价值",
+    "summaryZh": "本文报道了Ag Tech Talk播客中三位农业科技公司领导者关于如何利用AI将复杂农场数据转化为可操作洞察的讨论。他们指出，农业数据量虽大，但最大挑战是让数据可用。通过数据基础设施、地理空间计算、可视化和AI技术的结合，可以打破互操作性障碍，将碎片化数据集转化为实用见解，最终目标不是给农民增加新仪表盘，而是在他们已有的工作流程中直接提供答案。",
+    "featuredReason": "本文深入探讨了AI在农业数据整合与利用中的核心作用，虽然主要聚焦大田作物，但其关于数据互操作性、AI降低技术门槛以及在工作流程中直接提供答案的理念，对智慧畜牧行业同样具有重要借鉴意义。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/data-management/ag-tech-talk-podcast-using-ai-to-unlock-the-value-of-farm-data/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-12T00:00:00.000Z"
   }
 ]
