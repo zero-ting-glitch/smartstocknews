@@ -114,11 +114,12 @@ body {
 }
 
 .sidebar-subtitle {
-  font-size: 10px;
+  font-family: var(--font-serif);
+  font-size: 14px;
+  font-weight: 700;
   color: var(--m-ink-soft);
-  margin: 8px 0 0;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  margin: 10px 0 0;
+  letter-spacing: 0.15em;
 }
 
 .side-link {

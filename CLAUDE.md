@@ -257,3 +257,7 @@ npx tsx scripts/export-static.ts          # 独立导出静态 JSON
 - 有原文时可切换"显示中文"/"显示原文"；无原文时只显示翻译
 - 发表时间：优先显示爬虫提取的真实日期，null 时不显示
 - 数据来源：`public/data/items/{id}.json`（导出时含 contentFull、translationZh、images 等）
+
+## 备选
+
+- **更名待定**：`SmartFarm` 为备选站名（覆盖种植+养殖，更准确），暂不改动
