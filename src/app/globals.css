@@ -575,7 +575,7 @@ body {
 
 /* ========== 详情页 ========== */
 .detail-page {
-  max-width: 720px;
+  max-width: 760px;
   margin: 0 auto;
   padding: 32px 36px 60px;
   animation: detailFadeIn 0.4s ease-out;
@@ -751,26 +751,28 @@ body {
 
 /* 精选理由 */
 .detail-featured-reason {
-  background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+  background: linear-gradient(135deg, #fffbeb 0%, #fef9e7 100%);
   border-left: 3px solid #f59e0b;
-  border-radius: 0 12px 12px 0;
+  border-radius: 12px;
   padding: 18px 22px;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
   font-size: 15px;
-  line-height: 1.75;
+  line-height: 1.8;
   color: #78350f;
+  box-shadow: 0 1px 3px rgba(245, 158, 11, 0.08);
 }
 
 /* AI 摘要 */
 .detail-summary {
-  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  background: linear-gradient(135deg, #eff6ff 0%, #f0f7ff 100%);
   border-left: 3px solid #3b82f6;
-  border-radius: 0 12px 12px 0;
+  border-radius: 12px;
   padding: 18px 22px;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
   font-size: 15px;
-  line-height: 1.75;
+  line-height: 1.8;
   color: #1e3a5f;
+  box-shadow: 0 1px 3px rgba(59, 130, 246, 0.08);
 }
 
 /* AI 翻译 */
@@ -819,14 +821,14 @@ body {
 }
 
 .detail-translation-content {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.9;
   color: var(--m-ink);
   letter-spacing: 0.01em;
 }
 
 .detail-translation-content p {
-  margin-bottom: 16px;
+  margin-bottom: 18px;
   text-align: justify;
 }
 
@@ -850,16 +852,249 @@ body {
   margin-bottom: 0;
 }
 
-/* 文章图片 */
-.detail-images {
-  margin-bottom: 24px;
+/* ===== 文章图片 gallery ===== */
+.detail-gallery {
+  margin-bottom: 28px;
 }
 
-.detail-image {
+.dg-img {
+  display: block;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: 12px;
-  margin-bottom: 12px;
-  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
+}
+
+/* --- hero（单张大图领衔） --- */
+.dg-hero {
+  position: relative;
+  margin: 0 0 12px;
+  border-radius: 14px;
+  overflow: hidden;
+  cursor: zoom-in;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.dg-hero:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.14);
+}
+
+.dg-hero .dg-img {
+  max-height: 440px;
+  border-radius: 0;
+}
+
+/* 穿插在正文中的 hero */
+.dg-hero-inline {
+  margin: 20px 0 24px;
+}
+
+/* --- duo（两张大图并排） --- */
+.dg-duo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+/* --- duo-plus（2 大并排 + 小图在下居中） --- */
+.dg-duo-plus {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dg-duo-plus .dg-pin-smalls {
+  margin-top: 0;
+}
+
+.dg-duo .dg-item {
+  margin: 0;
+  height: 260px;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: zoom-in;
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.dg-duo .dg-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.13);
+}
+
+/* --- 品字形（1 大 + N 小） --- */
+.dg-pin {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dg-pin-big {
+  margin: 0;
+  max-height: 400px;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: zoom-in;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.dg-pin-big:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.14);
+}
+
+.dg-pin-big .dg-img {
+  max-height: 400px;
+}
+
+.dg-pin-smalls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  justify-items: center;
+}
+
+.dg-pin-small {
+  margin: 0;
+  height: 180px;
+  width: 100%;
+  max-width: 320px;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: zoom-in;
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.dg-pin-small:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.13);
+}
+
+/* --- small-row（全是小图，横向并排居中，不拉伸） --- */
+.dg-small-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.dg-small-item {
+  margin: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: zoom-in;
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  max-height: 220px;
+}
+
+.dg-small-item .dg-img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 220px;
+  object-fit: contain;
+}
+
+.dg-small-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.13);
+}
+
+/* --- masonry（≥3 张混合，双列瀑布流；grid 实现以支持末尾居中） --- */
+.dg-masonry {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  align-items: start;
+}
+
+.dg-masonry .dg-item {
+  margin: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: zoom-in;
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.dg-masonry .dg-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.13);
+}
+
+.dg-masonry .dg-img {
+  height: auto;
+  min-height: 140px;
+  object-fit: cover;
+}
+
+/* 单数时最后一张：独占整行并居中限宽 */
+.dg-masonry .dg-item.dg-last-odd {
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: 62%;
+  max-width: 480px;
+}
+
+/* --- lightbox --- */
+.dg-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(15, 23, 42, 0.88);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  animation: dgFadeIn 0.2s ease;
+  cursor: zoom-out;
+}
+
+@keyframes dgFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.dg-lightbox-img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  animation: dgZoomIn 0.25s cubic-bezier(0.2, 0.8, 0.3, 1);
+  cursor: default;
+}
+
+@keyframes dgZoomIn {
+  from { transform: scale(0.92); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.dg-lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dg-lightbox-close:hover {
+  background: rgba(255, 255, 255, 0.24);
 }
 
 /* 技术标签 */
@@ -991,5 +1226,36 @@ body {
   .detail-featured-reason,
   .detail-summary {
     padding: 14px 16px;
+  }
+
+  /* 图片布局移动端降级 */
+  .dg-duo {
+    grid-template-columns: 1fr;
+  }
+
+  .dg-duo .dg-item {
+    height: 220px;
+  }
+
+  .dg-masonry {
+    grid-template-columns: 1fr;
+  }
+
+  /* 移动端末尾居中图恢复全宽 */
+  .dg-masonry .dg-item.dg-last-odd {
+    width: 100%;
+    max-width: none;
+  }
+
+  .dg-pin-smalls {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .dg-hero .dg-img {
+    max-height: 280px;
+  }
+
+  .dg-lightbox {
+    padding: 16px;
   }
 }
