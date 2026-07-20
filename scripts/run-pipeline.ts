@@ -374,7 +374,7 @@ function cleanJson(raw: string): string {
 }
 
 async function analyzeItem(titleEn: string, content?: string) {
-  const contentSnippet = content ? content.slice(0, 3000) : '';
+  const contentSnippet = content ? content.slice(0, 10000) : '';
   const prompt = `你是智慧畜牧行业资深编辑。对以下新闻进行全面分析。
 
 标题: ${titleEn}
@@ -816,15 +816,19 @@ async function main() {
       // Stage 2: 完整分析（现有逻辑）
       const result = await analyzeItem(item.titleEn, contentForAI);
 
-      // 检测翻译是否被截断，如果是则续翻
+      // 检测翻译是否被截断，循环续翻直到翻完或达到上限
       let translation = result.translationZh || '';
-      if (contentForAI && translation && (translation.endsWith('……') || translation.endsWith('......'))) {
-        console.log(`    ⚠ 翻译截断，续翻中...`);
+      let continuationAttempts = 0;
+      const MAX_CONTINUATIONS = 3;
+      while (contentForAI && translation && (translation.endsWith('……') || translation.endsWith('......')) && continuationAttempts < MAX_CONTINUATIONS) {
+        continuationAttempts++;
+        console.log(`    ⚠ 翻译截断（第 ${continuationAttempts} 次续翻）...`);
         try {
           translation = await continueTranslation(item.titleEn, contentForAI, translation);
           console.log(`    ✓ 续翻完成 (${translation.length} 字)`);
         } catch (e: any) {
           console.error(`    ✗ 续翻失败: ${e.message}，使用原截断翻译`);
+          break;
         }
       }
 

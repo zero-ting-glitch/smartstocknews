@@ -22,7 +22,10 @@ export function NewsCard({ item }: NewsCardProps) {
       <span className="m-row-body">
         <div className="m-row-meta">
           <span className="m-row-src">
-            {item.source.nameZh} ({item.source.tier})
+            {item.source.nameZh}
+          </span>
+          <span className={`tag-tier tag-tier-${item.source.tier.toLowerCase().replace('.', '')}`}>
+            {item.source.tier}
           </span>
           {species.map((s) => (
             <span

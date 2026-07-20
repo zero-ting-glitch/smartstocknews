@@ -549,11 +549,14 @@ function extractContent(
     }
   }
 
-  // 提取纯文本
-  // 移除 script、style、nav、footer、aside
-  contentEl.find('script, style, nav, footer, aside, .sidebar, .ad, .advertisement').remove();
+  // 提取纯文本（保留段落结构）
+  // 移除 script、style、导航、页脚、侧栏、广告、评论、相关文章、分享按钮等噪声
+  contentEl.find('script, style, nav, footer, aside, .sidebar, .ad, .advertisement, .related-posts, .related-articles, .recommendations, .comments, .comment-list, .comment, .social-share, .share-buttons, .newsletter, .subscribe, .author-bio, .author-box').remove();
+  // 在块级元素后加换行，保留段落分隔
+  contentEl.find('p, div, h1, h2, h3, h4, h5, h6, li, blockquote, section').after('\n\n');
   const contentText = contentEl.text()
-    .replace(/\s+/g, ' ')
+    .replace(/\n{3,}/g, '\n\n')   // 合并多个空行为双换行（段落分隔）
+    .replace(/[ \t]+/g, ' ')       // 水平空白压缩为单空格
     .trim()
     .slice(0, MAX_CONTENT_LENGTH);
 
