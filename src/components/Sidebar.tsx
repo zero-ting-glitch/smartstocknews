@@ -13,7 +13,6 @@ const navItems = [
   { href: '/field', label: '大田', icon: '🌽', group: '🌾 种植业' },
   { href: '/fruit', label: '果蔬', icon: '🍎', group: '🌾 种植业' },
   { href: '/horticulture', label: '园艺', icon: '🌸', group: '🌾 种植业' },
-  { href: '/general', label: '综合', icon: '📰', group: '📊 综合资讯' },
 ];
 
 const bottomItems = [

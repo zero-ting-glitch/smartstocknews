@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { Sidebar } from '@/components/Sidebar';
 import { Timeline, NewsItem } from '@/components/Timeline';
 import { RightPanel } from '@/components/RightPanel';
@@ -17,15 +17,17 @@ export default function Home() {
     fetch(`${BASE_PATH}/data/stats.json`).then(r => r.json()).then(setStats);
   }, []);
 
+  const featuredItems = useMemo(() => items.filter(item => item.isFeatured), [items]);
+
   return (
     <>
       <Sidebar />
       <main className="flex-1 min-h-screen" style={{ background: 'var(--bg-main)' }}>
         <div className="page-header">
           <h1 className="page-title">精选</h1>
-          <p className="page-subtitle">智慧畜牧的高价值内容</p>
+          <p className="page-subtitle">智慧农业的高价值内容</p>
         </div>
-        <Timeline items={items} showFilters />
+        <Timeline items={featuredItems} showFilters />
       </main>
       <RightPanel hotItems={hotItems} stats={stats} />
     </>
