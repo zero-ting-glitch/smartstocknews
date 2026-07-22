@@ -67,7 +67,7 @@ export default function AboutPage() {
                   <li>自动化、机器人、可穿戴设备</li>
                   <li>育种基因、健康监测、疾病检测</li>
                   <li>智慧牧场、精准饲喂、自动挤奶</li>
-                  <li>智慧种植/养殖相关政策文件、行业会议通知</li>
+                  <li>智慧农业相关政策文件、行业会议通知</li>
                 </ul>
               </div>
               <div>
