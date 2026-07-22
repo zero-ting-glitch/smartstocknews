@@ -621,23 +621,39 @@ body {
 
 /* 返回导航 */
 .detail-nav {
-  margin-bottom: 28px;
+  position: sticky;
+  top: 24px;
+  z-index: 20;
+  height: 0;
+  overflow: visible;
+  pointer-events: none;
 }
 
 .detail-back {
-  background: none;
-  border: none;
-  color: var(--m-ink-muted);
+  pointer-events: auto;
+  position: absolute;
+  left: -150px;
+  top: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--m-surface);
+  border: 1px solid var(--m-border);
+  border-radius: 8px;
+  padding: 5px 13px;
   font-size: 13px;
+  color: var(--m-ink-muted);
   cursor: pointer;
   font-family: inherit;
-  padding: 6px 0;
-  transition: color 0.15s;
+  transition: all 0.15s;
+  white-space: nowrap;
   letter-spacing: 0.02em;
 }
 
 .detail-back:hover {
   color: var(--m-brand);
+  border-color: var(--m-brand);
+  background: var(--m-brand-weak);
 }
 
 /* 来源 + 标签行 */
@@ -1222,6 +1238,10 @@ body {
 
   .detail-page {
     padding: 20px 18px 48px;
+  }
+
+  .detail-back {
+    left: -76px;
   }
 
   .detail-title-zh {
