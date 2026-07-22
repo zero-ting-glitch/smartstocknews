@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useLayoutEffect, useRef } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { NewsCard } from './NewsCard';
 import { getDateLabel } from '@/lib/utils';
 
@@ -67,18 +67,17 @@ export function Timeline({ items = [], showFilters = false, initialSpecies }: Ti
     });
   }, [items, speciesFilter, searchQuery]);
 
-  // 从详情页返回时恢复滚动位置（useLayoutEffect = 绘制前同步滚，消除闪跳）
-  const scrollDone = useRef(false);
-  useLayoutEffect(() => {
-    if (scrollDone.current || items.length === 0) return;
+  // 从详情页返回时恢复滚动位置
+  useEffect(() => {
+    if (items.length === 0) return;
     const saved = sessionStorage.getItem('ss_scroll');
-    if (!saved) { scrollDone.current = true; return; }
+    if (!saved) return;
     const pos = parseInt(saved, 10);
-    if (isNaN(pos)) { scrollDone.current = true; return; }
+    if (isNaN(pos)) return;
     sessionStorage.removeItem('ss_scroll');
-    window.scrollTo(0, pos);
-    scrollDone.current = true;
-  });
+    // 等一帧让 DOM 渲染完毕再滚
+    requestAnimationFrame(() => window.scrollTo(0, pos));
+  }, [items]);
 
   // 按日期分组（无日期的归入"未知日期"组）
   const grouped = filteredItems.reduce((acc, item) => {
