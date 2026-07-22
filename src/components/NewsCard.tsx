@@ -12,10 +12,16 @@ export function NewsCard({ item }: NewsCardProps) {
   const species = item.species.split(',').filter(Boolean);
   const isFeatured = item.isFeatured || item.qualityScore >= 55;
 
+  /** 前往详情前保存当前滚动位置，方便返回时恢复 */
+  const saveScroll = () => {
+    sessionStorage.setItem('ss_scroll', String(window.scrollY));
+  };
+
   return (
     <a
       href={`${BASE_PATH}/detail?id=${item.id}`}
       className="m-row"
+      onClick={saveScroll}
     >
       <span className="m-row-time">{formatTime(item.publishedAt)}</span>
       <span className="m-row-dot" />
