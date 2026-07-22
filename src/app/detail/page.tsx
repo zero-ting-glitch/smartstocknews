@@ -4,7 +4,7 @@ import { useSearchParams } from 'next/navigation';
 import { useState, useEffect, Suspense } from 'react';
 import { Sidebar } from '@/components/Sidebar';
 import { BASE_PATH } from '@/lib/config';
-import { speciesNames, speciesColors } from '@/lib/utils';
+import { speciesNames, speciesColors, sourceTypeEmoji } from '@/lib/utils';
 import { ReactNode } from 'react';
 
 function renderBoldText(text: string): ReactNode[] {
@@ -24,7 +24,7 @@ interface ItemDetail {
   summaryZh: string;
   featuredReason: string;
   url: string;
-  source: { name: string; nameZh: string; tier: string };
+  source: { name: string; nameZh: string; tier: string; sourceType: string };
   species: string;
   category: string;
   subcategory: string;
@@ -370,6 +370,7 @@ function DetailContent() {
             <span className={`detail-tier detail-tier-${item.source.tier.toLowerCase().replace('.', '')}`}>
               {item.source.tier}
             </span>
+            <span className="detail-source-type">{sourceTypeEmoji[item.source.sourceType] || '📡'} {item.source.sourceType}</span>
             <span className="detail-score">{Math.round(item.qualityScore)}</span>
             {item.isFeatured && <span className="detail-featured-badge">精选</span>}
           </div>

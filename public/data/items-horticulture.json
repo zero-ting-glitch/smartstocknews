@@ -11,7 +11,8 @@
     "source": {
       "name": "HortiDaily",
       "nameZh": "园艺日报",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "horticulture",
     "category": "crop",
@@ -34,7 +35,8 @@
     "source": {
       "name": "Greenhouse Grower",
       "nameZh": "温室种植者",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "horticulture",
     "category": "crop",
@@ -57,7 +59,8 @@
     "source": {
       "name": "Vertical Farm Daily",
       "nameZh": "垂直农场日报",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "horticulture",
     "category": "crop",
@@ -80,7 +83,8 @@
     "source": {
       "name": "Fresh Plaza",
       "nameZh": "新鲜广场",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "horticulture",
     "category": "crop",
@@ -103,7 +107,8 @@
     "source": {
       "name": "Greenhouse Grower",
       "nameZh": "温室种植者",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "horticulture",
     "category": "crop",
@@ -126,7 +131,8 @@
     "source": {
       "name": "Greenhouse Grower",
       "nameZh": "温室种植者",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "horticulture",
     "category": "crop",
@@ -149,7 +155,8 @@
     "source": {
       "name": "Greenhouse Grower",
       "nameZh": "温室种植者",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "horticulture",
     "category": "crop",
@@ -172,7 +179,8 @@
     "source": {
       "name": "Greenhouse Grower",
       "nameZh": "温室种植者",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "horticulture",
     "category": "crop",
@@ -195,7 +203,8 @@
     "source": {
       "name": "Greenhouse Grower",
       "nameZh": "温室种植者",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "horticulture",
     "category": "crop",
@@ -218,7 +227,8 @@
     "source": {
       "name": "Future Farming",
       "nameZh": "未来农业",
-      "tier": "T1"
+      "tier": "T1",
+      "sourceType": "行业新闻站"
     },
     "species": "horticulture",
     "category": "crop",
@@ -241,7 +251,8 @@
     "source": {
       "name": "中环易达",
       "nameZh": "中环易达",
-      "tier": "T1"
+      "tier": "T1",
+      "sourceType": "微信公众号"
     },
     "species": "horticulture",
     "category": "aggtech",
@@ -264,7 +275,8 @@
     "source": {
       "name": "中环易达",
       "nameZh": "中环易达",
-      "tier": "T1"
+      "tier": "T1",
+      "sourceType": "微信公众号"
     },
     "species": "horticulture",
     "category": "aggtech",

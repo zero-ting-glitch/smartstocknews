@@ -10,7 +10,8 @@
   "source": {
     "name": "中国农业农村信息网-智慧农业",
     "nameZh": "中国农业农村信息网",
-    "tier": "T1"
+    "tier": "T1",
+    "sourceType": "政府/协会/政策公告"
   },
   "species": "general",
   "category": "aggtech",

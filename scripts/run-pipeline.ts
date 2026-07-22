@@ -607,6 +607,7 @@ async function main() {
     await prisma.source.upsert({
       where: { id: source.id },
       update: {
+        sourceType: source.sourceType || '行业新闻站',
         category: source.defaultCategory || 'aggtech',
         defaultSubcategory: source.defaultSubcategory || 'general',
       },
@@ -617,6 +618,7 @@ async function main() {
         url: source.url,
         rssUrl: source.rssUrl,
         tier: source.tier,
+        sourceType: source.sourceType || '行业新闻站',
         category: source.defaultCategory || 'aggtech',
         defaultSubcategory: source.defaultSubcategory || 'general',
       },

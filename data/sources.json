@@ -11,7 +11,8 @@
       "defaultCategory": "aggtech",
       "defaultSubcategory": "general",
       "coreKeywords": "precision|smart farming|IoT|sensor|automation|robot|drone|AI|autonomous|variable rate|GPS|yield|irrigation|satellite|agtech|machine learning|vision|wearable",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue",
+      "sourceType": "行业新闻站"
     },
     {
       "id": "futurefarming",
@@ -24,7 +25,8 @@
       "defaultCategory": "aggtech",
       "defaultSubcategory": "general",
       "coreKeywords": "autonomous|robot|precision|AI|sensor|IoT|drone|automation|laser|weeding|smart|machine|vision|retrofit|GPS|telematic",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue",
+      "sourceType": "行业新闻站"
     },
     {
       "id": "greenhousegrower",
@@ -37,7 +39,8 @@
       "defaultCategory": "crop",
       "defaultSubcategory": "horticulture",
       "coreKeywords": "automation|sensor|IoT|robot|LED|lighting|climate|temperature|humidity|irrigation|hydroponic|controlled environment|vertical farm|smart|AI|fertigation|phenotyping",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue|retail|garden center"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue|retail|garden center",
+      "sourceType": "行业新闻站"
     },
     {
       "id": "freshplaza",
@@ -50,7 +53,8 @@
       "defaultCategory": "crop",
       "defaultSubcategory": "fruit",
       "coreKeywords": "sensor|IoT|robot|AI|smart|cold chain|traceability|blockchain|precision|drone|autonomous|computer vision|automation|robotic",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue|promotion|advertising|pricing|commercial growth|packaging|weighing|vacuum|cooperation|border|cocoa|blueberry|nutrition|label|regulation|climate|export|import|tariff|quota"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue|promotion|advertising|pricing|commercial growth|packaging|weighing|vacuum|cooperation|border|cocoa|blueberry|nutrition|label|regulation|climate|export|import|tariff|quota",
+      "sourceType": "行业新闻站"
     },
     {
       "id": "agfundernews",
@@ -66,7 +70,8 @@
       "listUrl": "https://agfundernews.com",
       "scrapeConfig": "{\"listingSelector\": \"article h4.article-title a\"}",
       "coreKeywords": "agtech|startup|investment|robot|AI|drone|sensor|IoT|precision|biotech|vertical farm|indoor|automation|sustainability|food|supply chain|livestock|crop|funding|venture",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue",
+      "sourceType": "行业新闻站"
     },
     {
       "id": "agrinet",
@@ -82,7 +87,8 @@
       "listUrl": "https://www.agri.cn/xxh/zhny/",
       "scrapeConfig": "{\"listingSelector\": \".con_tit a\", \"contentSelector\": \".TRS_Editor\", \"titleSelector\": \".detailCon_info_tit\", \"dateSelector\": \"meta[name=\\\"publishdate\\\"]\"}",
       "coreKeywords": "智慧农业|精准农业|AI|人工智能|物联网|传感器|无人机|机器人|自动化|数字化|大数据|遥感|卫星|灌溉|环控|监控|算法|平台|无人|智能|装备|创新|标准|信息化",
-      "excludeKeywords": "价格|行情|批发|补贴|政策文件|通知|公告|征求意见"
+      "excludeKeywords": "价格|行情|批发|补贴|政策文件|通知|公告|征求意见",
+      "sourceType": "政府/协会/政策公告"
     },
     {
       "id": "agrinet_xxh",
@@ -98,7 +104,8 @@
       "listUrl": "https://www.agri.cn/xxh/",
       "scrapeConfig": "{\"listingSelector\": \".con_tit a\", \"contentSelector\": \".TRS_Editor\", \"titleSelector\": \".detailCon_info_tit\", \"dateSelector\": \"meta[name=\\\"publishdate\\\"]\"}",
       "coreKeywords": "智慧农业|精准农业|AI|人工智能|物联网|传感器|无人机|机器人|自动化|数字化|大数据|遥感|卫星|信息化|标准|平台|无人|智能|装备|创新",
-      "excludeKeywords": "价格|行情|批发|补贴|政策文件|通知|公告|征求意见"
+      "excludeKeywords": "价格|行情|批发|补贴|政策文件|通知|公告|征求意见",
+      "sourceType": "政府/协会/政策公告"
     },
     {
       "id": "gati",
@@ -111,7 +118,8 @@
       "defaultCategory": "aggtech",
       "defaultSubcategory": "general",
       "coreKeywords": "precision|smart farming|IoT|sensor|automation|robot|drone|AI|autonomous|variable rate|GPS|yield|irrigation|satellite|agtech|machine learning|vision|wearable|biotech|sustainability",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue",
+      "sourceType": "行业新闻站"
     },
     {
       "id": "agripulse",
@@ -127,7 +135,8 @@
       "listUrl": "https://www.agri-pulse.com",
       "scrapeConfig": "{\"listingSelector\": \"article.featured-article a, .daily-voice__article-title-link\"}",
       "coreKeywords": "precision|IoT|automation|robot|drone|AI|biotech|food safety|sustainability|climate|policy|regulation|USDA|farm bill",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue",
+      "sourceType": "行业新闻站"
     },
     {
       "id": "nationalhogfarmer",
@@ -140,7 +149,8 @@
       "defaultCategory": "livestock",
       "defaultSubcategory": "pig",
       "coreKeywords": "pig|hog|swine|pork|precision|sensor|IoT|automation|robot|drone|AI|wearable|smart|camera|vision|algorithm|software|app|GPS|tracking",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue",
+      "sourceType": "行业新闻站"
     },
     {
       "id": "porkorg",
@@ -153,7 +163,8 @@
       "defaultCategory": "livestock",
       "defaultSubcategory": "pig",
       "coreKeywords": "pig|hog|swine|pork|precision|sensor|IoT|automation|robot|drone|AI|wearable|smart|camera|vision|algorithm|software|app|GPS|tracking",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue",
+      "sourceType": "行业新闻站"
     },
     {
       "id": "beefmagazine",
@@ -166,7 +177,8 @@
       "defaultCategory": "livestock",
       "defaultSubcategory": "cattle",
       "coreKeywords": "cattle|beef|dairy|cow|feedlot|ranch|precision|sensor|IoT|automation|robot|drone|AI|wearable|smart|camera|vision|algorithm|software|app|GPS|tracking",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue",
+      "sourceType": "行业新闻站"
     },
     {
       "id": "poultrytimes",
@@ -179,7 +191,8 @@
       "defaultCategory": "livestock",
       "defaultSubcategory": "poultry",
       "coreKeywords": "poultry|chicken|broiler|layer|egg|turkey|automation|IoT|sensor|precision|smart|camera|vision|robot|drone|AI|wearable|algorithm|software|ventilation|lighting",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue",
+      "sourceType": "行业新闻站"
     },
     {
       "id": "meatpoultry",
@@ -192,7 +205,8 @@
       "defaultCategory": "livestock",
       "defaultSubcategory": "poultry",
       "coreKeywords": "meat|poultry|chicken|beef|pork|automation|robot|sensor|IoT|traceability|innovation|smart|AI|camera|vision|inspection|blockchain",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue",
+      "sourceType": "行业新闻站"
     },
     {
       "id": "feedstuffs",
@@ -205,7 +219,8 @@
       "defaultCategory": "livestock",
       "defaultSubcategory": "general",
       "coreKeywords": "feed|nutrition|precision|sensor|IoT|automation|smart|AI|robot|drone|algorithm|software|formulation|optimization",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue",
+      "sourceType": "行业新闻站"
     },
     {
       "id": "thepigsite",
@@ -218,7 +233,8 @@
       "defaultCategory": "livestock",
       "defaultSubcategory": "pig",
       "coreKeywords": "pig|swine|hog|pork|precision|sensor|IoT|automation|robot|AI|wearable|smart|camera|vision|genomic|gene|CRISPR|genome|edit|vaccine|health|disease|detection|algorithm|software|analytics",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue",
+      "sourceType": "行业新闻站"
     },
     {
       "id": "thecattlesite",
@@ -231,7 +247,8 @@
       "defaultCategory": "livestock",
       "defaultSubcategory": "cattle",
       "coreKeywords": "cattle|beef|dairy|cow|precision|sensor|IoT|automation|robot|AI|wearable|smart|camera|vision|genomic|gene|CRISPR|genome|edit|vaccine|health|disease|detection|BRD|algorithm|software|analytics",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue",
+      "sourceType": "行业新闻站"
     },
     {
       "id": "thepoultrysite",
@@ -244,7 +261,8 @@
       "defaultCategory": "livestock",
       "defaultSubcategory": "poultry",
       "coreKeywords": "poultry|chicken|broiler|layer|egg|turkey|precision|sensor|IoT|automation|robot|AI|wearable|smart|camera|vision|genomic|gene|CRISPR|genome|edit|vaccine|health|disease|detection|HPAI|algorithm|software|analytics",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue",
+      "sourceType": "行业新闻站"
     },
     {
       "id": "pigprogress",
@@ -260,7 +278,8 @@
       "listUrl": "https://www.pigprogress.net",
       "scrapeConfig": "{\"listingSelector\": \"a[href*='/pigs/']\"}",
       "coreKeywords": "pig|swine|hog|pork|precision|sensor|IoT|automation|robot|AI|wearable|smart|camera|vision|genomic|gene|health|disease|detection|algorithm|software|analytics|nutrition|feed",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue",
+      "sourceType": "行业新闻站"
     },
     {
       "id": "poultryworld",
@@ -276,7 +295,8 @@
       "listUrl": "https://www.poultryworld.net",
       "scrapeConfig": "{\"listingSelector\": \"a[href*='/poultry/']\"}",
       "coreKeywords": "poultry|chicken|broiler|layer|egg|turkey|precision|sensor|IoT|automation|robot|AI|wearable|smart|camera|vision|genomic|gene|health|disease|detection|algorithm|software|analytics|nutrition|feed",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue",
+      "sourceType": "行业新闻站"
     },
     {
       "id": "nedap",
@@ -292,7 +312,8 @@
       "listUrl": "https://nedap-livestockmanagement.com/knowledge-base/",
       "scrapeConfig": "{\"listingSelector\": \"a[href*='/knowledge-base/']\", \"contentSelector\": \".article-content, .entry-content, article\"}",
       "coreKeywords": "sensor|IoT|automation|robot|AI|wearable|smart|camera|vision|RFID|heat stress|health|fertility|detection|cow|cattle|dairy|pig|swine|analytics",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue|career|vacancy"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue|career|vacancy",
+      "sourceType": "厂商官网"
     },
     {
       "id": "lely",
@@ -308,7 +329,8 @@
       "listUrl": "https://www.lely.com/solutions/",
       "scrapeConfig": "{\"listingSelector\": \"a[href*='/solutions/']\", \"contentSelector\": \".content, .article-body, main\"}",
       "coreKeywords": "robot|automation|milking|feeding|sensor|IoT|AI|smart|camera|analytics|dairy|cow|cattle|barn|manure|welfare|precision",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue|career|vacancy"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue|career|vacancy",
+      "sourceType": "厂商官网"
     },
     {
       "id": "delaval",
@@ -324,7 +346,8 @@
       "listUrl": "https://www.delaval.com/en-hub/",
       "scrapeConfig": "{\"listingSelector\": \"a[href*='/en-hub/']\", \"contentSelector\": \".article-content, .content-block, main\"}",
       "coreKeywords": "robot|automation|milking|feeding|sensor|IoT|AI|smart|BioSensor|analytics|dairy|cow|cattle|barn|manure|welfare|precision|DelPro",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue|career|vacancy"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue|career|vacancy",
+      "sourceType": "厂商官网"
     },
     {
       "id": "caaa",
@@ -340,7 +363,8 @@
       "listUrl": "https://www.caaa.cn/html/hd/xhyw/",
       "scrapeConfig": "{\"listingSelector\": \".news_list a, .list_item a\", \"contentSelector\": \".TRS_Editor, .content, .article-content\", \"titleSelector\": \".detailCon_info_tit, h1\", \"dateSelector\": \"meta[name='publishdate'], .article-date, time\"}",
       "coreKeywords": "智慧畜牧|智能养殖|物联网|传感器|AI|人工智能|自动化|机器人|数字化|精准|穿戴|耳标|项圈|监控|环控|大数据|平台|5G|数智|标准|智能|无人|巡检",
-      "excludeKeywords": "价格|行情|批发|补贴|政策文件|通知|公告|征求意见"
+      "excludeKeywords": "价格|行情|批发|补贴|政策文件|通知|公告|征求意见",
+      "sourceType": "政府/协会/政策公告"
     },
     {
       "id": "zkzhimu",
@@ -356,7 +380,8 @@
       "listUrl": "https://www.zkzhimu.com",
       "scrapeConfig": "{\"listingSelector\": \"a[href*='solution'], a[href*='product'], a[href*='news']\", \"contentSelector\": \".content, .article-content, main\"}",
       "coreKeywords": "物联网|传感器|AI|人工智能|自动化|机器人|数字化|精准|穿戴|耳标|项圈|RFID|TMR|饲喂|监控|环控|大数据|溯源|智能|无人|消毒|称重|胶囊",
-      "excludeKeywords": "价格|行情|批发|补贴"
+      "excludeKeywords": "价格|行情|批发|补贴",
+      "sourceType": "厂商官网"
     },
     {
       "id": "jxct",
@@ -372,7 +397,8 @@
       "listUrl": "https://www.jxctdzkj.com",
       "scrapeConfig": "{\"listingSelector\": \"a[href*='news'], a[href*='solution']\", \"contentSelector\": \".content, .article-content, main\"}",
       "coreKeywords": "智慧养殖|物联网|传感器|AI|人工智能|自动化|数字化|精准|氨气|硫化氢|CO2|水质|环境监测|LoRa|NB-IoT|5G|WiFi|RS485|SAAS|云平台|智能|环控",
-      "excludeKeywords": "价格|行情|批发|补贴"
+      "excludeKeywords": "价格|行情|批发|补贴",
+      "sourceType": "厂商官网"
     },
     {
       "id": "agrivi",
@@ -385,7 +411,8 @@
       "defaultCategory": "aggtech",
       "defaultSubcategory": "general",
       "coreKeywords": "farm management|precision|IoT|sensor|automation|smart farming|digital|software|data|analytics|monitoring|drone|AI|satellite|yield|irrigation|traceability",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue",
+      "sourceType": "行业新闻站"
     },
     {
       "id": "agritechnz",
@@ -398,7 +425,8 @@
       "defaultCategory": "aggtech",
       "defaultSubcategory": "general",
       "coreKeywords": "agtech|agritech|precision|IoT|sensor|automation|robot|drone|AI|smart|digital|innovation|startup|sustainability|livestock|dairy|horticulture",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue",
+      "sourceType": "行业新闻站"
     },
     {
       "id": "agriland",
@@ -411,7 +439,8 @@
       "defaultCategory": "livestock",
       "defaultSubcategory": "general",
       "coreKeywords": "precision|sensor|IoT|automation|robot|drone|AI|smart|wearable|camera|vision|dairy|beef|cattle|sheep|pig|livestock|machinery|technology|innovation",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue|marts|prices"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue|marts|prices",
+      "sourceType": "行业新闻站"
     },
     {
       "id": "farmprogress",
@@ -424,7 +453,8 @@
       "defaultCategory": "aggtech",
       "defaultSubcategory": "general",
       "coreKeywords": "precision|IoT|sensor|automation|robot|drone|AI|smart|autonomous|GPS|variable rate|technology|innovation|machinery|data|digital|telemetry",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue",
+      "sourceType": "行业新闻站"
     },
     {
       "id": "verticalfarmdaily",
@@ -437,7 +467,8 @@
       "defaultCategory": "crop",
       "defaultSubcategory": "horticulture",
       "coreKeywords": "vertical farm|indoor farming|CEA|controlled environment|hydroponic|aeroponic|LED|lighting|climate|automation|robot|sensor|IoT|AI|smart|greenhouse|urban farming",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue",
+      "sourceType": "行业新闻站"
     },
     {
       "id": "hortidaily",
@@ -450,7 +481,8 @@
       "defaultCategory": "crop",
       "defaultSubcategory": "horticulture",
       "coreKeywords": "greenhouse|horticulture|automation|sensor|IoT|robot|LED|lighting|climate|irrigation|hydroponic|AI|smart|precision|data|monitoring|energy",
-      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue"
+      "excludeKeywords": "recipe|cook|restaurant|menu|weather forecast|commodity price|market report|hiring|job opening|salary|stock price|earnings|revenue",
+      "sourceType": "行业新闻站"
     },
     {
       "id": "wx_lvshui",
@@ -464,7 +496,8 @@
       "defaultSubcategory": "general",
       "skipContentScrape": true,
       "coreKeywords": "智慧农业|农业物联网|传感器|农业大数据|精准农业|智能装备|农业机器人|信息化",
-      "excludeKeywords": "价格|行情|批发|补贴|政策文件|通知|公告"
+      "excludeKeywords": "价格|行情|批发|补贴|政策文件|通知|公告",
+      "sourceType": "微信公众号"
     },
     {
       "id": "wx_dji",
@@ -478,7 +511,8 @@
       "defaultSubcategory": "field",
       "skipContentScrape": true,
       "coreKeywords": "无人机|植保|精准施药|农业|航测|遥感|变量施肥|智慧农业|数字化",
-      "excludeKeywords": "价格|行情|批发|补贴|政策文件|通知|公告"
+      "excludeKeywords": "价格|行情|批发|补贴|政策文件|通知|公告",
+      "sourceType": "微信公众号"
     },
     {
       "id": "wx_zhonghuanyida",
@@ -492,7 +526,8 @@
       "defaultSubcategory": "horticulture",
       "skipContentScrape": true,
       "coreKeywords": "智能温室|植物工厂|LED|设施园艺|物联网|智慧农业|环控|无土栽培|水培",
-      "excludeKeywords": "价格|行情|批发|补贴|政策文件|通知|公告"
+      "excludeKeywords": "价格|行情|批发|补贴|政策文件|通知|公告",
+      "sourceType": "微信公众号"
     },
     {
       "id": "wx_digits_agri",
@@ -506,7 +541,8 @@
       "defaultSubcategory": "pig",
       "skipContentScrape": true,
       "coreKeywords": "养猪|猪舍|智能养殖|物联网|环控|精准饲喂|巡检机器人|传感器|AI|数字化",
-      "excludeKeywords": "价格|行情|批发|补贴|政策文件|通知|公告|猪价"
+      "excludeKeywords": "价格|行情|批发|补贴|政策文件|通知|公告|猪价",
+      "sourceType": "微信公众号"
     },
     {
       "id": "wx_shuichan",
@@ -520,7 +556,8 @@
       "defaultSubcategory": "general",
       "skipContentScrape": true,
       "coreKeywords": "水产养殖|水质监测|物联网|传感器|溶氧|pH|智能增氧|数字化|精准|智慧渔业",
-      "excludeKeywords": "价格|行情|批发|补贴|政策文件|通知|公告"
+      "excludeKeywords": "价格|行情|批发|补贴|政策文件|通知|公告",
+      "sourceType": "微信公众号"
     }
   ],
   "contentFarmBlacklist": [

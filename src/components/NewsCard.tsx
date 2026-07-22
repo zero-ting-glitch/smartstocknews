@@ -1,6 +1,6 @@
 'use client';
 
-import { formatTime, speciesNames, speciesColors } from '@/lib/utils';
+import { formatTime, speciesNames, speciesColors, sourceTypeEmoji } from '@/lib/utils';
 import { NewsItem } from './Timeline';
 import { BASE_PATH } from '@/lib/config';
 
@@ -24,6 +24,7 @@ export function NewsCard({ item }: NewsCardProps) {
           <span className="m-row-src">
             {item.source.nameZh}
           </span>
+          <span className="tag-source-type">{sourceTypeEmoji[item.source.sourceType] || '📡'} {item.source.sourceType}</span>
           <span className={`tag-tier tag-tier-${item.source.tier.toLowerCase().replace('.', '')}`}>
             {item.source.tier}
           </span>

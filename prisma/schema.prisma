@@ -15,6 +15,7 @@ model Source {
   url         String   // "https://www.thepigsite.com"
   rssUrl      String?  // RSS地址
   tier        String   // T1 | T1.5 | T2
+  sourceType  String   @default("行业新闻站") // 微信公众号 | 行业新闻站 | 技术博客 | 厂商官网 | 政府/协会/政策公告 | X/Twitter
   category    String   // "livestock" | "crop" | "aggtech"
   defaultSubcategory String @default("general") // pig/poultry/cattle/sheep/field/fruit/horticulture/general
   isActive    Boolean  @default(true)

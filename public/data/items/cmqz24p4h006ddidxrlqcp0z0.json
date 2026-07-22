@@ -10,7 +10,8 @@
   "source": {
     "name": "Farm Progress",
     "nameZh": "农业进展",
-    "tier": "T2"
+    "tier": "T2",
+    "sourceType": "行业新闻站"
   },
   "species": "field",
   "category": "crop",

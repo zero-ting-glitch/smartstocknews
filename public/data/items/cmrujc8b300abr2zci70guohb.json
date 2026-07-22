@@ -10,7 +10,8 @@
   "source": {
     "name": "中环易达",
     "nameZh": "中环易达",
-    "tier": "T1"
+    "tier": "T1",
+    "sourceType": "微信公众号"
   },
   "species": "horticulture",
   "category": "aggtech",

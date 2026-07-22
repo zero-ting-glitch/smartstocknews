@@ -21,6 +21,7 @@ export interface SourceConfig {
   skipContentScrape?: boolean;
   coreKeywords: string;
   excludeKeywords: string;
+  sourceType: string; // 微信公众号 | 行业新闻站 | 技术博客 | 厂商官网 | 政府/协会/政策公告 | X/Twitter
 }
 
 export interface SourcesConfig {

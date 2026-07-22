@@ -10,7 +10,8 @@
   "source": {
     "name": "Beef Magazine",
     "nameZh": "肉牛杂志",
-    "tier": "T2"
+    "tier": "T2",
+    "sourceType": "行业新闻站"
   },
   "species": "cattle",
   "category": "livestock",

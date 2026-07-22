@@ -10,7 +10,8 @@
   "source": {
     "name": "PrecisionAg",
     "nameZh": "精准农业",
-    "tier": "T1.5"
+    "tier": "T1.5",
+    "sourceType": "行业新闻站"
   },
   "species": "general",
   "category": "aggtech",

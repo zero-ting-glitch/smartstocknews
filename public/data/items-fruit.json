@@ -11,7 +11,8 @@
     "source": {
       "name": "数字农业 Insights",
       "nameZh": "数字农业 Insights",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "微信公众号"
     },
     "species": "fruit",
     "category": "aggtech",
@@ -34,7 +35,8 @@
     "source": {
       "name": "Vertical Farm Daily",
       "nameZh": "垂直农场日报",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "fruit",
     "category": "crop",
@@ -57,7 +59,8 @@
     "source": {
       "name": "HortiDaily",
       "nameZh": "园艺日报",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "fruit",
     "category": "crop",
@@ -80,7 +83,8 @@
     "source": {
       "name": "数字农业 Insights",
       "nameZh": "数字农业 Insights",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "微信公众号"
     },
     "species": "fruit",
     "category": "crop",
@@ -103,7 +107,8 @@
     "source": {
       "name": "HortiDaily",
       "nameZh": "园艺日报",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "fruit",
     "category": "crop",
@@ -126,7 +131,8 @@
     "source": {
       "name": "Fresh Plaza",
       "nameZh": "新鲜广场",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "fruit",
     "category": "crop",
@@ -149,7 +155,8 @@
     "source": {
       "name": "数字农业 Insights",
       "nameZh": "数字农业 Insights",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "微信公众号"
     },
     "species": "fruit",
     "category": "aggtech",
@@ -172,7 +179,8 @@
     "source": {
       "name": "数字农业 Insights",
       "nameZh": "数字农业 Insights",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "微信公众号"
     },
     "species": "fruit",
     "category": "crop",
@@ -195,7 +203,8 @@
     "source": {
       "name": "Future Farming",
       "nameZh": "未来农业",
-      "tier": "T1"
+      "tier": "T1",
+      "sourceType": "行业新闻站"
     },
     "species": "fruit",
     "category": "crop",
@@ -218,7 +227,8 @@
     "source": {
       "name": "Future Farming",
       "nameZh": "未来农业",
-      "tier": "T1"
+      "tier": "T1",
+      "sourceType": "行业新闻站"
     },
     "species": "fruit",
     "category": "crop",
@@ -241,7 +251,8 @@
     "source": {
       "name": "Future Farming",
       "nameZh": "未来农业",
-      "tier": "T1"
+      "tier": "T1",
+      "sourceType": "行业新闻站"
     },
     "species": "fruit",
     "category": "crop",
@@ -264,7 +275,8 @@
     "source": {
       "name": "Future Farming",
       "nameZh": "未来农业",
-      "tier": "T1"
+      "tier": "T1",
+      "sourceType": "行业新闻站"
     },
     "species": "fruit",
     "category": "crop",
@@ -287,7 +299,8 @@
     "source": {
       "name": "PrecisionAg",
       "nameZh": "精准农业",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "fruit",
     "category": "crop",
@@ -310,7 +323,8 @@
     "source": {
       "name": "Future Farming",
       "nameZh": "未来农业",
-      "tier": "T1"
+      "tier": "T1",
+      "sourceType": "行业新闻站"
     },
     "species": "fruit",
     "category": "crop",
@@ -333,7 +347,8 @@
     "source": {
       "name": "PrecisionAg",
       "nameZh": "精准农业",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "fruit",
     "category": "crop",
@@ -356,7 +371,8 @@
     "source": {
       "name": "DJI大疆农业",
       "nameZh": "DJI大疆农业",
-      "tier": "T1"
+      "tier": "T1",
+      "sourceType": "微信公众号"
     },
     "species": "fruit",
     "category": "aggtech",
@@ -379,7 +395,8 @@
     "source": {
       "name": "绿水智慧农业",
       "nameZh": "绿水智慧农业",
-      "tier": "T1"
+      "tier": "T1",
+      "sourceType": "微信公众号"
     },
     "species": "fruit",
     "category": "aggtech",
@@ -402,7 +419,8 @@
     "source": {
       "name": "绿水智慧农业",
       "nameZh": "绿水智慧农业",
-      "tier": "T1"
+      "tier": "T1",
+      "sourceType": "微信公众号"
     },
     "species": "fruit",
     "category": "aggtech",
@@ -425,7 +443,8 @@
     "source": {
       "name": "PrecisionAg",
       "nameZh": "精准农业",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "fruit",
     "category": "crop",

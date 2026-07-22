@@ -10,7 +10,8 @@
   "source": {
     "name": "Vertical Farm Daily",
     "nameZh": "垂直农场日报",
-    "tier": "T1.5"
+    "tier": "T1.5",
+    "sourceType": "行业新闻站"
   },
   "species": "horticulture",
   "category": "crop",

@@ -10,7 +10,8 @@
   "source": {
     "name": "Poultry World",
     "nameZh": "禽业世界",
-    "tier": "T1.5"
+    "tier": "T1.5",
+    "sourceType": "行业新闻站"
   },
   "species": "poultry",
   "category": "livestock",

@@ -10,7 +10,8 @@
   "source": {
     "name": "精讯畅通",
     "nameZh": "精讯畅通",
-    "tier": "T1.5"
+    "tier": "T1.5",
+    "sourceType": "厂商官网"
   },
   "species": "general",
   "category": "aggtech",

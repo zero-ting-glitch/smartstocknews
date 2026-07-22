@@ -123,3 +123,15 @@ export const tierColors: Record<string, string> = {
   'T1.5': '#22d3ee',
   'T2': '#94a3b8',
 };
+
+/**
+ * 信源分类 Emoji 映射
+ */
+export const sourceTypeEmoji: Record<string, string> = {
+  '微信公众号': '💬',
+  '行业新闻站': '📰',
+  '技术博客': '📝',
+  '厂商官网': '🏭',
+  '政府/协会/政策公告': '📋',
+  'X/Twitter': '🐦',
+};

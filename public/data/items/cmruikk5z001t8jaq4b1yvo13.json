@@ -10,7 +10,8 @@
   "source": {
     "name": "Fresh Plaza",
     "nameZh": "新鲜广场",
-    "tier": "T1.5"
+    "tier": "T1.5",
+    "sourceType": "行业新闻站"
   },
   "species": "fruit",
   "category": "crop",

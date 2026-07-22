@@ -10,7 +10,8 @@
   "source": {
     "name": "Greenhouse Grower",
     "nameZh": "温室种植者",
-    "tier": "T1.5"
+    "tier": "T1.5",
+    "sourceType": "行业新闻站"
   },
   "species": "horticulture",
   "category": "crop",

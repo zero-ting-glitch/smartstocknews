@@ -10,7 +10,8 @@
   "source": {
     "name": "DJI大疆农业",
     "nameZh": "DJI大疆农业",
-    "tier": "T1"
+    "tier": "T1",
+    "sourceType": "微信公众号"
   },
   "species": "field",
   "category": "aggtech",

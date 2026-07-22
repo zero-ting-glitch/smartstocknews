@@ -10,7 +10,8 @@
   "source": {
     "name": "Lely",
     "nameZh": "Lely 自动化乳业",
-    "tier": "T1"
+    "tier": "T1",
+    "sourceType": "厂商官网"
   },
   "species": "cattle",
   "category": "livestock",

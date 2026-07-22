@@ -11,7 +11,8 @@
     "source": {
       "name": "数字农业 Insights",
       "nameZh": "数字农业 Insights",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "微信公众号"
     },
     "species": "pig",
     "category": "aggtech",
@@ -34,7 +35,8 @@
     "source": {
       "name": "National Hog Farmer",
       "nameZh": "美国养猪人",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "pig",
     "category": "livestock",
@@ -57,7 +59,8 @@
     "source": {
       "name": "National Hog Farmer",
       "nameZh": "美国养猪人",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "pig",
     "category": "livestock",
@@ -80,7 +83,8 @@
     "source": {
       "name": "Pig Progress",
       "nameZh": "猪业进展",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "pig",
     "category": "livestock",
@@ -103,7 +107,8 @@
     "source": {
       "name": "Pig Progress",
       "nameZh": "猪业进展",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "pig",
     "category": "livestock",
@@ -126,7 +131,8 @@
     "source": {
       "name": "National Hog Farmer",
       "nameZh": "美国养猪人",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "pig",
     "category": "livestock",
@@ -149,7 +155,8 @@
     "source": {
       "name": "National Hog Farmer",
       "nameZh": "美国养猪人",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "pig",
     "category": "livestock",
@@ -172,7 +179,8 @@
     "source": {
       "name": "National Hog Farmer",
       "nameZh": "美国养猪人",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "pig",
     "category": "livestock",
@@ -195,7 +203,8 @@
     "source": {
       "name": "National Hog Farmer",
       "nameZh": "美国养猪人",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "pig",
     "category": "livestock",
@@ -218,7 +227,8 @@
     "source": {
       "name": "数字农业 Insights",
       "nameZh": "数字农业 Insights",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "微信公众号"
     },
     "species": "pig",
     "category": "livestock",

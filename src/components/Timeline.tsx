@@ -16,6 +16,7 @@ export interface NewsItem {
     name: string;
     nameZh: string;
     tier: string;
+    sourceType: string;
   };
   species: string;
   category: string;

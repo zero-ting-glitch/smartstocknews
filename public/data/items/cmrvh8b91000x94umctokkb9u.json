@@ -10,7 +10,8 @@
   "source": {
     "name": "数字农业 Insights",
     "nameZh": "数字农业 Insights",
-    "tier": "T1.5"
+    "tier": "T1.5",
+    "sourceType": "微信公众号"
   },
   "species": "poultry",
   "category": "livestock",

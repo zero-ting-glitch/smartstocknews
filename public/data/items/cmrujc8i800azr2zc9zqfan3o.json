@@ -10,7 +10,8 @@
   "source": {
     "name": "智慧水产",
     "nameZh": "智慧水产",
-    "tier": "T1.5"
+    "tier": "T1.5",
+    "sourceType": "微信公众号"
   },
   "species": "general",
   "category": "aggtech",

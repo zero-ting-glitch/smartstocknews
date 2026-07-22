@@ -10,7 +10,8 @@
   "source": {
     "name": "Agriland",
     "nameZh": "爱尔兰农业新闻",
-    "tier": "T1.5"
+    "tier": "T1.5",
+    "sourceType": "行业新闻站"
   },
   "species": "sheep",
   "category": "livestock",

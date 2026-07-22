@@ -10,7 +10,8 @@
   "source": {
     "name": "Pig Progress",
     "nameZh": "猪业进展",
-    "tier": "T1.5"
+    "tier": "T1.5",
+    "sourceType": "行业新闻站"
   },
   "species": "pig",
   "category": "livestock",

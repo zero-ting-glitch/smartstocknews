@@ -10,7 +10,8 @@
   "source": {
     "name": "Future Farming",
     "nameZh": "未来农业",
-    "tier": "T1"
+    "tier": "T1",
+    "sourceType": "行业新闻站"
   },
   "species": "fruit",
   "category": "crop",

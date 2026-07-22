@@ -11,7 +11,8 @@
     "source": {
       "name": "MEAT+POULTRY",
       "nameZh": "肉禽加工",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "poultry",
     "category": "livestock",
@@ -34,7 +35,8 @@
     "source": {
       "name": "Poultry World",
       "nameZh": "禽业世界",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "poultry",
     "category": "livestock",
@@ -57,7 +59,8 @@
     "source": {
       "name": "Poultry World",
       "nameZh": "禽业世界",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "poultry",
     "category": "livestock",
@@ -80,7 +83,8 @@
     "source": {
       "name": "Poultry World",
       "nameZh": "禽业世界",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "poultry",
     "category": "livestock",
@@ -103,7 +107,8 @@
     "source": {
       "name": "Poultry World",
       "nameZh": "禽业世界",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "poultry",
     "category": "livestock",
@@ -126,7 +131,8 @@
     "source": {
       "name": "Poultry World",
       "nameZh": "禽业世界",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "poultry",
     "category": "livestock",
@@ -149,7 +155,8 @@
     "source": {
       "name": "Poultry World",
       "nameZh": "禽业世界",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
     },
     "species": "poultry",
     "category": "livestock",
@@ -172,7 +179,8 @@
     "source": {
       "name": "数字农业 Insights",
       "nameZh": "数字农业 Insights",
-      "tier": "T1.5"
+      "tier": "T1.5",
+      "sourceType": "微信公众号"
     },
     "species": "poultry",
     "category": "livestock",

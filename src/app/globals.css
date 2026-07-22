@@ -358,6 +358,15 @@ body {
   color: #64748b;
 }
 
+/* 信源分类标签（列表页） */
+.tag-source-type {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: rgba(99, 102, 241, 0.08);
+  color: #6366f1;
+}
+
 .m-featured-badge {
   color: var(--m-brand-contrast);
   font-size: 11px;
@@ -671,6 +680,15 @@ body {
 .detail-tier-t2 {
   background: rgba(148, 163, 184, 0.1);
   color: #64748b;
+}
+
+/* 信源分类标签（详情页） */
+.detail-source-type {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 6px;
+  background: rgba(99, 102, 241, 0.08);
+  color: #6366f1;
 }
 
 .detail-score {

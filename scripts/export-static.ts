@@ -76,6 +76,7 @@ interface ExportItem {
     name: string;
     nameZh: string;
     tier: string;
+    sourceType: string;
   };
   species: string;
   category: string | null;
@@ -150,7 +151,7 @@ async function main() {
   // 1. 导出所有相关条目
   const items = await prisma.item.findMany({
     where: { isRelevant: true },
-    include: { source: { select: { name: true, nameZh: true, tier: true } } },
+    include: { source: { select: { name: true, nameZh: true, tier: true, sourceType: true } } },
     orderBy: { publishedAt: 'desc' },
   });
 
