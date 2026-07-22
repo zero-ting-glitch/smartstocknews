@@ -1,0 +1,28 @@
+{
+  "id": "cmrvh8bas001794um17l8gan6",
+  "titleEn": "西北农林发布安全可信农业大模型“稷安智算”",
+  "titleZh": "西北农林发布安全可信农业大模型“稷安智算”",
+  "url": "https://mp.weixin.qq.com/s/nYFucmv2ZJX5FzSQ3HDcvw",
+  "summaryZh": "西北农林科技大学于5月29日在陕西杨凌发布了名为“稷安智算”的农业大模型。该模型聚焦农业领域的安全可信计算，旨在为农业生产提供智能化决策支持。虽然新闻未详细披露技术细节和具体应用场景，但作为面向农业的大模型，其发布标志着AI技术在农业领域的进一步渗透，有望为智慧畜牧等细分行业提供底层算力与模型支撑。目前信息有限，需后续关注其实际落地效果。",
+  "translationZh": "",
+  "featuredReason": "该新闻代表了农业大模型领域的最新进展，对智慧畜牧等农业智能化方向具有潜在的基础性支撑价值，但当前信息密度低，缺乏具体技术细节和行业应用案例。",
+  "publishedAt": "2026-06-01T14:18:28.000Z",
+  "source": {
+    "name": "数字农业 Insights",
+    "nameZh": "数字农业 Insights",
+    "tier": "T1.5"
+  },
+  "species": "general",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 44,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "5月29日，农业大模型“稷安智算”在陕西杨凌发布。",
+  "scrapeMethod": "wechat_api"
+}

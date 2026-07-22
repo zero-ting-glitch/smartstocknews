@@ -14,7 +14,6 @@ smartstock/
 │   │   ├── detail/        # 文章详情页（query param 路由）
 │   │   ├── pig|poultry|cattle|sheep/  # 畜种频道
 │   │   ├── field|fruit|horticulture/   # 作物频道
-│   │   ├── general/       # 综合资讯频道
 │   │   ├── all/           # 全部动态
 │   │   └── about/         # 关于页面
 │   ├── components/        # React 组件
@@ -48,7 +47,7 @@ smartstock/
 │   ├── seed-sources.ts    # 信源初始化
 │   ├── check-items.ts     # 数据检查工具
 │   └── clear-truncated.ts # 清除截断翻译（一次性工具）
-├── data/sources.json      # 26 个信源配置（9 种植/综合 + 17 畜牧）
+├── data/sources.json      # 37 个信源配置（19 种植/综合 + 18 畜牧，含 5 个微信公众号）
 ├── prisma/schema.prisma   # 数据库 schema
 ├── public/
 │   ├── _headers           # 安全头（CSP 等）
@@ -92,10 +91,17 @@ smartstock/
                     域名级限速（2s 间隔）防 429，403 时自动回退 Playwright headless browser
 [3.5] 重评相关性    增量执行：仅本轮新爬文章，用完整内容重新判断（不再全表扫描）
 [3.7] 智慧农业预筛  增量执行：仅本轮新爬文章，技术+农业双维度关键词匹配，阈值 ≥ 2（详见下方）
-[4/5] AI 处理       两级处理：Stage 1 语义筛选 → Stage 2 完整评分+翻译+物种分类（详见下方）
+[4/5] AI 处理       ▸ 内容守卫：contentFull + contentHtml < 100 字 → 标记 needs_full_scrape，跳过 AI
+                    ▸ Stage 1 语义筛选 → Stage 2 完整评分+翻译+物种分类（详见下方）
 [4.5] 修复 species  将 subcategory 同步到 species 字段
 [5/5] 导出 JSON     增量合并（旧数据保留，但已标记不相关的自动清除） → 清理孤立 detail 文件 → items.json + items/{id}.json + hot-items(5条) + stats.json + 按分类导出
 ```
+
+### 管线完整性守卫（2026-07-22 加入）
+
+Step 4 入口有内容完整性检查：如果 item 的 `contentFull` 和 `contentHtml` 都不足 100 字，则跳过 AI 处理，标记 `needs_full_scrape` 并重置爬取状态。防止只有标题的条目（产品页列表、空 RSS 条目）浪费 token 产出低质量评分。
+
+恢复脚本 `resume-ai.ts` 同样启用此守卫。详情见 `docs/handoff-2026-07.md` 中的踩坑记录。
 
 ### 翻译完整度保障
 
@@ -103,6 +109,7 @@ smartstock/
 - Prompt 要求"完整翻译所有段落，不得截断"
 - **截断续翻**：翻译以 `……`/`......` 结尾时，自动定位原文断点，翻译剩余部分拼接
 - **截断清理**：Step 4 前置清除 < 200 字的明显废翻译（以省略号结尾），让管线重新生成
+- **语言检测跳过翻译**（2026-07-22）：`analyzeItem` 自动判断内容是否含中文。含中文 → 跳过全文翻译（`translationZh`），`titleZh` 直接用原标题，保留评分+摘要+精选理由；纯英文 → 全流程翻译
 - 详情页翻译支持 `**加粗**` markdown 语法渲染
 
 ### 发表时间修正
@@ -205,7 +212,10 @@ npx prisma studio        # 可视化查看数据库
 npx tsx scripts/run-pipeline.ts           # 运行完整管线
 npx tsx scripts/clear-truncated.ts        # 清除截断翻译（一次性）
 npx tsx scripts/cleanup-irrelevant.ts     # AI 语义清理现有文章（一次性，需 DEEPSEEK_API_KEY）
-npx tsx scripts/export-static.ts          # 独立导出静态 JSON
+npx tsx scripts/export-static.ts          # 独立导出静态 JSON（全量，已取消 take:200 限制）
+npx tsx scripts/import-wechat.ts          # 导入公众号历史文章（5 月至今，含关键词预筛）
+npx tsx scripts/resume-ai.ts             # 恢复中断的 AI 管线（预筛 → AI 评分+翻译 → 导出）
+npx tsx scripts/fix-articles.ts          # 补爬+重跑 AI（针对缺正文就已 AI 处理的文章）
 ```
 
 ## 部署
@@ -227,11 +237,10 @@ npx tsx scripts/export-static.ts          # 独立导出静态 JSON
 | 大田 | `/field` | field |
 | 果蔬 | `/fruit` | fruit |
 | 园艺 | `/horticulture` | horticulture |
-| 综合 | `/general` | general |
 
 ## 信源体系
 
-26 个信源配置（9 种植/综合 + 17 畜牧），分 RSS 和列表页爬取两种方式。配置在 `data/sources.json`。
+37 个信源配置（19 种植/综合 + 18 畜牧），含 5 个微信公众号（通过 wechat-download-api 本地服务中转 RSS）。分 RSS 和列表页爬取两种方式。配置在 `data/sources.json`。
 
 | 等级 | 定义 | 质量分权重 |
 |------|------|-----------|
@@ -239,13 +248,14 @@ npx tsx scripts/export-static.ts          # 独立导出静态 JSON
 | T1.5 | 行业权威媒体 | 0.7 |
 | T2 | 综合媒体 | 0.4 |
 
-**种植/综合信源（9 个）**：precisionagriculture、agfundernews、futurefarming、freshplaza、agri.cn（3 个中文源）、thepigsite、world-agriculture、agriculture
+**种植/综合信源（19 个）**：precisionagriculture、agfundernews、futurefarming、freshplaza、agri.cn（3 个中文源）、thepigsite、world-agriculture、agriculture、AGRIVI、AgriTech New Zealand、Farm Progress、Vertical Farm Daily、HortiDaily、绿水智慧农业（公众号）、DJI大疆农业（公众号）、中环易达（公众号）、数字农业 Insights（公众号）、智慧水产（公众号）
 
-**畜牧信源（17 个）**：
+**畜牧信源（18 个）**：
 - 传统行业媒体（6）：nationalhogfarmer、porkorg、beefmagazine、poultrytimes、meatpoultry、feedstuffs
 - 行业技术媒体（5）：thepigsite、thecattlesite、thepoultrysite、pigprogress、poultryworld
 - 设备厂商（3）：nedap、lely、delaval
 - 中文信源（3）：caaa（中国畜牧业协会）、zkzhimu（中科智牧）、jxct（精讯畅通）
+- 新增（1）：Agriland
 
 **Cloudflare 封锁说明**：farmprogress 系（nationalhogfarmer、beefmagazine、poultrytimes、meatpoultry）及 feedstuffs、agfundernews 等站点被 Cloudflare 封锁。管线通过 Playwright + Stealth 插件（headless browser）自动回退绕过，403 时启动真实 Chrome 获取内容。feedstuffs 的 RSS XML 不规范（含 HTML 实体），目前仍无法解析。
 
@@ -257,6 +267,12 @@ npx tsx scripts/export-static.ts          # 独立导出静态 JSON
 - 有原文时可切换"显示中文"/"显示原文"；无原文时只显示翻译
 - 发表时间：优先显示爬虫提取的真实日期，null 时不显示
 - 数据来源：`public/data/items/{id}.json`（导出时含 contentFull、translationZh、images 等）
+- **图片系统**（2026-07-20 重构）：
+  - 三级分类：`decor`（URL 关键词+尺寸过滤）→ `small`（宽<420）→ `big`（宽≥420）
+  - 5 种布局：hero（单张大图领衔）、duo（并排）、pin（品字形）、small-row（小图横排不拉伸）、masonry（双列瀑布流）
+  - 首图穿插：翻译段落≥3 时，hero 图插入第 2 段后
+  - Lightbox：点击放大，ESC/点背景关闭，背景模糊
+  - **乐观渲染**：图片加载前直接显示，不阻塞；加载后渐进修正分类，裂图只隐藏自己不连坐
 
 ## 备选
 

@@ -109,12 +109,25 @@ function titleSimilarity(a: string, b: string): number {
   return intersection / (wordsA.size + wordsB.size - intersection);
 }
 
-function isDuplicate(title: string, seenTitles: string[]): boolean {
+/**
+ * 跨源去重记录：{ 标准化标题, 已入库记录的 id }
+ * 2026-07-21 修复：旧逻辑发现重复直接跳过，导致 multiSourceCount 永远为 1
+ * 新逻辑：发现相似标题时返回已存在记录的 id，用于给那条记录 multiSourceCount + 1
+ */
+interface SeenTitle {
+  norm: string;
+  id: string;
+}
+
+/**
+ * 判断是否为跨源重复；若是，返回已存在记录的 id（用于 multiSourceCount 累加），否则返回 null
+ */
+function findDuplicateId(title: string, seenTitles: SeenTitle[]): string | null {
   const norm = normalizeTitle(title);
   for (const seen of seenTitles) {
-    if (titleSimilarity(norm, seen) >= 0.6) return true;
+    if (titleSimilarity(norm, seen.norm) >= 0.6) return seen.id;
   }
-  return false;
+  return null;
 }
 
 function relevanceFilter(items: any[], source: any): any[] {
@@ -231,6 +244,11 @@ const AMBIGUOUS_KWS: Record<string, RegExp[]> = {
   traceability: [/(visit|read|learn|discover|explore).{0,30}traceability/i, /traceability.{0,20}(page|platform|solution|program)/i],
 };
 
+/** 判断是否包含 CJK（中日韩）统一表意文字 */
+function hasCJK(text: string): boolean {
+  return /[一-鿿㐀-䶿]/.test(text);
+}
+
 function matchKeyword(text: string, kw: string): boolean {
   // 歧义词：先做词边界匹配，再排除非农业上下文
   if (AMBIGUOUS_KWS[kw]) {
@@ -238,8 +256,10 @@ function matchKeyword(text: string, kw: string): boolean {
     if (!regex.test(text)) return false;
     return !AMBIGUOUS_KWS[kw].some((neg) => neg.test(text));
   }
-  // 短关键词用正则词边界匹配
-  if (kw.length <= 5 || SHORT_TECH_KWS.includes(kw) || SHORT_AG_KWS.includes(kw)) {
+  // 含中文的关键词：\b 词边界对 CJK 字符无效，直接用 includes
+  if (hasCJK(kw)) return text.includes(kw.toLowerCase());
+  // 纯 ASCII 短词：用 \b 词边界避免子串误匹配
+  if (kw.length <= 5) {
     return new RegExp(`\\b${kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`).test(text);
   }
   return text.includes(kw);
@@ -373,8 +393,27 @@ function cleanJson(raw: string): string {
   return s;
 }
 
+/** 检测文本是否含中文（CJK 统一表意文字） */
+function hasChinese(text: string): boolean {
+  return /[一-鿿㐀-䶿]/.test(text);
+}
+
 async function analyzeItem(titleEn: string, content?: string) {
   const contentSnippet = content ? content.slice(0, 10000) : '';
+  // 判断内容/标题是否中文：中文不翻译（省 token），英文全流程
+  const isChinese = hasChinese(contentSnippet || titleEn);
+  const fullTranslationSection = isChinese ? '' : `
+同时提供中文翻译和推荐理由。全文翻译要求：
+- 只翻译文章正文内容，**不要翻译以下杂项**：标题、日期、作者署名、来源标签/category tags、图片说明（如"图片来源：xxx"）、byline、share buttons文字
+- 忠实原文，完整翻译所有段落，不要遗漏，不要截断
+- 保留原文的段落结构，段落之间用两个换行符(\\n\\n)分隔
+- 文章中的小标题（如独立成行的短句标题）保留并加粗，格式为：**小标题**
+- 如果原文很长，也必须翻译完整，不得在中间停止`;
+  const translationField = isChinese ? '' : `  "translationZh": "全文中文翻译(只翻译正文，去掉标题/日期/作者/标签/图片来源等杂项，段落用\\n\\n分隔，小标题加粗)",
+`;
+  // 中文内容不需要 AI 翻译标题，直接取原标题
+  const titleZhField = isChinese ? '' : `  "titleZh": "中文标题(简短准确)",
+`;
   const prompt = `你是智慧畜牧行业资深编辑。对以下新闻进行全面分析。
 
 标题: ${titleEn}
@@ -396,14 +435,7 @@ ${contentSnippet ? `内容: ${contentSnippet}` : ''}
 - fruit: 果蔬（水果/蔬菜种植、采摘、采后处理、冷链物流等）
 - horticulture: 园艺（温室、花卉、苗圃、观赏植物、设施园艺等）
 - general: 综合/跨领域（仅当文章明显涉及多个品类或完全无法归入以上任何一类时选此项）
-
-同时提供中文翻译和推荐理由。全文翻译要求：
-- 只翻译文章正文内容，**不要翻译以下杂项**：标题、日期、作者署名、来源标签/category tags、图片说明（如"图片来源：xxx"）、byline、share buttons文字
-- 忠实原文，完整翻译所有段落，不要遗漏，不要截断
-- 保留原文的段落结构，段落之间用两个换行符(\\n\\n)分隔
-- 文章中的小标题（如独立成行的短句标题）保留并加粗，格式为：**小标题**
-- 如果原文很长，也必须翻译完整，不得在中间停止
-
+${fullTranslationSection}
 请直接返回JSON（不要markdown包裹）:
 {
   "relevance": 数,
@@ -412,10 +444,8 @@ ${contentSnippet ? `内容: ${contentSnippet}` : ''}
   "readability": 数,
   "actionability": 数,
   "subcategory": "pig|poultry|cattle|sheep|field|fruit|horticulture|general",
-  "titleZh": "中文标题(简短准确)",
-  "summaryZh": "中文摘要(100-150字，说明核心内容和价值)",
-  "translationZh": "全文中文翻译(只翻译正文，去掉标题/日期/作者/标签/图片来源等杂项，段落用\\n\\n分隔，小标题加粗)",
-  "featuredReason": "推荐理由(1-2句话，说明为什么值得智慧畜牧行业人士阅读)"
+${titleZhField}  "summaryZh": "中文摘要(100-150字，说明核心内容和价值)",
+${translationField}  "featuredReason": "推荐理由(1-2句话，说明为什么值得智慧畜牧行业人士阅读)"
 }`;
 
   const raw = await callDeepSeek(prompt);
@@ -599,7 +629,22 @@ async function main() {
   let totalRaw = 0;
   let totalSaved = 0;
   let totalDedup = 0;
-  const seenTitles: string[] = [];
+  let totalMultiSource = 0;
+
+  // 跨源去重：预加载近 30 天已入库文章，让新文章能与历史文章比对（不漏跨周多源报道）
+  const recentItems = await prisma.item.findMany({
+    where: {
+      isRelevant: true,
+      publishedAt: { gte: new Date(Date.now() - 30 * 24 * 3600 * 1000) },
+    },
+    select: { id: true, titleEn: true },
+  });
+  const seenTitles: SeenTitle[] = recentItems.map(i => ({
+    norm: normalizeTitle(i.titleEn),
+    id: i.id,
+  }));
+  console.log(`  预加载 ${seenTitles.length} 条历史标题用于跨源去重`);
+
   for (const source of config.sources) {
     let raw: any[] = [];
 
@@ -625,14 +670,25 @@ async function main() {
     const filtered = relevanceFilter(raw, source);
     let saved = 0;
     let dedup = 0;
+    let multiSource = 0;
     for (const item of filtered) {
-      // 标题去重：跨源相似标题跳过
-      if (isDuplicate(item.title, seenTitles)) {
+      // 跨源去重：发现相似标题时，给已存在记录 multiSourceCount + 1（而非直接跳过）
+      const dupId = findDuplicateId(item.title, seenTitles);
+      if (dupId) {
         dedup++;
+        try {
+          await prisma.item.update({
+            where: { id: dupId },
+            data: { multiSourceCount: { increment: 1 } },
+          });
+          multiSource++;
+        } catch { /* 记录可能已被删除，静默跳过 */ }
         continue;
       }
       try {
-        await prisma.item.upsert({
+        // 公众号等"只要标题不要正文"的源：入库时直接标记 scrapedAt，Step 3 跳过全文爬取
+        const skipScrape = (source as any).skipContentScrape === true;
+        const upserted = await prisma.item.upsert({
           where: { url: item.url },
           update: {
             // 补充 RSS snippet（首次采集时可能为空）
@@ -647,20 +703,22 @@ async function main() {
             species: source.defaultCategory || 'aggtech',
             techTags: '',
             isRelevant: true,
+            ...(skipScrape ? { scrapedAt: new Date(), scrapeMethod: 'rss' } : {}),
           },
         });
         saved++;
-        seenTitles.push(normalizeTitle(item.title));
+        seenTitles.push({ norm: normalizeTitle(item.title), id: upserted.id });
       } catch (e: any) {
         // URL 重复或其他 DB 错误，静默跳过
       }
     }
     totalSaved += saved;
     totalDedup += dedup;
-    console.log(`  ${source.name}: ${raw.length} raw → ${filtered.length} filtered → ${saved} saved${dedup > 0 ? ` (${dedup} 重复跳过)` : ''}`);
+    totalMultiSource += multiSource;
+    console.log(`  ${source.name}: ${raw.length} raw → ${filtered.length} filtered → ${saved} saved${dedup > 0 ? ` (${dedup} 重复, ${multiSource} 多源+1)` : ''}`);
     await prisma.source.update({ where: { id: source.id }, data: { lastFetched: new Date() } });
   }
-  console.log(`  总计: ${totalRaw} raw → ${totalSaved} saved (${totalDedup} 重复跳过)\n`);
+  console.log(`  总计: ${totalRaw} raw → ${totalSaved} saved (${totalDedup} 重复, ${totalMultiSource} 多源累加)\n`);
 
   // Step 2.5: 修正错误的 publishedAt（以管线运行时间作为发表时间的文章）
   // 检测条件：已爬取 + publishedAt 与 scrapedAt 相差 < 5 分钟（说明日期是 new Date() fallback）
@@ -793,13 +851,41 @@ async function main() {
     where: { OR: [{ aiScores: null }, { category: null }, { translationZh: null }], isRelevant: true },
     include: { source: true },
   });
-  console.log(`  待处理: ${pending.length} 条\n`);
+  console.log(`  待处理: ${pending.length} 条`);
+
+  // 🛡️ 内容完整性守卫：没有正文（contentFull）且 RSS 摘要太短的跳过 AI
+  // 避免只有标题的条目（如产品列表页）浪费 token 且产出低质量评分
+  const MIN_CONTENT_LEN = 100;
+  const needsRescrape = pending.filter(item => {
+    const c = item.contentFull || item.contentHtml || '';
+    return c.length < MIN_CONTENT_LEN;
+  });
+  // 标记为需补爬，等下次管线 Step 3 处理
+  for (const item of needsRescrape) {
+    await prisma.item.update({
+      where: { id: item.id },
+      data: {
+        techTags: item.techTags ? `${item.techTags},needs_full_scrape` : 'needs_full_scrape',
+        // 重置爬取状态，让 Step 3 可以重新爬
+        ...(item.scrapedAt ? { scrapedAt: null, scrapeMethod: null } : {}),
+      },
+    });
+  }
+  const validForAI = pending.filter(item => {
+    const c = item.contentFull || item.contentHtml || '';
+    return c.length >= MIN_CONTENT_LEN;
+  });
+  if (needsRescrape.length > 0) {
+    console.log(`  ⏭ 内容不足跳过 AI（标记 needs_full_scrape 待补爬）: ${needsRescrape.length} 条`);
+  }
+  console.log(`  → 实际进入 AI 处理: ${validForAI.length} 条\n`);
 
   let processed = 0;
   let rejected = 0;
-  for (const item of pending) {
+  for (const item of validForAI) {
     try {
-      const contentForAI = item.contentFull || item.contentHtml || '';
+      // 公众号等无正文源：contentFull/contentHtml 都为空时，用标题兜底参与 AI 筛选与摘要
+      const contentForAI = item.contentFull || item.contentHtml || item.titleEn;
 
       // Stage 1: 语义筛选（轻量 AI 调用，判断是否与智慧畜牧相关）
       const shouldInclude = await screeningEvaluate(item.titleEn, contentForAI);
@@ -818,19 +904,25 @@ async function main() {
 
       // 检测翻译是否被截断，循环续翻直到翻完或达到上限
       let translation = result.translationZh || '';
-      let continuationAttempts = 0;
-      const MAX_CONTINUATIONS = 3;
-      while (contentForAI && translation && (translation.endsWith('……') || translation.endsWith('......')) && continuationAttempts < MAX_CONTINUATIONS) {
-        continuationAttempts++;
-        console.log(`    ⚠ 翻译截断（第 ${continuationAttempts} 次续翻）...`);
-        try {
-          translation = await continueTranslation(item.titleEn, contentForAI, translation);
-          console.log(`    ✓ 续翻完成 (${translation.length} 字)`);
-        } catch (e: any) {
-          console.error(`    ✗ 续翻失败: ${e.message}，使用原截断翻译`);
-          break;
+      const isContentChinese = hasChinese(contentForAI || item.titleEn);
+      if (!isContentChinese) {
+        let continuationAttempts = 0;
+        const MAX_CONTINUATIONS = 3;
+        while (contentForAI && translation && (translation.endsWith('……') || translation.endsWith('......')) && continuationAttempts < MAX_CONTINUATIONS) {
+          continuationAttempts++;
+          console.log(`    ⚠ 翻译截断（第 ${continuationAttempts} 次续翻）...`);
+          try {
+            translation = await continueTranslation(item.titleEn, contentForAI, translation);
+            console.log(`    ✓ 续翻完成 (${translation.length} 字)`);
+          } catch (e: any) {
+            console.error(`    ✗ 续翻失败: ${e.message}，使用原截断翻译`);
+            break;
+          }
         }
       }
+
+      // 中文内容未要求 AI 翻译标题，直接用原标题
+      const titleZh = result.titleZh || (isContentChinese ? item.titleEn : '');
 
       const scores = {
         relevance: result.relevance,
@@ -847,7 +939,7 @@ async function main() {
         where: { id: item.id },
         data: {
           aiScores: JSON.stringify(scores),
-          titleZh: result.titleZh,
+          titleZh,
           summaryZh: result.summaryZh,
           translationZh: translation,
           featuredReason: result.featuredReason,

@@ -45,9 +45,9 @@
 | T1.5 | 行业权威媒体 | 0.7 |
 | T2 | 综合媒体/KOL | 0.4 |
 
-### 当前 32 个信源
+### 当前 37 个信源
 
-**种植/综合信源（14 个）**
+**种植/综合信源（19 个）**
 
 | 信源 | 物种 | 采集方式 | 等级 |
 |------|------|----------|------|
@@ -65,6 +65,11 @@
 | Farm Progress | 综合 | RSS | T1.5 |
 | Vertical Farm Daily | 园艺 | RSS | T1.5 |
 | HortiDaily | 园艺 | RSS | T1.5 |
+| 绿水智慧农业 (公众号) | 综合 | RSS (wechat-download-api) | T1 |
+| DJI大疆农业 (公众号) | 综合 | RSS (wechat-download-api) | T1 |
+| 中环易达 (公众号) | 园艺 | RSS (wechat-download-api) | T1 |
+| 数字农业 Insights (公众号) | 综合 | RSS (wechat-download-api) | T1 |
+| 智慧水产 (公众号) | 综合 | RSS (wechat-download-api) | T1.5 |
 
 **畜牧信源（18 个）**
 
@@ -112,7 +117,7 @@
 [3/5]   全文爬取    cheerio 解析每篇文章 → 提取文本/图片/作者/发表日期 → 写入 contentFull/images/author（403 时回退 Playwright）
 [3.5]   重评相关性  仅本轮新爬文章，用完整内容重新判断
 [3.7]   智慧农业预筛 技术+农业双维度关键词匹配，阈值 ≥ 2（歧义词处理 + 短词边界匹配）
-[4/5]   AI 处理     Stage 1 语义筛选 → Stage 2 五维评分+中文标题+摘要+全文翻译+精选理由+物种分类
+[4/5]   AI 处理     Stage 1 语义筛选 → Stage 2 五维评分+中文标题+摘要+全文翻译/语言检测跳过+精选理由+物种分类
 [4.5]   修复 species 将 subcategory 同步到 species 字段
 [5/5]   导出 JSON   增量合并（已标记不相关的自动清除）+ 列表 JSON + 详情 JSON + 热点 JSON + 统计 JSON
 ```
@@ -133,8 +138,18 @@
 qualityScore = 五维平均分 × 信源权重 + min(多源数, 3) × 5
 ```
 
-- `isHot`：qualityScore >= 75 或 multiSourceCount >= 3
-- `isFeatured`：按信源等级分级，T1 >= 60，T1.5 >= 70，T2 >= 80
+### 语言检测跳过翻译
+
+2026-07-22 起，`analyzeItem` 自动判断内容语言：
+- **含中文** → 跳过全文翻译（`translationZh`），`titleZh` 直接用原标题，保留评分+摘要+精选理由
+- **纯英文** → 全流程（评分 + 全文翻译 + 标题翻译 + 摘要 + 精选理由）
+
+- `isHot`：qualityScore >= 82 或 multiSourceCount >= 2
+  - 2026-07-21 调整：单源热点门槛 75→82；多源门槛 >=3 降为 >=2（为跨源去重生效后留口子）
+- `isFeatured`：**阈值 + tier 内百分位双条件**（导出阶段统一重算）
+  - 阈值：T1 >= 75，T1.5 >= 65，T2 >= 80
+  - 百分位：同 tier 内按 qualityScore 排序，T1 取前 40%，T1.5 取前 30%，T2 取前 15%
+  - 2026-07-21 调整：旧阈值 T1=60 导致 T1 精选率 95%（精选泛滥），T1.5=70 导致精选率 0%（误杀）。新机制控制整体精选率 20-30%
 
 ## 6. 数据模型
 

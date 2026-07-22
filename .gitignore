@@ -55,3 +55,6 @@ next-env.d.ts
 # workbuddy (Kimi 工作区)
 .workbuddy/
 HANDOFF.md
+
+# local dev tooling (not for deployment)
+/Docker/

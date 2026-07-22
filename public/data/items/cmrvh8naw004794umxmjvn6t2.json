@@ -1,0 +1,28 @@
+{
+  "id": "cmrvh8naw004794umxmjvn6t2",
+  "titleEn": "工厂化循环水养殖：在线水质监测系统！",
+  "titleZh": "工厂化循环水养殖：在线水质监测系统！",
+  "url": "https://mp.weixin.qq.com/s/PiUUA-Z3ipaAjIHqxetoAQ",
+  "summaryZh": "该新闻介绍了一款名为“帮邦魔盒”的在线水质监测设备，能够24小时实时监测溶氧、水温、pH等关键水质指标，并在溶氧低于设定值时自动电话报警。设备还提供每日大数据分析报告，帮助养殖户科学管理水质。文章末尾附有微信联系方式，引导用户进一步咨询购买。整体内容偏向产品推广，技术细节和行业背景信息较少。",
+  "translationZh": "",
+  "featuredReason": "该新闻展示了物联网传感器在水产养殖中的基础应用，具备实时监测和自动报警功能，对中小型养殖户有一定实践参考价值，但技术新颖性和行业影响力有限。",
+  "publishedAt": "2026-06-12T06:35:14.000Z",
+  "source": {
+    "name": "智慧水产",
+    "nameZh": "智慧水产",
+    "tier": "T1.5"
+  },
+  "species": "general",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 39,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "在线水质监测仪帮邦魔盒24小时实时监测溶氧、水温、pH指标;\n\n溶氧低于设置下限自动电话报警;\n\n每天根据水质指标生成大数据分析报告！\n\n了解水质监测设备，请添加微信沟通 15965423396！",
+  "scrapeMethod": "wechat_api"
+}

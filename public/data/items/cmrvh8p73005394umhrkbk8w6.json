@@ -1,0 +1,28 @@
+{
+  "id": "cmrvh8p73005394umhrkbk8w6",
+  "titleEn": "缺氧立即电话报警！溶氧水温pH24小时监测！",
+  "titleZh": "缺氧立即电话报警！溶氧水温pH24小时监测！",
+  "url": "https://mp.weixin.qq.com/s/p3AzynW1yZHjoImAKUt-iQ",
+  "summaryZh": "该新闻介绍了一款名为“帮邦魔盒”的在线水质监测仪，能够24小时实时监测养殖水体中的溶氧、水温、pH等关键指标。当溶氧低于设定下限时，设备会自动拨打报警电话，及时提醒养殖户采取措施。此外，系统每日根据监测数据生成大数据分析报告，帮助用户优化养殖管理。产品通过微信联系方式推广，强调实用性和即时预警功能。",
+  "translationZh": "",
+  "featuredReason": "该设备将物联网传感器与自动电话报警结合，解决了养殖中缺氧致死等突发风险，对水产及畜禽养殖水质管理具有直接实践价值，但技术本身创新性一般。",
+  "publishedAt": "2026-06-05T06:06:17.000Z",
+  "source": {
+    "name": "智慧水产",
+    "nameZh": "智慧水产",
+    "tier": "T1.5"
+  },
+  "species": "general",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 53,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "在线水质监测仪帮邦魔盒24小时实时监测溶氧、水温、pH指标;\n\n溶氧低于设置下限自动电话报警;\n\n每天根据水质指标生成大数据分析报告！\n\n了解水质监测设备，请添加微信沟通 15965423396！",
+  "scrapeMethod": "wechat_api"
+}

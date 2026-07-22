@@ -1,0 +1,28 @@
+{
+  "id": "cmrvh8bb5001994umo42spem0",
+  "titleEn": "天津：十大人工智能应用标杆场景名单公布（含农业）",
+  "titleZh": "天津：十大人工智能应用标杆场景名单公布（含农业）",
+  "url": "https://mp.weixin.qq.com/s/KOgC8mPkjwMPUIt4wCZ-AA",
+  "summaryZh": "天津市公布了十大人工智能应用标杆场景名单，其中包含农业领域的应用案例。该名单旨在展示AI技术在各个行业的创新实践，农业作为入选领域之一，体现了政策层面对智慧农业的重视。但新闻内容未具体说明农业场景的技术细节、涉及畜种或具体解决方案，仅作为政策导向性信息发布。",
+  "translationZh": "",
+  "featuredReason": "该新闻反映了地方政府对AI+农业的政策支持方向，但缺乏智慧畜牧相关的具体技术细节和案例，对从业者的直接参考价值有限。",
+  "publishedAt": "2026-05-31T02:40:05.000Z",
+  "source": {
+    "name": "数字农业 Insights",
+    "nameZh": "数字农业 Insights",
+    "tier": "T1.5"
+  },
+  "species": "general",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 40,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "",
+  "scrapeMethod": "wechat_api"
+}

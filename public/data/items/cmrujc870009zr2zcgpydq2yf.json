@@ -1,0 +1,28 @@
+{
+  "id": "cmrujc870009zr2zcgpydq2yf",
+  "titleEn": "一文读懂《大疆农业售后问题处理指南》",
+  "titleZh": "一文读懂《大疆农业售后问题处理指南》",
+  "url": "https://mp.weixin.qq.com/s/IZo03bRQpD0k1snnGgw94A",
+  "summaryZh": "本文是大疆农业发布的售后问题处理指南，主要面向农业无人机用户，详细说明了报修流程、维修政策、配件更换规则及常见问题解答。内容聚焦于售后服务的标准化操作，不涉及智慧畜牧核心技术如IoT、AI或自动化养殖设备。对于智慧畜牧从业者而言，仅可作为了解无人机售后流程的参考，但缺乏与养殖业直接相关的技术或应用分析。",
+  "translationZh": "",
+  "featuredReason": "虽然本文与智慧畜牧核心领域关联较弱，但大疆农业无人机在牧场植保、草场监测等场景有应用潜力，了解其售后政策有助于设备维护决策。",
+  "publishedAt": "2026-05-20T06:05:53.000Z",
+  "source": {
+    "name": "DJI大疆农业",
+    "nameZh": "DJI大疆农业",
+    "tier": "T1"
+  },
+  "species": "general",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 33,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "作者: DJI大疆农业",
+  "scrapeMethod": "rss"
+}

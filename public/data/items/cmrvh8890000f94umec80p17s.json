@@ -1,0 +1,28 @@
+{
+  "id": "cmrvh8890000f94umec80p17s",
+  "titleEn": "7颗草莓/分钟、单台售价27万元！AI采摘机器人公司Dogtooth获1400万英镑融资",
+  "titleZh": "7颗草莓/分钟、单台售价27万元！AI采摘机器人公司Dogtooth获1400万英镑融资",
+  "url": "https://mp.weixin.qq.com/s/FKUPhIcDit9T_POyMk22kQ",
+  "summaryZh": "英国AI采摘机器人公司Dogtooth获得1400万英镑融资，其草莓采摘机器人以每分钟7颗的速度作业，单台售价27万元人民币。该技术结合计算机视觉与机械臂，精准识别并采摘成熟草莓，减少人工依赖。虽然主要应用于果蔬领域，但其AI视觉、自动化决策和机器人控制技术对智慧畜牧中的精准饲喂、健康监测等场景具有跨领域借鉴意义。融资规模表明资本市场对农业自动化前景的认可，但高昂售价和有限作业速度仍是规模化推广的挑战。",
+  "translationZh": "",
+  "featuredReason": "该新闻展示了AI视觉与机器人技术在农业采摘中的商业化突破，其技术路径（如目标识别、柔性抓取）可迁移至畜牧业的自动化巡检、个体识别等场景，为智慧畜牧从业者提供跨领域创新思路。",
+  "publishedAt": "2026-07-10T14:47:15.000Z",
+  "source": {
+    "name": "数字农业 Insights",
+    "nameZh": "数字农业 Insights",
+    "tier": "T1.5"
+  },
+  "species": "fruit",
+  "category": "crop",
+  "subcategory": "fruit",
+  "techTags": "",
+  "qualityScore": 55,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "",
+  "scrapeMethod": "wechat_api"
+}

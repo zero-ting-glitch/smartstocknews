@@ -1,0 +1,28 @@
+{
+  "id": "cmrvh8b91000x94umctokkb9u",
+  "titleEn": "又一大模型公司杀入农业！零一万物联手正大集团合资，要用AI接管蛋鸡养殖场",
+  "titleZh": "又一大模型公司杀入农业！零一万物联手正大集团合资，要用AI接管蛋鸡养殖场",
+  "url": "https://mp.weixin.qq.com/s/MSNzpQ0pe-pRwsXB3wMrvw",
+  "summaryZh": "零一万物与正大集团宣布成立合资公司，计划将大模型技术应用于蛋鸡养殖场，实现AI接管养殖全流程。合作旨在通过智能监控、环境调控、疫病预警和精准饲喂等AI能力，提升蛋鸡养殖效率与动物福利，降低人工成本。此举标志着头部大模型企业正式跨界进入智慧畜牧领域，有望推动禽业从传统经验养殖向数据驱动、自动化管理的模式转型。",
+  "translationZh": "",
+  "featuredReason": "该新闻代表大模型技术首次以合资形式深度切入禽业养殖场景，具有标杆示范效应，为智慧畜牧行业提供了AI落地的真实案例和可复用的合作模式。",
+  "publishedAt": "2026-06-03T13:00:51.000Z",
+  "source": {
+    "name": "数字农业 Insights",
+    "nameZh": "数字农业 Insights",
+    "tier": "T1.5"
+  },
+  "species": "poultry",
+  "category": "livestock",
+  "subcategory": "poultry",
+  "techTags": "",
+  "qualityScore": 64,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "",
+  "scrapeMethod": "wechat_api"
+}

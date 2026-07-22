@@ -70,13 +70,16 @@ smartstock/
 │       └── utils.ts            # 工具函数
 ├── scripts/
 │   ├── run-pipeline.ts         # 一键管线（同步→采集→日期修正→爬取→预筛→AI→物种修复→导出）
-│   ├── export-static.ts        # 独立导出脚本
+│   ├── export-static.ts        # 独立导出脚本（全量，已取消 take:200 限制）
+│   ├── import-wechat.ts        # 导入公众号历史文章（5 月至今，含关键词预筛）
+│   ├── resume-ai.ts            # 恢复中断的 AI 管线（预筛 → AI 评分+翻译 → 导出）
+│   ├── fix-articles.ts         # 补爬+重跑 AI（针对缺正文就已 AI 处理的文章）
 │   ├── cleanup-irrelevant.ts   # AI 语义清理不相关文章（一次性）
 │   ├── seed-sources.ts         # 信源初始化
 │   ├── check-items.ts          # 数据检查工具
 │   └── clear-truncated.ts      # 清除截断翻译（一次性）
 ├── data/
-│   └── sources.json            # 信源配置（15 个源）
+│   └── sources.json            # 信源配置（37 个源）
 ├── prisma/
 │   └── schema.prisma           # 数据库 schema
 ├── public/
@@ -153,7 +156,7 @@ npm run build
 [3/5]   全文爬取    cheerio 解析 → 提取文本/图片/作者（域名级限速 2s，403 时回退 Playwright headless browser）
 [3.5]   重评相关性  仅本轮新爬文章，用完整内容重新判断
 [3.7]   智慧农业预筛 技术+农业双维度关键词匹配，阈值 ≥ 2
-[4/5]   AI 处理     Stage 1 语义筛选 → Stage 2 评分+全文翻译+摘要+精选理由+物种分类
+[4/5]   AI 处理     内容守卫（<100 字标记 needs_full_scrape 跳过）→ Stage 1 语义筛选 → Stage 2 评分+全文翻译+摘要+精选理由+物种分类
 [4.5]   修复 species 将 subcategory 同步到 species 字段
 [5/5]   导出 JSON   增量合并（已标记不相关的自动清除）+ 按分类导出 + 热点 + 统计
 ```
@@ -184,9 +187,9 @@ AI 处理前进行关键词预筛，降低成本：
 
 ## 信源体系
 
-### 当前 32 个信源
+### 当前 37 个信源
 
-**种植/综合信源（14 个）**
+**种植/综合信源（19 个）**
 
 | 信源 | 方向 | 采集方式 | 等级 |
 |------|------|----------|------|
@@ -204,6 +207,11 @@ AI 处理前进行关键词预筛，降低成本：
 | Farm Progress | 美国大田/精准农业 | RSS | T1.5 |
 | Vertical Farm Daily | 垂直农场/室内种植 | RSS | T1.5 |
 | HortiDaily | 园艺日报/温室设施 | RSS | T1.5 |
+| 绿水智慧农业 | 中国智慧农业 | RSS (微信) | T1 |
+| DJI大疆农业 | 农业无人机 | RSS (微信) | T1 |
+| 中环易达 | 设施园艺 | RSS (微信) | T1 |
+| 数字农业 Insights | 农业科技投资/趋势 | RSS (微信) | T1 |
+| 智慧水产 | 智慧渔业 | RSS (微信) | T1.5 |
 
 **畜牧信源（18 个）**
 

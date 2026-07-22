@@ -1,0 +1,36 @@
+{
+  "id": "cmr4bplqu000l50rdhrxbpa82",
+  "titleEn": "Can AI replace seed potato rogueing crews? Three Dutch robots take the next step",
+  "titleZh": "AI能否取代种薯拔除病株团队？三款荷兰机器人迈出下一步",
+  "url": "https://www.futurefarming.com/smart-farming/can-ai-replace-seed-potato-rogueing-crews-three-dutch-robots-take-the-next-step/",
+  "summaryZh": "本文报道了荷兰三家制造商正在商业田块中测试AI驱动的拔除病株机器人，用于种薯生产中去除患病和异型植株这一劳动密集型环节。虽然技术仍在开发中，但算法学习速度惊人，未来可能媲美甚至超越经验丰富的拔除团队。文章通过实地演示展示了机器性能，并指出经验丰富的选种人员角色将发生变化，但短期内不会被完全取代。",
+  "translationZh": "马铃薯选种机器人如今已成为现实。经验丰富的选种人员很快会被淘汰吗？暂时还不会，但他们的角色将发生变化。\n\n去除患病和异型植株是种薯生产中最劳动密集型的工作之一。本季，三家荷兰制造商正在商业田块中测试AI驱动的拔除病株机器人。《未来农业》杂志走访了首次田间演示，了解这些机器在实际中的表现。虽然技术仍在开发中，但有一点已经明确：算法学习速度惊人，最终可能媲美——甚至超越——经验丰富的拔除团队。",
+  "featuredReason": "该新闻展示了AI和机器人技术在种薯生产中的前沿应用，对智慧畜牧行业人士理解农业自动化趋势、以及技术如何改变传统劳动密集型环节具有重要参考价值。",
+  "publishedAt": "2026-07-02T12:39:28.000Z",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1"
+  },
+  "species": "field",
+  "category": "crop",
+  "subcategory": "field",
+  "techTags": "",
+  "qualityScore": 80,
+  "isHot": true,
+  "multiSourceCount": 5,
+  "isFeatured": true,
+  "contentFull": "Can AI replace seed potato rogueing crews? Three Dutch robots take the next step 02-07 | Smart farming | ArticleThe potato selection robot is now a reality. Will the experienced selector soon be left behind? Not for the time being, but their role is set to change. Photo: Martin Smits Removing diseased and off-type plants is one of the most labour-intensive jobs in seed potato production. This season, 3 Dutch manufacturers are testing AI-powered rogueing robots in commercial fields. Future Farming visited the first field demonstrations to see how the machines perform in practice. While the technology is still under development, one thing is already clear: the algorithms are learning remarkably fast and could eventually match — or even outperform — experienced rogueing crGet full access to all stories on Future FarmingThis Premium article is exclusively available for subscribers Obtain insights from exclusive interviews Make the right purchasing decisions with our buyers guides Dive into articles covering innovative developments All the news is brought to you by experienced editors and experts from around the world GeertHekkert Matt Mcintosh René Groeneveld See subscription optionsAlready subscribed? Click here to login Martin Smits Machinery writerMore aboutPotato rogueing Buyers guides & Catalogues Subscribe to our YouTube channel Taiwan Smart Agriweek 2026Sep 8-10, 2026 TaiNEX 1, Tapei",
+  "images": [
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_848,h_565/https://www.futurefarming.com/app/uploads/2026/07/Selectie-1-848x565.jpg",
+    "https://i.imgur.com/PVas4Ge.png",
+    "https://i.imgur.com/4F4rT9W.png",
+    "https://i.imgur.com/jKsyaoE.png",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_300,h_300/https://www.futurefarming.com/app/uploads/2021/02/Martin-Smits-300x300.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_818,h_619/https://www.futurefarming.com/app/uploads/2025/02/DG-Do-you-want-to-know-whats-happening-2.png",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.futurefarming.com/app/uploads/2026/05/taiwan-60x30-1.jpg"
+  ],
+  "author": "Martin Smits",
+  "contentHtml": "Removing diseased and off-type plants is one of the most labour-intensive jobs in seed potato production. This season, 3 Dutch manufacturers are testing AI-powered rogueing robots in commercial fields. Future Farming visited the first field demonstrations to see how the machines perform in practice. While the technology is still under development, one thing is already […]",
+  "scrapeMethod": "web_scrape"
+}

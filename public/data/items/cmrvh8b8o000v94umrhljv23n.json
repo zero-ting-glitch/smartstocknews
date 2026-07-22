@@ -1,0 +1,28 @@
+{
+  "id": "cmrvh8b8o000v94umrhljv23n",
+  "titleEn": "大模型巨头进军农业 | 中国智慧农业周刊 Vol.57",
+  "titleZh": "大模型巨头进军农业 | 中国智慧农业周刊 Vol.57",
+  "url": "https://mp.weixin.qq.com/s/XiCKeRA3insl2AFBrBZJwg",
+  "summaryZh": "本期周刊聚焦大模型巨头（如百度、阿里、腾讯、华为等）加速布局农业领域，利用AI大模型赋能种植业和养殖业。报道涵盖了大模型在作物病虫害识别、精准灌溉、畜禽健康监测、饲料配方优化等场景的应用案例，并分析了技术落地的挑战与机遇。文章指出，大模型正在从通用能力向垂直农业场景渗透，但数据采集成本高、模型泛化能力不足仍是主要瓶颈。整体上，该新闻反映了科技巨头对智慧农业的重视，但缺乏具体畜牧细分领域的深度数据。",
+  "translationZh": "",
+  "featuredReason": "该新闻揭示了AI大模型从通用领域向农业垂直场景渗透的趋势，对智慧畜牧行业的技术路线选择具有前瞻性参考价值，尤其适合关注跨界技术融合的从业者。",
+  "publishedAt": "2026-06-04T12:16:46.000Z",
+  "source": {
+    "name": "数字农业 Insights",
+    "nameZh": "数字农业 Insights",
+    "tier": "T1.5"
+  },
+  "species": "general",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 52,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "",
+  "scrapeMethod": "wechat_api"
+}

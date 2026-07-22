@@ -14,6 +14,11 @@ export interface SourceConfig {
   scrapeType?: string;
   listUrl?: string;
   scrapeConfig?: string;
+  /**
+   * 是否跳过全文爬取（2026-07-21 新增）
+   * 用于微信公众号等"只要标题不要正文"的源：入库时直接标记 scrapedAt，Step 3 跳过
+   */
+  skipContentScrape?: boolean;
   coreKeywords: string;
   excludeKeywords: string;
 }

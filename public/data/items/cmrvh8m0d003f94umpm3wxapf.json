@@ -1,0 +1,28 @@
+{
+  "id": "cmrvh8m0d003f94umpm3wxapf",
+  "titleEn": "工厂化养殖：自动排污代替人工拔管！",
+  "titleZh": "工厂化养殖：自动排污代替人工拔管！",
+  "url": "https://mp.weixin.qq.com/s/J9fXuIXOK8W3M-etZfyD2g",
+  "summaryZh": "该新闻介绍了一款用于工厂化养殖的反馈型防水气动蝶阀，支持手机APP定时定量自动排污，替代传统人工拔管操作。阀门采用UPVC材质，具备IP68级防水防腐能力，并在故障时通过电话报警通知用户。产品主要面向水产或畜牧养殖场的排污环节，强调自动化、远程控制与故障预警，但内容偏产品推广，缺乏技术细节和行业应用案例。",
+  "translationZh": "",
+  "featuredReason": "该产品将IoT远程控制与自动排污结合，提升了养殖排污环节的自动化水平，对减少人工依赖和降低故障风险有实际价值，适合作为智慧养殖基础设施的参考方案。",
+  "publishedAt": "2026-06-24T07:48:06.000Z",
+  "source": {
+    "name": "智慧水产",
+    "nameZh": "智慧水产",
+    "tier": "T1.5"
+  },
+  "species": "general",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 46,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "帮邦反馈型防水气动蝶阀，手机app定时定量排污；\n\n气动蝶阀通体upvc材质，IP68级防水防腐；\n\n阀门故障电话报警\n\n详细了解 加v 15965423396咨询",
+  "scrapeMethod": "wechat_api"
+}

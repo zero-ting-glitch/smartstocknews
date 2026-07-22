@@ -1,0 +1,28 @@
+{
+  "id": "cmrvh8e84001l94umpvosht24",
+  "titleEn": "给拖拉机装\"大脑\"，久保田押注Agtonomy，推进特种作物农业自动化",
+  "titleZh": "给拖拉机装\"大脑\"，久保田押注Agtonomy，推进特种作物农业自动化",
+  "url": "https://mp.weixin.qq.com/s/rKL_SuPXRJx-pUASPdYYRw",
+  "summaryZh": "久保田与Agtonomy合作，为拖拉机加装智能控制系统，推动特种作物（如果园、葡萄园等）的自动化作业。该系统通过AI视觉和传感器实现精准除草、喷洒等任务，减少人工依赖。虽主要面向种植业，但其自动化技术思路对智慧畜牧中的饲喂、环境控制等场景有间接参考价值，体现了农机智能化跨领域应用的潜力。",
+  "translationZh": "",
+  "featuredReason": "该新闻展示了农机自动化在特种作物中的前沿实践，其AI+传感器集成方案对畜牧养殖自动化升级具有技术借鉴意义。",
+  "publishedAt": "2026-05-05T12:50:14.000Z",
+  "source": {
+    "name": "数字农业 Insights",
+    "nameZh": "数字农业 Insights",
+    "tier": "T1.5"
+  },
+  "species": "field",
+  "category": "crop",
+  "subcategory": "field",
+  "techTags": "",
+  "qualityScore": 52,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "",
+  "scrapeMethod": "wechat_api"
+}

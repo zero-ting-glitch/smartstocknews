@@ -1,0 +1,28 @@
+{
+  "id": "cmrvh888b000b94umqyuu0lt6",
+  "titleEn": "智慧农业新内涵",
+  "titleZh": "智慧农业新内涵",
+  "url": "https://mp.weixin.qq.com/s/WnXONW1T_fzT0fo5Eejvhw",
+  "summaryZh": "FAO首届全球智慧农业大会在罗马召开，总干事屈冬玉首次赋予“S.M.A.R.T”新内涵：基于科学、机器学习、人工智能驱动、增强韧性、全面转型。强调智慧农业的核心是数据成为新生产要素，而非简单引入设备，旨在推动农业粮食体系与乡村发展的系统转型，为全球智慧畜牧与种植业提供顶层理念指引。",
+  "translationZh": "",
+  "featuredReason": "该新闻由FAO官方发布，首次系统定义智慧农业的S.M.A.R.T内涵，对全球智慧畜牧行业具有战略指导意义，尤其强调数据驱动与AI赋能，为养殖业智能化升级提供权威框架。",
+  "publishedAt": "2026-07-11T06:19:27.000Z",
+  "source": {
+    "name": "数字农业 Insights",
+    "nameZh": "数字农业 Insights",
+    "tier": "T1.5"
+  },
+  "species": "general",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 64,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "近日，FAO首届全球智慧农业大会在罗马举行。\n\n究竟何为智慧农业？概括而言，就是将数据信息、数字技术与现代科学知识深度融合，对农业生产全过程提供科学决策支撑，帮助农民更高效、更精准利用水土资源及肥料、农药、能源等农业投入品，在提高生产效率和经营效益的同时，推动农业绿色低碳发展。\n\n粮农组织总干事屈冬玉首次对“S.M.A.R.T”赋予新的时代内涵：\n    ·S代表基于科学（Science based）\n    ·M代表机器学习（Machine learning）\n    ·A代表人工智能驱动（AI driven）\n    ·R代表增强发展韧性（Resilience）\n    ·T代表农业粮食体系和乡村发展全面转型（Transformation）。\n\n他强调，智慧农业的“智慧”，不是简单引入先进设备和技术，而是让数据成为新的生产要素，坚持科学引领、数据驱动、人工智能赋能、增强韧性，最终推动农业粮食体系和乡村发展实现系统、全面转型。",
+  "scrapeMethod": "wechat_api"
+}

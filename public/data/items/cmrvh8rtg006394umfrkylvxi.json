@@ -1,0 +1,28 @@
+{
+  "id": "cmrvh8rtg006394umfrkylvxi",
+  "titleEn": "便携水质监测仪，1分钟测溶氧水温pH！",
+  "titleZh": "便携水质监测仪，1分钟测溶氧水温pH！",
+  "url": "https://mp.weixin.qq.com/s/m_GBgepmXYysZz9MMgyP4A",
+  "summaryZh": "该新闻介绍了一款便携式水质监测仪，可快速测量溶氧、水温、pH三项关键指标，采用荧光法传感器，配备3米数据线和液晶屏，1分钟即可完成检测。产品通过微信联系方式推广，面向水产养殖或畜牧饮水监测场景，强调操作简便、快速出数，但缺乏具体技术参数、应用案例和与智慧畜牧系统的集成说明。",
+  "translationZh": "",
+  "featuredReason": "便携快速的水质检测工具对畜牧饮水管理和水产养殖有直接实用价值，但技术新颖性一般，且未体现IoT或自动化集成，推荐作为基础监测设备参考。",
+  "publishedAt": "2026-05-25T06:49:57.000Z",
+  "source": {
+    "name": "智慧水产",
+    "nameZh": "智慧水产",
+    "tier": "T1.5"
+  },
+  "species": "general",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 47,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "<a class=\"wx_topic_link\" topic-id=\"mo13repl-8xkhfg\" style=\"color: #576B95 !important;\" data-topic=\"1\" data-recommend=\"\">#测水仪</a><a class=\"wx_topic_link\" topic-id=\"mo13ribi-mkti18\" style=\"color: #576B95 !important;\" data-topic=\"1\" data-recommend=\"\">#溶氧仪</a><a class=\"wx_topic_link\" topic-id=\"mo13rtey-kbgsuj\" style=\"color: #576B95 !important;\" data-topic=\"1\" data-recommend=\"\">#水质监测仪\n\n</a>便携水质检测仪，测溶氧，水温，pH三指标\n\n采用最先进的荧光法传感器，3米数据线\n\n液晶屏显示数据，1分钟测水，使用简单方便\n\n了解测水仪，加微沟通15965423396！",
+  "scrapeMethod": "wechat_api"
+}

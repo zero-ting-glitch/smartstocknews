@@ -1,0 +1,28 @@
+{
+  "id": "cmrvh8vdv007p94um5yymy6zk",
+  "titleEn": "测水神器：便携水质监测仪，1分钟测水",
+  "titleZh": "测水神器：便携水质监测仪，1分钟测水",
+  "url": "https://mp.weixin.qq.com/s/kVLX7X-E56C_PkyBZEA6KA",
+  "summaryZh": "该新闻介绍了一款便携水质监测仪，可快速测量溶氧、水温、pH三项指标，采用荧光法传感器，通过3米数据线连接液晶屏显示数据，宣称1分钟完成测水。产品面向水产养殖或水质管理场景，但内容简略，缺乏技术细节、应用案例及与智慧畜牧系统的集成说明，更像一则广告推广。",
+  "translationZh": "",
+  "featuredReason": "虽涉及水质传感器这一智慧畜牧基础工具，但内容过于简短且偏向营销，缺乏创新性和行业深度，仅作为入门级设备参考。",
+  "publishedAt": "2026-05-08T07:35:45.000Z",
+  "source": {
+    "name": "智慧水产",
+    "nameZh": "智慧水产",
+    "tier": "T1.5"
+  },
+  "species": "general",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 33,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "帮邦便携水质检测仪，测溶氧，水温，pH三指标\n\n采用最先进的荧光法传感器，3米数据线液晶屏显示数据，\n\n1分钟测水，使用简单方便了解测水仪，\n\n加微沟通15965423396！",
+  "scrapeMethod": "wechat_api"
+}

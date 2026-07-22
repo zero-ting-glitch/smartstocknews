@@ -1,0 +1,28 @@
+{
+  "id": "cmrvh886t000394umrk8vue5p",
+  "titleEn": "豪赌柑橘采摘自动化，农业机器人公司Nanovel斩获250万欧元融资",
+  "titleZh": "豪赌柑橘采摘自动化，农业机器人公司Nanovel斩获250万欧元融资",
+  "url": "https://mp.weixin.qq.com/s/avTutHb97UOGYc-l79_sTA",
+  "summaryZh": "农业机器人公司Nanovel获得250万欧元融资，专注于柑橘采摘自动化技术。该技术旨在解决柑橘类水果采摘劳动力短缺、效率低下的痛点，通过计算机视觉和机械臂实现精准、无损采摘。虽然融资规模不大，但反映了农业机器人细分领域的资本关注。然而，该新闻与智慧畜牧（猪、禽、牛、羊等养殖业）的直接关联度较低，更多属于果蔬种植业的自动化范畴。",
+  "translationZh": "",
+  "featuredReason": "该新闻展示了农业机器人技术在果蔬采摘领域的创新突破，对智慧种植业有参考价值，但作为智慧畜牧编辑，其直接相关性有限，可作为跨领域技术趋势的补充信息。",
+  "publishedAt": "2026-07-20T13:07:09.000Z",
+  "source": {
+    "name": "数字农业 Insights",
+    "nameZh": "数字农业 Insights",
+    "tier": "T1.5"
+  },
+  "species": "fruit",
+  "category": "crop",
+  "subcategory": "fruit",
+  "techTags": "",
+  "qualityScore": 36,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "",
+  "scrapeMethod": "wechat_api"
+}

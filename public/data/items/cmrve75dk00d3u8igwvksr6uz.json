@@ -1,0 +1,28 @@
+{
+  "id": "cmrve75dk00d3u8igwvksr6uz",
+  "titleEn": "Bonsai Robotics推出农业自动驾驶世界模型",
+  "titleZh": "Bonsai Robotics推出农业自动驾驶世界模型",
+  "url": "https://mp.weixin.qq.com/s/nabLROv6zFAvJRHuxP8iLA",
+  "summaryZh": "Bonsai Robotics推出基于生成式世界模型的农业自动驾驶技术，通过时空Transformer模型从单目视频学习果园几何结构，生成逼真的3D虚拟场景，用于自动驾驶系统的训练和测试。该方案旨在解决农业场景高精地图测绘成本高、规模化难的问题，减少对物理地图和现场测试的依赖，并支持模拟极端天气等复杂场景。虽然主要针对果园（果蔬类），但其技术思路对智慧畜牧中的牧场自动驾驶、环境模拟等场景具有重要借鉴意义。",
+  "translationZh": "",
+  "featuredReason": "该技术展示了生成式AI在农业自动驾驶中的创新应用，可大幅降低规模化部署成本，对智慧畜牧中类似的环境感知与自主作业场景（如牧场巡检、饲喂机器人）具有直接启发价值。",
+  "publishedAt": "2026-07-21T23:30:00.000Z",
+  "source": {
+    "name": "数字农业 Insights",
+    "nameZh": "数字农业 Insights",
+    "tier": "T1.5"
+  },
+  "species": "fruit",
+  "category": "aggtech",
+  "subcategory": "fruit",
+  "techTags": "",
+  "qualityScore": 60,
+  "isHot": false,
+  "multiSourceCount": 2,
+  "isFeatured": false,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "农业自主驾驶技术公司Bonsai Robotics 近期展示了一项生成式世界模型技术，用于应对农业自动驾驶方案难以规模化的问题。\n\n在城市自动驾驶中，研发团队通常会为特定城市绘制高精地图，其制作成本可由大量乘车用户分摊。农业场景有所不同：每个农场的物理环境各不相同，若对每个果园都进行高精度地图测绘和现场测试，成本较高，规模化复制的难度也较大。为应对这一问题，Bonsai Robotics 利用其在真实农场积累的数据，尝试了一种新方案。\n\n\n\n该公司 AI 主管John Macdonald介绍了相关进展。研发团队基于农场数据，训练了一个时空 Transformer 模型。据介绍，该模型可以通过单目相机的视频输入，学习环境的几何结构信息，并据此合成在几何结构上保持一致、视觉效果较为逼真的 3D 果园场景，即社交媒体上出现的由该模型生成的果园图像和视频。\n\n\n\n据该公司介绍，这一模型使自动驾驶系统的训练和测试可以部分转移到生成的虚拟环境中进行，从而减少对物理地图测绘和部分现场测试的依赖，也可用于模拟极端天气或复杂场景。该公司表示，这一方法有助于缓解农业机器人在数据获取和测试规模化方面的限制。\n\n\n\n\n\n\n作者: 数字农业 Insights",
+  "scrapeMethod": "rss"
+}

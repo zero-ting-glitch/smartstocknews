@@ -1,0 +1,28 @@
+{
+  "id": "cmrvh851t000194um496a97y8",
+  "titleEn": "建议收藏丨农业无人机安全作业攻略",
+  "titleZh": "建议收藏丨农业无人机安全作业攻略",
+  "url": "https://mp.weixin.qq.com/s/3MxTuRe_k3vxCCsyWwCPow",
+  "summaryZh": "本文主要介绍农业无人机在田间作业时的安全操作规范，包括飞行前检查、环境评估、避障策略、农药喷洒注意事项等细节。内容偏重通用性安全指南，未涉及智慧畜牧中IoT、AI、自动化、传感器等核心技术的具体应用，也未针对养殖业场景（如牧场巡检、动物监测）展开。信息密度中等，实操建议较为具体，但技术新颖性较低。",
+  "translationZh": "",
+  "featuredReason": "作为安全操作基础指南，对农业无人机使用者有实践参考价值，但与智慧畜牧核心技术关联较弱，更适合作为行业通用安全知识补充。",
+  "publishedAt": "2026-05-29T12:30:38.000Z",
+  "source": {
+    "name": "DJI大疆农业",
+    "nameZh": "DJI大疆农业",
+    "tier": "T1"
+  },
+  "species": "general",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 49,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "安全作业，细节先行",
+  "scrapeMethod": "wechat_api"
+}

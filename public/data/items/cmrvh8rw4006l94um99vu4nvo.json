@@ -1,0 +1,28 @@
+{
+  "id": "cmrvh8rw4006l94um99vu4nvo",
+  "titleEn": "济南现代渔业产业园，智慧化数字大屏！",
+  "titleZh": "济南现代渔业产业园，智慧化数字大屏！",
+  "url": "https://mp.weixin.qq.com/s/PnBWp01Bqh_il21Tr1d7xA",
+  "summaryZh": "济南现代渔业产业园引入青岛帮邦智能科技有限公司的智慧化数字大屏，该系统可实时监测溶解氧、水温、pH值、ORP等关键水质指标，并监控微滤机、循环泵、热泵、臭氧机等设备运行状态，具备异常报警功能。该方案旨在推动工厂化、无人化、智慧化水产养殖，但新闻内容偏向产品推广，缺乏技术细节和实际应用案例。",
+  "translationZh": "",
+  "featuredReason": "该新闻展示了智慧水产养殖的数字化监控方案，但内容偏重产品宣传，技术新颖性和行业影响力有限，且与智慧畜牧（猪、禽、牛、羊）的直接相关性较低。",
+  "publishedAt": "2026-05-21T07:07:01.000Z",
+  "source": {
+    "name": "智慧水产",
+    "nameZh": "智慧水产",
+    "tier": "T1.5"
+  },
+  "species": "general",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 37,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "青岛帮邦智能科技有限公司，致力于为工厂化、无人化、智慧化水产养殖提供一站式解决方案，业务覆盖工厂化循环水养殖装备生产、水产物联网设备生产和信息化技术开发。\n\n      帮邦智慧大屏，可以显示养殖品种及养殖密度，系统精准监测并显示溶解氧、水温、pH值、ORP等关键水质指标。\n\n对智慧微滤机、循环泵、热泵、臭氧机等设备进行实时监控，显示设备运行状态（正常、待机、异常），并具备报警功能，实时提醒设备或水质异常，帮助用户快速响应，减少损失。\n\n添加智慧工程师微信 15965423396   领取智慧化装备资料！",
+  "scrapeMethod": "wechat_api"
+}

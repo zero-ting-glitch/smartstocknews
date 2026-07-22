@@ -1,0 +1,28 @@
+{
+  "id": "cmrvh8e6w001d94um2lq86qby",
+  "titleEn": "减少45%农药、单套售价6万欧元...精准喷洒的商业化时代开始了？",
+  "titleZh": "减少45%农药、单套售价6万欧元...精准喷洒的商业化时代开始了？",
+  "url": "https://mp.weixin.qq.com/s/dwxdx1UAnuFMTg4askDj1A",
+  "summaryZh": "该新闻报道了精准喷洒技术进入商业化阶段，通过传感器和AI算法实现农药减量45%，单套设备售价6万欧元。虽然技术本身属于智慧农业范畴，但主要针对大田作物（如小麦、玉米）的植保环节，与畜牧养殖业（猪、禽、牛、羊）的直接关联度较低。新闻强调了成本效益和环保价值，但缺乏对畜牧场景（如精准饲喂、环境监控）的延伸讨论。",
+  "translationZh": "",
+  "featuredReason": "精准喷洒技术代表了农业自动化和AI在种植业的重要突破，对智慧畜牧行业的跨界技术借鉴（如精准用药、环境控制）有启发意义，但非直接相关。",
+  "publishedAt": "2026-05-09T16:16:20.000Z",
+  "source": {
+    "name": "数字农业 Insights",
+    "nameZh": "数字农业 Insights",
+    "tier": "T1.5"
+  },
+  "species": "field",
+  "category": "crop",
+  "subcategory": "field",
+  "techTags": "",
+  "qualityScore": 44,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "",
+  "scrapeMethod": "wechat_api"
+}

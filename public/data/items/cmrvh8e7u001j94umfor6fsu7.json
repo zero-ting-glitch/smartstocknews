@@ -1,0 +1,28 @@
+{
+  "id": "cmrvh8e7u001j94umfor6fsu7",
+  "titleEn": "我国农业北斗终端累计推广超270万台（套）",
+  "titleZh": "我国农业北斗终端累计推广超270万台（套）",
+  "url": "https://mp.weixin.qq.com/s/cP9-4Z7KUDSejh72rMUqlg",
+  "summaryZh": "据中国卫星导航定位协会统计，我国农业领域累计推广应用北斗终端设备超270万台（套），覆盖农机自动驾驶、精准作业、畜牧定位追踪等场景。该数据表明北斗技术已大规模融入智慧农业基础设施，为养殖业提供高精度定位与数据采集能力，但新闻未具体披露畜牧细分领域的应用比例或技术细节。整体而言，北斗终端的普及为智慧畜牧的物联网、自动化管理奠定了底层支撑，但创新性有限，属于成熟技术的规模化推广。",
+  "translationZh": "",
+  "featuredReason": "北斗终端在农业领域的规模化应用是智慧畜牧基础设施升级的重要标志，尤其为放牧定位、牧场自动化作业提供关键支撑，但新闻缺乏畜牧专属案例与创新亮点。",
+  "publishedAt": "2026-05-07T14:20:12.000Z",
+  "source": {
+    "name": "数字农业 Insights",
+    "nameZh": "数字农业 Insights",
+    "tier": "T1.5"
+  },
+  "species": "general",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 46,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "根据中国卫星导航定位协会统计，在农业领域，我国累计推广应用各类北斗终端设备超过270万台（套），助力智慧农业转",
+  "scrapeMethod": "wechat_api"
+}

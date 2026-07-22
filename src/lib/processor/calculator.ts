@@ -11,11 +11,13 @@ export interface AIScores {
 
 /**
  * 精选阈值（不同信源等级）
+ * 2026-07-21 调整：原 T1=60 过松（T1 精选率 95%），T1.5=70 过严（精选率 0%）
+ * 新阈值配合导出阶段的 tier 内百分位兜底，控制整体精选率 20-30%
  */
 const THRESHOLDS: Record<string, number> = {
-  'T1': 60,    // 官方一手，60分就值得看
-  'T1.5': 70,  // 行业权威，70分
-  'T2': 80,    // 综合媒体，80分才精选
+  'T1': 75,    // 官方一手，从 60 提至 75
+  'T1.5': 65,  // 行业权威，从 70 降至 65
+  'T2': 80,    // 综合媒体，保持 80
 };
 
 /**
@@ -25,6 +27,16 @@ const TIER_WEIGHTS: Record<string, number> = {
   'T1': 1.0,
   'T1.5': 0.7,
   'T2': 0.4,
+};
+
+/**
+ * tier 内精选百分位（导出阶段兜底用）
+ * 同一 tier 内按 qualityScore 排序，只取前 N%
+ */
+export const TIER_PERCENTILE: Record<string, number> = {
+  'T1': 0.40,   // T1 取前 40%
+  'T1.5': 0.30, // T1.5 取前 30%
+  'T2': 0.15,   // T2 取前 15%
 };
 
 /**
@@ -64,7 +76,9 @@ export function isFeatured(qualityScore: number, sourceTier: string): boolean {
 
 /**
  * 判断是否入选今日热点
+ * 2026-07-21 调整：质量分 75→82（提高单源热点门槛）；
+ * multiSourceCount >=3 降为 >=2（为未来跨源去重生效后留口子，多源报道即热点）
  */
 export function isHot(qualityScore: number, multiSourceCount: number): boolean {
-  return qualityScore >= 75 || multiSourceCount >= 3;
+  return qualityScore >= 82 || multiSourceCount >= 2;
 }

@@ -1,0 +1,28 @@
+{
+  "id": "cmruimlzz00hh8jaqy4lv4x80",
+  "titleEn": "Texels at forefront of efforts to reach net zero",
+  "titleZh": "特克塞尔羊引领羊业净零排放育种努力",
+  "url": "https://www.agriland.ie/farming-news/texels-at-forefront-of-efforts-to-reach-net-zero/",
+  "summaryZh": "本文报道了特克塞尔羊协会通过育种手段，致力于长期、累积性地减少羊只甲烷和二氧化碳排放，以应对羊业减排挑战。文章指出，作为反刍动物，羊在消化过程中自然产生甲烷，育种是降低排放的可持续路径。该新闻聚焦于传统育种策略，未涉及智慧畜牧技术，但为羊业可持续发展提供了行业视角。",
+  "translationZh": "",
+  "featuredReason": "该新闻虽未直接涉及IoT/AI等智慧畜牧技术，但育种作为羊业减排的核心策略，对智慧畜牧领域中的遗传改良与数据驱动决策具有参考价值，适合关注可持续养殖的从业者阅读。",
+  "publishedAt": "2026-07-19T05:30:00.000Z",
+  "source": {
+    "name": "Agriland",
+    "nameZh": "爱尔兰农业新闻",
+    "tier": "T1.5"
+  },
+  "species": "sheep",
+  "category": "livestock",
+  "subcategory": "sheep",
+  "techTags": "needs_full_scrape",
+  "qualityScore": 50,
+  "isHot": true,
+  "multiSourceCount": 4,
+  "isFeatured": false,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "As the sheep industry pushes to cut methane and carbon dioxide emissions, the Texel Sheep Society is targeting breeding for cumulative, long-term reductions. The sheep sector faces significant challenges in reducing emissions. As ruminants, sheep produce methane as a byproduct of the breakdown of grass cellulose in the rumen enabling sheep digest grass effectively. A […]\nThe post Texels at forefront of efforts to reach net zero appeared first on Agriland.ie.",
+  "scrapeMethod": "rss"
+}

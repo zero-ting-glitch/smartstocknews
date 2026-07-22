@@ -1,0 +1,28 @@
+{
+  "id": "cmrvh88aa000n94um2tikrq99",
+  "titleEn": "中国农大再添2个农业大模型：\"工耕\"具身智能、\"洛神\"灌区精测",
+  "titleZh": "中国农大再添2个农业大模型：\"工耕\"具身智能、\"洛神\"灌区精测",
+  "url": "https://mp.weixin.qq.com/s/oSQx0_ugEbslz3KxAAc24Q",
+  "summaryZh": "中国农业大学近日发布两个农业大模型：“工耕”具身智能模型和“洛神”灌区精测模型。前者聚焦农业机器人具身智能，通过多模态感知与自主决策提升作业精准度；后者针对灌区用水管理，利用AI实现精准测控与调度。两个模型均基于大语言模型与多模态数据融合，旨在推动农业智能化转型。",
+  "translationZh": "",
+  "featuredReason": "该新闻展示了农业AI大模型在具身机器人和精准灌溉两个前沿方向的最新突破，对智慧畜牧领域具有技术借鉴意义，但直接应用于养殖业尚需适配。",
+  "publishedAt": "2026-07-06T12:29:37.000Z",
+  "source": {
+    "name": "数字农业 Insights",
+    "nameZh": "数字农业 Insights",
+    "tier": "T1.5"
+  },
+  "species": "general",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 48,
+  "isHot": false,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "contentFull": "",
+  "images": [],
+  "author": "",
+  "contentHtml": "",
+  "scrapeMethod": "wechat_api"
+}
