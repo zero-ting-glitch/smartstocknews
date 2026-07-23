@@ -267,6 +267,7 @@ npx tsx scripts/fix-articles.ts          # 补爬+重跑 AI（针对缺正文就
 - 有原文时可切换"显示中文"/"显示原文"；无原文时只显示翻译
 - 发表时间：优先显示爬虫提取的真实日期，null 时不显示
 - 数据来源：`public/data/items/{id}.json`（导出时含 contentFull、translationZh、images 等）
+- **标签行**（`detail-meta`）：来源名称 → 信源类型（主题色）→ T1/T1.5/T2 → 质量分 → 精选 → 物种卡片，全部统一 padding/font-size/font-weight，视觉效果一致（2026-07-23 统一）
 - **图片系统**（2026-07-20 重构）：
   - 三级分类：`decor`（URL 关键词+尺寸过滤）→ `small`（宽<420）→ `big`（宽≥420）
   - 5 种布局：hero（单张大图领衔）、duo（并排）、pin（品字形）、small-row（小图横排不拉伸）、masonry（双列瀑布流）

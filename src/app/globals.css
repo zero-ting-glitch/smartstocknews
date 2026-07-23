@@ -34,7 +34,7 @@
   /* 时间线 */
   --m-handle: #d7dee6;
   --m-tab-inactive: #64748b;
-  --tl-accent: rgba(251, 191, 36, 0.82);
+  --tl-accent: rgba(249, 115, 22, 0.82);
   --tl-time-w: 44px;
   --tl-rail-w: 16px;
 
@@ -360,11 +360,11 @@ body {
 
 /* 信源分类标签（列表页） */
 .tag-source-type {
-  font-size: 11px;
+  font-size: 12px;
   padding: 2px 8px;
   border-radius: 4px;
-  background: rgba(99, 102, 241, 0.08);
-  color: #6366f1;
+  color: var(--m-ink-muted);
+  background: var(--m-bg-muted);
 }
 
 .m-featured-badge {
@@ -668,17 +668,17 @@ body {
 .detail-source {
   color: var(--m-ink-muted);
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 600;
   background: var(--m-bg-muted);
-  padding: 3px 10px;
+  padding: 2px 10px;
   border-radius: 6px;
   letter-spacing: 0.02em;
 }
 
 .detail-tier {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
-  padding: 2px 8px;
+  padding: 2px 10px;
   border-radius: 6px;
   letter-spacing: 0.03em;
 }
@@ -700,28 +700,29 @@ body {
 
 /* 信源分类标签（详情页） */
 .detail-source-type {
-  font-size: 11px;
-  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 10px;
   border-radius: 6px;
-  background: rgba(99, 102, 241, 0.08);
-  color: #6366f1;
+  background: var(--m-brand-weak);
+  color: var(--m-brand);
 }
 
 .detail-score {
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--m-brand);
   background: var(--m-brand-weak);
-  padding: 2px 8px;
+  padding: 2px 10px;
   border-radius: 6px;
 }
 
 .detail-featured-badge {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   color: white;
   background: linear-gradient(135deg, #f59e0b, #d97706);
-  padding: 3px 10px;
+  padding: 2px 10px;
   border-radius: 6px;
   letter-spacing: 0.03em;
 }
@@ -761,6 +762,8 @@ body {
 .detail-species-tag {
   font-weight: 600;
   font-size: 12px;
+  padding: 2px 10px;
+  border-radius: 6px;
 }
 
 /* 段落标签 */
@@ -1297,3 +1300,4 @@ body {
     padding: 16px;
   }
 }
+

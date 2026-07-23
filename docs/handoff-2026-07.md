@@ -160,3 +160,18 @@ python app.py  # → http://localhost:5000
 
 ### `scripts/fix-articles.ts`
 补爬 + 重跑 AI：针对已 AI 处理但缺正文的文章，重新全文爬取并重新 AI 评分翻译。用法：`npx tsx scripts/fix-articles.ts`
+
+## 详情页标签样式统一（2026-07-23）
+
+详情页标题区域的来源/等级/物种等标签进行了视觉统一，详见 [detail-meta-style.md](detail-meta-style.md)。
+
+**核心改动**：
+- 信源类型标签从紫色改为主题色（`var(--m-brand)`）
+- 所有标签统一 padding/font-size/font-weight，消除高度不一问题
+- 物种标注从 `detail-info` 区域上移到标签行，改为卡片样式
+- Timeline 圆点从金黄色改为橘色
+
+**涉及文件**：
+- `src/app/globals.css` — CSS 变量和类定义
+- `src/app/detail/page.tsx` — HTML 结构调整（标签顺序、物种位置）
+- `docs/detail-meta-style.md` — 新增，详细记录了所有改动

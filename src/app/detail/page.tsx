@@ -220,7 +220,7 @@ function DetailContent() {
   })();
 
   /* ===== 图片分类：乐观渲染，渐进修正 ===== */
-  const rawImgs = (item.images || []).filter(
+  const rawImgs = [...new Set(item.images || [])].filter(
     (img): img is string => typeof img === 'string' && img.startsWith('http')
   );
   // URL 可判定装饰图的直接过滤；裂图只藏它自己
@@ -287,7 +287,7 @@ function DetailContent() {
       case 'hero':
         return (
           <>
-            {!showInlineHero && (
+            {(!showInlineHero || showOriginal) && (
               <figure className="dg-hero" onClick={() => setLightbox(layout.hero.url)}>
                 <img src={layout.hero.url} alt="" className="dg-img" {...registerImg(layout.hero.url)} />
               </figure>
@@ -367,12 +367,17 @@ function DetailContent() {
           {/* 来源 + 标签 */}
           <div className="detail-meta">
             <span className="detail-source">{item.source.nameZh}</span>
+            <span className="detail-source-type">{sourceTypeEmoji[item.source.sourceType] || '📡'} {item.source.sourceType}</span>
             <span className={`detail-tier detail-tier-${item.source.tier.toLowerCase().replace('.', '')}`}>
               {item.source.tier}
             </span>
-            <span className="detail-source-type">{sourceTypeEmoji[item.source.sourceType] || '📡'} {item.source.sourceType}</span>
             <span className="detail-score">{Math.round(item.qualityScore)}</span>
             {item.isFeatured && <span className="detail-featured-badge">精选</span>}
+            {species.map((s) => (
+              <span key={s} className="detail-species-tag" style={{ color: speciesColors[s] || '#666', background: `${speciesColors[s]}18` }}>
+                {speciesNames[s] || s}
+              </span>
+            ))}
           </div>
 
           {/* 标题 */}
@@ -388,15 +393,6 @@ function DetailContent() {
                 <span>{d.toLocaleDateString('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' })} {d.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit' })}</span>
               ) : null;
             })()}
-            {species.map((s) => (
-              <span
-                key={s}
-                className="detail-species-tag"
-                style={{ color: speciesColors[s] || '#666' }}
-              >
-                {speciesNames[s] || s}
-              </span>
-            ))}
           </div>
 
           {/* 精选理由 */}
