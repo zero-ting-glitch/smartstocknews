@@ -1,0 +1,33 @@
+{
+  "id": "cms2p5ew10013l75lwiprpofr",
+  "titleEn": "Cropr: laser weeder with potential",
+  "titleZh": "Cropr：具有潜力的激光除草机器人",
+  "summaryZh": "本文介绍了荷兰初创公司Cropr推出的自主激光除草机器人Weedr，该机器人采用蓝色二极管光进行杂草控制，本季已有5台机器在田间作业并全部售出。文章描述了机器人在菊苣田中的实际表现，包括烧焦植物的气味等细节，并指出该公司两年前尚未成立，如今已取得显著进展。",
+  "featuredReason": "激光除草技术是智慧农业中精准植保的前沿方向，虽直接应用于大田作物，但其自动化、AI视觉识别与精准作业理念对智慧畜牧中的牧场杂草管理同样具有借鉴意义。",
+  "url": "https://www.futurefarming.com/uncategorized/cropr-laser-weeder-with-potential/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1"
+  },
+  "sourceId": "futurefarming",
+  "species": "field",
+  "category": "crop",
+  "subcategory": "field",
+  "techTags": "",
+  "qualityScore": 69,
+  "isFeatured": true,
+  "isHot": false,
+  "publishedAt": "2026-07-09T06:30:00.000Z",
+  "contentFull": "Cropr: laser weeder with potential\n\n 09-07 | Uncategorized\n\nLinkedInFacebookXWhatsAppPrint\n\nThe Cropr Weedr is a Dutch autonomous laser weeder that uses blue diode light to control weeds. Photos: Lucas van de Weijer\n\ncropr is a new Dutch manufacturer of laser weeders. This season, the company has the first 5 robots operating in the field, all already sold to growers. A good moment for Future Farming to take a look at the robot.\nThe first thing that stands out about the light-blue box driving across the chicory field is the smell of burnt plants behind the robot.\nThe Weedr robot has been operating in chicory since this year. Quite an achievement, considering the company did not yet exist 2 years ago. cropr wa\n\nLinkedInFacebookXWhatsAppPrint\n\n \n\n Lucas van de Weijer Future Farming robot expert\n\nad\n\nLEARN MORE\n\n \n\n Buyers guides & Catalogues\n\n \n\n Subscribe to our YouTube channel\n\n \n\n Taiwan Smart Agriweek 2026\n\nSep 8-10, 2026 TaiNEX 1, Tapei",
+  "translationZh": "Cropr是一家荷兰新型激光除草机制造商。本季，该公司首批5台机器人已在田间作业，且全部售予种植户。对于《未来农业》而言，这是审视该机器人的好时机。\n\n在菊苣田里行驶的浅蓝色箱体最引人注目的特点，是机器人身后飘来的烧焦植物气味。\n\nWeedr机器人自今年起一直在菊苣田中作业。考虑到该公司两年前尚未成立，这已是相当了不起的成就。",
+  "images": [
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_848,h_565/https://www.futurefarming.com/app/uploads/2026/07/Cropr-1-848x565.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_225,h_300/https://www.futurefarming.com/app/uploads/2025/05/Lucas-van-de-Weijer-225x300-1.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_818,h_619/https://www.futurefarming.com/app/uploads/2025/02/DG-Do-you-want-to-know-whats-happening-2.png",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.futurefarming.com/app/uploads/2026/05/taiwan-60x30-1.jpg"
+  ],
+  "author": "Lucas van de Weijer",
+  "contentHtml": "cropr is a new Dutch manufacturer of laser weeders. This season, the company has the first 5 robots operating in the field, all already sold to growers. A good moment for Future Farming to take a look at the robot. The first thing that stands out about the light-blue box driving across the chicory field […]",
+  "scrapeMethod": "web_scrape"
+}

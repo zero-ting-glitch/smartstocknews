@@ -1,20 +1,112 @@
 [
   {
-    "id": "cmruikifo000h8jaqfgabqu6w",
-    "titleEn": "Retrofit or replace? Why the market for autonomous retrofit kits is picking up speed",
-    "titleZh": "改造还是换新？自动驾驶改装套件市场为何加速升温",
-    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/retrofit-or-replace-why-the-market-for-autonomous-retrofit-kits-is-picking-up-speed/",
-    "multiSourceCount": 4,
-    "publishedAt": "2026-07-20T06:00:00.000Z",
-    "qualityScore": 102
+    "id": "cms2p5afy000jl75lq8bwgawe",
+    "titleEn": "Komet Invests in Irrigation Intelligence to Close One of Agriculture’s Biggest Data Gaps",
+    "titleZh": "科迈特投资灌溉智能，填补农业最大数据空白之一",
+    "summaryZh": "科迈特灌溉公司宣布投资六位数，成立新的应用工程与数字系统部门，并推出“科迈特体验中心”，旨在通过科学测量和可重复数据，深入研究喷灌系统的性能、磨损、环境影响因素等，帮助种植者、经销商和OEM做出更明智的灌溉决策。该中心位于巴西，但面向全球，将推动灌溉科学从经验观察向数据驱动转型。",
+    "featuredReason": "虽然本文聚焦大田灌溉，但其核心逻辑——用数据科学填补传统经验盲区、建立可重复的测量体系——与智慧畜牧中环境控制、设备性能监测等场景高度相通，为畜牧行业从经验管理向数据驱动转型提供了可借鉴的路径和思路。",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/irrigation/komet-invests-in-irrigation-intelligence-to-close-one-of-agricultures-biggest-data-gaps/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 81,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-24T00:00:00.000Z"
   },
   {
-    "id": "cmruikigq000r8jaqj53t6qrc",
+    "id": "cms2p5evi000ll75l7vhi94if",
+    "titleEn": "How high-tech is making large-scale organic farming profitable",
+    "titleZh": "高科技如何让大规模有机农业实现盈利",
+    "summaryZh": "本文介绍了塞尔维亚LoginEKO农场如何通过结合再生农艺、农场管理软件、遥测技术、无人机、气象站和可追溯性工具，在3700公顷土地上实现大规模有机农业的商业化盈利。文章详细展示了数据驱动的生产系统如何支撑每一个管理决策，为智慧畜牧和精准农业从业者提供了跨品类技术整合的实践参考。",
+    "featuredReason": "本文展示了智慧农业技术（物联网、无人机、软件平台）在有机种植中的系统性应用，其数据驱动决策和规模化盈利模式对智慧畜牧行业（尤其是牧场管理和饲料作物生产）具有跨品类借鉴价值。",
+    "url": "https://www.futurefarming.com/smart-farming/how-high-tech-is-making-large-scale-organic-farming-profitable/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-22T06:00:00.000Z"
+  },
+  {
+    "id": "cms2p5foc003fl75l1f10orwf",
+    "titleEn": "Phytoform partners with major seed breeders to bring AI-powered plant design to corn crops",
+    "titleZh": "Phytoform与两大种子公司合作，用AI设计玉米植株结构",
+    "summaryZh": "英国基因编辑初创公司Phytoform与Beck's Hybrids和RAGT合作，利用其AI平台CRE.AI.TIVE优化玉米遗传性状，重点改善植株结构以提高产量和抗逆性。该技术通过机器学习识别DNA微小变化，无需外源DNA即可精准调控基因表达，旨在应对气候变化导致的玉米减产（每升温1°C减产7.4%）、病害压力增加及生产成本上升等挑战。合作将进行田间验证，并计划拓展至美国、南美和欧洲市场。",
+    "featuredReason": "该新闻展示了AI与基因编辑在玉米育种中的前沿应用，直接回应了气候变化下作物产量下降的紧迫问题，对智慧种植业从业者理解未来作物设计方向具有重要参考价值。",
+    "url": "https://agfundernews.com/phytoform-partners-with-major-seed-breeders-to-bring-ai-powered-plant-design-to-corn-crops",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-20T19:01:15.000Z"
+  },
+  {
+    "id": "cms2p5evl000nl75lazh4i36m",
+    "titleEn": "Retrofit or replace? Why the market for autonomous retrofit kits is picking up speed",
+    "titleZh": "改造还是换新？自主改装套件市场为何加速升温",
+    "summaryZh": "本文深入分析了农业自主驾驶改装套件市场的崛起趋势。由于劳动力短缺、设备成本上升及农场盈利压力，多家公司（如Sabanto、AgXeed、Nivavi）推出可将现有拖拉机改造成自动驾驶的套件，避免购买全新自主机器的巨额投入。文章指出，该市场正从利基转向商业主流，尤其在大田作物（播种、植保）领域潜力巨大，同时强调了技术兼容性、售后支持及多层级市场结构等关键因素。",
+    "featuredReason": "本文详细剖析了农业自主改装套件市场的兴起逻辑、技术分层及商业前景，对智慧畜牧行业（尤其是涉及大田作业的牧场）在劳动力短缺背景下评估设备升级路径、降低资本投入具有重要参考价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/retrofit-or-replace-why-the-market-for-autonomous-retrofit-kits-is-picking-up-speed/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 92,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-20T06:00:00.000Z"
+  },
+  {
+    "id": "cms2p5evv000xl75lp37lsv5t",
     "titleEn": "Opinion | Why agricultural robots may never become much cheaper",
-    "titleZh": "农业机器人价格为何可能永远不会大幅下降",
+    "titleZh": "农业机器人为何可能永远不会大幅降价",
+    "summaryZh": "本文从经济学角度挑战了“农业机器人会像其他电子产品一样降价”的普遍预期。作者引用瓦赫宁根大学专家的观点指出，机器人定价取决于其在农场创造的价值，而非制造成本。随着劳动力短缺和除草剂禁用加剧，机器人可能成为少数可行方案，其价格将更多由商业案例而非情感品牌忠诚度决定。对智慧畜牧行业人士而言，该逻辑同样适用于养殖机器人，提醒从业者关注投资回报而非单纯比较采购价。",
+    "featuredReason": "本文提出的“价值定价”逻辑颠覆了传统农机降价预期，对智慧畜牧行业评估养殖机器人、自动化设备的投资回报具有直接借鉴意义，有助于从业者从商业本质出发做决策。",
     "url": "https://www.futurefarming.com/crop-solutions/opinion-why-agricultural-robots-may-never-become-much-cheaper/",
-    "multiSourceCount": 4,
-    "publishedAt": "2026-07-13T09:00:00.000Z",
-    "qualityScore": 100
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-13T09:00:00.000Z"
   }
 ]

@@ -1,47 +1,112 @@
 [
   {
-    "id": "cmruikifo000h8jaqfgabqu6w",
+    "id": "cms2p5afn0007l75lun1oh418",
+    "titleEn": "Agriculture Doesn’t Just Need Data. It Needs AI-Ready Data.",
+    "titleZh": "农业不仅需要数据，更需要AI就绪的数据",
+    "summaryZh": "本文指出农业领域面临数据丰富但可用性不足的悖论：大量卫星、物联网传感器等产生了海量数据，但由于缺乏标准化、一致性、及时性和校准，这些数据难以直接用于AI决策。文章强调，农业AI的成功依赖于“AI就绪的数据”——即经过校准、时间一致、可直接输入模型的结构化表示（如嵌入向量），而非零散的图像。作者呼吁行业从“图片”思维转向“机器可读的测量”思维，并提出了对技术伙伴的三项要求：校准优于分辨率、时间一致性、无人工干预的工作流。",
+    "featuredReason": "本文精准指出了当前智慧农业（包括畜牧）数据应用的瓶颈——数据量大但质量参差不齐，无法直接用于AI决策。对于智慧畜牧行业，无论是环境监测、动物行为分析还是疫病预警，同样面临数据标准化和一致性的挑战，文章提出的“AI就绪数据”理念具有跨领域的指导价值。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/analytics/agriculture-doesnt-just-need-data-it-needs-ai-ready-data/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 94,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-24T00:00:00.000Z"
+  },
+  {
+    "id": "cms2p5evl000nl75lazh4i36m",
     "titleEn": "Retrofit or replace? Why the market for autonomous retrofit kits is picking up speed",
-    "titleZh": "改造还是换新？自动驾驶改装套件市场为何加速升温",
+    "titleZh": "改造还是换新？自主改装套件市场为何加速升温",
+    "summaryZh": "本文深入分析了农业自主驾驶改装套件市场的崛起趋势。由于劳动力短缺、设备成本上升及农场盈利压力，多家公司（如Sabanto、AgXeed、Nivavi）推出可将现有拖拉机改造成自动驾驶的套件，避免购买全新自主机器的巨额投入。文章指出，该市场正从利基转向商业主流，尤其在大田作物（播种、植保）领域潜力巨大，同时强调了技术兼容性、售后支持及多层级市场结构等关键因素。",
+    "featuredReason": "本文详细剖析了农业自主改装套件市场的兴起逻辑、技术分层及商业前景，对智慧畜牧行业（尤其是涉及大田作业的牧场）在劳动力短缺背景下评估设备升级路径、降低资本投入具有重要参考价值。",
     "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/retrofit-or-replace-why-the-market-for-autonomous-retrofit-kits-is-picking-up-speed/",
-    "multiSourceCount": 4,
-    "publishedAt": "2026-07-20T06:00:00.000Z",
-    "qualityScore": 102
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 92,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-20T06:00:00.000Z"
   },
   {
-    "id": "cmruikigq000r8jaqj53t6qrc",
-    "titleEn": "Opinion | Why agricultural robots may never become much cheaper",
-    "titleZh": "农业机器人价格为何可能永远不会大幅下降",
-    "url": "https://www.futurefarming.com/crop-solutions/opinion-why-agricultural-robots-may-never-become-much-cheaper/",
-    "multiSourceCount": 4,
-    "publishedAt": "2026-07-13T09:00:00.000Z",
-    "qualityScore": 100
-  },
-  {
-    "id": "cmruim3rr00a98jaqr8te0pqh",
-    "titleEn": "FeedingFor healthier cows and a more efficient production",
-    "titleZh": "Lely自动饲喂方案：以精准饲喂与数据驱动提升奶牛健康与生产效率",
-    "url": "https://www.lely.com/solutions/feeding/?epslanguage=en",
-    "multiSourceCount": 1,
-    "publishedAt": "",
-    "qualityScore": 93
-  },
-  {
-    "id": "cmruim3qm009z8jaq217d9942",
+    "id": "cms2p60yz01ihl75l6bjpeyx1",
     "titleEn": "Go to milking",
-    "titleZh": "迈向自动化挤奶：智慧畜牧解决方案全景解析",
+    "titleZh": "迈向自动化挤奶：智慧牧场解决方案全景",
+    "summaryZh": "本文系统介绍了Lely公司面向奶牛养殖的自动化挤奶解决方案，涵盖自动挤奶机器人（Astronaut A5 Next、Astronaut Max）、自由牛流技术、个体化治疗、奶牛健康优化及牛奶品质管理。通过多篇技术文章深入探讨了选择性干奶牛治疗、放牧与机器人挤奶的协同、机器人挤奶技术演进及持续创新。内容体现了物联网、人工智能与机器人技术在奶牛养殖中的深度融合，为智慧畜牧从业者提供了从设备选型到牧场管理的完整参考。",
+    "featuredReason": "本文全面展示了自动挤奶机器人、自由牛流、个体化治疗等前沿技术在奶牛场的实际应用，是智慧畜牧从业者了解自动化挤奶系统选型与牧场管理优化的必读内容。",
     "url": "https://www.lely.com/solutions/milking/",
-    "multiSourceCount": 1,
-    "publishedAt": "",
-    "qualityScore": 92
+    "source": {
+      "name": "Lely",
+      "nameZh": "Lely 自动化乳业",
+      "tier": "T1"
+    },
+    "sourceId": "lely",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 92,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": ""
   },
   {
-    "id": "cmruim3rx00ab8jaqhyhlbfqe",
-    "titleEn": "ManureCreate a comfortable environment conducive to cow health",
-    "titleZh": "利拉伐粪污处理机器人：打造奶牛健康舒适环境的自动化方案",
-    "url": "https://www.lely.com/solutions/manure/?epslanguage=en",
-    "multiSourceCount": 1,
-    "publishedAt": "",
-    "qualityScore": 90
+    "id": "cms2p60za01ijl75ljtk4203y",
+    "titleEn": "Go to Feeding",
+    "titleZh": "自动饲喂解决方案：提升奶牛健康与牧场效率",
+    "summaryZh": "本文介绍了Lely公司的自动饲喂解决方案，包括自动饲喂机器人、推料机器人和犊牛饲喂器，强调通过频繁饲喂、定制日粮和精准混合等六大原则，优化奶牛瘤胃健康、提高饲料转化率、减少浪费并节省劳动力。文章还探讨了从犊牛到成牛的全程数据管理，以及如何通过监测采食量和代谢健康实现早期干预，为智慧牧场提供实践指南。",
+    "featuredReason": "本文系统介绍了自动饲喂机器人和数据管理在奶牛场的应用，涵盖从犊牛到成牛的全生命周期管理，对智慧畜牧从业者理解自动化饲喂技术如何提升效率、健康与可追溯性具有直接参考价值。",
+    "url": "https://www.lely.com/solutions/feeding/",
+    "source": {
+      "name": "Lely",
+      "nameZh": "Lely 自动化乳业",
+      "tier": "T1"
+    },
+    "sourceId": "lely",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 92,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": ""
+  },
+  {
+    "id": "cms2p610201ipl75lygzaga3r",
+    "titleEn": "MilkingMilk in the tank with less effort",
+    "titleZh": "轻松实现奶罐满盈：自动挤奶解决方案深度解析",
+    "summaryZh": "本文全面介绍了Lely自动挤奶解决方案，涵盖自动挤奶机器人（Astronaut A5 Next、Astronaut Max）、自由牛流理念、个体化治疗、牛群健康优化及牛奶处理等核心内容。通过多篇专题文章深入探讨了选择性干奶牛治疗、放牧与机器人挤奶的协同、以及机器人挤奶技术三十年演进历程。文章强调以数据驱动、牛只自由选择为核心的智慧牧场管理，旨在提升劳动效率、牛只福祉和牛奶品质，为奶牛养殖从业者提供了从设备选型到日常运营的完整参考。",
+    "featuredReason": "本文系统展示了Lely在自动挤奶领域的最新技术与理念，涵盖自由牛流、个体化治疗、数据驱动决策等智慧畜牧核心要素，对奶牛养殖从业者选择设备、优化管理具有直接参考价值。",
+    "url": "https://www.lely.com/solutions/milking/?epslanguage=en",
+    "source": {
+      "name": "Lely",
+      "nameZh": "Lely 自动化乳业",
+      "tier": "T1"
+    },
+    "sourceId": "lely",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 92,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": ""
   }
 ]

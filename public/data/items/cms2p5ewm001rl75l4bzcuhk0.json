@@ -1,0 +1,36 @@
+{
+  "id": "cms2p5ewm001rl75l4bzcuhk0",
+  "titleEn": "New retrofit spot spraying system for every type of sprayer",
+  "titleZh": "新型后装式定点喷雾系统适配各类喷雾机",
+  "summaryZh": "德国初创公司DynamoBot推出WeSee后装式定点喷雾系统，可安装于新旧各类田间喷雾机。系统采用RGB相机与NIR传感器，每2.5米一组，实现杂草精准识别与单喷嘴独立控制，支持绿-棕与绿-绿检测，无需PWM喷嘴。目前支持马铃薯、玉米、甜菜作物模型，售价每米喷雾杆2000欧元，可自行安装。该系统为精准植保提供了低成本、高兼容性的升级方案。",
+  "featuredReason": "该技术展示了视觉传感器与AI在精准植保中的低成本后装方案，智慧畜牧行业可借鉴其传感器集成、算法适配老旧设备的思路，用于牧场杂草管理或饲草作物精准施药。",
+  "url": "https://www.futurefarming.com/crop-solutions/weed-pest-control/new-retrofit-spot-spraying-system-for-every-type-of-sprayer/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1"
+  },
+  "sourceId": "futurefarming",
+  "species": "field",
+  "category": "crop",
+  "subcategory": "field",
+  "techTags": "",
+  "qualityScore": 80,
+  "isFeatured": true,
+  "isHot": true,
+  "publishedAt": "2026-06-22T06:00:00.000Z",
+  "contentFull": "New retrofit spot spraying system for every type of sprayer\n\n 22-06 | Weed/Pest control | News\n\nLinkedInFacebookXWhatsAppPrint\n\nDynamoBot supplies the WeSee spot spraying system with individual nozzle control, which can be mounted on almost any type of field sprayer; new, relatively new and considerably older machines. Photo's: René Koerhuis\n\nThe WeSee setup from German company DynamoBot initially appears to be ‘yet another new spot spraying system’. Until a number of distinctive features become apparent.\n\nStartup DynamoBot has been working on solutions for precision weed management since 2023 as a spin-off from the University of Bonn and PhenoRob. Other now well-known PhenoRob spin-offs include laser weeder manufacturer Escarda Technologies and drone services provider Pheno-Inspect.\n\nOne of DynamoBot’s developments is the WeSee spot spraying system with individual nozzle control, which can be mounted on almost any type of field sprayer; new, relatively new and considerably older machines. According to the company, this makes its technology unique.\n\n By fitting each nozzle holder with an electronically controlled valve, each nozzle can be switched on and off individually to spot spray weeds.RGB camera and NIR sensor\n\nWith a background in research mainly into applications of vision technology in agriculture, the company developed its retrofit spot spraying system. To do this, it mounts a camera set every 2.5 metres on an existing spray boom, consisting of a visual RGB camera and a NIR sensor. The current camera set also still contains the ECU, which is due to be moved to the machine itself in the coming period so that the cameras become considerably more compact and lighter. \n\nThe cameras scan the field and can detect weeds on bare land (green-on-brown) and in a crop (green-on-green). By fitting each nozzle holder with an electronically controlled valve, the cameras and underlying algorithms can then switch each nozzle on and off individually to spot spray weeds. Thanks to the NIR sensors, this is also possible in little or no daylight. \n\nExisting nozzles can continue to be used; pulse-width modulation nozzles (PWM) are not required. Setup and operation are via a supplied tablet. At present, algorithms and crop models are available for potatoes, maize and sugar beet, and these are being tested on the arable farm of one of the employees.\n\n Existing nozzles can continue to be used; pulse-width modulation nozzles (PWM) are not required.Self-installation also possible\n\nThe system is suitable for nozzle spacings of 25 and 50 centimetres and should ultimately be simple enough to install yourself. DynamoBot offers the WeSee system for €2,000 per metre of spray boom. For the time being, there are no additional annual costs, but these will be introduced. For crop models other than potatoes, maize and sugar beet, the company charges €500 per crop. WeSee is commercially available, but at DLG Feldtage the first sale had yet to be made.\n\nIn addition to spot spraying crop and weed plants, the system can also spot spray all green plants on arable land and, of course, also work across the full field. Thanks to the electronically controlled nozzle holders, installation also provides individual nozzle control.\n\nLinkedInFacebookXWhatsAppPrint\n\n \n\n René Koerhuis Precision Farming Specialist\n\nMore about\n\nGewasbescherming\n\nPrecisielandbouw\n\nSpuitmachines\n\nad\n\nLEARN MORE\n\nRelated articles\n\nPremium\n\n16-06 | \n Article\n\nFrom novelty to necessity: Why tulip growers are betting on robotic disease selection\n\n \n\n Buyers guides & Catalogues\n\n \n\n Subscribe to our YouTube channel\n\n \n\n Taiwan Smart Agriweek 2026\n\nSep 8-10, 2026 TaiNEX 1, Tapei",
+  "translationZh": "德国公司DynamoBot推出的WeSee系统初看似乎只是“又一套新的定点喷雾系统”，直到其若干独特特点显现出来。\n\n初创公司DynamoBot自2023年起作为波恩大学和PhenoRob的衍生企业，致力于精准杂草管理解决方案。其他如今知名的PhenoRob衍生企业包括激光除草机制造商Escarda Technologies和无人机服务提供商Pheno-Inspect。\n\nDynamoBot的研发成果之一是WeSee定点喷雾系统，配备独立喷嘴控制，可安装于几乎任何类型的田间喷雾机——无论是新机器、较新的机器还是相当老旧的机器。据该公司称，这使其技术独一无二。\n\n**RGB相机与NIR传感器**\n\n凭借主要研究视觉技术在农业中应用的背景，该公司开发了这套后装式定点喷雾系统。为此，他们在现有喷雾杆上每隔2.5米安装一组相机，包括一个可见光RGB相机和一个NIR传感器。目前的相机组还包含ECU（电子控制单元），计划在未来一段时间内将其移至机器本体，从而使相机变得更加紧凑和轻便。\n\n相机扫描田间，能够检测裸地上的杂草（绿-棕识别）以及作物中的杂草（绿-绿识别）。通过为每个喷嘴座配备电子控制阀，相机及其底层算法可以独立开关每个喷嘴，实现对杂草的定点喷雾。得益于NIR传感器，即使在弱光或夜间也能工作。\n\n现有喷嘴可继续使用，无需脉宽调制（PWM）喷嘴。系统设置和操作通过提供的平板电脑完成。目前，算法和作物模型已可用于马铃薯、玉米和甜菜，并正在一名员工自家的农场进行测试。\n\n**也可自行安装**\n\n该系统适用于25厘米和50厘米的喷嘴间距，并且最终应设计得足够简单，以便用户自行安装。DynamoBot提供WeSee系统的售价为每米喷雾杆2000欧元。目前暂无额外年费，但未来将会引入。对于马铃薯、玉米和甜菜以外的作物模型，公司每增加一种作物收费500欧元。WeSee现已商业化销售，但在DLG Feldtage展会上尚未达成首笔交易。\n\n除了对作物和杂草进行定点喷雾外，该系统还可对农田中的所有绿色植物进行定点喷雾，当然也能进行全田作业。得益于电子控制的喷嘴座，安装后还可实现独立喷嘴控制。",
+  "images": [
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_848,h_565/https://www.futurefarming.com/app/uploads/2026/06/01-IMG-8743-clean-JPG-848x565.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1024,h_683/https://www.futurefarming.com/app/uploads/2026/06/02-IMG-8741-clean-JPG-1024x683.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1024,h_683/https://www.futurefarming.com/app/uploads/2026/06/03-IMG-8740-clean-JPG-1024x683.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_300,h_300/https://www.futurefarming.com/app/uploads/2024/05/Rene-Koerhuis_web-300x300.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/06/DSC03118-clean-JPG-1-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_818,h_619/https://www.futurefarming.com/app/uploads/2025/02/DG-Do-you-want-to-know-whats-happening-2.png",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.futurefarming.com/app/uploads/2026/05/taiwan-60x30-1.jpg"
+  ],
+  "author": "René Koerhuis",
+  "contentHtml": "The WeSee setup from German company DynamoBot initially appears to be ‘yet another new spot spraying system’. Until a number of distinctive features become apparent.",
+  "scrapeMethod": "web_scrape"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "cms2p5ew30015l75ljj9jx49x",
+  "titleEn": "Inside the Dutch organic field day where weeding robots stole the show",
+  "titleZh": "荷兰有机田间日：除草机器人成为全场焦点",
+  "summaryZh": "本文报道了荷兰有机田间日上机械除草技术的最新进展。参观者不再质疑机器人能否工作，而是比较它们如何在作物行内精准除草。Future Farming现场展示了AI导向锄头、激光除草机和新型热水机器人，揭示了自动化如何重塑有机作物生产。文章反映了智慧农业在种植业中的实际应用趋势。",
+  "featuredReason": "虽然本文聚焦种植业，但其中AI、机器人和自动化技术在精准作业中的应用思路，对智慧畜牧行业（如自动饲喂、巡检、清洁机器人）具有跨领域借鉴价值，尤其是有机生产场景下的技术演进值得关注。",
+  "url": "https://www.futurefarming.com/uncategorized/inside-the-dutch-organic-fieldday-where-weeding-robots-stole-the-show/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1"
+  },
+  "sourceId": "futurefarming",
+  "species": "field",
+  "category": "crop",
+  "subcategory": "field",
+  "techTags": "",
+  "qualityScore": 76,
+  "isFeatured": true,
+  "isHot": true,
+  "publishedAt": "2026-07-07T13:30:00.000Z",
+  "contentFull": "Inside the Dutch organic field day where weeding robots stole the show\n\n 07-07 | Uncategorized\n\nLinkedInFacebookXWhatsAppPrint\n\nPhotos: Jan Willem Schouten\n\n Mechanical weeding has entered a new era. At the Dutch Organic FieldDay, visitors no longer questioned whether robots work, but compared how accurately they remove weeds within the crop row. Future Farming visited the demonstrations, where AI-guided hoes, laser weeders and a new hot-water robot highlighted how automation is reshaping organic crop production. Visitors soon lost interest in how effectively the robotic hoes were tackling weeds in the demonstration field at the Organic FieldDay\n\nLinkedInFacebookXWhatsAppPrint\n\n \n\n Leo Tholhuijsen Arable writer\n\nad\n\nLEARN MORE\n\n \n\n Buyers guides & Catalogues\n\n \n\n Subscribe to our YouTube channel\n\n \n\n Taiwan Smart Agriweek 2026\n\nSep 8-10, 2026 TaiNEX 1, Tapei",
+  "translationZh": "机械除草已进入新时代。在荷兰有机田间日上，参观者不再质疑机器人能否工作，而是比较它们在作物行内除草的精准度。Future Farming参观了这些演示，AI导向锄头、激光除草机和新型热水机器人展示了自动化如何重塑有机作物生产。参观者很快对演示田里机器人锄头除草的效果失去了兴趣。\n\nLeo Tholhuijsen 大田作物撰稿人",
+  "images": [
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_750,h_500/https://www.futurefarming.com/app/uploads/2026/07/biovelddag-1-1-of-1.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_275,h_275/https://www.futurefarming.com/app/uploads/2021/02/Leo-Tholhuijsen.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_818,h_619/https://www.futurefarming.com/app/uploads/2025/02/DG-Do-you-want-to-know-whats-happening-2.png",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.futurefarming.com/app/uploads/2026/05/taiwan-60x30-1.jpg"
+  ],
+  "author": "Leo Tholhuijsen",
+  "contentHtml": "Mechanical weeding has entered a new era. At the Dutch Organic FieldDay, visitors no longer questioned whether robots work, but compared how accurately they remove weeds within the crop row. Future Farming visited the demonstrations, where AI-guided hoes, laser weeders and a new hot-water robot highlighted how automation is reshaping organic crop production. Visitors soon […]",
+  "scrapeMethod": "web_scrape"
+}

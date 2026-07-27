@@ -1,0 +1,34 @@
+{
+  "id": "cms2p5evp000rl75lqg03dznb",
+  "titleEn": "Why variable-rate application still struggles to gain traction",
+  "titleZh": "变量施肥技术为何仍难普及",
+  "summaryZh": "本文探讨了变量施肥技术（VRA）在荷兰大田作物农场中推广缓慢的原因。尽管该技术已存在多年，但实际采用率不足10%。文章通过采访机械制造商、精准农业专家和作物顾问，指出障碍主要不在于技术本身，而在于农场经济、地块特征、软件复杂性以及不确定的投资回报。文章还提到，生态计划（eco-scheme）在一定程度上推动了任务地图的使用，但整体普及仍面临多重现实挑战。",
+  "featuredReason": "虽然本文聚焦大田作物，但变量施肥技术面临的采纳障碍（经济性、软件复杂性、回报不确定）与智慧畜牧中精准饲喂、环境控制等技术的推广困境高度相似，对畜牧行业从业者理解技术落地的现实挑战具有跨领域参考价值。",
+  "url": "https://www.futurefarming.com/smart-farming/why-variable-rate-application-still-struggles-to-gain-traction/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1"
+  },
+  "sourceId": "futurefarming",
+  "species": "field",
+  "category": "crop",
+  "subcategory": "field",
+  "techTags": "",
+  "qualityScore": 69,
+  "isFeatured": true,
+  "isHot": false,
+  "publishedAt": "2026-07-16T08:00:00.000Z",
+  "contentFull": "Why variable-rate application still struggles to gain traction\n\n 16-07 | Smart farming | Article\n\nLinkedInFacebookXWhatsAppPrint\n\nIn an estimated 10% of cases, fertiliser is spread using a task map. This is often reinforced by the eco-scheme. Photo: Michel Velderman\n\nVariable-rate application has been available for years, yet adoption remains limited on many arable farms. Interviews with machinery manufacturers, precision farming specialists and crop advisers show that the barriers are rarely technical alone. Farm economics, field characteristics, software complexity and uncertain returns continue to slow the uptake of prescription maps for seeding and fertiliser application. Fewer than 10% of Dutch arable farmers/growers, contractors and livestock farmers\n\nLinkedInFacebookXWhatsAppPrint\n\n \n\n René Koerhuis Precision Farming Specialist\n\nMore about\n\ntask maps\n\nad\n\nLEARN MORE\n\nRelated articles\n\nPremium\n\n10-10-2024 | \n Article\n\nVariable seeding with task maps is not yet common practice\n\n \n\n Buyers guides & Catalogues\n\n \n\n Subscribe to our YouTube channel\n\n \n\n Taiwan Smart Agriweek 2026\n\nSep 8-10, 2026 TaiNEX 1, Tapei",
+  "translationZh": "变量施肥技术已问世多年，但在许多大田作物农场中，其采用率仍然有限。对机械制造商、精准农业专家和作物顾问的采访表明，障碍很少仅仅是技术层面的。农场经济、地块特征、软件复杂性以及不确定的回报，继续减缓着播种和施肥处方图的推广。在荷兰，只有不到10%的大田作物种植者/农场主、承包商和畜牧养殖户采用了该技术。\n\n**更多信息**\n\nRené Koerhuis 精准农业专家\n\n**相关文章**\n\n2024年10月10日 | 文章\n带任务地图的变量播种尚未成为普遍做法\n\n购买指南与目录\n\n订阅我们的YouTube频道\n\n2026年台湾智慧农业周\n2026年9月8日至10日，台北南港展览馆1馆",
+  "images": [
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_848,h_565/https://www.futurefarming.com/app/uploads/2026/07/01-vem424844-032-resize-2000-848x565.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_300,h_300/https://www.futurefarming.com/app/uploads/2024/05/Rene-Koerhuis_web-300x300.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2024/10/Kopie-van-24trk428_zapo-var-01-CCI1200_Azurit_VRC_0001-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_818,h_619/https://www.futurefarming.com/app/uploads/2025/02/DG-Do-you-want-to-know-whats-happening-2.png",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.futurefarming.com/app/uploads/2026/05/taiwan-60x30-1.jpg"
+  ],
+  "author": "René Koerhuis",
+  "contentHtml": "Variable-rate application has been available for years, yet adoption remains limited on many arable farms. Interviews with machinery manufacturers, precision farming specialists and crop advisers show that the barriers are rarely technical alone. Farm economics, field characteristics, software complexity and uncertain returns continue to slow the uptake of prescription maps for seeding and fertiliser application. […]",
+  "scrapeMethod": "web_scrape"
+}
