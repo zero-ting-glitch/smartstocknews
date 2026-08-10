@@ -1,11 +1,33 @@
 [
   {
-    "id": "cms2p5f8j0023l75lbznc0fhf",
-    "titleEn": "Growers Share Lessons and Wins in Automation",
-    "titleZh": "种植者分享自动化转型的经验与成果",
-    "summaryZh": "本文报道了Cultivate'26展会上三位园艺种植者（来自苗圃、农场和种苗公司）关于自动化实施的真实经验分享。他们讨论了决定自动化的时机、优先级选择、团队适应、设备切换管理、制造商关系以及投资回报率衡量等关键问题。文章提供了从预算、文化转变到实际ROI对比的实用教训，对智慧畜牧行业在自动化决策、员工培训和效益评估方面具有跨领域参考价值。",
-    "featuredReason": "虽然本文聚焦于园艺温室，但其中关于自动化决策、团队文化转变、ROI衡量及设备切换管理的经验，对智慧畜牧行业（如养殖场自动化升级）具有高度可迁移的实践参考价值。",
-    "url": "https://www.greenhousegrower.com/technology/growers-share-lessons-and-wins-in-automation/",
+    "id": "cmsmm5jya001v1tqsu2pmekrj",
+    "titleEn": "Introducing Javo Orange, a New Generation of Potting Automation Machines",
+    "titleZh": "Javo推出新一代盆栽自动化设备Javo Orange",
+    "summaryZh": "Javo公司发布了新一代盆栽自动化设备Javo Orange，该模块化生产线以质量、连续性、简单性、最大产量和灵活性为核心原则，旨在为专业盆栽植物生产提供标准化、智能化的自动化解决方案。首款机型Orbis可处理8至36厘米的盆径，产能高达每小时8000盆，并支持正反向运行。该设备体现了园艺自动化领域的最新进展，对智慧农业中的自动化应用具有参考价值。",
+    "featuredReason": "该新闻展示了园艺自动化设备的最新创新，其模块化、高灵活性和高产能设计对智慧畜牧中自动化设备的选型与升级具有借鉴意义。",
+    "url": "https://www.greenhousegrower.com/technology/introducing-javo-orange-a-new-generation-of-potting-automation-machines/",
+    "source": {
+      "name": "Greenhouse Grower",
+      "nameZh": "温室种植者",
+      "tier": "T1.5"
+    },
+    "sourceId": "greenhousegrower",
+    "species": "horticulture",
+    "category": "crop",
+    "subcategory": "horticulture",
+    "techTags": "",
+    "qualityScore": 54,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "id": "cmsmm5jyc001x1tqs0e749it5",
+    "titleEn": "How AI-Powered Drones Are Transforming Greenhouse Crop Monitoring",
+    "titleZh": "AI无人机如何变革温室作物监测",
+    "summaryZh": "本文介绍了AI驱动的无人机在温室作物监测中的应用，包括早期病虫害检测、植物健康监测、灌溉管理和作物生长追踪。通过自主飞行、AI图像分析和高分辨率成像，无人机为种植者提供精准数据，帮助提高效率、减少农药使用并优化资源。文章还讨论了实施流程和未来预测性监测的发展方向。",
+    "featuredReason": "本文展示了AI无人机在温室作物监测中的实际应用，其技术原理和操作流程对智慧畜牧中的设施养殖环境监测具有借鉴意义，值得关注跨领域技术融合的从业者阅读。",
+    "url": "https://www.greenhousegrower.com/technology/how-ai-powered-drones-are-transforming-greenhouse-crop-monitoring/",
     "source": {
       "name": "Greenhouse Grower",
       "nameZh": "温室种植者",
@@ -19,28 +41,6 @@
     "qualityScore": 55,
     "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-07-23T00:00:00.000Z"
-  },
-  {
-    "id": "cms2p6bzf01ohl75l1u2r8xc8",
-    "titleEn": "US: Connecting Northwest Arkansas with fresh, locally grown produce through vertical farming",
-    "titleZh": "美国阿肯色州垂直农场用气雾塔为学校供应新鲜蔬菜",
-    "summaryZh": "美国阿肯色州西北部的一个温室项目采用垂直气雾栽培塔，在有限空间内高效生产清洁、本地化的蔬菜，每周向当地学区供应数百磅生菜，学生食用量增加且浪费减少。该案例展示了垂直农业在果蔬种植中的节水、节地优势，对智慧畜牧行业在饲料作物或温室种植方面有一定借鉴意义。",
-    "featuredReason": "垂直农业技术虽非直接用于畜牧，但其高效利用空间和水资源的模式可启发智慧畜牧行业在饲料作物或温室种植环节的创新应用。",
-    "url": "https://www.verticalfarmdaily.com/article/external/9859788/us-connecting-northwest-arkansas-with-fresh-locally-grown-produce-through-vertical-farming/",
-    "source": {
-      "name": "Vertical Farm Daily",
-      "nameZh": "垂直农场日报",
-      "tier": "T1.5"
-    },
-    "sourceId": "verticalfarmdaily",
-    "species": "horticulture",
-    "category": "crop",
-    "subcategory": "horticulture",
-    "techTags": "",
-    "qualityScore": 43,
-    "isFeatured": false,
-    "isHot": false,
-    "publishedAt": "2026-07-21T17:00:00.000Z"
+    "publishedAt": "2026-08-06T00:00:00.000Z"
   }
 ]

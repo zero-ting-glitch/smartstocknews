@@ -1,77 +1,11 @@
 [
   {
-    "id": "cms2p5evz0011l75lar89qayv",
-    "titleEn": "XAG launches RM80 unmanned mower, unveils new X Series drone system",
-    "titleZh": "极飞发布RM80无人割草机及全新X系列无人机系统",
-    "summaryZh": "极飞科技在广州农业机器人大会上推出RM80全电动无人割草机器人及新一代X系列农业无人机系统。RM80重143公斤，专为果园管理、土地复垦和田间秸秆清理设计，配备双电池系统，续航40分钟，每小时可自主覆盖0.33-0.53公顷。X系列无人机系统包括无人机、XA1自动充电站和LM1药液混合单元，实现充电、药液混合、加注和清洁全流程自动化，充电仅需3.5分钟，单次任务可测绘300公顷。此举标志着极飞从空中系统向地面机器人拓展，构建多机器人协同的智慧农业工作流。",
-    "featuredReason": "极飞从空中无人机向地面机器人的拓展，展示了智慧农业中多机器人协同作业的趋势，对果园、大田等场景的自动化管理具有重要参考价值，尤其适合关注养殖与种植结合、牧场杂草管理的智慧畜牧从业者。",
-    "url": "https://www.futurefarming.com/smart-farming/xag-launches-rm80-unmanned-mower-unveils-new-x-series-drone-system/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1"
-    },
-    "sourceId": "futurefarming",
-    "species": "fruit",
-    "category": "crop",
-    "subcategory": "fruit",
-    "techTags": "",
-    "qualityScore": 85,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-07-10T09:00:00.000Z"
-  },
-  {
-    "id": "cms2p5ewc001fl75l7u2rhky2",
+    "id": "cmsmm5jrv001r1tqszca8ql4x",
     "titleEn": "Agreenculture acquires Chouette to add agronomic intelligence to autonomous machines",
     "titleZh": "Agreenculture收购Chouette，为自主农机增添农艺智能",
-    "summaryZh": "法国自主农机专家Agreenculture收购了专注于葡萄栽培AI农艺分析的公司Chouette。此次收购将Agreenculture的自主驾驶技术与Chouette的作物监测算法结合，旨在打造既能独立作业又能解读田间信息的智能农机。Chouette的技术可进行藤蔓健康监测、田间变异绘图和早期病害检测，已处理超2亿张图像，覆盖法国约8%的葡萄园。双方计划将技术扩展至果园等特种作物，应对劳动力短缺、成本上升等挑战。",
-    "featuredReason": "智慧畜牧行业可借鉴其将AI农艺分析与自主农机深度融合的思路，未来类似技术有望应用于牧场作物管理或养殖环境监测，提升精准农业水平。",
+    "summaryZh": "法国自主机械专家Agreenculture收购了专注于葡萄栽培AI农艺分析的公司Chouette。此次收购将Agreenculture的自主技术与Chouette的作物监测算法相结合，旨在打造既能独立作业又能解读田间观察数据的机器。Chouette技术已处理超2亿张图像，覆盖法国约8%的葡萄园面积。双方计划将技术扩展至果园等特种作物，应对劳动力短缺、投入成本上升等行业挑战。",
+    "featuredReason": "该收购展示了自主农机与AI农艺分析融合的前沿趋势，对智慧畜牧行业理解跨领域技术整合、数据驱动决策和自动化解决方案的商业化路径具有重要参考价值。",
     "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/agreenculture-acquires-chouette-to-add-agronomic-intelligence-to-autonomous-machines/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1"
-    },
-    "sourceId": "futurefarming",
-    "species": "fruit",
-    "category": "crop",
-    "subcategory": "fruit",
-    "techTags": "",
-    "qualityScore": 85,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-25T06:30:00.000Z"
-  },
-  {
-    "id": "cms2p5ewd001hl75lue2a3iqc",
-    "titleEn": "Fieldwork Robotics secures new funding to accelerate raspberry harvesting robot",
-    "titleZh": "Fieldwork Robotics获新融资，加速树莓采摘机器人商业化部署",
-    "summaryZh": "英国农业机器人公司Fieldwork Robotics获得SEED Innovations追加投资，作为250万英镑Seed+轮融资的一部分，用于加速其自主树莓采摘机器人的商业化部署。该机器人已在英国商业农场测试，计划2027年实现多机器人集群商业运营。技术旨在解决劳动力短缺导致的果实损失问题，降低采摘成本，并提升产量可扩展性。",
-    "featuredReason": "该新闻展示了采摘机器人在高价值果蔬领域的商业化进展，其解决劳动力短缺、降低成本的思路对智慧畜牧行业（尤其是需要精细操作的环节）具有跨领域借鉴意义。",
-    "url": "https://www.futurefarming.com/smart-farming/fieldwork-robotics-secures-new-funding-to-accelerate-raspberry-harvesting-robot/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1"
-    },
-    "sourceId": "futurefarming",
-    "species": "fruit",
-    "category": "crop",
-    "subcategory": "fruit",
-    "techTags": "",
-    "qualityScore": 79,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-06-25T06:00:00.000Z"
-  },
-  {
-    "id": "cms2p5ewh001ll75lmq4w7gr2",
-    "titleEn": "Australian vegetable farm puts 2 weeding technologies to the test",
-    "titleZh": "澳大利亚有机蔬菜农场实测两款除草技术",
-    "summaryZh": "本文报道了澳大利亚一家百年有机农场Busch Organics对两款先进除草技术的实地测试：丹麦Agrointelli公司的自主农机平台Robotti和激光除草设备。农场主Kane Busch在300英亩有机蔬菜田中进行对比试验，评估机械除草与激光除草在有机种植中的效果、效率和成本。文章展示了自动化技术在有机农业中替代人工除草和化学除草剂的潜力，为智慧农业在果蔬种植领域的应用提供了实践案例。",
-    "featuredReason": "本文展示了自动化除草技术在有机果蔬种植中的实际应用效果和成本对比，为智慧畜牧行业人士提供了跨领域的技术参考，尤其是机器人精准作业和AI视觉识别技术在农业场景中的落地经验。",
-    "url": "https://www.futurefarming.com/crop-solutions/australian-vegetable-farm-puts-2-weeding-technologies-to-the-test/",
     "source": {
       "name": "Future Farming",
       "nameZh": "未来农业",
@@ -85,15 +19,15 @@
     "qualityScore": 75,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-24T06:28:12.000Z"
+    "publishedAt": "2026-06-25T06:30:00.000Z"
   },
   {
-    "id": "cms2p5aft000dl75l59n9pdjp",
-    "titleEn": "Reservoir Farms Launches Pilot in Arizona for Physical AI Innovation in Specialty Crops",
-    "titleZh": "Reservoir Farms在亚利桑那州启动特色作物物理AI创新试点",
-    "summaryZh": "Reservoir Farms于2026年10月在亚利桑那州启动试点，与亚利桑那大学尤马沙漠农业卓越中心及尤马农业中心合作，在500英亩土地上为初创企业提供商业沙漠蔬菜生产环境，测试和迭代物理AI与自动化技术。该试点延续了其在萨利纳斯谷的创新中心模式，使初创企业可在冬季生长季（2026年10月至2027年3月）进行实地验证，并实现全年循环。此举旨在加速农业科技从概念到商业应用的转化，尤其针对特色作物产区。",
-    "featuredReason": "该新闻展示了物理AI和自动化技术在特色作物（果蔬）中的实地验证模式，对智慧畜牧行业人士理解跨领域农业科技落地路径具有参考价值，尤其是其“真实环境测试+全年循环”的创新孵化思路。",
-    "url": "https://www.globalagtechinitiative.com/digital-farming/reservoir-farms-launches-pilot-in-arizona-for-physical-ai-innovation-in-specialty-crops/",
+    "id": "cmsmm5esz000h1tqschliu0d4",
+    "titleEn": "Western Growers Center for Innovation & Technology Selects Sami Robotics for First Sponsored Residency at Reservoir Farms",
+    "titleZh": "西部种植者创新与技术中心选中Sami Robotics入驻Reservoir Farms首个赞助驻留项目",
+    "summaryZh": "西部种植者创新与技术中心（WGCIT）宣布Sami Robotics成为其首个赞助驻留项目企业，将在Reservoir Farms的萨利纳斯基地进行多功能田间机器人平台的实地测试与优化，初期聚焦采收环节。该驻留项目旨在帮助农业科技初创企业在真实种植条件下快速迭代技术，获得种植者反馈，加速产品落地。此举标志着农业机器人从实验室走向田间的重要一步，也为劳动力短缺问题提供技术解决方案。",
+    "featuredReason": "该新闻展示了农业机器人从实验室走向真实田间测试的关键路径，对智慧畜牧领域的自动化技术应用具有借鉴意义，尤其是多功能机器人和驻留式合作模式值得关注。",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/robotics-automation/western-growers-center-for-innovation-technology-selects-sami-robotics-for-first-sponsored-residency-at-reservoir-farms/",
     "source": {
       "name": "PrecisionAg",
       "nameZh": "精准农业",
@@ -104,9 +38,9 @@
     "category": "crop",
     "subcategory": "fruit",
     "techTags": "",
-    "qualityScore": 80,
+    "qualityScore": 85,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-06-02T00:00:00.000Z"
+    "publishedAt": "2023-11-18T00:00:00.000Z"
   }
 ]

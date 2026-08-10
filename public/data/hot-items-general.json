@@ -1,33 +1,11 @@
 [
   {
-    "id": "cms2p5afn0007l75lun1oh418",
-    "titleEn": "Agriculture Doesn’t Just Need Data. It Needs AI-Ready Data.",
-    "titleZh": "农业不仅需要数据，更需要AI就绪的数据",
-    "summaryZh": "本文指出农业领域面临数据丰富但可用性不足的悖论：大量卫星、物联网传感器等产生了海量数据，但由于缺乏标准化、一致性、及时性和校准，这些数据难以直接用于AI决策。文章强调，农业AI的成功依赖于“AI就绪的数据”——即经过校准、时间一致、可直接输入模型的结构化表示（如嵌入向量），而非零散的图像。作者呼吁行业从“图片”思维转向“机器可读的测量”思维，并提出了对技术伙伴的三项要求：校准优于分辨率、时间一致性、无人工干预的工作流。",
-    "featuredReason": "本文精准指出了当前智慧农业（包括畜牧）数据应用的瓶颈——数据量大但质量参差不齐，无法直接用于AI决策。对于智慧畜牧行业，无论是环境监测、动物行为分析还是疫病预警，同样面临数据标准化和一致性的挑战，文章提出的“AI就绪数据”理念具有跨领域的指导价值。",
-    "url": "https://www.globalagtechinitiative.com/digital-farming/analytics/agriculture-doesnt-just-need-data-it-needs-ai-ready-data/",
-    "source": {
-      "name": "PrecisionAg",
-      "nameZh": "精准农业",
-      "tier": "T1"
-    },
-    "sourceId": "precisionag",
-    "species": "general",
-    "category": "aggtech",
-    "subcategory": "general",
-    "techTags": "",
-    "qualityScore": 94,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-07-24T00:00:00.000Z"
-  },
-  {
-    "id": "cms2p5foh003jl75lm2vqpqjn",
-    "titleEn": "Many growers still find ‘no meaningful benefit’ from AI use on the farm: survey",
-    "titleZh": "普渡大学调查：超半数农民认为AI在农场“没有实质益处”",
-    "summaryZh": "普渡大学/CME集团农业经济晴雨表最新调查显示，52%的美国农民认为AI和数据驱动工具目前对农场运营“没有实质益处”，仅14%认为能减少劳动力需求。农民更看重增产（22.8%），而非降本。高投入成本（42%）仍是农场财务健康的最大制约。调查负责人指出，随着学习曲线推进，未来认可度有望提升。",
-    "featuredReason": "该调查直接反映了终端用户（农民）对AI等数字工具的真实态度，对智慧畜牧行业从业者理解技术落地的现实障碍、调整产品策略和推广方式具有重要参考价值。",
-    "url": "https://agfundernews.com/many-growers-still-find-no-meaningful-benefit-from-ai-use-on-the-farm-survey",
+    "id": "cmsmm5kmv002z1tqsm6zg5xce",
+    "titleEn": "BioScout raises $4.8m for early warning system for fungal pathogens",
+    "titleZh": "BioScout融资480万美元，用AI孢子检测为真菌病害提供早期预警",
+    "summaryZh": "澳大利亚初创公司BioScout获得480万美元种子轮融资，用于推广其AI驱动的空气孢子检测系统，帮助农民在真菌病害出现可见症状前采取行动，减少农药滥用。该系统已在15个国家部署，计划到2029年将传感器网络从250个扩展到1000个。融资将用于拓展欧洲市场，并继续开发结合环境数据的智能预警功能。",
+    "featuredReason": "",
+    "url": "https://agfundernews.com/bioscout-raises-4-8m-for-early-warning-system-for-fungal-pathogens",
     "source": {
       "name": "AgFunderNews",
       "nameZh": "农业科技投",
@@ -38,62 +16,18 @@
     "category": "aggtech",
     "subcategory": "general",
     "techTags": "",
-    "qualityScore": 79,
+    "qualityScore": 87,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-07-15T19:55:25.000Z"
+    "publishedAt": "2026-08-07T01:25:30.000Z"
   },
   {
-    "id": "cms2p5evt000vl75l1bldmelu",
-    "titleEn": "Norwegian robotics firm AutoAgri rebrands as Uncrew Robotics",
-    "titleZh": "挪威机器人公司AutoAgri更名为Uncrew Robotics，战略拓展至国防与多行业",
-    "summaryZh": "挪威自主车辆技术公司AutoAgri正式更名为Uncrew Robotics，标志着其从专注农业机器人向多行业（尤其是国防领域）的战略转型。公司保留挪威研发生产基地，推出IC12全电动多用途无人平台，并开展传统车辆无人化改装服务。其模块化设计理念和全链条自主控制策略值得关注，但当前内容与智慧畜牧的直接关联有限。",
-    "featuredReason": "该新闻展示了农业机器人公司向多行业（尤其是国防）拓展的战略转型，其模块化设计和无人化改装服务对智慧畜牧领域的自动化升级具有间接参考价值，但直接相关性有限。",
-    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/autonomous-vehicles/norwegian-robotics-firm-autoagri-rebrands-as-uncrew-robotics/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1"
-    },
-    "sourceId": "futurefarming",
-    "species": "general",
-    "category": "aggtech",
-    "subcategory": "general",
-    "techTags": "",
-    "qualityScore": 75,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-07-15T06:00:00.000Z"
-  },
-  {
-    "id": "cms2p5evx000zl75l55gtke6v",
-    "titleEn": "Retrofit autonomy grows up: Planning software, sensor fusion and consolidation reshape the sector",
-    "titleZh": "改装自动驾驶技术走向成熟：规划软件、传感器融合与行业整合重塑农机领域",
-    "summaryZh": "本文报道了农机自动驾驶改装套件从单一辅助功能向完整自主平台演进的趋势。以AgXeed VCU为例，该平台集成了规划软件、传感器融合与云端连接，可实时规划、监控和调整田间作业。文章还提及《未来农业自动驾驶改装套件目录》的更新，展示了该领域技术成熟度与市场加速发展的现状。",
-    "featuredReason": "虽然本文主要聚焦大田农机，但其涉及的传感器融合、云端规划与实时调整技术，对智慧畜牧中的精准饲喂、环境监控与自动化作业同样具有重要借鉴意义，值得跨领域关注。",
-    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/retrofit-autonomy-grows-up-planning-software-sensor-fusion-and-consolidation-reshape-the-sector/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1"
-    },
-    "sourceId": "futurefarming",
-    "species": "general",
-    "category": "aggtech",
-    "subcategory": "general",
-    "techTags": "",
-    "qualityScore": 75,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-07-13T06:00:00.000Z"
-  },
-  {
-    "id": "cms2p5afg0001l75lhdczshi1",
-    "titleEn": "The Last Mile of Agronomy: Turning Recommendations Into Field Reality",
-    "titleZh": "农艺的最后一英里：将建议转化为田间现实",
-    "summaryZh": "本文探讨了数字农业中一个常被忽视的关键问题：从农艺建议到田间执行的“最后一英里”鸿沟。作者指出，尽管遥感、气象模型等技术提供了大量数据和建议，但若建议与执行脱节，价值便无法实现。文章强调，通过将建议、工单、田间活动和记录整合到统一工作流中，可实现决策可追溯、活动可追踪、结果可衡量，从而提升种植者、农艺师和合规团队的效率与信任。这对智慧畜牧行业同样具有启示：技术不仅要生成洞察，更要确保洞察转化为行动并形成闭环。",
-    "featuredReason": "本文提出的“最后一英里”概念对智慧畜牧行业极具启发性：无论养殖业还是种植业，技术系统的最终价值都取决于能否将数据洞察转化为一线操作并形成闭环。畜牧从业者可借鉴其思路，优化从诊断建议到养殖场执行的衔接流程。",
-    "url": "https://www.globalagtechinitiative.com/digital-farming/data-management/the-last-mile-of-agronomy-turning-recommendations-into-field-reality/",
+    "id": "cmsmm5esm00051tqs65oj4wkc",
+    "titleEn": "Digital Agriculture’s Role in the Future of Crop Protection",
+    "titleZh": "数字农业在作物保护未来中的角色",
+    "summaryZh": "本文介绍了苏黎世联邦理工学院农业经济学教授Robert Finger关于数字技术在作物保护中应用的观点。他强调GPS、传感器、卫星图像、数据分析和AI工具如何帮助农民收集和利用信息，做出更明智的管理决策。核心观点是作物保护的未来依赖于将农业数据转化为可操作的洞察，以提高效率和可持续性。文章还推荐了相关阅读，如数字创新与农业转型、AI解锁农场数据价值等。",
+    "featuredReason": "本文为智慧畜牧行业人士提供了数字技术在农业中应用的宏观视角，有助于理解数据驱动决策在养殖业中的潜在价值，激发跨领域创新思维。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/digital-agricultures-role-in-the-future-of-crop-protection/",
     "source": {
       "name": "PrecisionAg",
       "nameZh": "精准农业",
@@ -104,9 +38,75 @@
     "category": "aggtech",
     "subcategory": "general",
     "techTags": "",
-    "qualityScore": 85,
+    "qualityScore": 80,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-05-05T00:00:00.000Z"
+    "publishedAt": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "id": "cmsmm5et1000j1tqszxttq4rc",
+    "titleEn": "Ag Tech Talk Podcast: Using AI to Unlock the Value of Farm Data",
+    "titleZh": "AI解锁农场数据价值：Ag Tech Talk播客探讨数据互操作性与智能决策",
+    "summaryZh": "本文是AgriBusiness Global旗下Ag Tech Talk播客的摘要，三位专家（Leaf Agriculture、WheRobots、Felt）讨论了农业数据爆炸背景下，如何通过AI、数据基础设施和可视化技术将碎片化数据转化为可操作洞察。核心观点包括：数据标准化和互操作性是关键，AI降低技术门槛，未来不是提供更多仪表盘，而是在现有工作流中直接给出答案。对智慧畜牧行业而言，数据整合与AI应用思路具有借鉴意义。",
+    "featuredReason": "本文展示了AI如何将碎片化农业数据转化为可操作洞察，其数据标准化、互操作性和AI辅助决策的思路对智慧畜牧行业的数据整合与智能应用具有直接借鉴价值。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/data-management/ag-tech-talk-podcast-using-ai-to-unlock-the-value-of-farm-data/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 86,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "id": "cmsmm5kn9003b1tqs25pbod59",
+    "titleEn": "InsectBiotech Raises $8.3m to scale BSFL production in Andalusia, Spain",
+    "titleZh": "InsectBiotech融资830万美元，利用黑水虻处理橄榄油废料",
+    "summaryZh": "西班牙初创公司InsectBiotech获得830万美元融资，将在安达卢西亚建设新工厂，利用黑水虻幼虫将橄榄油产业副产品转化为蛋白质、油脂和肥料。该公司采用低技术、中型规模、太阳能驱动的模式，解决了饲料和能源两大问题，计划到2027年投产，年产1300吨鲜幼虫，并已签署多份意向书。其创新点在于利用绿色化学处理橄榄果渣，使饲料成本降至传统配方的四分之一，并计划全球扩张。",
+    "featuredReason": "该新闻展示了昆虫蛋白生产与农业废弃物资源化的创新结合，为智慧畜牧行业提供了循环经济与降本增效的实践案例，值得关注其技术路径和商业模式。",
+    "url": "https://agfundernews.com/insectbiotech-raises-8-3m-to-scale-bsfl-production-in-andalusia-spain",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-08-03T18:38:23.000Z"
+  },
+  {
+    "id": "cmsmm5esd00011tqsumstj8zg",
+    "titleEn": "Why Digital Innovation Alone Won’t Transform Agriculture",
+    "titleZh": "数字创新为何无法单独改变农业",
+    "summaryZh": "本文引用苏黎世联邦理工学院农业经济学教授Robert Finger的观点，指出数字技术虽潜力巨大，但并非可持续农业的独立解决方案。成功应用取决于可扩展性、经济可行性、监管框架以及针对不同农业系统的定制化方案。文章强调技术需实用、可负担且农民易于获取，才能发挥真正作用。对智慧畜牧行业而言，提醒我们在追求技术创新的同时，必须关注落地条件与农民实际需求。",
+    "featuredReason": "本文为智慧畜牧行业提供了重要提醒：技术必须与可扩展性、经济性和监管环境结合，才能实现真正的转型，避免盲目追求数字化而忽视实际落地条件。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/why-digital-innovation-alone-wont-transform-agriculture/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-31T00:00:00.000Z"
   }
 ]
