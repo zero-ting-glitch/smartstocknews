@@ -1,9 +1,5 @@
-'use client';
-
-import { useState, useEffect } from 'react';
-import { Sidebar } from './Sidebar';
-import { Timeline, NewsItem } from './Timeline';
-import { RightPanel } from './RightPanel';
+import { ListPageClient } from './ListPageClient';
+import { getSpeciesItems, getHotItems, getStats } from '@/lib/static-data';
 import { BASE_PATH } from '@/lib/config';
 
 interface SpeciesPageProps {
@@ -13,27 +9,16 @@ interface SpeciesPageProps {
 }
 
 export function SpeciesPage({ species, speciesName, titleSuffix = '智养' }: SpeciesPageProps) {
-  const [items, setItems] = useState<NewsItem[]>([]);
-  const [hotItems, setHotItems] = useState<any[]>([]);
-  const [stats, setStats] = useState<any>(undefined);
-
-  useEffect(() => {
-    fetch(`${BASE_PATH}/data/items-${species}.json`).then(r => r.json()).then(setItems);
-    fetch(`${BASE_PATH}/data/hot-items-${species}.json`).then(r => r.json()).then(setHotItems);
-    fetch(`${BASE_PATH}/data/stats.json`).then(r => r.json()).then(setStats);
-  }, [species]);
-
   return (
-    <>
-      <Sidebar />
-      <main className="flex-1 min-h-screen" style={{ background: 'var(--bg-main)' }}>
-        <div className="page-header">
-          <h1 className="page-title">{speciesName}业{titleSuffix}</h1>
-          <p className="page-subtitle">{speciesName}业相关资讯全量信息流</p>
-        </div>
-        <Timeline items={items} showFilters initialSpecies={species} />
-      </main>
-      <RightPanel hotItems={hotItems} stats={stats} />
-    </>
+    <ListPageClient
+      title={`${speciesName}业${titleSuffix}`}
+      subtitle={`${speciesName}业相关资讯全量信息流`}
+      initialItems={getSpeciesItems(species)}
+      initialHotItems={getHotItems(species)}
+      initialStats={getStats()}
+      itemsUrl={`${BASE_PATH}/data/items-${species}.json`}
+      hotItemsUrl={`${BASE_PATH}/data/hot-items-${species}.json`}
+      initialSpecies={species}
+    />
   );
 }
