@@ -8,55 +8,64 @@
 
 ```
 smartstock/
-├── src/
-│   ├── app/               # Next.js App Router 页面
-│   │   ├── page.tsx       # 主页（时间线）
-│   │   ├── detail/        # 文章详情页（query param 路由）
-│   │   ├── pig|poultry|cattle|sheep/  # 畜种频道
-│   │   ├── field|fruit|horticulture/   # 作物频道
-│   │   ├── all/           # 全部动态
-│   │   └── about/         # 关于页面
-│   ├── components/        # React 组件
-│   │   ├── Sidebar.tsx    # 侧边栏导航
-│   │   ├── Timeline.tsx   # 时间线
-│   │   ├── NewsCard.tsx   # 新闻卡片（链接到详情页）
-│   │   ├── HotCard.tsx    # 热点卡片
-│   │   ├── SpeciesPage.tsx    # 物种频道通用页面
-│   │   ├── RightPanel.tsx     # 右侧面板
-│   │   ├── StatsCard.tsx      # 统计卡片
-│   │   └── BackToTop.tsx      # 回到顶部按钮
-│   └── lib/
-│       ├── collector/     # 数据采集
-│       │   ├── scraper.ts # Web 爬虫（cheerio + Playwright 回退）+ SSRF 防护
-│       │   ├── index.ts   # RSS 采集 + 聚合
-│       │   ├── rss.ts     # RSS 解析
-│       │   └── filter.ts  # 关键词过滤 + 去重
-│       ├── processor/     # AI 处理
-│       │   ├── scorer.ts  # AI 评分（五维）
-│       │   ├── translator.ts  # AI 翻译
-│       │   ├── calculator.ts  # 质量分计算
-│       │   └── index.ts   # AI 处理入口
-│       ├── sources.ts     # 信源配置加载
-│       ├── db.ts          # Prisma 客户端单例
-│       ├── config.ts      # BASE_PATH 等前端配置
-│       └── utils.ts       # formatTime, speciesNames, speciesColors
-├── scripts/
-│   ├── run-pipeline.ts    # 一键管线（5+步：同步→采集→修正日期→爬取→AI→修正物种→导出）
-│   ├── export-static.ts   # 独立导出脚本
-│   ├── cleanup-irrelevant.ts # 一次性：AI 语义清理现有文章中不相关的
-│   ├── seed-sources.ts    # 信源初始化
-│   ├── check-items.ts     # 数据检查工具
-│   └── clear-truncated.ts # 清除截断翻译（一次性工具）
-├── data/sources.json      # 37 个信源配置（19 种植/综合 + 18 畜牧，含 5 个微信公众号）
-├── prisma/schema.prisma   # 数据库 schema
-├── public/
-│   ├── _headers           # 安全头（CSP 等）
-│   └── data/              # 导出的静态 JSON
+├── .claude/
+│   └── skills/
+│       └── smartstock.md  # Claude Code Skill（/smartstock 命令）
 ├── .github/workflows/
 │   ├── deploy.yml         # push to master → 构建 → GitHub Pages
 │   └── collect.yml        # 每周一 08:07 自动 + 手动触发 → 采集+AI+导出 → 自动提交
-├── .env.example           # 环境变量模板
-└── .env                   # 本地密钥（不进 git）
+├── data/
+│   └── sources.json       # 信源配置
+├── docs/
+│   ├── handoff-2026-07.md # 踩坑记录与交接文档
+│   ├── api-spec.md        # 公开 API 文档
+│   └── mcp-server.md      # MCP Server 部署指南
+├── prisma/
+│   └── schema.prisma      # 数据库 schema
+├── public/                # 静态资源（构建后全量部署到 GitHub Pages）
+│   ├── _headers           # 安全头（CSP、CORS 等）
+│   ├── data/              # 前端数据（items.json、items/{id}.json、hot-items.json 等）
+│   ├── api/
+│   │   └── public/        # 公开只读 REST API（构建时生成）
+│   └── rss/               # RSS 2.0 输出（构建时生成）
+├── scripts/               # 数据管线 & 工具脚本
+│   ├── run-pipeline.ts    # 完整管线（5+步）
+│   ├── export-static.ts   # 导出（含增量合并 + API JSON + RSS）
+│   ├── mcp-server.ts      # MCP Server（本地 stdio / 云端 SSE）
+│   ├── resume-ai.ts       # 恢复中断的 AI 管线
+│   ├── fix-articles.ts    # 补爬 + 重跑 AI
+│   ├── import-wechat.ts   # 导入公众号历史文章
+│   ├── cleanup-irrelevant.ts # AI 语义清理不相关文章
+│   ├── clear-truncated.ts # 清除截断翻译
+│   ├── seed-sources.ts    # 信源初始化
+│   ├── check-items.ts     # 数据检查
+│   └── backfill-multi-source.ts # 补填多源计数
+├── src/
+│   ├── app/               # Next.js App Router 页面（静态导出）
+│   │   ├── page.tsx       # 主页（时间线）
+│   │   ├── detail/        # 文章详情页（query param 路由）
+│   │   ├── pig|poultry|cattle|sheep/  # 畜种频道
+│   │   ├── field|fruit|horticulture/  # 作物频道
+│   │   ├── all/           # 全部动态
+│   │   └── about/         # 关于页面
+│   ├── components/        # React UI 组件
+│   └── lib/
+│       ├── collector/     # 数据采集（爬虫、RSS 解析、过滤去重）
+│       ├── processor/     # AI 处理（评分、翻译、质量分计算）
+│       ├── data-types.ts  # API/RSS/MCP 共享类型定义
+│       ├── data-loader.ts # JSON 文件加载工具（缓存 + 错误处理）
+│       ├── rss-builder.ts # RSS 2.0 XML 生成器
+│       ├── sources.ts     # 信源配置加载
+│       ├── db.ts          # Prisma 客户端单例
+│       ├── config.ts      # BASE_PATH 等前端配置
+│       └── utils.ts       # formatTime、speciesNames、speciesColors
+├── .env.example
+├── CLAUDE.md
+├── README.md
+├── SPEC.md
+├── next.config.ts
+├── package.json
+└── tsconfig.json
 ```
 
 ## 命名规范
@@ -67,6 +76,9 @@ smartstock/
 - 常量：UPPER_SNAKE_CASE（`SCORING_PROMPT`）
 - 数据库字段：camelCase（`sourceId`、`titleZh`）
 - 文件内容：优先中文注释，代码/变量名英文
+- **API 导出**：`api/{访问级别}/`（`api/public/` 公开，未来可加 `api/internal/`）
+- **RSS 输出**：`rss/{品类英文}.xml`（`rss/main.xml`、`rss/pig.xml`）
+- **JSON 文件名**：kebab-case（`search-index.json`、`hot.json`）
 
 ## 技术栈
 
@@ -78,6 +90,7 @@ smartstock/
 - rss-parser（RSS feed 解析）
 - Playwright + Stealth 插件（Headless Browser，绕过 Cloudflare 反爬）
 - Jina Reader API / Google Cache / Wayback Machine（全文抓取多层回退）
+- @modelcontextprotocol/sdk（MCP Server，AI 工具直接查询）
 - 部署：GitHub Pages + GitHub Actions CI/CD
 
 ## 数据管线
@@ -94,7 +107,10 @@ smartstock/
 [4/5] AI 处理       ▸ 内容守卫：contentFull + contentHtml < 100 字 → 标记 needs_full_scrape，跳过 AI
                     ▸ Stage 1 语义筛选 → Stage 2 完整评分+翻译+物种分类（详见下方）
 [4.5] 修复 species  将 subcategory 同步到 species 字段
-[5/5] 导出 JSON     增量合并（旧数据保留，但已标记不相关的自动清除） → 清理孤立 detail 文件 → items.json + items/{id}.json + hot-items(5条) + stats.json + 按分类导出
+[5/5] 导出 JSON     增量合并（旧数据保留，但已标记不相关的自动清除） → 清理孤立 detail 文件
+                    → items.json + items/{id}.json + hot-items + stats + 按分类导出
+                    → api/public/ 公开 REST API JSON（统一格式 + 分页 + 版本自检）
+                    → rss/ RSS 2.0 XML（主 feed + 各品类子频道）
 ```
 
 ### 管线完整性守卫（2026-07-22 加入）
@@ -201,6 +217,19 @@ DEEPSEEK_BASE_URL=https://api.deepseek.com
 ADMIN_TOKEN=xxx  # 采集触发鉴权（当前未启用 API 路由）
 ```
 
+## AI 接入接口
+
+SmartStock 提供 4 种 AI 接入方式，覆盖不同使用场景：
+
+| 接口 | 访问方式 | 适用场景 |
+|------|---------|---------|
+| **RSS** | `zero-ting-glitch.github.io/smartstocknews/rss/main.xml` | RSS 阅读器、传统聚合 |
+| **REST API** | `zero-ting-glitch.github.io/smartstocknews/api/public/` | 程序化读取、AI Agent |
+| **MCP Server** | `npx tsx scripts/mcp-server.ts`（本地 stdio） | Claude Desktop 等 MCP 客户端 |
+| **Claude Code Skill** | `/smartstock` 命令（需安装 skill） | Claude Code 内直接查询 |
+
+详见 `docs/api-spec.md` 和 `docs/mcp-server.md`。
+
 ## 常用命令
 
 ```bash
@@ -210,9 +239,11 @@ npx prisma generate      # 生成 Prisma 客户端
 npx prisma db push       # 同步 schema 到 SQLite
 npx prisma studio        # 可视化查看数据库
 npx tsx scripts/run-pipeline.ts           # 运行完整管线
+npx tsx scripts/export-static.ts          # 导出静态数据（含增量合并 + API JSON + RSS）
+npx tsx scripts/mcp-server.ts             # 启动 MCP Server（本地 stdio 模式）
+npx tsx scripts/mcp-server.ts --transport http --port 3001  # MCP Server（HTTP/SSE 模式）
 npx tsx scripts/clear-truncated.ts        # 清除截断翻译（一次性）
 npx tsx scripts/cleanup-irrelevant.ts     # AI 语义清理现有文章（一次性，需 DEEPSEEK_API_KEY）
-npx tsx scripts/export-static.ts          # 独立导出静态 JSON（全量，已取消 take:200 限制）
 npx tsx scripts/import-wechat.ts          # 导入公众号历史文章（5 月至今，含关键词预筛）
 npx tsx scripts/resume-ai.ts             # 恢复中断的 AI 管线（预筛 → AI 评分+翻译 → 导出）
 npx tsx scripts/fix-articles.ts          # 补爬+重跑 AI（针对缺正文就已 AI 处理的文章）

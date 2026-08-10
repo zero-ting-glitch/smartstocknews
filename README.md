@@ -32,70 +32,32 @@
 
 ```
 smartstock/
-├── src/
-│   ├── app/                    # Next.js 页面
-│   │   ├── page.tsx            # 主页（时间线）
-│   │   ├── detail/page.tsx     # 文章详情页
-│   │   ├── pig/                # 猪业频道
-│   │   ├── poultry/            # 禽业频道
-│   │   ├── cattle/             # 牛业频道
-│   │   ├── sheep/              # 羊业频道
-│   │   ├── field/              # 大田频道
-│   │   ├── fruit/              # 果蔬频道
-│   │   ├── horticulture/       # 园艺频道
-│   │   ├── all/                # 全部动态
-│   │   └── about/              # 关于页面
-│   ├── components/
-│   │   ├── Sidebar.tsx         # 侧边栏导航
-│   │   ├── Timeline.tsx        # 时间线组件
-│   │   ├── NewsCard.tsx        # 新闻卡片
-│   │   ├── HotCard.tsx         # 热点卡片
-│   │   ├── SpeciesPage.tsx     # 物种频道通用页面
-│   │   ├── RightPanel.tsx      # 右侧面板
-│   │   └── StatsCard.tsx       # 统计卡片
-│   └── lib/
-│       ├── collector/          # 数据采集
-│       │   ├── scraper.ts      # Web 爬虫（cheerio + Playwright 回退）+ SSRF 防护
-│       │   ├── index.ts        # RSS 采集 + 聚合
-│       │   ├── rss.ts          # RSS 解析
-│       │   └── filter.ts       # 关键词过滤 + 去重
-│       ├── processor/          # AI 处理
-│       │   ├── scorer.ts       # AI 评分
-│       │   ├── translator.ts   # AI 翻译
-│       │   ├── calculator.ts   # 质量分计算
-│       │   └── index.ts        # AI 处理入口
-│       ├── sources.ts          # 信源配置加载
-│       ├── db.ts               # Prisma 客户端
-│       ├── config.ts           # 前端配置
-│       └── utils.ts            # 工具函数
-├── scripts/
-│   ├── run-pipeline.ts         # 一键管线（同步→采集→日期修正→爬取→预筛→AI→物种修复→导出）
-│   ├── export-static.ts        # 独立导出脚本（全量，已取消 take:200 限制）
-│   ├── import-wechat.ts        # 导入公众号历史文章（5 月至今，含关键词预筛）
-│   ├── resume-ai.ts            # 恢复中断的 AI 管线（预筛 → AI 评分+翻译 → 导出）
-│   ├── fix-articles.ts         # 补爬+重跑 AI（针对缺正文就已 AI 处理的文章）
-│   ├── cleanup-irrelevant.ts   # AI 语义清理不相关文章（一次性）
-│   ├── seed-sources.ts         # 信源初始化
-│   ├── check-items.ts          # 数据检查工具
-│   └── clear-truncated.ts      # 清除截断翻译（一次性）
-├── data/
-│   └── sources.json            # 信源配置（37 个源）
-├── prisma/
-│   └── schema.prisma           # 数据库 schema
+├── .claude/skills/         # Claude Code Skill 定义
+├── .github/workflows/      # CI/CD
+├── data/sources.json       # 信源配置
+├── docs/                   # 设计文档与接入指南
+├── prisma/schema.prisma    # 数据库 schema
 ├── public/
-│   ├── _headers                # 安全头配置
-│   └── data/                   # 导出的静态 JSON
-│       ├── items.json          # 全部列表数据
-│       ├── items-{species}.json    # 按物种分类的列表
-│       ├── items/{id}.json     # 每篇文章的详情 JSON（含全文+翻译）
-│       ├── hot-items.json      # 热点数据
-│       ├── hot-items-{species}.json # 按物种分类的热点
-│       ├── item-ids.json       # 文章 ID 索引
-│       └── stats.json          # 统计数据
-├── .github/workflows/
-│   ├── deploy.yml              # 部署工作流
-│   └── collect.yml             # 采集工作流
-└── .env.example                # 环境变量模板
+│   ├── _headers            # 安全头（CSP、CORS）
+│   ├── data/               # 前端数据（items.json、items/{id}.json 等）
+│   ├── api/public/         # 公开只读 REST API（构建时生成）
+│   └── rss/                # RSS 2.0 输出（构建时生成）
+├── scripts/                # 数据管线 & 工具脚本
+├── src/
+│   ├── app/                # Next.js 页面
+│   ├── components/         # React 组件
+│   └── lib/                # 核心库
+│       ├── collector/      # 数据采集
+│       ├── processor/      # AI 处理
+│       ├── data-types.ts   # API/RSS/MCP 共享类型
+│       ├── data-loader.ts  # JSON 文件加载工具
+│       ├── rss-builder.ts  # RSS 2.0 XML 生成器
+│       └── ...             # sources.ts, db.ts, config.ts, utils.ts
+├── .env.example
+├── CLAUDE.md
+├── README.md
+├── SPEC.md
+└── package.json
 ```
 
 ## 快速开始
@@ -145,6 +107,63 @@ npm run build
 # 静态文件输出到 out/ 目录
 ```
 
+## AI 接入
+
+SmartStock 提供 4 种程序化接口，方便 AI 工具和 RSS 阅读器直接消费内容。
+
+| 接口 | 访问方式 | 适用场景 |
+|------|---------|---------|
+| **RSS** | `zero-ting-glitch.github.io/smartstocknews/rss/main.xml` | RSS 阅读器（Feedly/Inoreader 等） |
+| **REST API** | `zero-ting-glitch.github.io/smartstocknews/api/public/` | 程序化读取、AI Agent 直接 fetch |
+| **MCP Server** | `npx tsx scripts/mcp-server.ts`（本地 stdio） | Claude Desktop 等 MCP 客户端 |
+| **Claude Code Skill** | `/smartstock` 命令 | Claude Code 内直接查询 |
+
+### REST API
+
+公开只读 API，无需鉴权。所有端点返回统一格式：
+
+```bash
+# 获取文章列表
+curl https://zero-ting-glitch.github.io/smartstocknews/api/public/items.json
+
+# 按分类查看
+curl https://zero-ting-glitch.github.io/smartstocknews/api/public/categories.json
+
+# 获取最新文章
+curl https://zero-ting-glitch.github.io/smartstocknews/api/public/latest.json
+
+# 站点统计
+curl https://zero-ting-glitch.github.io/smartstocknews/api/public/stats.json
+```
+
+详见 [docs/api-spec.md](docs/api-spec.md)。
+
+### RSS 订阅
+
+```text
+主 Feed:  https://zero-ting-glitch.github.io/smartstocknews/rss/main.xml
+猪业:     https://zero-ting-glitch.github.io/smartstocknews/rss/pig.xml
+禽业:     https://zero-ting-glitch.github.io/smartstocknews/rss/poultry.xml
+牛业:     https://zero-ting-glitch.github.io/smartstocknews/rss/cattle.xml
+羊业:     https://zero-ting-glitch.github.io/smartstocknews/rss/sheep.xml
+大田:     https://zero-ting-glitch.github.io/smartstocknews/rss/field.xml
+果蔬:     https://zero-ting-glitch.github.io/smartstocknews/rss/fruit.xml
+园艺:     https://zero-ting-glitch.github.io/smartstocknews/rss/horticulture.xml
+综合:     https://zero-ting-glitch.github.io/smartstocknews/rss/general.xml
+```
+
+### MCP Server
+
+```bash
+# 本地 stdio 模式（供 Claude Desktop 使用）
+npx tsx scripts/mcp-server.ts
+
+# HTTP/SSE 模式（供远程客户端）
+npx tsx scripts/mcp-server.ts --transport http --port 3001
+```
+
+Claude Desktop 配置请参考 [docs/mcp-server.md](docs/mcp-server.md)。
+
 ## 数据管线
 
 `scripts/run-pipeline.ts` 一键运行 5+ 个步骤：
@@ -158,7 +177,7 @@ npm run build
 [3.7]   智慧农业预筛 技术+农业双维度关键词匹配，阈值 ≥ 2
 [4/5]   AI 处理     内容守卫（<100 字标记 needs_full_scrape 跳过）→ Stage 1 语义筛选 → Stage 2 评分+全文翻译+摘要+精选理由+物种分类
 [4.5]   修复 species 将 subcategory 同步到 species 字段
-[5/5]   导出 JSON   增量合并（已标记不相关的自动清除）+ 按分类导出 + 热点 + 统计
+[5/5]   导出 JSON   增量合并（已标记不相关的自动清除）+ 按分类导出 + 热点 + 统计 + API JSON + RSS
 ```
 
 ### 预筛过滤（Step 3.7）

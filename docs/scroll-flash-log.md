@@ -83,4 +83,107 @@
 
 ---
 
+## 方案 F（2026-07-27，虫虫实施）：CSS 遮罩 + 渲染后恢复
+
+### 根因修正
+
+前四个方案失败的真正原因**不是执行时机，而是页面高度**：
+列表数据是 client-side fetch（`useEffect` 里 `fetch items.json`），静态 HTML 里**没有文章**，
+返回时页面只有标题那么高。任何"提前 scrollTo"都会被浏览器 **clamp 到 0**——
+因为那一刻页面根本没有 2000px 高。等数据渲染出文章，用户早已看到顶部。
+
+结论：所有"提前滚动"方案（A~D）原理上必死。唯一正解是方向 2：**先藏住页面**。
+
+### 实现（3 处改动）
+
+1. **`src/app/layout.tsx`**：head 末尾内联同步脚本（body 解析前执行，已验证位置）
+   - 检查 `sessionStorage.listRestorePath === location.pathname`，命中则：
+   - `history.scrollRestoration = 'manual'`（阻止浏览器在低高度页面上做无效恢复）
+   - `document.documentElement.classList.add('restore-scroll')`（CSS 隐藏页面）
+   - 3 秒超时兜底移除（防 JS 加载失败导致永久白屏）
+2. **`src/app/globals.css`**：`html.restore-scroll body { opacity: 0 }`
+   - 用 `opacity:0` 而非 `display:none`：保留布局，不影响后续 scrollTo 的高度计算
+3. **`src/components/Timeline.tsx`**：
+   - `pagehide` 时保存 `scrollY` + 当前路径到 sessionStorage（所有列表页共用此组件）
+   - `items` 从 0 变为 >0（数据渲染完成）后，双 rAF → `scrollTo` → 移除遮罩 class → 清标记
+
+### 关键设计点
+
+- **路径匹配**：标记存路径，只有"回到的页面 == 离开时的页面"才遮罩+恢复；
+  不匹配（如从主页点进 /pig 频道）静默忽略，避免误遮罩
+- **bfcache 命中时零开销**：浏览器完整恢复页面与滚动位置，内联脚本不执行、
+  React 不重挂载，原生体验，无闪跳
+- **bfcache 不命中时**：走遮罩流程，用户看到的是"短暂白屏 → 直接出现在原位置"，
+  白屏是加载的正常感知，闪跳是 bug 的感知
+- **超时兜底**：3 秒内无论恢复成功与否都强制显示页面
+
+### 验证状态
+
+- [x] 内联脚本确认位于 `<body>` 之前（curl 验证 HTML 源码）
+- [x] 遮罩 CSS 已注入
+- [ ] **待用户浏览器实测**：列表页滚到中部 → 点卡片进详情 → 点 ← 返回，观察是否无闪跳
+- [ ] 验证通过后：删除本文档并 git 提交（按 CLEANUP_MARKER 约定）
+
+### 实测结果（2026-07-27，Edge）：❌ 失败，已回滚
+
+用户实测仍闪跳，且闪跳时能看到"暂无新闻"（SSR 空数据内容）。
+失败原因：**React hydrate 会把内联脚本加在 `<html>` 上的 class 当作不匹配属性处理**，
+遮罩在 hydrate 阶段即被移除，用户先看到 SSR 的"暂无新闻"，数据加载后再跳——闪跳依旧。
+教训：**任何依赖"在 React 管理的元素（html/body）上动手脚"的方案，在 Next.js App Router 下都不可靠。**
+应用户要求全部回滚（`git checkout HEAD -- Timeline.tsx layout.tsx globals.css`），不叠加补丁。
+
+---
+
+## 方案 G（2026-07-28，虫虫实施）：SSG 数据注入 —— 治本
+
+### 思路转变
+
+遮罩/抢跑都是在客户端打补丁，全部不可靠。回到第一性原理：
+**闪跳是因为 SSR HTML 里没有文章（高度不够、内容是"暂无新闻"）**。
+那就让 SSR HTML 直接包含完整文章列表——浏览器原生滚动恢复一次到位，
+和普通 MPA 网站一样，**不需要任何客户端补丁**。
+
+### 实现（新建 2 个文件 + 改 5 个页面 + 修 3 个页面）
+
+1. **`src/lib/static-data.ts`**（新建）：Server Component 专用，构建时读 `public/data/*.json`，
+   裁剪 `translationZh` 等大字段（Timeline 用不到，留着 RSC payload 体积翻倍）
+2. **`src/components/ListPageClient.tsx`**（新建）：通用列表页 client 组件，
+   `useState(初始数据)` + 挂载后后台 fetch 无感刷新（dev 模式数据变更时有用）
+3. **`src/app/page.tsx`**：改为 Server Component，注入 featured 文章（46 篇，36KB）
+4. **`src/app/all/page.tsx`**：改为 Server Component，注入全量（297 篇，210KB）
+5. **`src/components/SpeciesPage.tsx`**：改为 Server Component，注入频道数据；
+   7 个频道 page.tsx 无需改动
+6. **坑**：`field/fruit/horticulture/page.tsx` 有多余的 `'use client'` 标记，
+   会把 SpeciesPage（server）拽进 client bundle 导致 `fs` resolve 失败——已删除
+
+### 效果（curl 实测 SSR HTML）
+
+| 页面 | HTML 体积 | SSR 卡片数 |
+|---|---|---|
+| 首页 | 96.8KB | 46 |
+| /all | 460KB | 297 |
+| /pig | 35KB | 10 |
+| /horticulture | 39KB | 12 |
+| 其余频道 | 20-90KB | 全部正常 |
+
+SSR HTML 自带完整列表与高度 → 浏览器原生滚动恢复到位，**零 JS 补丁、零遮罩**。
+附带收益：SEO 友好（内容可被爬虫索引）、首屏 FCP 更快（无需等 client fetch）。
+
+### 注意点
+
+- **数据时效**：依赖"构建时 items.json 是最新的"。当前工作流（采集管线 → 导出 → 自动构建部署）
+  天然满足，闭环成立
+- **体积**：/all 页 460KB（gzip 后约 60-80KB）可接受；若未来文章超千篇，
+  需考虑 /all 分页或进一步裁剪字段（如不传 featuredReason）
+- **dev server 注意**：改动 Server/Client 边界后必须重启 dev server，
+  否则 Turbopack 旧模块图会把 server-only 文件误打包（报 `Can't resolve 'fs'`）
+
+### 验证状态
+
+- [x] 9 个列表页 SSR HTML 全部含完整卡片、零报错
+- [ ] **待用户浏览器实测**：列表页滚到中部 → 点卡片进详情 → 点 ← 返回
+- [ ] 验证通过后：删除本文档并 git 提交（按 CLEANUP_MARKER 约定）
+
+---
+
 <!-- CLEANUP_MARKER: scroll-flash -->

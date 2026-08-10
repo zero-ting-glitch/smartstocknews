@@ -119,7 +119,9 @@
 [3.7]   智慧农业预筛 技术+农业双维度关键词匹配，阈值 ≥ 2（歧义词处理 + 短词边界匹配）
 [4/5]   AI 处理     Stage 1 语义筛选 → Stage 2 五维评分+中文标题+摘要+全文翻译/语言检测跳过+精选理由+物种分类
 [4.5]   修复 species 将 subcategory 同步到 species 字段
-[5/5]   导出 JSON   增量合并（已标记不相关的自动清除）+ 列表 JSON + 详情 JSON + 热点 JSON + 统计 JSON
+[5/5]   导出 JSON   增量合并（已标记不相关的自动清除）→ 列表 JSON + 详情 JSON + 热点 JSON + 统计 JSON + 按分类导出
+                    → api/public/ 公开 REST API JSON（统一格式 + 分页 + 版本自检）
+                    → rss/ RSS 2.0 XML（主 feed + 各品类子频道）
 ```
 
 ### AI 评分维度
@@ -273,3 +275,21 @@ ADMIN_TOKEN=xxx
 - GitHub Pages：push to master 自动构建部署
 - 采集：GitHub Actions 手动触发，运行管线后自动提交数据变更
 - Secret：`CFG_01`（DeepSeek API Key）
+
+## 11. AI 接入接口
+
+### 11.1 四种接入方式
+
+| 接口 | 技术方案 | 数据源 | 适用场景 |
+|------|---------|--------|---------|
+| **RSS** | 构建时生成 RSS 2.0 XML → `public/rss/` | 同一次导出 | RSS 阅读器、传统聚合 |
+| **REST API** | 构建时生成统一格式 JSON → `public/api/public/` | 同一次导出 | 程序化读取、AI Agent |
+| **MCP Server** | `@modelcontextprotocol/sdk` → `scripts/mcp-server.ts` | 读取导出 JSON | MCP 客户端（Claude Desktop 等） |
+| **Claude Code Skill** | `.claude/skills/smartstock.md` → `/smartstock` 命令 | 本地 JSON 或远程 API | Claude Code 内查询 |
+
+### 11.2 设计原则
+
+- **API 先行**：所有接口长在同一个数据导出层上，不重复造轮
+- **薄 Skill**：Skill 是 API 的说明书，不装数据逻辑
+- **只读安全**：不鉴权、不写数据、不索要凭据
+- **渐进增强**：静态 JSON 零成本起步，云服务器可升级为动态 API
