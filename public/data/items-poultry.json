@@ -1,10 +1,10 @@
 [
   {
-    "id": "cmsmm6c6q01gr1tqspo4ti83x",
-    "titleEn": "Aug 9NewsPoultry WorldSmart cameras reveal how broilers respond to heat stress and ageing AI-powered cameras tracked broilers throughout the production cycle, revealing new insights into welfare, activity and responses to heat stress.",
-    "titleZh": "智能摄像头揭示肉鸡对热应激和衰老的响应",
-    "summaryZh": "一项利用AI多摄像头跟踪系统对肉鸡从8至40日龄进行全程监测的研究，揭示了肉鸡活动水平随年龄增长而下降、热应激时饮水行为增加而采食行为减少等规律。该系统可实现连续、非侵入式的福利监测，为早期发现热应激、腿部疾病等问题提供预警，有望推动精准畜牧业发展。",
-    "featuredReason": "该研究展示了AI视觉技术在肉鸡福利监测中的创新应用，为精准畜牧业提供了可落地的技术方案，对提升养殖效率和动物福利具有重要参考价值。",
+    "id": "cmswkx3sh01gh6lkf0f5kshwy",
+    "titleEn": "Poultry WorldSmart cameras reveal how broilers respond to heat stress and ageing Aug 9News",
+    "titleZh": "智能摄像头揭示肉鸡对热应激和衰老的行为响应",
+    "summaryZh": "比利时根特大学团队利用AI多摄像头系统跟踪肉鸡从8到40日龄的行为，发现年龄增长导致活动量显著下降，热应激时鸡只更多时间待在饮水器旁而减少采食。该系统可实现连续、非侵入式福利监测，为早期预警热应激、跛行等问题提供新工具，但需在商业条件下进一步验证。",
+    "featuredReason": "该研究展示了AI视觉技术在肉鸡福利监测中的前沿应用，为热应激早期预警和日常管理提供了可量化的行为指标，是智慧畜牧领域精准养殖的重要实践案例。",
     "url": "https://www.foodagribusiness.world/poultry/new-insights-into-broiler-welfare-and-heat-stress-revealed-by-smart-cameras",
     "source": {
       "name": "Poultry World",
@@ -16,17 +16,17 @@
     "category": "livestock",
     "subcategory": "poultry",
     "techTags": "",
-    "qualityScore": 66,
+    "qualityScore": 67,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-08-09T07:00:00.078Z"
   },
   {
-    "id": "cmsmm6c7f01gt1tqsg76faor7",
-    "titleEn": "Aug 7NewsPoultry WorldBrazilian AI system brings 99% accuracy to chick sexing The first 100% Brazilian artificial intelligence (AI)-based system for sexing broiler chicks in hatcheries is now in operation at Pluma Agroavícola, one of the country's leading poultry genetics companies.\n\nCalled HatchFlex, the system was developed by the Brazilian company SmartPixel and combines artificial intelligence, computer vision, industrial automation and high-precision optical systems to quickly, consistently and reliably identify the sex of chicks.\n\nAccording to Lauri Paludo, president of Grupo Pluma, the implementation represents another major step forward for the company. \"We continuously invest in technology, modernisation an...",
+    "id": "cmswkx3sp01gj6lkf2b1m9nxf",
+    "titleEn": "Poultry WorldBrazilian AI system brings 99% accuracy to chick sexing Aug 7News",
     "titleZh": "巴西AI系统实现雏鸡性别鉴定99%准确率",
-    "summaryZh": "巴西公司SmartPixel开发的HatchFlex系统，结合AI、计算机视觉和工业自动化，在Pluma Agroavícola孵化场投入使用，实现雏鸡性别鉴定的99%准确率，每小时处理4万只雏鸡。该系统完全巴西自主研发，专利覆盖28国，并已与Hipra合作拓展全球市场。除提升效率外，还改善动物福利和员工工作条件，为家禽行业树立新标杆。",
-    "featuredReason": "该新闻展示了AI与计算机视觉在家禽孵化环节的突破性应用，显著提升雏鸡性别鉴定准确率与效率，为智慧畜牧领域提供了可借鉴的自动化与动物福利结合范例。",
+    "summaryZh": "巴西SmartPixel公司开发了全球首个100%巴西技术的AI雏鸡性别鉴定系统HatchFlex，已在Pluma Agroavícola孵化场投入使用。该系统结合人工智能、计算机视觉和工业自动化，每小时可处理4万只雏鸡，准确率达99%，远超人工的95%。系统还注重动物福利和可追溯性，已申请28国专利，并与Hipra合作拓展全球市场。",
+    "featuredReason": "该新闻展示了AI视觉技术在禽业中的突破性应用，准确率高达99%，并兼顾动物福利与生产效率，为智慧畜牧提供了可借鉴的落地案例。",
     "url": "https://www.foodagribusiness.world/poultry/brazilian-technology-uses-artificial-intelligence-for-poultry-sexing",
     "source": {
       "name": "Poultry World",
@@ -38,39 +38,17 @@
     "category": "livestock",
     "subcategory": "poultry",
     "techTags": "",
-    "qualityScore": 67,
+    "qualityScore": 66,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-08-07T08:57:54.410Z"
   },
   {
-    "id": "cmsmm5tya008v1tqsp48118eh",
-    "titleEn": "Purdue researchers lead USDA study on foggers for avian influenza",
-    "titleZh": "普渡大学领衔美国农业部雾化消毒禽流感研究",
-    "summaryZh": "普渡大学研究人员获得美国农业部200万美元资助，牵头测试一种利用氢化猫薄荷油的新型抗病毒雾化消毒设备，用于防控高致病性禽流感。该技术通过定时喷雾灭活环境中的病毒颗粒，为家禽养殖提供除扑杀外的防控新思路。研究将在商业禽舍环境模拟测试，并在BSL-3实验室验证对真实HPAI病毒的效果。",
-    "featuredReason": "该研究代表了家禽疫病防控从被动扑杀向主动环境干预的重要转变，雾化消毒技术与智慧畜牧中的自动化环境控制高度契合，为行业提供了创新的生物安全解决方案思路。",
-    "url": "https://www.poultrytimes.com/purdue-researchers-lead-usda-study-on-foggers-for-avian-influenza/",
-    "source": {
-      "name": "Poultry Times",
-      "nameZh": "禽业时报",
-      "tier": "T1.5"
-    },
-    "sourceId": "poultrytimes",
-    "species": "poultry",
-    "category": "livestock",
-    "subcategory": "poultry",
-    "techTags": "",
-    "qualityScore": 63,
-    "isFeatured": false,
-    "isHot": false,
-    "publishedAt": "2026-07-31T13:30:48.000Z"
-  },
-  {
-    "id": "cmsmm6c9401hd1tqsqczey847",
+    "id": "cmswkx3tl01gt6lkfa0izvhxs",
     "titleEn": "Poultry WorldPartnerCase study: Transforming hatchery operations with WingScanJul 7Video",
     "titleZh": "WingScan自动化性别鉴定系统在Capetta孵化场的应用案例",
-    "summaryZh": "意大利Capetta孵化场采用WingScan自动化雏鸡性别鉴定系统，解决了人工性别鉴定面临的劳动力短缺、效率低下和动物福利问题。系统使每小时处理量从1.5-1.6万只提升至3.5-4万只，劳动力从10人减至4-5人，错误率降至1%，雏鸡应激显著降低。该案例展示了自动化技术在家禽孵化环节的巨大潜力，为行业提供了可借鉴的转型范例。",
-    "featuredReason": "该案例展示了自动化性别鉴定技术如何解决家禽孵化行业劳动力短缺、效率低下和动物福利问题，为智慧畜牧实践提供了可量化的成功范本，值得行业人士关注。",
+    "summaryZh": "意大利Capetta孵化场采用WingScan自动化雏鸡性别鉴定系统，成功解决了人工性别鉴定面临的劳动力短缺、效率低下和动物福利问题。系统使每小时处理量从1.5-1.6万只提升至3.5-4万只，劳动力从10人减至4-5人，错误率降至约1%，雏鸡应激显著降低。该案例展示了自动化技术在禽业中的巨大潜力，为行业提供了可借鉴的转型范例。",
+    "featuredReason": "该案例展示了自动化性别鉴定系统如何解决劳动力短缺、提升效率并改善动物福利，为家禽孵化场提供了可量化的转型参考，是智慧畜牧落地的典型范例。",
     "url": "https://www.foodagribusiness.world/poultry/case-study-transforming-hatchery-operations-with-wingscan",
     "source": {
       "name": "Poultry World",
@@ -82,18 +60,18 @@
     "category": "livestock",
     "subcategory": "poultry",
     "techTags": "",
-    "qualityScore": 67,
+    "qualityScore": 68,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-07-07T06:30:00.000Z"
   },
   {
-    "id": "cmsmm60tw01791tqscijssz24",
-    "titleEn": "Canadian firms launch world's earliest in-ovo egg sexing system",
-    "titleZh": "加拿大企业推出全球最早蛋内性别鉴定系统",
-    "summaryZh": "加拿大蛋业技术公司与SANOVO、MatrixSpec合作，推出基于高光谱成像的蛋内性别鉴定系统，可在孵化第4天确定鸡胚性别，早于现有技术。该系统无损、准确，适用于各种规模孵化场，计划2026年底或2027年初全球上市。该技术将显著提升孵化效率，减少资源消耗，是智慧畜牧在禽业的重要应用。",
-    "featuredReason": "该技术将高光谱成像与AI结合，实现孵化早期无损性别鉴定，是智慧畜牧在禽业中的典型创新应用，对提升孵化效率和动物福利具有重要实践价值。",
-    "url": "https://www.thepoultrysite.com/news/2026/07/canadian-firms-launch-worlds-earliest-in-ovo-egg-sexing-system",
+    "id": "cmswkwtx6017t6lkf9f150cq3",
+    "titleEn": "Targan announces sale to Merck Animal Health",
+    "titleZh": "Targan宣布出售给默克动物保健",
+    "summaryZh": "Targan公司宣布与默克动物保健签署最终收购协议，后者将收购其包括性别鉴定产品WingScan™在内的创新高速生物设备技术。WingScan™利用视觉技术每小时可处理16万只雏鸡，自动识别并分拣性别，同时具备高速精准眼部喷雾技术，用于接种疫苗。此次收购将扩大默克在商业家禽领域的组合，并增强其跨物种动物健康解决方案的能力。交易预计2026年第三季度完成。",
+    "featuredReason": "该新闻展示了生物设备技术（如WingScan™）在家禽性别鉴定和疫苗精准施用中的创新应用，是智慧畜牧自动化与精准养殖的典型案例，对行业具有重要参考价值。",
+    "url": "https://www.thepoultrysite.com/news/2026/06/targan-announces-sale-to-merck-animal-health",
     "source": {
       "name": "The Poultry Site",
       "nameZh": "禽业网",
@@ -104,40 +82,18 @@
     "category": "livestock",
     "subcategory": "poultry",
     "techTags": "",
-    "qualityScore": 66,
+    "qualityScore": 64,
     "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-07-01T14:59:00.000Z"
+    "publishedAt": "2026-06-15T12:15:00.000Z"
   },
   {
-    "id": "cmsmm6c9a01hf1tqsts5mhemb",
-    "titleEn": "Poultry WorldPartnerRoundtable: Experts discuss the future of broiler productionJun 23",
-    "titleZh": "专家圆桌：探讨肉鸡生产的未来",
-    "summaryZh": "Poultry World与Targan合作举办圆桌会议，主编Fabian Brockötter与多位行业专家（包括Schothorst Feed Research的Roger Davin、JBT Marel的Hans Brandes、Ramil Avicola的Alvaro Castro和Targan的Vincent Fevrier）共同探讨当前及未来肉鸡生产的主要痛点及应对措施。讨论聚焦于自动化、优质雏鸡和智能解决方案如何提升生产效益，为肉鸡行业提供前瞻性见解。",
-    "featuredReason": "该圆桌会议汇聚了肉鸡生产领域的多位专家，深入探讨自动化与智能解决方案在养殖中的应用，对智慧畜牧从业者把握行业趋势、优化生产管理具有重要参考价值。",
-    "url": "https://www.foodagribusiness.world/poultry/experts-discuss-the-future-of-broiler-production",
-    "source": {
-      "name": "Poultry World",
-      "nameZh": "禽业世界",
-      "tier": "T1.5"
-    },
-    "sourceId": "poultryworld",
-    "species": "poultry",
-    "category": "livestock",
-    "subcategory": "poultry",
-    "techTags": "",
-    "qualityScore": 54,
-    "isFeatured": false,
-    "isHot": false,
-    "publishedAt": "2026-06-23T08:00:00.000Z"
-  },
-  {
-    "id": "cmsmm60wr018b1tqsebwlw5v0",
-    "titleEn": "Targan announces sale to Merck Animal Health",
-    "titleZh": "Targan宣布出售给默克动物保健",
-    "summaryZh": "Targan公司宣布与默克动物保健签署最终收购协议。Targan的核心技术包括WingScan™性别鉴定系统，利用视觉技术每小时可处理16万只雏鸡，以及高速精密眼部喷雾疫苗技术。默克自2017年起投资Targan并成为其最大股东之一。收购预计2026年第三季度完成，将扩大默克在商业家禽领域的生物制品组合，并增强其跨物种设备开发能力。",
-    "featuredReason": "该收购标志着家禽行业自动化性别鉴定和精准疫苗递送技术进入主流商业化阶段，是智慧畜牧领域生物设备与大型动保企业整合的标志性事件，对行业技术路线和竞争格局具有重要参考价值。",
-    "url": "https://www.thepoultrysite.com/news/2026/06/targan-announces-sale-to-merck-animal-health",
+    "id": "cmswkwtxj017x6lkfiw9gq6yx",
+    "titleEn": "Australia's first commercial in-ovo sexed chicks delivered",
+    "titleZh": "澳大利亚首批商业化蛋鸡性别鉴定雏鸡交付",
+    "summaryZh": "澳大利亚专业育种公司（SBA）向McLean Farms交付了该国首批商业化卵内性别鉴定雏鸡，标志着澳大利亚成为亚太地区首个应用该技术的国家。该技术采用高光谱光学分析，在孵化前非侵入性鉴定雏鸡性别，旨在替代雄性雏鸡扑杀，提升动物福利。消费者调查显示84%的受访者愿意购买此类鸡蛋，66%愿意支付溢价。此举使澳大利亚加入德国、法国、巴西和美国的商业化应用行列，欧盟市场渗透率已达28%。",
+    "featuredReason": "卵内性别鉴定技术是智慧畜牧中动物福利与自动化检测结合的典范，其商业化落地为行业提供了可复制的技术应用案例，对关注精准养殖和消费者趋势的从业者具有重要参考价值。",
+    "url": "https://www.thepoultrysite.com/news/2026/06/australias-first-commercial-in-ovo-sexed-chicks-delivered",
     "source": {
       "name": "The Poultry Site",
       "nameZh": "禽业网",
@@ -151,36 +107,14 @@
     "qualityScore": 65,
     "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-06-15T12:15:00.000Z"
-  },
-  {
-    "id": "cmsmm60x3018f1tqs7pc3dvs8",
-    "titleEn": "Australia's first commercial in-ovo sexed chicks delivered",
-    "titleZh": "澳大利亚首批商业化蛋胚性别鉴定雏鸡交付",
-    "summaryZh": "澳大利亚专业育种公司（SBA）向McLean Farms交付了该国首批商业化蛋胚性别鉴定（in-ovo sexing）雏鸡，成为澳洲首家采用该技术的蛋鸡生产商。该技术利用高光谱光学分析在孵化前无损判定雏鸡性别，标志着澳大利亚在动物福利和精准养殖领域迈出重要一步。消费者调查显示84%的受访者有意购买此类鸡蛋，66%愿意支付溢价。",
-    "featuredReason": "蛋胚性别鉴定技术是精准畜牧与动物福利结合的前沿应用，澳大利亚首批商业化落地标志着该技术在亚太地区的市场突破，对关注禽业智能化转型和福利养殖趋势的从业者具有重要参考价值。",
-    "url": "https://www.thepoultrysite.com/news/2026/06/australias-first-commercial-in-ovo-sexed-chicks-delivered",
-    "source": {
-      "name": "The Poultry Site",
-      "nameZh": "禽业网",
-      "tier": "T1.5"
-    },
-    "sourceId": "thepoultrysite",
-    "species": "poultry",
-    "category": "livestock",
-    "subcategory": "poultry",
-    "techTags": "",
-    "qualityScore": 60,
-    "isFeatured": false,
-    "isHot": false,
     "publishedAt": "2026-06-14T23:00:00.000Z"
   },
   {
-    "id": "cmsmm6c9g01hh1tqssth3sd5b",
+    "id": "cmswkx3ts01gv6lkfazieyrbw",
     "titleEn": "Poultry WorldJun 12VideoPoultry Talks: Maximising automation in the poultry industry",
-    "titleZh": "家禽行业自动化最大化：WingScan与客户成功团队的经验分享",
-    "summaryZh": "本文报道了Poultry Talks最新一期视频内容，聚焦家禽行业自动化应用的关键条件。以Targan公司开发的WingScan自动羽毛性别鉴定机为例，探讨了从安装、培训到优化、故障排除和长期性能跟踪的全流程管理。强调预防停机的重要性，并分享了客户成功团队如何将先进技术转化为日常生产成果的经验。",
-    "featuredReason": "本文以实际案例展示了家禽孵化场自动化（如WingScan）的落地经验，强调了客户成功管理在自动化系统长期稳定运行中的关键作用，对智慧畜牧从业者具有直接参考价值。",
+    "titleZh": "家禽行业自动化最大化：WingScan 羽毛性别鉴定技术应用解析",
+    "summaryZh": "本文报道了Poultry Talks最新一期节目，聚焦家禽行业自动化应用，特别是Targan公司开发的WingScan自动羽毛性别鉴定机器在全球孵化场的部署。节目邀请Targan客户成功经理讨论如何通过安装、培训、优化、故障排除和长期性能跟踪，确保自动化设备高效运行，避免停机损失，为家禽企业提供实践指导。",
+    "featuredReason": "本文聚焦家禽孵化场自动化前沿案例，特别是WingScan羽毛性别鉴定技术，为智慧畜牧从业者提供了自动化落地与运维的实战经验，具有直接参考价值。",
     "url": "https://www.foodagribusiness.world/poultry/poultry-talks-maximising-automation-in-the-poultry-industry",
     "source": {
       "name": "Poultry World",
@@ -198,11 +132,11 @@
     "publishedAt": "2026-06-12T07:00:00.000Z"
   },
   {
-    "id": "cmsmm615h018z1tqs66czcoe8",
+    "id": "cmswkwtzm018h6lkfdo0isg1f",
     "titleEn": "Targan and Vetiplus partner to accelerate advanced automation in Colombia’s poultry industry",
     "titleZh": "Targan与Vetiplus合作加速哥伦比亚家禽业自动化进程",
-    "summaryZh": "Targan与哥伦比亚动物保健公司Vetiplus达成分销合作，将WingScan™等自动化技术引入哥伦比亚家禽业，以应对劳动力短缺、法规变化和动物福利压力。此举是Targan拉丁美洲扩张战略的一部分，旨在提升区域竞争力，推动家禽孵化场运营的规模化、一致性和可靠性。",
-    "featuredReason": "该新闻展示了自动化技术（如WingScan™）在拉美家禽业的落地路径，对关注智慧畜牧国际化和家禽孵化场自动化的从业者具有直接参考价值。",
+    "summaryZh": "Targan与哥伦比亚动物保健公司Vetiplus达成分销合作，为当地家禽业提供先进自动化解决方案，重点推广WingScan™技术，以应对劳动力短缺、法规变化和动物福利压力。此举是Targan拉丁美洲扩张战略的一部分，旨在提升哥伦比亚作为区域消费和出口市场参与者的长期竞争力。",
+    "featuredReason": "该新闻展示了自动化技术（如WingScan™）在禽业中的实际应用与市场拓展，对关注智慧畜牧技术落地和拉美市场机遇的从业者具有参考价值。",
     "url": "https://www.thepoultrysite.com/news/2026/06/targan-and-vetiplus-partner-to-accelerate-advanced-automation-in-colombias-poultry-industry",
     "source": {
       "name": "The Poultry Site",
@@ -214,18 +148,18 @@
     "category": "livestock",
     "subcategory": "poultry",
     "techTags": "",
-    "qualityScore": 59,
+    "qualityScore": 60,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-06-01T14:33:00.000Z"
   },
   {
-    "id": "cmsmm61mo01bj1tqs56ozwbv3",
-    "titleEn": "USask secures funding for advanced poultry research facility",
-    "titleZh": "USask获资建设先进家禽研究设施",
-    "summaryZh": "萨斯喀彻温大学（USask）获得加拿大创新基金会620万加元及行业伙伴400万加元资助，将建设一座近24,000平方英尺的先进蛋鸡研究设施。该设施配备三种饲养系统（丰富环境、自由散养、自由放养），具备环境精准控制和公共参观区，旨在应对加拿大2036年淘汰传统笼养的政策趋势，推动家禽福利与生产研究，为行业提供数据驱动的解决方案。",
-    "featuredReason": "该设施融合了环境精准控制与大数据收集，代表了家禽福利研究的前沿方向，对智慧畜牧从业者了解未来养殖系统趋势具有重要参考价值。",
-    "url": "https://www.thepoultrysite.com/news/2026/03/usask-secures-funding-for-advanced-poultry-research-facility",
+    "id": "cmswkwud301bh6lkff66ye43d",
+    "titleEn": "Arkansas team develops robot to handle poultry carcasses",
+    "titleZh": "阿肯色团队开发机器人处理家禽胴体",
+    "summaryZh": "阿肯色农业实验站研究人员开发了名为ChicGrasp的机器人系统，利用模仿学习算法和摄像头感知，通过双颌机器人夹爪抓取鸡胴体腿部并挂到 shackle 传送带上。该系统针对家禽加工线中鸡只冰冷、湿滑、大小姿态不一等挑战设计，成功率近81%，但速度较慢（38秒/次 vs 人工3秒）。项目获 USDA 和 NSF 100万美元资助，代码和数据集已开源。",
+    "featuredReason": "该新闻展示了模仿学习在禽类加工自动化中的前沿应用，对智慧畜牧行业具有启发意义，尤其适合关注机器人替代人工、提升加工效率的从业者。",
+    "url": "https://www.thepoultrysite.com/news/2026/03/arkansas-team-develops-robot-to-handle-poultry-carcasses",
     "source": {
       "name": "The Poultry Site",
       "nameZh": "禽业网",
@@ -236,9 +170,9 @@
     "category": "livestock",
     "subcategory": "poultry",
     "techTags": "",
-    "qualityScore": 58,
+    "qualityScore": 64,
     "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-03-23T00:00:00.000Z"
+    "publishedAt": "2026-03-12T11:42:00.000Z"
   }
 ]

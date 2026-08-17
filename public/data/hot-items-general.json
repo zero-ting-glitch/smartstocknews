@@ -1,98 +1,10 @@
 [
   {
-    "id": "cmsmm5kmv002z1tqsm6zg5xce",
-    "titleEn": "BioScout raises $4.8m for early warning system for fungal pathogens",
-    "titleZh": "BioScout融资480万美元，用AI孢子检测为真菌病害提供早期预警",
-    "summaryZh": "澳大利亚初创公司BioScout获得480万美元种子轮融资，用于推广其AI驱动的空气孢子检测系统，帮助农民在真菌病害出现可见症状前采取行动，减少农药滥用。该系统已在15个国家部署，计划到2029年将传感器网络从250个扩展到1000个。融资将用于拓展欧洲市场，并继续开发结合环境数据的智能预警功能。",
-    "featuredReason": "",
-    "url": "https://agfundernews.com/bioscout-raises-4-8m-for-early-warning-system-for-fungal-pathogens",
-    "source": {
-      "name": "AgFunderNews",
-      "nameZh": "农业科技投",
-      "tier": "T1"
-    },
-    "sourceId": "agfundernews",
-    "species": "general",
-    "category": "aggtech",
-    "subcategory": "general",
-    "techTags": "",
-    "qualityScore": 87,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-08-07T01:25:30.000Z"
-  },
-  {
-    "id": "cmsmm5esm00051tqs65oj4wkc",
-    "titleEn": "Digital Agriculture’s Role in the Future of Crop Protection",
-    "titleZh": "数字农业在作物保护未来中的角色",
-    "summaryZh": "本文介绍了苏黎世联邦理工学院农业经济学教授Robert Finger关于数字技术在作物保护中应用的观点。他强调GPS、传感器、卫星图像、数据分析和AI工具如何帮助农民收集和利用信息，做出更明智的管理决策。核心观点是作物保护的未来依赖于将农业数据转化为可操作的洞察，以提高效率和可持续性。文章还推荐了相关阅读，如数字创新与农业转型、AI解锁农场数据价值等。",
-    "featuredReason": "本文为智慧畜牧行业人士提供了数字技术在农业中应用的宏观视角，有助于理解数据驱动决策在养殖业中的潜在价值，激发跨领域创新思维。",
-    "url": "https://www.globalagtechinitiative.com/digital-farming/digital-agricultures-role-in-the-future-of-crop-protection/",
-    "source": {
-      "name": "PrecisionAg",
-      "nameZh": "精准农业",
-      "tier": "T1"
-    },
-    "sourceId": "precisionag",
-    "species": "general",
-    "category": "aggtech",
-    "subcategory": "general",
-    "techTags": "",
-    "qualityScore": 80,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-08-07T00:00:00.000Z"
-  },
-  {
-    "id": "cmsmm5et1000j1tqszxttq4rc",
-    "titleEn": "Ag Tech Talk Podcast: Using AI to Unlock the Value of Farm Data",
-    "titleZh": "AI解锁农场数据价值：Ag Tech Talk播客探讨数据互操作性与智能决策",
-    "summaryZh": "本文是AgriBusiness Global旗下Ag Tech Talk播客的摘要，三位专家（Leaf Agriculture、WheRobots、Felt）讨论了农业数据爆炸背景下，如何通过AI、数据基础设施和可视化技术将碎片化数据转化为可操作洞察。核心观点包括：数据标准化和互操作性是关键，AI降低技术门槛，未来不是提供更多仪表盘，而是在现有工作流中直接给出答案。对智慧畜牧行业而言，数据整合与AI应用思路具有借鉴意义。",
-    "featuredReason": "本文展示了AI如何将碎片化农业数据转化为可操作洞察，其数据标准化、互操作性和AI辅助决策的思路对智慧畜牧行业的数据整合与智能应用具有直接借鉴价值。",
-    "url": "https://www.globalagtechinitiative.com/digital-farming/data-management/ag-tech-talk-podcast-using-ai-to-unlock-the-value-of-farm-data/",
-    "source": {
-      "name": "PrecisionAg",
-      "nameZh": "精准农业",
-      "tier": "T1"
-    },
-    "sourceId": "precisionag",
-    "species": "general",
-    "category": "aggtech",
-    "subcategory": "general",
-    "techTags": "",
-    "qualityScore": 86,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-08-07T00:00:00.000Z"
-  },
-  {
-    "id": "cmsmm5kn9003b1tqs25pbod59",
-    "titleEn": "InsectBiotech Raises $8.3m to scale BSFL production in Andalusia, Spain",
-    "titleZh": "InsectBiotech融资830万美元，利用黑水虻处理橄榄油废料",
-    "summaryZh": "西班牙初创公司InsectBiotech获得830万美元融资，将在安达卢西亚建设新工厂，利用黑水虻幼虫将橄榄油产业副产品转化为蛋白质、油脂和肥料。该公司采用低技术、中型规模、太阳能驱动的模式，解决了饲料和能源两大问题，计划到2027年投产，年产1300吨鲜幼虫，并已签署多份意向书。其创新点在于利用绿色化学处理橄榄果渣，使饲料成本降至传统配方的四分之一，并计划全球扩张。",
-    "featuredReason": "该新闻展示了昆虫蛋白生产与农业废弃物资源化的创新结合，为智慧畜牧行业提供了循环经济与降本增效的实践案例，值得关注其技术路径和商业模式。",
-    "url": "https://agfundernews.com/insectbiotech-raises-8-3m-to-scale-bsfl-production-in-andalusia-spain",
-    "source": {
-      "name": "AgFunderNews",
-      "nameZh": "农业科技投",
-      "tier": "T1"
-    },
-    "sourceId": "agfundernews",
-    "species": "general",
-    "category": "aggtech",
-    "subcategory": "general",
-    "techTags": "",
-    "qualityScore": 80,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-08-03T18:38:23.000Z"
-  },
-  {
-    "id": "cmsmm5esd00011tqsumstj8zg",
+    "id": "cmswkw9eo00056lkfh983ff9z",
     "titleEn": "Why Digital Innovation Alone Won’t Transform Agriculture",
-    "titleZh": "数字创新为何无法单独改变农业",
-    "summaryZh": "本文引用苏黎世联邦理工学院农业经济学教授Robert Finger的观点，指出数字技术虽潜力巨大，但并非可持续农业的独立解决方案。成功应用取决于可扩展性、经济可行性、监管框架以及针对不同农业系统的定制化方案。文章强调技术需实用、可负担且农民易于获取，才能发挥真正作用。对智慧畜牧行业而言，提醒我们在追求技术创新的同时，必须关注落地条件与农民实际需求。",
-    "featuredReason": "本文为智慧畜牧行业提供了重要提醒：技术必须与可扩展性、经济性和监管环境结合，才能实现真正的转型，避免盲目追求数字化而忽视实际落地条件。",
+    "titleZh": "数字创新为何无法独自改变农业",
+    "summaryZh": "本文引用苏黎世联邦理工学院农业经济学教授Robert Finger的观点，指出数字技术虽潜力巨大，但并非可持续农业的独立解决方案。成功采用取决于可扩展性、经济可行性、监管框架以及针对不同农业系统的定制化方案。文章强调，技术是可持续植保的重要工具，但其影响取决于解决方案的实用性、可负担性和可及性。",
+    "featuredReason": "本文从经济学和政策角度剖析数字农业落地的关键制约因素，对智慧畜牧行业在技术推广和商业模式设计上具有重要借鉴意义。",
     "url": "https://www.globalagtechinitiative.com/digital-farming/why-digital-innovation-alone-wont-transform-agriculture/",
     "source": {
       "name": "PrecisionAg",
@@ -107,6 +19,94 @@
     "qualityScore": 80,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-07-31T00:00:00.000Z"
+    "publishedAt": "2026-08-14T00:00:00.000Z"
+  },
+  {
+    "id": "cmswkw9es00096lkfyye3pq6e",
+    "titleEn": "Digital Agriculture’s Role in the Future of Crop Protection",
+    "titleZh": "数字农业在作物保护未来中的作用",
+    "summaryZh": "本文介绍了苏黎世联邦理工学院农业经济学教授Robert Finger关于数字技术如何重塑作物保护的观点。他强调GPS、传感器、卫星图像、数据分析和AI工具能帮助农民收集并利用信息，做出更明智的管理决策。核心观点是作物保护的未来在于将农业数据转化为可操作的见解，以提高效率和可持续性。文章虽聚焦种植业，但其数据驱动决策的理念对智慧畜牧同样具有借鉴意义。",
+    "featuredReason": "本文虽聚焦作物保护，但其核心观点——利用数字技术将数据转化为决策——与智慧畜牧的核心理念高度一致，值得畜牧从业者借鉴其数据驱动思路。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/digital-agricultures-role-in-the-future-of-crop-protection/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-08-14T00:00:00.000Z"
+  },
+  {
+    "id": "cmswkw9eh00016lkf9hv62aa5",
+    "titleEn": "Robots, Drones, and Digital Tools: The Next Generation of Crop Protection",
+    "titleZh": "机器人、无人机与数字工具：作物保护的新一代技术",
+    "summaryZh": "本文介绍了苏黎世联邦理工学院农业经济学教授Robert Finger的观点，认为自主除草机器人和无人机生物防治等新兴技术，有望减少农药使用并提高田间精准作业能力。文章强调自动化与精准技术将在替代或减少传统作物保护措施中发挥重要作用，为农业可持续发展提供新路径。",
+    "featuredReason": "尽管文章聚焦于作物保护，但其核心的自动化与精准技术理念与智慧畜牧中的机器人、无人机应用高度相通，可为畜牧业的精准管理提供跨界启发。",
+    "url": "https://www.globalagtechinitiative.com/in-field-technologies/drones-uavs/robots-drones-and-digital-tools-the-next-generation-of-crop-protection/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 75,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "id": "cmswkwewe00316lkf7thsaqzv",
+    "titleEn": "AgriFood Signals: Eatable Adventures launches accelerator, Ambrook raises $30m, LIVEKINDLY acquires Dalco",
+    "titleZh": "农业食品信号：Eatable Adventures启动加速器，Ambrook融资3000万美元，LIVEKINDLY收购Dalco",
+    "summaryZh": "本期AgFunderNews汇总了农业食品科技领域的重要融资、并购与行业动态。融资方面，Plantible获3500万美元扩大RuBisCO蛋白生产，Ambrook完成3000万美元B轮融资服务8000余家农场客户，印度Arboreal获2400万美元开发酵母蛋白。并购方面，LIVEKINDLY以720万美元收购Dalco扩展欧洲制造。行业动态包括80 Acres Farms停止运营、Aleph Farms计划2027年新加坡推出培育牛肉等。",
+    "featuredReason": "本期汇总涵盖农业科技各细分领域的最新融资与并购动态，其中AI在种植和养殖中的应用、替代蛋白、生物农药等方向对智慧畜牧从业者把握行业趋势和技术风向具有重要参考价值。",
+    "url": "https://agfundernews.com/agrifood-signals-eatable-adventures-launches-accelerator-ambrook-raises-30m-livekindly-acquires-dalco",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 76,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-08-06T20:23:44.000Z"
+  },
+  {
+    "id": "cmswkwdxt000n6lkf66iptra6",
+    "titleEn": "How AgXeed and TIM make tractors and machines autonomous",
+    "titleZh": "AgXeed与TIM如何让拖拉机和农机实现自主作业",
+    "summaryZh": "荷兰制造商AgXeed推出VCU和TCU改装套件，可将现有拖拉机和农具改造为自主作业设备，无需购买全新田间机器人。该方案基于其田间机器人技术，适用于承包商、种植户和养殖户，旨在降低自动化门槛，并可与现有车队集成。文章介绍了其技术原理、适用场景及行业影响，对智慧农业和畜牧业的自动化升级具有参考价值。",
+    "featuredReason": "该新闻展示了将现有农机改造为自主设备的可行路径，对智慧畜牧行业中的设备自动化升级具有直接参考价值，有助于降低自动化转型成本。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/autonomous-vehicles/how-agxeed-and-tim-make-tractors-and-machines-autonomous/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-08-06T06:00:00.000Z"
   }
 ]
