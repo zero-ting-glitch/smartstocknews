@@ -39,7 +39,7 @@ yarn-error.log*
 .vercel
 
 # database
-dev.db
+# 注意：根目录 dev.db 是 CI 每周采集的持久化数据库，必须进 git（否则每周空库重跑、重复烧 token）
 prisma/dev.db
 prisma/dev.db-journal
 
