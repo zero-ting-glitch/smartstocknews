@@ -1,0 +1,33 @@
+{
+  "id": "cmswkwm0500556lkf3xwbdj6g",
+  "titleEn": "RFID technology: What funding is available?",
+  "titleZh": "RFID技术：有哪些资金可用？",
+  "summaryZh": "本文介绍了美国国家猪肉委员会为养猪户提供的RFID 840耳标及配套读取设备的资金支持计划，并预告了一场关于RFID技术原理、申请资格及可追溯性重要性的网络直播。文章强调了RFID在猪只识别、移动记录和疾病暴发响应中的作用，对提升美国猪群健康韧性具有重要意义。",
+  "featuredReason": "本文提供了RFID技术在猪业可追溯性中的具体应用和资金申请渠道，对智慧畜牧从业者了解政策支持和技术落地具有直接参考价值。",
+  "url": "https://www.nationalhogfarmer.com/livestock-management/rfid-technology-what-funding-is-available-",
+  "source": {
+    "name": "National Hog Farmer",
+    "nameZh": "美国养猪人",
+    "tier": "T1.5"
+  },
+  "sourceId": "nationalhogfarmer",
+  "species": "pig",
+  "category": "livestock",
+  "subcategory": "pig",
+  "techTags": "",
+  "qualityScore": 60,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-08-07T13:54:29.000Z",
+  "contentFull": "Livestock Management\n\nIndustry Trends\n\nRFID technology: What funding is available?\n\nLIVE STREAM THURSDAY, AUGUST 13 AT 1 PM CT - How does RFID technology works, who is eligible for funding and why stronger traceability matters to the future of the U.S. swine industry?\n\nAugust 7, 2026\n\nRFID technology helps strengthen traceability by making it easier to identify pigs, improve movement records and respond more quickly during a disease outbreak. Funding is available to help pig farmers receive RFID 840 tags, while fairs and exhibition sites and sow harvesting facilities can apply for funding for handheld readers and reader panels. Together, these tools help everyone involved in pig movement strengthen traceability and support a more resilient U.S. swine herd. Joining us to discuss how RFID technology works, who is eligible for funding and why stronger traceability matters to the future of the U.S. swine industry is Brent Pepin, DVM, MS, director of swine health for National Pork Board, and Mark Wright, The Parks Company.\n\nRequest tags or submit questions here.\n\nSubscribe to Our Newsletters\n\nNational Hog Farmer is the source for hog production, management and market news\n\nSIGN ME UP\n\nYou May Also Like\n\nSponsored\n\nAll In On Swine Health\n\nAug 01, 2026\n\nLivestock Management\n\nBetter communication, better pig care\n\nby PIPESTONE\n\nJul 31, 2026\n\nLivestock Management\n\nPrepare for African swine fever and PRRS\n\nby Op-Ed\n\nJul 24, 2026\n\nLivestock Management\n\nTurning data into decisions\n\nby Iowa State University\n\nJul 08, 2026",
+  "translationZh": "RFID技术通过简化猪只识别、改进移动记录以及在疾病暴发时加快响应速度，有助于加强可追溯性。目前已有资金支持养猪户获得RFID 840耳标，同时展览会和母猪屠宰设施也可以申请资金购买手持读取器和读取器面板。这些工具共同帮助所有参与猪只移动的相关方加强可追溯性，并支持美国猪群更具韧性。\n\n与我们一同讨论RFID技术如何运作、谁有资格获得资金以及为什么更强的可追溯性对美国养猪业的未来至关重要的嘉宾是：国家猪肉委员会猪健康主任Brent Pepin（DVM, MS）和The Parks Company的Mark Wright。\n\n在此申请耳标或提交问题。\n\n订阅我们的新闻通讯\n\n《国家养猪户》是养猪生产、管理和市场新闻的来源\n\n注册",
+  "images": [
+    "https://eu-images.contentstack.com/v3/assets/bltcc046473819c9a19/bltcfe8dfd9b6be45fb/6a5e0b6c60c18902ac907a9b/NPB_Swine_Health_NationalHogFarmer_FeaturedImage_1920x1080.png?width=1400&auto=webp&quality=80&disable=upscale",
+    "https://eu-images.contentstack.com/v3/assets/bltcc046473819c9a19/blt14d6ba5a1e0aff69/6a68b64c013d0c34b5b923d7/Getty_Images_Game_Plan.jpg?width=1400&auto=webp&quality=80&disable=upscale",
+    "https://eu-images.contentstack.com/v3/assets/bltcc046473819c9a19/blt9ed26894cf8b1cc0/6786bef662371a48e04041f4/NPB_Brenneman_Sow_Farm_Iowa.jpg?width=1400&auto=webp&quality=80&disable=upscale",
+    "https://eu-images.contentstack.com/v3/assets/bltcc046473819c9a19/blt28d59d6d65aed604/691f535fd7956d01f5656b09/NPB_Aerial_Reicks_Farm_Iowa.jpg?width=1400&auto=webp&quality=80&disable=upscale"
+  ],
+  "author": "",
+  "contentHtml": "LIVE STREAM THURSDAY, AUGUST 13 AT 1 PM CT -  How does RFID technology works, who is eligible for funding and why stronger traceability matters to the future of the U.S. swine industry?",
+  "scrapeMethod": "web_scrape"
+}

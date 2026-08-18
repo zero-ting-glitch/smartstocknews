@@ -1,20 +1,112 @@
 [
   {
-    "id": "cmruikifo000h8jaqfgabqu6w",
-    "titleEn": "Retrofit or replace? Why the market for autonomous retrofit kits is picking up speed",
-    "titleZh": "改造还是换新？自动驾驶改装套件市场为何加速升温",
-    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/retrofit-or-replace-why-the-market-for-autonomous-retrofit-kits-is-picking-up-speed/",
-    "multiSourceCount": 4,
-    "publishedAt": "2026-07-20T06:00:00.000Z",
-    "qualityScore": 102
+    "id": "cmswkwdxm000j6lkfnbi8ot1l",
+    "titleEn": "‘Ullmanna hoe pays for itself within a few years’",
+    "titleZh": "Ullmanna锄草机：几年内即可收回成本",
+    "summaryZh": "荷兰德伦特省一家农场在缬草和紫锥菊种植中应用Ullmanna智能锄草机，该设备通过算法识别作物与杂草，行内除草率达55%，行间达73%。尽管算法训练耗时超预期，但提前启动有助于更好区分作物与杂草。文章展示了AI除草技术在药用作物种植中的实际应用效果与投资回报。",
+    "featuredReason": "本文展示了AI视觉锄草机在药用作物中的实际应用效果与投资回报，对智慧畜牧行业了解跨领域精准农业技术具有参考价值。",
+    "url": "https://www.futurefarming.com/smart-farming/ullmanna-hoe-pays-for-itself-within-a-few-years/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 82,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-08-13T07:00:00.000Z"
   },
   {
-    "id": "cmruikigq000r8jaqj53t6qrc",
-    "titleEn": "Opinion | Why agricultural robots may never become much cheaper",
-    "titleZh": "农业机器人价格为何可能永远不会大幅下降",
-    "url": "https://www.futurefarming.com/crop-solutions/opinion-why-agricultural-robots-may-never-become-much-cheaper/",
-    "multiSourceCount": 4,
-    "publishedAt": "2026-07-13T09:00:00.000Z",
-    "qualityScore": 100
+    "id": "cmswkwewa002z6lkfjdmze00q",
+    "titleEn": "BioScout raises $4.8m for early warning system for fungal pathogens",
+    "titleZh": "BioScout获480万美元融资，AI孢子早期预警系统助力真菌病害防控",
+    "summaryZh": "澳大利亚农业科技初创公司BioScout完成480万美元种子轮融资，其AI驱动的空气孢子早期预警系统可在田间病害症状显现前识别真菌病原体，帮助种植者精准施药、减少高达50%的杀菌剂使用。公司计划将全球传感器网络从250台扩展至1000台，并重点拓展欧洲市场。该技术已在马铃薯、大豆、葡萄等多种作物上验证，为作物病害防控提供了全新的数据驱动解决方案。",
+    "featuredReason": "BioScout的AI孢子早期预警系统代表了作物病害防控从被动应对向主动预警的重要转变，其技术路径和商业模式对智慧畜牧领域的生物安全监测与精准防控具有直接借鉴意义。",
+    "url": "https://agfundernews.com/bioscout-raises-4-8m-for-early-warning-system-for-fungal-pathogens",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 89,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-08-07T01:25:30.000Z"
+  },
+  {
+    "id": "cmswkwdxw000p6lkfukrwdia4",
+    "titleEn": "Homburg says goodbye to Escarda",
+    "titleZh": "Homburg终止与Escarda激光除草机器人合作",
+    "summaryZh": "荷兰进口商Homburg经过近两年测试后，决定终止与德国初创公司Escarda Technologies的合作，不再在荷兰和比利时代理其AI控制的激光除草机。该机器从未售出，性能、可靠性和易用性未达预期。Escarda在被柏林工业集团收购后曾计划扩大生产，但Benelux市场已无望。Homburg表示将继续专注于有实际价值的品牌和技术。",
+    "featuredReason": "该新闻展示了AI激光除草技术在商业化落地中的现实挑战，对智慧农业领域的设备选型与合作决策具有重要参考价值。",
+    "url": "https://www.futurefarming.com/news/homburg-says-goodbye-to-escarda/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 75,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-08-03T14:00:00.000Z"
+  },
+  {
+    "id": "cmswkwdxy000r6lkf2dc0s8uf",
+    "titleEn": "Smaller tractor, bigger return: a Kentucky farm’s case for going autonomous",
+    "titleZh": "小型拖拉机，更大回报：肯塔基农场的自主作业案例",
+    "summaryZh": "美国肯塔基州Affinity Farms农场主Quint Pottinger通过加装Sabanto公司的自主改装套件，将两台300马力大型拖拉机和两台40英尺播种机替换为一台135马力小型拖拉机和20英尺播种机，实现了厘米级精度的自主播种，不仅提前10天完成播种，还释放了劳动力。这一案例展示了自主改装技术在降低设备成本、提高作业效率方面的巨大潜力，为智慧农业提供了可借鉴的实践路径。",
+    "featuredReason": "该案例展示了自主改装技术在中小型农场中的实际应用效果，通过降低设备规格和成本实现更高效率，对智慧畜牧和精准农业从业者具有重要参考价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/autonomous-vehicles/smaller-tractor-bigger-return-a-kentucky-farm-s-case-for-going-autonomous/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 82,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-08-03T08:00:00.000Z"
+  },
+  {
+    "id": "cmswkwdy1000t6lkf5w3ul0jy",
+    "titleEn": "Belgian Hands On Tech brings Chinese laser weeder to the Benelux",
+    "titleZh": "比利时公司引进中国激光除草机，进军比荷卢市场",
+    "summaryZh": "比利时Hands On Tech公司成为中企CyanForce激光除草机在比荷卢的进口商，该设备在比利时Libramont展会亮相，采用150瓦CO2激光，AI识别杂草并烧除生长点，作业宽度1.2至6米，6米款每小时可处理1公顷，计划2026年底或2027年初上市。",
+    "featuredReason": "激光除草是精准农业的前沿技术，该新闻展示了中国设备进入欧洲市场的进展，对关注自动化除草和AI农业应用的从业者具有参考价值。",
+    "url": "https://www.futurefarming.com/smart-farming/belgian-hands-on-tech-brings-chinese-laser-weeder-to-the-benelux/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 80,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-08-03T06:00:00.000Z"
   }
 ]

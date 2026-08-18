@@ -1,47 +1,112 @@
 [
   {
-    "id": "cmruikifo000h8jaqfgabqu6w",
-    "titleEn": "Retrofit or replace? Why the market for autonomous retrofit kits is picking up speed",
-    "titleZh": "改造还是换新？自动驾驶改装套件市场为何加速升温",
-    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/retrofit-or-replace-why-the-market-for-autonomous-retrofit-kits-is-picking-up-speed/",
-    "multiSourceCount": 4,
-    "publishedAt": "2026-07-20T06:00:00.000Z",
-    "qualityScore": 102
+    "id": "cmswkx4rf01hd6lkf0gwimo21",
+    "titleEn": "Go to Manure",
+    "titleZh": "Lely粪便处理机器人：提升奶牛健康与牧场效率的自动化方案",
+    "summaryZh": "本文介绍了Lely公司针对奶牛场的自动粪便清理解决方案，包括Discovery Scraper和Discovery Collector两款机器人，以及Lely Sphere循环粪污处理系统。这些产品通过自动化减少人工劳动，改善牛舍卫生，提升奶牛健康，并实现氮排放的资源化利用。文章详细阐述了产品特点、适用场景、客户价值及常见问题，为牧场自动化升级提供了实践参考。",
+    "featuredReason": "本文详细介绍了Lely的自动粪便清理机器人和循环粪污处理系统，展示了如何通过自动化技术提升奶牛健康、减少人工劳动并实现资源化利用，是智慧畜牧领域牛业自动化升级的重要参考。",
+    "url": "https://www.lely.com/solutions/manure/",
+    "source": {
+      "name": "Lely",
+      "nameZh": "Lely 自动化乳业",
+      "tier": "T1"
+    },
+    "sourceId": "lely",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 93,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": ""
   },
   {
-    "id": "cmruikigq000r8jaqj53t6qrc",
-    "titleEn": "Opinion | Why agricultural robots may never become much cheaper",
-    "titleZh": "农业机器人价格为何可能永远不会大幅下降",
-    "url": "https://www.futurefarming.com/crop-solutions/opinion-why-agricultural-robots-may-never-become-much-cheaper/",
-    "multiSourceCount": 4,
-    "publishedAt": "2026-07-13T09:00:00.000Z",
-    "qualityScore": 100
-  },
-  {
-    "id": "cmruim3rr00a98jaqr8te0pqh",
-    "titleEn": "FeedingFor healthier cows and a more efficient production",
-    "titleZh": "Lely自动饲喂方案：以精准饲喂与数据驱动提升奶牛健康与生产效率",
-    "url": "https://www.lely.com/solutions/feeding/?epslanguage=en",
-    "multiSourceCount": 1,
-    "publishedAt": "",
-    "qualityScore": 93
-  },
-  {
-    "id": "cmruim3qm009z8jaq217d9942",
-    "titleEn": "Go to milking",
-    "titleZh": "迈向自动化挤奶：智慧畜牧解决方案全景解析",
-    "url": "https://www.lely.com/solutions/milking/",
-    "multiSourceCount": 1,
-    "publishedAt": "",
-    "qualityScore": 92
-  },
-  {
-    "id": "cmruim3rx00ab8jaqhyhlbfqe",
+    "id": "cmswkx4s801hl6lkfebwuw0jr",
     "titleEn": "ManureCreate a comfortable environment conducive to cow health",
-    "titleZh": "利拉伐粪污处理机器人：打造奶牛健康舒适环境的自动化方案",
+    "titleZh": "利拉伐（Lely）粪便处理机器人：打造奶牛健康舒适环境的智能方案",
+    "summaryZh": "本文介绍了利拉伐（Lely）的自动粪便处理解决方案，包括Discovery Scraper和Discovery Collector两款机器人，以及Lely Sphere循环粪肥系统。这些产品通过自动化清洁牛舍地面，减少人工劳动，改善奶牛蹄部、乳房健康，同时将粪尿分离并转化为循环肥料，实现资源化利用。文章还探讨了传统清粪方式的痛点，以及机器人如何适应不同牛舍布局，为智慧牧场提供高效、可持续的清洁方案。",
+    "featuredReason": "本文详细介绍了利拉伐（Lely）在牛舍清洁自动化方面的最新机器人产品和循环粪肥系统，展示了如何通过智能设备提升奶牛健康与牧场效率，是智慧畜牧领域自动化与可持续发展结合的典型案例，值得行业人士深入了解。",
     "url": "https://www.lely.com/solutions/manure/?epslanguage=en",
-    "multiSourceCount": 1,
-    "publishedAt": "",
-    "qualityScore": 90
+    "source": {
+      "name": "Lely",
+      "nameZh": "Lely 自动化乳业",
+      "tier": "T1"
+    },
+    "sourceId": "lely",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 93,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": ""
+  },
+  {
+    "id": "cmswkwdy4000v6lkf5u5otcav",
+    "titleEn": "Autonomous field robots move into dairy farming",
+    "titleZh": "自主田间机器人进入奶牛养殖业",
+    "summaryZh": "荷兰奶农Joram Hofman正在测试AgXeed W4自主轮式机器人，用于割草、摊晒和搂草作业。该机器人通过GPS和Isobus系统与现有农机协同，旨在提高饲草生产效率。文章探讨了自主机器人在奶牛场中的应用潜力、技术挑战及与现有自动化系统的集成，为智慧畜牧提供实践参考。",
+    "featuredReason": "",
+    "url": "https://www.futurefarming.com/crop-solutions/26futweb-robots-dairy-farming/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 92,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-30T08:00:00.000Z"
+  },
+  {
+    "id": "cmswkw9eq00076lkfqigqcy9s",
+    "titleEn": "AquaSpy Rebrands as UnderGround Weather, Introducing the World’s First AI Soil Intelligence Reporting Engine",
+    "titleZh": "AquaSpy更名为UnderGround Weather，推出全球首个人工智能土壤情报报告引擎",
+    "summaryZh": "AquaSpy公司宣布更名为UnderGround Weather，并推出全球首个AI土壤情报报告引擎UnderGround Weather Reporter。该技术基于近20年的地下传感数据，连续监测根区硝酸盐、水分、氧化还原电位、盐度和温度，结合AI生成可操作报告，帮助种植者和农艺师实时了解地下环境变化，替代传统的点状土壤采样，标志着从周期性监测向连续地下智能的转变。",
+    "featuredReason": "该新闻展示了土壤传感与AI结合的最新趋势，对智慧畜牧中的精准种植和饲料原料管理具有重要参考价值，值得关注其技术路径和商业模式。",
+    "url": "https://www.globalagtechinitiative.com/digital-farming/aquaspy-rebrands-as-underground-weather-introducing-the-worlds-first-ai-soil-intelligence-reporting-engine/",
+    "source": {
+      "name": "PrecisionAg",
+      "nameZh": "精准农业",
+      "tier": "T1"
+    },
+    "sourceId": "precisionag",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 90,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2025-03-05T00:00:00.000Z"
+  },
+  {
+    "id": "cmswkwewa002z6lkfjdmze00q",
+    "titleEn": "BioScout raises $4.8m for early warning system for fungal pathogens",
+    "titleZh": "BioScout获480万美元融资，AI孢子早期预警系统助力真菌病害防控",
+    "summaryZh": "澳大利亚农业科技初创公司BioScout完成480万美元种子轮融资，其AI驱动的空气孢子早期预警系统可在田间病害症状显现前识别真菌病原体，帮助种植者精准施药、减少高达50%的杀菌剂使用。公司计划将全球传感器网络从250台扩展至1000台，并重点拓展欧洲市场。该技术已在马铃薯、大豆、葡萄等多种作物上验证，为作物病害防控提供了全新的数据驱动解决方案。",
+    "featuredReason": "BioScout的AI孢子早期预警系统代表了作物病害防控从被动应对向主动预警的重要转变，其技术路径和商业模式对智慧畜牧领域的生物安全监测与精准防控具有直接借鉴意义。",
+    "url": "https://agfundernews.com/bioscout-raises-4-8m-for-early-warning-system-for-fungal-pathogens",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1"
+    },
+    "sourceId": "agfundernews",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 89,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-08-07T01:25:30.000Z"
   }
 ]

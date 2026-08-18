@@ -1,29 +1,112 @@
 [
   {
-    "id": "cmruim3rr00a98jaqr8te0pqh",
-    "titleEn": "FeedingFor healthier cows and a more efficient production",
-    "titleZh": "Lely自动饲喂方案：以精准饲喂与数据驱动提升奶牛健康与生产效率",
-    "url": "https://www.lely.com/solutions/feeding/?epslanguage=en",
-    "multiSourceCount": 1,
-    "publishedAt": "",
-    "qualityScore": 93
+    "id": "cmswkwdy4000v6lkf5u5otcav",
+    "titleEn": "Autonomous field robots move into dairy farming",
+    "titleZh": "自主田间机器人进入奶牛养殖业",
+    "summaryZh": "荷兰奶农Joram Hofman正在测试AgXeed W4自主轮式机器人，用于割草、摊晒和搂草作业。该机器人通过GPS和Isobus系统与现有农机协同，旨在提高饲草生产效率。文章探讨了自主机器人在奶牛场中的应用潜力、技术挑战及与现有自动化系统的集成，为智慧畜牧提供实践参考。",
+    "featuredReason": "",
+    "url": "https://www.futurefarming.com/crop-solutions/26futweb-robots-dairy-farming/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1"
+    },
+    "sourceId": "futurefarming",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 92,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-30T08:00:00.000Z"
   },
   {
-    "id": "cmruim3qm009z8jaq217d9942",
+    "id": "cmswkx4qk01h76lkfi1xwisv8",
+    "titleEn": "Dairy XL",
+    "titleZh": "Dairy XL：大型奶牛场自动化综合解决方案",
+    "summaryZh": "本文介绍了Lely公司针对大型奶牛场推出的Dairy XL解决方案，涵盖自动化挤奶机器人、自动饲喂系统、数字化管理平台Lely Horizon及Red Cow Community客户网络。通过减少重复劳动、提升动物福利和优化决策，帮助大型牧场实现高效运营。文中还分享了多个全球用户案例，展示了机器人挤奶在500头以上牧场的实际应用效果。",
+    "featuredReason": "本文展示了大型奶牛场自动化与数字化管理的完整方案，结合机器人挤奶、自动饲喂和智能管理平台，是智慧畜牧在牛业应用的典型范例，对规模化牧场转型具有重要参考价值。",
+    "url": "https://www.lely.com/solutions/milking/dairy-xl/",
+    "source": {
+      "name": "Lely",
+      "nameZh": "Lely 自动化乳业",
+      "tier": "T1"
+    },
+    "sourceId": "lely",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 85,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": ""
+  },
+  {
+    "id": "cmswkx4qu01h96lkflvnx0vht",
     "titleEn": "Go to milking",
-    "titleZh": "迈向自动化挤奶：智慧畜牧解决方案全景解析",
+    "titleZh": "迈向自动化挤奶：Lely智能机器人解决方案全面解析",
+    "summaryZh": "本文介绍了Lely公司自动挤奶机器人（如Astronaut A5 Next、Astronaut Max）及其配套解决方案，强调自由牛流、个体化治疗、健康优化和牛奶精细处理等理念。文章还探讨了选择性干奶牛治疗、放牧与机器人挤奶的结合，以及机器人挤奶技术的演进，展示了自动挤奶系统如何通过数据驱动提升奶牛福利、生产效率与牧场可持续性，是智慧畜牧领域的重要实践参考。",
+    "featuredReason": "本文全面展示了Lely自动挤奶机器人的最新解决方案和理念，涵盖自由牛流、个体化治疗、选择性干奶牛治疗等前沿实践，对智慧畜牧从业者了解自动化挤奶技术趋势和实际应用具有重要参考价值。",
     "url": "https://www.lely.com/solutions/milking/",
-    "multiSourceCount": 1,
-    "publishedAt": "",
-    "qualityScore": 92
+    "source": {
+      "name": "Lely",
+      "nameZh": "Lely 自动化乳业",
+      "tier": "T1"
+    },
+    "sourceId": "lely",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 86,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": ""
   },
   {
-    "id": "cmruim3rx00ab8jaqhyhlbfqe",
-    "titleEn": "ManureCreate a comfortable environment conducive to cow health",
-    "titleZh": "利拉伐粪污处理机器人：打造奶牛健康舒适环境的自动化方案",
-    "url": "https://www.lely.com/solutions/manure/?epslanguage=en",
-    "multiSourceCount": 1,
-    "publishedAt": "",
-    "qualityScore": 90
+    "id": "cmswkx4r501hb6lkficbdtlg6",
+    "titleEn": "Go to Feeding",
+    "titleZh": "利拉伐自动饲喂解决方案：提升奶牛健康与牧场效率",
+    "summaryZh": "本文介绍了利拉伐（Lely）的自动饲喂解决方案，包括Vector自动饲喂机器人、Juno自动推料机器人和Calm自动犊牛饲喂器。文章阐述了智能饲喂的六大原则——频繁饲喂、定制日粮、精准配比等，强调通过自动化实现频繁少量饲喂以稳定瘤胃pH值、提高饲料效率和减少浪费。同时展示了从犊牛到成母牛的全生命周期数据管理理念，通过Lely Horizon平台整合数据，帮助牧场实现精准化、数据驱动的饲喂管理，提升奶牛健康、繁殖性能和产奶量。",
+    "featuredReason": "本文系统介绍了利拉伐自动饲喂机器人的核心技术与六大饲喂原则，是奶牛养殖智能化升级的重要参考，对智慧畜牧从业者理解自动饲喂如何提升效率与动物健康具有直接指导价值。",
+    "url": "https://www.lely.com/solutions/feeding/",
+    "source": {
+      "name": "Lely",
+      "nameZh": "Lely 自动化乳业",
+      "tier": "T1"
+    },
+    "sourceId": "lely",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 86,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": ""
+  },
+  {
+    "id": "cmswkx4rf01hd6lkf0gwimo21",
+    "titleEn": "Go to Manure",
+    "titleZh": "Lely粪便处理机器人：提升奶牛健康与牧场效率的自动化方案",
+    "summaryZh": "本文介绍了Lely公司针对奶牛场的自动粪便清理解决方案，包括Discovery Scraper和Discovery Collector两款机器人，以及Lely Sphere循环粪污处理系统。这些产品通过自动化减少人工劳动，改善牛舍卫生，提升奶牛健康，并实现氮排放的资源化利用。文章详细阐述了产品特点、适用场景、客户价值及常见问题，为牧场自动化升级提供了实践参考。",
+    "featuredReason": "本文详细介绍了Lely的自动粪便清理机器人和循环粪污处理系统，展示了如何通过自动化技术提升奶牛健康、减少人工劳动并实现资源化利用，是智慧畜牧领域牛业自动化升级的重要参考。",
+    "url": "https://www.lely.com/solutions/manure/",
+    "source": {
+      "name": "Lely",
+      "nameZh": "Lely 自动化乳业",
+      "tier": "T1"
+    },
+    "sourceId": "lely",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 93,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": ""
   }
 ]
