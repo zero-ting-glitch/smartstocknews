@@ -1004,7 +1004,7 @@ async function main() {
     summaryZh: item.summaryZh || '',
     featuredReason: item.featuredReason || '',
     url: item.url,
-    source: { name: item.source.name, nameZh: item.source.nameZh, tier: item.source.tier },
+    source: { name: item.source.name, nameZh: item.source.nameZh, tier: item.source.tier, sourceType: item.source.sourceType },
     sourceId: item.sourceId,
     species: item.species,
     category: item.category || 'aggtech',
