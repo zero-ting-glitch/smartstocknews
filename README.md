@@ -32,16 +32,13 @@
 
 ```
 smartstock/
-├── .claude/skills/         # Claude Code Skill 定义
+├── .claude/                # Claude Code 配置
 ├── .github/workflows/      # CI/CD
 ├── data/sources.json       # 信源配置
-├── docs/                   # 设计文档与接入指南
 ├── prisma/schema.prisma    # 数据库 schema
 ├── public/
 │   ├── _headers            # 安全头（CSP、CORS）
-│   ├── data/               # 前端数据（items.json、items/{id}.json 等）
-│   ├── api/public/         # 公开只读 REST API（构建时生成）
-│   └── rss/                # RSS 2.0 输出（构建时生成）
+│   └── data/               # 前端数据（items.json、items/{id}.json 等）
 ├── scripts/                # 数据管线 & 工具脚本
 ├── src/
 │   ├── app/                # Next.js 页面
@@ -89,6 +86,11 @@ npm run dev
 # 访问 http://localhost:3000/smartstocknews/
 ```
 
+### 本地预览（与线上一致的成品）
+
+双击项目根目录的 `预览网站.bat`（或执行 `node scripts/preview-server.js`），
+浏览器打开 http://localhost:8080/smartstocknews/ ——静态服务 `out/` 目录，所见即线上。
+
 ### 运行数据管线
 
 ```bash
@@ -107,62 +109,11 @@ npm run build
 # 静态文件输出到 out/ 目录
 ```
 
-## AI 接入
+## AI 接入（规划中，尚未实现）
 
-SmartStock 提供 4 种程序化接口，方便 AI 工具和 RSS 阅读器直接消费内容。
+> 以下接口在规划中，**当前版本未上线**（线上 `rss/`、`api/` 端点尚不存在）。设计原则已定：所有接口长在同一个数据导出层上、只读不鉴权。现状数据可直接读 `public/data/*.json`（如 `https://zero-ting-glitch.github.io/smartstocknews/data/items.json`）。
 
-| 接口 | 访问方式 | 适用场景 |
-|------|---------|---------|
-| **RSS** | `zero-ting-glitch.github.io/smartstocknews/rss/main.xml` | RSS 阅读器（Feedly/Inoreader 等） |
-| **REST API** | `zero-ting-glitch.github.io/smartstocknews/api/public/` | 程序化读取、AI Agent 直接 fetch |
-| **MCP Server** | `npx tsx scripts/mcp-server.ts`（本地 stdio） | Claude Desktop 等 MCP 客户端 |
-| **Claude Code Skill** | `/smartstock` 命令 | Claude Code 内直接查询 |
-
-### REST API
-
-公开只读 API，无需鉴权。所有端点返回统一格式：
-
-```bash
-# 获取文章列表
-curl https://zero-ting-glitch.github.io/smartstocknews/api/public/items.json
-
-# 按分类查看
-curl https://zero-ting-glitch.github.io/smartstocknews/api/public/categories.json
-
-# 获取最新文章
-curl https://zero-ting-glitch.github.io/smartstocknews/api/public/latest.json
-
-# 站点统计
-curl https://zero-ting-glitch.github.io/smartstocknews/api/public/stats.json
-```
-
-详见 [docs/api-spec.md](docs/api-spec.md)。
-
-### RSS 订阅
-
-```text
-主 Feed:  https://zero-ting-glitch.github.io/smartstocknews/rss/main.xml
-猪业:     https://zero-ting-glitch.github.io/smartstocknews/rss/pig.xml
-禽业:     https://zero-ting-glitch.github.io/smartstocknews/rss/poultry.xml
-牛业:     https://zero-ting-glitch.github.io/smartstocknews/rss/cattle.xml
-羊业:     https://zero-ting-glitch.github.io/smartstocknews/rss/sheep.xml
-大田:     https://zero-ting-glitch.github.io/smartstocknews/rss/field.xml
-果蔬:     https://zero-ting-glitch.github.io/smartstocknews/rss/fruit.xml
-园艺:     https://zero-ting-glitch.github.io/smartstocknews/rss/horticulture.xml
-综合:     https://zero-ting-glitch.github.io/smartstocknews/rss/general.xml
-```
-
-### MCP Server
-
-```bash
-# 本地 stdio 模式（供 Claude Desktop 使用）
-npx tsx scripts/mcp-server.ts
-
-# HTTP/SSE 模式（供远程客户端）
-npx tsx scripts/mcp-server.ts --transport http --port 3001
-```
-
-Claude Desktop 配置请参考 [docs/mcp-server.md](docs/mcp-server.md)。
+规划中的 4 种接入方式：RSS 2.0 输出（`public/rss/`）、公开只读 REST API（`public/api/public/`）、MCP Server、Claude Code Skill。
 
 ## 数据管线
 
@@ -177,7 +128,8 @@ Claude Desktop 配置请参考 [docs/mcp-server.md](docs/mcp-server.md)。
 [3.7]   智慧农业预筛 技术+农业双维度关键词匹配，阈值 ≥ 2
 [4/5]   AI 处理     内容守卫（<100 字标记 needs_full_scrape 跳过）→ Stage 1 语义筛选 → Stage 2 评分+全文翻译+摘要+精选理由+物种分类
 [4.5]   修复 species 将 subcategory 同步到 species 字段
-[5/5]   导出 JSON   增量合并（已标记不相关的自动清除）+ 按分类导出 + 热点 + 统计 + API JSON + RSS
+[5/5]   导出 JSON   增量合并（已标记不相关的自动清除）+ 按分类导出 + 热点 + 统计
+                    精选 isFeatured 在导出阶段统一重算（阈值 + tier 内百分位）
 ```
 
 ### 预筛过滤（Step 3.7）
@@ -268,6 +220,7 @@ AI 处理前进行关键词预筛，降低成本：
 
 - Push to `master` → GitHub Actions 自动构建 → 部署到 GitHub Pages
 - 手动触发采集（或每周一 08:07 自动）：GitHub Actions → "采集 + AI处理 + 导出" → Run workflow
+- 采集完成后自动提交 `public/data/` 和 `dev.db`（CI 持久化数据库）
 
 ### 线上地址
 

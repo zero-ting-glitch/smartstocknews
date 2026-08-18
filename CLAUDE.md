@@ -8,30 +8,23 @@
 
 ```
 smartstock/
-├── .claude/
-│   └── skills/
-│       └── smartstock.md  # Claude Code Skill（/smartstock 命令）
+├── .claude/               # Claude Code 配置（仅 settings，无 skill）
 ├── .github/workflows/
 │   ├── deploy.yml         # push to master → 构建 → GitHub Pages
-│   └── collect.yml        # 每周一 08:07 自动 + 手动触发 → 采集+AI+导出 → 自动提交
+│   └── collect.yml        # 每周一 08:07 自动 + 手动触发 → 采集+AI+导出 → 自动提交（public/data/ + dev.db）
 ├── data/
 │   └── sources.json       # 信源配置
-├── docs/
-│   ├── handoff-2026-07.md # 踩坑记录与交接文档
-│   ├── api-spec.md        # 公开 API 文档
-│   └── mcp-server.md      # MCP Server 部署指南
+├── Docker/                # wechat-download-api 本地服务（gitignored，公众号 RSS 中转）
 ├── prisma/
-│   └── schema.prisma      # 数据库 schema
+│   ├── schema.prisma      # 数据库 schema
+│   └── dev.db             # 本地工作库（gitignored）
 ├── public/                # 静态资源（构建后全量部署到 GitHub Pages）
 │   ├── _headers           # 安全头（CSP、CORS 等）
-│   ├── data/              # 前端数据（items.json、items/{id}.json、hot-items.json 等）
-│   ├── api/
-│   │   └── public/        # 公开只读 REST API（构建时生成）
-│   └── rss/               # RSS 2.0 输出（构建时生成）
+│   └── data/              # 前端数据（items.json、items/{id}.json、hot-items.json 等）
 ├── scripts/               # 数据管线 & 工具脚本
-│   ├── run-pipeline.ts    # 完整管线（5+步）
-│   ├── export-static.ts   # 导出（含增量合并 + API JSON + RSS）
-│   ├── mcp-server.ts      # MCP Server（本地 stdio / 云端 SSE）
+│   ├── run-pipeline.ts    # 完整管线（5+步，内联导出已与 export-static 对齐）
+│   ├── export-static.ts   # 独立导出（含增量合并 + 精选重算）
+│   ├── preview-server.js  # 本地静态预览服务器（预览网站.bat 调用）
 │   ├── resume-ai.ts       # 恢复中断的 AI 管线
 │   ├── fix-articles.ts    # 补爬 + 重跑 AI
 │   ├── import-wechat.ts   # 导入公众号历史文章
@@ -42,23 +35,24 @@ smartstock/
 │   └── backfill-multi-source.ts # 补填多源计数
 ├── src/
 │   ├── app/               # Next.js App Router 页面（静态导出）
-│   │   ├── page.tsx       # 主页（时间线）
+│   │   ├── page.tsx       # 主页（精选，SSG 注入数据）
 │   │   ├── detail/        # 文章详情页（query param 路由）
 │   │   ├── pig|poultry|cattle|sheep/  # 畜种频道
 │   │   ├── field|fruit|horticulture/  # 作物频道
 │   │   ├── all/           # 全部动态
 │   │   └── about/         # 关于页面
-│   ├── components/        # React UI 组件
+│   ├── components/        # React UI 组件（ListPageClient / SpeciesPage / Timeline 等）
 │   └── lib/
 │       ├── collector/     # 数据采集（爬虫、RSS 解析、过滤去重）
 │       ├── processor/     # AI 处理（评分、翻译、质量分计算）
-│       ├── data-types.ts  # API/RSS/MCP 共享类型定义
-│       ├── data-loader.ts # JSON 文件加载工具（缓存 + 错误处理）
-│       ├── rss-builder.ts # RSS 2.0 XML 生成器
+│       ├── static-data.ts # SSG 数据注入（构建时读 public/data，仅 Server Component 用）
 │       ├── sources.ts     # 信源配置加载
 │       ├── db.ts          # Prisma 客户端单例
 │       ├── config.ts      # BASE_PATH 等前端配置
-│       └── utils.ts       # formatTime、speciesNames、speciesColors
+│       └── utils.ts       # formatTime、speciesNames、speciesColors、sourceTypeEmoji
+├── dev.db                 # CI 持久化数据库（已入库，每周随采集回传）
+├── 预览网站.bat            # 双击预览（静态服务 out/，与线上一致）
+├── HANDOFF.md             # 统一交接文档（gitignored，本地）
 ├── .env.example
 ├── CLAUDE.md
 ├── README.md
@@ -90,7 +84,6 @@ smartstock/
 - rss-parser（RSS feed 解析）
 - Playwright + Stealth 插件（Headless Browser，绕过 Cloudflare 反爬）
 - Jina Reader API / Google Cache / Wayback Machine（全文抓取多层回退）
-- @modelcontextprotocol/sdk（MCP Server，AI 工具直接查询）
 - 部署：GitHub Pages + GitHub Actions CI/CD
 
 ## 数据管线
@@ -109,8 +102,8 @@ smartstock/
 [4.5] 修复 species  将 subcategory 同步到 species 字段
 [5/5] 导出 JSON     增量合并（旧数据保留，但已标记不相关的自动清除） → 清理孤立 detail 文件
                     → items.json + items/{id}.json + hot-items + stats + 按分类导出
-                    → api/public/ 公开 REST API JSON（统一格式 + 分页 + 版本自检）
-                    → rss/ RSS 2.0 XML（主 feed + 各品类子频道）
+                    → 精选 isFeatured 在导出阶段统一重算（质量分阈值 + tier 内百分位，
+                      run-pipeline 内联导出与 export-static 已对齐，2026-08-18）
 ```
 
 ### 管线完整性守卫（2026-07-22 加入）
@@ -217,31 +210,23 @@ DEEPSEEK_BASE_URL=https://api.deepseek.com
 ADMIN_TOKEN=xxx  # 采集触发鉴权（当前未启用 API 路由）
 ```
 
-## AI 接入接口
+## AI 接入接口（规划中，尚未实现）
 
-SmartStock 提供 4 种 AI 接入方式，覆盖不同使用场景：
+规划中的 4 种接入方式：RSS 2.0 输出（`public/rss/`）、公开只读 REST API（`public/api/public/`）、MCP Server（本地 stdio + 云端 SSE）、Claude Code Skill（`/smartstock` 命令）。
 
-| 接口 | 访问方式 | 适用场景 |
-|------|---------|---------|
-| **RSS** | `zero-ting-glitch.github.io/smartstocknews/rss/main.xml` | RSS 阅读器、传统聚合 |
-| **REST API** | `zero-ting-glitch.github.io/smartstocknews/api/public/` | 程序化读取、AI Agent |
-| **MCP Server** | `npx tsx scripts/mcp-server.ts`（本地 stdio） | Claude Desktop 等 MCP 客户端 |
-| **Claude Code Skill** | `/smartstock` 命令（需安装 skill） | Claude Code 内直接查询 |
-
-详见 `docs/api-spec.md` 和 `docs/mcp-server.md`。
+**当前版本均未实现**（线上 `rss/`、`api/` 端点 404，`scripts/mcp-server.ts` 等文件不存在）。现状数据直接读 `public/data/*.json` 即可。
 
 ## 常用命令
 
 ```bash
 npm run dev              # 本地开发 → http://localhost:3000/smartstocknews/
 npm run build            # 静态导出到 out/
+node scripts/preview-server.js   # 本地预览 out/ → http://localhost:8080/smartstocknews/（或直接双击 预览网站.bat）
 npx prisma generate      # 生成 Prisma 客户端
 npx prisma db push       # 同步 schema 到 SQLite
 npx prisma studio        # 可视化查看数据库
 npx tsx scripts/run-pipeline.ts           # 运行完整管线
-npx tsx scripts/export-static.ts          # 导出静态数据（含增量合并 + API JSON + RSS）
-npx tsx scripts/mcp-server.ts             # 启动 MCP Server（本地 stdio 模式）
-npx tsx scripts/mcp-server.ts --transport http --port 3001  # MCP Server（HTTP/SSE 模式）
+npx tsx scripts/export-static.ts          # 导出静态数据（含增量合并 + 精选重算）
 npx tsx scripts/clear-truncated.ts        # 清除截断翻译（一次性）
 npx tsx scripts/cleanup-irrelevant.ts     # AI 语义清理现有文章（一次性，需 DEEPSEEK_API_KEY）
 npx tsx scripts/import-wechat.ts          # 导入公众号历史文章（5 月至今，含关键词预筛）
@@ -254,7 +239,8 @@ npx tsx scripts/fix-articles.ts          # 补爬+重跑 AI（针对缺正文就
 - 线上地址：https://zero-ting-glitch.github.io/smartstocknews/
 - GitHub 仓库：https://github.com/zero-ting-glitch/smartstocknews
 - 推送到 master 自动触发构建和部署
-- 采集工作流：GitHub Actions 每周一 08:07 自动运行 + 手动触发，运行管线后自动提交 `public/data/` 的变更
+- 采集工作流：GitHub Actions 每周一 08:07 自动运行 + 手动触发，运行管线后自动提交 `public/data/` 和 `dev.db`（CI 持久化数据库，2026-08-18 起入库，避免每周空库重跑）
+- 本地预览成品：双击 `预览网站.bat`（静态服务 out/，端口 8080）
 - Secret 名称：`CFG_01`（DeepSeek API Key）
 
 ## 物种/作物频道

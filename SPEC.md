@@ -165,8 +165,9 @@ qualityScore = 五维平均分 × 信源权重 + min(多源数, 3) × 5
 | url | String | 网站地址 |
 | rssUrl | String? | RSS 地址 |
 | tier | String | T1 / T1.5 / T2 |
-| species | String | 物种 |
-| category | String | 分类 |
+| sourceType | String | 微信公众号 / 行业新闻站 / 技术博客 / 厂商官网 / 政府/协会/政策公告（默认"行业新闻站"） |
+| category | String | 分类（livestock / crop / aggtech） |
+| defaultSubcategory | String | 默认子类（pig/.../general） |
 | scrapeType | String | "rss" / "listing_page" |
 | listUrl | String? | 列表页 URL |
 | scrapeConfig | String? | CSS 选择器配置（JSON） |
@@ -273,12 +274,14 @@ ADMIN_TOKEN=xxx
 
 - 静态导出：`npm run build` → `out/` 目录
 - GitHub Pages：push to master 自动构建部署
-- 采集：GitHub Actions 手动触发，运行管线后自动提交数据变更
+- 采集：GitHub Actions 每周一 08:07 自动 + 手动触发，运行管线后自动提交 `public/data/` 和 `dev.db`（CI 持久化数据库，避免每周空库重跑）
 - Secret：`CFG_01`（DeepSeek API Key）
 
-## 11. AI 接入接口
+## 11. AI 接入接口（规划中，尚未实现）
 
-### 11.1 四种接入方式
+> 以下为规划方案，当前版本未实现（线上 `rss/`、`api/` 端点尚不存在）。现状数据直接读 `public/data/*.json` 即可。
+
+### 11.1 四种接入方式（规划）
 
 | 接口 | 技术方案 | 数据源 | 适用场景 |
 |------|---------|--------|---------|
