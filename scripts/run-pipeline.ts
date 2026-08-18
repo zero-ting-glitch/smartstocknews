@@ -7,6 +7,7 @@ import { mkdirSync, writeFileSync, readdirSync, unlinkSync, existsSync } from 'f
 import { join } from 'path';
 import { readFileSync } from 'fs';
 import { scrapeArticle, scrapeListingPage, fetchWithBrowserRss, closeBrowser } from '../src/lib/collector/scraper';
+import { TIER_PERCENTILE } from '../src/lib/processor/calculator';
 
 const prisma = new PrismaClient();
 const CONCURRENCY = 5;
@@ -1011,13 +1012,8 @@ async function main() {
     subcategory: item.subcategory || 'general',
     techTags: item.techTags || '',
     qualityScore: item.qualityScore || 0,
-    isFeatured: (() => {
-      const tier = item.source?.tier || 'T2';
-      const qs = item.qualityScore || 0;
-      if (tier === 'T1') return qs >= 60;
-      if (tier === 'T1.5') return qs >= 70;
-      return qs >= 80; // T2
-    })(),
+    multiSourceCount: item.multiSourceCount || 1,
+    isFeatured: false, // 占位：合并后在下方按"阈值 + tier 内百分位"统一重算（与 export-static.ts 一致）
     isHot: item.isHot,
     publishedAt: item.publishedAt ? item.publishedAt.toISOString() : '',
   });
@@ -1064,6 +1060,31 @@ async function main() {
     .sort((a: any, b: any) => (b.publishedAt || '').localeCompare(a.publishedAt || ''));
   const preserved = formatted.length - freshFormatted.length;
 
+  // 精选重算（与 export-static.ts 同一规则：质量分阈值 + tier 内百分位，双条件同时满足）
+  // 阈值：T1>=75 / T1.5>=65 / T2>=80；百分位见 calculator.ts TIER_PERCENTILE
+  const FEATURED_THRESHOLDS: Record<string, number> = { T1: 75, 'T1.5': 65, T2: 80 };
+  const featuredIds = new Set<string>();
+  const byTier = new Map<string, any[]>();
+  for (const item of formatted) {
+    const tier = item.source?.tier || 'T2';
+    if (!byTier.has(tier)) byTier.set(tier, []);
+    byTier.get(tier)!.push(item);
+  }
+  for (const [tier, group] of byTier) {
+    const threshold = FEATURED_THRESHOLDS[tier] ?? 80;
+    const percentile = TIER_PERCENTILE[tier] ?? 0.15;
+    const sorted = [...group].sort((a, b) => (b.qualityScore || 0) - (a.qualityScore || 0));
+    const quota = Math.max(1, Math.floor(sorted.length * percentile));
+    let picked = 0;
+    for (const item of sorted) {
+      if (picked >= quota) break;
+      if ((item.qualityScore || 0) < threshold) break;
+      featuredIds.add(item.id);
+      picked++;
+    }
+  }
+  for (const item of formatted) item.isFeatured = featuredIds.has(item.id);
+
   // 列表 JSON
   writeFileSync(join(outDir, 'items.json'), JSON.stringify(formatted, null, 2));
   console.log(`  items.json: ${formatted.length} 条 (${freshFormatted.length} new + ${preserved} preserved)`);
@@ -1092,6 +1113,7 @@ async function main() {
   if (cleanedFiles > 0) console.log(`  清理 ${cleanedFiles} 个孤立 detail 文件`);
   for (const item of allItems) {
     const detail = formatDetailItem(item);
+    detail.isFeatured = featuredIds.has(item.id); // 与列表页重算结果保持一致
     writeFileSync(join(detailDir, `${item.id}.json`), JSON.stringify(detail, null, 2));
   }
   console.log(`  items/*.json: ${allItems.length} 个详情文件`);
