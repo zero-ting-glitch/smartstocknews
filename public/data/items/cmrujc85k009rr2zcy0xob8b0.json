@@ -15,7 +15,7 @@
   "species": "field",
   "category": "aggtech",
   "subcategory": "field",
-  "techTags": "needs_full_scrape",
+  "techTags": "needs_full_scrape,needs_full_scrape",
   "qualityScore": 85,
   "multiSourceCount": 3,
   "isFeatured": true,

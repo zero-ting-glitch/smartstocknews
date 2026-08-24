@@ -18,7 +18,7 @@
     "subcategory": "pig",
     "techTags": "",
     "qualityScore": 65,
-    "multiSourceCount": 2,
+    "multiSourceCount": 3,
     "isFeatured": true,
     "isHot": false,
     "publishedAt": "2026-08-17T15:45:57.919Z"
@@ -64,7 +64,7 @@
     "species": "pig",
     "category": "aggtech",
     "subcategory": "pig",
-    "techTags": "needs_full_scrape",
+    "techTags": "needs_full_scrape,needs_full_scrape",
     "qualityScore": 71,
     "multiSourceCount": 3,
     "isFeatured": true,
