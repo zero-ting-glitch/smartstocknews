@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "cmt6l2fjj000liuyjzm9589cu",
+    "titleEn": "Sami Robotics scales up broccoli harvesting as it builds towards a multi-crop, multi-task platform",
+    "titleZh": "Sami Robotics扩大西兰花机器人采收规模，打造多作物、多任务农业机器人平台",
+    "summaryZh": "加拿大初创公司Sami Robotics的西兰花机器人采收系统已走出原型阶段，进入商业化部署。其平台采用12至18个机械臂并行作业，可识别并采收成熟蔬菜。公司正以西兰花和罗马生菜为先行作物，逐步拓展至结球生菜和花椰菜，并计划未来在同一平台上实现除草、间苗、施肥等多项田间任务，打造多功能农业机器人平台。",
+    "featuredReason": "该新闻展示了农业机器人从单一作物采收向多作物、多任务平台演进的趋势，其模块化多臂设计和AI感知技术对智慧畜牧领域的自动化升级具有重要借鉴意义。",
+    "url": "https://www.futurefarming.com/crop-solutions/sami-robotics-scales-up-broccoli-harvesting-as-it-builds-towards-a-multi-crop-multi-task-platform/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 77,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": true,
+    "publishedAt": "2026-08-18T06:30:00.000Z"
+  },
+  {
+    "id": "cmt6l2fjm000niuyj8hrecbc4",
+    "titleEn": "Autonomous fruit implements are ready",
+    "titleZh": "自主水果作业机具已就绪",
+    "summaryZh": "荷兰Randwijk水果研究中心举办的体验日展示了水果种植领域机器人化的最新进展，多项自动化技术已从早期阶段走向成熟。制造商现场解答了关于自主/半自主转向系统、机器人作业等众多实际问题，表明机器人化正成为农业企业未来发展的关键方向。文章虽短，但反映了果蔬种植自动化技术的快速落地趋势。",
+    "featuredReason": "该新闻展示了果蔬种植领域机器人化从概念到实用的快速演进，对智慧畜牧行业（尤其是种植业自动化）具有前瞻性参考价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/autonomous-fruit-implements-are-ready/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 65,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-08-17T07:00:47.000Z"
+  }
+]

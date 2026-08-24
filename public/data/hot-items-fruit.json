@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "cmt6l2fjj000liuyjzm9589cu",
+    "titleEn": "Sami Robotics scales up broccoli harvesting as it builds towards a multi-crop, multi-task platform",
+    "titleZh": "Sami Robotics扩大西兰花机器人采收规模，打造多作物、多任务农业机器人平台",
+    "summaryZh": "加拿大初创公司Sami Robotics的西兰花机器人采收系统已走出原型阶段，进入商业化部署。其平台采用12至18个机械臂并行作业，可识别并采收成熟蔬菜。公司正以西兰花和罗马生菜为先行作物，逐步拓展至结球生菜和花椰菜，并计划未来在同一平台上实现除草、间苗、施肥等多项田间任务，打造多功能农业机器人平台。",
+    "featuredReason": "该新闻展示了农业机器人从单一作物采收向多作物、多任务平台演进的趋势，其模块化多臂设计和AI感知技术对智慧畜牧领域的自动化升级具有重要借鉴意义。",
+    "url": "https://www.futurefarming.com/crop-solutions/sami-robotics-scales-up-broccoli-harvesting-as-it-builds-towards-a-multi-crop-multi-task-platform/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 77,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": true,
+    "publishedAt": "2026-08-18T06:30:00.000Z"
+  }
+]

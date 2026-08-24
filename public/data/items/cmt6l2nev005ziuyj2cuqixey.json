@@ -1,0 +1,30 @@
+{
+  "id": "cmt6l2nev005ziuyj2cuqixey",
+  "titleEn": "Wood’s research advances fertility understanding for the cattle sector",
+  "titleZh": "Wood团队研究推进牛业繁殖力认知",
+  "summaryZh": "Wood团队聚焦牛胚胎发育、营养影响及实验室技术，旨在帮助养殖者提升繁殖成效。该研究虽属传统繁殖学范畴，但为后续精准营养和繁殖管理提供了基础科学支撑，对智慧畜牧中的繁殖数据应用和决策优化具有间接参考价值。",
+  "featuredReason": "尽管该新闻未直接涉及IoT或AI技术，但其繁殖力研究成果可为智慧畜牧中的繁殖监测和精准管理提供基础科学依据，值得关注。",
+  "url": "https://www.beefmagazine.com/livestock-management/husker-scientists-unlock-secrets-to-boost-cow-fertility-and-improve-calf-health-through-research",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "beefmagazine",
+  "species": "cattle",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 41,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-08-20T12:26:33.000Z",
+  "contentFull": "",
+  "translationZh": "Wood团队的研究聚焦于胚胎发育、营养影响及实验室技术，旨在帮助养殖者实现更优的繁殖成效。该团队通过深入探索这些关键领域，为牛业提供了科学依据，以改善繁殖管理实践。",
+  "images": [],
+  "author": "",
+  "contentHtml": "Wood's team studies embryo development, nutrition impacts and lab techniques to help producers achieve better reproductive outcomes.",
+  "scrapeMethod": "rss"
+}

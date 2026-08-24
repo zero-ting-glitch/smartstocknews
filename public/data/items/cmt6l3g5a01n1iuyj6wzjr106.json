@@ -1,0 +1,30 @@
+{
+  "id": "cmt6l3g5a01n1iuyj6wzjr106",
+  "titleEn": "Why calibrated yield monitors rock as new farmer report card",
+  "titleZh": "校准产量监测器：新型“农民成绩单”为何重要",
+  "summaryZh": "本文强调校准联合收割机产量监测器的重要性，指出精准数据是未来农业决策的基础。通过定期校准，农民可获得更可靠的田间产量图，从而优化投入、提高效率。文章提供了实用校准建议，对精准农业实践具有直接指导价值，虽非直接涉及养殖，但体现了智慧农业中数据驱动决策的核心理念。",
+  "featuredReason": "本文虽聚焦大田作物，但其强调的数据校准与精准决策理念，与智慧畜牧中传感器数据可靠性管理高度相通，值得养殖业者借鉴其数据治理思路。",
+  "url": "https://www.farmprogress.com/farming-equipment/why-calibrated-yield-monitors-rock-as-new-farmer-report-card",
+  "source": {
+    "name": "Farm Progress",
+    "nameZh": "农场进展",
+    "tier": "T1.5",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "farmprogress",
+  "species": "field",
+  "category": "crop",
+  "subcategory": "field",
+  "techTags": "",
+  "qualityScore": 58,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-08-20T06:40:00.000Z",
+  "contentFull": "",
+  "translationZh": "校准联合收割机的产量监测器，能够生成更准确的数据，为未来的决策提供依据。\n\n在精准农业时代，数据就是新的“货币”。而产量监测器——安装在联合收割机上的传感器系统——正是获取这种货币的关键工具。然而，如果这些监测器未经校准，它们生成的数据就可能存在偏差，导致农民基于错误信息做出决策。\n\n校准产量监测器，本质上就是为你的机器创建一份“成绩单”。通过将监测器记录的产量与实际称重结果进行对比，你可以了解监测器的误差范围，并对其进行调整，使其读数更接近真实值。这个过程虽然看似简单，却能显著提升数据的可靠性。\n\n为什么要费心校准？因为精准农业的核心在于“精准”。当你依赖产量图来制定下一季的播种计划、施肥方案或排水改进措施时，这些图表的准确性直接决定了决策的质量。一个未校准的监测器可能会让你误以为某块地产量很高，而实际上它表现平平，从而误导你过度投入资源。\n\n校准的频率和方法也很关键。通常建议在作物条件变化较大时（例如从湿区转到干区）进行校准，或者至少在每个收获季节开始前进行一次。校准过程包括收集一定数量的作物样本，称重并记录，然后与监测器读数对比，最后在监测器系统中输入修正系数。\n\n虽然校准需要花费一些时间和精力，但回报是显而易见的：更精确的产量数据，更明智的投入决策，最终带来更高的经济效益和环境可持续性。在竞争日益激烈的农业领域，每一份数据都值得被认真对待。校准你的产量监测器，就是为你的农场未来投资。",
+  "images": [],
+  "author": "",
+  "contentHtml": "Calibrating your combine’s yield monitor creates more accurate data on which to base future decisions.",
+  "scrapeMethod": "rss"
+}

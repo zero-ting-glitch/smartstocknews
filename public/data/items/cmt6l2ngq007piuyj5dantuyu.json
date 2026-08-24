@@ -1,0 +1,32 @@
+{
+  "id": "cmt6l2ngq007piuyj5dantuyu",
+  "titleEn": "Partnership brings autonomous truck “smart feeding” to University of Nebraska",
+  "titleZh": "无人驾驶卡车“智能饲喂”走进内布拉斯加大学",
+  "summaryZh": "内布拉斯加大学与一家技术公司合作，引入无人驾驶卡车进行智能饲喂，旨在提升牧场管理效率、降低劳动力成本，并探索自动化在畜牧业的实际应用。该合作将推动智慧畜牧技术在教育和生产中的融合，为行业提供实践案例。",
+  "featuredReason": "该新闻展示了无人驾驶技术在畜牧业中的创新应用，为智慧牧场提供了可借鉴的实践案例，值得关注自动化饲喂的行业人士阅读。",
+  "url": "https://www.beefmagazine.com/livestock-management/partnership-brings-autonomous-truck-smart-feeding-to-university-of-nebraska",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T1.5",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "beefmagazine",
+  "species": "cattle",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 58,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-08-07T13:46:16.000Z",
+  "contentFull": "Farm Business Management\n\ntv_signin\n\nICYMI: Now in On-demand\n\nBoosting of rural veterinary workforce needs to be priority\n\nKen May, DVM, Slater, IA, president of the Iowa Veterinary Medical Association, and Dr. Randy Wheeler, Iowa Veterinary Medical Association executive director joins us to the shortage of veterinarians in the U.S.\n\nTo View",
+  "translationZh": "农场经营管理\n\n敬请关注：现已提供点播\n\n加强农村兽医队伍建设需成为优先事项\n\n爱荷华州兽医协会主席Ken May（DVM，爱荷华州斯莱特）与执行董事Randy Wheeler博士共同探讨美国兽医短缺问题。\n\n点击观看",
+  "images": [
+    "https://eu-images.contentstack.com/v3/assets/blt4175b16074920322/blt6589bf0a16e4bbe9/67e45e773caaff3437f92c7d/Website_On-demand_slide_-_vets.jpg?width=1400&auto=webp&quality=80&disable=upscale"
+  ],
+  "author": "",
+  "contentHtml": "The autonomous feed truck demonstrates feeding cattle during the presentation at ENREEC.",
+  "scrapeMethod": "web_scrape"
+}

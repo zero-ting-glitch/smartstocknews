@@ -1,59 +1,16 @@
 [
   {
-    "id": "cmswkx4rf01hd6lkf0gwimo21",
-    "titleEn": "Go to Manure",
-    "titleZh": "Lely粪便处理机器人：提升奶牛健康与牧场效率的自动化方案",
-    "summaryZh": "本文介绍了Lely公司针对奶牛场的自动粪便清理解决方案，包括Discovery Scraper和Discovery Collector两款机器人，以及Lely Sphere循环粪污处理系统。这些产品通过自动化减少人工劳动，改善牛舍卫生，提升奶牛健康，并实现氮排放的资源化利用。文章详细阐述了产品特点、适用场景、客户价值及常见问题，为牧场自动化升级提供了实践参考。",
-    "featuredReason": "本文详细介绍了Lely的自动粪便清理机器人和循环粪污处理系统，展示了如何通过自动化技术提升奶牛健康、减少人工劳动并实现资源化利用，是智慧畜牧领域牛业自动化升级的重要参考。",
-    "url": "https://www.lely.com/solutions/manure/",
-    "source": {
-      "name": "Lely",
-      "nameZh": "Lely 自动化乳业",
-      "tier": "T1"
-    },
-    "sourceId": "lely",
-    "species": "cattle",
-    "category": "livestock",
-    "subcategory": "cattle",
-    "techTags": "",
-    "qualityScore": 93,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": ""
-  },
-  {
-    "id": "cmswkx4s801hl6lkfebwuw0jr",
-    "titleEn": "ManureCreate a comfortable environment conducive to cow health",
-    "titleZh": "利拉伐（Lely）粪便处理机器人：打造奶牛健康舒适环境的智能方案",
-    "summaryZh": "本文介绍了利拉伐（Lely）的自动粪便处理解决方案，包括Discovery Scraper和Discovery Collector两款机器人，以及Lely Sphere循环粪肥系统。这些产品通过自动化清洁牛舍地面，减少人工劳动，改善奶牛蹄部、乳房健康，同时将粪尿分离并转化为循环肥料，实现资源化利用。文章还探讨了传统清粪方式的痛点，以及机器人如何适应不同牛舍布局，为智慧牧场提供高效、可持续的清洁方案。",
-    "featuredReason": "本文详细介绍了利拉伐（Lely）在牛舍清洁自动化方面的最新机器人产品和循环粪肥系统，展示了如何通过智能设备提升奶牛健康与牧场效率，是智慧畜牧领域自动化与可持续发展结合的典型案例，值得行业人士深入了解。",
-    "url": "https://www.lely.com/solutions/manure/?epslanguage=en",
-    "source": {
-      "name": "Lely",
-      "nameZh": "Lely 自动化乳业",
-      "tier": "T1"
-    },
-    "sourceId": "lely",
-    "species": "cattle",
-    "category": "livestock",
-    "subcategory": "cattle",
-    "techTags": "",
-    "qualityScore": 93,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": ""
-  },
-  {
-    "id": "cmswkwdy4000v6lkf5u5otcav",
+    "id": "cmt6l2fk10011iuyjwrjfnp05",
     "titleEn": "Autonomous field robots move into dairy farming",
     "titleZh": "自主田间机器人进入奶牛养殖业",
-    "summaryZh": "荷兰奶农Joram Hofman正在测试AgXeed W4自主轮式机器人，用于割草、摊晒和搂草作业。该机器人通过GPS和Isobus系统与现有农机协同，旨在提高饲草生产效率。文章探讨了自主机器人在奶牛场中的应用潜力、技术挑战及与现有自动化系统的集成，为智慧畜牧提供实践参考。",
-    "featuredReason": "",
+    "summaryZh": "荷兰奶农Joram Hofman正在测试AgXeed W4自主轮式机器人，用于割草、摊晒和搂草作业。该农场已高度自动化，拥有挤奶机器人、饲喂机器人和粪污清理机器人。测试旨在探索自主机器人在牧草生产中的潜力，并评估其与现有农机系统的兼容性。文章详细介绍了机器人的应用场景、改装过程及面临的挑战，为智慧畜牧从业者提供了宝贵的实践参考。",
+    "featuredReason": "本文展示了自主田间机器人在奶牛养殖中的实际应用，为智慧畜牧从业者提供了宝贵的实践案例和技术细节，有助于了解自动化技术如何融入现有牧场管理。",
     "url": "https://www.futurefarming.com/crop-solutions/26futweb-robots-dairy-farming/",
     "source": {
       "name": "Future Farming",
       "nameZh": "未来农业",
-      "tier": "T1"
+      "tier": "T1",
+      "sourceType": "行业新闻站"
     },
     "sourceId": "futurefarming",
     "species": "cattle",
@@ -61,43 +18,71 @@
     "subcategory": "cattle",
     "techTags": "",
     "qualityScore": 92,
+    "multiSourceCount": 1,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-07-30T08:00:00.000Z"
   },
   {
-    "id": "cmswkw9eq00076lkfqigqcy9s",
-    "titleEn": "AquaSpy Rebrands as UnderGround Weather, Introducing the World’s First AI Soil Intelligence Reporting Engine",
-    "titleZh": "AquaSpy更名为UnderGround Weather，推出全球首个人工智能土壤情报报告引擎",
-    "summaryZh": "AquaSpy公司宣布更名为UnderGround Weather，并推出全球首个AI土壤情报报告引擎UnderGround Weather Reporter。该技术基于近20年的地下传感数据，连续监测根区硝酸盐、水分、氧化还原电位、盐度和温度，结合AI生成可操作报告，帮助种植者和农艺师实时了解地下环境变化，替代传统的点状土壤采样，标志着从周期性监测向连续地下智能的转变。",
-    "featuredReason": "该新闻展示了土壤传感与AI结合的最新趋势，对智慧畜牧中的精准种植和饲料原料管理具有重要参考价值，值得关注其技术路径和商业模式。",
-    "url": "https://www.globalagtechinitiative.com/digital-farming/aquaspy-rebrands-as-underground-weather-introducing-the-worlds-first-ai-soil-intelligence-reporting-engine/",
+    "id": "cmt6l35u401hviuyjuomss563",
+    "titleEn": "Go to Manure",
+    "titleZh": "Lely粪便处理机器人：提升奶牛健康与牧场效率的自动化解决方案",
+    "summaryZh": "本文介绍了Lely公司针对奶牛场的自动粪便清理机器人（Discovery Scraper和Discovery Collector）以及循环粪污处理系统Lely Sphere。这些解决方案通过自动化清洁减少人工劳动，改善牛蹄和乳房健康，并实现氮排放的资源化利用。文章强调了机器人在不同牛舍布局中的灵活性、可靠性及对牧场可持续发展的贡献，为智慧畜牧中的牛业自动化提供了实践参考。",
+    "featuredReason": "本文详细介绍了Lely的自动粪便清理机器人和循环粪污处理系统，展示了自动化与循环经济在奶牛场的实际应用，对智慧畜牧从业者具有直接参考价值。",
+    "url": "https://www.lely.com/solutions/manure/",
     "source": {
-      "name": "PrecisionAg",
-      "nameZh": "精准农业",
-      "tier": "T1"
+      "name": "Lely",
+      "nameZh": "Lely 自动化乳业",
+      "tier": "T1",
+      "sourceType": "厂商官网"
     },
-    "sourceId": "precisionag",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
+    "sourceId": "lely",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
     "techTags": "",
     "qualityScore": 90,
+    "multiSourceCount": 1,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2025-03-05T00:00:00.000Z"
+    "publishedAt": ""
   },
   {
-    "id": "cmswkwewa002z6lkfjdmze00q",
+    "id": "cmt6l35vf01i3iuyj8ycpslka",
+    "titleEn": "ManureCreate a comfortable environment conducive to cow health",
+    "titleZh": "利拉伐粪便处理机器人：打造奶牛健康舒适环境",
+    "summaryZh": "本文介绍了利拉伐（Lely）的自动清粪机器人解决方案，包括Discovery Scraper（刮板式）和Discovery Collector（收集式）以及Lely Sphere循环粪污处理系统。这些机器人通过自主导航、全天候工作，减少人工劳动，改善牛舍卫生，降低蹄病和乳房炎风险，同时Lely Sphere将粪污转化为液态肥料，实现养分循环。文章还解答了常见问题，强调自动化是传统牧场升级的必然趋势。",
+    "featuredReason": "本文详细介绍了利拉伐在自动清粪和粪污资源化方面的最新机器人解决方案，结合了自动化、传感器导航和循环农业理念，对智慧畜牧从业者具有很高的参考价值。",
+    "url": "https://www.lely.com/solutions/manure/?epslanguage=en",
+    "source": {
+      "name": "Lely",
+      "nameZh": "Lely 自动化乳业",
+      "tier": "T1",
+      "sourceType": "厂商官网"
+    },
+    "sourceId": "lely",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 90,
+    "multiSourceCount": 1,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": ""
+  },
+  {
+    "id": "cmt6l2gb8002xiuyjl5tf0ti9",
     "titleEn": "BioScout raises $4.8m for early warning system for fungal pathogens",
-    "titleZh": "BioScout获480万美元融资，AI孢子早期预警系统助力真菌病害防控",
-    "summaryZh": "澳大利亚农业科技初创公司BioScout完成480万美元种子轮融资，其AI驱动的空气孢子早期预警系统可在田间病害症状显现前识别真菌病原体，帮助种植者精准施药、减少高达50%的杀菌剂使用。公司计划将全球传感器网络从250台扩展至1000台，并重点拓展欧洲市场。该技术已在马铃薯、大豆、葡萄等多种作物上验证，为作物病害防控提供了全新的数据驱动解决方案。",
-    "featuredReason": "BioScout的AI孢子早期预警系统代表了作物病害防控从被动应对向主动预警的重要转变，其技术路径和商业模式对智慧畜牧领域的生物安全监测与精准防控具有直接借鉴意义。",
+    "titleZh": "BioScout获480万美元融资，用AI孢子检测为真菌病害提供早期预警",
+    "summaryZh": "澳大利亚初创公司BioScout完成675万澳元（480万美元）种子轮融资，用于扩展其AI驱动的空气真菌孢子早期预警系统。该系统通过自动采集空气样本、显微成像和AI识别，可在作物出现可见症状前检测到40多种病原体，帮助种植者减少高达50%的杀菌剂喷洒。资金将用于拓展欧洲市场，并将全球传感器网络从250台扩展至1000台。",
+    "featuredReason": "该技术代表了精准农业中病害管理的前沿方向，其AI+物联网的孢子监测模式对智慧畜牧行业中的作物种植板块（如饲料原料生产）具有直接借鉴意义，展示了如何通过数据驱动减少化学品投入并提升风险管理能力。",
     "url": "https://agfundernews.com/bioscout-raises-4-8m-for-early-warning-system-for-fungal-pathogens",
     "source": {
       "name": "AgFunderNews",
       "nameZh": "农业科技投",
-      "tier": "T1"
+      "tier": "T1",
+      "sourceType": "行业新闻站"
     },
     "sourceId": "agfundernews",
     "species": "field",
@@ -105,8 +90,33 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 89,
+    "multiSourceCount": 1,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-08-07T01:25:30.000Z"
+  },
+  {
+    "id": "cmt6l2fjx000xiuyjfsnxc3z9",
+    "titleEn": "Smaller tractor, bigger return: a Kentucky farm’s case for going autonomous",
+    "titleZh": "小型拖拉机，更大回报：肯塔基农场的自主化案例",
+    "summaryZh": "美国肯塔基州Affinity Farms农场主Quint Pottinger通过加装Sabanto公司的自主改装套件，将两台300马力大型拖拉机和两台40英尺播种机替换为一台135马力小型拖拉机和20英尺播种机，实现了厘米级精度的自主播种，不仅提前10天完成播种，还节省了劳动力成本。这一案例展示了自主化技术在小规模农场中的经济可行性，为智慧农业提供了实践参考。",
+    "featuredReason": "该案例展示了自主化技术在小规模农场中的实际应用和经济效益，对于智慧畜牧行业探索自动化、智能化转型具有重要参考价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/autonomous-vehicles/smaller-tractor-bigger-return-a-kentucky-farm-s-case-for-going-autonomous/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 88,
+    "multiSourceCount": 1,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-08-03T08:00:00.000Z"
   }
 ]
