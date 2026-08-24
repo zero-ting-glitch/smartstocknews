@@ -18,7 +18,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 33,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-08-21T14:35:05.000Z"
@@ -42,7 +42,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 33,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-08-20T06:40:00.000Z"
@@ -66,7 +66,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 75,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": false,
     "isHot": true,
     "publishedAt": "2026-08-20T06:30:00.000Z"
@@ -90,7 +90,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 39,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-08-19T11:00:00.000Z"
@@ -114,7 +114,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 70,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-08-13T07:00:00.000Z"
@@ -138,7 +138,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 72,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-08-13T05:00:00.000Z"
@@ -162,7 +162,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 85,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-08-07T01:25:30.000Z"
@@ -186,7 +186,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 72,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-08-03T14:00:00.000Z"
@@ -210,7 +210,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 88,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-08-03T08:00:00.000Z"
@@ -234,7 +234,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 80,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-08-03T06:00:00.000Z"
@@ -258,7 +258,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 66,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-07-27T08:15:00.000Z"
@@ -360,6 +360,30 @@
     "publishedAt": "2026-07-20T06:00:00.000Z"
   },
   {
+    "id": "cmrujc84g009lr2zcgu1d71lg",
+    "titleEn": "农业无人机高温作业指南丨附快速自查清单",
+    "titleZh": "农业无人机高温作业指南丨附快速自查清单",
+    "summaryZh": "本文是大疆农业发布的夏季高温环境下农业无人机作业指南，系统梳理了作业前、中、后及应急处置四个环节的注意事项，涵盖电池温度监控、药剂配制、喷洒参数优化、人员防护等关键点，并附有快速自查清单。内容聚焦植保无人机在大田作物场景下的安全高效操作，对智慧畜牧中可能涉及的无人机巡检、饲草喷洒等场景有间接参考价值。",
+    "featuredReason": "虽然本文直接面向大田植保，但其中关于高温下电池管理、设备散热、应急处置等原则，对智慧畜牧中无人机牧场巡检、饲草喷洒等场景同样适用，且自查清单实操性强。",
+    "url": "https://mp.weixin.qq.com/s/I-J2cDbGGxfpSVXA5a9zGw",
+    "source": {
+      "name": "DJI大疆农业",
+      "nameZh": "DJI大疆农业",
+      "tier": "T1",
+      "sourceType": "微信公众号"
+    },
+    "sourceId": "wx_dji",
+    "species": "field",
+    "category": "aggtech",
+    "subcategory": "field",
+    "techTags": "needs_full_scrape",
+    "qualityScore": 78,
+    "multiSourceCount": 3,
+    "isFeatured": false,
+    "isHot": true,
+    "publishedAt": "2026-07-17T11:44:45.000Z"
+  },
+  {
     "id": "cmruikifx000j8jaqh6rg0eza",
     "titleEn": "Float Control connects tyre pressure control system to Trelleborg sensor",
     "titleZh": "Float Control将轮胎压力控制系统与特瑞堡传感器连接",
@@ -430,6 +454,30 @@
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-07-16T07:00:00.000Z"
+  },
+  {
+    "id": "cmrujc8e400alr2zc2v8xnaw5",
+    "titleEn": "烟草农业大模型发布",
+    "titleZh": "烟草农业大模型发布",
+    "summaryZh": "本文报道了烟草农业大模型“天叶大模型”在河南郑州发布。该模型采用LLM与Cross-Encoder双引擎、FAISS向量数据库及RAG模式，支持多模态输入和可视化输出。当前1.0版本聚焦烟草教学辅助、科研数据处理及病虫害图像识别；规划中的2.0和3.0版本将接入环境数据、构建三维模型并连接硬件设备，实现生长预测与田间管理。该模型展示了AI在垂直农业领域的深度应用，对智慧畜牧行业在技术架构和场景规划上具有借鉴意义。",
+    "featuredReason": "该模型的技术架构（RAG+多模态+动态路由）和分阶段落地路径（从知识问答到环境数据接入再到硬件联动）为智慧畜牧行业构建类似AI系统提供了可参考的范本，尤其适合养殖业知识库和智能决策系统的设计。",
+    "url": "https://mp.weixin.qq.com/s/rFP7a4cSFZszw_sAoxocHg",
+    "source": {
+      "name": "数字农业 Insights",
+      "nameZh": "数字农业 Insights",
+      "tier": "T1.5",
+      "sourceType": "微信公众号"
+    },
+    "sourceId": "wx_digits_agri",
+    "species": "field",
+    "category": "aggtech",
+    "subcategory": "field",
+    "techTags": "needs_full_scrape",
+    "qualityScore": 60,
+    "multiSourceCount": 3,
+    "isFeatured": false,
+    "isHot": true,
+    "publishedAt": "2026-07-15T23:30:00.000Z"
   },
   {
     "id": "cmruikvb4002b8jaq73oenocd",
@@ -739,9 +787,33 @@
     "techTags": "",
     "qualityScore": 80,
     "multiSourceCount": 5,
-    "isFeatured": false,
+    "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-24T13:19:17.000Z"
+  },
+  {
+    "id": "cmrujc85k009rr2zcy0xob8b0",
+    "titleEn": "黑土疆耕丨大疆农业与黑龙江的十年答卷",
+    "titleZh": "黑土疆耕丨大疆农业与黑龙江的十年答卷",
+    "summaryZh": "本文回顾了大疆农业无人机在黑龙江十年间的应用进化：从初代“会飞的打药机”到覆盖植保、追肥、撒种等全流程田间管理，作业效率提升近8倍，植保机械化率从不足12%跃升至95%。文章通过五常样本、飞手故事和服务网络建设，展示了无人机如何解决高秆作物和泥泞水田的作业难题，并降低了体力门槛，让老年人、残障人士也能参与现代农业。核心价值在于呈现了农业无人机从工具到系统、从硬件到服务的完整落地路径。",
+    "featuredReason": "虽然聚焦大田作物，但其中关于无人机在复杂环境下的自动化作业、RTK精准定位、变量作业等技术，以及“研发室搬到地头”的迭代逻辑，对智慧畜牧中机器人/自动化设备的研发与部署具有直接借鉴意义。",
+    "url": "https://mp.weixin.qq.com/s/j7hHSO4yKijX4_QEKaTo3Q",
+    "source": {
+      "name": "DJI大疆农业",
+      "nameZh": "DJI大疆农业",
+      "tier": "T1",
+      "sourceType": "微信公众号"
+    },
+    "sourceId": "wx_dji",
+    "species": "field",
+    "category": "aggtech",
+    "subcategory": "field",
+    "techTags": "needs_full_scrape",
+    "qualityScore": 85,
+    "multiSourceCount": 3,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-24T10:01:00.000Z"
   },
   {
     "id": "cmr2zkguy000vfjpsw3ihwljh",
@@ -811,7 +883,7 @@
     "techTags": "",
     "qualityScore": 80,
     "multiSourceCount": 5,
-    "isFeatured": false,
+    "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-22T06:00:00.000Z"
   },
@@ -835,7 +907,7 @@
     "techTags": "",
     "qualityScore": 80,
     "multiSourceCount": 1,
-    "isFeatured": false,
+    "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-18T07:00:00.000Z"
   },
@@ -1008,6 +1080,174 @@
     "publishedAt": "2026-05-28T07:00:00.000Z"
   },
   {
+    "id": "cmrvh8e6w001d94um2lq86qby",
+    "titleEn": "减少45%农药、单套售价6万欧元...精准喷洒的商业化时代开始了？",
+    "titleZh": "减少45%农药、单套售价6万欧元...精准喷洒的商业化时代开始了？",
+    "summaryZh": "该新闻报道了精准喷洒技术进入商业化阶段，通过传感器和AI算法实现农药减量45%，单套设备售价6万欧元。虽然技术本身属于智慧农业范畴，但主要针对大田作物（如小麦、玉米）的植保环节，与畜牧养殖业（猪、禽、牛、羊）的直接关联度较低。新闻强调了成本效益和环保价值，但缺乏对畜牧场景（如精准饲喂、环境监控）的延伸讨论。",
+    "featuredReason": "精准喷洒技术代表了农业自动化和AI在种植业的重要突破，对智慧畜牧行业的跨界技术借鉴（如精准用药、环境控制）有启发意义，但非直接相关。",
+    "url": "https://mp.weixin.qq.com/s/dwxdx1UAnuFMTg4askDj1A",
+    "source": {
+      "name": "数字农业 Insights",
+      "nameZh": "数字农业 Insights",
+      "tier": "T1.5",
+      "sourceType": "微信公众号"
+    },
+    "sourceId": "wx_digits_agri",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 44,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-05-09T16:16:20.000Z"
+  },
+  {
+    "id": "cmrvh8e84001l94umpvosht24",
+    "titleEn": "给拖拉机装\"大脑\"，久保田押注Agtonomy，推进特种作物农业自动化",
+    "titleZh": "给拖拉机装\"大脑\"，久保田押注Agtonomy，推进特种作物农业自动化",
+    "summaryZh": "久保田与Agtonomy合作，为拖拉机加装智能控制系统，推动特种作物（如果园、葡萄园等）的自动化作业。该系统通过AI视觉和传感器实现精准除草、喷洒等任务，减少人工依赖。虽主要面向种植业，但其自动化技术思路对智慧畜牧中的饲喂、环境控制等场景有间接参考价值，体现了农机智能化跨领域应用的潜力。",
+    "featuredReason": "该新闻展示了农机自动化在特种作物中的前沿实践，其AI+传感器集成方案对畜牧养殖自动化升级具有技术借鉴意义。",
+    "url": "https://mp.weixin.qq.com/s/rKL_SuPXRJx-pUASPdYYRw",
+    "source": {
+      "name": "数字农业 Insights",
+      "nameZh": "数字农业 Insights",
+      "tier": "T1.5",
+      "sourceType": "微信公众号"
+    },
+    "sourceId": "wx_digits_agri",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 52,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-05-05T12:50:14.000Z"
+  },
+  {
+    "id": "cmrujc88100a5r2zcdpc8nekf",
+    "titleEn": "大疆农业关于 2026 年《运行识别规范》适配升级的说明",
+    "titleZh": "大疆农业关于 2026 年《运行识别规范》适配升级的说明",
+    "summaryZh": "大疆农业发布关于2026年《民用无人驾驶航空器系统运行识别规范》适配升级的说明，要求自2026年11月1日起所有无人机须同时具备网络式和广播式运行识别功能。大疆已通过固件升级为现有用户提供过渡期支持，新购设备出厂即合规。该政策主要影响农业植保作业中的无人机使用，涉及大田作物等场景的飞防作业合规性。",
+    "featuredReason": "智慧畜牧行业虽以养殖为主，但无人机在牧场巡视、草场管理、饲料地植保中应用广泛，该政策直接影响牧场无人机作业的合规性，建议相关从业者关注升级时间节点。",
+    "url": "https://mp.weixin.qq.com/s/P5USkSYj5NNtifmr1A3eEA",
+    "source": {
+      "name": "DJI大疆农业",
+      "nameZh": "DJI大疆农业",
+      "tier": "T1",
+      "sourceType": "微信公众号"
+    },
+    "sourceId": "wx_dji",
+    "species": "field",
+    "category": "aggtech",
+    "subcategory": "field",
+    "techTags": "needs_full_scrape",
+    "qualityScore": 55,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-04-28T06:30:37.000Z"
+  },
+  {
+    "id": "cmrujc7z60095r2zcagtggwr9",
+    "titleEn": "【论文精选205】喷水均匀不等于根区水分均匀——直线移动喷灌土壤水分模拟研究",
+    "titleZh": "【论文精选205】喷水均匀不等于根区水分均匀——直线移动喷灌土壤水分模拟研究",
+    "summaryZh": "本文通过COMSOL-2D模型模拟直线移动喷灌条件下土壤水分运移，揭示了灌溉均匀度（CUi）与根区土壤水分均匀度（CUs）的关系。研究发现，灌后水分再分配可提升CUs，但低CUi仍会导致水分分布不均和深层渗漏风险。土壤质地和初始含水率显著影响水分再分布，粉质黏土CUs最高，壤土最低。量纲分析表明CUi是主导因素。研究为优化喷灌设计提供了理论依据，但模型未考虑大田异质性和作物根系影响。",
+    "featuredReason": "该研究揭示了喷灌均匀度与根区水分均匀度的深层关系，对智慧畜牧中牧草灌溉系统的精准设计具有参考价值，尤其适用于规模化牧场的水肥管理优化。",
+    "url": "https://mp.weixin.qq.com/s/r0MwDf3VRPgnIkVB6jXBMA",
+    "source": {
+      "name": "绿水智慧农业",
+      "nameZh": "绿水智慧农业",
+      "tier": "T1",
+      "sourceType": "微信公众号"
+    },
+    "sourceId": "wx_lvshui",
+    "species": "field",
+    "category": "aggtech",
+    "subcategory": "field",
+    "techTags": "needs_full_scrape",
+    "qualityScore": 46,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-04-20T02:19:54.000Z"
+  },
+  {
+    "id": "cmrujc7zh0097r2zcb6pnnju8",
+    "titleEn": "全国农技中心2026年水肥一体化提单产线上培训班日程",
+    "titleZh": "全国农技中心2026年水肥一体化提单产线上培训班日程",
+    "summaryZh": "全国农技中心将于2026年4月21日举办水肥一体化提单产线上培训班，通过“全国农技推广”微信公众号直播。培训聚焦大田作物水肥一体化技术，旨在提升作物单产，但内容未涉及智慧畜牧领域的IoT、AI、自动化等技术，与畜牧养殖业无直接关联。",
+    "featuredReason": "该培训虽属农业技术推广，但主题为水肥一体化，主要面向大田作物种植，与智慧畜牧行业的核心技术应用（如养殖自动化、传感器监测等）关联度低，仅可作为跨领域参考。",
+    "url": "https://mp.weixin.qq.com/s/kCSDOefhedOAfKKKE1whuQ",
+    "source": {
+      "name": "绿水智慧农业",
+      "nameZh": "绿水智慧农业",
+      "tier": "T1",
+      "sourceType": "微信公众号"
+    },
+    "sourceId": "wx_lvshui",
+    "species": "field",
+    "category": "aggtech",
+    "subcategory": "field",
+    "techTags": "needs_full_scrape",
+    "qualityScore": 31,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-04-19T05:26:05.000Z"
+  },
+  {
+    "id": "cmrujc80u009fr2zcimup773u",
+    "titleEn": "【论文精选202】基于高时间分辨率多源数据的深度学习大豆产量估算方法",
+    "titleZh": "【论文精选202】基于高时间分辨率多源数据的深度学习大豆产量估算方法",
+    "summaryZh": "该研究提出AGB-LSTM深度学习模型，融合图同构网络与注意力机制，利用哨兵2号、MODIS、GLDAS等多源高时间分辨率数据（5天步长），对美国县级大豆产量进行估算。模型在2023年独立测试中达到R²=0.67、rRMSE=14.46%，显著优于传统机器学习方法，并在极端气候事件下保持鲁棒性。研究验证了高时间分辨率时序数据对作物产量预测的提升作用，为智慧农业中的精准产量监测提供了新方法。",
+    "featuredReason": "该研究展示了深度学习与多源遥感数据在作物产量预测中的前沿应用，其高时间分辨率建模思路可迁移至畜牧领域的草场产量或饲料作物监测，对智慧畜牧行业的数据融合与预测技术具有参考价值。",
+    "url": "https://mp.weixin.qq.com/s/3H23J1-USXA8ixzfIwjjgw",
+    "source": {
+      "name": "绿水智慧农业",
+      "nameZh": "绿水智慧农业",
+      "tier": "T1",
+      "sourceType": "微信公众号"
+    },
+    "sourceId": "wx_lvshui",
+    "species": "field",
+    "category": "aggtech",
+    "subcategory": "field",
+    "techTags": "needs_full_scrape",
+    "qualityScore": 75,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": true,
+    "publishedAt": "2026-04-10T08:36:00.000Z"
+  },
+  {
+    "id": "cmrujc81k009jr2zcz8laum1n",
+    "titleEn": "【论文精选201】综合水氮管理如何让美国玉米大豆“从容应对”气候变暖",
+    "titleZh": "【论文精选201】综合水氮管理如何让美国玉米大豆“从容应对”气候变暖",
+    "summaryZh": "该研究基于2008-2020年美国县级玉米、大豆生产数据，构建作物回归模型，分析了1.5°C和3°C升温情景下综合水氮管理对产量的影响。结果表明，优化灌溉与氮投入可拓宽作物适宜气候区间，抵消气候引起的产量损失，同时显著减少不可持续灌溉用水（玉米减少56%-73%，大豆减少26%-28%），且对83%以上玉米和97%以上大豆生产具有经济可行性。研究为农业气候适应提供了科学依据。",
+    "featuredReason": "虽然该研究聚焦大田作物而非畜牧养殖，但其水氮协同优化思路和气候适应策略对智慧畜牧行业在饲料原料供应链管理、资源高效利用方面具有重要参考价值。",
+    "url": "https://mp.weixin.qq.com/s/J9sosTDqxgiqyF18-agErg",
+    "source": {
+      "name": "绿水智慧农业",
+      "nameZh": "绿水智慧农业",
+      "tier": "T1",
+      "sourceType": "微信公众号"
+    },
+    "sourceId": "wx_lvshui",
+    "species": "field",
+    "category": "aggtech",
+    "subcategory": "field",
+    "techTags": "needs_full_scrape",
+    "qualityScore": 57,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-04-08T06:56:23.000Z"
+  },
+  {
     "id": "cmruikh9a00098jaqzcvzcdr5",
     "titleEn": "New ARA 595 Sprayer Brings AI-Powered Precision to Irrigated Crops in the Western U.S.",
     "titleZh": "Ecorobotix在美国推出ARA 595超高精度喷雾机，AI驱动精准施药于灌溉作物",
@@ -1050,7 +1290,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 53,
-    "multiSourceCount": 2,
+    "multiSourceCount": 3,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2025-09-24T00:00:00.000Z"
@@ -1074,7 +1314,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 66,
-    "multiSourceCount": 2,
+    "multiSourceCount": 3,
     "isFeatured": true,
     "isHot": false,
     "publishedAt": "2025-03-05T00:00:00.000Z"
@@ -1098,7 +1338,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 59,
-    "multiSourceCount": 2,
+    "multiSourceCount": 3,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2025-01-22T00:00:00.000Z"

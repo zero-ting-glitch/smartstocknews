@@ -18,7 +18,7 @@
     "subcategory": "pig",
     "techTags": "",
     "qualityScore": 65,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": true,
     "isHot": false,
     "publishedAt": "2026-08-17T15:45:57.919Z"
@@ -262,6 +262,30 @@
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-06-16T16:39:25.000Z"
+  },
+  {
+    "id": "cmrvh8baf001594um0gom71vl",
+    "titleEn": "大模型巨头杀入农业！阿里云联手牧原，打造智能养猪大模型",
+    "titleZh": "阿里云联手牧原打造智能养猪大模型，大模型巨头杀入农业",
+    "summaryZh": "阿里云与牧原集团合作，推出智能养猪大模型，将大模型技术应用于生猪养殖全流程。该模型整合IoT、AI与自动化设备，实现猪只个体识别、健康监测、精准饲喂、环境调控等功能，旨在提升养殖效率、降低疫病风险。此举标志着大模型技术正式进入农业核心生产环节，对智慧畜牧行业具有里程碑意义。",
+    "featuredReason": "该新闻标志着大模型技术首次深度切入生猪养殖核心环节，阿里云与牧原的强强联合为智慧畜牧行业树立了标杆，对推动AI在养殖业的规模化落地具有重要示范意义。",
+    "url": "https://mp.weixin.qq.com/s/mKaJvLQOb8RrRJFHYg8MAQ",
+    "source": {
+      "name": "数字农业 Insights",
+      "nameZh": "数字农业 Insights",
+      "tier": "T1.5",
+      "sourceType": "微信公众号"
+    },
+    "sourceId": "wx_digits_agri",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 65,
+    "multiSourceCount": 1,
+    "isFeatured": true,
+    "isHot": false,
+    "publishedAt": "2026-06-01T14:18:28.000Z"
   },
   {
     "id": "cmt6p7kzp00qbbr172f9jh6l0",

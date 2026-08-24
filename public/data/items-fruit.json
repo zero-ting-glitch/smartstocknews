@@ -18,7 +18,7 @@
     "subcategory": "fruit",
     "techTags": "",
     "qualityScore": 79,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": false,
     "isHot": true,
     "publishedAt": "2026-08-18T06:30:00.000Z"
@@ -42,7 +42,7 @@
     "subcategory": "fruit",
     "techTags": "",
     "qualityScore": 75,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": false,
     "isHot": true,
     "publishedAt": "2026-08-17T07:00:47.000Z"
@@ -118,6 +118,30 @@
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-07-21T11:53:00.000Z"
+  },
+  {
+    "id": "cmrvh886t000394umrk8vue5p",
+    "titleEn": "豪赌柑橘采摘自动化，农业机器人公司Nanovel斩获250万欧元融资",
+    "titleZh": "豪赌柑橘采摘自动化，农业机器人公司Nanovel斩获250万欧元融资",
+    "summaryZh": "农业机器人公司Nanovel获得250万欧元融资，专注于柑橘采摘自动化技术。该技术旨在解决柑橘类水果采摘劳动力短缺、效率低下的痛点，通过计算机视觉和机械臂实现精准、无损采摘。虽然融资规模不大，但反映了农业机器人细分领域的资本关注。然而，该新闻与智慧畜牧（猪、禽、牛、羊等养殖业）的直接关联度较低，更多属于果蔬种植业的自动化范畴。",
+    "featuredReason": "该新闻展示了农业机器人技术在果蔬采摘领域的创新突破，对智慧种植业有参考价值，但作为智慧畜牧编辑，其直接相关性有限，可作为跨领域技术趋势的补充信息。",
+    "url": "https://mp.weixin.qq.com/s/avTutHb97UOGYc-l79_sTA",
+    "source": {
+      "name": "数字农业 Insights",
+      "nameZh": "数字农业 Insights",
+      "tier": "T1.5",
+      "sourceType": "微信公众号"
+    },
+    "sourceId": "wx_digits_agri",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 36,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-07-20T13:07:09.000Z"
   },
   {
     "id": "cmruimow200kr8jaqtb4w5xvx",
@@ -307,7 +331,7 @@
     "techTags": "",
     "qualityScore": 80,
     "multiSourceCount": 5,
-    "isFeatured": false,
+    "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-24T06:28:12.000Z"
   },
@@ -382,6 +406,78 @@
     "isFeatured": false,
     "isHot": true,
     "publishedAt": "2026-05-26T19:55:47.000Z"
+  },
+  {
+    "id": "cmrujc86b009vr2zcmvtg0ufx",
+    "titleEn": "云上疆果丨大疆农业助力茂名荔枝焕新",
+    "titleZh": "云上疆果丨大疆农业助力茂名荔枝焕新",
+    "summaryZh": "本文报道了大疆农业在广东茂名举办的荔枝应用场景推广会，展示了无人机在荔枝全生命周期中的作业方案，包括高效飞防（效率提升21倍、节省农药20%）和山地吊运（单日最高运3万斤、损耗率低于1%）。同时介绍了当地飞手培训增长（同比+100.9%）、无人机销量增长（+130.9%）以及年轻飞手转型技术型新农人的案例，体现了低空经济在果树种植中的落地实践。",
+    "featuredReason": "虽然主题是果树种植而非畜牧，但文中展示的无人机全流程作业（飞防+吊运）、效率数据、飞手服务模式及技术推广路径，对智慧畜牧行业探索无人机在牧场巡检、饲料运输、疫病防控等场景的应用具有直接借鉴意义。",
+    "url": "https://mp.weixin.qq.com/s/uRLlJr-2BDeJe3q7k-FEzw",
+    "source": {
+      "name": "DJI大疆农业",
+      "nameZh": "DJI大疆农业",
+      "tier": "T1",
+      "sourceType": "微信公众号"
+    },
+    "sourceId": "wx_dji",
+    "species": "fruit",
+    "category": "aggtech",
+    "subcategory": "fruit",
+    "techTags": "needs_full_scrape",
+    "qualityScore": 59,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-05-21T10:59:50.000Z"
+  },
+  {
+    "id": "cmrujc7yg0091r2zcqhyqn0bo",
+    "titleEn": "“云上科技小院”赋能京郊春耕生产——从数据汇聚到数智决策",
+    "titleZh": "“云上科技小院”赋能京郊春耕生产——从数据汇聚到数智决策",
+    "summaryZh": "本文报道了“北京科技小院云平台”在京郊春耕中的应用，通过部署110余台物联网设备（如土壤水热传感器、温湿度监测仪），实时采集土壤、气象等多源数据，为桃树品种更新和露地生菜种植提供精准决策支持。平台从数据汇聚向数智决策升级，推动果园和菜田的精细化、智慧化管理，助力京郊农业转型。",
+    "featuredReason": "尽管聚焦果蔬种植，但其多源物联网数据融合与数智决策架构对智慧畜牧的养殖环境监控、精准饲喂等场景具有直接借鉴意义，展示了农业物联网从数据采集到智能决策的完整路径。",
+    "url": "https://mp.weixin.qq.com/s/8xRHa3emFiorXWo7abXpfA",
+    "source": {
+      "name": "绿水智慧农业",
+      "nameZh": "绿水智慧农业",
+      "tier": "T1",
+      "sourceType": "微信公众号"
+    },
+    "sourceId": "wx_lvshui",
+    "species": "fruit",
+    "category": "aggtech",
+    "subcategory": "fruit",
+    "techTags": "needs_full_scrape",
+    "qualityScore": 66,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-04-21T12:51:14.000Z"
+  },
+  {
+    "id": "cmrujc815009hr2zc0tpgp4zj",
+    "titleEn": "【科技小院】南独乐河镇智慧农业科技小院开展家庭蔬菜种植技术培训",
+    "titleZh": "【科技小院】南独乐河镇智慧农业科技小院开展家庭蔬菜种植技术培训",
+    "summaryZh": "本文报道了平谷区南独乐河镇峰台村智慧农业科技小院于4月3日开展的家庭蔬菜种植技术培训活动。活动邀请北京市农林科学院专家王宝驹副研究员，围绕农家常种蔬菜的品种特征、播期管理、水肥及病虫害防控等关键技术进行讲解，并推介冰淇淋萝卜、赏食兼用羽衣甘蓝等特色品种。现场发放京研优种福袋，专家还介绍了红苋菜的营养与吃法。培训旨在提升村民种植技能，推动科技小院常态化技术培训，为乡村注入科技动能。",
+    "featuredReason": "该新闻展示了基层农业科技推广的实践模式，虽不直接涉及智慧畜牧，但其技术培训思路和科技小院模式对智慧畜牧行业的技术落地与人才培养具有借鉴意义。",
+    "url": "https://mp.weixin.qq.com/s/yd3NNqb7Md-yAbjJoq4CLQ",
+    "source": {
+      "name": "绿水智慧农业",
+      "nameZh": "绿水智慧农业",
+      "tier": "T1",
+      "sourceType": "微信公众号"
+    },
+    "sourceId": "wx_lvshui",
+    "species": "fruit",
+    "category": "aggtech",
+    "subcategory": "fruit",
+    "techTags": "needs_full_scrape",
+    "qualityScore": 37,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-04-08T06:56:23.000Z"
   },
   {
     "id": "cmruikh8q00038jaq0ygg33zl",

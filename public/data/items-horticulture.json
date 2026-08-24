@@ -235,8 +235,56 @@
     "techTags": "",
     "qualityScore": 80,
     "multiSourceCount": 1,
-    "isFeatured": false,
+    "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-06-16T07:00:00.000Z"
+  },
+  {
+    "id": "cmrujc8ar00a9r2zcp0r5e8ag",
+    "titleEn": "园艺盛会启幕｜中环易达E2A29，赴一场行业之约",
+    "titleZh": "园艺盛会启幕｜中环易达E2A29，赴一场行业之约",
+    "summaryZh": "本文报道中环易达参加2026中国国际花卉园艺展览会，展示其在设施园艺领域24年的深耕成果。公司依托中国农业科学院，聚焦数字设施农业、智能装备国产化及AI+设施农业，提供垂直农场、智能温室、人工光植物工厂等全产业链解决方案。已在全国承建100余个现代农业园区，其策划运营的国家农业科技创新园曾接待40多位外国元首。文章核心价值在于展示设施园艺与AI、物联网技术的融合实践，对智慧畜牧行业在自动化、智能化应用方面有间接参考意义。",
+    "featuredReason": "中环易达在设施园艺中应用的AI、物联网和智能装备技术，与智慧畜牧的自动化、数据化管理理念高度相通，可为养殖业智能化升级提供跨领域借鉴。",
+    "url": "https://mp.weixin.qq.com/s/-3OCHRk6Bvpt_lgz_rYMJg",
+    "source": {
+      "name": "中环易达",
+      "nameZh": "中环易达",
+      "tier": "T1",
+      "sourceType": "微信公众号"
+    },
+    "sourceId": "wx_zhonghuanyida",
+    "species": "horticulture",
+    "category": "aggtech",
+    "subcategory": "horticulture",
+    "techTags": "needs_full_scrape",
+    "qualityScore": 66,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-04-08T04:55:27.000Z"
+  },
+  {
+    "id": "cmrujc8b300abr2zci70guohb",
+    "titleEn": "中环易达携手生态伙伴，深耕中国设施园艺产业",
+    "titleZh": "中环易达携手生态伙伴，深耕中国设施园艺产业",
+    "summaryZh": "中环易达与荷兰Ammerlaan合作，在花卉园艺展上展示“A+温室工场”国产化项目，聚焦垂直农场和智能温室，引入荷兰精细化管理和低碳经验。荷兰驻华大使到访肯定中荷农业互补性。中环易达构建设施农业生态圈，整合全球资源提供从设计到运营的全周期服务，推动中国设施园艺产业升级。",
+    "featuredReason": "虽聚焦设施园艺，但其智能环控、自动化系统及生态圈模式对智慧畜牧的温室/环控技术应用有跨领域借鉴价值，尤其适合关注养殖环境智能化的从业者参考。",
+    "url": "https://mp.weixin.qq.com/s/dCXwYqqR4q23gQr_oRXNyg",
+    "source": {
+      "name": "中环易达",
+      "nameZh": "中环易达",
+      "tier": "T1",
+      "sourceType": "微信公众号"
+    },
+    "sourceId": "wx_zhonghuanyida",
+    "species": "horticulture",
+    "category": "aggtech",
+    "subcategory": "horticulture",
+    "techTags": "needs_full_scrape",
+    "qualityScore": 66,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2025-04-11T11:56:07.000Z"
   }
 ]

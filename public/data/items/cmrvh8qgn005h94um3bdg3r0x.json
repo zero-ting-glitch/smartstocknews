@@ -21,10 +21,10 @@
   "isFeatured": false,
   "isHot": false,
   "publishedAt": "2026-06-01T07:08:17.000Z",
-  "contentFull": "当前环境异常，完成验证后即可继续访问。 去验证 : ，.Video Mini Program Like，轻点两下取消赞 Wow，轻点两下取消在看",
+  "contentFull": "",
   "translationZh": "",
   "images": [],
   "author": "",
   "contentHtml": "在线水质监测仪帮邦魔盒24小时实时监测溶氧、水温、pH指标;\n\n溶氧低于设置下限自动电话报警;\n\n每天根据水质指标生成大数据分析报告！\n\n了解水质监测设备，请添加微信沟通 15965423396！",
-  "scrapeMethod": "web_scrape"
+  "scrapeMethod": "wechat_api"
 }
