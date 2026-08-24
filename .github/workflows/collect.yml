@@ -31,6 +31,11 @@ jobs:
       - name: Generate Prisma client
         run: npx prisma generate
 
+      - name: Seed database from repo archive
+        # DATABASE_URL=file:./dev.db 相对 schema 解析，管线实际读写 prisma/dev.db；
+        # 而跨周持久化的存档在仓库根目录 dev.db，开跑前先播种
+        run: cp dev.db prisma/dev.db
+
       - name: Initialize database
         env:
           DATABASE_URL: file:./dev.db
@@ -42,6 +47,11 @@ jobs:
           DEEPSEEK_BASE_URL: https://api.deepseek.com
           DATABASE_URL: file:./dev.db
         run: npx tsx scripts/run-pipeline.ts
+
+      - name: Write back database archive
+        # 把管线更新后的 prisma/dev.db 回写到根目录 dev.db（git 跟踪的存档），
+        # 供下一步随 public/data/ 一起提交，去重记忆跨周保留
+        run: cp prisma/dev.db dev.db
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@b863ae1933cb653a53c021fe36dbb774e1fb9403 # v5
