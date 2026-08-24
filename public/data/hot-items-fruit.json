@@ -1,10 +1,10 @@
 [
   {
-    "id": "cmt6l2fjj000liuyjzm9589cu",
+    "id": "cmt6p743z000lbr17yqzdm71r",
     "titleEn": "Sami Robotics scales up broccoli harvesting as it builds towards a multi-crop, multi-task platform",
-    "titleZh": "Sami Robotics扩大西兰花机器人采收规模，打造多作物、多任务农业机器人平台",
-    "summaryZh": "加拿大初创公司Sami Robotics的西兰花机器人采收系统已走出原型阶段，进入商业化部署。其平台采用12至18个机械臂并行作业，可识别并采收成熟蔬菜。公司正以西兰花和罗马生菜为先行作物，逐步拓展至结球生菜和花椰菜，并计划未来在同一平台上实现除草、间苗、施肥等多项田间任务，打造多功能农业机器人平台。",
-    "featuredReason": "该新闻展示了农业机器人从单一作物采收向多作物、多任务平台演进的趋势，其模块化多臂设计和AI感知技术对智慧畜牧领域的自动化升级具有重要借鉴意义。",
+    "titleZh": "Sami Robotics扩大西兰花收获规模，打造多作物多任务机器人平台",
+    "summaryZh": "加拿大初创公司Sami Robotics的西兰花收获机器人已从原型走向商业应用，采用12至18个机械臂并行作业，可识别并采摘成熟蔬菜。公司计划将同一平台扩展至生菜、花椰菜等作物，并未来实现除草、间苗、施肥等多项田间任务。该平台强调可扩展性和多任务能力，旨在解决劳动力短缺问题，提高收获效率。",
+    "featuredReason": "该新闻展示了农业机器人从单一作物向多作物、多任务平台演进的趋势，对智慧畜牧行业了解机器人技术跨界应用和劳动力替代方案具有参考价值。",
     "url": "https://www.futurefarming.com/crop-solutions/sami-robotics-scales-up-broccoli-harvesting-as-it-builds-towards-a-multi-crop-multi-task-platform/",
     "source": {
       "name": "Future Farming",
@@ -17,10 +17,106 @@
     "category": "crop",
     "subcategory": "fruit",
     "techTags": "",
-    "qualityScore": 77,
+    "qualityScore": 79,
     "multiSourceCount": 1,
     "isFeatured": false,
     "isHot": true,
     "publishedAt": "2026-08-18T06:30:00.000Z"
+  },
+  {
+    "id": "cmt6p7441000nbr1774qx5gff",
+    "titleEn": "Autonomous fruit implements are ready",
+    "titleZh": "自主水果农机已就绪",
+    "summaryZh": "荷兰兰德韦克水果研究中心举办的体验日展示了水果种植领域机器人化的最新进展，自主和半自主转向系统已接近成熟。制造商指出，这些技术从几年前的不成熟发展到如今几乎可商业化应用，为果农提供了实用解决方案。文章反映了机器人技术在果蔬种植中的实际应用趋势，对智慧农业从业者具有参考价值。",
+    "featuredReason": "本文展示了水果种植中自主农机的最新进展，与智慧畜牧领域的自动化、机器人技术趋势高度相关，为跨领域技术借鉴提供了实践案例。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/autonomous-fruit-implements-are-ready/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 75,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": true,
+    "publishedAt": "2026-08-17T07:00:47.000Z"
+  },
+  {
+    "id": "cmrujc8el00anr2zca1womwbh",
+    "titleEn": "飞行机器人采摘水果！这家AI公司融资1800万美元",
+    "titleZh": "飞行机器人采摘水果！这家AI公司融资1800万美元",
+    "summaryZh": "以色列农业科技公司Tevel Aerobotics Technologies完成1800万美元C轮融资，其核心产品为系留式飞行机器人编队（FAR），可24小时在果园中自主采摘苹果、桃、梨等多种水果。该技术利用AI视觉、边缘计算和无人机蜂群协作，解决了传统地面机械臂难以触及树冠内部的问题，并以机器人即服务（RaaS）模式在意大利、美国、智利等地商业化部署。尽管融资规模较B轮收窄，但日本农机巨头Kubota持续加注，显示行业对飞行采摘路线的关注。",
+    "featuredReason": "飞行机器人采摘方案在机动性和成本上对传统地面机械臂形成差异化优势，其AI视觉与边缘计算架构对智慧畜牧中的巡检、饲喂等场景有技术迁移参考价值。",
+    "url": "https://mp.weixin.qq.com/s/2gWnwKOfQ4MOIu5T3MLuqQ",
+    "source": {
+      "name": "数字农业 Insights",
+      "nameZh": "数字农业 Insights",
+      "tier": "T1.5",
+      "sourceType": "微信公众号"
+    },
+    "sourceId": "wx_digits_agri",
+    "species": "fruit",
+    "category": "aggtech",
+    "subcategory": "fruit",
+    "techTags": "needs_full_scrape",
+    "qualityScore": 50,
+    "multiSourceCount": 3,
+    "isFeatured": false,
+    "isHot": true,
+    "publishedAt": "2026-07-14T23:30:00.000Z"
+  },
+  {
+    "id": "cmruikih4000v8jaqirs5q33t",
+    "titleEn": "XAG launches RM80 unmanned mower, unveils new X Series drone system",
+    "titleZh": "极飞发布RM80无人割草机及全新X系列无人机系统",
+    "summaryZh": "极飞科技在广州农业机器人大会上推出RM80全电动无人割草机器人及新一代X系列农业无人机系统。RM80重143公斤，专为果园管理、土地开垦和田间秸秆清理设计，搭载双电池系统，续航40分钟，可自主覆盖0.33至0.53公顷/小时。X系列无人机系统包含无人机、XA1自动充电站和LM1药液混合单元，实现充电、加药、清洗全流程自动化，充电仅需3.5分钟，循环寿命达4000次。",
+    "featuredReason": "极飞RM80割草机器人和X系列无人机系统展示了果园管理中的地面与空中机器人协同作业，其自动化充电、加药和清洗流程对智慧畜牧中的饲草料种植和果园管理具有重要参考价值。",
+    "url": "https://www.futurefarming.com/smart-farming/xag-launches-rm80-unmanned-mower-unveils-new-x-series-drone-system/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 89,
+    "multiSourceCount": 4,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-10T09:00:00.000Z"
+  },
+  {
+    "id": "cmr2zkgu8000nfjps6ec4tmww",
+    "titleEn": "Agreenculture acquires Chouette to add agronomic intelligence to autonomous machines",
+    "titleZh": "Agreenculture收购Chouette：为自主农机注入农艺智能",
+    "summaryZh": "法国自主农机专家Agreenculture收购了专注于葡萄栽培AI农艺分析的公司Chouette，将自主导航技术与实时作物监测算法结合，使机器不仅能自主作业，还能解读田间数据。该技术已处理超2亿张图像，覆盖法国8%葡萄园，未来将扩展至果园等特种作物，旨在应对劳动力短缺、成本上升和农业环境转型等挑战。",
+    "featuredReason": "该案例展示了如何将AI农艺分析与自主农机深度融合，为智慧畜牧中类似场景（如果园、牧场监测）提供了可借鉴的技术路径和商业模式。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/agreenculture-acquires-chouette-to-add-agronomic-intelligence-to-autonomous-machines/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 80,
+    "multiSourceCount": 5,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-25T06:30:00.000Z"
   }
 ]

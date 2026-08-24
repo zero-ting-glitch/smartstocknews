@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "id": "cmruikk6y00238jaq4ohp59ha",
+    "titleEn": "Second 10-hectare expansion for Swedish grower officially opening during the Frövi Festival",
+    "titleZh": "瑞典番茄种植商第二座10公顷温室在弗勒维节期间正式启用",
+    "summaryZh": "瑞典ECA Operator Frövi AB公司第二座10公顷番茄温室将在2026年8月22日弗勒维节期间正式启用。该温室利用附近造纸厂的余热供暖，减少对天然气的依赖，旨在加强全年本土番茄生产。总经理强调人员管理对温室运营成功至关重要，并计划通过数据驱动的气候、灌溉和营养系统实现可持续生产。",
+    "featuredReason": "该新闻展示了工业余热与温室种植结合的可持续能源模式，对智慧农业中能源管理创新有参考价值，但内容偏重传统种植管理，与智慧畜牧核心（IoT/AI/自动化）关联度中等。",
+    "url": "https://www.freshplaza.com/north-america/article/9858986/second-10-hectare-expansion-for-swedish-grower-officially-opening-during-the-frovi-festival/",
+    "source": {
+      "name": "Fresh Plaza",
+      "nameZh": "新鲜广场",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "freshplaza",
+    "species": "horticulture",
+    "category": "crop",
+    "subcategory": "horticulture",
+    "techTags": "",
+    "qualityScore": 54,
+    "multiSourceCount": 4,
+    "isFeatured": false,
+    "isHot": true,
+    "publishedAt": "2026-07-20T11:54:00.000Z"
+  },
+  {
+    "id": "cmruikjkm001b8jaq17ln371b",
+    "titleEn": "Automation for the People: Technology for Small- and Mid-size Producers",
+    "titleZh": "以人为本的自动化：中小型生产者的适用技术",
+    "summaryZh": "本文针对中小型温室种植者，介绍了无需大规模投资即可采用的自动化技术，涵盖播种、移栽、环境控制、灌溉和施肥等环节。文章强调，自动化并非大型农场的专利，中小型生产者同样可以通过手持真空播种机、穴盘弹出器、阶梯控制器、毛细垫、滴灌和肥料注射器等工具，提升效率、降低成本并改善作物品质。核心观点是“节省分钟即节省小时”，鼓励生产者将节省的时间用于业务拓展。",
+    "featuredReason": "本文为中小型温室生产者提供了具体、可落地的自动化技术方案，强调‘规模无关性’，对智慧园艺领域的从业者具有直接指导意义，且内容清晰易懂，实践参考价值高。",
+    "url": "https://www.greenhousegrower.com/technology/automation-for-the-people-technology-for-small-and-mid-size-producers/",
+    "source": {
+      "name": "Greenhouse Grower",
+      "nameZh": "温室种植者",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "greenhousegrower",
+    "species": "horticulture",
+    "category": "crop",
+    "subcategory": "horticulture",
+    "techTags": "",
+    "qualityScore": 61,
+    "multiSourceCount": 4,
+    "isFeatured": false,
+    "isHot": true,
+    "publishedAt": "2026-07-15T16:00:00.000Z"
+  },
+  {
+    "id": "cmr2zkgvy0015fjps7uuduid1",
+    "titleEn": "From novelty to necessity: Why tulip growers are betting on robotic disease selection",
+    "titleZh": "从新奇到必需：郁金香种植者为何押注机器人病害筛选",
+    "summaryZh": "本文报道了H2L Selector 180和225两款机器人，它们能识别并处理郁金香花床中的病株，已售出139台，用户平均评分4.1/5。尽管机器人病害筛选正成为主流，但种植者强调，广泛采用仍需进一步提升可靠性和性能。文章通过四位用户的经验分享，展示了该技术在园艺领域的实际应用价值与挑战。",
+    "featuredReason": "虽然聚焦于园艺（郁金香），但机器人病害筛选技术、用户反馈与可靠性改进路径，对智慧畜牧中类似自动化病害检测（如猪只健康监测、禽类疫病识别）具有直接借鉴意义。",
+    "url": "https://www.futurefarming.com/smart-farming/from-novelty-to-necessity-why-tulip-growers-are-betting-on-robotic-disease-selection/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "horticulture",
+    "category": "crop",
+    "subcategory": "horticulture",
+    "techTags": "",
+    "qualityScore": 80,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": true,
+    "publishedAt": "2026-06-16T07:00:00.000Z"
+  }
+]

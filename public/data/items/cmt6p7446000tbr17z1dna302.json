@@ -1,0 +1,39 @@
+{
+  "id": "cmt6p7446000tbr17z1dna302",
+  "titleEn": "How AgXeed and TIM make tractors and machines autonomous",
+  "titleZh": "AgXeed与TIM推出改装套件，实现现有拖拉机与农机自动化",
+  "summaryZh": "荷兰制造商AgXeed推出VCU（车辆控制单元）和TCU（工具控制单元）改装套件，可将现有拖拉机及农机改造为自动驾驶设备。该方案基于其田间机器人技术理念，为承包商、种植户和养殖户提供无需购买新机器人即可实现现有车队自动化的途径，降低自动化门槛。",
+  "featuredReason": "该新闻展示了农机自动化从整机销售向存量设备改装延伸的趋势，为拥有现有农机资产的养殖和种植企业提供了低门槛的自动化升级路径，值得关注。",
+  "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/autonomous-vehicles/how-agxeed-and-tim-make-tractors-and-machines-autonomous/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "futurefarming",
+  "species": "general",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 75,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "isHot": true,
+  "publishedAt": "2026-08-06T06:00:00.000Z",
+  "contentFull": "How AgXeed and TIM make tractors and machines autonomous\n\n 06-08 | Autonomous vehicles | News\n\nLinkedInFacebookXWhatsAppPrint\n\nThe Dutch manufacturer AgXeed now also offers retrofit kits to make existing tractors and machines autonomous. Photos: René Koerhuis\n\n AgXeed can now make existing tractors and machines autonomous with VCU and TCU retrofit kits. This is based on the approach and philosophy familiar from field robots. Contractors, growers and livestock farmers who do not want to or cannot invest in a field robot, or who also want to integrate autonomy into their existing machinery fleet, can now turn to AgXeed. To this end, the manufacturer from Grubbenvorst, Limburg, is introducing the VCU (Vehicle Control Unit) and TCU (Tool Control Unit)\n\nLinkedInFacebookXWhatsAppPrint\n\n \n\n René Koerhuis Precision Farming Specialist\n\nMore about\n\nagxeed\n\nautonomy\n\nad\n\nLEARN MORE\n\nRelated articles\n\n21-08 | \n News\n\nAgtonomy adds autonomous multi-point turning and expands data capabilities\n\nPremium\n\n20-08 | \n Article\n\nLess soil compaction with autonomous tractor\n\n29-06 | \n News\n\nAgXeed’s VCU brings existing tractors into the autonomous fold\n\n09-04 | \n Video\n\nVIDEO | AgXeed Series 7 tested in the field: can it handle heavy tillage and tight headlands?\n\n \n\n Buyers guides & Catalogues\n\n \n\n Subscribe to our YouTube channel\n\n \n\n Taiwan Smart Agriweek 2026\n\nSep 8-10, 2026 TaiNEX 1, Tapei",
+  "translationZh": "荷兰制造商AgXeed现可凭借VCU（车辆控制单元）和TCU（工具控制单元）改装套件，使现有拖拉机及农机实现自动驾驶。这一方案基于其田间机器人所采用的技术路径与理念。对于不想或无力投资田间机器人，或希望将自动化集成到现有农机车队中的承包商、种植户和养殖户而言，现在可以求助于AgXeed。为此，这家来自林堡省格鲁本福斯特的制造商推出了VCU（车辆控制单元）和TCU（工具控制单元）。",
+  "images": [
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_848,h_565/https://www.futurefarming.com/app/uploads/2026/08/01-IMG_9043-resize-2000-848x565.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_300,h_300/https://www.futurefarming.com/app/uploads/2024/05/Rene-Koerhuis_web-300x300.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/08/Agtonomy_web-389x260.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/08/Autonomous-tractor-389x260.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/06/1-AgXeed-CU-clean-jpg-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/04/AgXeed-goed-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_818,h_619/https://www.futurefarming.com/app/uploads/2025/02/DG-Do-you-want-to-know-whats-happening-2.png",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.futurefarming.com/app/uploads/2026/05/taiwan-60x30-1.jpg"
+  ],
+  "author": "René Koerhuis",
+  "contentHtml": "AgXeed can now make existing tractors and machines autonomous with VCU and TCU retrofit kits. This is based on the approach and philosophy familiar from field robots.",
+  "scrapeMethod": "web_scrape"
+}

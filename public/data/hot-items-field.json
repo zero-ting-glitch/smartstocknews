@@ -1,10 +1,10 @@
 [
   {
-    "id": "cmt6l2fjh000jiuyjugwifn6w",
+    "id": "cmt6p743x000jbr17zql40n1q",
     "titleEn": "Less soil compaction with autonomous tractor",
     "titleZh": "自主拖拉机减少土壤压实",
-    "summaryZh": "英国农民Will Mumford在自家农田对比了AgXeed的AgBot自主拖拉机、传统轮式拖拉机配犁和Challenger履带式拖拉机，结果显示AgBot对土壤非常友好，压实更少。Mumford对AgBot非常满意，并愿意向任何人推荐。该报道展示了自主农机在保护土壤健康方面的潜力，对智慧农业实践具有参考价值。",
-    "featuredReason": "该新闻展示了自主拖拉机在减少土壤压实方面的实际效果，对智慧畜牧行业（尤其是种植业）的自动化与土壤保护实践具有启发意义。",
+    "summaryZh": "英国农民Will Mumford在自家农田对比了AgXeed的AgBot自主拖拉机、传统轮式拖拉机和Challenger履带式拖拉机，发现AgBot对土壤更友好，压实更少。Mumford对AgBot非常满意，并愿意推荐给其他农民。该案例展示了自主农机在保护土壤结构方面的潜力，对可持续农业有积极意义。",
+    "featuredReason": "该案例展示了自主农机在减少土壤压实方面的实际效果，对智慧畜牧行业中的大田作物种植环节具有参考价值，体现了自动化技术对可持续农业的贡献。",
     "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/autonomous-vehicles/less-soil-compaction-with-autonomous-tractor/",
     "source": {
       "name": "Future Farming",
@@ -17,42 +17,18 @@
     "category": "crop",
     "subcategory": "field",
     "techTags": "",
-    "qualityScore": 80,
-    "multiSourceCount": 1,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-08-20T06:30:00.000Z"
-  },
-  {
-    "id": "cmt6l2gb4002tiuyj28ag87fo",
-    "titleEn": "New FCC proposal could ‘retroactively ban’ some existing ag spray drones, warns DJI",
-    "titleZh": "DJI警告：FCC新提案可能“追溯性禁止”部分现有农用喷雾无人机",
-    "summaryZh": "美国联邦通信委员会（FCC）新提案拟禁止销售已被授权的外国制造“军用级”无人机，DJI指出该定义宽泛，可能涵盖农用喷雾无人机，构成“追溯性禁令”，影响美国农民和公共安全机构。此举将限制已获准产品的销售和零部件供应，增加成本，削弱美国农业竞争力。目前提案处于公众评议期，截止9月2日。",
-    "featuredReason": "该新闻直接影响美国农业无人机市场，对依赖无人机进行精准植保的智慧畜牧和种植业者具有重大政策风险提示，值得关注其后续进展。",
-    "url": "https://agfundernews.com/new-fcc-proposal-could-retroactively-ban-some-existing-ag-spray-drones-warns-dji",
-    "source": {
-      "name": "AgFunderNews",
-      "nameZh": "农业科技投",
-      "tier": "T1",
-      "sourceType": "行业新闻站"
-    },
-    "sourceId": "agfundernews",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
     "qualityScore": 75,
     "multiSourceCount": 1,
     "isFeatured": false,
     "isHot": true,
-    "publishedAt": "2026-08-07T22:29:46.000Z"
+    "publishedAt": "2026-08-20T06:30:00.000Z"
   },
   {
-    "id": "cmt6l2gb8002xiuyjl5tf0ti9",
+    "id": "cmt6p74uh002zbr17ateoqnlk",
     "titleEn": "BioScout raises $4.8m for early warning system for fungal pathogens",
-    "titleZh": "BioScout获480万美元融资，用AI孢子检测为真菌病害提供早期预警",
-    "summaryZh": "澳大利亚初创公司BioScout完成675万澳元（480万美元）种子轮融资，用于扩展其AI驱动的空气真菌孢子早期预警系统。该系统通过自动采集空气样本、显微成像和AI识别，可在作物出现可见症状前检测到40多种病原体，帮助种植者减少高达50%的杀菌剂喷洒。资金将用于拓展欧洲市场，并将全球传感器网络从250台扩展至1000台。",
-    "featuredReason": "该技术代表了精准农业中病害管理的前沿方向，其AI+物联网的孢子监测模式对智慧畜牧行业中的作物种植板块（如饲料原料生产）具有直接借鉴意义，展示了如何通过数据驱动减少化学品投入并提升风险管理能力。",
+    "titleZh": "BioScout获480万美元融资，用AI孢子检测为农作物建立真菌病害预警系统",
+    "summaryZh": "澳大利亚农业科技初创公司BioScout完成480万美元种子轮融资，其AI驱动的孢子检测预警系统可在大田作物出现可见病斑前识别空气中传播的真菌病原体，帮助种植者减少高达50%的杀菌剂施用。公司计划将全球传感器网络从250台扩展至1000台，并重点拓展欧洲市场，同时已在马铃薯、大豆、葡萄等多种作物上验证了技术有效性。",
+    "featuredReason": "该技术展示了AI+传感器在种植业病害防控中的前沿应用，其\"预警替代盲目喷洒\"的模式对智慧畜牧中疫病监测预警系统的构建具有直接借鉴意义，值得行业人士关注其技术路径和商业模式。",
     "url": "https://agfundernews.com/bioscout-raises-4-8m-for-early-warning-system-for-fungal-pathogens",
     "source": {
       "name": "AgFunderNews",
@@ -65,42 +41,18 @@
     "category": "crop",
     "subcategory": "field",
     "techTags": "",
-    "qualityScore": 89,
+    "qualityScore": 85,
     "multiSourceCount": 1,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-08-07T01:25:30.000Z"
   },
   {
-    "id": "cmt6l2fjv000viuyjoi24k7db",
-    "titleEn": "Homburg says goodbye to Escarda",
-    "titleZh": "Homburg终止与Escarda激光除草机器人合作",
-    "summaryZh": "荷兰进口商Homburg经过近两年测试后，决定终止与德国初创公司Escarda Technologies的合作，不再在荷兰和比利时代理其AI控制的激光除草机。该机器从未售出，性能、可靠性和易用性未达预期。Escarda刚被柏林工业集团收购并计划扩大生产，此次合作终止对其国际扩张计划造成打击。",
-    "featuredReason": "该新闻反映了AI激光除草技术在商业化落地中的现实挑战，对智慧农业领域的设备选型和合作决策具有警示意义。",
-    "url": "https://www.futurefarming.com/news/homburg-says-goodbye-to-escarda/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1",
-      "sourceType": "行业新闻站"
-    },
-    "sourceId": "futurefarming",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 75,
-    "multiSourceCount": 1,
-    "isFeatured": false,
-    "isHot": true,
-    "publishedAt": "2026-08-03T14:00:00.000Z"
-  },
-  {
-    "id": "cmt6l2fjx000xiuyjfsnxc3z9",
+    "id": "cmt6p744a000xbr17ha1w6mcy",
     "titleEn": "Smaller tractor, bigger return: a Kentucky farm’s case for going autonomous",
-    "titleZh": "小型拖拉机，更大回报：肯塔基农场的自主化案例",
-    "summaryZh": "美国肯塔基州Affinity Farms农场主Quint Pottinger通过加装Sabanto公司的自主改装套件，将两台300马力大型拖拉机和两台40英尺播种机替换为一台135马力小型拖拉机和20英尺播种机，实现了厘米级精度的自主播种，不仅提前10天完成播种，还节省了劳动力成本。这一案例展示了自主化技术在小规模农场中的经济可行性，为智慧农业提供了实践参考。",
-    "featuredReason": "该案例展示了自主化技术在小规模农场中的实际应用和经济效益，对于智慧畜牧行业探索自动化、智能化转型具有重要参考价值。",
+    "titleZh": "小型拖拉机，更大回报：肯塔基农场的自主化实践",
+    "summaryZh": "美国肯塔基州Affinity Farms农场主Quint Pottinger通过加装Sabanto公司的自主改装套件，将两台300马力大型拖拉机和两台40英尺播种机替换为一台135马力小型拖拉机和20英尺播种机，实现了厘米级精度的自主播种，不仅提前10天完成播种，还释放了劳动力。这一案例展示了自主技术在中小型农场中的经济可行性，为智慧农业设备选型提供了新思路。",
+    "featuredReason": "该案例展示了自主改装技术如何以低成本实现高精度作业，对智慧畜牧和种植业的设备升级具有直接参考价值，尤其适合关注降本增效的农场管理者。",
     "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/autonomous-vehicles/smaller-tractor-bigger-return-a-kentucky-farm-s-case-for-going-autonomous/",
     "source": {
       "name": "Future Farming",
@@ -118,5 +70,53 @@
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-08-03T08:00:00.000Z"
+  },
+  {
+    "id": "cmt6p744c000zbr17eud74lj3",
+    "titleEn": "Belgian Hands On Tech brings Chinese laser weeder to the Benelux",
+    "titleZh": "比利时Hands On Tech将中国激光除草机引入比荷卢地区",
+    "summaryZh": "比利时公司Hands On Tech开始进口中国CyanForce激光除草机至比荷卢地区，该设备在比利时Libramont展会上首次亮相。机器采用150瓦CO2激光，AI识别杂草并烧毁生长点，作业宽度1.2至6米，6米版每小时可处理1公顷，每分钟消灭12000株杂草。预计2026年底或2027年初上市，适用于蔬菜和大田作物，精度达1毫米。",
+    "featuredReason": "激光除草技术是精准农业的前沿方向，该新闻展示了AI与激光在杂草防控中的创新应用，对智慧畜牧行业中的种植业板块具有重要参考价值。",
+    "url": "https://www.futurefarming.com/smart-farming/belgian-hands-on-tech-brings-chinese-laser-weeder-to-the-benelux/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 80,
+    "multiSourceCount": 1,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-08-03T06:00:00.000Z"
+  },
+  {
+    "id": "cmt6p744h0015br17x1xgwrtb",
+    "titleEn": "How high-tech is making large-scale organic farming profitable",
+    "titleZh": "高科技如何让大规模有机农业盈利",
+    "summaryZh": "塞尔维亚LoginEKO农场通过结合再生农艺与先进管理软件、遥测技术、无人机、气象站和可追溯性工具，在3700公顷的土地上实践大规模有机农业，并证明了其商业可行性。文章详细介绍了该农场如何利用数据驱动决策，优化作物轮作、减少耕作、精准施肥和除草，从而实现盈利。对于智慧畜牧行业而言，其数据驱动的管理理念和技术集成方式具有重要借鉴意义。",
+    "featuredReason": "本文展示了数据驱动和智能技术在大型有机农场中的实际应用，为智慧畜牧行业提供了跨领域的技术集成和管理经验，值得借鉴。",
+    "url": "https://www.futurefarming.com/smart-farming/how-high-tech-is-making-large-scale-organic-farming-profitable/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 80,
+    "multiSourceCount": 1,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-22T06:00:00.000Z"
   }
 ]

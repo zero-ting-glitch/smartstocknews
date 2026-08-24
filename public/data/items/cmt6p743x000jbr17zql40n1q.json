@@ -1,0 +1,39 @@
+{
+  "id": "cmt6p743x000jbr17zql40n1q",
+  "titleEn": "Less soil compaction with autonomous tractor",
+  "titleZh": "自主拖拉机减少土壤压实",
+  "summaryZh": "英国农民Will Mumford在自家农田对比了AgXeed的AgBot自主拖拉机、传统轮式拖拉机和Challenger履带式拖拉机，发现AgBot对土壤更友好，压实更少。Mumford对AgBot非常满意，并愿意推荐给其他农民。该案例展示了自主农机在保护土壤结构方面的潜力，对可持续农业有积极意义。",
+  "featuredReason": "该案例展示了自主农机在减少土壤压实方面的实际效果，对智慧畜牧行业中的大田作物种植环节具有参考价值，体现了自动化技术对可持续农业的贡献。",
+  "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/autonomous-vehicles/less-soil-compaction-with-autonomous-tractor/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "futurefarming",
+  "species": "field",
+  "category": "crop",
+  "subcategory": "field",
+  "techTags": "",
+  "qualityScore": 75,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "isHot": true,
+  "publishedAt": "2026-08-20T06:30:00.000Z",
+  "contentFull": "Less soil compaction with autonomous tractor\n\n 20-08 | Autonomous vehicles | Article\n\nLinkedInFacebookXWhatsAppPrint\n\n British grower Will Mumford compared an AgBot from AgXeed on his farm with a wheeled tractor with plough and a Challenger tracked tractor. The AgBot proves to be very soil-friendly. British arable farmer Will Mumford in St Neots (Cambridgeshire) is one of the first arable farmers in England to work with the autonomous AgBot tractor from AgXeed. Mumford is very satisfied with it and would recommend the autonomous tractor to anyone. This advice does have a strong “turkeys voting for Christma\n\nLinkedInFacebookXWhatsAppPrint\n\n \n\n Martijn Knuivers Arable and machinery writer\n\nMore about\n\nAgBot\n\nagxeed\n\nautonomy\n\nad\n\nLEARN MORE\n\nRelated articles\n\n21-08 | \n News\n\nAgtonomy adds autonomous multi-point turning and expands data capabilities\n\nPremium\n\n06-08 | \n News\n\nHow AgXeed and TIM make tractors and machines autonomous\n\n29-06 | \n News\n\nAgXeed’s VCU brings existing tractors into the autonomous fold\n\n09-04 | \n Video\n\nVIDEO | AgXeed Series 7 tested in the field: can it handle heavy tillage and tight headlands?\n\n \n\n Buyers guides & Catalogues\n\n \n\n Subscribe to our YouTube channel\n\n \n\n Taiwan Smart Agriweek 2026\n\nSep 8-10, 2026 TaiNEX 1, Tapei",
+  "translationZh": "英国种植户威尔·芒福德（Will Mumford）在自家农田将AgXeed的AgBot与带犁的轮式拖拉机以及Challenger履带式拖拉机进行了对比。事实证明，AgBot对土壤非常友好。\n\n位于剑桥郡圣尼茨（St Neots）的英国大田作物农场主威尔·芒福德是英格兰首批使用AgXeed自主AgBot拖拉机的农民之一。芒福德对AgBot非常满意，并愿意向任何人推荐这款自主拖拉机。不过，这个建议确实带有强烈的“火鸡投票支持圣诞节”的意味——因为他本人就是AgBot的经销商。",
+  "images": [
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_848,h_565/https://www.futurefarming.com/app/uploads/2026/08/Autonomous-tractor-848x565.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_272,h_272/https://www.futurefarming.com/app/uploads/2021/02/Martijn-Knuivers.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/08/Agtonomy_web-389x260.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/08/01-IMG_9043-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/06/1-AgXeed-CU-clean-jpg-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/04/AgXeed-goed-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_818,h_619/https://www.futurefarming.com/app/uploads/2025/02/DG-Do-you-want-to-know-whats-happening-2.png",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.futurefarming.com/app/uploads/2026/05/taiwan-60x30-1.jpg"
+  ],
+  "author": "Martijn Knuivers",
+  "contentHtml": "British grower Will Mumford compared an AgBot from AgXeed on his farm with a wheeled tractor with plough and a Challenger tracked tractor. The AgBot proves to be very soil-friendly.",
+  "scrapeMethod": "web_scrape"
+}

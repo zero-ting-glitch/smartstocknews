@@ -1,0 +1,35 @@
+{
+  "id": "cmt6p7441000nbr1774qx5gff",
+  "titleEn": "Autonomous fruit implements are ready",
+  "titleZh": "自主水果农机已就绪",
+  "summaryZh": "荷兰兰德韦克水果研究中心举办的体验日展示了水果种植领域机器人化的最新进展，自主和半自主转向系统已接近成熟。制造商指出，这些技术从几年前的不成熟发展到如今几乎可商业化应用，为果农提供了实用解决方案。文章反映了机器人技术在果蔬种植中的实际应用趋势，对智慧农业从业者具有参考价值。",
+  "featuredReason": "本文展示了水果种植中自主农机的最新进展，与智慧畜牧领域的自动化、机器人技术趋势高度相关，为跨领域技术借鉴提供了实践案例。",
+  "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/autonomous-fruit-implements-are-ready/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "futurefarming",
+  "species": "fruit",
+  "category": "crop",
+  "subcategory": "fruit",
+  "techTags": "",
+  "qualityScore": 75,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "isHot": true,
+  "publishedAt": "2026-08-17T07:00:47.000Z",
+  "contentFull": "Autonomous fruit implements are ready\n\n 17-08 | Autonomous/semi-autosteering systems | Article\n\nLinkedInFacebookXWhatsAppPrint\n\nPhotos: Peter Roek\n\n Robotisation seems to be the magic word for getting work done on agricultural businesses and making them future-proof. What that could look like in fruit growing was recently shown at the Fruit Research Centre in the Dutch village of Randwijk. Developments that were still in their infancy a few years ago are now almost mature. The Experience Day proved to be a useful and, above all, practical opportunity to address many questions. These went in all directions, as one manufacturer noted\n\nLinkedInFacebookXWhatsAppPrint\n\n \n\n Joost Stallen arable writer for GF Actueel\n\nad\n\nLEARN MORE\n\n \n\n Buyers guides & Catalogues\n\n \n\n Subscribe to our YouTube channel\n\n \n\n Taiwan Smart Agriweek 2026\n\nSep 8-10, 2026 TaiNEX 1, Tapei",
+  "translationZh": "机器人化似乎是农业企业完成工作并使其面向未来的神奇词汇。这在水果种植中的具体应用，最近在荷兰兰德韦克村的水果研究中心得到了展示。几年前仍处于萌芽阶段的开发项目，如今已接近成熟。体验日被证明是一个有用且最重要的是实用的机会，可以解答许多问题。正如一位制造商所指出的，这些问题涉及各个方向。",
+  "images": [
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_848,h_565/https://www.futurefarming.com/app/uploads/2026/08/roe424901_16-1.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_272,h_272/https://www.futurefarming.com/app/uploads/2021/02/Joost-Stallen.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_818,h_619/https://www.futurefarming.com/app/uploads/2025/02/DG-Do-you-want-to-know-whats-happening-2.png",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.futurefarming.com/app/uploads/2026/05/taiwan-60x30-1.jpg"
+  ],
+  "author": "Joost Stallen",
+  "contentHtml": "Robotisation seems to be the magic word for getting work done on agricultural businesses and making them future-proof. What that could look like in fruit growing was recently shown at the Fruit Research Centre in the Dutch village of Randwijk. Developments that were still in their infancy a few years ago are now almost mature. […]",
+  "scrapeMethod": "web_scrape"
+}

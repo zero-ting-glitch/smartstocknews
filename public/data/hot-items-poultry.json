@@ -1,1 +1,98 @@
-[]
+[
+  {
+    "id": "cmruim1fn00998jaqkd9e1o7c",
+    "titleEn": "Poultry WorldHatchTech's 3-phase incubation aims to reshape hatchery managementJul 14Interview",
+    "titleZh": "HatchTech推出三阶段孵化概念：AI早期照蛋与精准温控重塑家禽孵化管理",
+    "summaryZh": "HatchTech在VIV Europe上发布三阶段孵化概念，挑战行业沿用数十年的两阶段标准。核心创新包括：利用AI驱动的SetGate系统在第9天进行早期照蛋，精准区分受精蛋与无精/死胚蛋，降低细菌负荷；结合SetCare的缓慢升温（0.1°F/小时）优化胚胎发育；以及HatchCare在出雏后立即提供饲料、水和光照。该方案可提高孵化器容量15%，并有望提升雏鸡质量与后续生产性能。",
+    "featuredReason": "该新闻展示了AI视觉识别（SetGate）、精准环境控制（SetCare缓慢升温）与自动化流程重组（三阶段孵化）在禽业孵化环节的深度集成，是智慧畜牧中“数据驱动+设备联动”的典型范例，对提升雏鸡质量与孵化效率具有显著实践价值。",
+    "url": "https://www.foodagribusiness.world/poultry/hatchtech-39-s-3-phase-incubation-aims-to-reshape-hatchery-management",
+    "source": {
+      "name": "Poultry World",
+      "nameZh": "禽业世界",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "poultryworld",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 75,
+    "multiSourceCount": 3,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-14T08:01:05.857Z"
+  },
+  {
+    "id": "cmruim1g5009d8jaqoyq7f09k",
+    "titleEn": "Poultry WorldPartnerCase study: Transforming hatchery operations with WingScanJul 7Video",
+    "titleZh": "WingScan自动化性别鉴定系统：意大利Capetta孵化场效率翻倍、人工减半",
+    "summaryZh": "意大利Capetta孵化场引入WingScan自动化雏鸡性别鉴定系统，成功解决劳动力短缺和人工鉴定不稳定的痛点。系统将每小时处理量从1.5-1.6万只提升至3.5-4万只，人工从10人减至4-5人（性别鉴定岗位仅需1人），工作工时从12小时缩短至6小时，错误率降至约1%。同时减少雏鸡多次人工接触，显著改善动物福利。该案例展示了自动化技术在禽业孵化环节的显著效益。",
+    "featuredReason": "该案例完整展示了自动化视觉识别系统在禽业孵化环节的落地效果，数据详实（吞吐量、人工、工时、准确率），对面临劳动力短缺的孵化场具有直接参考价值，是智慧畜牧中AI+机器视觉应用的典型范例。",
+    "url": "https://www.foodagribusiness.world/poultry/case-study-transforming-hatchery-operations-with-wingscan",
+    "source": {
+      "name": "Poultry World",
+      "nameZh": "禽业世界",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "poultryworld",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 76,
+    "multiSourceCount": 3,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-07-07T06:30:00.000Z"
+  },
+  {
+    "id": "cmruim1gc009f8jaqw9mirmap",
+    "titleEn": "Poultry WorldPartnerRoundtable: Experts discuss the future of broiler productionJun 23",
+    "titleZh": "家禽世界圆桌会议：专家探讨肉鸡生产未来",
+    "summaryZh": "本次圆桌会议聚焦当前及未来肉鸡生产的主要痛点，包括如何通过自动化、优质雏鸡和智能解决方案来最大化生产效益。专家来自Schothorst饲料研究、JBT Marel、Ramil Avicola和Targan等机构，共同探讨行业应对策略。内容虽未深入技术细节，但议题紧扣智慧畜牧中的自动化与智能方案，对禽业从业者具有较高参考价值。",
+    "featuredReason": "该新闻聚焦肉鸡生产中的自动化与智能解决方案，与智慧畜牧高度相关，且由行业权威媒体组织专家讨论，具有较高的实践参考价值和行业影响力。",
+    "url": "https://www.foodagribusiness.world/poultry/experts-discuss-the-future-of-broiler-production",
+    "source": {
+      "name": "Poultry World",
+      "nameZh": "禽业世界",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "poultryworld",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 67,
+    "multiSourceCount": 3,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-06-23T08:00:00.000Z"
+  },
+  {
+    "id": "cmruim1gk009h8jaqxuuw0po2",
+    "titleEn": "Poultry WorldPartnerBroiler meta-analyses link performance to sustainabilityJun 22",
+    "titleZh": "肉鸡荟萃分析：性能提升与可持续性协同发展",
+    "summaryZh": "本文通过三项荟萃分析，系统评估了酵母甘露聚糖、酵母细胞壁提取物和有机蛋白盐微量元素对肉鸡生产性能及环境足迹的影响。结果显示，改善饲料转化率、日增重和存活率可同步降低每公斤活重的温室气体排放强度，其中有机微量元素可减少15-21%的矿物质排泄。研究为肉鸡生产者提供了基于证据的营养优化方案，证明生产效率和可持续性可以双赢。",
+    "featuredReason": "本文通过三项荟萃分析为肉鸡生产者提供了基于证据的营养优化方案，直接关联生产效率和环境可持续性，具有高实践参考价值。",
+    "url": "https://www.foodagribusiness.world/poultry/broiler-meta-analyses-link-performance-to-sustainability",
+    "source": {
+      "name": "Poultry World",
+      "nameZh": "禽业世界",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "poultryworld",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 56,
+    "multiSourceCount": 3,
+    "isFeatured": false,
+    "isHot": true,
+    "publishedAt": "2026-06-22T11:48:59.915Z"
+  }
+]
