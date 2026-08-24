@@ -110,6 +110,10 @@ smartstock/
 
 Step 4 入口有内容完整性检查：如果 item 的 `contentFull` 和 `contentHtml` 都不足 100 字，则跳过 AI 处理，标记 `needs_full_scrape` 并重置爬取状态。防止只有标题的条目（产品页列表、空 RSS 条目）浪费 token 产出低质量评分。
 
+### skipContentScrape 源门禁（2026-08-24 加入）
+
+公众号等 `skipContentScrape` 源只有标题没有正文是设计如此，且 CI 访问不到本地微信服务。run-pipeline.ts 有三道门禁防止它们被误伤（8-24 曾因此被误降级 133 篇）：①"无正文重置"排除；②Step 3.5 相关性再评估跳过；③Step 3 全文爬取队列排除。任何新的"重置/重爬/再评估"机制都必须显式排除这类源。
+
 恢复脚本 `resume-ai.ts` 同样启用此守卫。详情见 `docs/handoff-2026-07.md` 中的踩坑记录。
 
 ### 翻译完整度保障
@@ -239,7 +243,7 @@ npx tsx scripts/fix-articles.ts          # 补爬+重跑 AI（针对缺正文就
 - 线上地址：https://zero-ting-glitch.github.io/smartstocknews/
 - GitHub 仓库：https://github.com/zero-ting-glitch/smartstocknews
 - 推送到 master 自动触发构建和部署
-- 采集工作流：GitHub Actions 每周一 08:07 自动运行 + 手动触发，运行管线后自动提交 `public/data/` 和 `dev.db`（CI 持久化数据库，2026-08-18 起入库，避免每周空库重跑）
+- 采集工作流：GitHub Actions 每周一 08:07 自动运行 + 手动触发，运行管线后自动提交 `public/data/` 和 `dev.db`（CI 持久化数据库，2026-08-18 起入库，避免每周空库重跑；2026-08-24 修正：采集前 `cp dev.db prisma/dev.db` 播种、提交前回写，因为管线实际读写 `prisma/dev.db`）
 - 本地预览成品：双击 `预览网站.bat`（静态服务 out/，端口 8080）
 - Secret 名称：`CFG_01`（DeepSeek API Key）
 

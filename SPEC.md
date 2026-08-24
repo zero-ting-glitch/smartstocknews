@@ -274,7 +274,7 @@ ADMIN_TOKEN=xxx
 
 - 静态导出：`npm run build` → `out/` 目录
 - GitHub Pages：push to master 自动构建部署
-- 采集：GitHub Actions 每周一 08:07 自动 + 手动触发，运行管线后自动提交 `public/data/` 和 `dev.db`（CI 持久化数据库，避免每周空库重跑）
+- 采集：GitHub Actions 每周一 08:07 自动 + 手动触发，运行管线后自动提交 `public/data/` 和 `dev.db`（CI 持久化数据库，避免每周空库重跑；2026-08-24 起采集前播种 `prisma/dev.db`、提交前回写；skipContentScrape 源有三道防误伤门禁，详见 CLAUDE.md）
 - Secret：`CFG_01`（DeepSeek API Key）
 
 ## 11. AI 接入接口（规划中，尚未实现）

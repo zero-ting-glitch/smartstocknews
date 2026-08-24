@@ -220,7 +220,7 @@ AI 处理前进行关键词预筛，降低成本：
 
 - Push to `master` → GitHub Actions 自动构建 → 部署到 GitHub Pages
 - 手动触发采集（或每周一 08:07 自动）：GitHub Actions → "采集 + AI处理 + 导出" → Run workflow
-- 采集完成后自动提交 `public/data/` 和 `dev.db`（CI 持久化数据库）
+- 采集完成后自动提交 `public/data/` 和 `dev.db`（CI 持久化数据库，采集前播种 `prisma/dev.db`、提交前回写）
 
 ### 线上地址
 
