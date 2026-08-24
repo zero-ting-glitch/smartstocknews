@@ -604,6 +604,12 @@ async function main() {
   // Step 1: 同步信源
   console.log('[1/5] 同步信源...');
   const config = loadSources();
+  // 公众号等 skipContentScrape 源：只有标题没有正文是设计如此（正文爬不了），
+  // 不参与 Step 3 的"无正文重置"和 Step 3.5 的"相关性再评估"，
+  // 否则在 CI（访问不到本地微信服务）会被误判成"爬取失败"→ 重爬无果 → 误降级
+  const skipScrapeSourceIds = new Set<string>(
+    config.sources.filter((s: any) => s.skipContentScrape === true).map((s: any) => s.id)
+  );
   for (const source of config.sources) {
     await prisma.source.upsert({
       where: { id: source.id },
@@ -750,7 +756,13 @@ async function main() {
 
   // 前置：重置 contentFull 为空但已标记爬取的文章（上次爬取失败或数据丢失）
   const emptyContentItems = await prisma.item.findMany({
-    where: { isRelevant: true, contentFull: null, scrapedAt: { not: null } },
+    where: {
+      isRelevant: true,
+      contentFull: null,
+      scrapedAt: { not: null },
+      // 门禁①：skipContentScrape 源（公众号）无正文是设计如此，永远不该被重置重爬
+      ...(skipScrapeSourceIds.size ? { sourceId: { notIn: [...skipScrapeSourceIds] } } : {}),
+    },
     select: { id: true },
   });
   if (emptyContentItems.length > 0) {
@@ -786,6 +798,8 @@ async function main() {
       include: { source: true },
     });
     for (const item of existingItems) {
+      // 门禁②：skipContentScrape 源（公众号）只有标题，不参与相关性再评估
+      if (skipScrapeSourceIds.has(item.sourceId)) continue;
       const kw = sourceKwMap[item.sourceId];
       if (!kw) continue;
       const text = `${item.titleEn} ${item.contentHtml || ''} ${item.contentFull || ''}`.toLowerCase();
