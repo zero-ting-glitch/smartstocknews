@@ -776,7 +776,13 @@ async function main() {
   }
 
   const unscraped = await prisma.item.findMany({
-    where: { scrapedAt: null, isRelevant: true },
+    where: {
+      scrapedAt: null,
+      isRelevant: true,
+      // 门禁③：skipContentScrape 源（公众号）在 CI 永远爬不到正文，
+      // 不进爬取队列（否则爬取落空后会被 3.5/3.7 的再评估误降级）
+      ...(skipScrapeSourceIds.size ? { sourceId: { notIn: [...skipScrapeSourceIds] } } : {}),
+    },
     include: { source: true },
   });
   const { scraped: scrapedCount, failed: failedCount, scrapedIds } = await scrapeArticlesBatch(unscraped);
