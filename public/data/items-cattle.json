@@ -1,5 +1,77 @@
 [
   {
+    "id": "cmtgsnwqb005f8ahsy9sls5g9",
+    "titleEn": "Neogenyx builds Nebraska RNG facility at Adams Land &amp; Cattle",
+    "titleZh": "Neogenyx在Adams Land & Cattle建设内布拉斯加州RNG设施",
+    "summaryZh": "Neogenyx公司将在内布拉斯加州Broken Bow的Adams Land & Cattle育肥场建设可再生天然气（RNG）设施，采用8个厌氧消化器，每年产生4,400 SCFM沼气。该项目将牛粪转化为清洁能源，属于畜牧废弃物资源化利用范畴，虽不涉及IoT/AI等智慧技术，但对牛业可持续发展具有环保意义。",
+    "featuredReason": "该新闻展示了畜牧废弃物资源化利用的实践案例，对牛业从业者了解RNG项目模式具有参考价值，但缺乏智慧畜牧核心技术内容。",
+    "url": "https://www.beefmagazine.com/market-news/neogenyx-builds-nebraska-rng-facility-at-adams-land-cattle",
+    "source": {
+      "name": "Beef Magazine",
+      "nameZh": "肉牛杂志",
+      "tier": "T2",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "beefmagazine",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 23,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-08-28T16:02:56.000Z"
+  },
+  {
+    "id": "cmtgsnwqu005v8ahsbecrkiyw",
+    "titleEn": "ZELP launches wearable device to measure livestock emissions",
+    "titleZh": "ZELP推出可穿戴设备用于测量牲畜排放",
+    "summaryZh": "ZELP公司推出了一款可穿戴传感器设备，可实时测量牲畜（主要是牛）的甲烷排放量。该设备佩戴在动物身上，通过传感器收集数据并传输至管理平台，帮助牧场主精准掌握每头牲畜的排放情况，为碳足迹管理和减排策略制定提供数据支撑。这标志着畜牧业碳计量从估算走向精准监测，是智慧畜牧与环保结合的重要创新。",
+    "featuredReason": "该产品将IoT传感器技术直接应用于牲畜碳排放的精准监测，是智慧畜牧与碳中和目标结合的前沿实践，对牧场环保管理和碳交易具有直接参考价值。",
+    "url": "https://www.beefmagazine.com/farm-business-management/zelp-launches-wearable-device-to-measure-livestock-emissions",
+    "source": {
+      "name": "Beef Magazine",
+      "nameZh": "肉牛杂志",
+      "tier": "T2",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "beefmagazine",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 35,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-08-26T14:04:38.000Z"
+  },
+  {
+    "id": "cmtgsnwqw005x8ahsr6asd7fm",
+    "titleEn": "Breedr raises $27M to digitize beef supply chain",
+    "titleZh": "Breedr融资2700万美元，推动肉牛供应链数字化",
+    "summaryZh": "英国农业科技公司Breedr完成2700万美元A轮融资，用于扩展其肉牛供应链数字化平台。该平台通过数据追踪、动物个体管理和市场对接，帮助牧场主提高生产效率、减少碳排放，并优化牲畜交易。此轮融资由欧洲风险投资公司领投，资金将用于产品研发、市场拓展及团队建设。此举标志着智慧畜牧在肉牛领域的应用进一步深化，为行业提供了可借鉴的数字化转型路径。",
+    "featuredReason": "Breedr的融资和扩张计划展示了肉牛供应链数字化的巨大潜力，为智慧畜牧从业者提供了如何利用数据工具提升效率、降低碳足迹并优化交易的现实案例，值得关注和借鉴。",
+    "url": "https://www.beefmagazine.com/livestock-management/breedr-raises-27m-to-digitize-beef-supply-chain",
+    "source": {
+      "name": "Beef Magazine",
+      "nameZh": "肉牛杂志",
+      "tier": "T2",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "beefmagazine",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 35,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-08-26T12:07:07.000Z"
+  },
+  {
     "id": "cmt6p88y001m1br17v5enbs4z",
     "titleEn": "Offaly dairy farm extends grazing season with Lely Grazeway",
     "titleZh": "奥法利郡奶牛场借助Lely Grazeway延长放牧季节",

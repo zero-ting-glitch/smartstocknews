@@ -1,5 +1,29 @@
 [
   {
+    "id": "cmtgsnmsw000j8ahseee56kxa",
+    "titleEn": "CropX acquires SCIO to link agronomy with crop quality data",
+    "titleZh": "CropX收购SCIO，将农艺管理与作物品质数据相连",
+    "summaryZh": "数字农艺公司CropX Technologies收购了便携式近红外光谱技术开发商SCIO，旨在将生长季的农艺建议与收获时的作物品质和成分测量数据连接起来，形成反馈闭环。SCIO的技术组合包括44项授权专利和不断增长的SaaS业务，其产品可应用于种子、谷物、油籽、饲料、牧草、浆果和甜玉米等。此次收购是CropX自2020年以来的第八次收购，其平台已在70多个国家使用。",
+    "featuredReason": "该收购展示了数字农业与传感器技术融合的趋势，对智慧畜牧行业在精准管理、数据闭环和品质追溯方面具有借鉴意义。",
+    "url": "https://www.futurefarming.com/smart-farming/cropx-acquires-scio-to-link-agronomy-with-crop-quality-data/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 80,
+    "multiSourceCount": 1,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-08-27T06:00:15.000Z"
+  },
+  {
     "id": "cmt6p74ts002dbr17cjcqno5k",
     "titleEn": "Guest article: The field day is the new term sheet; how growers are vetting ag robotics for real-use application",
     "titleZh": "田间日取代投资条款清单：种植户如何实地考察农业机器人真实应用",
@@ -18,7 +42,7 @@
     "subcategory": "general",
     "techTags": "",
     "qualityScore": 80,
-    "multiSourceCount": 3,
+    "multiSourceCount": 4,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-08-19T07:01:09.000Z"
@@ -66,7 +90,7 @@
     "subcategory": "general",
     "techTags": "",
     "qualityScore": 75,
-    "multiSourceCount": 3,
+    "multiSourceCount": 4,
     "isFeatured": false,
     "isHot": true,
     "publishedAt": "2026-08-06T06:00:00.000Z"
@@ -88,35 +112,11 @@
     "species": "general",
     "category": "aggtech",
     "subcategory": "general",
-    "techTags": "needs_full_scrape,needs_full_scrape",
+    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape",
     "qualityScore": 66,
     "multiSourceCount": 3,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-07-21T10:00:00.000Z"
-  },
-  {
-    "id": "cmrujc8h400atr2zczyjp9fy3",
-    "titleEn": "循环水养殖必看：六大误区+全流程步骤！（附标准流程图）",
-    "titleZh": "循环水养殖必看：六大误区+全流程步骤！（附标准流程图）",
-    "summaryZh": "本文系统梳理了工厂化循环水养殖从前期规划、方案设计、施工安装到调试运营的全流程步骤，并总结了六大常见误区（如重设备轻设计、重建设轻运营、盲目追求高密度等）。文章强调循环水养殖是系统工程，而非设备堆砌，并介绍了全流程陪跑服务模式。内容偏重实战经验与避坑指南，对水产养殖从业者具有较高参考价值。",
-    "featuredReason": "本文系统拆解了循环水养殖的全流程落地步骤与常见误区，对智慧畜牧领域从业者理解工业化水产养殖的工程化、系统化思维具有参考意义，尤其适合关注水产自动化与智能化转型的读者。",
-    "url": "https://mp.weixin.qq.com/s/uLqHCloTGqKGZLr4-PsySw",
-    "source": {
-      "name": "智慧水产",
-      "nameZh": "智慧水产",
-      "tier": "T1.5",
-      "sourceType": "微信公众号"
-    },
-    "sourceId": "wx_shuichan",
-    "species": "general",
-    "category": "aggtech",
-    "subcategory": "general",
-    "techTags": "needs_full_scrape,needs_full_scrape",
-    "qualityScore": 57,
-    "multiSourceCount": 3,
-    "isFeatured": false,
-    "isHot": true,
-    "publishedAt": "2026-07-21T09:00:00.000Z"
   }
 ]

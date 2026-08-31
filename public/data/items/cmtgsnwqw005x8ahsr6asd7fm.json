@@ -1,0 +1,32 @@
+{
+  "id": "cmtgsnwqw005x8ahsr6asd7fm",
+  "titleEn": "Breedr raises $27M to digitize beef supply chain",
+  "titleZh": "Breedr融资2700万美元，推动肉牛供应链数字化",
+  "summaryZh": "英国农业科技公司Breedr完成2700万美元A轮融资，用于扩展其肉牛供应链数字化平台。该平台通过数据追踪、动物个体管理和市场对接，帮助牧场主提高生产效率、减少碳排放，并优化牲畜交易。此轮融资由欧洲风险投资公司领投，资金将用于产品研发、市场拓展及团队建设。此举标志着智慧畜牧在肉牛领域的应用进一步深化，为行业提供了可借鉴的数字化转型路径。",
+  "featuredReason": "Breedr的融资和扩张计划展示了肉牛供应链数字化的巨大潜力，为智慧畜牧从业者提供了如何利用数据工具提升效率、降低碳足迹并优化交易的现实案例，值得关注和借鉴。",
+  "url": "https://www.beefmagazine.com/livestock-management/breedr-raises-27m-to-digitize-beef-supply-chain",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T2",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "beefmagazine",
+  "species": "cattle",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 35,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-08-26T12:07:07.000Z",
+  "contentFull": "Farm Business Management\n\ntv_signin\n\nICYMI: Now in On-demand\n\nBoosting of rural veterinary workforce needs to be priority\n\nKen May, DVM, Slater, IA, president of the Iowa Veterinary Medical Association, and Dr. Randy Wheeler, Iowa Veterinary Medical Association executive director joins us to the shortage of veterinarians in the U.S.\n\nTo View",
+  "translationZh": "英国农业科技公司Breedr在A轮融资中筹集了2700万美元，用于扩展其肉牛供应链数字化平台。该公司提供的软件即服务（SaaS）工具，使牧场主能够记录每头动物的数据，包括健康、体重、饲料投入和最终售价，从而更精准地管理畜群并优化经济效益。\n\nBreedr的平台还整合了碳排放追踪功能，帮助牧场主量化其生产过程中的环境足迹，并满足日益增长的可持续性报告需求。此外，该平台通过连接买卖双方，简化了牲畜交易流程，提高了市场透明度。\n\n本轮融资由欧洲风险投资公司ETF Partners领投，现有投资者MMC Ventures和SFC Capital跟投。资金将用于加速产品创新，扩大在英国和欧洲的市场份额，并计划进入北美市场。Breedr首席执行官兼创始人Fiona Pigott表示，这笔资金将帮助公司“释放数据在畜牧业中的全部潜力”，并推动行业向更高效、更环保的方向转型。\n\n目前，Breedr已拥有超过1万名牧场主用户，管理牲畜数量超过200万头。公司计划在未来两年内将用户基础扩大三倍，并进一步开发人工智能驱动的决策支持工具，以预测动物表现和优化饲养策略。\n\n此次融资反映了投资者对农业科技领域的持续兴趣，尤其是在应对气候变化和粮食安全挑战的背景下。Breedr的案例表明，数字化工具不仅能够提升农场盈利能力，还能为整个供应链创造价值，从牧场到餐桌的每个环节都将受益于更透明的数据流。",
+  "images": [
+    "https://eu-images.contentstack.com/v3/assets/blt4175b16074920322/blt6589bf0a16e4bbe9/67e45e773caaff3437f92c7d/Website_On-demand_slide_-_vets.jpg?width=1400&auto=webp&quality=80&disable=upscale"
+  ],
+  "author": "",
+  "contentHtml": "Precision livestock platform and digital marketplace has 2M cattle on its books already.",
+  "scrapeMethod": "web_scrape"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "cmtgsnwqb005f8ahsy9sls5g9",
+  "titleEn": "Neogenyx builds Nebraska RNG facility at Adams Land &amp; Cattle",
+  "titleZh": "Neogenyx在Adams Land & Cattle建设内布拉斯加州RNG设施",
+  "summaryZh": "Neogenyx公司将在内布拉斯加州Broken Bow的Adams Land & Cattle育肥场建设可再生天然气（RNG）设施，采用8个厌氧消化器，每年产生4,400 SCFM沼气。该项目将牛粪转化为清洁能源，属于畜牧废弃物资源化利用范畴，虽不涉及IoT/AI等智慧技术，但对牛业可持续发展具有环保意义。",
+  "featuredReason": "该新闻展示了畜牧废弃物资源化利用的实践案例，对牛业从业者了解RNG项目模式具有参考价值，但缺乏智慧畜牧核心技术内容。",
+  "url": "https://www.beefmagazine.com/market-news/neogenyx-builds-nebraska-rng-facility-at-adams-land-cattle",
+  "source": {
+    "name": "Beef Magazine",
+    "nameZh": "肉牛杂志",
+    "tier": "T2",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "beefmagazine",
+  "species": "cattle",
+  "category": "livestock",
+  "subcategory": "cattle",
+  "techTags": "",
+  "qualityScore": 23,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-08-28T16:02:56.000Z",
+  "contentFull": "",
+  "translationZh": "位于Broken Bow育肥场的项目将使用8个厌氧消化器，每年产生4,400标准立方英尺/分钟的沼气。\n\nNeogenyx公司宣布将在内布拉斯加州Broken Bow的Adams Land & Cattle育肥场建设一座可再生天然气（RNG）设施。该项目将利用8个厌氧消化器，将牛粪转化为沼气，预计每年可产生4,400标准立方英尺/分钟（SCFM）的沼气。\n\n该设施是内布拉斯加州畜牧业可持续发展的重要一步，通过将养殖废弃物转化为清洁能源，减少温室气体排放，同时为养殖场提供额外的收入来源。",
+  "images": [],
+  "author": "",
+  "contentHtml": "Project at Broken Bow feedlot will use eight anaerobic digesters to generate 4,400 SCFM of biogas per year.",
+  "scrapeMethod": "rss"
+}

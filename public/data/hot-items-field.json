@@ -1,5 +1,53 @@
 [
   {
+    "id": "cmtgsnmsy000l8ahs0d1lcy2o",
+    "titleEn": "Solinftec expands Solix fleet after 85% average chemical reduction",
+    "titleZh": "Solinftec扩大Solix机器人车队规模，平均化学药剂用量减少85%",
+    "summaryZh": "Solinftec宣布其Solix自主田间机器人平台在2026年商业季取得重大突破：超100台机器人在美国13个州和波多黎各作业，覆盖超5.5万英亩，平均减少化学药剂使用85%。公司同步推进自主补给站商业化，并计划推出四款动力版本机型，其中柴油版XR将于2027年上市。",
+    "featuredReason": "该新闻展示了AI与机器人技术在精准植保领域的商业化落地成果，其85%的化学药剂减量数据对智慧畜牧行业中的种植业板块（饲料原料生产）具有直接借鉴意义，同时自主补给站的创新模式也为养殖场自动化管理提供了技术迁移思路。",
+    "url": "https://www.futurefarming.com/crop-solutions/weed-pest-control/solinftec-expands-solix-fleet-after-85-average-chemical-reduction/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 81,
+    "multiSourceCount": 1,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-08-26T07:37:57.000Z"
+  },
+  {
+    "id": "cmtgsnmt0000n8ahsc0g2ccng",
+    "titleEn": "‘The robot does its job, the weather determines the opportunities’",
+    "titleZh": "机器人除草，天气定机遇",
+    "summaryZh": "荷兰Poppe农场在2026年采用Andeta机器人行内除草与Electro Weeder行间除草的组合方案，有效应对洋葱田杂草问题。文章强调机器人作业效率受天气可作业天数制约，并指出在杂草较大时仍需人工干预，为智能除草技术的实际应用提供了宝贵经验。",
+    "featuredReason": "本文展示了机器人与电动除草技术在洋葱田的实际应用效果，强调了天气对作业窗口的影响，对智慧畜牧行业中的精准农业和自动化应用具有参考价值。",
+    "url": "https://www.futurefarming.com/crop-solutions/weed-pest-control/the-robot-does-its-job-the-weather-determines-the-opportunities/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 82,
+    "multiSourceCount": 1,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-08-25T07:41:17.000Z"
+  },
+  {
     "id": "cmt6p743x000jbr17zql40n1q",
     "titleEn": "Less soil compaction with autonomous tractor",
     "titleZh": "自主拖拉机减少土壤压实",
@@ -18,7 +66,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 75,
-    "multiSourceCount": 3,
+    "multiSourceCount": 4,
     "isFeatured": false,
     "isHot": true,
     "publishedAt": "2026-08-20T06:30:00.000Z"
@@ -66,57 +114,9 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 88,
-    "multiSourceCount": 3,
+    "multiSourceCount": 4,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-08-03T08:00:00.000Z"
-  },
-  {
-    "id": "cmt6p744c000zbr17eud74lj3",
-    "titleEn": "Belgian Hands On Tech brings Chinese laser weeder to the Benelux",
-    "titleZh": "比利时Hands On Tech将中国激光除草机引入比荷卢地区",
-    "summaryZh": "比利时公司Hands On Tech开始进口中国CyanForce激光除草机至比荷卢地区，该设备在比利时Libramont展会上首次亮相。机器采用150瓦CO2激光，AI识别杂草并烧毁生长点，作业宽度1.2至6米，6米版每小时可处理1公顷，每分钟消灭12000株杂草。预计2026年底或2027年初上市，适用于蔬菜和大田作物，精度达1毫米。",
-    "featuredReason": "激光除草技术是精准农业的前沿方向，该新闻展示了AI与激光在杂草防控中的创新应用，对智慧畜牧行业中的种植业板块具有重要参考价值。",
-    "url": "https://www.futurefarming.com/smart-farming/belgian-hands-on-tech-brings-chinese-laser-weeder-to-the-benelux/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1",
-      "sourceType": "行业新闻站"
-    },
-    "sourceId": "futurefarming",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 80,
-    "multiSourceCount": 3,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-08-03T06:00:00.000Z"
-  },
-  {
-    "id": "cmt6p744h0015br17x1xgwrtb",
-    "titleEn": "How high-tech is making large-scale organic farming profitable",
-    "titleZh": "高科技如何让大规模有机农业盈利",
-    "summaryZh": "塞尔维亚LoginEKO农场通过结合再生农艺与先进管理软件、遥测技术、无人机、气象站和可追溯性工具，在3700公顷的土地上实践大规模有机农业，并证明了其商业可行性。文章详细介绍了该农场如何利用数据驱动决策，优化作物轮作、减少耕作、精准施肥和除草，从而实现盈利。对于智慧畜牧行业而言，其数据驱动的管理理念和技术集成方式具有重要借鉴意义。",
-    "featuredReason": "本文展示了数据驱动和智能技术在大型有机农场中的实际应用，为智慧畜牧行业提供了跨领域的技术集成和管理经验，值得借鉴。",
-    "url": "https://www.futurefarming.com/smart-farming/how-high-tech-is-making-large-scale-organic-farming-profitable/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1",
-      "sourceType": "行业新闻站"
-    },
-    "sourceId": "futurefarming",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 80,
-    "multiSourceCount": 1,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-07-22T06:00:00.000Z"
   }
 ]

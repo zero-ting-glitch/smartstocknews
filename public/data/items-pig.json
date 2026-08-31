@@ -1,5 +1,53 @@
 [
   {
+    "id": "cmtgsnvbw003n8ahs7e8zb5r8",
+    "titleEn": "Mote inducted into the Nebraska Pork Producers' Hall of Fame",
+    "titleZh": "本尼·莫特入选内布拉斯加州猪肉生产者名人堂",
+    "summaryZh": "内布拉斯加大学林肯分校副教授兼猪业推广专家本尼·莫特入选2026年内布拉斯加州猪肉生产者协会名人堂。他在猪遗传育种、母猪寿命、精准畜牧技术、生物安全和外来动物疫病防控方面的研究推动了行业进步，并通过推广项目培训数千名生产者，制定猪肉安全保障计划，培养下一代养猪人才。",
+    "featuredReason": "该新闻展示了精准畜牧技术、生物安全等智慧养殖关键领域在猪业中的实际落地应用，对了解美国猪业推广体系与技术创新结合模式具有参考价值。",
+    "url": "https://www.nationalhogfarmer.com/livestock-management/mote-inducted-into-the-nebraska-pork-producers-hall-of-fame",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "nationalhogfarmer",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 41,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-08-27T13:08:19.000Z"
+  },
+  {
+    "id": "cmtgso9wk01fh8ahsypkajbb2",
+    "titleEn": "Aug 27NewsPig ProgressComing soon: Webinar on sow mortality, longevity and productivityA free webinar on sow longevity will explore how physiology, management and genetics influence sow performance, herd productivity and animal welfare.",
+    "titleZh": "母猪死亡率、长寿性与生产力网络研讨会即将举行",
+    "summaryZh": "Pig Progress与Hendrix Genetics Swine将于9月10日举办免费网络研讨会，探讨母猪长寿性、生产力和死亡率问题。专家将结合数据、生物学和现场经验，分析影响母猪寿命的关键因素，并分享改善动物福利和猪群性能的实用方法。",
+    "featuredReason": "母猪长寿性和死亡率是猪场盈利与福利的核心问题，本研讨会结合数据分析和遗传管理，为智慧畜牧中的猪群健康监测和管理优化提供了实践参考。",
+    "url": "https://www.foodagribusiness.world/pigs/coming-soon-webinar-on-sow-mortality-longevity-and-productivity",
+    "source": {
+      "name": "Pig Progress",
+      "nameZh": "猪业进展",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "pigprogress",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 48,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-08-27T12:56:17.249Z"
+  },
+  {
     "id": "cmt6p7set01fvbr17ls3122z0",
     "titleEn": "Pig ProgressCapturing pig language: What can the squeals tell?Aug 17News",
     "titleZh": "捕捉猪的语言：尖叫声能告诉我们什么？",
@@ -64,7 +112,7 @@
     "species": "pig",
     "category": "aggtech",
     "subcategory": "pig",
-    "techTags": "needs_full_scrape,needs_full_scrape",
+    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape",
     "qualityScore": 71,
     "multiSourceCount": 3,
     "isFeatured": true,

@@ -1,0 +1,39 @@
+{
+  "id": "cmtgsnmst000h8ahsswpqwrru",
+  "titleEn": "GUSS to add native-color lidar to autonomous orchard sprayers",
+  "titleZh": "GUSS为自主果园喷雾机配备原生彩色激光雷达",
+  "summaryZh": "GUSS Automation（约翰迪尔子公司）计划为其下一代自主果园机械配备Ouster新型Rev8 OS0激光雷达。该传感器具有90度垂直视场角，每秒可生成1040万个3D测量点，能3D映射树干、作物行和地形，在GPS信号受限的果园和葡萄园环境中提升导航与障碍物检测能力。Rev8系列最大亮点是原生彩色激光雷达技术，可在同一传感器架构内同时捕获深度和颜色数据，简化感知系统。目前一名操作员可监控多达八台自主机器，新技术将进一步增强其感知能力。",
+  "featuredReason": "该新闻展示了激光雷达技术（尤其是原生彩色3D感知）在果园自主作业中的前沿应用，对智慧畜牧和精准农业领域的从业者了解自主机械感知技术发展趋势具有重要参考价值。",
+  "url": "https://www.futurefarming.com/tech-in-focus/guss-to-add-native-color-lidar-to-autonomous-orchard-sprayers/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "futurefarming",
+  "species": "fruit",
+  "category": "crop",
+  "subcategory": "fruit",
+  "techTags": "",
+  "qualityScore": 77,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "isHot": true,
+  "publishedAt": "2026-08-28T06:00:42.000Z",
+  "contentFull": "GUSS to add native-color lidar to autonomous orchard sprayers\n\n 28-08 | Autonomous/semi-auto steering systems | Tech in focus | News\n\nLinkedInFacebookXWhatsAppPrint\n\nGUSS plans to equip the next generation of its autonomous orchard machines with Ouster Rev8 OS0 lidar. The 3D sensor maps tree trunks, crop rows, terrain and obstacles to support autonomous operation in orchards and vineyards. – Photo Guss\n\nGUSS Automation, a John Deere subsidiary, plans to equip the next generation of its autonomous orchard machines with Ouster’s new Rev8 OS0 lidar. The sensor should improve navigation and obstacle detection in orchards and vineyards, particularly where GPS alone cannot provide sufficient positioning information. \n\nGUSS plans to integrate the Rev8 OS0 digital lidar into its Autonomous Orchard Machine fleet, including its Orchard GUSS and Mini GUSS sprayers. The machines are designed to work autonomously in permanent crops such as orchards and vineyards.\n\nThe main addition is improved perception of the machine’s immediate surroundings. The OS0 has a 90-degree vertical field of view and produces up to 10.4 million 3D measurement points per second. Ouster specifies a 35-metre range at 10% reflectivity and a maximum range of 250 metres for the current Rev8 OS0.\n\nLidar maps trees, rows and terrain\n\nIn orchards, the lidar can map tree trunks, crop rows and ground contours in 3D. This provides additional information for navigation and obstacle detection in environments where dense vegetation can limit GPS-based operation. According to Ouster, the Rev8 sensor is also designed to maintain perception under varying light conditions and challenging conditions including dust and spray.\n\nA notable feature of the Rev8 generation is native-color lidar. Rather than combining data afterwards from separate lidar and camera sensors, Rev8 captures depth and color within the same sensor architecture. Ouster says this provides spatially and temporally aligned 3D color data and can simplify perception systems for autonomous machines.\n\nOne operator monitors up to eight machines\n\nGUSS already uses a fleet approach in which one operator can monitor up to eight autonomous machines from a laptop. The new lidar is intended to further improve the sensing capabilities of these machines rather than change this operating concept.\n\nInitially, the technology will support autonomous spraying. GUSS and Ouster say the same lidar-based autonomy approach could later be applied to other operations in orchards and vineyards. No timing for commercial introduction of the Rev8-equipped GUSS machines or pricing was announced.\n\nLinkedInFacebookXWhatsAppPrint\n\n \n\n Geert Hekkert Chief editor of Future Farming\n\nMore about\n\nautonomy\n\nad\n\nLEARN MORE\n\nRelated articles\n\n21-08 | \n News\n\nAgtonomy adds autonomous multi-point turning and expands data capabilities\n\nPremium\n\n20-08 | \n Article\n\nLess soil compaction with autonomous tractor\n\nPremium\n\n06-08 | \n News\n\nHow AgXeed and TIM make tractors and machines autonomous\n\n09-04 | \n Video\n\nVIDEO | AgXeed Series 7 tested in the field: can it handle heavy tillage and tight headlands?\n\n \n\n Buyers guides & Catalogues\n\n \n\n Subscribe to our YouTube channel\n\n \n\n Taiwan Smart Agriweek 2026\n\nSep 8-10, 2026 TaiNEX 1, Tapei",
+  "translationZh": "GUSS Automation（约翰迪尔子公司）计划为其下一代自主果园机械配备Ouster新型Rev8 OS0激光雷达。该传感器应能改善果园和葡萄园中的导航与障碍物检测能力，尤其是在仅靠GPS无法提供足够定位信息的环境中。\n\nGUSS计划将Rev8 OS0数字激光雷达集成到其自主果园机械车队中，包括Orchard GUSS和Mini GUSS喷雾机。这些机器专为在果园和葡萄园等永久性作物环境中自主作业而设计。\n\n主要新增功能是对机器周围环境的感知能力提升。OS0拥有90度垂直视场角，每秒可生成多达1040万个3D测量点。Ouster给出的规格显示，当前Rev8 OS0在10%反射率下探测距离为35米，最大探测距离为250米。\n\n**激光雷达映射树木、行距和地形**\n\n在果园中，激光雷达可以3D方式映射树干、作物行和地面轮廓。这为在茂密植被可能限制GPS作业的环境中进行导航和障碍物检测提供了额外信息。据Ouster称，Rev8传感器还设计用于在变化的光照条件以及灰尘和喷雾等挑战性环境下保持感知能力。\n\nRev8系列的一个显著特点是原生彩色激光雷达。Rev8并非事后将来自独立激光雷达和摄像头传感器的数据进行融合，而是在同一传感器架构内同时捕获深度和颜色数据。Ouster表示，这能提供空间和时间上对齐的3D彩色数据，并可简化自主机器的感知系统。\n\n**一名操作员监控多达八台机器**\n\nGUSS已采用车队作业模式，一名操作员可通过笔记本电脑监控多达八台自主机器。新型激光雷达旨在进一步改善这些机器的感知能力，而非改变这一作业理念。\n\n初期，该技术将支持自主喷雾作业。GUSS和Ouster表示，基于激光雷达的同一自主方案未来还可应用于果园和葡萄园中的其他作业。目前尚未公布配备Rev8的GUSS机器的商业化时间或定价。",
+  "images": [
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_800,h_534/https://www.futurefarming.com/app/uploads/2026/08/Mini-GUSS_edited.webp",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_300,h_300/https://www.futurefarming.com/app/uploads/2024/01/Geert_300x300_zoom.png",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/08/Agtonomy_web-389x260.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/08/Autonomous-tractor-389x260.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/08/01-IMG_9043-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/04/AgXeed-goed-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_818,h_619/https://www.futurefarming.com/app/uploads/2025/02/DG-Do-you-want-to-know-whats-happening-2.png",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.futurefarming.com/app/uploads/2026/05/taiwan-60x30-1.jpg"
+  ],
+  "author": "Geert Hekkert",
+  "contentHtml": "GUSS Automation, a John Deere subsidiary, plans to equip the next generation of its autonomous orchard machines with Ouster’s new Rev8 OS0 lidar. The sensor should improve navigation and obstacle detection in orchards and vineyards, particularly where GPS alone cannot provide sufficient positioning information.  GUSS plans to integrate the Rev8 OS0 digital lidar into its […]",
+  "scrapeMethod": "web_scrape"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "cmtgsnx9d00818ahsfn9syybf",
+  "titleEn": "Lineage deploys AI-powered warehouse automation",
+  "titleZh": "Lineage部署AI驱动的仓库自动化系统",
+  "summaryZh": "冷链巨头Lineage与AI视觉系统公司Kargo合作，在阿拉巴马州迪凯特仓库部署自动化收货系统，通过摄像头塔自动捕获入库托盘数据（SKU、批次），直接输入WMS，六个月内自动化处理超6.4万次收货，日处理500+托盘，释放劳动力。此举旨在提升冷库效率和准确性，并计划推出自动装货扫描。",
+  "featuredReason": "该案例展示了AI视觉与自动化在冷链仓储中的实际应用，对智慧畜牧行业中的屠宰加工、冷链物流环节具有直接借鉴意义，可启发养殖企业优化供应链效率。",
+  "url": "https://www.meatpoultry.com/articles/33973-lineage-deploys-ai-powered-warehouse-automation",
+  "source": {
+    "name": "MEAT+POULTRY",
+    "nameZh": "肉禽加工",
+    "tier": "T1.5",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "meatpoultry",
+  "species": "general",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 58,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-08-27T12:03:04.000Z",
+  "contentFull": "DECATUR, ALA. — Lineage partnered with Kargo, an AI-powered vision system for automated inventory capture, in the implementation of automated receiving operations at the cold storage company’s Decatur, Ala., warehouse.\n\nThe facility supports adjacent poultry plants. With the recent additions, the warehouse features Kargo’s camera towers that automatically capture inbound inventory data, including SKU and lot information, feeding it directly into Lineage’s warehouse management system (WMS).\n\nIn the past six months, Lineage has automated more than 64,000 receipts using AI-driven camera towers.\n\nLineage noted that traditionally receiving creates a bottleneck in warehouse material flow, especially in high-volume food manufacturing environments, where accuracy and traceability are paramount. Without an automated process, receiving teams must manually scan pallets, verify data against bills of lading and input information into the WMS.\n\nThe system now automatically identifies and logs each pallet as it arrives. With the new technology, the Decatur warehouse processes more than 500 pallets per day, and labor can be reallocated elsewhere in the facility.\n\n“The Kargo system is helping us remove friction from one of the most labor-intensive parts of the warehouse operation,” said Elliott Wolf, vice president and chief data scientist at Lineage. “By automating receiving, we’re not only improving accuracy and speed but also empowering our team to focus on higher-impact work.”\n\nThe partnership with Kargo is part of Lineage’s broader initiative to improve cold chain efficiencies through advanced automation and computer vision technologies.\n\nThe company added that automated load scanning will launch shortly at the Decatur facility to further increase throughput.",
+  "translationZh": "阿拉巴马州迪凯特——Lineage与Kargo（一家提供AI驱动视觉系统实现库存自动捕获的公司）合作，在其位于阿拉巴马州迪凯特的冷库中实施自动化收货操作。\n\n该设施支持邻近的家禽加工厂。通过最近的升级，仓库配备了Kargo的摄像头塔，可自动捕获入库库存数据（包括SKU和批次信息），并直接输入Lineage的仓库管理系统（WMS）。\n\n过去六个月中，Lineage通过AI驱动的摄像头塔自动化处理了超过6.4万次收货。\n\nLineage指出，传统上收货环节是仓库物料流动的瓶颈，尤其是在高吞吐量的食品制造环境中，准确性和可追溯性至关重要。没有自动化流程，收货团队必须手动扫描托盘、核对提单数据并将信息输入WMS。\n\n现在，系统在托盘到达时自动识别并记录。借助新技术，迪凯特仓库每天处理超过500个托盘，劳动力可重新分配到设施的其他岗位。\n\n“Kargo系统帮助我们消除了仓库操作中劳动强度最大的环节之一的摩擦，”Lineage副总裁兼首席数据科学家Elliott Wolf表示。“通过自动化收货，我们不仅提高了准确性和速度，还让团队能够专注于更高价值的工作。”\n\n与Kargo的合作是Lineage通过先进自动化和计算机视觉技术改善冷链效率的更广泛举措的一部分。\n\n该公司补充说，自动装货扫描将很快在迪凯特工厂推出，以进一步提高吞吐量。",
+  "images": [],
+  "author": "",
+  "contentHtml": "The Decatur, Ala., facility supports adjacent poultry producers.",
+  "scrapeMethod": "web_scrape"
+}

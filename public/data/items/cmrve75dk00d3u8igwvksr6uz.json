@@ -15,7 +15,7 @@
   "species": "fruit",
   "category": "aggtech",
   "subcategory": "fruit",
-  "techTags": "needs_full_scrape,needs_full_scrape",
+  "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape",
   "qualityScore": 60,
   "multiSourceCount": 2,
   "isFeatured": false,
