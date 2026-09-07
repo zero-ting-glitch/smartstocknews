@@ -1,5 +1,29 @@
 [
   {
+    "id": "cmtqqpi80000jeil7o1tm3fvf",
+    "titleEn": "Droid scales up: new FD60 brings autonomous seeding and weeding to larger farms",
+    "titleZh": "FarmDroid推出FD60大型田间机器人：自主播种与除草能力扩展至大型农场",
+    "summaryZh": "丹麦农业机器人公司FarmDroid推出大型田间机器人FD60，具备自主播种和机械除草功能，无需除草剂和人工操作。该机器人是FD20的升级版，作业能力约为其3倍，日作业面积达18公顷，季节作业能力达60公顷，每公顷成本低至304欧元。FD60采用RTK GPS定位技术，播种时记录每粒种子的精确位置，除草时按坐标导航，无需摄像头和图像识别。支持洋葱、甜菜、玉米等100多种行栽作物，太阳能供电，可24小时连续作业。",
+    "featuredReason": "该新闻展示了田间机器人从技术验证走向规模化商业应用的关键突破，其基于GPS坐标而非视觉的除草方案在成本、可靠性和适应性上具有显著创新性，对智慧农业领域的自动化技术选型具有重要参考价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/field-robots/droid-scales-up-new-fd60-brings-autonomous-seeding-and-weeding-to-larger-farms/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 81,
+    "multiSourceCount": 1,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-09-01T06:00:00.000Z"
+  },
+  {
     "id": "cmtgsnmsy000l8ahs0d1lcy2o",
     "titleEn": "Solinftec expands Solix fleet after 85% average chemical reduction",
     "titleZh": "Solinftec扩大Solix机器人车队规模，平均化学药剂用量减少85%",
@@ -18,7 +42,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 81,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-08-26T07:37:57.000Z"
@@ -42,7 +66,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 82,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-08-25T07:41:17.000Z"
@@ -66,7 +90,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 75,
-    "multiSourceCount": 4,
+    "multiSourceCount": 5,
     "isFeatured": false,
     "isHot": true,
     "publishedAt": "2026-08-20T06:30:00.000Z"
@@ -94,29 +118,5 @@
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-08-07T01:25:30.000Z"
-  },
-  {
-    "id": "cmt6p744a000xbr17ha1w6mcy",
-    "titleEn": "Smaller tractor, bigger return: a Kentucky farm’s case for going autonomous",
-    "titleZh": "小型拖拉机，更大回报：肯塔基农场的自主化实践",
-    "summaryZh": "美国肯塔基州Affinity Farms农场主Quint Pottinger通过加装Sabanto公司的自主改装套件，将两台300马力大型拖拉机和两台40英尺播种机替换为一台135马力小型拖拉机和20英尺播种机，实现了厘米级精度的自主播种，不仅提前10天完成播种，还释放了劳动力。这一案例展示了自主技术在中小型农场中的经济可行性，为智慧农业设备选型提供了新思路。",
-    "featuredReason": "该案例展示了自主改装技术如何以低成本实现高精度作业，对智慧畜牧和种植业的设备升级具有直接参考价值，尤其适合关注降本增效的农场管理者。",
-    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/autonomous-vehicles/smaller-tractor-bigger-return-a-kentucky-farm-s-case-for-going-autonomous/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1",
-      "sourceType": "行业新闻站"
-    },
-    "sourceId": "futurefarming",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 88,
-    "multiSourceCount": 4,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-08-03T08:00:00.000Z"
   }
 ]

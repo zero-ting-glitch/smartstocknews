@@ -1,27 +1,51 @@
 [
   {
-    "id": "cmtgsnwqb005f8ahsy9sls5g9",
-    "titleEn": "Neogenyx builds Nebraska RNG facility at Adams Land &amp; Cattle",
-    "titleZh": "Neogenyx在Adams Land & Cattle建设内布拉斯加州RNG设施",
-    "summaryZh": "Neogenyx公司将在内布拉斯加州Broken Bow的Adams Land & Cattle育肥场建设可再生天然气（RNG）设施，采用8个厌氧消化器，每年产生4,400 SCFM沼气。该项目将牛粪转化为清洁能源，属于畜牧废弃物资源化利用范畴，虽不涉及IoT/AI等智慧技术，但对牛业可持续发展具有环保意义。",
-    "featuredReason": "该新闻展示了畜牧废弃物资源化利用的实践案例，对牛业从业者了解RNG项目模式具有参考价值，但缺乏智慧畜牧核心技术内容。",
-    "url": "https://www.beefmagazine.com/market-news/neogenyx-builds-nebraska-rng-facility-at-adams-land-cattle",
+    "id": "cmtqqqkw801jpeil7thkf7s1b",
+    "titleEn": "Rethinking dry-off on a high-performing Kerry herd",
+    "titleZh": "凯里郡高产奶牛群的干奶策略再思考",
+    "summaryZh": "爱尔兰凯里郡的奶农Maurice Harty经营着平均产奶量超10,000升的纯种荷斯坦弗里西亚牛群。他改变了传统干奶方式，采用Elanco AHV公司的StopLac产品实现突然干奶，使奶牛在干奶前可维持每日两次挤奶直至决定干奶当天，从而延长产奶期约两周，获得高价值的高固形物牛奶，同时奶牛能以良好体况进入干奶期。文章还强调了外部顾问对牛群健康管理的重要性。",
+    "featuredReason": "本文展示了传统干奶流程的革新实践，通过使用StopLac产品实现突然干奶，延长高产奶牛产奶期并改善动物福利，对追求高效精准牧场管理的智慧畜牧从业者具有参考价值。",
+    "url": "https://www.agriland.ie/farming-news/rethinking-dry-off-on-a-high-performing-kerry-herd/",
     "source": {
-      "name": "Beef Magazine",
-      "nameZh": "肉牛杂志",
-      "tier": "T2",
+      "name": "Agriland",
+      "nameZh": "爱尔兰农业新闻",
+      "tier": "T1.5",
       "sourceType": "行业新闻站"
     },
-    "sourceId": "beefmagazine",
+    "sourceId": "agriland",
     "species": "cattle",
     "category": "livestock",
     "subcategory": "cattle",
     "techTags": "",
-    "qualityScore": 23,
+    "qualityScore": 44,
     "multiSourceCount": 1,
     "isFeatured": false,
     "isHot": false,
-    "publishedAt": "2026-08-28T16:02:56.000Z"
+    "publishedAt": "2026-09-05T05:00:00.000Z"
+  },
+  {
+    "id": "cmtqqqkx201jzeil7pi8tsc6t",
+    "titleEn": "Watch: Could livestock be vaccinated to reduce emissions?",
+    "titleZh": "探索通过疫苗减少牲畜甲烷排放的可能性",
+    "summaryZh": "爱尔兰国立大学戈尔韦分校的Sinéad Waters博士正开展前沿研究，旨在通过理解反刍动物瘤胃微生物组，开发减少甲烷排放的策略。研究涵盖遗传、饲料添加剂、海藻、3-NOP等，并探讨了通过疫苗刺激动物免疫系统抑制产甲烷菌的设想。相关项目如MAGS和Rumen-Innovate正推动科学成果向农场实践转化，为农业减排提供新路径。",
+    "featuredReason": "该新闻聚焦于通过疫苗等前沿生物技术减少牲畜甲烷排放，是智慧畜牧领域在环保与可持续发展方向的重要探索，对理解未来养殖减排技术趋势具有参考价值。",
+    "url": "https://www.agriland.ie/farming-news/watch-could-livestock-be-vaccinated-to-reduce-emissions/",
+    "source": {
+      "name": "Agriland",
+      "nameZh": "爱尔兰农业新闻",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "agriland",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 55,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-09-04T15:00:00.000Z"
   },
   {
     "id": "cmtgsnwqu005v8ahsbecrkiyw",
@@ -42,7 +66,7 @@
     "subcategory": "cattle",
     "techTags": "",
     "qualityScore": 35,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-08-26T14:04:38.000Z"
@@ -66,7 +90,7 @@
     "subcategory": "cattle",
     "techTags": "",
     "qualityScore": 35,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-08-26T12:07:07.000Z"

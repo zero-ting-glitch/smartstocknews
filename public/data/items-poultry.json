@@ -1,5 +1,53 @@
 [
   {
+    "id": "cmtqqprl7006zeil70pulw174",
+    "titleEn": "Kargo implements AI automated receiving at Lineage Ala. poultry warehouse",
+    "titleZh": "Kargo在Lineage阿拉巴马家禽仓库实施AI自动化收货",
+    "summaryZh": "Kargo与Lineage合作，在阿拉巴马州迪凯特的家禽仓库成功部署AI视觉自动化收货系统。该系统通过摄像头塔自动捕获入库托盘的SKU和批号信息，并直接传入WMS，将收货时间从分钟级缩短至秒级，6个月内处理超6.4万笔收货，日均处理500余托盘。此举提升了准确率和效率，释放劳动力用于高附加值工作，为食品冷链物流树立了新标杆。",
+    "featuredReason": "该案例展示了AI视觉自动化在冷链物流中的应用，为家禽等易腐食品供应链的收货环节提供了高效、准确的解决方案，对智慧畜牧产业链的物流优化具有直接参考价值。",
+    "url": "https://www.poultrytimes.com/kargo-implements-ai-automated-receiving-at-lineage-ala-poultry-warehouse/",
+    "source": {
+      "name": "Poultry Times",
+      "nameZh": "禽业时报",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "poultrytimes",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 58,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-09-04T13:15:01.000Z"
+  },
+  {
+    "id": "cmtqqq8zq01g7eil7sd4otw0m",
+    "titleEn": "Poultry WorldPartnerPoultry India Expo 2026 to bring global industry to HyderabadSep 3",
+    "titleZh": "2026年印度家禽博览会将在海得拉巴汇聚全球业界",
+    "summaryZh": "第18届印度家禽博览会（Poultry India Expo 2026）将于2026年11月25-27日在海得拉巴Hitex展览中心举办，预计吸引来自80多个国家的550多家展商和超过5.1万名行业观众。展会聚焦生物安全、可持续营养、自动化和智能养殖技术，配套知识日研讨会。印度作为全球第二大鸡蛋生产国和四大肉鸡生产国之一，家禽业年增长率达6-10%，展会为智慧畜牧技术提供了重要展示与对接平台。",
+    "featuredReason": "该展会聚焦自动化、生物安全与可持续营养，与智慧畜牧在禽业的技术落地高度契合，是了解印度及全球家禽智能化趋势和拓展合作的重要窗口。",
+    "url": "https://www.foodagribusiness.world/poultry/poultry-india-expo-2026-to-bring-global-industry-to-hyderabad",
+    "source": {
+      "name": "Poultry World",
+      "nameZh": "禽业世界",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "poultryworld",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 52,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-09-03T07:00:00.000Z"
+  },
+  {
     "id": "cmtgso3ts014n8ahsna93zk2l",
     "titleEn": "UK egg producer trials acoustic technology to monitor hen welfare",
     "titleZh": "英国蛋鸡生产商试验声学技术监测母鸡福利",
@@ -18,7 +66,7 @@
     "subcategory": "poultry",
     "techTags": "",
     "qualityScore": 65,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": true,
     "isHot": false,
     "publishedAt": "2026-08-25T23:00:00.000Z"
@@ -138,7 +186,7 @@
     "subcategory": "poultry",
     "techTags": "",
     "qualityScore": 63,
-    "multiSourceCount": 4,
+    "multiSourceCount": 5,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-08-19T07:00:00.000Z"

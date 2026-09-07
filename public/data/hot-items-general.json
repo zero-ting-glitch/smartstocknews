@@ -1,5 +1,53 @@
 [
   {
+    "id": "cmtqqpi7x000heil7rs9yge3d",
+    "titleEn": "Future Farming Five: why Burro built a robot that never collects dust in your shed",
+    "titleZh": "Future Farming五问：Burro为何打造一台不会在棚里吃灰的机器人",
+    "summaryZh": "美国机器人公司Burro近期向南美完成迄今最大规模发货。该公司强调，单一用途的田间机器人一年中大部分时间只能闲置在库房中，会彻底毁掉投资回报率。Burro将自主平台设计为可全年使用的多功能工具，支持运输、拖拽、割草、喷洒和巡检等多种作业。公司表示，其机器人运行在云网络上，每台设备都能从整个车队的集体经验中学习，预计五年后可在几乎零人工监督下处理更复杂的动态环境。",
+    "featuredReason": "本文通过问答形式揭示了田间机器人商业化的关键逻辑——多功能平台与车队学习效应，对智慧畜牧领域理解农业机器人技术路线和投资回报逻辑具有重要参考价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/field-robots/future-farming-five-why-burro-built-a-robot-that-never-collects-dust-in-your-shed/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 75,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": true,
+    "publishedAt": "2026-09-01T09:00:00.000Z"
+  },
+  {
+    "id": "cmtqqpj380023eil7gb1ksnc0",
+    "titleEn": "🎥 ‘The whole system is now more investable’: Reservoir makes the case for ag robotics",
+    "titleZh": "Reservoir创始人：农业机器人“整个系统现在更具投资价值”",
+    "summaryZh": "在Salinas举办的Ruggedize大会上，Reservoir Farms创始人Danny Bernstein宣布与John Deere达成1000万美元研发合作，并阐述农业机器人为何正变得更值得投资。他指出，感知技术、边缘计算和AI的进步，加上现成的软硬件组件，使机器人开发周期缩短至6个月以内，且机器可跨作物、跨任务、跨行业复用。Reservoir VC正募集5000万美元基金，专注投资可跨领域发展的农业机器人初创企业。",
+    "featuredReason": "本文揭示了农业机器人投资逻辑的转变——从单一作物/任务到跨行业复合应用，以及Reservoir提供的“试验场+资金”模式，对智慧畜牧领域探索机器人自动化应用的从业者具有跨界借鉴意义。",
+    "url": "https://agfundernews.com/the-whole-system-is-now-more-investable-reservoir-makes-the-case-for-ag-robotics",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "agfundernews",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 75,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": true,
+    "publishedAt": "2026-08-28T18:54:33.000Z"
+  },
+  {
     "id": "cmtgsnmsw000j8ahseee56kxa",
     "titleEn": "CropX acquires SCIO to link agronomy with crop quality data",
     "titleZh": "CropX收购SCIO，将农艺管理与作物品质数据相连",
@@ -18,7 +66,7 @@
     "subcategory": "general",
     "techTags": "",
     "qualityScore": 80,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-08-27T06:00:15.000Z"
@@ -42,7 +90,7 @@
     "subcategory": "general",
     "techTags": "",
     "qualityScore": 80,
-    "multiSourceCount": 4,
+    "multiSourceCount": 5,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-08-19T07:01:09.000Z"
@@ -70,53 +118,5 @@
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-08-07T22:29:46.000Z"
-  },
-  {
-    "id": "cmt6p7446000tbr17z1dna302",
-    "titleEn": "How AgXeed and TIM make tractors and machines autonomous",
-    "titleZh": "AgXeed与TIM推出改装套件，实现现有拖拉机与农机自动化",
-    "summaryZh": "荷兰制造商AgXeed推出VCU（车辆控制单元）和TCU（工具控制单元）改装套件，可将现有拖拉机及农机改造为自动驾驶设备。该方案基于其田间机器人技术理念，为承包商、种植户和养殖户提供无需购买新机器人即可实现现有车队自动化的途径，降低自动化门槛。",
-    "featuredReason": "该新闻展示了农机自动化从整机销售向存量设备改装延伸的趋势，为拥有现有农机资产的养殖和种植企业提供了低门槛的自动化升级路径，值得关注。",
-    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/autonomous-vehicles/how-agxeed-and-tim-make-tractors-and-machines-autonomous/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1",
-      "sourceType": "行业新闻站"
-    },
-    "sourceId": "futurefarming",
-    "species": "general",
-    "category": "aggtech",
-    "subcategory": "general",
-    "techTags": "",
-    "qualityScore": 75,
-    "multiSourceCount": 4,
-    "isFeatured": false,
-    "isHot": true,
-    "publishedAt": "2026-08-06T06:00:00.000Z"
-  },
-  {
-    "id": "cmrujc8gn00arr2zcgklylt7w",
-    "titleEn": "工厂化养殖天天拔管排污太费人？一部手机轻松管好整个车间！",
-    "titleZh": "工厂化养殖天天拔管排污太费人？一部手机轻松管好整个车间！",
-    "summaryZh": "本文聚焦工厂化循环水养殖中人工拔管排污的痛点，介绍了帮邦科技推出的自动反馈排污阀。该设备通过手机APP实现定时排污、阀门状态实时反馈与异常报警，可替代传统人工操作，降低用工成本、稳定水质、减少病害风险。文章结合山东加州鲈养殖基地案例，展示了年省人工费9万+、用药成本下降30%的实际效果，强调智能化排污是工厂化养殖降本增效的关键趋势。",
-    "featuredReason": "本文精准切入工厂化养殖中高人工、高风险、低效率的排污环节，以低成本物联网设备实现自动化升级，对智慧畜牧行业从业者具有直接借鉴和落地价值。",
-    "url": "https://mp.weixin.qq.com/s/5Q2nYlhbekhHxvSaxhZbJw",
-    "source": {
-      "name": "智慧水产",
-      "nameZh": "智慧水产",
-      "tier": "T1.5",
-      "sourceType": "微信公众号"
-    },
-    "sourceId": "wx_shuichan",
-    "species": "general",
-    "category": "aggtech",
-    "subcategory": "general",
-    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape",
-    "qualityScore": 66,
-    "multiSourceCount": 3,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-07-21T10:00:00.000Z"
   }
 ]

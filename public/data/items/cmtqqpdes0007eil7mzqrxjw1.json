@@ -1,0 +1,32 @@
+{
+  "id": "cmtqqpdes0007eil7mzqrxjw1",
+  "titleEn": "Beyond Imagery: Turning Earth Observation Into a Decision Engine",
+  "titleZh": "超越影像：将地球观测转化为决策引擎",
+  "summaryZh": "本文探讨了卫星影像如何从试点项目走向规模化应用，成为农业决策支持工具。EarthDaily公司销售副总裁Lee Smith分析了卫星影像采用率低的原因，并介绍了公司如何通过提供分析就绪、操作级的数据，降低成本和复杂性，支持农艺洞察、自动化及更好的决策。文章强调了连续、校准的时间序列卫星数据对农业零售商、农艺师和种植者的价值，帮助他们优化田间活动、改进建议，并在更多土地上释放更大价值。",
+  "featuredReason": "本文展示了卫星遥感技术如何从单纯影像向决策引擎演进，其分析就绪数据与自动化理念对智慧畜牧中的精准管理（如草场监测、环境评估）具有借鉴意义。",
+  "url": "https://www.globalagtechinitiative.com/in-field-technologies/imagery/beyond-imagery-turning-earth-observation-into-a-decision-engine/",
+  "source": {
+    "name": "PrecisionAg",
+    "nameZh": "精准农业",
+    "tier": "T1.5",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "precisionag",
+  "species": "general",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 59,
+  "multiSourceCount": 2,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-08-21T00:00:00.000Z",
+  "contentFull": "By CropLife \n\n \n\n Share\n\n \n\n \n\n \n\n \n\n \n\n How can satellite imagery move beyond pilot projects and become a scalable decision-making tool for agriculture? In this Tech Talk, Lee Smith, Vice President of Sales and Business Development for Strategic Ag Accounts at EarthDaily, explores why satellite imagery has struggled to achieve widespread adoption and what is changing to make large-scale deployment possible. Learn how EarthDaily is helping reduce the cost and complexity of working with imagery by delivering analysis-ready, operational data that supports agronomic insights, automation, and better decision-making. Discover how consistent, calibrated, time-series satellite data can help ag retailers, agronomists, and growers prioritize field activities, improve recommendations, and unlock greater value across more acres.\n\n \n\n  \n\n \n\n MORE BY CROPLIFE\n\n Digital Farming August 21, 2026 Growing Value: What Ag Retailers Need to Know About Farmers and Technology Adoption\n\n By CropLife|August 21, 2026 \n\n \n\n \n\n Digital Farming June 18, 2026 9 Ways Collaboration Is Accelerating Innovation Across AgTech\n\n By CropLife|June 18, 2026 \n\n \n\n \n\n Digital Farming June 17, 2026 Beyond Disruption: Earning Trust and Driving Impact in AgTech Through Grower-Led Innovation\n\n By CropLife|June 17, 2026 \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n 0 1 5 Beyond Imagery: Turning Earth Observation Into a Decision Engine \n\n \n\n Subscribe Today For\n\n \n\n \n\n \n\n Subscribe \n\n \n\n \n\n \n\n \n\n \n\n \n\n CropLife, a sister brand to the Global Ag Tech Initiative at Meister Media Worldwide, is the nation’s brand leader in ag retail communication. See all author stories here. \n\n \n\n Topics: featured-home",
+  "translationZh": "卫星影像如何超越试点项目，成为农业领域可扩展的决策工具？在本次技术访谈中，EarthDaily战略农业客户销售与业务发展副总裁Lee Smith探讨了卫星影像为何难以被广泛采用，以及哪些变化正在推动其大规模部署成为可能。了解EarthDaily如何通过提供分析就绪、操作级的数据，降低影像处理成本与复杂性，从而支持农艺洞察、自动化及更优决策。探索连续、校准的时间序列卫星数据如何帮助农业零售商、农艺师和种植者优先安排田间活动、改进建议，并在更多土地上释放更大价值。",
+  "images": [
+    "https://www.precisionag.com/wp-content/themes/PrecisionAgTheme/images/the-signal.png"
+  ],
+  "author": "Matt Hopkins",
+  "contentHtml": "Discover how consistent, calibrated, time-series satellite data can help retailers prioritize field activities, improve recommendations, and unlock greater value across more acres.\nThe post Beyond Imagery: Turning Earth Observation Into a Decision Engine appeared first on Global Ag Tech Initiative.",
+  "scrapeMethod": "web_scrape"
+}

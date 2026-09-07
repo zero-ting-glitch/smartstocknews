@@ -1,5 +1,29 @@
 [
   {
+    "id": "cmtqqpif20011eil7m0m9agnp",
+    "titleEn": "Greenhouse Winter Readiness: Five Failures That Can Disrupt Spring Production",
+    "titleZh": "温室冬季准备：可能扰乱春季生产的五个失误",
+    "summaryZh": "本文由Hortica的Cathy James撰写，强调温室冬季准备不仅是季节性维护，而是保障春季生产连续性的战略。文章指出电力中断、热量损失、结构故障、水/监控/通讯故障及响应计划缺失五大风险，并提供了关键问题清单，帮助温室运营者提前规划，确保春季生产不受冬季干扰。",
+    "featuredReason": "本文虽聚焦温室，但其运营连续性思维、风险清单和应急规划方法对智慧畜牧的养殖场管理具有高度借鉴价值，尤其是冬季设备维护与生产保障的实践策略。",
+    "url": "https://www.greenhousegrower.com/management/greenhouse-winter-readiness-five-failures-that-can-disrupt-spring-production/",
+    "source": {
+      "name": "Greenhouse Grower",
+      "nameZh": "温室种植者",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "greenhousegrower",
+    "species": "horticulture",
+    "category": "crop",
+    "subcategory": "horticulture",
+    "techTags": "",
+    "qualityScore": 53,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-09-05T00:00:00.000Z"
+  },
+  {
     "id": "cmrve753j00bvu8ig9356sdq0",
     "titleEn": "Tropical greenhouse strategies improve consistency under Thailand's challenging climate",
     "titleZh": "热带温室策略助力泰国恶劣气候下番茄生产稳定性提升",
@@ -256,7 +280,7 @@
     "species": "horticulture",
     "category": "aggtech",
     "subcategory": "horticulture",
-    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape",
+    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
     "qualityScore": 66,
     "multiSourceCount": 1,
     "isFeatured": false,
@@ -280,7 +304,7 @@
     "species": "horticulture",
     "category": "aggtech",
     "subcategory": "horticulture",
-    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape",
+    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
     "qualityScore": 66,
     "multiSourceCount": 1,
     "isFeatured": false,
