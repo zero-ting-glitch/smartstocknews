@@ -1,0 +1,38 @@
+{
+  "id": "cmu0rigda000fzq98c54h4p0q",
+  "titleEn": "AgXeed T2 7-SERIES and LaserWeeder prove a strong autonomous team",
+  "titleZh": "AgXeed T2 7-SERIES 与 LaserWeeder 组成强大的自主作业组合",
+  "summaryZh": "丹麦有机蔬菜种植者 Axel Månsson 自4月起使用 AgXeed T2 7-SERIES 自主拖拉机搭配 Carbon Robotics LaserWeeder 激光除草机，经过数月田间实践，从设置、可靠性、产能、成本和农场整合等九个维度给出评价，多数方面获4.5星，并认为具有明显节省劳动力的潜力。该机器人可与激光除草机直接通信，根据杂草密度自动调整行进速度。",
+  "featuredReason": "该案例展示了自主拖拉机与激光除草机器人协同作业的实际田间表现，对关注农业自动化、机器人协同和有机种植降本的智慧农业从业者具有直接参考价值。",
+  "url": "https://www.futurefarming.com/tech-in-focus/field-robots/agxeed-t2-7-series-and-laserweeder-prove-a-strong-autonomous-team/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "futurefarming",
+  "species": "field",
+  "category": "crop",
+  "subcategory": "field",
+  "techTags": "",
+  "qualityScore": 76,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "isHot": true,
+  "publishedAt": "2026-09-10T06:42:10.000Z",
+  "contentFull": "AgXeed T2 7-SERIES and LaserWeeder prove a strong autonomous team\n\n 10-09 | Field robots | Article\n\nLinkedInFacebookXWhatsAppPrint\n\nThe robot communicates directly with a Carbon Robotics laser weeder, automatically adjusting travel speed based on weed density. Photos: AgXeed\n\n Danish grower Axel Månsson has been using an AgXeed T2 7-SERIES with a Carbon Robotics LaserWeeder since April. After several months of field experience, he rates the autonomous tractor on nine practical criteria – from setup and reliability to capacity, costs and farm integration. His verdict so far: 4.5 stars on most aspects and clear potential to save labour. Månsson runs one of Scandinavia’s largest organic vegetable operations from the heart of Jutland, Denmark. With\n\nLinkedInFacebookXWhatsAppPrint\n\n \n\n René Groeneveld Correspondent for Australia\n\nMore about\n\nautonomous tractors\n\nLaser weeder\n\norganic farming\n\nSmart Farming\n\nad\n\nLEARN MORE\n\nRelated articles\n\n01-09 | \n Article\n\nFuture Farming Five: why Burro built a robot that never collects dust in your shed\n\nPremium\n\n03-08 | \n Article\n\nSmaller tractor, bigger return: a Kentucky farm’s case for going autonomous\n\n30-07 | \n Article\n\nAutonomous field robots move into dairy farming\n\nPremium\n\n22-07 | \n Article\n\nHow high-tech is making large-scale organic farming profitable\n\n \n\n Buyers guides & Catalogues\n\n \n\n Subscribe to our YouTube channel",
+  "translationZh": "丹麦种植者 Axel Månsson 自4月以来一直在使用 AgXeed T2 7-SERIES 搭配 Carbon Robotics LaserWeeder。经过数月的田间实践，他从九个实用标准对这台自主拖拉机进行评价——从设置和可靠性到产能、成本和农场整合。他目前的结论是：大多数方面获4.5星，并具有明显节省劳动力的潜力。Månsson 在丹麦日德兰半岛腹地经营着斯堪的纳维亚最大的有机蔬菜业务之一。\n\n该机器人直接与 Carbon Robotics 激光除草机通信，根据杂草密度自动调整行进速度。",
+  "images": [
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_848,h_565/https://www.futurefarming.com/app/uploads/2026/09/1-AgXeed-T2-7-SERIES-resize-2000-848x565.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_272,h_272/https://www.futurefarming.com/app/uploads/2021/02/foto-Rene-Groeneveld-vierkant.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/09/1-Burro-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/07/1Quint-Pottinger-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/07/Dairy-Farming-1-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/07/Photo-1-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_818,h_619/https://www.futurefarming.com/app/uploads/2025/02/DG-Do-you-want-to-know-whats-happening-2.png"
+  ],
+  "author": "René Groeneveld",
+  "contentHtml": "Danish farm pairs AgXeed T2 7-SERIES with Carbon Robotics laser weeder: ‘We save a lot on labour’",
+  "scrapeMethod": "web_scrape"
+}

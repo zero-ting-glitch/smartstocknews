@@ -1,5 +1,53 @@
 [
   {
+    "id": "cmu0rjqo801jdzq984s4cba4w",
+    "titleEn": "MooMonitor 360 launched to enhance the evolution of herd intelligence",
+    "titleZh": "Dairymaster推出MooMonitor 360，提升牛群智能化管理水平",
+    "summaryZh": "Dairymaster发布新一代MooMonitor 360健康与繁殖监测系统，基于DairyVue 360软件构建统一互联平台，整合牛群活动、健康、繁殖、挤奶性能和分群信息，提供智能分析和优化输精图表，帮助奶农从单纯监测转向深度理解牛群，提升繁殖效率和管理决策水平。",
+    "featuredReason": "该新闻展示了牧场管理从单一监测向统一智能平台演进的最新趋势，DairyVue 360软件整合多源数据并提供繁殖优化建议，对智慧畜牧从业者了解奶牛场数字化管理前沿具有重要参考价值。",
+    "url": "https://www.agriland.ie/farming-news/moomonitor-360-launched-to-enhance-the-evolution-of-herd-intelligence/",
+    "source": {
+      "name": "Agriland",
+      "nameZh": "爱尔兰农业新闻",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "agriland",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 62,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-09-13T05:00:00.000Z"
+  },
+  {
+    "id": "cmu0rjryj01m5zq98sty0mmvi",
+    "titleEn": "Husker Harvest Days returns to Grand Island next week",
+    "titleZh": "Husker Harvest Days下周重返大岛市：聚焦智慧农业与肉牛管理培训",
+    "summaryZh": "全球最大灌溉型农场展Husker Harvest Days将于9月15-17日在内布拉斯加州大岛市举行，汇聚近600家参展商。今年新增玉米秸秆打捆、饲料搅拌机演示、滑移装载机体验区和无人机专区，AgTech展馆每日举办自主设备、AI应用、灌溉效率和无人机技术论坛。肉牛方面，全国养牛人牛肉协会首次引入Stockmanship and Stewardship项目，涵盖低应激牛只处理、设施设计和牛肉质量保证实践。",
+    "featuredReason": "该展会首次引入全国养牛人牛肉协会的Stockmanship and Stewardship项目，并设立AgTech展馆聚焦AI、无人机和自主设备在畜牧管理中的应用，对智慧畜牧从业者了解北美肉牛养殖技术趋势和精准农业落地实践具有直接参考价值。",
+    "url": "https://www.farmprogress.com/tv-and-radio/husker-harvest-days-returns-to-grand-island-next-week",
+    "source": {
+      "name": "Farm Progress",
+      "nameZh": "农业进展",
+      "tier": "T2",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "farmprogress",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 33,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-09-11T12:33:22.000Z"
+  },
+  {
     "id": "cmtqqqkw801jpeil7thkf7s1b",
     "titleEn": "Rethinking dry-off on a high-performing Kerry herd",
     "titleZh": "凯里郡高产奶牛群的干奶策略再思考",
@@ -66,7 +114,7 @@
     "subcategory": "cattle",
     "techTags": "",
     "qualityScore": 35,
-    "multiSourceCount": 2,
+    "multiSourceCount": 3,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-08-26T14:04:38.000Z"
@@ -90,7 +138,7 @@
     "subcategory": "cattle",
     "techTags": "",
     "qualityScore": 35,
-    "multiSourceCount": 2,
+    "multiSourceCount": 3,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-08-26T12:07:07.000Z"

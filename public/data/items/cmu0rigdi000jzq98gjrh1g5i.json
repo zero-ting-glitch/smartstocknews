@@ -1,0 +1,38 @@
+{
+  "id": "cmu0rigdi000jzq98gjrh1g5i",
+  "titleEn": "Electric Fendt shows what battery power could mean for autonomous field robots",
+  "titleZh": "电动Fendt拖拉机测试：电池动力对自主田间机器人意味着什么",
+  "summaryZh": "本文基于Fendt e107 Vario电动拖拉机与柴油版207 Vario在荷兰夏季和挪威冬季为期两周的对比测试，指出电动拖拉机本身已相当成熟，但电池容量仍是重负荷作业的主要瓶颈。文章进一步分析了电动驱动对自主田间机器人的潜在优势，包括结构简化、精准控制和能源管理等方面，对智慧农业从业者理解电动化与自动化融合趋势具有参考价值。",
+  "featuredReason": "电动化与自主机器人是智慧农业的重要趋势，本文通过实际对比测试揭示了电动拖拉机在田间作业中的成熟度与瓶颈，有助于畜牧及种植从业者判断电动驱动在自主机器人上的应用前景。",
+  "url": "https://www.futurefarming.com/tech-in-focus/electric-fendt-shows-what-battery-power-could-mean-for-autonomous-field-robots/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "futurefarming",
+  "species": "field",
+  "category": "crop",
+  "subcategory": "field",
+  "techTags": "",
+  "qualityScore": 69,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-09-07T10:50:43.000Z",
+  "contentFull": "Electric Fendt shows what battery power could mean for autonomous field robots\n\n 07-09 | Tech in focus | Article\n\nLinkedInFacebookXWhatsAppPrint\n\nIn this test, we compare a Fendt e107 Vario (electric) with a Fendt 207 Vario (diesel). We tested the tractors in summer conditions in the Netherlands and in winter conditions in Norway. Photos: Mark Pasveer\n\n Battery-electric tractors are becoming increasingly practical as battery technology and electric drivetrains improve. A two-week test of the Fendt e107 Vario shows that the tractor itself is already surprisingly mature, although battery capacity remains the main limitation for heavy work. That development is also highly relevant for autonomous field robots, where electric drive could have some inherent advantages. The Fendt e107 Vario was tested alongside its diesel-powered counterpart, the\n\nLinkedInFacebookXWhatsAppPrint\n\n \n\n Bob Karsten Editor for TREKKER magazine\n\nMore about\n\nelectric\n\nfendt\n\nad\n\nLEARN MORE\n\nRelated articles\n\nPremium\n\n25-05 | \n Article\n\nTest drive with new Agromec E600 based on Fendt 620\n\n08-10-2025 | \n News\n\nFendtOne: automatic GPS line creation and more updates\n\n04-03-2024 | \n News\n\nFrench start-up Seederal builds prototype electric tractor\n\nPremium\n\n15-11-2023 | \n Article\n\nTest drive with the electric narrow-track tractor Fendt e107V\n\n \n\n Buyers guides & Catalogues\n\n \n\n Subscribe to our YouTube channel",
+  "translationZh": "在本次测试中，我们将Fendt e107 Vario（电动）与Fendt 207 Vario（柴油）进行对比。我们在荷兰的夏季条件和挪威的冬季条件下对这两台拖拉机进行了测试。\n\n随着电池技术和电驱动系统的进步，电池电动拖拉机正变得越来越实用。对Fendt e107 Vario为期两周的测试表明，拖拉机本身已经出奇地成熟，尽管电池容量仍是重负荷作业的主要限制。这一发展对自主田间机器人也高度相关，因为电动驱动可能具有一些固有优势。Fendt e107 Vario与其柴油动力对应机型一同接受了测试。",
+  "images": [
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_848,h_565/https://www.futurefarming.com/app/uploads/2026/09/mpv424606-505-clean-resize-2000-1024x682-1-848x565.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_300,h_300/https://www.futurefarming.com/app/uploads/2021/08/bob-karsten-300x300.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/05/Agromec-E600-1-clean-jpeg-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2025/10/FendtONE-Cab-1206590-clean-jpg-1024x681-1-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2024/03/IMG_KopievanSeederalelektrischetrekker-389x260.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2023/11/IMG_Kopievan02BOBK1124-389x260.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_818,h_619/https://www.futurefarming.com/app/uploads/2025/02/DG-Do-you-want-to-know-whats-happening-2.png"
+  ],
+  "author": "Bob Karsten",
+  "contentHtml": "Battery-electric tractors are becoming increasingly practical as battery technology and electric drivetrains improve. A two-week test of the Fendt e107 Vario shows that the tractor itself is already surprisingly mature, although battery capacity remains the main limitation for heavy work. That development is also highly relevant for autonomous field robots, where electric drive could have some inherent advantages.",
+  "scrapeMethod": "web_scrape"
+}

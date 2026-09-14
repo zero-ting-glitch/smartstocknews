@@ -1,5 +1,77 @@
 [
   {
+    "id": "cmu0rjeie01gjzq986flrcvfs",
+    "titleEn": "Poultry WorldReviewing practical methods for monitoring ammonia emissions from broiler housesSep 9Article",
+    "titleZh": "肉鸡舍氨气排放监测的实用方法综述",
+    "summaryZh": "荷兰HAS Den Bosch研究人员系统综述了肉鸡舍氨气排放监测方法，提出涵盖5种方法的实用组合框架，从简单排放因子计算到浓度×通风量直接测量及混合方法。研究指出，传统机械通风鸡舍最适合采用浓度×通风量法，化学空气洗涤器鸡舍宜采用混合法。该框架旨在为养殖户、顾问和政策制定者提供统一、可操作的监测依据，推动氨减排认证与激励政策落地。",
+    "featuredReason": "该综述为肉鸡氨气排放监测提供了首个系统性的方法组合框架，直接回应了养殖户在减排认证中面临的监测方法选择困境，对智慧畜牧中传感器部署、数据采集与环保合规具有明确的实践指导意义。",
+    "url": "https://www.foodagribusiness.world/poultry/reviewing-practical-methods-for-monitoring-ammonia-emissions-from-broiler-houses",
+    "source": {
+      "name": "Poultry World",
+      "nameZh": "禽业世界",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "poultryworld",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 57,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-09-09T10:00:00.000Z"
+  },
+  {
+    "id": "cmu0rjeim01glzq98lv5iw8be",
+    "titleEn": "Poultry WorldNoble Foods trials acoustic technology to monitor laying hen welfareSep 9News",
+    "titleZh": "Noble Foods试验声学技术监测蛋鸡福利",
+    "summaryZh": "英国蛋品生产商Noble Foods在Innovate UK资助下，联合AgriSound和Aviasenze启动为期两年的声学福利监测试验，在自由散养和舍饲两种蛋鸡环境中部署专为蛋鸡设计的声学监测系统。该技术通过机器学习分析鸡群发声和行为模式，为养殖团队提供更早、持续、非侵入式的福利数据洞察，旨在补充传统养殖管理而非替代。这是英国蛋品行业首次应用此类技术，项目定位为学习型试验，成果将与行业共享。",
+    "featuredReason": "这是英国蛋品行业首次将声学AI监测技术应用于商业蛋鸡福利管理，代表了智慧畜牧从环境传感器向动物自身行为信号挖掘的重要趋势。对于关注AI+动物福利、非侵入式监测技术的行业人士具有较高的参考价值和前瞻意义。",
+    "url": "https://www.foodagribusiness.world/poultry/noble-foods-trials-acoustic-technology-to-monitor-laying-hen-welfare",
+    "source": {
+      "name": "Poultry World",
+      "nameZh": "禽业世界",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "poultryworld",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 62,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-09-09T09:52:28.942Z"
+  },
+  {
+    "id": "cmu0rjeit01gnzq9887chl6o5",
+    "titleEn": "Poultry WorldPartnerWhy precision vaccination is becoming the next frontier in poultry healthSep 9",
+    "titleZh": "精准疫苗接种正成为家禽健康的新前沿",
+    "summaryZh": "本文探讨了精准疫苗接种如何成为家禽健康管理的新前沿。文章分析了家禽业面临的疾病压力、抗生素减量需求和劳动力短缺等挑战，介绍了在胚蛋接种、喷雾、饮水和手动注射等传统方式基础上，结合高速成像、自动化和AI技术实现个体化精准接种的最新进展。研究显示，个体化接种可提高疫苗覆盖率、改善饲料转化率并增加出栏体重，为家禽业提供了一种兼顾效率、一致性和可持续性的新型健康管理方案。",
+    "featuredReason": "本文系统阐述了精准疫苗接种如何借助AI、高速成像和自动化技术，从群体免疫迈向个体化精准给药，并提供了可量化的生产性能数据（FCR改善、体重增加），对关注家禽健康管理技术升级的从业者具有重要参考价值。",
+    "url": "https://www.foodagribusiness.world/poultry/why-precision-vaccination-is-becoming-the-next-frontier-in-poultry-health",
+    "source": {
+      "name": "Poultry World",
+      "nameZh": "禽业世界",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "poultryworld",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 66,
+    "multiSourceCount": 1,
+    "isFeatured": true,
+    "isHot": false,
+    "publishedAt": "2026-09-09T07:00:00.000Z"
+  },
+  {
     "id": "cmtqqprl7006zeil70pulw174",
     "titleEn": "Kargo implements AI automated receiving at Lineage Ala. poultry warehouse",
     "titleZh": "Kargo在Lineage阿拉巴马家禽仓库实施AI自动化收货",
@@ -18,7 +90,7 @@
     "subcategory": "poultry",
     "techTags": "",
     "qualityScore": 58,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-09-04T13:15:01.000Z"
@@ -42,7 +114,7 @@
     "subcategory": "poultry",
     "techTags": "",
     "qualityScore": 52,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-09-03T07:00:00.000Z"
@@ -66,7 +138,7 @@
     "subcategory": "poultry",
     "techTags": "",
     "qualityScore": 65,
-    "multiSourceCount": 2,
+    "multiSourceCount": 3,
     "isFeatured": true,
     "isHot": false,
     "publishedAt": "2026-08-25T23:00:00.000Z"

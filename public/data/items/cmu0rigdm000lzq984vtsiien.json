@@ -1,0 +1,38 @@
+{
+  "id": "cmu0rigdm000lzq984vtsiien",
+  "titleEn": "Voltrac moves Thor robot into pre-series production",
+  "titleZh": "",
+  "summaryZh": "",
+  "featuredReason": "",
+  "url": "https://www.futurefarming.com/tech-in-focus/field-robots/voltrac-moves-thor-robot-into-pre-series-production/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "futurefarming",
+  "species": "aggtech",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 0,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-09-07T08:00:00.000Z",
+  "contentFull": "Voltrac moves Thor robot into pre-series production\n\n 07-09 | Field robots | News\n\nLinkedInFacebookXWhatsAppPrint\n\nThe Thor runs on hot-swappable battery packs that deliver up to 20 hours of uninterrupted operation. Photo: Voltrac\n\nSpanish agtech startup Voltrac has confirmed that its Thor autonomous electric robot is moving into pre-series production. The company’s current Thor 2 model – recently demonstrated at a robotics event in Berlin – is described by its founders as a pre-serial vehicle, with the follow-up Thor 3 set to be the first production-ready version.\n\nVoltrac plans to manufacture 96 units per year at its 1,200-square-metre factory in Valencia as a first phase, with longer-term blueprints targeting 1,000 vehicles per year. The Thor is not a converted diesel tractor with an electric motor dropped in. Voltrac built it from the ground up with autonomy as the starting point – and that distinction shapes nearly every engineering decision the company has made.\n\nNo more leaks and failures\n\nA conventional tractor carries a gearbox, oil filters, radiators, and a range of components that are prone to leaks and failures. Voltrac eliminated all of them. ‘By just removing them and electrifying, all we have is cables, instead of complex mechanisms’, company co-founder Francisco Infante Aguirre points out. The result is a machine with roughly 70 percent fewer components than a traditional tractor.\n\nIn place of a conventional drivetrain, Voltrac uses one electric motor per wheel – four in total – each paired with a reduction box. That configuration delivers 20,000 Newton metres of wheel torque. Four-wheel propulsion also means tight turning circles, which is relevant for orchard and vineyard work where headland space is limited and maximising planted rows directly increases yield.\n\nIf one motor fails, the other three carry on. ‘It’s a tool. It’s a workhorse. It has to carry on pushing’, according to Infante Aguirre. Repairs are designed to be done on-farm: each motor unit is accessible with two bolts, and Voltrac ships replacement units directly to the customer.\n\nBattery and power\n\nThe Thor runs on hot-swappable battery packs that deliver up to 20 hours of uninterrupted operation. Rather than charging in the field, operators can carry a second set of packs and swap them out in minutes. Voltrac is also partnering with solar panel manufacturers to give customers a complete off-grid energy solution for charging.\n\nHydraulics are currently retained for implement compatibility, but Voltrac expects to phase them out as implements increasingly switch to electric power – eliminating fluid leaks on the field entirely.\n\nOne of the Thor’s central selling points for existing farm operations is its three-point hitch, which makes it compatible with any implement a farmer already owns. ‘For farmers, they don’t have to buy anything fancy or new’, Infante Aguirre explains.\n\nThe robot carries a dual compute module – one for functional safety, and one running a CPU-GPU combination for machine learning – along with stereo cameras front and rear and mono cameras on the sides. Every pass over a field can be used to monitor crop health, detect disease early, and optimise fertiliser and chemical inputs. The platform is also open to third parties: Voltrac allows external developers to run their own applications on the robot’s compute, effectively creating a marketplace for field-level tools.\n\nConnectivity runs through dual SIM cards and a Starlink connection, with a remote teleoperator always available.\n\nOne operator supervising multiple vehicles\n\nThe key operational model is one operator supervising multiple vehicles across multiple fields simultaneously — rather than one person per machine. GPS precision sits at around 5 centimetres.\n\nVoltrac produces the Thor in Valencia. Infante Aguirre: ‘The talent is here, the precision manufacturing is here. The know-how is here.’ With Thor 3 and serial production now the immediate target, Voltrac is moving from demonstration to delivery.\n\nLinkedInFacebookXWhatsAppPrint\n\n \n\n René Groeneveld Correspondent for Australia\n\nMore about\n\nautonomy\n\nbattery\n\nelectric tractors\n\nrobotic harvesting\n\nsmart technology\n\nad\n\nLEARN MORE\n\nRelated articles\n\n07-09 | \n News\n\nFrench cooperative Océalia takes stake in weeding robot developer Cyclair\n\n03-09 | \n News\n\nElectric tractor from India charges in the sun\n\n02-09 | \n News\n\nRobotti is back: UK company Autonomous Agri Solutions steps in to secure the robot’s future\n\n31-08 | \n News\n\nIs Claas testing its next autonomous tractor?\n\n \n\n Buyers guides & Catalogues\n\n \n\n Subscribe to our YouTube channel",
+  "translationZh": "",
+  "images": [
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_848,h_565/https://www.futurefarming.com/app/uploads/2026/09/Voltrac-resize-2000-848x565.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_272,h_272/https://www.futurefarming.com/app/uploads/2021/02/foto-Rene-Groeneveld-vierkant.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/09/CYCLAIR-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/09/Moonrider-1-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/09/1-Robotti-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/08/1000011380-crop-resize-2000-1024x682-1-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_818,h_619/https://www.futurefarming.com/app/uploads/2025/02/DG-Do-you-want-to-know-whats-happening-2.png"
+  ],
+  "author": "René Groeneveld",
+  "contentHtml": "Spanish agtech startup Voltrac has confirmed that its Thor autonomous electric robot is moving into pre-series production. The company’s current Thor 2 model – recently demonstrated at a robotics event in Berlin – is described by its founders as a pre-serial vehicle, with the follow-up Thor 3 set to be the first production-ready version.",
+  "scrapeMethod": "web_scrape"
+}

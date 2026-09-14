@@ -1,0 +1,38 @@
+{
+  "id": "cmu0ribsg0001zq98z6jinohb",
+  "titleEn": "Ag Tech Talk Podcast: Smart Seeding and the Future of AI on the Farm",
+  "titleZh": "农业科技播客：智能播种与AI在农场的未来",
+  "summaryZh": "本文是AgriBusiness Global播客节目Ag Tech Talk的一期内容，邀请密苏里大学助理教授Jasmine Neupane博士探讨AI和机器学习如何助力精准农业。Neupane的研究聚焦利用机器学习优化玉米和大豆的变量播种策略，通过分析土壤特性、地形、天气模式和历史产量等田间数据实现精准决策。研究发现AI模型在玉米上的预测效果优于大豆，因为大豆对环境条件适应性更强，模式识别难度更大。文章强调AI应作为农民工具箱中的辅助工具，帮助实现更精准的数据驱动决策。",
+  "featuredReason": "虽然本文聚焦种植业（大田作物）而非养殖业，但其核心议题——AI和机器学习如何利用多源田间数据（土壤、地形、天气、历史产量）优化变量播种决策——对智慧畜牧行业具有重要借鉴意义。畜牧从业者可从中了解AI模型在不同物种/场景下预测精度的差异原因，以及数据质量和特征选择对AI决策效果的关键影响，这对于推动畜牧业的精准管理和数据驱动决策具有参考价值。",
+  "url": "https://www.globalagtechinitiative.com/digital-farming/ag-tech-talk-podcast-smart-seeding-and-the-future-of-ai-on-the-farm/",
+  "source": {
+    "name": "PrecisionAg",
+    "nameZh": "精准农业",
+    "tier": "T1.5",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "precisionag",
+  "species": "field",
+  "category": "crop",
+  "subcategory": "field",
+  "techTags": "",
+  "qualityScore": 49,
+  "multiSourceCount": 2,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-08-14T00:00:00.000Z",
+  "contentFull": "By AgriBusiness Global \n\n \n\n Share\n\n \n\n \n\n \n\n \n\n \n\n In this episode of Ag Tech Talk, we explore how artificial intelligence and machine learning are helping transform precision agronomy with Dr. Jasmine Neupane, assistant professor of Agricultural Systems Technology at the University of Missouri. Dr. Neupane’s research focuses on integrating digital agriculture technologies, including sensors, remote sensing, and data analytics, to help farmers and ag retailers make more informed, field-specific decisions that improve productivity, profitability, and sustainability. \n\n Her latest research examines how machine learning can be used to optimize variable rate seeding strategies in corn and soybean production by analyzing complex field-level data, including soil characteristics, topography, weather patterns, and historical yield information. In this conversation, Dr. Neupane explains how AI can serve as another tool in the farmer’s toolbox — helping growers move beyond traditional management approaches and make more precise, data-driven decisions.\n\n \n\n Podcast Transcript:\n\n *This is an edited and partial transcript.\n\n MORE BY AGRIBUSINESS GLOBAL\n\n Drones | UAVs August 14, 2026 Robots, Drones, and Digital Tools: The Next Generation of Crop Protection\n\n By AgriBusiness Global|August 14, 2026 \n\n \n\n \n\n Digital Farming August 7, 2026 Why Digital Innovation Alone Won’t Transform Agriculture\n\n By AgriBusiness Global|August 7, 2026 \n\n \n\n \n\n Digital Farming July 31, 2026 Digital Agriculture’s Role in the Future of Crop Protection\n\n By AgriBusiness Global|July 31, 2026 \n\n \n\n \n\n \n\n \n\n AgriBusiness Global: Your research found stronger results in corn compared to soybeans. Why is soybean management often more challenging for AI models, and what does that tell us about the crop?\n\n \n\n Top Articles\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n Read More \n\n \n\n Read More \n\n \n\n Read More \n\n \n\n Read More \n\n \n\n Read More \n\n \n\n John Deere Introduces JD, the AI Assistant That Helps Farmers Put Their Data to Work\n\n \n\n \n\n Dr. Jasmine Neupane: AI models work by identifying patterns in data, but soybeans are a highly adaptable crop that respond differently to changing environmental conditions, including weather, soil properties, and seeding rates. While that adaptability is beneficial from a production standpoint, it can make it more challenging for machine learning models to identify consistent patterns. In comparison, corn showed clearer relationships between seeding rates and yield outcomes, allowing AI models to make stronger predictions. Dr. Neupane noted that soybean management may require larger and more robust datasets to improve AI model accuracy and recommendations.\n\n ABG: Were you surprised by the differences between corn and soybean results?\n\n JN: The differences were somewhat expected, but the level of variation between the two crops was notable. The research showed that seeding rate had a particularly significant impact on corn yield, while soybean performance was influenced more by other field characteristics, such as organic matter and elevation differences. The findings demonstrate the importance of considering each crop’s unique characteristics when developing AI-powered agronomic tools.\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n 0 1 5 Ag Tech Talk Podcast: Smart Seeding and the Future of AI on the Farm \n\n \n\n Subscribe Today For\n\n \n\n \n\n \n\n Subscribe \n\n \n\n \n\n \n\n \n\n \n\n \n\n AgriBusiness Global, a sister publication to PrecisionAg at Meister Media Worldwide, connects the crop input value chain from raw material manufacturers down to distributors and trading partners around the world. See all author stories here. \n\n \n\n Topics: featured-home",
+  "translationZh": "在本期Ag Tech Talk节目中，我们与密苏里大学农业系统技术助理教授Jasmine Neupane博士一起探讨人工智能和机器学习如何帮助变革精准农艺。Neupane博士的研究聚焦于整合数字农业技术，包括传感器、遥感和数据分析，帮助农民和农资零售商做出更明智的、针对具体田块的决策，从而提高生产力、盈利能力和可持续性。\n\n她的最新研究探讨了如何利用机器学习优化玉米和大豆生产中的变量播种策略，通过分析复杂的田间数据，包括土壤特性、地形、天气模式和历史产量信息。在本次对话中，Neupane博士解释了AI如何作为农民工具箱中的又一工具——帮助种植者超越传统管理方法，做出更精准的、数据驱动的决策。\n\n**播客文字记录：**\n\n*以下为经过编辑的部分文字记录。*\n\nAgriBusiness Global：您的研究发现玉米的结果比大豆更强。为什么大豆管理对AI模型来说通常更具挑战性？这对我们了解这种作物有什么启示？\n\nJasmine Neupane博士：AI模型通过识别数据中的模式来工作，但大豆是一种高度适应性的作物，对变化的环境条件（包括天气、土壤性质和播种率）会做出不同的响应。虽然这种适应性从生产角度来看是有益的，但它可能使机器学习模型更难识别出一致的模式。相比之下，玉米在播种率和产量结果之间显示出更清晰的关系，使AI模型能够做出更强的预测。Neupane博士指出，大豆管理可能需要更大、更稳健的数据集来提高AI模型的准确性和建议质量。\n\nABG：玉米和大豆结果之间的差异让您感到意外吗？\n\nJN：这些差异在某种程度上是预料之中的，但两种作物之间的变异程度值得注意。研究表明，播种率对玉米产量有特别显著的影响，而大豆的表现更多受到其他田间特征的影响，如有机质和海拔差异。这些发现表明，在开发AI驱动的农艺工具时，考虑每种作物独特特征的重要性。",
+  "images": [
+    "https://d6kq167ddwbdq.cloudfront.net/farmchemint/wp-content/uploads/2023/02/apple-50px.png",
+    "https://d3hid44mqnfbhw.cloudfront.net/precisagms/wp-content/uploads/2026/09/AI-in-agriculture-Photo-AEM.jpg",
+    "https://d3hid44mqnfbhw.cloudfront.net/precisagms/wp-content/uploads/2026/09/Smart-Tech.jpg",
+    "https://d3hid44mqnfbhw.cloudfront.net/precisagms/wp-content/uploads/2018/12/istock-image-919777602.jpg",
+    "https://d3hid44mqnfbhw.cloudfront.net/precisagms/wp-content/uploads/2026/09/Carbon-Autonomy-3.0_15.jpg",
+    "https://d3hid44mqnfbhw.cloudfront.net/precisagms/wp-content/uploads/2026/09/jd-ai-pr-hero-jpg.jpg",
+    "https://www.precisionag.com/wp-content/themes/PrecisionAgTheme/images/the-signal.png"
+  ],
+  "author": "Matt Hopkins",
+  "contentHtml": "Discover how AI and machine learning are transforming precision agronomy, helping farmers make smarter, field-specific decisions for productivity and sustainability.\nThe post Ag Tech Talk Podcast: Smart Seeding and the Future of AI on the Farm appeared first on Global Ag Tech Initiative.",
+  "scrapeMethod": "web_scrape"
+}

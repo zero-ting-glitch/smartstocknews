@@ -1,5 +1,29 @@
 [
   {
+    "id": "cmu0riwkd0035zq9837f2p3bw",
+    "titleEn": "AP launches new FeedSense system to monitor swine feed inventory",
+    "titleZh": "AP推出FeedSense系统，实时监测猪场饲料库存",
+    "summaryZh": "AP公司发布FeedSense饲料库存监测系统，采用光学传感器自动监测猪场料塔余量，支持低料位和加料自动报警，并提供历史消耗趋势分析以辅助采购和饲料转化率评估。系统集成太阳能板和可充电电池，无需依赖猪舍供电，防尘防水抗紫外线，可快速改装安装于现有波纹料塔，每次读数附带料塔内部图像，数据通过AP Connect应用传输。",
+    "featuredReason": "该产品直击猪场饲料管理痛点，以低成本的太阳能离网方案实现料塔库存自动监测与预警，附带内部图像和消耗趋势分析，对规模化猪场降低人工巡检成本、优化饲料采购和转化率具有直接参考价值。",
+    "url": "https://www.nationalhogfarmer.com/farming-equipment/ap-launches-new-feedsense-system-to-monitor-swine-feed-inventory",
+    "source": {
+      "name": "National Hog Farmer",
+      "nameZh": "美国养猪人",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "nationalhogfarmer",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 64,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-09-11T11:00:00.000Z"
+  },
+  {
     "id": "cmtgsnvbw003n8ahs7e8zb5r8",
     "titleEn": "Mote inducted into the Nebraska Pork Producers' Hall of Fame",
     "titleZh": "本尼·莫特入选内布拉斯加州猪肉生产者名人堂",
@@ -112,7 +136,7 @@
     "species": "pig",
     "category": "aggtech",
     "subcategory": "pig",
-    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
+    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
     "qualityScore": 71,
     "multiSourceCount": 3,
     "isFeatured": true,

@@ -1,0 +1,32 @@
+{
+  "id": "cmu0ribsx0007zq98vzn1nku8",
+  "titleEn": "From Field to File: Managing Ag Data Across Platforms, Partners and AI",
+  "titleZh": "从田间到文件：跨平台、跨伙伴与AI的农业数据管理",
+  "summaryZh": "本文是CropLife在Tech Hub LIVE 2026上的炉边对话，CropLife的Renee Targos与AgGateway组合经理Ben Craker探讨了跨平台、跨合作伙伴及新兴AI工具管理农业数据的挑战与机遇。文章聚焦农业数据互操作性与标准化，虽以种植业为背景，但对智慧畜牧领域的数据整合、平台对接和AI应用具有跨领域参考价值。",
+  "featuredReason": "农业数据跨平台管理与AI整合是智慧畜牧数字化转型的核心议题，AgGateway在数据标准化与互操作性方面的经验对畜牧养殖数据管理具有直接借鉴意义。",
+  "url": "https://www.globalagtechinitiative.com/digital-farming/data-management/from-field-to-file-managing-ag-data-across-platforms-partners-and-ai/",
+  "source": {
+    "name": "PrecisionAg",
+    "nameZh": "精准农业",
+    "tier": "T1.5",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "precisionag",
+  "species": "general",
+  "category": "aggtech",
+  "subcategory": "general",
+  "techTags": "",
+  "qualityScore": 47,
+  "multiSourceCount": 2,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-08-31T00:00:00.000Z",
+  "contentFull": "By CropLife \n\n \n\n Share\n\n \n\n \n\n \n\n \n\n \n\n In this Fireside Chat at Tech Hub LIVE 2026, Renee Targos of CropLife sits down with Ben Craker, Portfolio Manager at AgGateway, to discuss the challenges and opportunities of managing agricultural data across platforms, partners and emerging AI tools.\n\n \n\n  \n\n \n\n MORE BY CROPLIFE\n\n Imagery August 31, 2026 Beyond Imagery: Turning Earth Observation Into a Decision Engine\n\n By CropLife|August 31, 2026 \n\n \n\n \n\n Digital Farming August 21, 2026 Growing Value: What Ag Retailers Need to Know About Farmers and Technology Adoption\n\n By CropLife|August 21, 2026 \n\n \n\n \n\n Digital Farming June 18, 2026 9 Ways Collaboration Is Accelerating Innovation Across AgTech\n\n By CropLife|June 18, 2026 \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n 0 1 5 From Field to File: Managing Ag Data Across Platforms, Partners and AI \n\n \n\n Subscribe Today For\n\n \n\n \n\n \n\n Subscribe \n\n \n\n \n\n \n\n \n\n \n\n \n\n CropLife, a sister brand to the Global Ag Tech Initiative at Meister Media Worldwide, is the nation’s brand leader in ag retail communication. See all author stories here. \n\n \n\n Topics: featured-home",
+  "translationZh": "在Tech Hub LIVE 2026的这场炉边对话中，CropLife的Renee Targos与AgGateway组合经理Ben Craker坐下来，讨论了跨平台、跨合作伙伴以及新兴AI工具管理农业数据所面临的挑战与机遇。",
+  "images": [
+    "https://www.precisionag.com/wp-content/themes/PrecisionAgTheme/images/the-signal.png"
+  ],
+  "author": "Matt Hopkins",
+  "contentHtml": "Ben Craker, Portfolio Manager at AgGateway, discusses the challenges and opportunities of managing agricultural data across platforms, partners and emerging AI tools.\nThe post From Field to File: Managing Ag Data Across Platforms, Partners and AI appeared first on Global Ag Tech Initiative.",
+  "scrapeMethod": "web_scrape"
+}

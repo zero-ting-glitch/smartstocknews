@@ -18,7 +18,7 @@
     "subcategory": "fruit",
     "techTags": "",
     "qualityScore": 78,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": false,
     "isHot": true,
     "publishedAt": "2026-09-02T10:00:00.000Z"
@@ -42,7 +42,7 @@
     "subcategory": "fruit",
     "techTags": "",
     "qualityScore": 77,
-    "multiSourceCount": 2,
+    "multiSourceCount": 3,
     "isFeatured": false,
     "isHot": true,
     "publishedAt": "2026-08-28T06:00:42.000Z"
@@ -66,7 +66,7 @@
     "subcategory": "fruit",
     "techTags": "",
     "qualityScore": 79,
-    "multiSourceCount": 5,
+    "multiSourceCount": 6,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-08-18T06:30:00.000Z"
@@ -90,7 +90,7 @@
     "subcategory": "fruit",
     "techTags": "",
     "qualityScore": 75,
-    "multiSourceCount": 5,
+    "multiSourceCount": 6,
     "isFeatured": false,
     "isHot": true,
     "publishedAt": "2026-08-17T07:00:47.000Z"
@@ -112,7 +112,7 @@
     "species": "fruit",
     "category": "aggtech",
     "subcategory": "fruit",
-    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
+    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
     "qualityScore": 50,
     "multiSourceCount": 3,
     "isFeatured": false,

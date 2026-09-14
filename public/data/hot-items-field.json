@@ -1,5 +1,53 @@
 [
   {
+    "id": "cmu0rigda000fzq98c54h4p0q",
+    "titleEn": "AgXeed T2 7-SERIES and LaserWeeder prove a strong autonomous team",
+    "titleZh": "AgXeed T2 7-SERIES 与 LaserWeeder 组成强大的自主作业组合",
+    "summaryZh": "丹麦有机蔬菜种植者 Axel Månsson 自4月起使用 AgXeed T2 7-SERIES 自主拖拉机搭配 Carbon Robotics LaserWeeder 激光除草机，经过数月田间实践，从设置、可靠性、产能、成本和农场整合等九个维度给出评价，多数方面获4.5星，并认为具有明显节省劳动力的潜力。该机器人可与激光除草机直接通信，根据杂草密度自动调整行进速度。",
+    "featuredReason": "该案例展示了自主拖拉机与激光除草机器人协同作业的实际田间表现，对关注农业自动化、机器人协同和有机种植降本的智慧农业从业者具有直接参考价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/field-robots/agxeed-t2-7-series-and-laserweeder-prove-a-strong-autonomous-team/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 76,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": true,
+    "publishedAt": "2026-09-10T06:42:10.000Z"
+  },
+  {
+    "id": "cmu0rigdq000nzq984bfylm3o",
+    "titleEn": "French cooperative Océalia takes stake in weeding robot developer Cyclair",
+    "titleZh": "法国合作社Océalia入股除草机器人开发商Cyclair",
+    "summaryZh": "法国农业合作社集团Océalia收购了自主除草机器人初创公司Cyclair的少数股权，作为其Cap 2030战略计划的一部分。Cyclair的机器人采用摄像头和激光雷达而非GPS进行导航，目前覆盖玉米、向日葵和油菜，未来计划扩展至谷物、露地蔬菜和特种作物。该投资旨在为合作社成员提供化学除草剂的机械替代方案，同时降低除草成本，目标是与传统化学除草（每公顷35-85欧元）实现成本持平。",
+    "featuredReason": "该新闻展示了农业机器人从除草工具向综合农艺数据平台演进的趋势，以及合作社通过战略投资推动化学除草剂替代方案的商业模式，对关注农业自动化、精准农业和可持续 farming 的智慧畜牧行业人士具有参考价值。",
+    "url": "https://www.futurefarming.com/smart-farming/french-cooperative-oc-alia-takes-stake-in-weeding-robot-developer-cyclair/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 76,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": true,
+    "publishedAt": "2026-09-07T07:00:00.000Z"
+  },
+  {
     "id": "cmtqqpi80000jeil7o1tm3fvf",
     "titleEn": "Droid scales up: new FD60 brings autonomous seeding and weeding to larger farms",
     "titleZh": "FarmDroid推出FD60大型田间机器人：自主播种与除草能力扩展至大型农场",
@@ -18,7 +66,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 81,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-09-01T06:00:00.000Z"
@@ -42,7 +90,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 81,
-    "multiSourceCount": 2,
+    "multiSourceCount": 3,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-08-26T07:37:57.000Z"
@@ -66,57 +114,9 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 82,
-    "multiSourceCount": 2,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-08-25T07:41:17.000Z"
-  },
-  {
-    "id": "cmt6p743x000jbr17zql40n1q",
-    "titleEn": "Less soil compaction with autonomous tractor",
-    "titleZh": "自主拖拉机减少土壤压实",
-    "summaryZh": "英国农民Will Mumford在自家农田对比了AgXeed的AgBot自主拖拉机、传统轮式拖拉机和Challenger履带式拖拉机，发现AgBot对土壤更友好，压实更少。Mumford对AgBot非常满意，并愿意推荐给其他农民。该案例展示了自主农机在保护土壤结构方面的潜力，对可持续农业有积极意义。",
-    "featuredReason": "该案例展示了自主农机在减少土壤压实方面的实际效果，对智慧畜牧行业中的大田作物种植环节具有参考价值，体现了自动化技术对可持续农业的贡献。",
-    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/autonomous-vehicles/less-soil-compaction-with-autonomous-tractor/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1",
-      "sourceType": "行业新闻站"
-    },
-    "sourceId": "futurefarming",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 75,
-    "multiSourceCount": 5,
-    "isFeatured": false,
-    "isHot": true,
-    "publishedAt": "2026-08-20T06:30:00.000Z"
-  },
-  {
-    "id": "cmt6p74uh002zbr17ateoqnlk",
-    "titleEn": "BioScout raises $4.8m for early warning system for fungal pathogens",
-    "titleZh": "BioScout获480万美元融资，用AI孢子检测为农作物建立真菌病害预警系统",
-    "summaryZh": "澳大利亚农业科技初创公司BioScout完成480万美元种子轮融资，其AI驱动的孢子检测预警系统可在大田作物出现可见病斑前识别空气中传播的真菌病原体，帮助种植者减少高达50%的杀菌剂施用。公司计划将全球传感器网络从250台扩展至1000台，并重点拓展欧洲市场，同时已在马铃薯、大豆、葡萄等多种作物上验证了技术有效性。",
-    "featuredReason": "该技术展示了AI+传感器在种植业病害防控中的前沿应用，其\"预警替代盲目喷洒\"的模式对智慧畜牧中疫病监测预警系统的构建具有直接借鉴意义，值得行业人士关注其技术路径和商业模式。",
-    "url": "https://agfundernews.com/bioscout-raises-4-8m-for-early-warning-system-for-fungal-pathogens",
-    "source": {
-      "name": "AgFunderNews",
-      "nameZh": "农业科技投",
-      "tier": "T1",
-      "sourceType": "行业新闻站"
-    },
-    "sourceId": "agfundernews",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 85,
     "multiSourceCount": 3,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-08-07T01:25:30.000Z"
+    "publishedAt": "2026-08-25T07:41:17.000Z"
   }
 ]
