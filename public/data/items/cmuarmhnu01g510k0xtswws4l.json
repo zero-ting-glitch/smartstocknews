@@ -1,0 +1,33 @@
+{
+  "id": "cmuarmhnu01g510k0xtswws4l",
+  "titleEn": "Sep 16NewsPig ProgressOn demand: Webinar on future sow performanceThemes like sow longevity, sow mortality and sow productivity were all discussed in a recent Pig Progress webinar.",
+  "titleZh": "点播回看：未来母猪生产性能网络研讨会",
+  "summaryZh": "Pig Progress与Hendrix Genetics Swine合作举办了一场关于未来母猪生产性能的网络研讨会，现已免费点播回看。Animal Data Analytics CEO Carlos Piñeiro博士指出，现代母猪需要更多营养、空间和个体化监管，母猪死亡率应被视为福利和生产质量的反映而非偶发事件。Hendrix Genetics Swine美国销售经理Garret Weber介绍了新一代Nexus 100母猪，强调其可预测性、稳定性和一致性，旨在最大化存活率和生产性能。",
+  "featuredReason": "本文涉及母猪死亡率、生产性能等猪业核心议题，并介绍了新一代商业母猪品系的育种方向，对关注猪场管理精细化和育种趋势的从业者具有参考价值。",
+  "url": "https://www.foodagribusiness.world/pigs/on-demand-webinar-on-future-sow-performance",
+  "source": {
+    "name": "Pig Progress",
+    "nameZh": "猪业进展",
+    "tier": "T1.5",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "pigprogress",
+  "species": "pig",
+  "category": "livestock",
+  "subcategory": "pig",
+  "techTags": "",
+  "qualityScore": 42,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-09-16T10:20:59.861Z",
+  "contentFull": "On demand: Webinar on future sow performance\n\nThemes like sow longevity, sow mortality and sow productivity were all discussed in a recent Pig Progress webinar. The episode is now available on demand, free of charge.\n\nVincent ter BeekEditor of Pig Progress / Topic: Pigs around the world\n\nSep 16\n\nNews\n\nThe line-up of the webinar with top right Dr Carlos Piñeiro and bottom right Garret Weber. Photo: Company Webcast \n\nClick here to view the webinarThe webinar, held on 10 September, was organised in cooperation with Hendrix Genetics Swine.\n\nTimes have changed – sows have moved on\n\nFirst on stage of the webinar was Dr Carlos Piñeiro, CEO of Animal Data Analytics. He emphasised that times (and sows!) have moved on. Sow mortality on farms, he said, shouldn’t be considered as occasional events – but rather as a reflection of well-being and quality of production.\n\nModern sows, he said, require more of everything than what was common in the past: more nutrients, more space, more individual supervision.\n\nThe ‘next-generation sow’\n\nThat message helped Garret Weber, sales manager, US, at Hendrix Genetics Swine, to deliver his message. He spoke about his company’s new Nexus 100 sow, which he introduced as the ‘next-generation balanced sow’, combining the strength of Hypor and Danish Genetics.\n\nAs qualifications he summed up that the line delivers predictability, stability and consistent results, while ‘maximising survivability and performance’.\n\nThe session was closed off with a live Q&A.\n\nClick here to view the webinar",
+  "translationZh": "**时代变了——母猪也进步了**\n\n研讨会首位演讲嘉宾是Animal Data Analytics首席执行官Carlos Piñeiro博士。他强调，时代（以及母猪！）已经向前迈进。他表示，农场的母猪死亡率不应被视为偶发事件，而应被视为福利和生产质量的反映。\n\n他说，现代母猪在各方面都比过去需要更多：更多营养、更多空间、更多个体化监管。\n\n**“下一代母猪”**\n\n这一信息帮助Hendrix Genetics Swine美国销售经理Garret Weber传达了他的观点。他谈到了公司的新Nexus 100母猪，将其介绍为“下一代均衡母猪”，结合了Hypor和Danish Genetics的优势。\n\n在资质方面，他总结道，该品系具有可预测性、稳定性和一致的结果，同时“最大化存活率和生产性能”。\n\n会议以现场问答环节结束。",
+  "images": [
+    "https://www.foodagribusiness.world/_next/image?url=%2Fapi%2Fucms-image%3Fpath%3D%252Fapi%252Fmedia%252Ffile%252Fimported-image-fb67717144cb27b2.jpg&w=3840&q=75&dpl=caf737b0fc355ba99ae0db028d7670cc8312ae60",
+    "https://www.foodagribusiness.world/_next/image?url=%2Fapi%2Fucms-image%3Fpath%3D%252Fapi%252Fmedia%252Ffile%252F2026-09-16%252520On%252520demand%252520webinar.jpg%253Fprefix%253Dfoodagribusiness-world&w=3840&q=75&dpl=caf737b0fc355ba99ae0db028d7670cc8312ae60"
+  ],
+  "author": "Vincent ter Beek",
+  "contentHtml": "",
+  "scrapeMethod": "web_scrape"
+}

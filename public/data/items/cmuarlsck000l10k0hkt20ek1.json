@@ -1,0 +1,38 @@
+{
+  "id": "cmuarlsck000l10k0hkt20ek1",
+  "titleEn": "Odd.Bot gives Maverick weeding robot an upgrade",
+  "titleZh": "Odd.Bot为Maverick除草机器人升级GPS与控制系统",
+  "summaryZh": "荷兰机器人制造商Odd.Bot在Agrotechniek Holland展会上发布了升级版Maverick除草机器人，新增GPS系统用于作业校验，并引入双重电子围栏功能以防止机器人在田垄中间误转弯。控制App也同步更新，支持通过App设置地理围栏和作业参数。此外，Maverick搭载的独立除草单元可单独出售给其他制造商，目前正在洽谈中。该升级提升了除草机器人的作业精度和易用性。",
+  "featuredReason": "该新闻展示了农业除草机器人在GPS校验和地理围栏方面的最新升级，对关注农业自动化与精准作业的智慧畜牧从业者具有参考价值，尤其是独立除草单元的外售模式值得关注。",
+  "url": "https://www.futurefarming.com/tech-in-focus/field-robots/26futweb-upgrade-maverick/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "futurefarming",
+  "species": "field",
+  "category": "crop",
+  "subcategory": "field",
+  "techTags": "",
+  "qualityScore": 53,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-09-14T08:00:00.000Z",
+  "contentFull": "Odd.Bot gives Maverick weeding robot an upgrade\n\n 14-09 | Field robots | News\n\nLinkedInFacebookXWhatsAppPrint\n\nDutch robot builder Odd.Bot is updating the Maverick weeding robot. The robot has been expanded with a GPS system, and the control app has been updated. Photo: Koos Groenewold\n\nDutch robot builder Odd.Bot is showing a new version of the Maverick weeding robot at the Agrotechniek Holland (ATH) trade fair, from 16 to 19 September in the Dutch village of Biddinghuizen. The updated Maverick is equipped with a GPS system, and the control app has been renewed.\n\nMaverick weeding robot uses the GPS system mainly as a check during operation. The robot recognises and drives over the ridges using a camera. Fundamentally, nothing has changed in this respect. The Maverick uses the GPS signal to check whether the machine has turned correctly on the headland and is driving in the right direction.\n\n2 digital fences\n\nIn addition, the user can set 2 separate geofences. These digital fences tell the robot where the field boundaries are. Robot builder Odd.Bot can set a second geofence in addition to the standard field boundary.\n\nThe second fence tells the robot within which area it is not allowed to turn. In the past, it has happened that the robot no longer saw any crop and thought it had reached the end of the field. As a result, the Maverick turned in the middle of the ridges. With the second fence, the robot can check whether it has already reached the end of the ridges or whether it still has to continue driving.\n\nControl app updated\n\nOdd.Bot has also updated the weeding robot’s control app. Here too, the further development relates to setting up geofencing, which is configured entirely via the app.\n\nIn addition, adjusting the robot is now easier. The parameters of the working area can now be set via the app. A number of other small improvements have also been implemented to improve ease of use.\n\nSeparate weeding units\n\nThe weeding units mounted under the Maverick operate independently of the robot. Each unit has its own camera and control software and, once connected to a 24-volt system, can be put to work immediately. Odd.Bot plans to sell the separate units to other manufacturers as well. Exploratory talks are under way between Odd.Bot and other market parties, but there is nothing concrete to report yet.\n\nJoin 17,000+ subscribers\n\nSubscribe to our newsletter to stay updated about all the need-to-know content in the agricultural sector, two times a week.\n\n \n\n\"*\" indicates required fields\n\nLinkedInFacebookXWhatsAppPrint\n\n \n\n Lucas van de Weijer Future Farming robot expert\n\nMore about\n\nautonomous farm equipment\n\ngps\n\nweeding robots\n\nad\n\nLEARN MORE\n\nRelated articles\n\n17-09 | \n News\n\nPrototype Ecorobotix ARA 1200 makes debut at ATH\n\nPremium\n\n02-09 | \n Article\n\n4 Autonomous systems tested: what do fruit growers think?\n\n01-09 | \n News\n\nDroid scales up: new FD60 brings autonomous seeding and weeding to larger farms\n\n30-07 | \n Article\n\nAutonomous field robots move into dairy farming\n\n \n\n Buyers guides & Catalogues\n\n \n\n Subscribe to our YouTube channel",
+  "translationZh": "荷兰机器人制造商Odd.Bot正在对Maverick除草机器人进行升级。该机器人新增了GPS系统，控制App也已更新。\n\n荷兰机器人制造商Odd.Bot将在9月16日至19日于荷兰Biddinghuizen村举办的Agrotechniek Holland（ATH）贸易展上展示新版Maverick除草机器人。升级后的Maverick配备了GPS系统，控制App也已焕然一新。\n\n**Maverick除草机器人主要将GPS系统用作作业校验**\n\nMaverick除草机器人主要将GPS系统用作作业过程中的校验手段。该机器人通过摄像头识别并沿着田垄行驶。在这方面本质上没有变化。Maverick利用GPS信号来检查机器是否在地头正确转弯，以及是否正朝着正确的方向行驶。\n\n**2道数字围栏**\n\n此外，用户可以设置2道独立的地理围栏。这些数字围栏告诉机器人田地的边界在哪里。机器人制造商Odd.Bot可以在标准田界之外再设置第二道地理围栏。\n\n第二道围栏告诉机器人哪些区域内不允许转弯。过去曾发生过机器人看不到作物、误以为已到达田地尽头的情况。结果Maverick在田垄中间就转弯了。有了第二道围栏，机器人可以检查自己是否已经到达田垄尽头，还是需要继续行驶。\n\n**控制App更新**\n\nOdd.Bot还更新了除草机器人的控制App。这里的进一步开发同样涉及地理围栏的设置，完全通过App进行配置。\n\n此外，调整机器人现在更加容易。作业区域的参数现在可以通过App进行设置。还实施了其他一些小改进以提升易用性。\n\n**独立除草单元**\n\n安装在Maverick下方的除草单元独立于机器人运行。每个单元都有自己的摄像头和控制软件，一旦连接到24伏系统即可立即投入使用。Odd.Bot计划将这些独立单元也出售给其他制造商。Odd.Bot与其他市场方之间的探索性谈判正在进行中，但目前尚无具体内容可公布。",
+  "images": [
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_848,h_565/https://www.futurefarming.com/app/uploads/2026/09/gro417947-006-resize-2000-1024x683-resize-2000-848x565.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_225,h_300/https://www.futurefarming.com/app/uploads/2025/05/Lucas-van-de-Weijer-225x300-1.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/09/mpv425080-215-resize-2000-1024x682-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/09/ervaringsdag-fruitteelt-2-1-of-1-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/09/1-FarmDroid-FD60-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/07/Dairy-Farming-1-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_818,h_619/https://www.futurefarming.com/app/uploads/2025/02/DG-Do-you-want-to-know-whats-happening-2.png"
+  ],
+  "author": "Lucas van de Weijer",
+  "contentHtml": "Dutch robot builder Odd.Bot is showing a new version of the Maverick weeding robot at the Agrotechniek Holland (ATH) trade fair, from 16 to 19 September in the Dutch village of Biddinghuizen. The updated Maverick is equipped with a GPS system, and the control app has been renewed.",
+  "scrapeMethod": "web_scrape"
+}

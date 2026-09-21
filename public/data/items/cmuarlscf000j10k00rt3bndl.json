@@ -1,0 +1,38 @@
+{
+  "id": "cmuarlscf000j10k00rt3bndl",
+  "titleEn": "John Deere introduces AI assistant",
+  "titleZh": "约翰迪尔在运营中心应用中推出AI助手JD",
+  "summaryZh": "约翰迪尔在Operations Center应用中推出名为JD的AI助手，可基于农机、田块和作业数据分析燃油消耗、机械性能和作物产量，帮助农户制定维护计划和成本核算，并支持产量预测和最佳收获时机判断。该助手目前在美国限量测试，计划年内扩展至网页和移动端，最终将集成到农机驾驶室显示屏中。约翰迪尔强调农户数据仍归其所有，不会出售业务数据。",
+  "featuredReason": "约翰迪尔作为全球农机巨头将AI助手深度集成到农业运营平台，代表了农业数据智能化应用的重要方向，对智慧畜牧从业者理解AI在农业全链条中的落地路径具有参考价值。",
+  "url": "https://www.futurefarming.com/smart-farming/john-deere-introduces-ai-assistant/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "futurefarming",
+  "species": "field",
+  "category": "crop",
+  "subcategory": "field",
+  "techTags": "",
+  "qualityScore": 79,
+  "multiSourceCount": 1,
+  "isFeatured": true,
+  "isHot": true,
+  "publishedAt": "2026-09-14T13:00:00.000Z",
+  "contentFull": "John Deere introduces AI assistant\n\n 14-09 | Smart farming | News\n\nLinkedInFacebookXWhatsAppPrint\n\nJohn Deere is introducing a new AI assistant in the Operations Center app. This assistant, called JD, can analyse data from the app and use it to create maintenance schedules or cost calculations. Photo: Michel Velderman\n\nJohn Deere is introducing a new AI assistant in John Deere Operations Center. The assistant, called JD, uses data on machines, fields and operations stored in Operations Center to give farmers insight into the performance of their business.\n\nThe AI model is designed to function as a conversation partner for the farmer. JD is activated via a button in the Operations Center app.\n\nFrom the app, users can ask questions about, for example, fuel consumption, machine performance and crop yields. JD analyses historical data available in Operations Center for this purpose. For example, the system can provide insight into fuel consumption over several years or help with a yield forecast. John Deere also cites determining the optimum harvest timing based on historical data as an application.\n\nData remain with the farmer\n\nJohn Deere emphasises that users’ data remain under their control. The AI model bases its answers on the data available in the Operations Center account. The manufacturer says it does not sell farmers’ business data. Users also decide for themselves which third parties they share their data with and can stop that data flow at any time.\n\nFuture plans\n\nJD is now being tested with a limited number of users in the United States. John Deere wants to make the system more widely available later this year via Operations Center on the internet and mobile devices. Eventually, JD should also become accessible via displays in the cabs of tractors and other agricultural machines. It is not yet known whether JD will also come to the Netherlands.\n\nJoin 17,000+ subscribers\n\nSubscribe to our newsletter to stay updated about all the need-to-know content in the agricultural sector, two times a week.\n\n \n\n\"*\" indicates required fields\n\nLinkedInFacebookXWhatsAppPrint\n\n \n\n Lucas van de Weijer Future Farming robot expert\n\nMore about\n\nai\n\ndata & tools\n\nad\n\nLEARN MORE\n\nRelated articles\n\nPremium\n\n13-08 | \n Article\n\n‘Ullmanna hoe pays for itself within a few years’\n\n03-08 | \n News\n\nHomburg says goodbye to Escarda\n\n26-05 | \n News\n\nCropr introduces autonomous laser weeder\n\n19-05 | \n News\n\nEscarda starts series production of AI laser weeder after acquisition\n\n \n\n Buyers guides & Catalogues\n\n \n\n Subscribe to our YouTube channel",
+  "translationZh": "约翰迪尔正在John Deere Operations Center中引入一款新的AI助手。该助手名为JD，利用Operations Center中存储的机器、田块和作业数据，让农户深入了解其业务表现。\n\n该AI模型被设计为农户的对话伙伴。JD通过Operations Center应用中的一个按钮激活。\n\n用户可以在应用中询问有关燃油消耗、机械性能和作物产量等问题。JD会分析Operations Center中的历史数据来作答。例如，系统可以提供多年燃油消耗的洞察，或帮助进行产量预测。约翰迪尔还提到，基于历史数据确定最佳收获时机也是一个应用场景。\n\n**数据仍归农户所有**\n\n约翰迪尔强调，用户数据仍在其掌控之下。该AI模型基于Operations Center账户中可用的数据来给出答案。制造商表示不会出售农户的业务数据。用户也可以自行决定与哪些第三方共享数据，并可随时停止数据流动。\n\n**未来计划**\n\nJD目前正在美国与有限数量的用户进行测试。约翰迪尔希望今年晚些时候通过Operations Center在互联网和移动设备上更广泛地提供该系统。最终，JD还应能通过拖拉机和其他农业机械驾驶室内的显示屏访问。目前尚不清楚JD是否也会进入荷兰市场。",
+  "images": [
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_848,h_565/https://www.futurefarming.com/app/uploads/2026/09/vem406609-001-resize-2000-1024x684-resize-2000-848x565.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_225,h_300/https://www.futurefarming.com/app/uploads/2025/05/Lucas-van-de-Weijer-225x300-1.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/08/Ulmanna-389x260.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/08/Escarda-System-Feld-gross-clean-jpg-clean-jpg-1024x683-resize-2000-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/05/Cropr-clean-jpeg-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/05/Escarda-System-Feld-gross-clean-jpg-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_818,h_619/https://www.futurefarming.com/app/uploads/2025/02/DG-Do-you-want-to-know-whats-happening-2.png"
+  ],
+  "author": "Lucas van de Weijer",
+  "contentHtml": "John Deere is introducing a new AI assistant in John Deere Operations Center. The assistant, called JD, uses data on machines, fields and operations stored in Operations Center to give farmers insight into the performance of their business.",
+  "scrapeMethod": "web_scrape"
+}

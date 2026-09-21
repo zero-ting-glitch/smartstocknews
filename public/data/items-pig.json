@@ -1,5 +1,29 @@
 [
   {
+    "id": "cmuarmhnu01g510k0xtswws4l",
+    "titleEn": "Sep 16NewsPig ProgressOn demand: Webinar on future sow performanceThemes like sow longevity, sow mortality and sow productivity were all discussed in a recent Pig Progress webinar.",
+    "titleZh": "点播回看：未来母猪生产性能网络研讨会",
+    "summaryZh": "Pig Progress与Hendrix Genetics Swine合作举办了一场关于未来母猪生产性能的网络研讨会，现已免费点播回看。Animal Data Analytics CEO Carlos Piñeiro博士指出，现代母猪需要更多营养、空间和个体化监管，母猪死亡率应被视为福利和生产质量的反映而非偶发事件。Hendrix Genetics Swine美国销售经理Garret Weber介绍了新一代Nexus 100母猪，强调其可预测性、稳定性和一致性，旨在最大化存活率和生产性能。",
+    "featuredReason": "本文涉及母猪死亡率、生产性能等猪业核心议题，并介绍了新一代商业母猪品系的育种方向，对关注猪场管理精细化和育种趋势的从业者具有参考价值。",
+    "url": "https://www.foodagribusiness.world/pigs/on-demand-webinar-on-future-sow-performance",
+    "source": {
+      "name": "Pig Progress",
+      "nameZh": "猪业进展",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "pigprogress",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 42,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-09-16T10:20:59.861Z"
+  },
+  {
     "id": "cmu0riwkd0035zq9837f2p3bw",
     "titleEn": "AP launches new FeedSense system to monitor swine feed inventory",
     "titleZh": "AP推出FeedSense系统，实时监测猪场饲料库存",
@@ -18,7 +42,7 @@
     "subcategory": "pig",
     "techTags": "",
     "qualityScore": 64,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-09-11T11:00:00.000Z"
@@ -136,7 +160,7 @@
     "species": "pig",
     "category": "aggtech",
     "subcategory": "pig",
-    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
+    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
     "qualityScore": 71,
     "multiSourceCount": 3,
     "isFeatured": true,

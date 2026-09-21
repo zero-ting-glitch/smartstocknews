@@ -1,5 +1,29 @@
 [
   {
+    "id": "cmuarlscf000j10k00rt3bndl",
+    "titleEn": "John Deere introduces AI assistant",
+    "titleZh": "约翰迪尔在运营中心应用中推出AI助手JD",
+    "summaryZh": "约翰迪尔在Operations Center应用中推出名为JD的AI助手，可基于农机、田块和作业数据分析燃油消耗、机械性能和作物产量，帮助农户制定维护计划和成本核算，并支持产量预测和最佳收获时机判断。该助手目前在美国限量测试，计划年内扩展至网页和移动端，最终将集成到农机驾驶室显示屏中。约翰迪尔强调农户数据仍归其所有，不会出售业务数据。",
+    "featuredReason": "约翰迪尔作为全球农机巨头将AI助手深度集成到农业运营平台，代表了农业数据智能化应用的重要方向，对智慧畜牧从业者理解AI在农业全链条中的落地路径具有参考价值。",
+    "url": "https://www.futurefarming.com/smart-farming/john-deere-introduces-ai-assistant/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 79,
+    "multiSourceCount": 1,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-09-14T13:00:00.000Z"
+  },
+  {
     "id": "cmu0rigda000fzq98c54h4p0q",
     "titleEn": "AgXeed T2 7-SERIES and LaserWeeder prove a strong autonomous team",
     "titleZh": "AgXeed T2 7-SERIES 与 LaserWeeder 组成强大的自主作业组合",
@@ -18,10 +42,34 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 76,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": false,
     "isHot": true,
     "publishedAt": "2026-09-10T06:42:10.000Z"
+  },
+  {
+    "id": "cmu0rigdm000lzq984vtsiien",
+    "titleEn": "Voltrac moves Thor robot into pre-series production",
+    "titleZh": "Voltrac将Thor机器人推进至预量产阶段",
+    "summaryZh": "西班牙农业科技初创公司Voltrac宣布其Thor自主电动机器人进入预量产阶段，计划在瓦伦西亚工厂年产96台，远期目标1000台。Thor从零开始为自主化设计，采用四轮独立电机驱动、热插拔电池组（续航20小时）、三点悬挂兼容现有农具，并配备双计算模块、立体相机和Starlink连接，支持一人远程监管多台车辆。该产品对果园、葡萄园及大田作业的自动化具有重要参考价值。",
+    "featuredReason": "Thor从零为自主化设计的理念、四轮独立电机驱动、热插拔电池及一人多机监管模式，为智慧畜牧及种植业的机器人自动化提供了可借鉴的工程思路和商业化路径，尤其对果园和大田作业的无人化升级具有直接参考价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/field-robots/voltrac-moves-thor-robot-into-pre-series-production/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 84,
+    "multiSourceCount": 2,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-09-07T08:00:00.000Z"
   },
   {
     "id": "cmu0rigdq000nzq984bfylm3o",
@@ -42,7 +90,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 76,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": false,
     "isHot": true,
     "publishedAt": "2026-09-07T07:00:00.000Z"
@@ -66,57 +114,9 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 81,
-    "multiSourceCount": 2,
+    "multiSourceCount": 3,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-09-01T06:00:00.000Z"
-  },
-  {
-    "id": "cmtgsnmsy000l8ahs0d1lcy2o",
-    "titleEn": "Solinftec expands Solix fleet after 85% average chemical reduction",
-    "titleZh": "Solinftec扩大Solix机器人车队规模，平均化学药剂用量减少85%",
-    "summaryZh": "Solinftec宣布其Solix自主田间机器人平台在2026年商业季取得重大突破：超100台机器人在美国13个州和波多黎各作业，覆盖超5.5万英亩，平均减少化学药剂使用85%。公司同步推进自主补给站商业化，并计划推出四款动力版本机型，其中柴油版XR将于2027年上市。",
-    "featuredReason": "该新闻展示了AI与机器人技术在精准植保领域的商业化落地成果，其85%的化学药剂减量数据对智慧畜牧行业中的种植业板块（饲料原料生产）具有直接借鉴意义，同时自主补给站的创新模式也为养殖场自动化管理提供了技术迁移思路。",
-    "url": "https://www.futurefarming.com/crop-solutions/weed-pest-control/solinftec-expands-solix-fleet-after-85-average-chemical-reduction/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1",
-      "sourceType": "行业新闻站"
-    },
-    "sourceId": "futurefarming",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 81,
-    "multiSourceCount": 3,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-08-26T07:37:57.000Z"
-  },
-  {
-    "id": "cmtgsnmt0000n8ahsc0g2ccng",
-    "titleEn": "‘The robot does its job, the weather determines the opportunities’",
-    "titleZh": "机器人除草，天气定机遇",
-    "summaryZh": "荷兰Poppe农场在2026年采用Andeta机器人行内除草与Electro Weeder行间除草的组合方案，有效应对洋葱田杂草问题。文章强调机器人作业效率受天气可作业天数制约，并指出在杂草较大时仍需人工干预，为智能除草技术的实际应用提供了宝贵经验。",
-    "featuredReason": "本文展示了机器人与电动除草技术在洋葱田的实际应用效果，强调了天气对作业窗口的影响，对智慧畜牧行业中的精准农业和自动化应用具有参考价值。",
-    "url": "https://www.futurefarming.com/crop-solutions/weed-pest-control/the-robot-does-its-job-the-weather-determines-the-opportunities/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1",
-      "sourceType": "行业新闻站"
-    },
-    "sourceId": "futurefarming",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 82,
-    "multiSourceCount": 3,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-08-25T07:41:17.000Z"
   }
 ]

@@ -1,5 +1,29 @@
 [
   {
+    "id": "cmuarmb1w015f10k08shg42sq",
+    "titleEn": "Camera-AI system predicts turkey weight weeks ahead",
+    "titleZh": "摄像头-AI系统可提前数周预测火鸡体重",
+    "summaryZh": "宾夕法尼亚州立大学研究团队开发了一套摄像头结合人工智能的系统，能够以约93%的准确率提前三周预测火鸡的体重。该系统通过深度图像和实例分割技术区分个体火鸡，利用ResNet神经网络学习外观、体型与体重之间的关系。这项技术有望替代传统的人工称重方式，减少劳动力成本和动物应激，为精准养殖提供新工具，但目前仍需在更大规模和多样化环境中验证。",
+    "featuredReason": "该报道展示了计算机视觉与AI在禽业个体体重预测中的前沿应用，93%的预测准确率和提前三周的预测能力对精准养殖具有重要参考价值，同时作者对商业化局限性的坦诚讨论也为行业人士提供了务实的评估视角。",
+    "url": "https://www.thepoultrysite.com/news/2026/09/camera-ai-system-predicts-turkey-weight-weeks-ahead",
+    "source": {
+      "name": "The Poultry Site",
+      "nameZh": "禽业网",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "thepoultrysite",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 65,
+    "multiSourceCount": 1,
+    "isFeatured": true,
+    "isHot": false,
+    "publishedAt": "2026-09-15T23:00:00.000Z"
+  },
+  {
     "id": "cmu0rjeie01gjzq986flrcvfs",
     "titleEn": "Poultry WorldReviewing practical methods for monitoring ammonia emissions from broiler housesSep 9Article",
     "titleZh": "肉鸡舍氨气排放监测的实用方法综述",
@@ -66,7 +90,7 @@
     "subcategory": "poultry",
     "techTags": "",
     "qualityScore": 66,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": true,
     "isHot": false,
     "publishedAt": "2026-09-09T07:00:00.000Z"
@@ -114,7 +138,7 @@
     "subcategory": "poultry",
     "techTags": "",
     "qualityScore": 52,
-    "multiSourceCount": 2,
+    "multiSourceCount": 3,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-09-03T07:00:00.000Z"
@@ -138,7 +162,7 @@
     "subcategory": "poultry",
     "techTags": "",
     "qualityScore": 65,
-    "multiSourceCount": 3,
+    "multiSourceCount": 4,
     "isFeatured": true,
     "isHot": false,
     "publishedAt": "2026-08-25T23:00:00.000Z"

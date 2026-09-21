@@ -1,0 +1,32 @@
+{
+  "id": "cmuarlnml000310k0peir9tys",
+  "titleEn": "AI Crop Intelligence: From the Leaf to the Bottom Line",
+  "titleZh": "AI作物智能：从叶片到利润",
+  "summaryZh": "本文介绍了Taranis公司在Tech Hub LIVE 2026大会上展示的AI作物智能方案，该方案通过无人机叶片级影像、AI分析、产量影响建模和Ag Assistant工具，帮助农资零售商和种植者检测杂草、病害、虫害、营养缺乏等作物威胁，并量化其对产量的潜在影响，从而辅助农艺师和种植者更快、更自信地做出决策。",
+  "featuredReason": "虽然本文聚焦种植业，但其AI+无人机+产量影响建模的技术路径对智慧畜牧行业的从业者具有跨界参考价值，尤其是在利用AI将数据转化为可量化决策方面。",
+  "url": "https://www.globalagtechinitiative.com/digital-farming/ai-crop-intelligence-from-the-leaf-to-the-bottom-line/",
+  "source": {
+    "name": "PrecisionAg",
+    "nameZh": "精准农业",
+    "tier": "T1.5",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "precisionag",
+  "species": "field",
+  "category": "crop",
+  "subcategory": "field",
+  "techTags": "",
+  "qualityScore": 49,
+  "multiSourceCount": 2,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-09-18T00:00:00.000Z",
+  "contentFull": "By CropLife \n\n \n\n Share\n\n \n\n \n\n \n\n \n\n \n\n How can AI-powered crop intelligence help ag retailers and growers protect yield and drive stronger ROI? In this Tech Talk at Tech Hub LIVE 2026, Maia Donahue, VP of Product at Taranis, shares how the company combines leaf-level drone imagery, advanced AI analytics, yield impact modeling, and its Ag Assistant to turn field data into actionable recommendations. Learn how Taranis detects weeds, disease, insects, nutrient deficiencies, and other crop threats, then quantifies their potential impact on yield to help agronomists and growers make faster, more confident decisions.\n\n \n\n  \n\n \n\n MORE BY CROPLIFE\n\n Connectivity September 18, 2026 Speaking the Same Language: Solving Ag Data Interoperability Challenges\n\n By CropLife|September 18, 2026 \n\n \n\n \n\n Analytics September 7, 2026 From Field to File: Managing Ag Data Across Platforms, Partners and AI\n\n By CropLife|September 7, 2026 \n\n \n\n \n\n Imagery August 31, 2026 Beyond Imagery: Turning Earth Observation Into a Decision Engine\n\n By CropLife|August 31, 2026 \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n 0 1 5 AI Crop Intelligence: From the Leaf to the Bottom Line \n\n \n\n Subscribe Today For\n\n \n\n \n\n \n\n Subscribe \n\n \n\n \n\n \n\n \n\n \n\n \n\n CropLife, a sister brand to the Global Ag Tech Initiative at Meister Media Worldwide, is the nation’s brand leader in ag retail communication. See all author stories here. \n\n \n\n Topics: featured-home",
+  "translationZh": "AI驱动的作物智能如何帮助农资零售商和种植者保护产量并推动更高的投资回报率？在Tech Hub LIVE 2026的Tech Talk环节中，Taranis产品副总裁Maia Donahue分享了该公司如何将叶片级无人机影像、先进AI分析、产量影响建模及其Ag Assistant相结合，把田间数据转化为可操作的建议。了解Taranis如何检测杂草、病害、虫害、营养缺乏及其他作物威胁，然后量化它们对产量的潜在影响，帮助农艺师和种植者更快、更自信地做出决策。",
+  "images": [
+    "https://www.precisionag.com/wp-content/themes/PrecisionAgTheme/images/the-signal.png"
+  ],
+  "author": "Matt Hopkins",
+  "contentHtml": "Taranis uses AI-powered crop intelligence to detect field threats, quantify yield impacts, and help agronomists make faster, more confident decisions.\nThe post AI Crop Intelligence: From the Leaf to the Bottom Line appeared first on Global Ag Tech Initiative.",
+  "scrapeMethod": "web_scrape"
+}
