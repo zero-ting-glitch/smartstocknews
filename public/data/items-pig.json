@@ -1,5 +1,53 @@
 [
   {
+    "id": "cmuksnj0v0099d7bet4zrb22v",
+    "titleEn": "Olymel opens $142 million integrated plant in Quebec",
+    "titleZh": "Olymel在魁北克开设1.42亿美元一体化加工厂",
+    "summaryZh": "Olymel在加拿大魁北克Trois-Rivières正式启用投资1.42亿美元的新一体化加工厂，年产能达5000万公斤，较原产能提升四倍以上，集猪肉和禽肉加工、切片、包装于一体。工厂引入能源效率、自动化和人工智能技术，包括加拿大首个工业电池储能系统，目标到2030年减排25%。项目创造约100个岗位，总员工达400人，并带动1.1亿美元加拿大本地订单。",
+    "featuredReason": "该新闻展示了大型肉类加工企业如何通过自动化、AI和储能技术实现产能翻倍与减排目标，对智慧畜牧行业在加工端的技术落地和投资回报具有直接参考价值。",
+    "url": "https://www.thepigsite.com/news/2026/09/olymel-opens-142-million-integrated-plant-in-quebec",
+    "source": {
+      "name": "The Pig Site",
+      "nameZh": "猪业网",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "thepigsite",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 62,
+    "multiSourceCount": 2,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-09-27T23:00:00.000Z"
+  },
+  {
+    "id": "cmuksnr9401grd7beu3b8vj7e",
+    "titleEn": "Sep 25ArticlePig ProgressComputer vision detects stress-related behaviour in pigsComputer vision combined with machine learning can detect behavioural changes in pigs caused by heat stress, poor ventilation and infection. A recent study shows that different stressors produce distinct changes in pigs’ feeding, drinking, lying and standing behaviour, highlighting the potential for automated monitoring of health and welfare problems.\n\nResearchers from the Republic of Korea and Bangladesh developed a stressor-specific anomaly detection system that combines computer vision-based behavioural monitoring with machine learning. The system was tested on growing pigs exposed to different environmental and health conditions.\n\nMoni...",
+    "titleZh": "计算机视觉可检测猪的应激相关行为",
+    "summaryZh": "韩国和孟加拉国研究人员开发了一种结合计算机视觉与机器学习的应激源特异性异常检测系统，用于监测生长猪在热应激、通风不良和感染等条件下的行为变化。研究发现不同应激源会导致猪在采食、饮水、躺卧和站立行为上产生独特变化，其中决策树模型在区分正常与异常行为方面表现最佳。该技术为猪场自动化健康与福利监测提供了新路径。",
+    "featuredReason": "该研究展示了计算机视觉与机器学习在猪场应激源自动识别中的实际应用潜力，为智慧畜牧从业者提供了从行为数据到健康预警的技术路径参考，尤其对关注AI落地养殖场景的技术人员和猪场管理者具有启发意义。",
+    "url": "https://www.foodagribusiness.world/pigs/computer-vision-detects-stress-related-behaviour-in-pigs",
+    "source": {
+      "name": "Pig Progress",
+      "nameZh": "猪业进展",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "pigprogress",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 63,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-09-25T08:10:18.743Z"
+  },
+  {
     "id": "cmuarmhnu01g510k0xtswws4l",
     "titleEn": "Sep 16NewsPig ProgressOn demand: Webinar on future sow performanceThemes like sow longevity, sow mortality and sow productivity were all discussed in a recent Pig Progress webinar.",
     "titleZh": "点播回看：未来母猪生产性能网络研讨会",
@@ -160,7 +208,7 @@
     "species": "pig",
     "category": "aggtech",
     "subcategory": "pig",
-    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
+    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
     "qualityScore": 71,
     "multiSourceCount": 3,
     "isFeatured": true,

@@ -1,0 +1,33 @@
+{
+  "id": "cmuksnr9401grd7beu3b8vj7e",
+  "titleEn": "Sep 25ArticlePig ProgressComputer vision detects stress-related behaviour in pigsComputer vision combined with machine learning can detect behavioural changes in pigs caused by heat stress, poor ventilation and infection. A recent study shows that different stressors produce distinct changes in pigs’ feeding, drinking, lying and standing behaviour, highlighting the potential for automated monitoring of health and welfare problems.\n\nResearchers from the Republic of Korea and Bangladesh developed a stressor-specific anomaly detection system that combines computer vision-based behavioural monitoring with machine learning. The system was tested on growing pigs exposed to different environmental and health conditions.\n\nMoni...",
+  "titleZh": "计算机视觉可检测猪的应激相关行为",
+  "summaryZh": "韩国和孟加拉国研究人员开发了一种结合计算机视觉与机器学习的应激源特异性异常检测系统，用于监测生长猪在热应激、通风不良和感染等条件下的行为变化。研究发现不同应激源会导致猪在采食、饮水、躺卧和站立行为上产生独特变化，其中决策树模型在区分正常与异常行为方面表现最佳。该技术为猪场自动化健康与福利监测提供了新路径。",
+  "featuredReason": "该研究展示了计算机视觉与机器学习在猪场应激源自动识别中的实际应用潜力，为智慧畜牧从业者提供了从行为数据到健康预警的技术路径参考，尤其对关注AI落地养殖场景的技术人员和猪场管理者具有启发意义。",
+  "url": "https://www.foodagribusiness.world/pigs/computer-vision-detects-stress-related-behaviour-in-pigs",
+  "source": {
+    "name": "Pig Progress",
+    "nameZh": "猪业进展",
+    "tier": "T1.5",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "pigprogress",
+  "species": "pig",
+  "category": "livestock",
+  "subcategory": "pig",
+  "techTags": "",
+  "qualityScore": 63,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-09-25T08:10:18.743Z",
+  "contentFull": "Computer vision detects stress-related behaviour in pigs\n\nComputer vision combined with machine learning can detect behavioural changes in pigs caused by heat stress, poor ventilation and infection. A recent study shows that different stressors produce distinct changes in pigs’ feeding, drinking, lying and standing behaviour, highlighting the potential for automated monitoring of health and welfare problems.\n\nSamaneh AzarpajouhAuthor, veterinarian\n\nSep 25\n\nArticle\n\nComputer vision systems can monitor changes in pigs’ feeding, drinking, lying and standing behaviour to help detect signs of heat stress, poor ventilation and infection. Photo: Twan Wiermans\n\nResearchers from the Republic of Korea and Bangladesh developed a stressor-specific anomaly detection system that combines computer vision-based behavioural monitoring with machine learning. The system was tested on growing pigs exposed to different environmental and health conditions.\n\nMonitoring pig behaviour\n\nThe researchers used computer vision systems to record and identify pigs’ postures and feeding behaviour. The data were divided into five classes: normal conditions; heat stress combined with poor ventilation; heat stress; heat stress combined with Salmonella typhimurium infection; and heat stress followed by recovery.\n\nSeveral anomaly-detection algorithms were then trained on the data, including Logistic Regression, Decision Tree, Random Forest, Extreme Gradient Boosting, k-Nearest Neighbours, Naïve Bayes, Support Vector Machine with an RBF kernel, Linear Discriminant Analysis and Quadratic Discriminant Analysis.\n\nThe researchers subsequently identified the best-performing models for analysing pig behaviour across different timeframes and conditions.\n\nBehaviour changes under stress\n\nUnder normal conditions, pigs showed higher feeding activity and lower drinking frequency. Under abnormal conditions, including heat stress, infection and poor ventilation, their behaviour changed in ways that reflected their response to environmental and health stressors. Pigs exposed to heat stress spent more time lying down and drinking, while standing and feeding behaviour decreased.\n\nWhen heat stress was combined with poor ventilation, pigs showed even more lying and drinking behaviour than under heat stress alone, indicating a behavioural shift associated with thermoregulation.\n\nFeeding activity fell further when pigs were exposed to both heat stress and Salmonella typhimurium infection, while lying behaviour increased. During the recovery phase, standing, sitting, feeding and drinking behaviour all increased, indicating a return to higher levels of activity.\n\nWhich model performed best?\n\nThe Decision Tree model performed best at distinguishing between normal and abnormal behaviour. According to the researchers, its strong performance suggests that it could have potential for real-time anomaly detection. Extreme Gradient Boosting achieved the highest overall performance when distinguishing between multiple classes. Its performance was lower, however, when detecting smaller or more specific classes during the infection and recovery phases. The researchers concluded that computer vision-based behavioural monitoring has the potential to distinguish between specific stress conditions in pigs.",
+  "translationZh": "计算机视觉结合机器学习可以检测由热应激、通风不良和感染引起的猪的行为变化。一项近期研究表明，不同的应激源会使猪在采食、饮水、躺卧和站立行为上产生不同的变化，凸显了自动化监测健康与福利问题的潜力。\n\n来自韩国和孟加拉国的研究人员开发了一种应激源特异性异常检测系统，将基于计算机视觉的行为监测与机器学习相结合。该系统在暴露于不同环境和健康状况下的生长猪上进行了测试。\n\n**监测猪的行为**\n\n研究人员使用计算机视觉系统记录和识别猪的姿势和采食行为。数据被分为五个类别：正常条件；热应激结合通风不良；热应激；热应激结合鼠伤寒沙门氏菌感染；以及热应激后恢复。\n\n随后，研究人员在数据上训练了多种异常检测算法，包括逻辑回归、决策树、随机森林、极端梯度提升、k近邻、朴素贝叶斯、带RBF核的支持向量机、线性判别分析和二次判别分析。\n\n研究人员随后确定了在不同时间框架和条件下分析猪行为的最佳表现模型。\n\n**应激条件下的行为变化**\n\n在正常条件下，猪表现出较高的采食活动和较低的饮水频率。在异常条件下，包括热应激、感染和通风不良，猪的行为变化反映了它们对环境 and 健康应激源的反应。暴露于热应激的猪花更多时间躺卧和饮水，而站立和采食行为减少。\n\n当热应激与通风不良相结合时，猪表现出比单独热应激更多的躺卧和饮水行为，表明与体温调节相关的行为转变。\n\n当猪同时暴露于热应激和鼠伤寒沙门氏菌感染时，采食活动进一步下降，而躺卧行为增加。在恢复阶段，站立、坐立、采食和饮水行为均有所增加，表明活动水平回升。\n\n**哪个模型表现最佳？**\n\n决策树模型在区分正常与异常行为方面表现最佳。据研究人员称，其强劲表现表明它可能具有实时异常检测的潜力。极端梯度提升在区分多个类别时取得了最高的整体性能。然而，在检测感染和恢复阶段中较小或更具体的类别时，其性能有所下降。研究人员得出结论，基于计算机视觉的行为监测有潜力区分猪的特定应激条件。",
+  "images": [
+    "https://www.foodagribusiness.world/_next/image?url=%2Fapi%2Fucms-image%3Fpath%3D%252Fapi%252Fmedia%252Ffile%252Fimported-image-ce0f3e6307a75d85.jpg&w=3840&q=75&dpl=5c280d1d647017dfa2364525dc196757d3564e1d",
+    "https://www.foodagribusiness.world/_next/image?url=%2Fapi%2Fucms-image%3Fpath%3D%252Fapi%252Fmedia%252Ffile%252FWIE420174-047.jpg%253Fprefix%253Dfoodagribusiness-world&w=3840&q=75&dpl=5c280d1d647017dfa2364525dc196757d3564e1d"
+  ],
+  "author": "Samaneh Azarpajouh",
+  "contentHtml": "",
+  "scrapeMethod": "web_scrape"
+}

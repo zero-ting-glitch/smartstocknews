@@ -1,5 +1,29 @@
 [
   {
+    "id": "cmuksn5me0011d7beq3f36eyc",
+    "titleEn": "European Research Aims to Use Sensors to Manage Fertilizer Waste",
+    "titleZh": "欧洲研究拟用传感器管理肥料浪费",
+    "summaryZh": "丹麦与德国合作开展NutriCycle项目，开发基于微流控和光学传感器的自动化系统，可实时测量温室水中各营养物浓度，帮助种植者精准补充缺失养分而非丢弃整池水肥，从而节约成本并减少氮磷进入废水。项目为期三年，将在德国温室进行原型测试，并计划接入现有数字平台实现自动化控制。",
+    "featuredReason": "该新闻展示了传感器与微流控技术在设施园艺中的精准水肥管理应用，对智慧畜牧行业从事温室环境控制、自动化灌溉和废弃物资源化的读者具有直接参考价值。",
+    "url": "https://www.greenhousegrower.com/technology/european-research-aims-to-use-sensors-to-manage-fertilizer-waste/",
+    "source": {
+      "name": "Greenhouse Grower",
+      "nameZh": "温室种植者",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "greenhousegrower",
+    "species": "horticulture",
+    "category": "crop",
+    "subcategory": "horticulture",
+    "techTags": "",
+    "qualityScore": 56,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-09-24T00:00:00.000Z"
+  },
+  {
     "id": "cmtqqpif20011eil7m0m9agnp",
     "titleEn": "Greenhouse Winter Readiness: Five Failures That Can Disrupt Spring Production",
     "titleZh": "温室冬季准备：可能扰乱春季生产的五个失误",
@@ -280,7 +304,7 @@
     "species": "horticulture",
     "category": "aggtech",
     "subcategory": "horticulture",
-    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
+    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
     "qualityScore": 66,
     "multiSourceCount": 1,
     "isFeatured": false,
@@ -304,7 +328,7 @@
     "species": "horticulture",
     "category": "aggtech",
     "subcategory": "horticulture",
-    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
+    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
     "qualityScore": 66,
     "multiSourceCount": 1,
     "isFeatured": false,

@@ -1,0 +1,38 @@
+{
+  "id": "cmuksn5g4000dd7be5z7tz5hd",
+  "titleEn": "Trust is the basis for adopting new technology",
+  "titleZh": "信任是采用新技术的基础",
+  "summaryZh": "本文报道了荷兰果农Peter Baars使用Fendt 211 Vario自动驾驶拖拉机在苹果园中进行割草作业的案例。Baars对拖拉机表现满意，但指出若拖拉机和农具能作为整体协同通信和作业，效果会更好。文章以实际应用场景展示了自主农机在果园中的运作方式，强调了信任是农民采纳新技术的关键前提，对智慧农业从业者理解自主技术落地有参考价值。",
+  "featuredReason": "该案例展示了自主农机在果园中的实际落地应用，并点出了农机与农具协同通信这一关键技术痛点，对智慧畜牧及种植业从业者理解自主技术的实际部署和用户信任问题具有参考意义。",
+  "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/autonomous-vehicles/trust-is-the-basis-for-adopting-new-technology/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "futurefarming",
+  "species": "fruit",
+  "category": "crop",
+  "subcategory": "fruit",
+  "techTags": "",
+  "qualityScore": 71,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-09-23T14:00:18.000Z",
+  "contentFull": "Trust is the basis for adopting new technology\n\n 23-09 | Autonomous vehicles | Article\n\nLinkedInFacebookXWhatsAppPrint\n\n Dutch fruit grower Peter Baars works with an autonomously driven tractor, and he is pleased with it. It could be even better if the tractor and implement communicated and worked together as a single unit. “You can see it, it does what it is supposed to do,” says Peter Baars, pointing to the Fendt 211 Vario. The autonomous tractor, with a mower unit behind it, calmly emerges from an alleyway between 2 rows of apple trees and turns into the next alley 2 rows further along. The tractor\n\nLinkedInFacebookXWhatsAppPrint\n\n \n\n Joost Stallen arable writer for GF Actueel\n\nMore about\n\nautonomy\n\nad\n\nLEARN MORE\n\nRelated articles\n\n07-09 | \n News\n\nVoltrac moves Thor robot into pre-series production\n\n31-08 | \n News\n\nIs Claas testing its next autonomous tractor?\n\n28-08 | \n News\n\nGUSS to add native-color lidar to autonomous orchard sprayers\n\n21-08 | \n News\n\nAgtonomy adds autonomous multi-point turning and expands data capabilities\n\n \n\n Buyers guides & Catalogues\n\n \n\n Subscribe to our YouTube channel",
+  "translationZh": "荷兰果农Peter Baars使用一台自动驾驶拖拉机作业，他对效果很满意。如果拖拉机和农具能够作为一个整体进行通信和协同作业，效果会更好。\n\n“你能看到它，它在做它该做的事，”Peter Baars指着那台Fendt 211 Vario说道。这台自动驾驶拖拉机后面挂着一台割草装置，从两排苹果树之间的巷道中平稳驶出，然后转入前方隔两排的下一條巷道。这台拖拉机",
+  "images": [
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_848,h_565/https://www.futurefarming.com/app/uploads/2026/09/DSC00922-2048x1361-1-848x565.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_272,h_272/https://www.futurefarming.com/app/uploads/2021/02/Joost-Stallen.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/09/Voltrac-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/08/1000011380-crop-resize-2000-1024x682-1-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/08/Mini-GUSS_edited-389x260.webp",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/08/Agtonomy_web-389x260.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_818,h_619/https://www.futurefarming.com/app/uploads/2025/02/DG-Do-you-want-to-know-whats-happening-2.png"
+  ],
+  "author": "Joost Stallen",
+  "contentHtml": "Dutch fruit grower Peter Baars works with an autonomously driven tractor, and he is pleased with it. It could be even better if the tractor and implement communicated and worked together as a single unit.",
+  "scrapeMethod": "web_scrape"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "cmuksn0q00001d7ben28nzzph",
+  "titleEn": "Tech Talk: Scaling Agricultural Intelligence With Territory Insights",
+  "titleZh": "技术对话：用Territory Insights扩展农业智能",
+  "summaryZh": "本文是CropLife在Tech Hub LIVE 2026大会上对EarthDaily客户总监Christina Collins的采访，介绍Territory Insights平台如何将卫星遥感、作物分类、绩效监测与高级分析结合，帮助农资零售商、农艺师、粮食贸易商等从“看图”转向“行动”，实现风险识别、资源优化、产量预测和主动响应。",
+  "featuredReason": "虽然本文聚焦种植业遥感决策智能，但其“从数据到行动”的方法论对智慧畜牧同样有借鉴意义——牧场同样面临卫星/遥感数据、物联网数据如何转化为可执行决策的挑战，值得畜牧行业人士了解跨领域的技术思路。",
+  "url": "https://www.globalagtechinitiative.com/in-field-technologies/imagery/tech-talk-scaling-agricultural-intelligence-with-territory-insights/",
+  "source": {
+    "name": "PrecisionAg",
+    "nameZh": "精准农业",
+    "tier": "T1.5",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "precisionag",
+  "species": "field",
+  "category": "crop",
+  "subcategory": "field",
+  "techTags": "",
+  "qualityScore": 46,
+  "multiSourceCount": 2,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-09-21T00:00:00.000Z",
+  "contentFull": "By CropLife \n\n \n\n Share\n\n \n\n \n\n \n\n \n\n \n\n How can agricultural organizations turn satellite imagery into faster, smarter business decisions? In this Tech Talk at Tech Hub LIVE 2026, Christina Collins, Account Executive at EarthDaily, discusses how Territory Insights helps agribusinesses move beyond simply viewing satellite imagery and start acting on the insights it provides. As weather grows more unpredictable and operational demands increase, organizations need more than data. They need actionable intelligence. Learn how Territory Insights combines Earth observation, crop classification, performance monitoring, and advanced analytics to help retailers, agronomists, grain merchandisers, and other agricultural professionals identify risks, uncover opportunities, and prioritize their efforts across entire territories. Discover how organizations can use decision intelligence to improve customer conversations, optimize resource allocation, forecast crop production, and respond to issues before they become larger problems.\n\n \n\n \n\n MORE BY CROPLIFE\n\n Digital Farming September 21, 2026 From Data Overload to Actionable Insights: How AI Is Transforming Agronomy\n\n By CropLife|September 21, 2026 \n\n \n\n \n\n Connectivity September 18, 2026 Speaking the Same Language: Solving Ag Data Interoperability Challenges\n\n By CropLife|September 18, 2026 \n\n \n\n \n\n Digital Farming September 14, 2026 AI Crop Intelligence: From the Leaf to the Bottom Line\n\n By CropLife|September 14, 2026 \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n 0 1 5 Tech Talk: Scaling Agricultural Intelligence With Territory Insights \n\n \n\n Subscribe Today For\n\n \n\n \n\n \n\n Subscribe \n\n \n\n \n\n \n\n \n\n \n\n \n\n CropLife, a sister brand to the Global Ag Tech Initiative at Meister Media Worldwide, is the nation’s brand leader in ag retail communication. See all author stories here.",
+  "translationZh": "农业组织如何将卫星影像转化为更快、更明智的商业决策？在Tech Hub LIVE 2026的Tech Talk环节中，EarthDaily客户总监Christina Collins探讨了Territory Insights如何帮助农业企业不再仅仅停留在查看卫星影像，而是开始基于影像提供的洞察采取行动。随着天气变得越来越不可预测、运营需求不断增加，组织需要的不只是数据，他们需要可执行的智能。了解Territory Insights如何结合地球观测、作物分类、绩效监测和高级分析，帮助零售商、农艺师、粮食贸易商及其他农业专业人士识别风险、发现机遇，并在整个业务区域内优先分配精力。探索组织如何利用决策智能来改善客户沟通、优化资源分配、预测作物产量，并在问题演变成更大麻烦之前做出响应。",
+  "images": [
+    "https://www.precisionag.com/wp-content/themes/PrecisionAgTheme/images/the-signal.png"
+  ],
+  "author": "Matt Hopkins",
+  "contentHtml": "EarthDaily’s Territory Insights transforms satellite imagery into actionable intelligence, helping agribusinesses identify risks, optimize resources, and make smarter decisions.\nThe post Tech Talk: Scaling Agricultural Intelligence With Territory Insights appeared first on Global Ag Tech Initiative.",
+  "scrapeMethod": "web_scrape"
+}

@@ -1,5 +1,29 @@
 [
   {
+    "id": "cmuksn5g7000fd7be85xkb22a",
+    "titleEn": "400+ crop robotics companies, but where are robots really gaining ground?",
+    "titleZh": "400多家作物机器人公司，但机器人在哪里真正取得进展？",
+    "summaryZh": "全球已有400多家公司开发用于粮食作物生产的机器人，较2024年增长超20%。然而供应商的快速增长并不意味着农场采用速度同样快。2026年作物机器人全景图揭示了机器人在哪些领域真正获得 traction，种植者和行业专家解释了有前景的技术与已能在田间证明价值的设备之间的区别。",
+    "featuredReason": "该文提供了全球作物机器人行业的最新全景数据（400+公司，增长20%+），并区分了技术前景与实际田间采用之间的差距，对智慧畜牧行业人士理解农业自动化落地瓶颈和投资方向具有重要参考价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/field-robots/400-crop-robotics-companiess-but-where-are-robots-really-gaining-ground/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 76,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": true,
+    "publishedAt": "2026-09-21T07:00:00.000Z"
+  },
+  {
     "id": "cmuarlscf000j10k00rt3bndl",
     "titleEn": "John Deere introduces AI assistant",
     "titleZh": "约翰迪尔在运营中心应用中推出AI助手JD",
@@ -18,7 +42,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 79,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-09-14T13:00:00.000Z"
@@ -42,7 +66,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 76,
-    "multiSourceCount": 2,
+    "multiSourceCount": 3,
     "isFeatured": false,
     "isHot": true,
     "publishedAt": "2026-09-10T06:42:10.000Z"
@@ -66,7 +90,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 84,
-    "multiSourceCount": 2,
+    "multiSourceCount": 3,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-09-07T08:00:00.000Z"
@@ -90,33 +114,9 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 76,
-    "multiSourceCount": 2,
+    "multiSourceCount": 3,
     "isFeatured": false,
     "isHot": true,
     "publishedAt": "2026-09-07T07:00:00.000Z"
-  },
-  {
-    "id": "cmtqqpi80000jeil7o1tm3fvf",
-    "titleEn": "Droid scales up: new FD60 brings autonomous seeding and weeding to larger farms",
-    "titleZh": "FarmDroid推出FD60大型田间机器人：自主播种与除草能力扩展至大型农场",
-    "summaryZh": "丹麦农业机器人公司FarmDroid推出大型田间机器人FD60，具备自主播种和机械除草功能，无需除草剂和人工操作。该机器人是FD20的升级版，作业能力约为其3倍，日作业面积达18公顷，季节作业能力达60公顷，每公顷成本低至304欧元。FD60采用RTK GPS定位技术，播种时记录每粒种子的精确位置，除草时按坐标导航，无需摄像头和图像识别。支持洋葱、甜菜、玉米等100多种行栽作物，太阳能供电，可24小时连续作业。",
-    "featuredReason": "该新闻展示了田间机器人从技术验证走向规模化商业应用的关键突破，其基于GPS坐标而非视觉的除草方案在成本、可靠性和适应性上具有显著创新性，对智慧农业领域的自动化技术选型具有重要参考价值。",
-    "url": "https://www.futurefarming.com/tech-in-focus/field-robots/droid-scales-up-new-fd60-brings-autonomous-seeding-and-weeding-to-larger-farms/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1",
-      "sourceType": "行业新闻站"
-    },
-    "sourceId": "futurefarming",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 81,
-    "multiSourceCount": 3,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-09-01T06:00:00.000Z"
   }
 ]

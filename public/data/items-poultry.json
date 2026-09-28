@@ -1,5 +1,29 @@
 [
   {
+    "id": "cmuksnw1r01hvd7be48g9898d",
+    "titleEn": "Poultry WorldRussia's poultry incubator production collapses as egg industry investment stalls Sep 23News",
+    "titleZh": "俄罗斯家禽孵化器产量暴跌98.4%，蛋业投资停滞",
+    "summaryZh": "2025年俄罗斯家禽孵化器产量从28413台骤降至455台，跌幅达98.4%，主因是蛋鸡养殖场设备投资项目完工、新订单锐减。然而同期鸡蛋产量反增4.3%至486亿枚，出口增长1.6倍，显示行业表面繁荣下暗藏投资危机。批发蛋价连续两年低于生产成本，2026年莫斯科优质鸡蛋价格从2月的110卢布暴跌至5月底的25卢布，严重削弱养殖户投资意愿。分析师指出，行业复苏需依赖新一轮农场投资、设备自动化升级及政府支持。",
+    "featuredReason": "该新闻揭示了俄罗斯蛋鸡行业表面产量增长与底层投资崩溃之间的尖锐矛盾，对理解畜牧设备市场周期、投资决策逻辑及智慧养殖自动化升级的紧迫性具有重要参考价值。",
+    "url": "https://www.foodagribusiness.world/poultry/russia-39-s-poultry-incubator-production-collapses-as-egg-industry-investment-stalls",
+    "source": {
+      "name": "Poultry World",
+      "nameZh": "禽业世界",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "poultryworld",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 52,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-09-23T07:46:52.750Z"
+  },
+  {
     "id": "cmuarmb1w015f10k08shg42sq",
     "titleEn": "Camera-AI system predicts turkey weight weeks ahead",
     "titleZh": "摄像头-AI系统可提前数周预测火鸡体重",
@@ -18,7 +42,7 @@
     "subcategory": "poultry",
     "techTags": "",
     "qualityScore": 65,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": true,
     "isHot": false,
     "publishedAt": "2026-09-15T23:00:00.000Z"
@@ -90,7 +114,7 @@
     "subcategory": "poultry",
     "techTags": "",
     "qualityScore": 66,
-    "multiSourceCount": 2,
+    "multiSourceCount": 3,
     "isFeatured": true,
     "isHot": false,
     "publishedAt": "2026-09-09T07:00:00.000Z"
@@ -138,7 +162,7 @@
     "subcategory": "poultry",
     "techTags": "",
     "qualityScore": 52,
-    "multiSourceCount": 3,
+    "multiSourceCount": 4,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-09-03T07:00:00.000Z"

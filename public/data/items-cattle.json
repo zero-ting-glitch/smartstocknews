@@ -1,5 +1,77 @@
 [
   {
+    "id": "cmukso9sj01m9d7be0vvt6smh",
+    "titleEn": "Dublin event on methane hears push back on Bovaer scepticism",
+    "titleZh": "都柏林甲烷会议为Bovaer争议辩护",
+    "summaryZh": "都柏林一场由EDF组织的甲烷排放会议聚焦反刍动物饲料添加剂Bovaer（3-NOP），多位发言人为其安全性和减排效果辩护，指出公众认知与科学证据之间存在鸿沟，强调需要加强科普教育。此前丹麦部分农户报告奶牛健康与产奶量受影响，EFSA正在审查相关数据。荷兰FrieslandCampina已推行Bovaer约三年且无农户投诉。",
+    "featuredReason": "Bovaer作为全球最受关注的减甲烷饲料添加剂，其科学争议与公众认知的博弈直接影响反刍动物养殖的减排路径和消费者信任，智慧畜牧从业者需关注这一议题对精准饲喂和牧场管理技术推广的潜在影响。",
+    "url": "https://www.agriland.ie/farming-news/dublin-event-on-methane-hears-push-back-on-bovaer-scepticism/",
+    "source": {
+      "name": "Agriland",
+      "nameZh": "爱尔兰农业新闻",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "agriland",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 44,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-09-24T18:14:29.000Z"
+  },
+  {
+    "id": "cmuksoagg01o5d7bes7wh35ie",
+    "titleEn": "Moving water forward: Innovation flows in cattle country",
+    "titleZh": "推动水资源前行：养牛业中的创新涌动",
+    "summaryZh": "本文聚焦美国养牛业在水资源管理方面的创新实践，探讨牧场主如何通过技术与管理手段，在日均消耗5亿加仑水、依赖单一含水层的压力下实现节水。文章以问答形式呈现，涉及水资源循环利用、精准灌溉、牧场基础设施改造等做法，对智慧畜牧从业者理解牛业可持续发展路径、水资源监测与自动化管理需求具有参考价值。",
+    "featuredReason": "牛业是用水大户，水资源管理直接关系牧场可持续性与成本。本文虽非纯技术文章，但清晰呈现了传感器、精准灌溉、水循环等智慧畜牧技术在水资源管理中的落地场景，有助于从业者理解牛业节水需求与技术切入点。",
+    "url": "https://www.farmprogress.com/livestock/moving-water-forward-innovation-flows-in-cattle-country",
+    "source": {
+      "name": "Farm Progress",
+      "nameZh": "农业进展",
+      "tier": "T2",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "farmprogress",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 31,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-09-24T07:00:00.000Z"
+  },
+  {
+    "id": "cmuksoagl01o7d7bezyy4gw76",
+    "titleEn": "Robots don’t replace good dairy management",
+    "titleZh": "机器人不能取代良好的奶牛管理",
+    "summaryZh": "本文对比了传统挤奶系统与自动挤奶系统（机器人）在奶牛场中的应用，指出尽管机器人能提高一致性并产生有价值的数据，但奶牛健康、环境卫生和持续的管理仍是成功的关键。文章从乳头准备、奶牛清洁、乳房炎检测和挤奶后消毒四个方面展开分析，强调无论采用何种技术，良好的管理实践才是保障乳房健康和高品质牛奶的基础。",
+    "featuredReason": "本文为智慧畜牧从业者提供了理性看待自动化技术的视角，强调机器人是工具而非万能解决方案，有助于避免过度依赖技术而忽视基础管理，对牧场决策者和技术人员具有实际指导意义。",
+    "url": "https://www.farmprogress.com/dairy-cattle/robots-don-t-replace-good-dairy-management",
+    "source": {
+      "name": "Farm Progress",
+      "nameZh": "农业进展",
+      "tier": "T2",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "farmprogress",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 35,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-09-24T07:00:00.000Z"
+  },
+  {
     "id": "cmu0rjqo801jdzq984s4cba4w",
     "titleEn": "MooMonitor 360 launched to enhance the evolution of herd intelligence",
     "titleZh": "Dairymaster推出MooMonitor 360，提升牛群智能化管理水平",
