@@ -1,5 +1,29 @@
 [
   {
+    "id": "cmuut6mo30017yqwclsoypzu8",
+    "titleEn": "Executive Perspective: What It Will Take to Increase Grower Adoption of Dynamic Lighting",
+    "titleZh": "高管视角：如何推动种植者采用动态照明",
+    "summaryZh": "本文是Sollum Technologies销售与营销高级副总裁Kassim Tremblay的专访，深入探讨了动态LED照明在温室种植中的应用现状与推广障碍。文章指出美国花卉种植者采用率不足10%，主要障碍并非认知而是财务回报与电力成本。Tremblay建议种植者选择可靠合作伙伴、利用补贴窗口期（12-36个月）进行概念验证，并强调照明系统需具备可进化能力以应对10-15年的使用周期。",
+    "featuredReason": "本文虽以温室园艺为背景，但动态照明技术、ROI分析框架、供应商筛选标准及补贴窗口期策略对智慧畜牧行业的环境控制与智能化升级具有直接借鉴意义，尤其适合关注设施农业与精准环境调控的从业者阅读。",
+    "url": "https://www.greenhousegrower.com/management/executive-perspective-what-it-will-take-to-increase-grower-adoption-of-dynamic-lighting/",
+    "source": {
+      "name": "Greenhouse Grower",
+      "nameZh": "温室种植者",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "greenhousegrower",
+    "species": "horticulture",
+    "category": "crop",
+    "subcategory": "horticulture",
+    "techTags": "",
+    "qualityScore": 54,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-10-01T00:00:00.000Z"
+  },
+  {
     "id": "cmuksn5me0011d7beq3f36eyc",
     "titleEn": "European Research Aims to Use Sensors to Manage Fertilizer Waste",
     "titleZh": "欧洲研究拟用传感器管理肥料浪费",
@@ -304,7 +328,7 @@
     "species": "horticulture",
     "category": "aggtech",
     "subcategory": "horticulture",
-    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
+    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
     "qualityScore": 66,
     "multiSourceCount": 1,
     "isFeatured": false,
@@ -328,7 +352,7 @@
     "species": "horticulture",
     "category": "aggtech",
     "subcategory": "horticulture",
-    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
+    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
     "qualityScore": 66,
     "multiSourceCount": 1,
     "isFeatured": false,

@@ -1,5 +1,53 @@
 [
   {
+    "id": "cmuut6mkj000dyqwctrhj3424",
+    "titleEn": "Future Farming Five: what autonomous weeding taught Kilter",
+    "titleZh": "Kilter AX-1自主除草机器人：8个月减少超100万升除草剂喷洒",
+    "summaryZh": "挪威公司Kilter的AX-1自主除草机器人通过精准微滴技术直接施药于杂草，在5个国家不到8个月内帮助农户避免了超过100万升除草剂混合液的喷洒。该机器人除草效果达97%，漂移减少99%，可使产量提升30-40%，尤其适用于高价值蔬菜（根茎类和叶菜）。文章通过5个问答深入探讨了数据计算方式、目标客户、常见误区、投资考量及未来展望，为智慧农业从业者提供了自主除草技术的实践参考。",
+    "featuredReason": "本文以问答形式深入剖析了自主除草机器人AX-1的实际应用效果、投资考量与行业误区，数据详实（减少100万升除草剂、产量提升30-40%），对关注农业自动化与精准植保的智慧畜牧从业者具有直接的参考价值和启发意义。",
+    "url": "https://www.futurefarming.com/smart-farming/future-farming-five-what-autonomous-weeding-taught-kilter/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 81,
+    "multiSourceCount": 1,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-10-01T05:00:00.000Z"
+  },
+  {
+    "id": "cmuut6mks000jyqwc5poyzx9j",
+    "titleEn": "Autonomous spraying cuts chemical use by 85% at Coggan Farms",
+    "titleZh": "自主喷洒机器人使Coggan农场化学品用量减少85%",
+    "summaryZh": "澳大利亚Coggan农场自2021年起部署两台SwarmFarm自主喷洒机器人，配备Weed-It光学点喷摄像头和AutoFill自动加药系统，在休耕期除草作业中实现约85%的化学品节省，部分场景高达95%。该案例展示了自主机器人如何应对劳动力短缺、降低投入成本并提升作业一致性，为大型种植与养殖混合农场提供了可量化的投资回报参考。",
+    "featuredReason": "该案例以详实的成本数据和投资回报分析，展示了自主喷洒机器人在大型混合农场中减少85%化学品用量的实际效果，对关注农业自动化、精准植保和劳动力替代的智慧畜牧从业者具有重要参考价值。",
+    "url": "https://www.futurefarming.com/smart-farming/autonomous-spraying-cuts-chemical-use-by-85-at-coggan-farms/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 82,
+    "multiSourceCount": 1,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-09-28T07:00:00.000Z"
+  },
+  {
     "id": "cmuksn5g7000fd7be85xkb22a",
     "titleEn": "400+ crop robotics companies, but where are robots really gaining ground?",
     "titleZh": "400多家作物机器人公司，但机器人在哪里真正取得进展？",
@@ -18,7 +66,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 76,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": false,
     "isHot": true,
     "publishedAt": "2026-09-21T07:00:00.000Z"
@@ -42,7 +90,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 79,
-    "multiSourceCount": 2,
+    "multiSourceCount": 3,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-09-14T13:00:00.000Z"
@@ -66,57 +114,9 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 76,
-    "multiSourceCount": 3,
+    "multiSourceCount": 4,
     "isFeatured": false,
     "isHot": true,
     "publishedAt": "2026-09-10T06:42:10.000Z"
-  },
-  {
-    "id": "cmu0rigdm000lzq984vtsiien",
-    "titleEn": "Voltrac moves Thor robot into pre-series production",
-    "titleZh": "Voltrac将Thor机器人推进至预量产阶段",
-    "summaryZh": "西班牙农业科技初创公司Voltrac宣布其Thor自主电动机器人进入预量产阶段，计划在瓦伦西亚工厂年产96台，远期目标1000台。Thor从零开始为自主化设计，采用四轮独立电机驱动、热插拔电池组（续航20小时）、三点悬挂兼容现有农具，并配备双计算模块、立体相机和Starlink连接，支持一人远程监管多台车辆。该产品对果园、葡萄园及大田作业的自动化具有重要参考价值。",
-    "featuredReason": "Thor从零为自主化设计的理念、四轮独立电机驱动、热插拔电池及一人多机监管模式，为智慧畜牧及种植业的机器人自动化提供了可借鉴的工程思路和商业化路径，尤其对果园和大田作业的无人化升级具有直接参考价值。",
-    "url": "https://www.futurefarming.com/tech-in-focus/field-robots/voltrac-moves-thor-robot-into-pre-series-production/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1",
-      "sourceType": "行业新闻站"
-    },
-    "sourceId": "futurefarming",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 84,
-    "multiSourceCount": 3,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-09-07T08:00:00.000Z"
-  },
-  {
-    "id": "cmu0rigdq000nzq984bfylm3o",
-    "titleEn": "French cooperative Océalia takes stake in weeding robot developer Cyclair",
-    "titleZh": "法国合作社Océalia入股除草机器人开发商Cyclair",
-    "summaryZh": "法国农业合作社集团Océalia收购了自主除草机器人初创公司Cyclair的少数股权，作为其Cap 2030战略计划的一部分。Cyclair的机器人采用摄像头和激光雷达而非GPS进行导航，目前覆盖玉米、向日葵和油菜，未来计划扩展至谷物、露地蔬菜和特种作物。该投资旨在为合作社成员提供化学除草剂的机械替代方案，同时降低除草成本，目标是与传统化学除草（每公顷35-85欧元）实现成本持平。",
-    "featuredReason": "该新闻展示了农业机器人从除草工具向综合农艺数据平台演进的趋势，以及合作社通过战略投资推动化学除草剂替代方案的商业模式，对关注农业自动化、精准农业和可持续 farming 的智慧畜牧行业人士具有参考价值。",
-    "url": "https://www.futurefarming.com/smart-farming/french-cooperative-oc-alia-takes-stake-in-weeding-robot-developer-cyclair/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1",
-      "sourceType": "行业新闻站"
-    },
-    "sourceId": "futurefarming",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 76,
-    "multiSourceCount": 3,
-    "isFeatured": false,
-    "isHot": true,
-    "publishedAt": "2026-09-07T07:00:00.000Z"
   }
 ]
