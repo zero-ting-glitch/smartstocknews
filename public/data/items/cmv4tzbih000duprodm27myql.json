@@ -1,0 +1,34 @@
+{
+  "id": "cmv4tzbih000duprodm27myql",
+  "titleEn": "Agrifac shows prototype hybrid sprayer",
+  "titleZh": "Agrifac展示混合动力喷雾机原型",
+  "summaryZh": "Agrifac在荷兰ATH展会上展示了Vanguard 55自走式喷雾机的柴电混合动力原型。该机配备80 kWh锂电池，可纯电行驶，轮驱和泵均为电驱动，柴油发动机仅126 kW，较标准版更小。经一年路试和田间测试，混合动力可节省约50%柴油。厂商预计未来标准底盘版本也可选配混合动力，全电动版预计比柴油液压版重500-600 kg。",
+  "featuredReason": "该新闻展示了大型植保机械向柴电混合动力转型的实践案例，其50%节油效果和纯电作业潜力对智慧农业中的农机电动化、精准植保及能源管理具有参考价值，尤其适合关注大田作业自动化与绿色能源融合的从业者。",
+  "url": "https://www.futurefarming.com/smart-farming/agrifac-shows-prototype-hybrid-sprayer/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "futurefarming",
+  "species": "field",
+  "category": "crop",
+  "subcategory": "field",
+  "techTags": "",
+  "qualityScore": 60,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-10-06T14:00:00.000Z",
+  "contentFull": "Agrifac shows prototype hybrid sprayer\n\n 06-10 | Smart farming | News\n\nLinkedInFacebookXWhatsAppPrint\n\nAgrifac is presenting a prototype of its hybrid self-propelled Vanguard 55 sprayer with diesel-electric drive at the ATH trade fair. Photo: Mark Pasveer\n\nAgrifac is showing a prototype of its diesel-electric self-propelled Vanguard 55 sprayer at AgroTechniek Holland (ATH). The machine has a tank capacity of 5,500 litres and is built on a high-clearance chassis. The manufacturer expects to offer the hybrid drive on standard chassis versions in future.\n\nA lithium-ion battery with a capacity of 80 kWh is positioned on the platform between the cab and the tank of the Vanguard 55. This allows the sprayer to drive fully electrically. The wheel drive and pumps are also electrically powered.\n\nPrototype extensively tested\n\nSprayer manufacturer Agrifac, based in Steenwijk, Overijssel, has extensively tested the prototype over the past year, both on the road and in the field. According to the manufacturer, initial experience indicates that the hybrid drive can save around 50% diesel, thanks to the efficiency of electric motors. Part of the saving comes from the fact that the diesel engine does not need to run during filling. During driving, braking energy can also be converted into electrical power. An 80 kWh lithium-ion battery is positioned between the cab and the tank. This allows the sprayer to drive fully electrically.\n\nSmaller diesel engine\n\nThe prototype is fitted with a 126 kW diesel engine. This is smaller than the engine used in the standard fully diesel-powered version. According to the first test results, it should eventually be possible for a final production version to operate fully electrically during a typical working day. A fully electric version is estimated to be 500 to 600 kg heavier than the diesel-hydraulic variant.\n\nLinkedInFacebookXWhatsAppPrint\n\n \n\n Martin Smits Machinery writer\n\nad\n\nLEARN MORE\n\n \n\n Buyers guides & Catalogues\n\n \n\n Subscribe to our YouTube channel",
+  "translationZh": "Agrifac正在AgroTechniek Holland（ATH）展会上展示其Vanguard 55自走式喷雾机的柴电混合动力原型。该机药箱容量为5,500升，采用高地隙底盘。制造商预计未来将在标准底盘版本上提供混合动力驱动。\n\nVanguard 55的驾驶室与药箱之间的平台上安装了一块容量为80 kWh的锂离子电池。这使喷雾机能够完全电动行驶。车轮驱动和泵也由电力驱动。\n\n**原型经过大量测试**\n\n位于上艾瑟尔省斯滕韦克的喷雾机制造商Agrifac在过去一年中对原型进行了大量测试，包括道路和田间测试。据制造商称，初步经验表明，得益于电动机的效率，混合动力驱动可节省约50%的柴油。部分节省来自于加注时柴油发动机无需运行。行驶过程中，制动能量也可转化为电力。驾驶室与药箱之间安装了一块80 kWh的锂离子电池。这使喷雾机能够完全电动行驶。\n\n**更小的柴油发动机**\n\n该原型配备了一台126 kW的柴油发动机。这比标准全柴油动力版本所用的发动机更小。根据初步测试结果，最终量产版本最终应能在典型工作日内完全电动运行。全电动版本估计比柴油液压版本重500至600公斤。",
+  "images": [
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_848,h_565/https://www.futurefarming.com/app/uploads/2026/10/mpv425080-021-1024x683-1-resize-2000-848x565.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_300,h_300/https://www.futurefarming.com/app/uploads/2021/02/Martin-Smits-300x300.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_818,h_619/https://www.futurefarming.com/app/uploads/2025/02/DG-Do-you-want-to-know-whats-happening-2.png"
+  ],
+  "author": "Martin Smits",
+  "contentHtml": "Agrifac is showing a prototype of its diesel-electric self-propelled Vanguard 55 sprayer at AgroTechniek Holland (ATH). The machine has a tank capacity of 5,500 litres and is built on a high-clearance chassis. The manufacturer expects to offer the hybrid drive on standard chassis versions in future.",
+  "scrapeMethod": "web_scrape"
+}

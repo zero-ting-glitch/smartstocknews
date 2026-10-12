@@ -1,5 +1,53 @@
 [
   {
+    "id": "cmv4tzl9i006vuprolwrvgdyp",
+    "titleEn": "Latin American Poultry Summit 2027 to explore the future of production and innovation",
+    "titleZh": "2027拉丁美洲家禽峰会将探讨生产与创新的未来",
+    "summaryZh": "2027年拉丁美洲家禽峰会将于1月25日在亚特兰大举行，与2027年IPPE同期举办。峰会主题为“家禽引领动物蛋白发展”，聚焦遗传学、禽类健康、精准营养、出口、机器人及自动化等议题。演讲嘉宾来自Cobb、Aviagen、Hubbard、Signify、Rabobank、Cargill等机构，将探讨后抗生素时代的噬菌体应用、智能照明、精准营养及家禽出口策略等前沿话题，为行业人士提供技术交流与商业拓展平台。",
+    "featuredReason": "峰会涵盖机器人、自动化、智能照明和精准营养等智慧畜牧核心技术议题，且聚焦拉丁美洲这一快速增长的禽业市场，对关注家禽智能化升级和出口机遇的行业人士具有较高参考价值。",
+    "url": "https://www.poultrytimes.com/latin-american-poultry-summit-2027-to-explore-the-future-of-production-and-innovation/",
+    "source": {
+      "name": "Poultry Times",
+      "nameZh": "禽业时报",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "poultrytimes",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 52,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-10-08T13:05:04.000Z"
+  },
+  {
+    "id": "cmv4u05ei01hfuproj4vmu3ti",
+    "titleEn": "Poultry WorldPartnerHow real-time egg counting helps detect production drops earlyOct 7",
+    "titleZh": "实时鸡蛋计数如何帮助早期发现产蛋量下降",
+    "summaryZh": "本文介绍了实时鸡蛋计数系统在蛋鸡养殖中的应用价值。通过皮带级别的连续监测，养殖场可以按天、小时甚至分钟掌握产蛋情况，及早发现产蛋量异常并快速定位原因。文章还探讨了实时数据如何优化鸡蛋传输流程、减少人工巡检依赖、降低劳动成本，并强调了传感器数据准确性对早期预警的关键作用。",
+    "featuredReason": "本文清晰阐述了实时鸡蛋计数系统如何从皮带级监测实现产蛋量异常的早期发现，对蛋鸡养殖场的智能化管理具有直接参考价值，尤其适合关注IoT传感器和自动化系统在禽业中落地的从业者阅读。",
+    "url": "https://www.foodagribusiness.world/poultry/how-real-time-egg-counting-helps-detect-production-drops-early",
+    "source": {
+      "name": "Poultry World",
+      "nameZh": "禽业世界",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "poultryworld",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 62,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-10-07T06:00:00.000Z"
+  },
+  {
     "id": "cmuut7c6h01htyqwcngqhdr9b",
     "titleEn": "Poultry WorldSeptember 2026 poultry business update - what have you missed?Oct 1News",
     "titleZh": "2026年9月家禽业商业动态盘点",
@@ -90,7 +138,7 @@
     "subcategory": "poultry",
     "techTags": "",
     "qualityScore": 65,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": true,
     "isHot": false,
     "publishedAt": "2026-09-29T09:42:00.000Z"
@@ -138,7 +186,7 @@
     "subcategory": "poultry",
     "techTags": "",
     "qualityScore": 65,
-    "multiSourceCount": 3,
+    "multiSourceCount": 4,
     "isFeatured": true,
     "isHot": false,
     "publishedAt": "2026-09-15T23:00:00.000Z"

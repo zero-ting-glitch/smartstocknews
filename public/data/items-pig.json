@@ -1,5 +1,29 @@
 [
   {
+    "id": "cmv4u00m401g5upro5jgf40pf",
+    "titleEn": "Oct 9NewsPig ProgressOn-demand: Webinar on robustness in pig geneticsPigs that are strong enough to deal with a challenge – and pigs that manage to overcome an infection relatively easily: that is the thought behind having robust and resilient pigs in swine production. A recent webinar delved deeper into this concept. It is available for watching on demand for free.\n\nThe webinar, which was broadcast on 29 September, was recorded in cooperation with pig genetics company Axiom. The webinar featured 3 expert speakers.\n\nA glimpse of pig production in the future\n\nRobert Hoste is senior pig production economist at Wageningen Social & Economic Research. He kicked off the webinar with a glance into the future of pi...",
+    "titleZh": "点播回看：猪遗传育种中的稳健性网络研讨会",
+    "summaryZh": "本文报道了由Pig Progress与猪遗传育种公司Axiom合作举办的一场关于猪稳健性与抗逆性的网络研讨会。三位专家分别从未来养猪生产趋势、平衡生产性能与稳健性的育种策略、以及从分娩到育肥各阶段稳健性与免疫力的构建等角度进行了分享。研讨会还涉及精准畜牧工具（如摄像头行为监测、声音分析等）在育种中的应用，现可免费点播回看。",
+    "featuredReason": "本文涉及猪遗传育种中稳健性与抗逆性的前沿理念，并介绍了精准畜牧工具（摄像头行为监测、声音分析算法等）在育种中的实际应用，对关注智慧畜牧技术落地和猪业可持续发展的从业者具有参考价值。",
+    "url": "https://www.foodagribusiness.world/pigs/on-demand-webinar-on-robustness-in-pig-genetics",
+    "source": {
+      "name": "Pig Progress",
+      "nameZh": "猪业进展",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "pigprogress",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 51,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-10-09T09:53:08.269Z"
+  },
+  {
     "id": "cmuut77l801gnyqwczmxavqjy",
     "titleEn": "Oct 3NewsPig ProgressPremiumCzech Republic targets pork self-sufficiency with digitalisation pushThe Czech Republic has rolled out a new programme to rebuild its struggling pork sector, putting digitalisation at the centre of efforts to boost domestic production. Pork self-sufficiency reportedly has slumped to a record-low 46.1%, leaving the country reliant on imports for more than half of its consumption.\n\nThe strategy envisages a broad digital overhaul of Czech pig production. The strategy covers several key technology areas, with the automation of core production processes at its centre.\n\nKey measures include:\n\nExpanding automated feeding systems\nMonitoring conditions inside pig housing\nTracking animal health and reproduction\nUsing...",
     "titleZh": "捷克以数字化推动猪肉自给率提升",
@@ -90,7 +114,7 @@
     "subcategory": "pig",
     "techTags": "",
     "qualityScore": 62,
-    "multiSourceCount": 4,
+    "multiSourceCount": 6,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-09-27T23:00:00.000Z"
@@ -280,7 +304,7 @@
     "species": "pig",
     "category": "aggtech",
     "subcategory": "pig",
-    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
+    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
     "qualityScore": 71,
     "multiSourceCount": 3,
     "isFeatured": true,

@@ -1,5 +1,53 @@
 [
   {
+    "id": "cmv4u0mep01mtuprojypjtgjy",
+    "titleEn": "3 takeaways from World Dairy Expo 2026",
+    "titleZh": "2026世界奶业博览会三大看点：乳脂乳蛋白为王、AI全面渗透、劳动力危机倒逼自动化",
+    "summaryZh": "本文总结了2026年世界奶业博览会的三大核心趋势：乳脂和乳蛋白已成为奶业利润的核心驱动力，取代传统产奶量指标；AI技术正快速渗透牧场运营，新西兰Herd-i公司展示的AI摄像头可在奶牛出挤奶厅时即时检测跛行和体况评分；劳动力短缺持续加剧，推动机器人挤奶和自动化设备加速落地。文章为奶业从业者提供了市场方向、技术选型和应对劳动力危机的实践参考。",
+    "featuredReason": "本文精准捕捉了奶业三大关键趋势——乳成分价值转型、AI技术落地和劳动力危机应对，对智慧畜牧从业者把握市场方向、评估AI技术应用场景及自动化设备选型具有重要参考价值。",
+    "url": "https://www.farmprogress.com/livestock-and-dairy/3-takeaways-from-world-dairy-expo-2026",
+    "source": {
+      "name": "Farm Progress",
+      "nameZh": "农业进展",
+      "tier": "T2",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "farmprogress",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 40,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-10-08T07:00:00.000Z"
+  },
+  {
+    "id": "cmv4tzbis000luprova46d8fa",
+    "titleEn": "RMH is working on autonomous electric feeding robot",
+    "titleZh": "RMH研发自主电动喂料机器人Nexus",
+    "summaryZh": "以色列机械制造商RMH正在开发一款名为Nexus的自主电动喂料机器人，配备6立方米搅拌罐和2个垂直绞龙，采用RTK GPS和Lidar传感器导航，拥有专利换电系统和48kWh电池组，可连续喂料2.5至3小时。该机器人无需额外饲料厨房，可自主前往草料夹取饲料并运送至奶牛。首台原型机已在法国雷恩Innov'Space畜牧展亮相，计划2028年上市。",
+    "featuredReason": "该报道揭示了奶牛养殖领域自主喂料机器人的最新进展，其专利换电系统、RTK GPS与Lidar融合导航方案，以及无需饲料厨房的设计理念，对关注畜牧自动化和电动化趋势的行业人士具有重要参考价值。",
+    "url": "https://www.futurefarming.com/smart-farmers/rmh-is-working-on-autonomous-electric-feeding-robot/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 87,
+    "multiSourceCount": 1,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-10-04T08:00:00.000Z"
+  },
+  {
     "id": "cmukso9sj01m9d7be0vvt6smh",
     "titleEn": "Dublin event on methane hears push back on Bovaer scepticism",
     "titleZh": "都柏林甲烷会议为Bovaer争议辩护",
@@ -22,30 +70,6 @@
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-09-24T18:14:29.000Z"
-  },
-  {
-    "id": "cmuksoagg01o5d7bes7wh35ie",
-    "titleEn": "Moving water forward: Innovation flows in cattle country",
-    "titleZh": "推动水资源前行：养牛业中的创新涌动",
-    "summaryZh": "本文聚焦美国养牛业在水资源管理方面的创新实践，探讨牧场主如何通过技术与管理手段，在日均消耗5亿加仑水、依赖单一含水层的压力下实现节水。文章以问答形式呈现，涉及水资源循环利用、精准灌溉、牧场基础设施改造等做法，对智慧畜牧从业者理解牛业可持续发展路径、水资源监测与自动化管理需求具有参考价值。",
-    "featuredReason": "牛业是用水大户，水资源管理直接关系牧场可持续性与成本。本文虽非纯技术文章，但清晰呈现了传感器、精准灌溉、水循环等智慧畜牧技术在水资源管理中的落地场景，有助于从业者理解牛业节水需求与技术切入点。",
-    "url": "https://www.farmprogress.com/livestock/moving-water-forward-innovation-flows-in-cattle-country",
-    "source": {
-      "name": "Farm Progress",
-      "nameZh": "农业进展",
-      "tier": "T2",
-      "sourceType": "行业新闻站"
-    },
-    "sourceId": "farmprogress",
-    "species": "cattle",
-    "category": "livestock",
-    "subcategory": "cattle",
-    "techTags": "",
-    "qualityScore": 31,
-    "multiSourceCount": 1,
-    "isFeatured": false,
-    "isHot": false,
-    "publishedAt": "2026-09-24T07:00:00.000Z"
   },
   {
     "id": "cmuksoagl01o7d7bezyy4gw76",

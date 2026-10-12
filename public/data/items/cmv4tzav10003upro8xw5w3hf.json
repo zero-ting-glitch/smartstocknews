@@ -1,0 +1,32 @@
+{
+  "id": "cmv4tzav10003upro8xw5w3hf",
+  "titleEn": "Tech Talk: Satshot on AI-Enhanced Satellite Imagery",
+  "titleZh": "Tech Talk：Satshot 谈 AI 增强卫星影像",
+  "summaryZh": "Satshot 推出基于 AI 的 Super Resolution 技术，可将广泛可得的卫星影像增强至 1 米分辨率，帮助农艺师和种植者识别田间变异性、作物损害、施用问题及管理分区。该技术无需依赖飞机或无人机，即可在全球范围内支持作物巡查、变量施肥、作物保险调查和农艺决策，揭示传统遥感方法可能遗漏的模式。",
+  "featuredReason": "该技术展示了 AI 增强卫星影像在农业中的实际应用，虽主要面向大田作物，但其高分辨率遥感分析方法对智慧畜牧中的牧场管理、饲料作物监测和养殖场环境评估具有跨领域参考价值。",
+  "url": "https://www.globalagtechinitiative.com/digital-farming/analytics/tech-talk-satshot-on-ai-enhanced-satellite-imagery/",
+  "source": {
+    "name": "PrecisionAg",
+    "nameZh": "精准农业",
+    "tier": "T1.5",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "precisionag",
+  "species": "field",
+  "category": "crop",
+  "subcategory": "field",
+  "techTags": "",
+  "qualityScore": 49,
+  "multiSourceCount": 2,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-09-28T00:00:00.000Z",
+  "contentFull": "By CropLife \n\n \n\n Share\n\n \n\n \n\n \n\n \n\n \n\n How can AI-enhanced satellite imagery give agronomists and growers a clearer view of what’s happening in their fields without relying on aircraft or drones? In this 2026 Tech Talk, Lanny Faleide of SatShot introduces the company’s new Super Resolution technology, which uses advanced AI-powered processing to enhance widely available satellite imagery to a 1-meter resolution. Learn how this breakthrough helps users identify field variability, crop damage, application issues, and management zones with unprecedented detail from virtually anywhere in the world. Discover how high-resolution satellite analytics can support crop scouting, variable-rate management, crop insurance investigations, and agronomic decision-making by revealing patterns that traditional remote sensing methods may miss.\n\n \n\n \n\n MORE BY CROPLIFE\n\n Data Management September 28, 2026 How Agriculture’s Most Trusted Distributors Become Its AI Infrastructure\n\n By CropLife|September 28, 2026 \n\n \n\n \n\n Imagery September 25, 2026 Scaling Agricultural Intelligence With Territory Insights\n\n By CropLife|September 25, 2026 \n\n \n\n \n\n Digital Farming September 21, 2026 From Data Overload to Actionable Insights: How AI Is Transforming Agronomy\n\n By CropLife|September 21, 2026 \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n 0 1 5 Tech Talk: Satshot on AI-Enhanced Satellite Imagery \n\n \n\n Subscribe Today For\n\n \n\n \n\n \n\n Subscribe \n\n \n\n \n\n \n\n \n\n \n\n \n\n CropLife, a sister brand to the Global Ag Tech Initiative at Meister Media Worldwide, is the nation’s brand leader in ag retail communication. See all author stories here. \n\n \n\n Topics: featured-home",
+  "translationZh": "如何让 AI 增强的卫星影像为农艺师和种植者提供更清晰的田间动态视图，而无需依赖飞机或无人机？在 2026 年的 Tech Talk 中，Satshot 的 Lanny Faleide 介绍了公司全新的 Super Resolution 技术，该技术利用先进的 AI 处理能力，将广泛可得的卫星影像增强至 1 米分辨率。了解这一突破如何帮助用户以空前的细节识别田间变异性、作物损害、施用问题和管理分区，且几乎可在全球任何地方实现。探索高分辨率卫星分析如何通过揭示传统遥感方法可能遗漏的模式，支持作物巡查、变量管理、作物保险调查和农艺决策。",
+  "images": [
+    "https://www.precisionag.com/wp-content/themes/PrecisionAgTheme/images/the-signal.png"
+  ],
+  "author": "Matt Hopkins",
+  "contentHtml": "Discover how high-resolution satellite analytics can support crop scouting, variable-rate management, crop insurance investigations, and more.\nThe post Tech Talk: Satshot on AI-Enhanced Satellite Imagery appeared first on Global Ag Tech Initiative.",
+  "scrapeMethod": "web_scrape"
+}
