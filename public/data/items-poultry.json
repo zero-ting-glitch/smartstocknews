@@ -1,5 +1,29 @@
 [
   {
+    "id": "cmvercgk501h713vrakmf77th",
+    "titleEn": "Oct 17NewsPoultry WorldLight-based sensors target faster poultry quality controlA new €7 million pan-European project will test photonics-based sensors across the poultry chain, from feed safety to meat quality and by-product utilisation.\n\nThe European research project aims to give poultry producers faster, more precise information on quality, safety and traceability by introducing photonics-based sensing at key stages of the production chain.\n\nThe Sensor4Food project, coordinated by Turku University of Applied Sciences in Finland, will develop and test sensor technologies that use light at different wavelengths to measure properties that cannot be detected by the human eye. Six poultry-related use cases will be teste...",
+    "titleZh": "700万欧元泛欧项目用光子传感器加速禽肉品控",
+    "summaryZh": "欧盟Horizon Europe资助的Sensor4Food项目将投入700万欧元，在西班牙、意大利和挪威的六个家禽场景中测试基于光子的传感器，覆盖饲料安全、病原与药残检测、肉质评估及副产物利用。项目旨在用不同波长光线测量人眼无法察觉的属性，结合AI平台实现全链实时数据，提升品质、安全与可追溯性，并计划2026年9月启动，未来可扩展至猪、奶业和水产。",
+    "featuredReason": "该新闻展示了光子传感与AI结合在家禽全链品控中的前沿应用，涉及饲料安全、病原检测和肉质评估等核心环节，对智慧畜牧从业者把握技术趋势和跨品类扩展潜力具有较高参考价值。",
+    "url": "https://www.foodagribusiness.world/poultry/light-based-sensors-target-faster-poultry-quality-control",
+    "source": {
+      "name": "Poultry World",
+      "nameZh": "禽业世界",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "poultryworld",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 64,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-10-17T08:37:23.253Z"
+  },
+  {
     "id": "cmv4tzl9i006vuprolwrvgdyp",
     "titleEn": "Latin American Poultry Summit 2027 to explore the future of production and innovation",
     "titleZh": "2027拉丁美洲家禽峰会将探讨生产与创新的未来",
@@ -18,7 +42,7 @@
     "subcategory": "poultry",
     "techTags": "",
     "qualityScore": 52,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-10-08T13:05:04.000Z"
@@ -138,7 +162,7 @@
     "subcategory": "poultry",
     "techTags": "",
     "qualityScore": 65,
-    "multiSourceCount": 2,
+    "multiSourceCount": 3,
     "isFeatured": true,
     "isHot": false,
     "publishedAt": "2026-09-29T09:42:00.000Z"

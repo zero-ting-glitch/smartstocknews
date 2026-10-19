@@ -1,5 +1,29 @@
 [
   {
+    "id": "cmverbjzf000f13vrtsg1k2vt",
+    "titleEn": "UV-C light in the fight against botrytis in lilies",
+    "titleZh": "UV-C光对抗百合灰霉病",
+    "summaryZh": "荷兰百合种植企业Veninga Hijken Bloembollen BV自7月起每晚使用西班牙Agrikola公司的Wagus机器人，在3个预编程百合苗床上自动行驶，通过向下照射的UV-C灯在灰霉病菌孢子侵入百合植株前将其杀灭，以UV光处理替代杀菌剂喷洒。该案例展示了自动化机器人+UV-C物理植保技术在花卉种植中的实际应用，对智慧农业精准植保具有参考价值。",
+    "featuredReason": "该案例展示了自主机器人搭载UV-C物理杀菌技术替代化学农药的落地实践，对智慧畜牧/种植领域的精准植保、自动化装备应用及减药增效具有直接借鉴意义。",
+    "url": "https://www.futurefarming.com/smart-farming/uv-c-light-in-the-fight-against-botrytis-in-lilies/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "horticulture",
+    "category": "crop",
+    "subcategory": "horticulture",
+    "techTags": "",
+    "qualityScore": 64,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-10-12T14:00:00.000Z"
+  },
+  {
     "id": "cmuut6mo30017yqwclsoypzu8",
     "titleEn": "Executive Perspective: What It Will Take to Increase Grower Adoption of Dynamic Lighting",
     "titleZh": "高管视角：如何推动种植者采用动态照明",
@@ -328,7 +352,7 @@
     "species": "horticulture",
     "category": "aggtech",
     "subcategory": "horticulture",
-    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
+    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
     "qualityScore": 66,
     "multiSourceCount": 1,
     "isFeatured": false,
@@ -352,7 +376,7 @@
     "species": "horticulture",
     "category": "aggtech",
     "subcategory": "horticulture",
-    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
+    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
     "qualityScore": 66,
     "multiSourceCount": 1,
     "isFeatured": false,

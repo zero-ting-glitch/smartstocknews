@@ -1,5 +1,29 @@
 [
   {
+    "id": "cmvercc1h01g513vrdrqaeupg",
+    "titleEn": "Oct 16NewsPig ProgressSmart innovations, S. suis and sustainability in Pig Progress 3 Explore Vietnam’s large-scale pig production, EuroTier innovations, Denmark’s PRRS progress and the future of pig genetics in Pig Progress 3/2026.",
+    "titleZh": "Pig Progress 2026年第3期：智能创新、猪链球菌与可持续发展",
+    "summaryZh": "本期Pig Progress聚焦全球养猪业变革：越南在ASF后加速规模化转型并借助中国力量升级；EuroTier 2026上AI与智能设备成为猪舍创新亮点；丹麦PRRS净化计划五年成效显著；猪链球菌跨保护疫苗有望近期上市；罗马尼亚养猪户联合建设现代化母猪场；AI与大数据正重塑猪遗传育种未来。内容覆盖智能养殖、疾病防控、可持续饲料与全球贸易，为智慧畜牧从业者提供前沿洞察与实践参考。",
+    "featuredReason": "本期涵盖AI在猪舍管理、遗传育种中的前沿应用，以及丹麦PRRS净化、猪链球菌疫苗等疾病防控进展，对智慧畜牧从业者把握技术趋势和提升生产管理具有直接参考价值。",
+    "url": "https://www.foodagribusiness.world/pigs/smart-innovations-s-suis-and-sustainability-in-pig-progress-3",
+    "source": {
+      "name": "Pig Progress",
+      "nameZh": "猪业进展",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "pigprogress",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 57,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-10-16T07:18:09.780Z"
+  },
+  {
     "id": "cmv4u00m401g5upro5jgf40pf",
     "titleEn": "Oct 9NewsPig ProgressOn-demand: Webinar on robustness in pig geneticsPigs that are strong enough to deal with a challenge – and pigs that manage to overcome an infection relatively easily: that is the thought behind having robust and resilient pigs in swine production. A recent webinar delved deeper into this concept. It is available for watching on demand for free.\n\nThe webinar, which was broadcast on 29 September, was recorded in cooperation with pig genetics company Axiom. The webinar featured 3 expert speakers.\n\nA glimpse of pig production in the future\n\nRobert Hoste is senior pig production economist at Wageningen Social & Economic Research. He kicked off the webinar with a glance into the future of pi...",
     "titleZh": "点播回看：猪遗传育种中的稳健性网络研讨会",
@@ -114,7 +138,7 @@
     "subcategory": "pig",
     "techTags": "",
     "qualityScore": 62,
-    "multiSourceCount": 6,
+    "multiSourceCount": 8,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-09-27T23:00:00.000Z"
@@ -304,7 +328,7 @@
     "species": "pig",
     "category": "aggtech",
     "subcategory": "pig",
-    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
+    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
     "qualityScore": 71,
     "multiSourceCount": 3,
     "isFeatured": true,

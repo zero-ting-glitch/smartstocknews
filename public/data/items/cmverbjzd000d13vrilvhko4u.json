@@ -1,0 +1,38 @@
+{
+  "id": "cmverbjzd000d13vrilvhko4u",
+  "titleEn": "Smart drilling with sensors: Agrisem Chief measures in the seed furrow",
+  "titleZh": "Agrisem Chief精量播种机搭载传感器实现种沟智能测量",
+  "summaryZh": "法国Agrisem公司在其Chief精量播种机上可选配来自Precision Planting的传感器，在播种过程中持续测量种沟内的土壤湿度、土壤温度及有机质/作物残茬水平，以帮助种子置于理想深度。该技术属于精准农业与智能农机范畴，对理解传感器在种植环节的应用有参考价值，但与畜牧养殖直接关联较弱。",
+  "featuredReason": "虽属大田播种领域而非畜牧养殖，但其传感器实时测量种沟环境参数的思路，对智慧畜牧中环境监测与精准投入技术的跨领域借鉴有一定启发意义。",
+  "url": "https://www.futurefarming.com/smart-farming/smart-drilling-with-sensors-agrisem-chief-measures-in-the-seed-furrow/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "futurefarming",
+  "species": "field",
+  "category": "crop",
+  "subcategory": "field",
+  "techTags": "",
+  "qualityScore": 59,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-10-14T07:00:00.000Z",
+  "contentFull": "Smart drilling with sensors: Agrisem Chief measures in the seed furrow\n\n 14-10 | Smart farming | Article\n\nLinkedInFacebookXWhatsAppPrint\n\nOn the Agrisem Chief precision drill, you can optionally order sensors that continuously measure soil moisture content, soil temperature and the levels of organic matter/crop residues in the seed furrow during drilling. Photos: Koos Groenewold\n\n Agrisem is one of the manufacturers that uses components and parts from US manufacturer Precision Planting. In this case, they are used on the Agrisem Chief precision drill. It optionally has sensors that measure, among other things, soil moisture content and soil temperature in order to place the seed at the ideal depth. French company Agrisem, a manufacturer of soil cultivation and drilling equipment, is one of the users of drilling machine components and technology from Precision Planting\n\nLinkedInFacebookXWhatsAppPrint\n\n \n\n René Koerhuis Precision Farming Specialist\n\nMore about\n\ndrilling\n\nprecision agriculture\n\nseed technology\n\nsensors\n\nsoil moisture sensors\n\nad\n\nLEARN MORE\n\nRelated articles\n\n13-10 | \n News\n\nHardi supplies new automatic boom stabilisation\n\n09-10 | \n News\n\nKubota and Kilter expand AX-1 robot distribution across Europe\n\n04-10 | \n News\n\nBonsai Robotics uses AI simulation to train field robots before deployment\n\n04-10 | \n News\n\nRMH is working on autonomous electric feeding robot\n\n \n\n Buyers guides & Catalogues\n\n \n\n Subscribe to our YouTube channel",
+  "translationZh": "在Agrisem Chief精量播种机上，可选配传感器，在播种过程中持续测量种沟内的土壤湿度、土壤温度以及有机质/作物残茬水平。\n\nAgrisem是使用美国制造商Precision Planting组件和零件的制造商之一。在本例中，这些组件被用于Agrisem Chief精量播种机。该机可选配传感器，测量土壤湿度、土壤温度等参数，以便将种子置于理想深度。法国Agrisem公司是土壤耕作和播种设备制造商，也是Precision Planting播种机组件和技术的使用者之一。",
+  "images": [
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_848,h_565/https://www.futurefarming.com/app/uploads/2026/10/01-gro424707-080-resize-2000-1024x683-resize-2000-848x565.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_300,h_300/https://www.futurefarming.com/app/uploads/2024/05/Rene-Koerhuis_web-300x300.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/10/NAVIGATOR-36m-DELTA-FORCE-TITANIUM-line-ActiveAir_Sugar-beet_01072026_9432-resize-2000-1024x682-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/10/roe424035_06-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/10/1-FIRA-1536x1024-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/10/Nexus-crop-resize-2000-1-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_818,h_619/https://www.futurefarming.com/app/uploads/2025/02/DG-Do-you-want-to-know-whats-happening-2.png"
+  ],
+  "author": "René Koerhuis",
+  "contentHtml": "Smart drilling with sensors: Agrisem Chief measures in the seed furrow Agrisem is one of the",
+  "scrapeMethod": "web_scrape"
+}

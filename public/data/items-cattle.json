@@ -1,5 +1,53 @@
 [
   {
+    "id": "cmvercuke01kf13vra63tq3oc",
+    "titleEn": "Going nuclear on livestock methane emissions",
+    "titleZh": "IAEA与贝尔法斯特女王大学合作利用核技术减少牲畜甲烷排放",
+    "summaryZh": "联合国国际原子能机构与贝尔法斯特女王大学合作开展为期五年的研究项目，利用核技术工具识别与甲烷排放相关的动物性状，通过育种和营养干预提高牲畜生产力，从而降低单位产品的甲烷排放强度。项目聚焦瘤胃微生物组表型分析，旨在为全球政策提供依据，帮助农民在环保约束下维持盈利。",
+    "featuredReason": "该新闻揭示了国际权威机构将核技术应用于牲畜甲烷减排和育种的前沿动向，虽不直接涉及IoT/AI，但为智慧畜牧的精准育种和瘤胃微生物组监测提供了政策与科研风向标，值得关注行业减排技术路线的读者阅读。",
+    "url": "https://www.agriland.ie/farming-news/going-nuclear-on-livestock-methane-emissions/",
+    "source": {
+      "name": "Agriland",
+      "nameZh": "爱尔兰农业新闻",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "agriland",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 48,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-10-17T12:00:00.000Z"
+  },
+  {
+    "id": "cmvercun601ld13vr71rzbq34",
+    "titleEn": "Methane emissions cut by 72% in west Cork dairy pilot",
+    "titleZh": "西科克奶牛试点项目甲烷排放减少72%",
+    "summaryZh": "爱尔兰西科克郡九个奶牛场参与了一项由Climate KIC协调的浆液甲烷减排试点，采用生物技术手段在2025-2026冬季舍饲期实现了监测储液池平均72%的甲烷减排，总计减少218吨二氧化碳当量。项目还推动了手动投加系统的成本优化，并计划在2026年扩展至另外18个农场，同时致力于将甲烷减排技术纳入国家排放核算和农场可持续发展框架。",
+    "featuredReason": "该案例展示了生物技术在奶牛场甲烷减排中的实际效果和规模化路径，对智慧畜牧行业关注环境监测、排放核算和农场决策支持工具的人士具有参考价值，尤其是技术验证与政策框架对接的经验值得借鉴。",
+    "url": "https://www.agriland.ie/farming-news/methane-emissions-cut-by-72-in-west-cork-dairy-pilot/",
+    "source": {
+      "name": "Agriland",
+      "nameZh": "爱尔兰农业新闻",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "agriland",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 56,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-10-16T10:45:00.000Z"
+  },
+  {
     "id": "cmv4u0mep01mtuprojypjtgjy",
     "titleEn": "3 takeaways from World Dairy Expo 2026",
     "titleZh": "2026世界奶业博览会三大看点：乳脂乳蛋白为王、AI全面渗透、劳动力危机倒逼自动化",
@@ -42,7 +90,7 @@
     "subcategory": "cattle",
     "techTags": "",
     "qualityScore": 87,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-10-04T08:00:00.000Z"
