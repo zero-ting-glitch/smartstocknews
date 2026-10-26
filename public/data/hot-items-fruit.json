@@ -1,5 +1,29 @@
 [
   {
+    "id": "cmvorl266000j6bpnhs4x0a17",
+    "titleEn": "BloomX raises $13 million to expand robotic pollination in fruit crops",
+    "titleZh": "BloomX获1300万美元融资，扩展果蔬机器人授粉业务",
+    "summaryZh": "以色列农业科技公司BloomX完成1300万美元A轮融资，将用于在拉美和南非扩展其机器人授粉技术，并筹备进入美国市场。该公司开发了两种模拟蜜蜂授粉的机器人系统，分别针对蓝莓和牛油果，声称可平均增产20%。其采用授粉即服务模式，降低种植者前期投入门槛。文章详细介绍了技术原理、商业进展及待验证的产量数据，对智慧农业从业者具有参考价值。",
+    "featuredReason": "机器人授粉是智慧农业中自动化与AI结合的典型应用，BloomX的电场授粉技术和授粉即服务模式对果蔬种植者及农业机器人从业者具有借鉴意义，其扩张计划和待验证的增产数据也值得关注。",
+    "url": "https://www.futurefarming.com/smart-farming/bloomx-raises-13-million-to-expand-robotic-pollination-in-fruit-crops/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 78,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": true,
+    "publishedAt": "2026-10-19T19:34:43.000Z"
+  },
+  {
     "id": "cmtqqpi7r000deil71t7iwclh",
     "titleEn": "4 Autonomous systems tested: what do fruit growers think?",
     "titleZh": "四种自主系统实地测试：果农的真实评价",
@@ -94,29 +118,5 @@
     "isFeatured": false,
     "isHot": true,
     "publishedAt": "2026-08-17T07:00:47.000Z"
-  },
-  {
-    "id": "cmrujc8el00anr2zca1womwbh",
-    "titleEn": "飞行机器人采摘水果！这家AI公司融资1800万美元",
-    "titleZh": "飞行机器人采摘水果！这家AI公司融资1800万美元",
-    "summaryZh": "以色列农业科技公司Tevel Aerobotics Technologies完成1800万美元C轮融资，其核心产品为系留式飞行机器人编队（FAR），可24小时在果园中自主采摘苹果、桃、梨等多种水果。该技术利用AI视觉、边缘计算和无人机蜂群协作，解决了传统地面机械臂难以触及树冠内部的问题，并以机器人即服务（RaaS）模式在意大利、美国、智利等地商业化部署。尽管融资规模较B轮收窄，但日本农机巨头Kubota持续加注，显示行业对飞行采摘路线的关注。",
-    "featuredReason": "飞行机器人采摘方案在机动性和成本上对传统地面机械臂形成差异化优势，其AI视觉与边缘计算架构对智慧畜牧中的巡检、饲喂等场景有技术迁移参考价值。",
-    "url": "https://mp.weixin.qq.com/s/2gWnwKOfQ4MOIu5T3MLuqQ",
-    "source": {
-      "name": "数字农业 Insights",
-      "nameZh": "数字农业 Insights",
-      "tier": "T1.5",
-      "sourceType": "微信公众号"
-    },
-    "sourceId": "wx_digits_agri",
-    "species": "fruit",
-    "category": "aggtech",
-    "subcategory": "fruit",
-    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
-    "qualityScore": 50,
-    "multiSourceCount": 3,
-    "isFeatured": false,
-    "isHot": true,
-    "publishedAt": "2026-07-14T23:30:00.000Z"
   }
 ]

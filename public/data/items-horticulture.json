@@ -1,5 +1,29 @@
 [
   {
+    "id": "cmvorl2ej000x6bpnkz8b32tc",
+    "titleEn": "Technology Moves Fast, Adoption Takes Time",
+    "titleZh": "技术发展快，落地 adoption 慢：温室园艺的启示",
+    "summaryZh": "本文通过温室花卉种植行业的案例，指出技术研发速度远超种植者实际采用速度。核心观点：技术能力本身不足以驱动采用，必须具备合理投资回报率且能融入现有生产环境；供应商与种植者需加强沟通，避免为技术而技术。对智慧畜牧行业同样具有借鉴意义——IoT、AI、机器人等技术的落地需兼顾经济性与易用性。",
+    "featuredReason": "智慧畜牧行业同样面临技术研发快、养殖户采用慢的困境，本文关于ROI、易用性和供需匹配的讨论对畜牧技术推广具有直接借鉴意义。",
+    "url": "https://www.greenhousegrower.com/technology/technology-moves-fast-adoption-takes-time/",
+    "source": {
+      "name": "Greenhouse Grower",
+      "nameZh": "温室种植者",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "greenhousegrower",
+    "species": "horticulture",
+    "category": "crop",
+    "subcategory": "horticulture",
+    "techTags": "",
+    "qualityScore": 51,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-10-23T00:00:00.000Z"
+  },
+  {
     "id": "cmverbjzf000f13vrtsg1k2vt",
     "titleEn": "UV-C light in the fight against botrytis in lilies",
     "titleZh": "UV-C光对抗百合灰霉病",
@@ -18,7 +42,7 @@
     "subcategory": "horticulture",
     "techTags": "",
     "qualityScore": 64,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-10-12T14:00:00.000Z"
@@ -352,7 +376,7 @@
     "species": "horticulture",
     "category": "aggtech",
     "subcategory": "horticulture",
-    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
+    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
     "qualityScore": 66,
     "multiSourceCount": 1,
     "isFeatured": false,
@@ -376,7 +400,7 @@
     "species": "horticulture",
     "category": "aggtech",
     "subcategory": "horticulture",
-    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
+    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
     "qualityScore": 66,
     "multiSourceCount": 1,
     "isFeatured": false,

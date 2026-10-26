@@ -1,0 +1,30 @@
+{
+  "id": "cmvormhj201nf6bpnxmapvtp0",
+  "titleEn": "Latest sprayers add precision tech to cut chemicals",
+  "titleZh": "最新喷雾器搭载精准技术以减少化学品使用",
+  "summaryZh": "文章介绍了约翰迪尔、PTx、Agrifac和Solinftec在2026年展会上推出的喷雾器创新技术，包括计算机视觉、悬挂设计和自主补液系统，旨在提升精准度并减少化学品使用。这些技术主要面向大田作物植保作业，对智慧畜牧行业直接关联有限，但计算机视觉和自动化技术可借鉴至养殖场景。",
+  "featuredReason": "虽然文章聚焦大田喷雾器，但其计算机视觉精准识别、自主补液和悬挂设计等技术对智慧畜牧中的精准饲喂、环境控制和自动化作业有借鉴意义，值得关注技术跨界应用。",
+  "url": "https://www.farmprogress.com/farming-equipment/latest-sprayers-add-precision-tech-to-cut-chemicals",
+  "source": {
+    "name": "Farm Progress",
+    "nameZh": "农业进展",
+    "tier": "T2",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "farmprogress",
+  "species": "field",
+  "category": "crop",
+  "subcategory": "field",
+  "techTags": "",
+  "qualityScore": 28,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-10-21T07:00:00.000Z",
+  "contentFull": "",
+  "translationZh": "**展会新品：迪尔、PTx、Agrifac和Solinftec发布2026年喷雾器创新**\n\n约翰迪尔、PTx、Agrifac和Solinftec在展会上展示了2026年的喷雾器创新技术，利用计算机视觉、悬挂设计和自主补液来提升精准度。\n\n**约翰迪尔**\n\n约翰迪尔推出了新款400系列喷雾器，配备See & Spray Premium技术，利用计算机视觉识别并仅对杂草喷洒除草剂，而非整片田地。该公司表示，该技术可减少高达70%的除草剂使用量。新款喷雾器还采用了重新设计的悬挂系统，以改善田间行驶平顺性，并配备了更宽敞的驾驶室。\n\n**PTx**\n\nPTx（前身为Precision Planting）展示了其新款喷雾器控制系统，利用计算机视觉和机器学习实现精准喷洒。该系统旨在改装现有喷雾器，可识别单个杂草并仅对目标区域喷洒，从而减少化学品使用。\n\n**Agrifac**\n\nAgrifac推出了新款Condor喷雾器，采用全新悬挂设计，以减少颠簸和提升操作员舒适度。该喷雾器还配备了新的控制系统，可根据行驶速度和地形自动调整喷洒参数。\n\n**Solinftec**\n\nSolinftec展示了一款自主喷雾器，可在无需操作员的情况下完成补液和喷洒作业。该系统利用计算机视觉和传感器在田间导航，并可与农场管理软件集成以优化作业计划。",
+  "images": [],
+  "author": "",
+  "contentHtml": "What’s New From the Shows: Deere, PTx, Agrifac and Solinftec debut 2026 sprayer innovations using computer vision, suspension design and autonomous refilling to boost precision.",
+  "scrapeMethod": "rss"
+}

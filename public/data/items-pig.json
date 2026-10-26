@@ -1,5 +1,29 @@
 [
   {
+    "id": "cmvorlv3m01h16bpno8mxerpa",
+    "titleEn": "Pig ProgressHuge amounts of data determine the future of pig genetics – here’s whyOct 19Article",
+    "titleZh": "海量数据决定猪遗传育种未来：Axiom CEO访谈",
+    "summaryZh": "法国猪育种公司Axiom成立十周年之际，CEO Guillaume Naveau接受Pig Progress专访，回顾公司从Gene+起步到跻身全球前五的历程，并深入阐述AI在基因组选择、肌内脂肪测定、母猪行为分析中的应用，以及数据管理能力将成为育种公司核心竞争力、行业整合趋势、基因编辑监管限制和未来十年减少活体运输等战略方向。",
+    "featuredReason": "该访谈由全球猪业权威媒体Pig Progress对全球前五育种企业CEO进行深度对话，系统阐述了AI在基因组选择、图像分析和行为监测中的落地路径，并指出数据管理能力正成为育种公司核心壁垒，对智慧畜牧从业者理解育种端智能化趋势和行业整合逻辑具有较高参考价值。",
+    "url": "https://www.foodagribusiness.world/pigs/huge-amounts-of-data-determine-the",
+    "source": {
+      "name": "Pig Progress",
+      "nameZh": "猪业进展",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "pigprogress",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 56,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-10-19T06:00:00.068Z"
+  },
+  {
     "id": "cmvercc1h01g513vrdrqaeupg",
     "titleEn": "Oct 16NewsPig ProgressSmart innovations, S. suis and sustainability in Pig Progress 3 Explore Vietnam’s large-scale pig production, EuroTier innovations, Denmark’s PRRS progress and the future of pig genetics in Pig Progress 3/2026.",
     "titleZh": "Pig Progress 2026年第3期：智能创新、猪链球菌与可持续发展",
@@ -138,7 +162,7 @@
     "subcategory": "pig",
     "techTags": "",
     "qualityScore": 62,
-    "multiSourceCount": 8,
+    "multiSourceCount": 10,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-09-27T23:00:00.000Z"
@@ -328,7 +352,7 @@
     "species": "pig",
     "category": "aggtech",
     "subcategory": "pig",
-    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
+    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
     "qualityScore": 71,
     "multiSourceCount": 3,
     "isFeatured": true,

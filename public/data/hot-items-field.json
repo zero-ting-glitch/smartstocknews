@@ -1,5 +1,29 @@
 [
   {
+    "id": "cmvorl263000h6bpndivx4lm0",
+    "titleEn": "FieldSense FSR500: lightweight spraying robot designed for easy farm repairs",
+    "titleZh": "FieldSense FSR500：轻量易维修的田间喷洒机器人",
+    "summaryZh": "澳大利亚初创公司FieldSense计划于2027年初推出600公斤电动田间机器人FSR500，载重500公斤、药箱300升，采用现成零部件便于农户自行维修。目前已完成约100公顷喷洒试验，续航6小时，支持RTK导航和远程监控。文章详细介绍了其技术参数、商业模式、试点农场及未来自动化补液和换电规划，对智慧农业机器人落地有较高参考价值。",
+    "featuredReason": "该文详细介绍了轻量化、易维修、低成本的电动田间喷洒机器人从原型到商业化的路径，包括技术参数、试验数据、商业模式和试点案例，对智慧畜牧中自动化喷洒、远程监控和机器人可维修性设计有直接参考价值，尤其适合关注牧场和饲料地植保自动化的从业者。",
+    "url": "https://www.futurefarming.com/smart-farming/fieldsense-fsr500-lightweight-spraying-robot-designed-for-easy-farm-repairs/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 78,
+    "multiSourceCount": 1,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-10-22T08:00:00.000Z"
+  },
+  {
     "id": "cmv4tzbi90009uproh5kll9oz",
     "titleEn": "Kubota and Kilter expand AX-1 robot distribution across Europe",
     "titleZh": "久保田与Kilter在欧洲扩展AX-1机器人分销",
@@ -18,7 +42,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 82,
-    "multiSourceCount": 2,
+    "multiSourceCount": 3,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-10-09T07:00:00.000Z"
@@ -42,7 +66,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 78,
-    "multiSourceCount": 2,
+    "multiSourceCount": 3,
     "isFeatured": false,
     "isHot": true,
     "publishedAt": "2026-10-07T08:00:00.000Z"
@@ -66,7 +90,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 82,
-    "multiSourceCount": 2,
+    "multiSourceCount": 3,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-10-05T06:30:00.000Z"
@@ -90,33 +114,9 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 82,
-    "multiSourceCount": 2,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-10-04T10:00:00.000Z"
-  },
-  {
-    "id": "cmuut6mkj000dyqwctrhj3424",
-    "titleEn": "Future Farming Five: what autonomous weeding taught Kilter",
-    "titleZh": "Kilter AX-1自主除草机器人：8个月减少超100万升除草剂喷洒",
-    "summaryZh": "挪威公司Kilter的AX-1自主除草机器人通过精准微滴技术直接施药于杂草，在5个国家不到8个月内帮助农户避免了超过100万升除草剂混合液的喷洒。该机器人除草效果达97%，漂移减少99%，可使产量提升30-40%，尤其适用于高价值蔬菜（根茎类和叶菜）。文章通过5个问答深入探讨了数据计算方式、目标客户、常见误区、投资考量及未来展望，为智慧农业从业者提供了自主除草技术的实践参考。",
-    "featuredReason": "本文以问答形式深入剖析了自主除草机器人AX-1的实际应用效果、投资考量与行业误区，数据详实（减少100万升除草剂、产量提升30-40%），对关注农业自动化与精准植保的智慧畜牧从业者具有直接的参考价值和启发意义。",
-    "url": "https://www.futurefarming.com/smart-farming/future-farming-five-what-autonomous-weeding-taught-kilter/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1",
-      "sourceType": "行业新闻站"
-    },
-    "sourceId": "futurefarming",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 81,
     "multiSourceCount": 3,
     "isFeatured": true,
     "isHot": true,
-    "publishedAt": "2026-10-01T05:00:00.000Z"
+    "publishedAt": "2026-10-04T10:00:00.000Z"
   }
 ]

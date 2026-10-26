@@ -1,5 +1,29 @@
 [
   {
+    "id": "cmvorl2wy00256bpn8srhtk5n",
+    "titleEn": "AgriFood Signals: Danone turns yogurt into renewable energy, Bison Ventures lands $160m, biochar projects",
+    "titleZh": "AgriFood Signals：达能合作将酸奶废弃物转化为可再生能源，Bison Ventures 募资1.6亿美元，生物炭项目动态",
+    "summaryZh": "本文汇总了农业食品科技领域近期的重要融资、并购、合作及行业动态。重点包括达能合作建设4000万美元设施将酸奶废弃物转化为可再生能源、Bison Ventures募集1.6亿美元深科技基金、Citi为德克萨斯生物炭项目完成7200万美元碳去除挂钩票据、Terraton发行首批生物炭碳信用等。此外还涵盖IMIO、Electric Plant Company、Kodama、Pythag等多家初创企业融资，以及Aigen除草机器人发布、Carbon Robotics裁员等行业新闻。",
+    "featuredReason": "尽管本文覆盖广泛农业食品科技动态，但其中牛群管理软件先驱GEM Drovers被收购、达能酸奶废弃物转化为可再生能源等新闻与畜牧行业数字化及可持续发展直接相关，值得智慧畜牧从业者关注行业资本动向与跨界合作模式。",
+    "url": "https://agfundernews.com/agrifood-signals-danone-turns-yogurt-into-renewable-energy-bison-ventures-lands-160m-biochar-projects",
+    "source": {
+      "name": "AgFunderNews",
+      "nameZh": "农业科技投",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "agfundernews",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 55,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-10-22T20:00:39.000Z"
+  },
+  {
     "id": "cmvercuke01kf13vra63tq3oc",
     "titleEn": "Going nuclear on livestock methane emissions",
     "titleZh": "IAEA与贝尔法斯特女王大学合作利用核技术减少牲畜甲烷排放",
@@ -90,7 +114,7 @@
     "subcategory": "cattle",
     "techTags": "",
     "qualityScore": 87,
-    "multiSourceCount": 2,
+    "multiSourceCount": 3,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-10-04T08:00:00.000Z"
@@ -475,7 +499,7 @@
     "techTags": "",
     "qualityScore": 79,
     "multiSourceCount": 1,
-    "isFeatured": false,
+    "isFeatured": true,
     "isHot": true,
     "publishedAt": ""
   },

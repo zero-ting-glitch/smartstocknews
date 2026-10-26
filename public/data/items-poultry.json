@@ -1,5 +1,29 @@
 [
   {
+    "id": "cmvorlzxn01hz6bpn1hf0l03h",
+    "titleEn": "Oct 23NewsPoultry WorldIn-ovo sexing in the latest Poultry WorldExplore in-ovo sexing, AI, poultry nutrition and sustainability in the latest edition of Poultry World.",
+    "titleZh": "最新一期《Poultry World》聚焦禽蛋性别鉴定、AI与可持续发展",
+    "summaryZh": "最新一期《Poultry World》杂志在线版涵盖卵内性别鉴定商业化进展、人工智能与数据驱动蛋业变革、哥伦比亚肉鸡整合企业扩张、膳食纤维与矿物质营养、水资源短缺应对等议题。文章还涉及奥地利蛋业碳减排实践、澳大利亚本地豌豆替代豆粕研究及欧盟蛋鸡笼养系统转型趋势，为禽业从业者提供从技术前沿到生产管理的多维参考。",
+    "featuredReason": "该文汇集了卵内性别鉴定商业化、AI与数据驱动蛋业变革、精准畜牧技术等智慧畜牧前沿议题，同时涵盖营养、水资源管理和区域市场动态，适合禽业从业者把握技术趋势与生产实践参考。",
+    "url": "https://www.foodagribusiness.world/poultry/in-ovo-sexing-in-the-latest-poultry-world",
+    "source": {
+      "name": "Poultry World",
+      "nameZh": "禽业世界",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "poultryworld",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 54,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-10-23T09:29:41.927Z"
+  },
+  {
     "id": "cmvercgk501h713vrakmf77th",
     "titleEn": "Oct 17NewsPoultry WorldLight-based sensors target faster poultry quality controlA new €7 million pan-European project will test photonics-based sensors across the poultry chain, from feed safety to meat quality and by-product utilisation.\n\nThe European research project aims to give poultry producers faster, more precise information on quality, safety and traceability by introducing photonics-based sensing at key stages of the production chain.\n\nThe Sensor4Food project, coordinated by Turku University of Applied Sciences in Finland, will develop and test sensor technologies that use light at different wavelengths to measure properties that cannot be detected by the human eye. Six poultry-related use cases will be teste...",
     "titleZh": "700万欧元泛欧项目用光子传感器加速禽肉品控",
@@ -162,7 +186,7 @@
     "subcategory": "poultry",
     "techTags": "",
     "qualityScore": 65,
-    "multiSourceCount": 3,
+    "multiSourceCount": 4,
     "isFeatured": true,
     "isHot": false,
     "publishedAt": "2026-09-29T09:42:00.000Z"

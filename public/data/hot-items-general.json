@@ -1,5 +1,29 @@
 [
   {
+    "id": "cmvorlnar008r6bpnzhdtrqsw",
+    "titleEn": "Trouw Nutrition highlights strategies for Feeding the Future Sustainably at EuroTier 2026",
+    "titleZh": "Trouw Nutrition在EuroTier 2026展示可持续未来饲喂策略",
+    "summaryZh": "Trouw Nutrition将在EuroTier 2026展出精准营养工具、数字技术及碳减排项目，包括霉菌毒素监测、现场饲料分析、碳足迹计算、数字孪生模拟及VR体验等，并推出母猪卓越计划和全球碳减排项目，旨在提升生产效率并降低碳足迹。",
+    "featuredReason": "该新闻集中展示了精准营养、数字孪生、碳足迹计算和VR等智慧畜牧技术在实际生产中的应用，对关注养殖数字化和可持续发展的从业者具有较高参考价值。",
+    "url": "https://www.thepigsite.com/news/2026/10/trouw-nutrition-highlights-strategies-for-feeding-the-future-sustainably-at-eurotier-2026",
+    "source": {
+      "name": "The Pig Site",
+      "nameZh": "猪业网",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "thepigsite",
+    "species": "general",
+    "category": "aggtech",
+    "subcategory": "general",
+    "techTags": "",
+    "qualityScore": 68,
+    "multiSourceCount": 3,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-10-22T09:11:00.000Z"
+  },
+  {
     "id": "cmtqqpi7x000heil7rs9yge3d",
     "titleEn": "Future Farming Five: why Burro built a robot that never collects dust in your shed",
     "titleZh": "Future Farming五问：Burro为何打造一台不会在棚里吃灰的机器人",
@@ -94,29 +118,5 @@
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-08-19T07:01:09.000Z"
-  },
-  {
-    "id": "cmt6p74ud002vbr173p79xs89",
-    "titleEn": "New FCC proposal could ‘retroactively ban’ some existing ag spray drones, warns DJI",
-    "titleZh": "FCC新提案或“追溯性禁止”部分现有农用喷雾无人机，DJI发出警告",
-    "summaryZh": "美国联邦通信委员会（FCC）于2025年12月22日禁止销售外国制造无人机后，又于2026年7月21日提出新提案，拟禁止销售已获授权的“军用级”外国无人机，其定义宽泛，可能涵盖农业喷雾无人机。DJI警告称，这将构成“追溯性禁令”，影响美国农民和公共安全机构，增加成本、限制选择，并让美国在技术上落后于其他国家。目前该提案正在公开征求意见，截止日期为9月2日。",
-    "featuredReason": "该新闻直接影响美国农业无人机市场，对依赖先进植保技术的智慧畜牧和种植业者具有重大政策风险提示，值得关注其后续进展并评估替代方案。",
-    "url": "https://agfundernews.com/new-fcc-proposal-could-retroactively-ban-some-existing-ag-spray-drones-warns-dji",
-    "source": {
-      "name": "AgFunderNews",
-      "nameZh": "农业科技投",
-      "tier": "T1",
-      "sourceType": "行业新闻站"
-    },
-    "sourceId": "agfundernews",
-    "species": "general",
-    "category": "aggtech",
-    "subcategory": "general",
-    "techTags": "",
-    "qualityScore": 80,
-    "multiSourceCount": 3,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-08-07T22:29:46.000Z"
   }
 ]
