@@ -1,5 +1,53 @@
 [
   {
+    "id": "cmvyugeuy01jlfwtrq6jeunuq",
+    "titleEn": "International Webinar Series: Global Innovation in Pasture and Rangeland Systems",
+    "titleZh": "国际网络研讨会系列：牧场与草原系统的全球创新",
+    "summaryZh": "本文报道了新西兰、澳大利亚、美国科罗拉多州和怀俄明州联合举办的系列网络研讨会，探讨互补农业生态系统如何应对相同挑战。核心发现包括：技术本身有效，但匹配到合适运营是难点；澳大利亚农业科技公司经历整合，症结在于激励机制而非采用意愿；新西兰农场顾问转型为技术顾问；怀俄明州面临技术人员短缺和代际经验流失。文章强调政策设定条件、资金驱动行为，四个地区都希望成为技术验证地，但农场验证的经济账尚未解决。",
+    "featuredReason": "本文虽以牧场管理为主，但深入探讨了物联网项圈、无人机、自建应用等智慧畜牧技术在真实牧场中的采用障碍与成本效益，对理解技术落地逻辑和激励机制具有跨品类参考价值。",
+    "url": "https://agritechnz.org.nz/2026/10/28/international-webinar-series-global-innovation-in-pasture-and-rangeland-systems/",
+    "source": {
+      "name": "AgriTech New Zealand",
+      "nameZh": "新西兰农业科技",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "agritechnz",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 57,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-10-28T00:56:26.000Z"
+  },
+  {
+    "id": "cmvormgm501k56bpnsljxln6v",
+    "titleEn": "AI is changing farming: Are farmers asking the right questions?",
+    "titleZh": "AI正在改变农业：农民问对问题了吗？",
+    "summaryZh": "文章以奶牛智能监测为例，提醒农民在引入AI系统前应追问供应商：系统能检测和不能检测什么、夏季放牧时评分是否失效、误报率如何、数据归谁所有、录像存储与使用方式、以及谁负责查看仪表盘并采取行动。核心价值在于提供了一套可操作的AI采购尽职调查清单，强调AI应辅助而非替代农民的经验判断。",
+    "featuredReason": "文章以奶牛AI监测为切入点，系统梳理了农民在采购AI系统前应追问的关键问题——检测边界、误报率、数据所有权、存储与使用、人工闭环责任，对智慧畜牧从业者和养殖场管理者具有直接的采购决策参考价值。",
+    "url": "https://www.agriland.ie/farming-news/ai-is-changing-farming-are-farmers-asking-the-right-questions/",
+    "source": {
+      "name": "Agriland",
+      "nameZh": "爱尔兰农业新闻",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "agriland",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 62,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-10-24T14:00:00.000Z"
+  },
+  {
     "id": "cmvorl2wy00256bpn8srhtk5n",
     "titleEn": "AgriFood Signals: Danone turns yogurt into renewable energy, Bison Ventures lands $160m, biochar projects",
     "titleZh": "AgriFood Signals：达能合作将酸奶废弃物转化为可再生能源，Bison Ventures 募资1.6亿美元，生物炭项目动态",
@@ -18,7 +66,7 @@
     "subcategory": "cattle",
     "techTags": "",
     "qualityScore": 55,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-10-22T20:00:39.000Z"
@@ -114,7 +162,7 @@
     "subcategory": "cattle",
     "techTags": "",
     "qualityScore": 87,
-    "multiSourceCount": 3,
+    "multiSourceCount": 4,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-10-04T08:00:00.000Z"

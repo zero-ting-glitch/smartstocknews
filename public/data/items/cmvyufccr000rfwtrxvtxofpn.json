@@ -1,0 +1,39 @@
+{
+  "id": "cmvyufccr000rfwtrxvtxofpn",
+  "titleEn": "EdenCore targets tree and bush fruit growers with its Viewer crop camera",
+  "titleZh": "EdenCore推出Viewer作物相机，瞄准果树与灌木果园",
+  "summaryZh": "EdenCore Technologies推出Viewer作物相机，采用双侧RGB摄像头与主动照明，可扫描高达4-5米的果树，通过算法提取立体深度图像，实现花芽、花朵和果实的自动计数，支持采收前2-3个月的产量预测。该系统兼容Isobus，可与喷雾机集成实现实时变量喷洒。目前已在15个国家部署80台设备，扫描面积超6000公顷，售价1.5-2万欧元，亦可租赁。",
+  "featuredReason": "该新闻展示了AI视觉与算法在果园精准管理中的落地应用，其产量预测和变量喷洒功能对种植业智能化具有直接参考价值，虽非畜牧直接相关，但技术路径可迁移至养殖场景的智能感知与精准作业。",
+  "url": "https://www.futurefarming.com/smart-farming/edencore-targets-tree-and-bush-fruit-growers-with-its-viewer-crop-camera/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "futurefarming",
+  "species": "fruit",
+  "category": "crop",
+  "subcategory": "fruit",
+  "techTags": "",
+  "qualityScore": 78,
+  "multiSourceCount": 1,
+  "isFeatured": true,
+  "isHot": true,
+  "publishedAt": "2026-10-26T09:00:00.000Z",
+  "contentFull": "EdenCore targets tree and bush fruit growers with its Viewer crop camera\n\n 26-10 | Smart farming | News\n\nLinkedInFacebookXWhatsAppPrint\n\nEdenCore Technologies offers its Viewer crop camera featuring an RGB camera and active lighting on each side to capture various data in several tree and bush fruit orchards. Photos: René Koerhuis\n\nEdenCore isn’t a new company, but many of you might not yet be familiar with its Viewer scanning solution. It certainly isn’t the first crop camera on the block, but some features might stand out.\n\nWhen thinking of a Greek company scanning crops with a tractor-mounted camera suite, EdenCore probably isn’t the first name that comes to mind. The company was founded in 2021 to develop a crop camera for orchard owners.\n\nRGB enhanced with algorithms\n\nEdenCore Technologies chooses to fit two RGB cameras in a housing mounted either at the front of the tractor, on its hood or roof, or on a sprayer. The cameras face sideways and scan both sides of the tractor. They are accompanied by 5 flashing LED lights on each side for active lighting. According to the manufacturer, the cameras are able to capture trees up to 4 and even 5 metres tall and are also capable of extracting stereo depth images of those trees thanks to specific algorithms. This enables users to automatically count buds, flowers (if relevant) and fruits of apples, avocados, blueberries, cherries, wine and table grapes, mangoes, nectarines, pears and peaches. The statistics can be used to perform yield predictions 2 to 3 months before harvest, the company says.\n\nViewer is mounted at the front of the tractor, on its hood or roof, or on a sprayer. According to the manufacturer, the cameras are capable of extracting stereo depth images of trees thanks to algorithms.The canopy volume is also captured while driving through the orchard. Crop health (diseases) and crop vigour are too. Dead fruit trees are identified as well. Over 6,000 hectares (14,825 acres) have been scanned so far across various countries and regions in Europe, North and South America and Oceania.\n\nReal-time VRA spraying too\n\nThe Isobus compatibility allows for the integration of the Viewer crop camera with sprayers for on-off spraying at headlands, depending on whether trees are present or missing. The sprayer connection also allows for real-time VRA spraying provided that your air blast or vertical boom sprayer is capable of VRA application.\n\nThe company says 80 cameras are already in use across 15 countries. The EdenCore Viewer is for sale and can also be rented. Gross retail prices depend on the region, the exact configuration of the setup and the dealer selling the equipment, but currently range from €15,000 ($16,790) to €20,000 ($22,390) in Europe. European rental prices range from €6,000 ($6,717) to €10,000 ($11,195) annually, which suggests that sales are preferred over rental agreements.\n\nJoin 17,000+ subscribers\n\nSubscribe to our newsletter to stay updated about all the need-to-know content in the agricultural sector, two times a week.\n\n \n\n\"*\" indicates required fields\n\n \n\nLinkedInFacebookXWhatsAppPrint\n\n \n\n René Koerhuis Precision Farming Specialist\n\nMore about\n\ncrop analytics\n\ncrop scouting\n\nisobus\n\nvariable rate application (vra)\n\nad\n\nLEARN MORE\n\nRelated articles\n\n30-10 | \n News\n\nEcorobotix adds potato model and targets yellow nutsedge with AI spot spraying\n\n07-10 | \n News\n\nCroptimal launches mounted selection robot for seed potato production\n\n07-09 | \n News\n\nFrench cooperative Océalia takes stake in weeding robot developer Cyclair\n\nPremium\n\n13-08 | \n Article\n\n‘Ullmanna hoe pays for itself within a few years’\n\n \n\n Buyers guides & Catalogues\n\n \n\n Subscribe to our YouTube channel",
+  "translationZh": "EdenCore并非一家新公司，但很多人可能还不熟悉其Viewer扫描解决方案。它当然不是市面上第一款作物相机，但有些功能可能比较突出。\n\n提到一家希腊公司用拖拉机搭载的相机套件扫描作物，EdenCore可能不是第一个浮现在脑海中的名字。该公司成立于2021年，旨在为果园主开发一款作物相机。\n\n**RGB增强与算法**\n\nEdenCore Technologies选择在一个外壳中安装两台RGB摄像头，可安装在拖拉机前部、引擎盖或车顶，也可安装在喷雾机上。摄像头朝向两侧，扫描拖拉机两侧。每侧配有5盏闪烁LED灯用于主动照明。据制造商称，摄像头能够捕捉高达4米甚至5米高的树木，并且凭借特定算法能够提取这些树木的立体深度图像。这使得用户能够自动计数苹果、牛油果、蓝莓、樱桃、鲜食和酿酒葡萄、芒果、油桃、梨和桃子的花芽、花朵（如适用）和果实。该公司表示，这些统计数据可用于在采收前2至3个月进行产量预测。\n\nViewer安装在拖拉机前部、引擎盖或车顶，或喷雾机上。据制造商称，凭借算法，摄像头能够提取树木的立体深度图像。在果园中行驶时，冠层体积也会被捕捉。作物健康（病害）和作物长势同样被记录。枯死果树也能被识别。迄今为止，已在欧洲、北美和南美以及大洋洲的不同国家和地区扫描了超过6000公顷（14825英亩）的面积。\n\n**实时变量喷洒**\n\nIsobus兼容性允许将Viewer作物相机与喷雾机集成，根据树木是否存在，在地头实现开-关喷洒。喷雾机连接还允许实时变量喷洒，前提是您的风送式或垂直喷杆喷雾机具备变量喷洒能力。\n\n该公司表示，已有80台相机在15个国家投入使用。EdenCore Viewer正在销售，也可租赁。毛零售价因地区、具体配置和经销商而异，目前在欧洲范围为15000欧元（16790美元）至20000欧元（22390美元）。欧洲年租赁价格为6000欧元（6717美元）至10000欧元（11195美元），这表明销售比租赁协议更受青睐。",
+  "images": [
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_848,h_565/https://www.futurefarming.com/app/uploads/2026/10/01-IMG_9910-resize-2000-848x565.jpeg",
+    "https://www.futurefarming.com/?attachment_id=32035",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_300,h_300/https://www.futurefarming.com/app/uploads/2024/05/Rene-Koerhuis_web-300x300.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/10/image_processing20261029-9-y9j95m-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/10/Croptimal-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/09/CYCLAIR-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/08/Ulmanna-389x260.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_818,h_619/https://www.futurefarming.com/app/uploads/2025/02/DG-Do-you-want-to-know-whats-happening-2.png"
+  ],
+  "author": "René Koerhuis",
+  "contentHtml": "EdenCore isn’t a new company, but many of you might not yet be familiar with its Viewer scanning solution. It certainly isn’t the first crop camera on the block, but some features might stand out.",
+  "scrapeMethod": "web_scrape"
+}

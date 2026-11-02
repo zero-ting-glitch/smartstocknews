@@ -1,5 +1,53 @@
 [
   {
+    "id": "cmvyug4ym01ihfwtrfru9ro1n",
+    "titleEn": "Poultry WorldPartnerBreeding for the long runOct 27",
+    "titleZh": "蛋鸡长效育种：平衡性能与持久力的遗传策略",
+    "summaryZh": "本文以罗曼LSL-Classic品系为例，阐述蛋鸡育种从追求短期产蛋峰值转向兼顾高产、稳健性、适应性与效率的平衡育种策略。文章介绍了基因组选择、自动化记录与AI分析在育种中的应用，强调持久力、蛋壳质量、采食能力与存活率随产蛋周期延长（可达120周）的协同提升，并展示了商业鸡群120周产592枚蛋的实践案例。",
+    "featuredReason": "本文系统阐述了蛋鸡平衡育种的最新理念与实践，涵盖基因组选择、AI辅助分析等数据驱动技术，并给出120周产592枚蛋的商业案例，对关注家禽育种和智慧养殖的从业者具有较高参考价值。",
+    "url": "https://www.foodagribusiness.world/poultry/breeding-for-the-long-run",
+    "source": {
+      "name": "Poultry World",
+      "nameZh": "禽业世界",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "poultryworld",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 54,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-10-27T07:00:00.000Z"
+  },
+  {
+    "id": "cmvyug4yr01ijfwtr6me7josn",
+    "titleEn": "Poultry WorldWhat can you expect from this year’s Eurotier?Oct 26News",
+    "titleZh": "2026年EuroTier展会前瞻：智慧畜牧创新亮点抢先看",
+    "summaryZh": "本文介绍了2026年德国EuroTier汉诺威国际畜牧展的亮点，展会以“动物养殖智能化”为主题，聚焦AI、自动化和精准畜牧技术。文章重点盘点了禽业相关的三项创新获奖技术：电子蛋破损检测数据记录器、太阳能自主移动禽舍和LiDAR饲料料仓监测系统，并概述了全球蛋鸡和肉鸡市场趋势及动物福利奖项。",
+    "featuredReason": "本文集中展示了EuroTier 2026上禽业相关的三项智慧畜牧创新技术（电子蛋破损检测、自主移动禽舍、LiDAR料仓监测），并提供了全球蛋鸡和肉鸡市场趋势及展会整体智能化方向，对智慧畜牧从业者了解前沿技术、把握行业趋势具有直接参考价值。",
+    "url": "https://www.foodagribusiness.world/poultry/what-can-you-expect-from-this-year-s-eurotier",
+    "source": {
+      "name": "Poultry World",
+      "nameZh": "禽业世界",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "poultryworld",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 63,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-10-26T09:35:00.879Z"
+  },
+  {
     "id": "cmvorlzxn01hz6bpn1hf0l03h",
     "titleEn": "Oct 23NewsPoultry WorldIn-ovo sexing in the latest Poultry WorldExplore in-ovo sexing, AI, poultry nutrition and sustainability in the latest edition of Poultry World.",
     "titleZh": "最新一期《Poultry World》聚焦禽蛋性别鉴定、AI与可持续发展",

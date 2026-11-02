@@ -1,5 +1,53 @@
 [
   {
+    "id": "cmvyuflbu0083fwtrd88mklja",
+    "titleEn": "Global pork production braces for a slower 2027",
+    "titleZh": "全球猪肉产量预计2027年放缓增长",
+    "summaryZh": "荷兰合作银行最新《全球猪肉季度报告》指出，2026年第四季度生猪市场疲软、回报不佳，导致2027年全球猪肉产量扩张计划减少。生产商因国内和出口需求疲软、饲料和燃料成本上升而缺乏留种扩栏动力，将转而聚焦猪群健康、生产力和自动化。北美、欧洲和中国等主要市场利润承压，可能加速行业整合，迫使高成本生产商淘汰或退出。",
+    "featuredReason": "该报告揭示了全球猪肉行业2027年的关键转向——从扩群增产转向健康、生产力和自动化投资，直接点明了智慧畜牧技术（如猪群健康监测、自动化设备）在行业利润承压期的落地机遇，对关注猪业智能化升级的从业者具有战略参考价值。",
+    "url": "https://www.meatpoultry.com/articles/34242-global-pork-production-braces-for-a-slower-2027",
+    "source": {
+      "name": "MEAT+POULTRY",
+      "nameZh": "肉禽加工",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "meatpoultry",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 57,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-10-29T11:52:40.000Z"
+  },
+  {
+    "id": "cmvyufzyq01hhfwtr43ryaz7e",
+    "titleEn": "Pig ProgressPremiumBrazilian startup uses AI to protect pigletsOct 26News",
+    "titleZh": "巴西初创公司利用AI保护仔猪",
+    "summaryZh": "巴西初创公司Herdian开发了一套人工智能系统，通过摄像头全天候监测母猪和仔猪行为，识别潜在风险并在仔猪被压死前提醒农场员工干预。该系统预计可将死亡率超过15%的农场仔猪死亡率降低多达30%。文章介绍了计算机视觉模型的训练数据及巴西养猪业仔猪死亡率的背景。",
+    "featuredReason": "该案例展示了AI计算机视觉技术在养猪产房管理中的具体落地场景，直接针对仔猪压死这一行业痛点，且给出了可量化的死亡率降低预期，对智慧畜牧从业者具有较高的参考价值和借鉴意义。",
+    "url": "https://www.foodagribusiness.world/pigs/brazilian-startup-uses-ai-to-protect-piglets",
+    "source": {
+      "name": "Pig Progress",
+      "nameZh": "猪业进展",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "pigprogress",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 62,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-10-26T06:00:00.054Z"
+  },
+  {
     "id": "cmvorlv3m01h16bpno8mxerpa",
     "titleEn": "Pig ProgressHuge amounts of data determine the future of pig genetics – here’s whyOct 19Article",
     "titleZh": "海量数据决定猪遗传育种未来：Axiom CEO访谈",
@@ -162,7 +210,7 @@
     "subcategory": "pig",
     "techTags": "",
     "qualityScore": 62,
-    "multiSourceCount": 10,
+    "multiSourceCount": 11,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-09-27T23:00:00.000Z"
@@ -352,7 +400,7 @@
     "species": "pig",
     "category": "aggtech",
     "subcategory": "pig",
-    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
+    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
     "qualityScore": 71,
     "multiSourceCount": 3,
     "isFeatured": true,

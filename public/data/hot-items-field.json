@@ -1,5 +1,53 @@
 [
   {
+    "id": "cmvyufccj000jfwtrlw9y229r",
+    "titleEn": "From stones to crop defects: Dutch growers embrace AI-powered sorting",
+    "titleZh": "荷兰种植者采用AI光学分选技术：从石块到作物缺陷的智能剔除",
+    "summaryZh": "荷兰马铃薯和洋葱种植者正 increasingly 采用AI驱动的光学分选机，在入库前去除石块、土块和缺陷产品。该技术已从原型阶段进入实际应用，不仅能分离杂质，还能根据外部特征进行质量分级，如剔除绿皮、畸形、虫害损伤的块茎。文章详细介绍了Downs、Flikweert Vision和Tolsma-Grisnich等厂商的设备特点、吞吐量、投资成本（每米工作宽度8-10万欧元）及许可证费用，并指出吞吐量与精度之间的权衡。对智慧农业从业者了解AI分选在采后环节的落地现状和投资决策具有参考价值。",
+    "featuredReason": "该文详细介绍了AI光学分选在采后环节的落地进展、设备选型、成本结构和实际使用经验，对智慧农业从业者评估AI分选技术投资、理解吞吐量与精度权衡具有直接参考价值，虽聚焦种植业但技术逻辑可迁移至畜牧相关领域。",
+    "url": "https://www.futurefarming.com/smart-farming/from-stones-to-crop-defects-dutch-growers-embrace-ai-powered-sorting/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 80,
+    "multiSourceCount": 1,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-10-28T13:00:00.000Z"
+  },
+  {
+    "id": "cmvyufccp000pfwtr0yp7ga6u",
+    "titleEn": "Laser weeding and electrocution at the same time",
+    "titleZh": "Andela推出激光与电击联合除草机器人，产能翻倍并实现全田覆盖",
+    "summaryZh": "Andela发布第二代除草机器人，采用新型M-pede机械臂将行内间距从45厘米缩小至25厘米，实现全田覆盖，单臂除草速度从每秒3株提升至8株。机器人可同时搭载电击除草臂和激光除草模块，激光处理5毫米以下小杂草，电击应对大草，组合产能预计达每秒15株。新一代4.5米机型可匹配旧款9米机型产能，并计划下季实现全自主作业，旧机型有望改装升级。",
+    "featuredReason": "该报道展示了激光与电击联合除草的技术路线及模块化机械臂设计，对关注田间自动化除草、机器人产能提升和全自主作业的智慧农业从业者具有直接参考价值，尤其适合大田和有机农业场景。",
+    "url": "https://www.futurefarming.com/tech-in-focus/field-robots/laser-weeding-and-electrocution-at-the-same-time/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 79,
+    "multiSourceCount": 1,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-10-27T14:30:00.000Z"
+  },
+  {
     "id": "cmvorl263000h6bpndivx4lm0",
     "titleEn": "FieldSense FSR500: lightweight spraying robot designed for easy farm repairs",
     "titleZh": "FieldSense FSR500：轻量易维修的田间喷洒机器人",
@@ -18,8 +66,8 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 78,
-    "multiSourceCount": 1,
-    "isFeatured": true,
+    "multiSourceCount": 2,
+    "isFeatured": false,
     "isHot": true,
     "publishedAt": "2026-10-22T08:00:00.000Z"
   },
@@ -42,7 +90,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 82,
-    "multiSourceCount": 3,
+    "multiSourceCount": 4,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-10-09T07:00:00.000Z"
@@ -66,57 +114,9 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 78,
-    "multiSourceCount": 3,
+    "multiSourceCount": 4,
     "isFeatured": false,
     "isHot": true,
     "publishedAt": "2026-10-07T08:00:00.000Z"
-  },
-  {
-    "id": "cmv4tzbik000fupro51ha8jxx",
-    "titleEn": "Can second-hand robots make autonomous farming affordable for smaller growers?",
-    "titleZh": "二手农业机器人能否让小农户负担得起自主农业？",
-    "summaryZh": "本文探讨了第一代农业田间机器人进入二手市场后引发的估值难题：机器人高度依赖软件、连接性和厂商支持，其残值评估远比传统农机复杂。文章分析了二手市场对小型农户降低自主农业门槛的潜在推动作用，同时指出软件许可转让、厂商存续风险和硬件技术过时等核心不确定性，并呼吁金融机构关注机器人残值评估问题。",
-    "featuredReason": "本文直面农业机器人商业化落地的关键瓶颈——二手残值与软件支持问题，对智慧畜牧行业评估机器人投资回报、制定设备更新策略及理解金融机构风控逻辑具有重要参考价值。",
-    "url": "https://www.futurefarming.com/tech-in-focus/field-robots/can-second-hand-robots-make-autonomous-farming-affordable-for-smaller-growers/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1",
-      "sourceType": "行业新闻站"
-    },
-    "sourceId": "futurefarming",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 82,
-    "multiSourceCount": 3,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-10-05T06:30:00.000Z"
-  },
-  {
-    "id": "cmv4tzbip000juproqwzadunv",
-    "titleEn": "Bonsai Robotics uses AI simulation to train field robots before deployment",
-    "titleZh": "Bonsai Robotics利用AI仿真在部署前训练田间机器人",
-    "summaryZh": "美国Bonsai Robotics推出Bonsai World仿真系统，利用卫星图像和Google Gemini视觉语言模型将农田转化为3D环境，结合超5000万真实数据样本，让自主机器在进入新田块、新作物或新环境前完成训练与测试。该技术基于Google Cloud和NVIDIA GPU，旨在减少现场测试和调试时间，目前已在美国和澳大利亚的特种作物领域运营，并计划拓展至采矿和国防领域。",
-    "featuredReason": "该报道展示了AI仿真训练在农业机器人部署中的前沿应用，通过卫星图像+大模型+GPU仿真减少田间测试环节，对智慧畜牧行业中自动化设备的快速部署和适应性训练具有重要参考价值，尤其适合关注AI+机器人落地路径的从业者。",
-    "url": "https://www.futurefarming.com/tech-in-focus/field-robots/bonsai-robotics-uses-ai-simulation-to-train-field-robots-before-deployment/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1",
-      "sourceType": "行业新闻站"
-    },
-    "sourceId": "futurefarming",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 82,
-    "multiSourceCount": 3,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-10-04T10:00:00.000Z"
   }
 ]

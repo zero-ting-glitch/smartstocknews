@@ -1,5 +1,53 @@
 [
   {
+    "id": "cmvyufccl000lfwtranp4d4fd",
+    "titleEn": "Kingman Ag autonomous tractors (also) for GNSS-denied environments",
+    "titleZh": "Kingman Ag自主拖拉机：无GNSS环境也能作业",
+    "summaryZh": "Kingman Ag推出Minion Mini自主改装套件，采用鱼眼镜头视觉技术而非LiDAR进行导航，可在多尘和GNSS信号受限的果园环境中自主作业。GPS仅用于数据采集，不参与导航和路径规划。该系统支持前挂机具，价格2-3万美元，已有40套在加州等地投入使用。对智慧畜牧行业而言，其视觉导航方案在粉尘环境下的适应性值得借鉴。",
+    "featuredReason": "该新闻展示了不依赖LiDAR和GNSS的视觉导航方案在粉尘环境下的实际应用，对智慧畜牧中涉及多尘养殖环境（如禽舍、牛场）的自动化导航与机器人设计具有直接借鉴意义，且改装套件价格亲民、已商业化落地，值得行业人士关注。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/autonomous-vehicles/kingman-ag-autonomous-tractors-also-for-gnss-denied-environments/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 82,
+    "multiSourceCount": 1,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-10-28T07:00:00.000Z"
+  },
+  {
+    "id": "cmvyufccr000rfwtrxvtxofpn",
+    "titleEn": "EdenCore targets tree and bush fruit growers with its Viewer crop camera",
+    "titleZh": "EdenCore推出Viewer作物相机，瞄准果树与灌木果园",
+    "summaryZh": "EdenCore Technologies推出Viewer作物相机，采用双侧RGB摄像头与主动照明，可扫描高达4-5米的果树，通过算法提取立体深度图像，实现花芽、花朵和果实的自动计数，支持采收前2-3个月的产量预测。该系统兼容Isobus，可与喷雾机集成实现实时变量喷洒。目前已在15个国家部署80台设备，扫描面积超6000公顷，售价1.5-2万欧元，亦可租赁。",
+    "featuredReason": "该新闻展示了AI视觉与算法在果园精准管理中的落地应用，其产量预测和变量喷洒功能对种植业智能化具有直接参考价值，虽非畜牧直接相关，但技术路径可迁移至养殖场景的智能感知与精准作业。",
+    "url": "https://www.futurefarming.com/smart-farming/edencore-targets-tree-and-bush-fruit-growers-with-its-viewer-crop-camera/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "fruit",
+    "category": "crop",
+    "subcategory": "fruit",
+    "techTags": "",
+    "qualityScore": 78,
+    "multiSourceCount": 1,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-10-26T09:00:00.000Z"
+  },
+  {
     "id": "cmvorl266000j6bpnhs4x0a17",
     "titleEn": "BloomX raises $13 million to expand robotic pollination in fruit crops",
     "titleZh": "BloomX获1300万美元融资，扩展果蔬机器人授粉业务",
@@ -18,7 +66,7 @@
     "subcategory": "fruit",
     "techTags": "",
     "qualityScore": 78,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": false,
     "isHot": true,
     "publishedAt": "2026-10-19T19:34:43.000Z"
@@ -70,53 +118,5 @@
     "isFeatured": false,
     "isHot": true,
     "publishedAt": "2026-08-28T06:00:42.000Z"
-  },
-  {
-    "id": "cmt6p743z000lbr17yqzdm71r",
-    "titleEn": "Sami Robotics scales up broccoli harvesting as it builds towards a multi-crop, multi-task platform",
-    "titleZh": "Sami Robotics扩大西兰花收获规模，打造多作物多任务机器人平台",
-    "summaryZh": "加拿大初创公司Sami Robotics的西兰花收获机器人已从原型走向商业应用，采用12至18个机械臂并行作业，可识别并采摘成熟蔬菜。公司计划将同一平台扩展至生菜、花椰菜等作物，并未来实现除草、间苗、施肥等多项田间任务。该平台强调可扩展性和多任务能力，旨在解决劳动力短缺问题，提高收获效率。",
-    "featuredReason": "该新闻展示了农业机器人从单一作物向多作物、多任务平台演进的趋势，对智慧畜牧行业了解机器人技术跨界应用和劳动力替代方案具有参考价值。",
-    "url": "https://www.futurefarming.com/crop-solutions/sami-robotics-scales-up-broccoli-harvesting-as-it-builds-towards-a-multi-crop-multi-task-platform/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1",
-      "sourceType": "行业新闻站"
-    },
-    "sourceId": "futurefarming",
-    "species": "fruit",
-    "category": "crop",
-    "subcategory": "fruit",
-    "techTags": "",
-    "qualityScore": 79,
-    "multiSourceCount": 6,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-08-18T06:30:00.000Z"
-  },
-  {
-    "id": "cmt6p7441000nbr1774qx5gff",
-    "titleEn": "Autonomous fruit implements are ready",
-    "titleZh": "自主水果农机已就绪",
-    "summaryZh": "荷兰兰德韦克水果研究中心举办的体验日展示了水果种植领域机器人化的最新进展，自主和半自主转向系统已接近成熟。制造商指出，这些技术从几年前的不成熟发展到如今几乎可商业化应用，为果农提供了实用解决方案。文章反映了机器人技术在果蔬种植中的实际应用趋势，对智慧农业从业者具有参考价值。",
-    "featuredReason": "本文展示了水果种植中自主农机的最新进展，与智慧畜牧领域的自动化、机器人技术趋势高度相关，为跨领域技术借鉴提供了实践案例。",
-    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semi-autosteering-systems/autonomous-fruit-implements-are-ready/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1",
-      "sourceType": "行业新闻站"
-    },
-    "sourceId": "futurefarming",
-    "species": "fruit",
-    "category": "crop",
-    "subcategory": "fruit",
-    "techTags": "",
-    "qualityScore": 75,
-    "multiSourceCount": 6,
-    "isFeatured": false,
-    "isHot": true,
-    "publishedAt": "2026-08-17T07:00:47.000Z"
   }
 ]

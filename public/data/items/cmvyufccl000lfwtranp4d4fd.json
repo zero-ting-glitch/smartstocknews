@@ -1,0 +1,40 @@
+{
+  "id": "cmvyufccl000lfwtranp4d4fd",
+  "titleEn": "Kingman Ag autonomous tractors (also) for GNSS-denied environments",
+  "titleZh": "Kingman Ag自主拖拉机：无GNSS环境也能作业",
+  "summaryZh": "Kingman Ag推出Minion Mini自主改装套件，采用鱼眼镜头视觉技术而非LiDAR进行导航，可在多尘和GNSS信号受限的果园环境中自主作业。GPS仅用于数据采集，不参与导航和路径规划。该系统支持前挂机具，价格2-3万美元，已有40套在加州等地投入使用。对智慧畜牧行业而言，其视觉导航方案在粉尘环境下的适应性值得借鉴。",
+  "featuredReason": "该新闻展示了不依赖LiDAR和GNSS的视觉导航方案在粉尘环境下的实际应用，对智慧畜牧中涉及多尘养殖环境（如禽舍、牛场）的自动化导航与机器人设计具有直接借鉴意义，且改装套件价格亲民、已商业化落地，值得行业人士关注。",
+  "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/autonomous-vehicles/kingman-ag-autonomous-tractors-also-for-gnss-denied-environments/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "futurefarming",
+  "species": "fruit",
+  "category": "crop",
+  "subcategory": "fruit",
+  "techTags": "",
+  "qualityScore": 82,
+  "multiSourceCount": 1,
+  "isFeatured": true,
+  "isHot": true,
+  "publishedAt": "2026-10-28T07:00:00.000Z",
+  "contentFull": "Kingman Ag autonomous tractors (also) for GNSS-denied environments\n\n 28-10 | Autonomous vehicles | News\n\nLinkedInFacebookXWhatsAppPrint\n\nKingman Ag deploys fisheye lens technology to navigate autonomously between rows of trees. GPS remains on board for data collection purposes but is not used for navigation or path planning. Photos: René Koerhuis\n\nIf you’re looking to upgrade your tractor to perform autonomous operations in a dusty and/or GNSS-denied environment, then Kingman Ag has something to offer. \n\nThe Kingman Ag Minion Mini autonomous retrofit kit for tractors originates from farm practices in California. That itself is not unique. You can find other autonomous retrofit kits that were developed on farms. What makes the Minion Mini stand out is its navigation technology and its affordable pricing.\n\nNo LiDAR\n\nWhile observing an unmanned Kubota M5N-092 navigating its way through the demo orchard at FIRA USA in Yakima, Kingman Ag’s co-founder Zach Sheely tells Future Farming that the company chooses not to fit LiDAR technology anymore for navigation and detection purposes. “Our customers and also we ourselves do a lot of berm blowing in orchards in California, Oregon and Washington in particular. As with mummy mashing in pistachio orchards, the work creates a lot of dust and LiDAR sensors don’t like dust. We also believe that by using other technologies, we can make autonomous operation safer.”\n\nWhile many companies who upgrade tractors to perform autonomous operations tend to demonstrate their technology on a Kubota tractor, Deutz-Fahr, Fendt, John Deere and New Holland tractors are also compatible with Kingman Ag’s retrofit kit.Instead, the company uses vision technology – fisheye lens technology to be precise – to navigate. GPS remains on board for data collection purposes, but is not used for navigation or path planning. This means that retrofitted tractors can also perform in GNSS-hindered or denied circumstances under, for instance, (fully enclosed) canopies at up to 7 mph (11 kph).\n\nFront mounted implements possible\n\nSheely continues to explain that loading up an existing or recorded field boundary suffices for the technology to do its path planning and work. “We focus on operations in permanent crops where the trees are in the same place for multiple decades. I believe we provide the only autonomous retrofit kit able to work with front-mounted implements. It works along with our patented safety bumper. Most implement types can be operated without any modifications or additional sensors.’ Forty Minion Mini systems are currently in use on various brands and types of tractors, with the majority of them operating in California. Prices range from $20,000 (€17,900) to $30,000 (€26,840).\n\nThe Kingman Ag autonomous mowing demonstration took place in Gilbert Cellars’ apple orchard in the Yakima Valley (Washington) during the Washington State University (WSU) Smart Apple Orchard event.Join 17,000+ subscribers\n\nSubscribe to our newsletter to stay updated about all the need-to-know content in the agricultural sector, two times a week.\n\n \n\n\"*\" indicates required fields\n\n \n\nLinkedInFacebookXWhatsAppPrint\n\n \n\n René Koerhuis Precision Farming Specialist\n\nMore about\n\nautonomous tractors\n\nretrofit kits\n\nad\n\nLEARN MORE\n\nRelated articles\n\nPremium\n\n23-10 | \n Article\n\nFIRA USA draws agtech and robotics industry and growers to Yakima Valley\n\n22-10 | \n News\n\nKubota and Agtonomy introduce autonomous M5L tractor for specialty crops\n\nPremium\n\n15-09 | \n Article\n\nAgXeed T2 7-SERIES and LaserWeeder prove a strong autonomous team\n\n09-09 | \n News\n\nKubota launches WorkSmart Autosteer, bringing precision guidance to compact and utility equipment\n\n \n\n Buyers guides & Catalogues\n\n \n\n Subscribe to our YouTube channel",
+  "translationZh": "如果你正打算升级拖拉机，使其在多尘和/或GNSS信号受限的环境中执行自主作业，那么Kingman Ag可以满足你的需求。\n\nKingman Ag Minion Mini拖拉机自主改装套件源自加利福尼亚的农场实践。这本身并不独特。市面上还有其他在农场中开发的自主改装套件。让Minion Mini脱颖而出的是其导航技术和亲民的定价。\n\n**不采用LiDAR**\n\n在FIRA USA于雅基马举办的演示果园中，观察一台无人驾驶的Kubota M5N-092自主穿行时，Kingman Ag联合创始人Zach Sheely告诉《Future Farming》，公司选择不再为导航和检测目的安装LiDAR技术。“我们的客户以及我们自己经常在加利福尼亚、俄勒冈和华盛顿的果园里进行吹埂作业。就像在开心果果园里进行除雄花作业一样，这些工作会产生大量粉尘，而LiDAR传感器不喜欢粉尘。我们还相信，通过使用其他技术，我们可以让自主作业更安全。”\n\n尽管许多将拖拉机升级为自主作业的公司倾向于在Kubota拖拉机上展示其技术，但Deutz-Fahr、Fendt、John Deere和New Holland拖拉机也与Kingman Ag的改装套件兼容。相反，该公司使用视觉技术——准确说是鱼眼镜头技术——来进行导航。GPS保留在车上用于数据采集目的，但不用于导航或路径规划。这意味着改装后的拖拉机也可以在GNSS受限或被拒止的环境中作业，例如在（完全封闭的）树冠下，速度最高可达7英里/小时（11公里/小时）。\n\n**可支持前挂机具**\n\nSheely继续解释说，加载现有或已记录的田块边界就足以让该技术进行路径规划和工作。“我们专注于永久性作物的作业，这些作物中的树木在同一位置生长数十年。我相信我们提供了唯一能够配合前挂机具工作的自主改装套件。它与我们获得专利的安全保险杠协同工作。大多数机具类型无需任何改装或额外传感器即可操作。”目前有40套Minion Mini系统在各种品牌和类型的拖拉机上使用，其中大部分在加利福尼亚运行。价格从20,000美元（17,900欧元）到30,000美元（26,840欧元）不等。\n\nKingman Ag的自主割草演示在华盛顿州雅基马谷的Gilbert Cellars苹果园举行，是华盛顿州立大学（WSU）智慧苹果园活动的一部分。",
+  "images": [
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_848,h_565/https://www.futurefarming.com/app/uploads/2026/10/01-IMG_9952-resize-2000-848x565.jpeg",
+    "https://www.futurefarming.com/?attachment_id=32053",
+    "https://www.futurefarming.com/?attachment_id=32054",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_300,h_300/https://www.futurefarming.com/app/uploads/2024/05/Rene-Koerhuis_web-300x300.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/10/01-IMG_9885-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/10/01-IMG_9745-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/09/1-AgXeed-T2-7-SERIES-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_389,h_260/https://www.futurefarming.com/app/uploads/2026/09/1-Kubota-resize-2000-389x260.jpeg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_818,h_619/https://www.futurefarming.com/app/uploads/2025/02/DG-Do-you-want-to-know-whats-happening-2.png"
+  ],
+  "author": "René Koerhuis",
+  "contentHtml": "If you’re looking to upgrade your tractor to perform autonomous operations in a dusty and/or GNSS-denied environment, then Kingman Ag has something to offer.",
+  "scrapeMethod": "web_scrape"
+}

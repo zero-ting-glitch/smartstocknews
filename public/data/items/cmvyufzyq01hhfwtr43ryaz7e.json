@@ -1,0 +1,34 @@
+{
+  "id": "cmvyufzyq01hhfwtr43ryaz7e",
+  "titleEn": "Pig ProgressPremiumBrazilian startup uses AI to protect pigletsOct 26News",
+  "titleZh": "巴西初创公司利用AI保护仔猪",
+  "summaryZh": "巴西初创公司Herdian开发了一套人工智能系统，通过摄像头全天候监测母猪和仔猪行为，识别潜在风险并在仔猪被压死前提醒农场员工干预。该系统预计可将死亡率超过15%的农场仔猪死亡率降低多达30%。文章介绍了计算机视觉模型的训练数据及巴西养猪业仔猪死亡率的背景。",
+  "featuredReason": "该案例展示了AI计算机视觉技术在养猪产房管理中的具体落地场景，直接针对仔猪压死这一行业痛点，且给出了可量化的死亡率降低预期，对智慧畜牧从业者具有较高的参考价值和借鉴意义。",
+  "url": "https://www.foodagribusiness.world/pigs/brazilian-startup-uses-ai-to-protect-piglets",
+  "source": {
+    "name": "Pig Progress",
+    "nameZh": "猪业进展",
+    "tier": "T1.5",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "pigprogress",
+  "species": "pig",
+  "category": "livestock",
+  "subcategory": "pig",
+  "techTags": "",
+  "qualityScore": 62,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-10-26T06:00:00.054Z",
+  "contentFull": "Brazilian startup uses AI to protect piglets\n\nBrazilian startup Herdian has developed an artificial intelligence (AI) system designed to reduce piglet mortality in farrowing units. The technology uses cameras to monitor sow and piglet behaviour around the clock, identify potential risks, and alert farm staff to intervene before piglets are crushed.\n\nDaniel AzevedoFreelance journalist Brazil\n\nOct 26\n\nNews\n\nPhotos: Herdian\n\nFounded in 2024, the agtech estimates that its solution could reduce mortality by up to 30% on farms with mortality rates exceeding 15%, including losses during farrowing. Piglet mortality remains a significant challenge for Brazil's pig industry, as well as across the global sector. According to Agriness's 2025 Annual Pig Production Performance Report, approximately 9% of piglets born in Brazilian farrowing units die before weaning.\n\nComputer vision models\n\nPiglets being crushed by their mothers is among the leading causes of these losses. To identify potentially dangerous situations, Herdian has developed computer vision models trained on thousands of images and more than 30,000 hours of video footage.\n\nRegister for free to read this article.\n\nTo continue reading, please choose a subscription.\n\nExisting user? Sign in\n\nAccess reliable, unbiased reporting on the pig industry.\n\nStay well-informed via a full-service media platform across print, digital, events, and audiovisual content.\n\nSupport investigative journalism and industry insights.\n\nSee subscription optionsRegister for 3 free articles a month",
+  "translationZh": "巴西初创公司Herdian开发了一套人工智能（AI）系统，旨在降低产房单元中仔猪的死亡率。该技术利用摄像头全天候监测母猪和仔猪的行为，识别潜在风险，并在仔猪被压死之前提醒农场员工进行干预。\n\n这家成立于2024年的农业科技公司估计，对于死亡率超过15%的农场（包括分娩期间的损失），其解决方案可将死亡率降低多达30%。仔猪死亡仍然是巴西养猪业乃至全球养猪业的重大挑战。根据Agriness发布的《2025年养猪生产性能年度报告》，巴西产房单元中出生的仔猪约有9%在断奶前死亡。\n\n**计算机视觉模型**\n\n仔猪被母猪压死是这些损失的主要原因之一。为了识别潜在的危险情况，Herdian开发了计算机视觉模型，这些模型基于数千张图像和超过30,000小时的视频素材进行训练。",
+  "images": [
+    "https://www.foodagribusiness.world/_next/image?url=%2Fapi%2Fucms-image%3Fpath%3D%252Fapi%252Fmedia%252Ffile%252Fimported-image-a26f8adc3dbb04d6.jpg&w=3840&q=75&dpl=fa07aa1bc5c231f256a5ecb1279e719081ad7dc8",
+    "https://www.foodagribusiness.world/_next/image?url=%2Fapi%2Fucms-image%3Fpath%3D%252Fapi%252Fmedia%252Ffile%252FIA%252520monitoring%252520sows%252520and%252520piglets%252520-%252520Photo%252520-%252520Herdian.png&w=3840&q=75&dpl=fa07aa1bc5c231f256a5ecb1279e719081ad7dc8",
+    "https://www.foodagribusiness.world/_next/image?url=%2Fapi%2Fucms-image%3Fpath%3D%252Fapi%252Fmedia%252Ffile%252FSystem%252520reduces%252520piglet%252520mortality%252520-%252520Photo%252520-%252520Herdian.png&w=3840&q=75&dpl=fa07aa1bc5c231f256a5ecb1279e719081ad7dc8"
+  ],
+  "author": "Daniel Azevedo",
+  "contentHtml": "",
+  "scrapeMethod": "web_scrape"
+}

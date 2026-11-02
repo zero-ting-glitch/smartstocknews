@@ -1,0 +1,37 @@
+{
+  "id": "cmvyufb1p0005fwtrhs8b2j9r",
+  "titleEn": "OneSoil Global Analytics Now Identifies Nearly 30 Crops from Satellite Imagery",
+  "titleZh": "OneSoil全球分析平台通过卫星图像可识别近30种作物",
+  "summaryZh": "瑞士农业科技公司OneSoil发布新版Global Analytics系统，利用2.5米分辨率卫星图像绘制田块边界并识别作物，作物检测种类从12种扩展至28种，覆盖45个以上国家。该系统基于约200万田块的自有数据集训练机器学习模型，作物识别准确率达90-95%，可区分生长季节，服务于农技平台、食品供应链、农资企业、银行保险及科研机构等多类用户。",
+  "featuredReason": "该新闻展示了卫星遥感与AI在作物识别领域的最新进展，其田块级作物分布数据可为畜牧业的饲料原料供应分析、牧场周边种植结构评估及供应链风险管理提供间接参考，对关注种养结合与农业数据整合的智慧畜牧从业者具有一定启发意义。",
+  "url": "https://www.globalagtechinitiative.com/digital-farming/analytics/onesoil-global-analytics-now-identifies-nearly-30-crops-from-satellite-imagery/",
+  "source": {
+    "name": "PrecisionAg",
+    "nameZh": "精准农业",
+    "tier": "T1.5",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "precisionag",
+  "species": "field",
+  "category": "crop",
+  "subcategory": "field",
+  "techTags": "",
+  "qualityScore": 49,
+  "multiSourceCount": 2,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-10-30T00:00:00.000Z",
+  "contentFull": "By OneSoil \n\n \n\n Share\n\n \n\n \n\n \n\n \n\n \n\n OneSoil, a Swiss agtech company building AI tools for precision agriculture, today released a new version of Global Analytics, its system for mapping fields and identifying crops from satellite imagery. The product is now available in more than 45 countries across Europe and other regions, including the U.S., Canada, Argentina, Brazil, South Africa, Australia, and Kazakhstan.\n\n Using satellite imagery at 2.5-meter resolution, the new version draws more precise field boundaries, making each field easier to tell apart from its neighbors. It also expands crop detection from 12 crops to up to 28, ranging from staples such as wheat, maize, and soybeans to olives, grapes, and coffee. In supported markets, the models can also distinguish between growing seasons. In the U.S., for example, they identify winter and summer crops separately.\n\n To recognize the additional crops, OneSoil trained its proprietary machine learning models on its own dataset of about 2 million fields, built over several years of working with farmers and agricultural businesses. Crop records go back to 2016, so users can study how crops have rotated over time, check information reported by farmers, track agricultural production, and spot regional trends. Crop identification is typically 90–95% accurate in validated markets, depending on the crop, region, and season, the company said.\n\n Different businesses can put this information to work in different ways. Agtech platforms can integrate field boundaries and crop information without developing their own detection models, while food and supply chain companies can better understand agricultural activity in their sourcing regions. Agricultural input manufacturers and distributors can analyze crop distribution and cultivated areas to support market planning. Banks and insurers can incorporate field-level agricultural information into verification and risk assessment processes, and research and sustainability platforms can use field boundaries and crop data as inputs for further analysis.\n\n “We are very proud of the system because it gives businesses a broader view of crop distribution and cultivated areas,” said Stepan Zulynskyi, CEO of OneSoil. “That helps them analyze agricultural activity at both field and regional levels and make better decisions about yields and profitability.”\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n Top Articles\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n Read More \n\n \n\n Read More \n\n \n\n Read More \n\n \n\n Read More \n\n \n\n Read More \n\n \n\n PTx on Precision Ag Retrofits, Targeted Spraying, and Autonomy\n\n \n\n \n\n \n\n 0 1 5 OneSoil Global Analytics Now Identifies Nearly 30 Crops from Satellite Imagery \n\n \n\n Subscribe Today For\n\n \n\n \n\n \n\n Subscribe \n\n \n\n \n\n \n\n \n\n \n\n \n\n OneSoil is a Swiss agtech company building AI tools for precision agriculture. See all author stories here.",
+  "translationZh": "OneSoil是一家构建精准农业AI工具的瑞士农业科技公司，今日发布了新版Global Analytics系统，该系统用于从卫星图像中绘制田块地图并识别作物。该产品现已在欧洲及其他地区的45个以上国家上市，包括美国、加拿大、阿根廷、巴西、南非、澳大利亚和哈萨克斯坦。\n\n新版系统使用2.5米分辨率的卫星图像绘制更精确的田块边界，使每个田块更容易与相邻田块区分开来。作物检测范围也从12种扩展到最多28种，涵盖小麦、玉米和大豆等主粮作物，以及橄榄、葡萄和咖啡等。在支持的市场中，模型还可以区分生长季节。例如在美国，模型可以分别识别冬季作物和夏季作物。\n\n为了识别更多作物，OneSoil利用其多年与农民和农业企业合作建立的约200万田块自有数据集，训练了专有的机器学习模型。作物记录可追溯至2016年，因此用户可以研究作物随时间轮作的情况、核查农民报告的信息、追踪农业生产以及发现区域趋势。该公司表示，在已验证的市场中，作物识别准确率通常为90-95%，具体取决于作物、地区和季节。\n\n不同企业可以以不同方式利用这些信息。农业科技平台可以集成田块边界和作物信息，而无需开发自己的检测模型；食品和供应链企业可以更好地了解其采购区域的农业活动。农业投入品制造商和分销商可以分析作物分布和种植面积，以支持市场规划。银行和保险公司可以将田块级农业信息纳入核查和风险评估流程，研究和可持续发展平台可以将田块边界和作物数据作为进一步分析的输入。\n\nOneSoil首席执行官Stepan Zulynskyi表示：“我们非常自豪，因为该系统让企业能够更全面地了解作物分布和种植面积。这有助于他们在田块和区域层面分析农业活动，并就产量和盈利能力做出更好的决策。”",
+  "images": [
+    "https://d3hid44mqnfbhw.cloudfront.net/precisagms/wp-content/uploads/2025/12/5-Technologies-That-Are-Making-Farms-Smarter-%E2%80%93-Worldwide.jpg",
+    "https://d3hid44mqnfbhw.cloudfront.net/precisagms/wp-content/uploads/2026/10/ecorobotix-yellow-nutsedge-cabbage-field.jpg",
+    "https://www.globalagtechinitiative.com/wp-content/themes/PrecisionAgTheme/images/gatifeature.jpg",
+    "https://d3hid44mqnfbhw.cloudfront.net/precisagms/wp-content/uploads/2021/08/New_apple_pruning_system-for-field-Tests.jpg",
+    "https://d3hid44mqnfbhw.cloudfront.net/precisagms/wp-content/uploads/2026/10/AgTechTalk-FeatureImage-Ep39-1280x720.jpg",
+    "https://www.precisionag.com/wp-content/themes/PrecisionAgTheme/images/the-signal.png"
+  ],
+  "author": "Matt Hopkins",
+  "contentHtml": "The update brings sharper field boundaries and crop history back to 2016 across eight markets.\nThe post OneSoil Global Analytics Now Identifies Nearly 30 Crops from Satellite Imagery appeared first on Global Ag Tech Initiative.",
+  "scrapeMethod": "web_scrape"
+}
