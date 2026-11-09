@@ -1,5 +1,53 @@
 [
   {
+    "id": "cmw8v2tnt01i7jy1mmbitpdwp",
+    "titleEn": "Poultry WorldIn-ovo sexing advances across the USNov 3Article",
+    "titleZh": "美国蛋鸡行业加速应用蛋内性别鉴定技术",
+    "summaryZh": "文章系统梳理了蛋内性别鉴定技术在美国从试点走向商业化的进展，对比欧洲在法规驱动下的快速普及，介绍了AAT、Orbem、Seleggt等商业化系统及NestFresh、Kipster等早期采用者，并分析了该技术在动物福利、孵化场效率、成本与供应链方面的价值，以及孵化场落地所需的设施与人员条件。",
+    "featuredReason": "蛋内性别鉴定是蛋鸡行业动物福利与孵化场智能化的关键交汇点，文章提供了美国商业化落地的最新数据、技术供应商格局和孵化场实施要点，对关注禽业自动化与AI检测应用的从业者具有直接参考价值。",
+    "url": "https://www.foodagribusiness.world/poultry/in-ovo-sexing-advances-across-the-us",
+    "source": {
+      "name": "Poultry World",
+      "nameZh": "禽业世界",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "poultryworld",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 63,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-11-03T09:50:27.263Z"
+  },
+  {
+    "id": "cmw8v2to601ibjy1m0wxj81xs",
+    "titleEn": "Poultry WorldPoultry business update: What did you miss in October 2026?Nov 2News",
+    "titleZh": "2026年10月家禽业商业动态盘点",
+    "summaryZh": "本文汇总了2026年10月家禽行业的重要商业动态，涵盖Dr. Eckel的AntaSync获EuroTier创新奖、MS Schippers将HyCare数字平台拓展至越南、Chore-Time推出蛋鸡舍整体控制系统、Vostermans发布新型隧道通风风机、dsm-firmenich扩展Sustell平台、Phileo与PhageLab合作开发噬菌体方案等。内容涉及传感器、自动化控制、环境足迹核算和动物健康等智慧畜牧关键领域，为行业人士提供技术趋势与商业合作参考。",
+    "featuredReason": "本文集中呈现了家禽养殖数字化与自动化领域的最新商业动态，包括传感器环境监测、整舍控制系统、节能通风设备和噬菌体健康方案，对关注智慧畜牧技术落地与行业合作趋势的从业者具有较高参考价值。",
+    "url": "https://www.foodagribusiness.world/poultry/poultry-business-update-what-did-you-miss-in-october-2026",
+    "source": {
+      "name": "Poultry World",
+      "nameZh": "禽业世界",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "poultryworld",
+    "species": "poultry",
+    "category": "livestock",
+    "subcategory": "poultry",
+    "techTags": "",
+    "qualityScore": 53,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-11-02T09:09:33.693Z"
+  },
+  {
     "id": "cmvyug4ym01ihfwtrfru9ro1n",
     "titleEn": "Poultry WorldPartnerBreeding for the long runOct 27",
     "titleZh": "蛋鸡长效育种：平衡性能与持久力的遗传策略",

@@ -1,5 +1,29 @@
 [
   {
+    "id": "cmw8v2ot901gtjy1mem80y3k3",
+    "titleEn": "Nov 4NewsPig ProgressWrapping up October 2026: What’s new in the world of pigs?October brought a wide range of developments across the global pig industry. Here is an update of the latest news and updates.",
+    "titleZh": "2026年10月全球猪业动态汇总",
+    "summaryZh": "本文汇总2026年10月全球猪业重要动态，涵盖仔猪健康、育种遗传、饲料创新与可持续发展。重点包括Steri-Solfen在欧洲10国获批用于仔猪去势镇痛、Nucléus与乌克兰企业合作推广PN3终端公猪基因、Hendrix Genetics全资控股猪业务、DSM-Firmenich动物营养业务拆分及Sustell平台扩展、European Protein发酵菜籽粕蛋白获EuroTier创新认可，以及Betagro设定2035年范围三减排25%目标等。",
+    "featuredReason": "该文虽为行业综合新闻汇总，但涵盖仔猪健康、育种遗传、饲料创新、环境足迹平台及减排目标等多方面动态，其中Sustell平台扩展、HyCare数字化应用和通风设备创新对智慧畜牧从业者具有参考价值，有助于把握全球猪业技术与可持续发展趋势。",
+    "url": "https://www.foodagribusiness.world/pigs/wrapping-up-october-2026-what-s-new-in-the-world-of-pigs",
+    "source": {
+      "name": "Pig Progress",
+      "nameZh": "猪业进展",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "pigprogress",
+    "species": "pig",
+    "category": "livestock",
+    "subcategory": "pig",
+    "techTags": "",
+    "qualityScore": 52,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-11-04T07:53:34.761Z"
+  },
+  {
     "id": "cmvyuflbu0083fwtrd88mklja",
     "titleEn": "Global pork production braces for a slower 2027",
     "titleZh": "全球猪肉产量预计2027年放缓增长",
@@ -210,7 +234,7 @@
     "subcategory": "pig",
     "techTags": "",
     "qualityScore": 62,
-    "multiSourceCount": 11,
+    "multiSourceCount": 12,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-09-27T23:00:00.000Z"
@@ -400,7 +424,7 @@
     "species": "pig",
     "category": "aggtech",
     "subcategory": "pig",
-    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
+    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
     "qualityScore": 71,
     "multiSourceCount": 3,
     "isFeatured": true,

@@ -1,5 +1,53 @@
 [
   {
+    "id": "cmw8v22jb000hjy1mco84jtdp",
+    "titleEn": "Sabanto links autonomy to Precision Planting’s 20|20 for unmanned planting",
+    "titleZh": "Sabanto将自动驾驶与Precision Planting 20|20系统集成，实现无人播种",
+    "summaryZh": "美国公司Sabanto宣布其自动驾驶系统已支持搭载Precision Planting Gen 3 20|20系统的播种机，结合改装拖拉机可实现无人播种，农户通过远程界面监控作业。系统逐行读取播种数据并与设定容差比对，超差即暂停，旨在解决自主播种中“信任播种机”的核心难题。该集成计划于2027年种植季推出，对现有Sabanto用户免费。",
+    "featuredReason": "该报道展示了自动驾驶农机与主流播种监控系统集成的务实路径，其“超差即暂停”的容错逻辑和远程诊断思路对智慧畜牧中自动化设备的异常处理与远程监管具有直接借鉴意义。",
+    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/autonomous-vehicles/sabanto-links-autonomy-to-precision-planting-s-20-20-for-unmanned-planting/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 78,
+    "multiSourceCount": 1,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-11-06T07:00:00.000Z"
+  },
+  {
+    "id": "cmw8v22ji000njy1m7et86ti9",
+    "titleEn": "Field robot or autonomous tractor? Dutch grower puts both to the test",
+    "titleZh": "田间机器人还是自动驾驶拖拉机？荷兰种植者实测两者",
+    "summaryZh": "荷兰种植者Marijn Vermuë在2025年使用AgXeed AgBot 5.115T2一个季后，于2026年试用搭载iQuus系统的New Holland T6.180，从操作便捷性、设置时间、地理围栏策略、运输方式和成本等维度对比专用田间机器人与加装自动驾驶套件的传统拖拉机。结论是两者均已成熟到值得投资，但优势各异，选择取决于农场具体需求和操作偏好。",
+    "featuredReason": "本文以种植者真实跨季对比测试，提供了专用田间机器人与自动驾驶改装拖拉机在操作便捷性、设置时间、安全策略和成本上的第一手实践洞察，对智慧农业自动化方案选型具有直接参考价值。",
+    "url": "https://www.futurefarming.com/tech-in-focus/field-robots/26futweb-agbot-equus/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "field",
+    "category": "crop",
+    "subcategory": "field",
+    "techTags": "",
+    "qualityScore": 78,
+    "multiSourceCount": 1,
+    "isFeatured": true,
+    "isHot": true,
+    "publishedAt": "2026-11-02T08:00:00.000Z"
+  },
+  {
     "id": "cmvyufccj000jfwtrlw9y229r",
     "titleEn": "From stones to crop defects: Dutch growers embrace AI-powered sorting",
     "titleZh": "荷兰种植者采用AI光学分选技术：从石块到作物缺陷的智能剔除",
@@ -18,7 +66,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 80,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-10-28T13:00:00.000Z"
@@ -42,7 +90,7 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 79,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-10-27T14:30:00.000Z"
@@ -66,57 +114,9 @@
     "subcategory": "field",
     "techTags": "",
     "qualityScore": 78,
-    "multiSourceCount": 2,
+    "multiSourceCount": 3,
     "isFeatured": false,
     "isHot": true,
     "publishedAt": "2026-10-22T08:00:00.000Z"
-  },
-  {
-    "id": "cmv4tzbi90009uproh5kll9oz",
-    "titleEn": "Kubota and Kilter expand AX-1 robot distribution across Europe",
-    "titleZh": "久保田与Kilter在欧洲扩展AX-1机器人分销",
-    "summaryZh": "久保田与挪威机器人公司Kilter签署欧洲框架协议，扩大AX-1自主点喷除草机器人在欧洲的销售与支持。该机器人利用摄像头和AI识别单株杂草，通过Single Drop技术精准施药，可减少高达95%的除草剂用量。目前66台AX-1已在运行，累计避免超过100万升除草剂使用。继德国和荷兰商业化后，法国和英国成为下一批目标市场。",
-    "featuredReason": "该新闻展示了AI+机器人精准除草技术在欧洲市场的规模化落地路径，对智慧农业从业者理解自主机器人商业化模式、经销商网络协同及减药增效趋势具有重要参考价值。",
-    "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/autonomous-vehicles/kubota-and-kilter-expand-ax-1-robot-distribution-across-europe/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1",
-      "sourceType": "行业新闻站"
-    },
-    "sourceId": "futurefarming",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 82,
-    "multiSourceCount": 4,
-    "isFeatured": true,
-    "isHot": true,
-    "publishedAt": "2026-10-09T07:00:00.000Z"
-  },
-  {
-    "id": "cmv4tzbie000buprojftp9zwx",
-    "titleEn": "Croptimal launches mounted selection robot for seed potato production",
-    "titleZh": "Croptimal推出悬挂式种薯分选机器人",
-    "summaryZh": "荷兰农机厂商Croptimal推出Croptiscan 3000悬挂式分选机器人，作为自走式机型的低成本替代方案，用于种薯病害检测。该机工作幅宽3米，作业速度约5公里/小时，每小时可处理1.5公顷，售价9.5万欧元，另需每年4000欧元服务与算法更新许可费。机器采用模块化设计，可标记感染Y病毒、卷叶病等的病株，供后续清除。",
-    "featuredReason": "该新闻展示了AI视觉检测技术在种薯病害早期识别中的商业化落地，其模块化、低成本的产品策略对智慧农业机器人推广具有参考价值，尤其适合关注农业自动化与精准植保的行业人士。",
-    "url": "https://www.futurefarming.com/tech-in-focus/field-robots/croptimal-launches-mounted-selection-robot-for-seed-potato-production/",
-    "source": {
-      "name": "Future Farming",
-      "nameZh": "未来农业",
-      "tier": "T1",
-      "sourceType": "行业新闻站"
-    },
-    "sourceId": "futurefarming",
-    "species": "field",
-    "category": "crop",
-    "subcategory": "field",
-    "techTags": "",
-    "qualityScore": 78,
-    "multiSourceCount": 4,
-    "isFeatured": false,
-    "isHot": true,
-    "publishedAt": "2026-10-07T08:00:00.000Z"
   }
 ]

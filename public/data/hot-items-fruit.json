@@ -18,7 +18,7 @@
     "subcategory": "fruit",
     "techTags": "",
     "qualityScore": 82,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-10-28T07:00:00.000Z"
@@ -42,7 +42,7 @@
     "subcategory": "fruit",
     "techTags": "",
     "qualityScore": 78,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": true,
     "isHot": true,
     "publishedAt": "2026-10-26T09:00:00.000Z"
@@ -66,7 +66,7 @@
     "subcategory": "fruit",
     "techTags": "",
     "qualityScore": 78,
-    "multiSourceCount": 2,
+    "multiSourceCount": 3,
     "isFeatured": false,
     "isHot": true,
     "publishedAt": "2026-10-19T19:34:43.000Z"

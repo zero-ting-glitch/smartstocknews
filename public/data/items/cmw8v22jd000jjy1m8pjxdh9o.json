@@ -1,0 +1,34 @@
+{
+  "id": "cmw8v22jd000jjy1m8pjxdh9o",
+  "titleEn": "AI in greenhouse horticulture: making smart use of data",
+  "titleZh": "温室园艺中的人工智能：巧妙利用数据",
+  "summaryZh": "本文介绍人工智能在温室园艺中的应用进展，涵盖数据驱动种植管理、AI分析与预测、以及自主信息采集与处理的AI代理等方向。Argos项目展示了仅依靠数据和模型计算即可管理作物的可行性，对智慧畜牧从业者理解AI落地路径具有跨领域参考价值。",
+  "featuredReason": "虽然聚焦温室园艺，但文中关于数据驱动管理、AI预测与自主代理的思路可直接迁移至畜禽养殖场景，有助于智慧畜牧从业者把握AI落地的共性路径与跨行业借鉴价值。",
+  "url": "https://www.futurefarming.com/uncategorized/ai-in-greenhouse-horticulture-making-smart-use-of-data/",
+  "source": {
+    "name": "Future Farming",
+    "nameZh": "未来农业",
+    "tier": "T1",
+    "sourceType": "行业新闻站"
+  },
+  "sourceId": "futurefarming",
+  "species": "horticulture",
+  "category": "crop",
+  "subcategory": "horticulture",
+  "techTags": "",
+  "qualityScore": 67,
+  "multiSourceCount": 1,
+  "isFeatured": false,
+  "isHot": false,
+  "publishedAt": "2026-11-04T15:02:43.000Z",
+  "contentFull": "AI in greenhouse horticulture: making smart use of data\n\n 04-11 | Uncategorized\n\nLinkedInFacebookXWhatsAppPrint\n\nThe Argos programme shows that crops can be managed using data and model-based calculations alone. Photo: Peter Visser\n\n Smart digital applications are increasingly taking shape in greenhouse horticulture. AI applications can help growers analyse business data, predict developments and improve crop production processes. The next step is to use AI agents that collect and process information independently. The possibilities offered by data and artificial intelligence (AI) are constantly expanding. For growers, the challenge is to integrate them effectively into their operations. Asking ChatGPT a standalone quest\n\nLinkedInFacebookXWhatsAppPrint\n\n \n\n Peter Visser\n\nad\n\nLEARN MORE\n\n \n\n Buyers guides & Catalogues\n\n \n\n Subscribe to our YouTube channel",
+  "translationZh": "智能数字应用在温室园艺中正日益成形。人工智能应用可以帮助种植者分析经营数据、预测发展趋势并改进作物生产流程。下一步是使用能够独立收集和处理信息的AI代理。数据和人工智能（AI）所提供的可能性在不断扩展。对种植者而言，挑战在于如何将它们有效地整合到日常运营中。向ChatGPT提出一个独立的问题\n\n04-11 | 未分类\n\nLinkedInFacebookXWhatsAppPrint\n\nArgos项目表明，仅依靠数据和基于模型的计算就可以管理作物。图片来源：Peter Visser\n\n智能数字应用在温室园艺中正日益成形。人工智能应用可以帮助种植者分析业务数据、预测发展趋势并改进作物生产流程。下一步是使用能够独立收集和处理信息的人工智能代理。数据和人工智能（AI）所提供的可能性在不断扩展。对种植者而言，挑战在于如何将其有效整合到自身运营中。向ChatGPT提出一个独立的问题\n\nLinkedInFacebookXWhatsAppPrint\n\n买家指南与产品目录\n\n订阅我们的YouTube频道",
+  "images": [
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_848,h_565/https://www.futurefarming.com/app/uploads/2026/11/01DigiEventDSC_0436b-resize-2000-848x565.jpg",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.futurefarming.com/app/themes/wp-lite-child/images/no-profile-image.png",
+    "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_818,h_619/https://www.futurefarming.com/app/uploads/2025/02/DG-Do-you-want-to-know-whats-happening-2.png"
+  ],
+  "author": "Peter Visser",
+  "contentHtml": "Smart digital applications are increasingly taking shape in greenhouse horticulture. AI applications can help growers analyse business data, predict developments and improve crop production processes. The next step is to use AI agents that collect and process information independently.",
+  "scrapeMethod": "web_scrape"
+}

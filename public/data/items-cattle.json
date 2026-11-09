@@ -1,5 +1,53 @@
 [
   {
+    "id": "cmw8v37v601kdjy1mtwnd5paz",
+    "titleEn": "SenseHub Lifetime: Every animal, every stage, every minute",
+    "titleZh": "SenseHub Lifetime：覆盖每头牛、每个阶段、每一分钟",
+    "summaryZh": "MSD Animal Health推出全球唯一覆盖奶牛全生命周期的监测系统SenseHub Lifetime，从新生犊牛到泌乳牛全程追踪活动、采食和反刍数据，提前预警疾病和发情异常。系统新增热应激报告、群体管理和定制报告功能，并计划于2027年推出青年牛管理和季节性运营模块，帮助牧场提升繁殖效率、降低发病率、优化淘汰决策。",
+    "featuredReason": "该报道详细介绍了全球首个覆盖奶牛全生命周期的智能监测系统，展示了传感器和数据分析如何从犊牛期到泌乳期全程赋能牧场管理，对智慧畜牧从业者了解前沿产品功能和行业趋势具有重要参考价值。",
+    "url": "https://www.agriland.ie/farming-news/sensehub-lifetime-every-animal-every-stage-every-minute/",
+    "source": {
+      "name": "Agriland",
+      "nameZh": "爱尔兰农业新闻",
+      "tier": "T1.5",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "agriland",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 66,
+    "multiSourceCount": 1,
+    "isFeatured": true,
+    "isHot": false,
+    "publishedAt": "2026-11-09T06:00:00.000Z"
+  },
+  {
+    "id": "cmw8v38mb01nljy1mmtdrtgzs",
+    "titleEn": "AI cameras catch cow lameness early, cut antibiotic use 41%",
+    "titleZh": "AI摄像头早期检测奶牛跛行，抗生素使用减少41%",
+    "summaryZh": "新西兰公司Herd-i利用安装在挤奶厅出口的AI摄像头，在每次挤奶时自动评估奶牛的步态和体况评分，帮助牧场主早期发现跛行等健康问题。独立分析显示，该系统使需要跛行治疗的奶牛减少38%，跛行相关抗生素治疗减少41%。该技术已进入美国市场，并推出“创始农场”计划招募25个农场免费安装试用。文章介绍了技术原理、数据基础、农场效益及未来拓展方向，对智慧畜牧从业者具有重要参考价值。",
+    "featuredReason": "该报道详细介绍了AI摄像头在奶牛跛行和体况评分中的实际应用及显著经济效益（抗生素减少41%），并提供了美国市场准入和试用计划的具体信息，对智慧畜牧从业者了解前沿技术落地和商业机会具有直接参考价值。",
+    "url": "https://www.farmprogress.com/dairy-cattle/ai-cameras-catch-cow-lameness-early-cut-antibiotic-use-41-",
+    "source": {
+      "name": "Farm Progress",
+      "nameZh": "农业进展",
+      "tier": "T2",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "farmprogress",
+    "species": "cattle",
+    "category": "livestock",
+    "subcategory": "cattle",
+    "techTags": "",
+    "qualityScore": 40,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-11-05T08:00:00.000Z"
+  },
+  {
     "id": "cmvyugeuy01jlfwtrq6jeunuq",
     "titleEn": "International Webinar Series: Global Innovation in Pasture and Rangeland Systems",
     "titleZh": "国际网络研讨会系列：牧场与草原系统的全球创新",
@@ -18,7 +66,7 @@
     "subcategory": "cattle",
     "techTags": "",
     "qualityScore": 57,
-    "multiSourceCount": 1,
+    "multiSourceCount": 2,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-10-28T00:56:26.000Z"

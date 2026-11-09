@@ -1,5 +1,29 @@
 [
   {
+    "id": "cmw8v22jd000jjy1m8pjxdh9o",
+    "titleEn": "AI in greenhouse horticulture: making smart use of data",
+    "titleZh": "温室园艺中的人工智能：巧妙利用数据",
+    "summaryZh": "本文介绍人工智能在温室园艺中的应用进展，涵盖数据驱动种植管理、AI分析与预测、以及自主信息采集与处理的AI代理等方向。Argos项目展示了仅依靠数据和模型计算即可管理作物的可行性，对智慧畜牧从业者理解AI落地路径具有跨领域参考价值。",
+    "featuredReason": "虽然聚焦温室园艺，但文中关于数据驱动管理、AI预测与自主代理的思路可直接迁移至畜禽养殖场景，有助于智慧畜牧从业者把握AI落地的共性路径与跨行业借鉴价值。",
+    "url": "https://www.futurefarming.com/uncategorized/ai-in-greenhouse-horticulture-making-smart-use-of-data/",
+    "source": {
+      "name": "Future Farming",
+      "nameZh": "未来农业",
+      "tier": "T1",
+      "sourceType": "行业新闻站"
+    },
+    "sourceId": "futurefarming",
+    "species": "horticulture",
+    "category": "crop",
+    "subcategory": "horticulture",
+    "techTags": "",
+    "qualityScore": 67,
+    "multiSourceCount": 1,
+    "isFeatured": false,
+    "isHot": false,
+    "publishedAt": "2026-11-04T15:02:43.000Z"
+  },
+  {
     "id": "cmvorl2ej000x6bpnkz8b32tc",
     "titleEn": "Technology Moves Fast, Adoption Takes Time",
     "titleZh": "技术发展快，落地 adoption 慢：温室园艺的启示",
@@ -42,7 +66,7 @@
     "subcategory": "horticulture",
     "techTags": "",
     "qualityScore": 64,
-    "multiSourceCount": 3,
+    "multiSourceCount": 4,
     "isFeatured": false,
     "isHot": false,
     "publishedAt": "2026-10-12T14:00:00.000Z"
@@ -376,7 +400,7 @@
     "species": "horticulture",
     "category": "aggtech",
     "subcategory": "horticulture",
-    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
+    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
     "qualityScore": 66,
     "multiSourceCount": 1,
     "isFeatured": false,
@@ -400,7 +424,7 @@
     "species": "horticulture",
     "category": "aggtech",
     "subcategory": "horticulture",
-    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
+    "techTags": "needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape,needs_full_scrape",
     "qualityScore": 66,
     "multiSourceCount": 1,
     "isFeatured": false,
